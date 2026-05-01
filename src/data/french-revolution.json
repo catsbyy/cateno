@@ -1,0 +1,600 @@
+[
+  {
+    "id": "french-revolution",
+    "title": "French Revolution Begins",
+    "year": 1789,
+    "keyword": "collapse",
+    "summary": "In 1789, France entered a period of radical political and social upheaval. Long-term financial crisis, inequality, and new political ideas pushed the monarchy toward collapse.",
+    "causeIds": [
+      "storming-of-bastille",
+      "national-assembly-formation",
+      "bread-crisis"
+    ],
+    "effectIds": [
+      "monarchy-abolished",
+      "reign-of-terror",
+      "declaration-rights-man",
+      "abolition-feudalism"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "ancien-regime-structure",
+    "title": "Ancien Régime Structure",
+    "year": 1700,
+    "keyword": "pressure",
+    "summary": "French society was divided into three estates with unequal rights. This system concentrated privilege among the clergy and nobility.",
+    "causeIds": [],
+    "effectIds": [
+      "estate-inequality",
+      "tax-burden-commoners"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "estate-inequality",
+    "title": "Estates System Inequality",
+    "year": 1700,
+    "keyword": "pressure",
+    "summary": "The First and Second Estates enjoyed privileges while the Third Estate carried most obligations. This imbalance fueled resentment among common people.",
+    "causeIds": [
+      "ancien-regime-structure"
+    ],
+    "effectIds": [
+      "public-resentment",
+      "third-estate-assertion"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "tax-burden-commoners",
+    "title": "Tax Burden on Commoners",
+    "year": 1700,
+    "keyword": "pressure",
+    "summary": "Common people paid most of the taxes while nobles were largely exempt. This deepened frustration with the monarchy and elite privilege.",
+    "causeIds": [
+      "ancien-regime-structure"
+    ],
+    "effectIds": [
+      "financial-strain-population",
+      "public-resentment"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "public-resentment",
+    "title": "Growing Public Resentment",
+    "year": 1780,
+    "keyword": "pressure",
+    "summary": "Years of inequality and economic hardship created widespread dissatisfaction. The population became increasingly open to radical change.",
+    "causeIds": [
+      "estate-inequality",
+      "tax-burden-commoners"
+    ],
+    "effectIds": [
+      "urban-unrest",
+      "political-radicalization"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "enlightenment-ideas",
+    "title": "Enlightenment Ideas Spread",
+    "year": 1750,
+    "keyword": "shift",
+    "summary": "Thinkers promoted ideas of liberty, equality, and popular sovereignty. These ideas challenged the legitimacy of absolute monarchy.",
+    "causeIds": [],
+    "effectIds": [
+      "questioning-monarchy",
+      "political-radicalization"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "questioning-monarchy",
+    "title": "Questioning Royal Authority",
+    "year": 1780,
+    "keyword": "shift",
+    "summary": "People increasingly doubted the divine right of kings. Political authority began to shift from monarchy toward the people.",
+    "causeIds": [
+      "enlightenment-ideas"
+    ],
+    "effectIds": [
+      "third-estate-assertion",
+      "national-assembly-formation"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "financial-crisis-monarchy",
+    "title": "Monarchy Financial Crisis",
+    "year": 1788,
+    "keyword": "pressure",
+    "summary": "France faced massive debt after wars and poor fiscal management. The state struggled to fund itself and maintain stability.",
+    "causeIds": [
+      "war-debt",
+      "inefficient-tax-system"
+    ],
+    "effectIds": [
+      "estates-general-called",
+      "tax-reform-failure"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "war-debt",
+    "title": "War Debt Accumulation",
+    "year": 1783,
+    "keyword": "pressure",
+    "summary": "Participation in expensive wars, including the American Revolution, increased France's debt. This weakened the monarchy's financial position.",
+    "causeIds": [
+      "american-revolution-support",
+      "seven-years-war"
+    ],
+    "effectIds": [
+      "financial-crisis-monarchy"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "inefficient-tax-system",
+    "title": "Inefficient Tax System",
+    "year": 1780,
+    "keyword": "pressure",
+    "summary": "The tax system failed to collect enough revenue from privileged classes. This made financial reform difficult.",
+    "causeIds": [
+      "ancien-regime-structure"
+    ],
+    "effectIds": [
+      "financial-crisis-monarchy"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "tax-reform-failure",
+    "title": "Failed Tax Reforms",
+    "year": 1788,
+    "keyword": "catalyst",
+    "summary": "Attempts to reform taxation met resistance from nobles. This left the monarchy with few options to solve the crisis.",
+    "causeIds": [
+      "financial-crisis-monarchy"
+    ],
+    "effectIds": [
+      "estates-general-called"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "estates-general-called",
+    "title": "Estates-General Convened",
+    "year": 1789,
+    "keyword": "turning-point",
+    "summary": "The king called the Estates-General to address the financial crisis. This opened the door for political conflict between estates.",
+    "causeIds": [
+      "financial-crisis-monarchy",
+      "tax-reform-failure"
+    ],
+    "effectIds": [
+      "third-estate-assertion"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "third-estate-assertion",
+    "title": "Third Estate Asserts Power",
+    "year": 1789,
+    "keyword": "turning-point",
+    "summary": "Representatives of the Third Estate demanded greater political influence. They refused to accept the traditional voting system.",
+    "causeIds": [
+      "estate-inequality",
+      "questioning-monarchy",
+      "estates-general-called"
+    ],
+    "effectIds": [
+      "tennis-court-oath"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "tennis-court-oath",
+    "title": "Tennis Court Oath",
+    "year": 1789,
+    "keyword": "turning-point",
+    "summary": "Members of the Third Estate vowed to create a constitution. This marked a direct challenge to royal authority.",
+    "causeIds": [
+      "third-estate-assertion"
+    ],
+    "effectIds": [
+      "national-assembly-formation"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "national-assembly-formation",
+    "title": "National Assembly Formed",
+    "year": 1789,
+    "keyword": "turning-point",
+    "summary": "The Third Estate declared itself the National Assembly. It claimed to represent the French people.",
+    "causeIds": [
+      "tennis-court-oath",
+      "questioning-monarchy"
+    ],
+    "effectIds": [
+      "storming-of-bastille"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "bread-crisis",
+    "title": "Bread Shortages Crisis",
+    "year": 1789,
+    "keyword": "pressure",
+    "summary": "Poor harvests caused food shortages and rising bread prices. This triggered unrest among urban populations.",
+    "causeIds": [
+      "financial-strain-population",
+      "harvest-failure-1788"
+    ],
+    "effectIds": [
+      "urban-unrest",
+      "storming-of-bastille"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "financial-strain-population",
+    "title": "Financial Strain on People",
+    "year": 1788,
+    "keyword": "pressure",
+    "summary": "Economic hardship reduced living standards for common people. Many struggled to afford basic necessities.",
+    "causeIds": [
+      "tax-burden-commoners"
+    ],
+    "effectIds": [
+      "bread-crisis"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "urban-unrest",
+    "title": "Urban Unrest",
+    "year": 1789,
+    "keyword": "catalyst",
+    "summary": "Protests and riots spread in cities due to economic hardship and political tension. Paris became a center of revolutionary activity.",
+    "causeIds": [
+      "public-resentment",
+      "bread-crisis"
+    ],
+    "effectIds": [
+      "storming-of-bastille"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "storming-of-bastille",
+    "title": "Storming of Bastille",
+    "year": 1789,
+    "keyword": "spark",
+    "summary": "Parisian crowds seized the Bastille prison, symbolizing resistance to royal authority. This became a defining moment of the revolution.",
+    "causeIds": [
+      "urban-unrest",
+      "national-assembly-formation",
+      "bread-crisis",
+      "necker-dismissed",
+      "womens-march-versailles"
+    ],
+    "effectIds": [
+      "french-revolution"
+    ],
+    "isAnchor": true,
+    "isSeed": true
+  },
+  {
+    "id": "monarchy-abolished",
+    "title": "Monarchy Abolished",
+    "year": 1792,
+    "keyword": "collapse",
+    "summary": "The monarchy was officially abolished after growing radicalization. France became a republic.",
+    "causeIds": [
+      "french-revolution",
+      "political-radicalization",
+      "flight-to-varennes"
+    ],
+    "effectIds": [
+      "execution-of-king"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "execution-of-king",
+    "title": "Execution of Louis XVI",
+    "year": 1793,
+    "keyword": "turning-point",
+    "summary": "King Louis XVI was executed for treason. This marked a decisive break from monarchy.",
+    "causeIds": [
+      "monarchy-abolished"
+    ],
+    "effectIds": [
+      "reign-of-terror"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "reign-of-terror",
+    "title": "Reign of Terror",
+    "year": 1793,
+    "keyword": "collapse",
+    "summary": "A period of mass executions and political repression followed. Revolutionary leaders sought to eliminate threats to the republic.",
+    "causeIds": [
+      "execution-of-king",
+      "political-radicalization"
+    ],
+    "effectIds": [
+      "end-of-terror",
+      "european-coalitions"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "political-radicalization",
+    "title": "Political Radicalization",
+    "year": 1792,
+    "keyword": "shift",
+    "summary": "Revolutionary ideas intensified and factions became more extreme. Moderation gave way to more radical demands.",
+    "causeIds": [
+      "public-resentment",
+      "enlightenment-ideas"
+    ],
+    "effectIds": [
+      "monarchy-abolished",
+      "reign-of-terror"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "seven-years-war",
+    "title": "Seven Years' War",
+    "year": 1756,
+    "keyword": "pressure",
+    "summary": "France's costly participation in the Seven Years' War left the treasury severely depleted. The humiliating defeat also damaged royal prestige and exposed the monarchy's weakness.",
+    "causeIds": [],
+    "effectIds": [
+      "war-debt"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "american-revolution-support",
+    "title": "France Backs American Revolution",
+    "year": 1778,
+    "keyword": "catalyst",
+    "summary": "France funded and fought alongside American colonists against Britain, driven by rivalry and revenge. The cost added enormously to France's debt while the revolutionary ideals it helped spread soon returned home.",
+    "causeIds": [],
+    "effectIds": [
+      "war-debt",
+      "enlightenment-ideas"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "louis-xvi-weakness",
+    "title": "Louis XVI's Weak Leadership",
+    "year": 1774,
+    "keyword": "pressure",
+    "summary": "Louis XVI was indecisive and poorly suited to manage the overlapping crises facing France. His inability to push through reforms or project authority accelerated the collapse of royal credibility.",
+    "causeIds": [],
+    "effectIds": [
+      "tax-reform-failure",
+      "financial-crisis-monarchy"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "necker-dismissed",
+    "title": "Necker Dismissed",
+    "year": 1789,
+    "keyword": "spark",
+    "summary": "Louis XVI dismissed the popular finance minister Jacques Necker just days before the Bastille fell. Parisians saw it as a sign the king would use force against reformers, triggering immediate street mobilization.",
+    "causeIds": [
+      "louis-xvi-weakness",
+      "financial-crisis-monarchy"
+    ],
+    "effectIds": [
+      "urban-unrest"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "harvest-failure-1788",
+    "title": "Harvest Failure of 1788",
+    "year": 1788,
+    "keyword": "catalyst",
+    "summary": "A severe drought followed by a brutal winter destroyed harvests across France. Bread prices soared to unaffordable levels just as the political crisis peaked — hunger became a revolutionary force.",
+    "causeIds": [],
+    "effectIds": [
+      "bread-crisis"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "womens-march-versailles",
+    "title": "Women's March on Versailles",
+    "year": 1789,
+    "keyword": "turning-point",
+    "summary": "Thousands of Parisian women marched to Versailles demanding bread and forcing the royal family back to Paris. The king was now physically in the hands of the revolution.",
+    "causeIds": [
+      "bread-crisis",
+      "urban-unrest"
+    ],
+    "effectIds": [
+      "french-revolution"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "declaration-rights-man",
+    "title": "Declaration of Rights of Man",
+    "year": 1789,
+    "keyword": "consequence",
+    "summary": "The National Assembly proclaimed that liberty, equality, and popular sovereignty were universal rights. This document became a foundational text of modern liberal democracy.",
+    "causeIds": [
+      "french-revolution",
+      "enlightenment-ideas"
+    ],
+    "effectIds": [
+      "european-revolutionary-spread"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "flight-to-varennes",
+    "title": "Flight to Varennes",
+    "year": 1791,
+    "keyword": "turning-point",
+    "summary": "Louis XVI's failed attempt to flee France with his family was caught at Varennes. It destroyed what remained of royal credibility and made reconciliation between king and revolution impossible.",
+    "causeIds": [
+      "french-revolution"
+    ],
+    "effectIds": [
+      "monarchy-abolished",
+      "political-radicalization"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "european-coalitions",
+    "title": "European Coalitions Against France",
+    "year": 1792,
+    "keyword": "catalyst",
+    "summary": "Austria, Prussia, and later Britain formed coalitions to crush the revolution before it spread. The threat of foreign invasion radicalized French politics and fueled the Terror.",
+    "causeIds": [
+      "french-revolution"
+    ],
+    "effectIds": [
+      "political-radicalization",
+      "reign-of-terror"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "end-of-terror",
+    "title": "Thermidorian Reaction",
+    "year": 1794,
+    "keyword": "turning-point",
+    "summary": "Robespierre was arrested and executed, ending the Reign of Terror. The revolution pulled back from its most extreme phase as exhausted moderates reasserted control.",
+    "causeIds": [
+      "reign-of-terror"
+    ],
+    "effectIds": [
+      "directory-government"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "directory-government",
+    "title": "The Directory",
+    "year": 1795,
+    "keyword": "consequence",
+    "summary": "A five-man executive called the Directory governed France from 1795 to 1799. It was corrupt and unstable but kept the republic alive until Napoleon's coup ended it.",
+    "causeIds": [
+      "end-of-terror"
+    ],
+    "effectIds": [
+      "napoleon-rises"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "napoleon-rises",
+    "title": "Napoleon Seizes Power",
+    "year": 1799,
+    "keyword": "consequence",
+    "summary": "Napoleon Bonaparte staged the 18 Brumaire coup and became First Consul, ending the revolutionary period. He preserved some revolutionary gains — legal equality, meritocracy — while restoring authoritarian rule.",
+    "causeIds": [
+      "directory-government",
+      "european-coalitions"
+    ],
+    "effectIds": [
+      "napoleonic-wars"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "napoleonic-wars",
+    "title": "Napoleonic Wars",
+    "year": 1803,
+    "keyword": "consequence",
+    "summary": "Napoleon's campaigns spread revolutionary legal codes across Europe while reshaping the continent's borders. The wars also exhausted France and eventually produced the Concert of Europe that would dominate the 19th century.",
+    "causeIds": [
+      "napoleon-rises"
+    ],
+    "effectIds": [
+      "european-revolutionary-spread"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "european-revolutionary-spread",
+    "title": "Revolutionary Ideas Spread",
+    "year": 1800,
+    "keyword": "consequence",
+    "summary": "The ideals of liberty, equality, and national self-determination spread across Europe and the Americas. The French Revolution inspired independence movements and liberal revolutions throughout the 19th century.",
+    "causeIds": [
+      "declaration-rights-man",
+      "napoleonic-wars"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "abolition-feudalism",
+    "title": "Feudalism Abolished in France",
+    "year": 1789,
+    "keyword": "consequence",
+    "summary": "The National Assembly abolished feudal privileges on the August 4th night in a wave of noble renunciations. Centuries of serfdom, tithes, and noble monopolies were swept away in hours.",
+    "causeIds": [
+      "french-revolution",
+      "estate-inequality"
+    ],
+    "effectIds": [
+      "european-revolutionary-spread"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]

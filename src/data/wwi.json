@@ -1,0 +1,749 @@
+[
+  {
+    "id": "european-power-rivalry",
+    "title": "European Power Rivalry",
+    "year": 1871,
+    "keyword": "pressure",
+    "summary": "After German unification, Europe’s balance of power became more tense. Rival empires watched each other closely, making later crises harder to contain.",
+    "causeIds": [],
+    "effectIds": [
+      "franco-german-hostility",
+      "arms-race",
+      "alliance-system"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "franco-german-hostility",
+    "title": "Franco-German Hostility",
+    "year": 1871,
+    "keyword": "pressure",
+    "summary": "France’s defeat in the Franco-Prussian War left a lasting rivalry with Germany. This hostility helped push France toward alliances that could balance German power.",
+    "causeIds": [
+      "european-power-rivalry"
+    ],
+    "effectIds": [
+      "franco-russian-alliance",
+      "entente-cordiale"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "pan-slavism",
+    "title": "Pan-Slavic Solidarity",
+    "year": 1878,
+    "keyword": "pressure",
+    "summary": "Pan-Slavism encouraged the idea that Slavic peoples shared cultural and political interests. It made Russia more likely to see Serbia as a cause worth defending.",
+    "causeIds": [],
+    "effectIds": [
+      "serbian-nationalism",
+      "russia-supports-serbia"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "austro-russian-balkan-rivalry",
+    "title": "Balkan Rivalry",
+    "year": 1878,
+    "keyword": "pressure",
+    "summary": "Austria-Hungary and Russia both wanted influence in the Balkans. Their rivalry meant that a local Balkan dispute could quickly become a great-power crisis.",
+    "causeIds": [
+      "pan-slavism",
+      "european-power-rivalry"
+    ],
+    "effectIds": [
+      "bosnian-annexation-crisis",
+      "russia-supports-serbia"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "alliance-system",
+    "title": "Alliance System",
+    "year": 1882,
+    "keyword": "pressure",
+    "summary": "European powers formed alliances to protect themselves and deter rivals. These alliances made diplomacy more rigid when the July Crisis began.",
+    "causeIds": [
+      "european-power-rivalry"
+    ],
+    "effectIds": [
+      "triple-alliance",
+      "franco-russian-alliance",
+      "entente-cordiale",
+      "anglo-russian-entente"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "triple-alliance",
+    "title": "Triple Alliance",
+    "year": 1882,
+    "keyword": "shift",
+    "summary": "Germany, Austria-Hungary, and Italy formed the Triple Alliance. In 1914, Germany’s support for Austria-Hungary became the crucial part of this alignment.",
+    "causeIds": [
+      "alliance-system"
+    ],
+    "effectIds": [
+      "german-blank-cheque"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "franco-russian-alliance",
+    "title": "Franco-Russian Alliance",
+    "year": 1894,
+    "keyword": "shift",
+    "summary": "France and Russia formed an alliance partly to balance Germany. This meant that pressure on Russia could also draw France into a wider conflict.",
+    "causeIds": [
+      "franco-german-hostility",
+      "alliance-system"
+    ],
+    "effectIds": [
+      "france-supports-russia",
+      "germany-declares-war-france"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "entente-cordiale",
+    "title": "Entente Cordiale",
+    "year": 1904,
+    "keyword": "shift",
+    "summary": "Britain and France improved relations through the Entente Cordiale. It did not automatically force Britain into war, but it made British neutrality less certain.",
+    "causeIds": [
+      "franco-german-hostility",
+      "alliance-system"
+    ],
+    "effectIds": [
+      "british-concern-over-balance"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "anglo-russian-entente",
+    "title": "Anglo-Russian Entente",
+    "year": 1907,
+    "keyword": "shift",
+    "summary": "Britain and Russia settled several imperial disputes in 1907. Together with the Entente Cordiale, this helped create the Triple Entente against the Central Powers.",
+    "causeIds": [
+      "alliance-system"
+    ],
+    "effectIds": [
+      "british-concern-over-balance"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "arms-race",
+    "title": "European Arms Race",
+    "year": 1906,
+    "keyword": "pressure",
+    "summary": "European states expanded armies, fleets, and military planning before 1914. This made leaders more willing to think in terms of mobilization schedules and military advantage.",
+    "causeIds": [
+      "european-power-rivalry"
+    ],
+    "effectIds": [
+      "mobilization-timetables",
+      "german-war-planning"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "german-war-planning",
+    "title": "German War Planning",
+    "year": 1905,
+    "keyword": "pressure",
+    "summary": "German strategy assumed that a war with Russia could also require rapid action against France. This planning made a localized eastern crisis harder to keep local.",
+    "causeIds": [
+      "arms-race",
+      "franco-russian-alliance"
+    ],
+    "effectIds": [
+      "germany-declares-war-france",
+      "invasion-of-belgium"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "mobilization-timetables",
+    "title": "Mobilization Timetables",
+    "year": 1910,
+    "keyword": "pressure",
+    "summary": "Military plans depended on fast mobilization once a crisis began. This compressed diplomacy and made delay feel dangerous to governments and generals.",
+    "causeIds": [
+      "arms-race"
+    ],
+    "effectIds": [
+      "russian-general-mobilization",
+      "germany-declares-war-russia"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "bosnian-annexation-crisis",
+    "title": "Bosnian Annexation Crisis",
+    "year": 1908,
+    "keyword": "pressure",
+    "summary": "Austria-Hungary annexed Bosnia-Herzegovina, angering Serbia and Russia. The crisis deepened Balkan resentment and made Serbia appear more threatening to Vienna.",
+    "causeIds": [
+      "austro-russian-balkan-rivalry"
+    ],
+    "effectIds": [
+      "serbian-nationalism",
+      "austro-hungarian-fear-of-serbia"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "serbian-nationalism",
+    "title": "Serbian Nationalism",
+    "year": 1908,
+    "keyword": "pressure",
+    "summary": "Serbian nationalism promoted the idea of uniting South Slavs, including those living under Austro-Hungarian rule. This directly threatened Austria-Hungary’s multi-ethnic empire.",
+    "causeIds": [
+      "pan-slavism",
+      "bosnian-annexation-crisis"
+    ],
+    "effectIds": [
+      "black-hand",
+      "austro-hungarian-fear-of-serbia"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "black-hand",
+    "title": "Black Hand",
+    "year": 1911,
+    "keyword": "catalyst",
+    "summary": "The Black Hand was a secret Serbian nationalist society connected to radical anti-Habsburg activity. Its members helped support the plot that led to Franz Ferdinand’s assassination.",
+    "causeIds": [
+      "serbian-nationalism"
+    ],
+    "effectIds": [
+      "assassination-franz-ferdinand"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "balkan-wars",
+    "title": "Balkan Wars",
+    "year": 1912,
+    "keyword": "pressure",
+    "summary": "The Balkan Wars weakened Ottoman influence and changed the regional balance. Serbia emerged stronger, which alarmed Austria-Hungary.",
+    "causeIds": [
+      "austro-russian-balkan-rivalry",
+      "serbian-nationalism"
+    ],
+    "effectIds": [
+      "austro-hungarian-fear-of-serbia"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "austro-hungarian-fear-of-serbia",
+    "title": "Fear of Serbia",
+    "year": 1913,
+    "keyword": "pressure",
+    "summary": "Austria-Hungary increasingly saw Serbia as a threat to imperial stability. Serbian nationalism could inspire Slavs inside the empire, making Vienna more willing to confront Serbia.",
+    "causeIds": [
+      "serbian-nationalism",
+      "bosnian-annexation-crisis",
+      "balkan-wars"
+    ],
+    "effectIds": [
+      "austria-seeks-punishment"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "assassination-franz-ferdinand",
+    "title": "Assassination of Franz Ferdinand",
+    "year": 1914,
+    "keyword": "spark",
+    "summary": "Archduke Franz Ferdinand and his wife Sophie were assassinated in Sarajevo by Gavrilo Princip. The killing gave Austria-Hungary the immediate pretext to move against Serbia.",
+    "causeIds": [
+      "black-hand",
+      "serbian-nationalism"
+    ],
+    "effectIds": [
+      "austria-seeks-punishment"
+    ],
+    "isAnchor": true,
+    "isSeed": true
+  },
+  {
+    "id": "austria-seeks-punishment",
+    "title": "Austria Seeks Punishment",
+    "year": 1914,
+    "keyword": "catalyst",
+    "summary": "After the assassination, Austria-Hungary wanted to punish Serbia and reduce its threat. Vienna knew this could provoke Russia, so German support became crucial.",
+    "causeIds": [
+      "assassination-franz-ferdinand",
+      "austro-hungarian-fear-of-serbia"
+    ],
+    "effectIds": [
+      "german-blank-cheque",
+      "austrian-ultimatum"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "german-blank-cheque",
+    "title": "German Blank Cheque",
+    "year": 1914,
+    "keyword": "turning-point",
+    "summary": "Germany promised strong support for Austria-Hungary, even if the crisis widened. This encouraged Vienna to take a harder line against Serbia.",
+    "causeIds": [
+      "triple-alliance",
+      "austria-seeks-punishment"
+    ],
+    "effectIds": [
+      "austrian-ultimatum"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "austrian-ultimatum",
+    "title": "Austrian Ultimatum",
+    "year": 1914,
+    "keyword": "catalyst",
+    "summary": "Austria-Hungary sent Serbia a harsh ultimatum after the assassination. The demands were designed to assert control and made peaceful compromise extremely difficult.",
+    "causeIds": [
+      "austria-seeks-punishment",
+      "german-blank-cheque"
+    ],
+    "effectIds": [
+      "serbian-partial-rejection"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "serbian-partial-rejection",
+    "title": "Serbia Partially Rejects",
+    "year": 1914,
+    "keyword": "catalyst",
+    "summary": "Serbia accepted many demands but resisted points that threatened its sovereignty. Austria-Hungary treated the response as insufficient.",
+    "causeIds": [
+      "austrian-ultimatum"
+    ],
+    "effectIds": [
+      "austria-declares-war-serbia"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "austria-declares-war-serbia",
+    "title": "Austria Attacks Serbia",
+    "year": 1914,
+    "keyword": "turning-point",
+    "summary": "Austria-Hungary declared war on Serbia on July 28, 1914. A regional conflict had now begun, but the alliance system made it unlikely to remain isolated.",
+    "causeIds": [
+      "serbian-partial-rejection"
+    ],
+    "effectIds": [
+      "russia-supports-serbia",
+      "ww1-outbreak"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "russia-supports-serbia",
+    "title": "Russia Supports Serbia",
+    "year": 1914,
+    "keyword": "turning-point",
+    "summary": "Russia saw Serbia as a Slavic partner and a key influence point in the Balkans. Supporting Serbia also helped Russia avoid another diplomatic humiliation in the region.",
+    "causeIds": [
+      "pan-slavism",
+      "austro-russian-balkan-rivalry",
+      "austria-declares-war-serbia"
+    ],
+    "effectIds": [
+      "russian-general-mobilization"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "russian-general-mobilization",
+    "title": "Russian General Mobilization",
+    "year": 1914,
+    "keyword": "turning-point",
+    "summary": "Russia began general mobilization as the crisis escalated. Germany interpreted this as a direct military threat.",
+    "causeIds": [
+      "russia-supports-serbia",
+      "mobilization-timetables"
+    ],
+    "effectIds": [
+      "germany-declares-war-russia"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "germany-declares-war-russia",
+    "title": "Germany Declares War on Russia",
+    "year": 1914,
+    "keyword": "turning-point",
+    "summary": "Germany declared war on Russia after mobilization. This transformed the Balkan crisis into a major European war.",
+    "causeIds": [
+      "russian-general-mobilization",
+      "mobilization-timetables"
+    ],
+    "effectIds": [
+      "france-supports-russia",
+      "ww1-outbreak"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "france-supports-russia",
+    "title": "France Supports Russia",
+    "year": 1914,
+    "keyword": "shift",
+    "summary": "France was bound to Russia through alliance and feared German dominance in Europe. French support made Germany plan for a western front as well as an eastern one.",
+    "causeIds": [
+      "franco-russian-alliance",
+      "germany-declares-war-russia"
+    ],
+    "effectIds": [
+      "germany-declares-war-france"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "germany-declares-war-france",
+    "title": "Germany Declares War on France",
+    "year": 1914,
+    "keyword": "turning-point",
+    "summary": "Germany declared war on France as part of the widening conflict. The crisis was no longer limited to Austria, Serbia, and Russia.",
+    "causeIds": [
+      "france-supports-russia",
+      "german-war-planning",
+      "franco-russian-alliance"
+    ],
+    "effectIds": [
+      "invasion-of-belgium",
+      "ww1-outbreak"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "invasion-of-belgium",
+    "title": "Invasion of Belgium",
+    "year": 1914,
+    "keyword": "catalyst",
+    "summary": "Germany invaded neutral Belgium to attack France. This became a decisive reason for Britain to enter the war.",
+    "causeIds": [
+      "germany-declares-war-france",
+      "german-war-planning"
+    ],
+    "effectIds": [
+      "britain-enters-war"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "british-concern-over-balance",
+    "title": "British Balance Concerns",
+    "year": 1914,
+    "keyword": "pressure",
+    "summary": "Britain feared a Europe dominated by one power, especially Germany. This concern shaped the British response when Belgium was invaded.",
+    "causeIds": [
+      "entente-cordiale",
+      "anglo-russian-entente"
+    ],
+    "effectIds": [
+      "britain-enters-war"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "britain-enters-war",
+    "title": "Britain Enters War",
+    "year": 1914,
+    "keyword": "turning-point",
+    "summary": "Britain declared war on Germany after the invasion of Belgium. The war now included all major European powers and quickly became global through empires and colonies.",
+    "causeIds": [
+      "invasion-of-belgium",
+      "british-concern-over-balance"
+    ],
+    "effectIds": [
+      "ww1-outbreak",
+      "globalization-of-war"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "ww1-outbreak",
+    "title": "Outbreak of World War I",
+    "year": 1914,
+    "keyword": "collapse",
+    "summary": "By early August 1914, a regional crisis had become a European war. The assassination was the spark, but alliances, nationalism, military planning, and imperial rivalry made escalation possible.",
+    "causeIds": [
+      "austria-declares-war-serbia",
+      "germany-declares-war-russia",
+      "germany-declares-war-france",
+      "britain-enters-war"
+    ],
+    "effectIds": [
+      "globalization-of-war",
+      "trench-warfare-emerges",
+      "gallipoli-campaign"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "globalization-of-war",
+    "title": "War Becomes Global",
+    "year": 1914,
+    "keyword": "consequence",
+    "summary": "Because European powers controlled empires and global networks, the war spread beyond Europe. Colonies, seas, and distant fronts became part of the conflict.",
+    "causeIds": [
+      "britain-enters-war",
+      "ww1-outbreak"
+    ],
+    "effectIds": [
+      "us-enters-war",
+      "colonial-troops-mobilized"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "trench-warfare-emerges",
+    "title": "Trench Warfare Emerges",
+    "year": 1914,
+    "keyword": "consequence",
+    "summary": "After early movement failed to produce a quick victory, the Western Front hardened into trench warfare. This turned the war into a long, exhausting conflict of attrition.",
+    "causeIds": [
+      "ww1-outbreak"
+    ],
+    "effectIds": [
+      "battle-of-somme",
+      "war-of-attrition"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "gallipoli-campaign",
+    "title": "Gallipoli Campaign",
+    "year": 1915,
+    "keyword": "turning-point",
+    "summary": "The Allies attempted to knock Ottoman Turkey out of the war by seizing the Dardanelles strait. The costly failure showed the limits of amphibious strategy and deepened the stalemate.",
+    "causeIds": [
+      "ww1-outbreak",
+      "globalization-of-war"
+    ],
+    "effectIds": [
+      "ottoman-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "battle-of-somme",
+    "title": "Battle of the Somme",
+    "year": 1916,
+    "keyword": "collapse",
+    "summary": "One of the deadliest battles in history, the Somme produced massive casualties for minimal territorial gain. It became a symbol of industrial-scale slaughter and eroded public confidence in military leadership.",
+    "causeIds": [
+      "trench-warfare-emerges"
+    ],
+    "effectIds": [
+      "war-of-attrition",
+      "home-front-pressure"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "war-of-attrition",
+    "title": "War of Attrition",
+    "year": 1916,
+    "keyword": "consequence",
+    "summary": "With neither side able to break through, the war became a grinding contest of endurance. Economies, populations, and political systems came under enormous strain on all sides.",
+    "causeIds": [
+      "trench-warfare-emerges",
+      "battle-of-somme"
+    ],
+    "effectIds": [
+      "home-front-pressure",
+      "russian-revolution"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "colonial-troops-mobilized",
+    "title": "Colonial Troops Mobilized",
+    "year": 1915,
+    "keyword": "consequence",
+    "summary": "European empires drew soldiers from Africa, Asia, and the Americas into the conflict. This exposed millions of colonial subjects to the war and planted seeds of anti-colonial thought.",
+    "causeIds": [
+      "globalization-of-war"
+    ],
+    "effectIds": [
+      "home-front-pressure"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "us-enters-war",
+    "title": "United States Enters War",
+    "year": 1917,
+    "keyword": "turning-point",
+    "summary": "After years of neutrality, the US declared war on Germany in April 1917, driven by unrestricted submarine warfare and the Zimmermann Telegram. Fresh American troops and industrial resources tipped the balance decisively.",
+    "causeIds": [
+      "globalization-of-war",
+      "home-front-pressure"
+    ],
+    "effectIds": [
+      "german-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "russian-revolution",
+    "title": "Russian Revolution",
+    "year": 1917,
+    "keyword": "consequence",
+    "summary": "War exhaustion, food shortages, and political failure triggered revolution in Russia. The Tsar abdicated, and later the Bolsheviks seized power, withdrawing Russia from the war entirely.",
+    "causeIds": [
+      "war-of-attrition",
+      "home-front-pressure"
+    ],
+    "effectIds": [
+      "eastern-front-collapses"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "home-front-pressure",
+    "title": "Home Front Pressure",
+    "year": 1917,
+    "keyword": "pressure",
+    "summary": "Prolonged war strained economies, food supplies, and civilian morale across all belligerents. Strikes, protests, and political crises became common as populations questioned the cost of continuing.",
+    "causeIds": [
+      "war-of-attrition",
+      "battle-of-somme",
+      "colonial-troops-mobilized"
+    ],
+    "effectIds": [
+      "russian-revolution",
+      "us-enters-war",
+      "german-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "eastern-front-collapses",
+    "title": "Eastern Front Collapses",
+    "year": 1917,
+    "keyword": "collapse",
+    "summary": "Russia's withdrawal after the revolution allowed Germany to transfer forces westward. The Treaty of Brest-Litovsk ended fighting in the east but came too late to save Germany in the west.",
+    "causeIds": [
+      "russian-revolution"
+    ],
+    "effectIds": [
+      "german-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "ottoman-collapse",
+    "title": "Ottoman Empire Collapses",
+    "year": 1918,
+    "keyword": "collapse",
+    "summary": "Ottoman Turkey, exhausted by war on multiple fronts, collapsed by late 1918. Its defeat began the long process of dismemberment that reshaped the Middle East for a century.",
+    "causeIds": [
+      "gallipoli-campaign",
+      "globalization-of-war"
+    ],
+    "effectIds": [
+      "treaty-of-versailles"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "german-collapse",
+    "title": "German Military Collapse",
+    "year": 1918,
+    "keyword": "collapse",
+    "summary": "By autumn 1918, Germany's armies were retreating, allies were surrendering, and revolution threatened at home. The Kaiser abdicated and an armistice was signed on November 11, 1918.",
+    "causeIds": [
+      "us-enters-war",
+      "home-front-pressure",
+      "eastern-front-collapses"
+    ],
+    "effectIds": [
+      "armistice-1918"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "armistice-1918",
+    "title": "Armistice — November 1918",
+    "year": 1918,
+    "keyword": "turning-point",
+    "summary": "Fighting ceased on the Western Front at 11am on November 11, 1918. The war had killed an estimated 20 million people and permanently altered the political map of Europe.",
+    "causeIds": [
+      "german-collapse"
+    ],
+    "effectIds": [
+      "treaty-of-versailles"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "treaty-of-versailles",
+    "title": "Treaty of Versailles",
+    "year": 1919,
+    "keyword": "consequence",
+    "summary": "The peace settlement imposed heavy reparations and territorial losses on Germany. Its punishing terms bred resentment that many historians see as a direct cause of the Second World War.",
+    "causeIds": [
+      "armistice-1918",
+      "ottoman-collapse"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]

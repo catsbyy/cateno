@@ -1,0 +1,566 @@
+[
+  {
+    "id": "medieval-scholasticism",
+    "title": "Medieval Scholasticism",
+    "year": 1200,
+    "keyword": "pressure",
+    "summary": "Medieval European thought was dominated by Aristotelian philosophy interpreted through Church doctrine. Knowledge was deduced from ancient authority rather than observed from nature, creating a rigid intellectual framework that the Scientific Revolution would dismantle.",
+    "causeIds": [],
+    "effectIds": [
+      "aristotelian-cosmology",
+      "church-controls-knowledge"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "aristotelian-cosmology",
+    "title": "Aristotelian Cosmology",
+    "year": 1250,
+    "keyword": "pressure",
+    "summary": "Aristotle's model placed Earth at the center of the universe, surrounded by perfect crystalline spheres. This geocentric worldview had been adopted as Church doctrine and was considered both scientific truth and theological necessity.",
+    "causeIds": [
+      "medieval-scholasticism"
+    ],
+    "effectIds": [
+      "ptolemaic-system",
+      "copernicus-challenges"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "church-controls-knowledge",
+    "title": "Church Controls Knowledge",
+    "year": 1300,
+    "keyword": "pressure",
+    "summary": "The Catholic Church controlled universities and determined which ideas were permissible. Challenging Aristotle meant challenging Church authority — a dangerous proposition that shaped how early scientists framed and published their findings.",
+    "causeIds": [
+      "medieval-scholasticism"
+    ],
+    "effectIds": [
+      "galileo-condemned",
+      "copernicus-delays-publication"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "ptolemaic-system",
+    "title": "Ptolemaic System",
+    "year": 1300,
+    "keyword": "pressure",
+    "summary": "The Ptolemaic model explained planetary motion through elaborate epicycles — circles within circles. Though mathematically complex, it made reasonably accurate predictions, which meant astronomers had little practical reason to abandon it despite growing inconsistencies.",
+    "causeIds": [
+      "aristotelian-cosmology"
+    ],
+    "effectIds": [
+      "copernicus-challenges"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "black-death-disruption",
+    "title": "Black Death Disrupts Europe",
+    "year": 1347,
+    "keyword": "catalyst",
+    "summary": "The Black Death killed a third of Europe's population and shattered confidence in traditional authorities — including the Church and Aristotelian medicine, which had no answers. The catastrophe forced survivors to question inherited knowledge and look for new explanations.",
+    "causeIds": [],
+    "effectIds": [
+      "church-authority-weakens",
+      "renaissance-humanism"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "renaissance-humanism",
+    "title": "Renaissance Humanism",
+    "year": 1400,
+    "keyword": "shift",
+    "summary": "Humanist scholars rediscovered and translated ancient Greek and Roman texts, including works that contradicted Aristotle. The emphasis on direct observation of nature and human experience planted the seed of empirical thinking.",
+    "causeIds": [
+      "black-death-disruption"
+    ],
+    "effectIds": [
+      "observation-over-authority",
+      "printing-press-spreads-ideas"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "church-authority-weakens",
+    "title": "Church Authority Weakens",
+    "year": 1400,
+    "keyword": "shift",
+    "summary": "The Black Death, the Great Schism, and growing corruption eroded the Church's moral authority. The Protestant Reformation further fractured religious unity, creating spaces where heterodox ideas — including new science — could circulate more freely.",
+    "causeIds": [
+      "black-death-disruption"
+    ],
+    "effectIds": [
+      "copernicus-delays-publication",
+      "galileo-finds-support"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "printing-press-spreads-ideas",
+    "title": "Printing Press",
+    "year": 1450,
+    "keyword": "catalyst",
+    "summary": "Gutenberg's printing press allowed scientific ideas to spread across Europe within years rather than centuries. A discovery in Italy could reach England in months — the first time in history that a scientific community could function across borders.",
+    "causeIds": [
+      "renaissance-humanism"
+    ],
+    "effectIds": [
+      "copernicus-publishes",
+      "scientific-correspondence-networks"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "observation-over-authority",
+    "title": "Direct Observation Valued",
+    "year": 1450,
+    "keyword": "shift",
+    "summary": "Renaissance artists and anatomists like Leonardo da Vinci began treating direct observation of the world as more reliable than ancient texts. This epistemological shift — look first, reason second — was the philosophical foundation of the Scientific Revolution.",
+    "causeIds": [
+      "renaissance-humanism"
+    ],
+    "effectIds": [
+      "vesalius-anatomy",
+      "copernicus-challenges"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "copernicus-challenges",
+    "title": "Copernicus Rethinks Cosmos",
+    "year": 1510,
+    "keyword": "turning-point",
+    "summary": "Nicolaus Copernicus spent decades working out a heliocentric model that placed the Sun at the center of the solar system. He found it mathematically simpler and more elegant than the Ptolemaic system, though it upended a thousand years of received wisdom.",
+    "causeIds": [
+      "aristotelian-cosmology",
+      "ptolemaic-system",
+      "observation-over-authority"
+    ],
+    "effectIds": [
+      "copernicus-delays-publication"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "copernicus-delays-publication",
+    "title": "Copernicus Delays Publishing",
+    "year": 1530,
+    "keyword": "pressure",
+    "summary": "Copernicus sat on his heliocentric theory for over thirty years, fearing Church condemnation. He only agreed to publish on his deathbed, and even then a preface was added without his knowledge framing it as a mathematical convenience rather than physical reality.",
+    "causeIds": [
+      "copernicus-challenges",
+      "church-controls-knowledge",
+      "church-authority-weakens"
+    ],
+    "effectIds": [
+      "copernicus-publishes"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "copernicus-publishes",
+    "title": "De Revolutionibus Published",
+    "year": 1543,
+    "keyword": "spark",
+    "summary": "Copernicus published his heliocentric model in De Revolutionibus Orbium Coelestium in 1543, the same year he died. The book was initially ignored by the Church but transformed astronomy — every serious astronomer who followed had to engage with its claims.",
+    "causeIds": [
+      "copernicus-delays-publication",
+      "printing-press-spreads-ideas"
+    ],
+    "effectIds": [
+      "tycho-observes-skies",
+      "kepler-inherits-data",
+      "galileo-turns-telescope"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "vesalius-anatomy",
+    "title": "Vesalius Rewrites Anatomy",
+    "year": 1543,
+    "keyword": "turning-point",
+    "summary": "Andreas Vesalius published De Humani Corporis Fabrica, based on actual human dissections rather than Galen's ancient texts. He found over 200 errors in the accepted anatomical authority — proving that direct observation could overturn a thousand years of tradition.",
+    "causeIds": [
+      "observation-over-authority"
+    ],
+    "effectIds": [
+      "harvey-blood-circulation",
+      "empirical-method-established"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "tycho-observes-skies",
+    "title": "Tycho Brahe's Observations",
+    "year": 1576,
+    "keyword": "catalyst",
+    "summary": "Tycho Brahe spent twenty years making the most precise naked-eye astronomical observations in history, cataloguing thousands of star and planet positions. Though he rejected Copernicus, his meticulous data would become the foundation on which Kepler proved heliocentrism.",
+    "causeIds": [
+      "copernicus-publishes"
+    ],
+    "effectIds": [
+      "kepler-inherits-data"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "kepler-inherits-data",
+    "title": "Kepler Inherits Tycho's Data",
+    "year": 1601,
+    "keyword": "turning-point",
+    "summary": "After Tycho's death, Johannes Kepler gained access to his precise observations. Kepler spent eight years wrestling with the data until he discovered that planetary orbits are ellipses, not circles — finally making the heliocentric model work mathematically.",
+    "causeIds": [
+      "tycho-observes-skies",
+      "copernicus-publishes"
+    ],
+    "effectIds": [
+      "kepler-laws-motion"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "kepler-laws-motion",
+    "title": "Kepler's Laws of Planetary Motion",
+    "year": 1609,
+    "keyword": "turning-point",
+    "summary": "Kepler published his three laws of planetary motion, showing that planets move in ellipses with the Sun at one focus and sweep equal areas in equal times. For the first time, the heavens obeyed precise mathematical rules — the universe was beginning to look like a machine.",
+    "causeIds": [
+      "kepler-inherits-data"
+    ],
+    "effectIds": [
+      "newton-principia",
+      "mechanistic-universe"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "galileo-turns-telescope",
+    "title": "Galileo Turns Telescope to Sky",
+    "year": 1609,
+    "keyword": "spark",
+    "summary": "Galileo improved the recently invented telescope and pointed it at the night sky, discovering Jupiter's moons, the phases of Venus, and mountains on the Moon. Each observation was a direct contradiction of Aristotelian cosmology, and he published immediately.",
+    "causeIds": [
+      "copernicus-publishes"
+    ],
+    "effectIds": [
+      "galileo-condemned",
+      "empirical-method-established",
+      "galileo-finds-support"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "galileo-condemned",
+    "title": "Galileo Condemned by Inquisition",
+    "year": 1633,
+    "keyword": "turning-point",
+    "summary": "The Inquisition forced Galileo to recant his support for Copernicanism and placed him under house arrest for life. The trial became a defining symbol of the conflict between institutional authority and empirical inquiry — and paradoxically spread his ideas further.",
+    "causeIds": [
+      "galileo-turns-telescope",
+      "church-controls-knowledge"
+    ],
+    "effectIds": [
+      "scientific-correspondence-networks",
+      "science-moves-north"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "galileo-finds-support",
+    "title": "Galileo Finds Patrons",
+    "year": 1610,
+    "keyword": "shift",
+    "summary": "Galileo secured patronage from the Medici family and other Italian nobles eager to associate themselves with the new science. This created an economic model for scientific work outside Church institutions — the beginning of secular scientific patronage.",
+    "causeIds": [
+      "galileo-turns-telescope",
+      "church-authority-weakens"
+    ],
+    "effectIds": [
+      "scientific-correspondence-networks"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "harvey-blood-circulation",
+    "title": "Harvey Discovers Circulation",
+    "year": 1628,
+    "keyword": "turning-point",
+    "summary": "William Harvey demonstrated through careful experiment that blood circulates continuously through the body, pumped by the heart. It was the first major physiological discovery based entirely on quantitative experiment — bringing the scientific method into medicine.",
+    "causeIds": [
+      "vesalius-anatomy",
+      "empirical-method-established"
+    ],
+    "effectIds": [
+      "mechanistic-universe"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "scientific-correspondence-networks",
+    "title": "Scientific Correspondence Networks",
+    "year": 1620,
+    "keyword": "shift",
+    "summary": "Natural philosophers across Europe began writing letters sharing experiments and results, forming an informal 'Republic of Letters.' This network allowed ideas to be tested, replicated, and refined across borders — the first scientific community.",
+    "causeIds": [
+      "printing-press-spreads-ideas",
+      "galileo-condemned",
+      "galileo-finds-support"
+    ],
+    "effectIds": [
+      "royal-society-founded",
+      "newton-principia"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "bacon-inductive-method",
+    "title": "Bacon's Inductive Method",
+    "year": 1620,
+    "keyword": "shift",
+    "summary": "Francis Bacon argued in Novum Organum that knowledge must be built from observation and experiment upward to general principles — not deduced downward from authority. He gave the Scientific Revolution its philosophical manifesto.",
+    "causeIds": [
+      "observation-over-authority"
+    ],
+    "effectIds": [
+      "empirical-method-established",
+      "royal-society-founded"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "descartes-mathematics",
+    "title": "Descartes Unites Math and Nature",
+    "year": 1637,
+    "keyword": "shift",
+    "summary": "René Descartes invented coordinate geometry and argued that nature is fundamentally mathematical and mechanical. His vision of the universe as a vast clockwork mechanism provided the philosophical framework that Newton would later fill with equations.",
+    "causeIds": [
+      "empirical-method-established"
+    ],
+    "effectIds": [
+      "mechanistic-universe",
+      "newton-principia"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "empirical-method-established",
+    "title": "Empirical Method Takes Hold",
+    "year": 1640,
+    "keyword": "shift",
+    "summary": "Across Europe, natural philosophers converged on a common approach: form a hypothesis, design an experiment, observe the result, revise the hypothesis. This self-correcting method was more powerful than any single discovery — it was a machine for making discoveries.",
+    "causeIds": [
+      "vesalius-anatomy",
+      "galileo-turns-telescope",
+      "bacon-inductive-method"
+    ],
+    "effectIds": [
+      "royal-society-founded",
+      "newton-principia"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "science-moves-north",
+    "title": "Science Moves to Protestant North",
+    "year": 1640,
+    "keyword": "shift",
+    "summary": "After Galileo's condemnation, the center of scientific activity shifted from Catholic Italy to Protestant England and the Dutch Republic, where religious authority was more fragmented and intellectual tolerance greater. London and Amsterdam became the new capitals of natural philosophy.",
+    "causeIds": [
+      "galileo-condemned"
+    ],
+    "effectIds": [
+      "royal-society-founded"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "royal-society-founded",
+    "title": "Royal Society Founded",
+    "year": 1660,
+    "keyword": "turning-point",
+    "summary": "Charles II chartered the Royal Society in London as a formal institution for experimental science. Its motto — 'Nullius in Verba' (take nobody's word for it) — embodied the new spirit. It gave science institutional legitimacy and created peer review.",
+    "causeIds": [
+      "scientific-correspondence-networks",
+      "bacon-inductive-method",
+      "empirical-method-established",
+      "science-moves-north"
+    ],
+    "effectIds": [
+      "newton-principia"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "mechanistic-universe",
+    "title": "Universe as Clockwork",
+    "year": 1660,
+    "keyword": "shift",
+    "summary": "The growing consensus among natural philosophers was that the universe operates like a machine — governed by fixed mathematical laws with no need for constant divine intervention. This mechanistic worldview made Newton's synthesis not just possible but almost inevitable.",
+    "causeIds": [
+      "kepler-laws-motion",
+      "harvey-blood-circulation",
+      "descartes-mathematics"
+    ],
+    "effectIds": [
+      "newton-principia"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "newton-principia",
+    "title": "Newton's Principia Mathematica",
+    "year": 1687,
+    "keyword": "turning-point",
+    "summary": "Isaac Newton published the Principia, unifying terrestrial and celestial mechanics under three laws of motion and universal gravitation. The same force that drops an apple moves the Moon — the cosmos was one system, governed by mathematics. It was the single greatest scientific synthesis in history.",
+    "causeIds": [
+      "kepler-laws-motion",
+      "galileo-turns-telescope",
+      "scientific-correspondence-networks",
+      "empirical-method-established",
+      "descartes-mathematics",
+      "mechanistic-universe",
+      "royal-society-founded"
+    ],
+    "effectIds": [
+      "enlightenment-worldview",
+      "age-of-reason",
+      "scientific-institutions-spread"
+    ],
+    "isAnchor": true,
+    "isSeed": true
+  },
+  {
+    "id": "enlightenment-worldview",
+    "title": "Enlightenment Worldview",
+    "year": 1700,
+    "keyword": "consequence",
+    "summary": "Newton's success convinced thinkers that human reason, applied systematically, could uncover the laws governing society, economics, and politics — not just physics. This conviction drove Voltaire, Locke, and Rousseau and directly inspired the American and French Revolutions.",
+    "causeIds": [
+      "newton-principia"
+    ],
+    "effectIds": [
+      "political-revolutions-inspired",
+      "deism-spreads"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "age-of-reason",
+    "title": "Age of Reason",
+    "year": 1700,
+    "keyword": "consequence",
+    "summary": "Educated Europeans increasingly applied rational analysis to institutions, religion, and tradition. The idea that the world could be understood and improved through reason alone — without revelation — transformed philosophy, law, and governance across the 18th century.",
+    "causeIds": [
+      "newton-principia"
+    ],
+    "effectIds": [
+      "deism-spreads",
+      "scientific-institutions-spread"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "deism-spreads",
+    "title": "Deism and Secularism Spread",
+    "year": 1720,
+    "keyword": "consequence",
+    "summary": "Newton's clockwork universe suggested God as a watchmaker who set the world in motion and stepped back. Deism — belief in a rational God who doesn't intervene — spread among educated elites, weakening traditional religious authority and accelerating secularization.",
+    "causeIds": [
+      "enlightenment-worldview",
+      "age-of-reason"
+    ],
+    "effectIds": [
+      "religious-authority-declines"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "scientific-institutions-spread",
+    "title": "Scientific Institutions Spread",
+    "year": 1700,
+    "keyword": "consequence",
+    "summary": "Inspired by the Royal Society, scientific academies were founded across Europe — Paris, Berlin, St. Petersburg. Science became a recognized profession with institutions, journals, and prizes. The amateur natural philosopher gave way to the professional scientist.",
+    "causeIds": [
+      "newton-principia",
+      "age-of-reason"
+    ],
+    "effectIds": [
+      "industrial-revolution-enabled"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "political-revolutions-inspired",
+    "title": "Political Revolutions Inspired",
+    "year": 1750,
+    "keyword": "consequence",
+    "summary": "Enlightenment thinkers applied Newton's method to politics — Jefferson spoke of 'self-evident' truths as if they were axioms. The American and French Revolutions were explicitly framed as rational redesigns of government, drawing directly on the scientific revolution's legacy.",
+    "causeIds": [
+      "enlightenment-worldview"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "religious-authority-declines",
+    "title": "Religious Authority Declines",
+    "year": 1750,
+    "keyword": "consequence",
+    "summary": "The Church's claim to explain the natural world was permanently undermined. Science and religion separated into distinct domains — a division that reshaped Western civilization and continues to define debates about knowledge, education, and public life today.",
+    "causeIds": [
+      "deism-spreads"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "industrial-revolution-enabled",
+    "title": "Industrial Revolution Enabled",
+    "year": 1760,
+    "keyword": "consequence",
+    "summary": "The scientific method, mathematical engineering, and the culture of systematic experimentation created the conditions for the Industrial Revolution. Steam engines, textile machinery, and chemical processes were all products of applied scientific thinking.",
+    "causeIds": [
+      "scientific-institutions-spread"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]
