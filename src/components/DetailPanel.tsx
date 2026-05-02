@@ -15,10 +15,16 @@ function NodeChip({
   return (
     <button
       onClick={() => onClick(node.id)}
-      className="text-left rounded px-2.5 py-1 text-[12px] font-sans leading-snug border transition-colors duration-150 hover:bg-white/5 cursor-pointer"
+      className="group text-left rounded px-2.5 py-1 text-[12px] font-sans leading-snug border transition-colors duration-150 hover:bg-white/5 cursor-pointer flex items-center gap-1.5"
       style={{ borderColor: `${color}55`, color: '#E8E3D5CC' }}
     >
-      {node.title}
+      <span className="flex-1">{node.title}</span>
+      <span
+        className="opacity-0 group-hover:opacity-100 transition-opacity duration-150 shrink-0"
+        style={{ color, fontSize: 10 }}
+      >
+        →
+      </span>
     </button>
   );
 }
@@ -31,6 +37,8 @@ interface DetailPanelProps {
   effectNodes: CatenoNode[];
   onNodeClick: (id: string) => void;
   onClose: () => void;
+  /** Called when a cause/effect chip is clicked — same as clicking the node on the graph */
+  onChipClick: (id: string) => void;
 }
 
 export function DetailPanel({
@@ -39,6 +47,7 @@ export function DetailPanel({
   effectNodes,
   onNodeClick,
   onClose,
+  onChipClick,
 }: DetailPanelProps) {
   const color = node ? TYPE_COLORS[node.keyword] : '#ffffff';
 
@@ -118,7 +127,7 @@ export function DetailPanel({
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {causeNodes.map((n) => (
-                    <NodeChip key={n.id} node={n} onClick={onNodeClick} />
+                    <NodeChip key={n.id} node={n} onClick={onChipClick} />
                   ))}
                 </div>
               </div>
@@ -132,7 +141,7 @@ export function DetailPanel({
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {effectNodes.map((n) => (
-                    <NodeChip key={n.id} node={n} onClick={onNodeClick} />
+                    <NodeChip key={n.id} node={n} onClick={onChipClick} />
                   ))}
                 </div>
               </div>

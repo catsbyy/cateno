@@ -14,7 +14,9 @@
       "monarchy-abolished",
       "reign-of-terror",
       "declaration-rights-man",
-      "abolition-feudalism"
+      "abolition-feudalism",
+      "flight-to-varennes",
+      "european-coalitions"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -28,7 +30,8 @@
     "causeIds": [],
     "effectIds": [
       "estate-inequality",
-      "tax-burden-commoners"
+      "tax-burden-commoners",
+      "inefficient-tax-system"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -44,7 +47,8 @@
     ],
     "effectIds": [
       "public-resentment",
-      "third-estate-assertion"
+      "third-estate-assertion",
+      "abolition-feudalism"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -91,7 +95,8 @@
     "causeIds": [],
     "effectIds": [
       "questioning-monarchy",
-      "political-radicalization"
+      "political-radicalization",
+      "declaration-rights-man"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -124,7 +129,8 @@
     ],
     "effectIds": [
       "estates-general-called",
-      "tax-reform-failure"
+      "tax-reform-failure",
+      "necker-dismissed"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -234,7 +240,8 @@
       "questioning-monarchy"
     ],
     "effectIds": [
-      "storming-of-bastille"
+      "storming-of-bastille",
+      "french-revolution"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -251,7 +258,9 @@
     ],
     "effectIds": [
       "urban-unrest",
-      "storming-of-bastille"
+      "storming-of-bastille",
+      "womens-march-versailles",
+      "french-revolution"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -282,7 +291,8 @@
       "bread-crisis"
     ],
     "effectIds": [
-      "storming-of-bastille"
+      "storming-of-bastille",
+      "womens-march-versailles"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -367,7 +377,9 @@
     ],
     "effectIds": [
       "monarchy-abolished",
-      "reign-of-terror"
+      "reign-of-terror",
+      "flight-to-varennes",
+      "european-coalitions"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -393,8 +405,7 @@
     "summary": "France funded and fought alongside American colonists against Britain, driven by rivalry and revenge. The cost added enormously to France's debt while the revolutionary ideals it helped spread soon returned home.",
     "causeIds": [],
     "effectIds": [
-      "war-debt",
-      "enlightenment-ideas"
+      "war-debt"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -408,7 +419,8 @@
     "causeIds": [],
     "effectIds": [
       "tax-reform-failure",
-      "financial-crisis-monarchy"
+      "financial-crisis-monarchy",
+      "necker-dismissed"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -501,7 +513,8 @@
     ],
     "effectIds": [
       "political-radicalization",
-      "reign-of-terror"
+      "reign-of-terror",
+      "napoleon-rises"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -561,9 +574,7 @@
     "causeIds": [
       "napoleon-rises"
     ],
-    "effectIds": [
-      "european-revolutionary-spread"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
@@ -575,7 +586,7 @@
     "summary": "The ideals of liberty, equality, and national self-determination spread across Europe and the Americas. The French Revolution inspired independence movements and liberal revolutions throughout the 19th century.",
     "causeIds": [
       "declaration-rights-man",
-      "napoleonic-wars"
+      "abolition-feudalism"
     ],
     "effectIds": [],
     "isAnchor": false,

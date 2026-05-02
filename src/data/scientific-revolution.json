@@ -133,7 +133,8 @@
     ],
     "effectIds": [
       "vesalius-anatomy",
-      "copernicus-challenges"
+      "copernicus-challenges",
+      "bacon-inductive-method"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -265,7 +266,8 @@
     "effectIds": [
       "galileo-condemned",
       "empirical-method-established",
-      "galileo-finds-support"
+      "galileo-finds-support",
+      "newton-principia"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -310,11 +312,11 @@
     "keyword": "turning-point",
     "summary": "William Harvey demonstrated through careful experiment that blood circulates continuously through the body, pumped by the heart. It was the first major physiological discovery based entirely on quantitative experiment — bringing the scientific method into medicine.",
     "causeIds": [
-      "vesalius-anatomy",
-      "empirical-method-established"
+      "vesalius-anatomy"
     ],
     "effectIds": [
-      "mechanistic-universe"
+      "mechanistic-universe",
+      "empirical-method-established"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -322,7 +324,7 @@
   {
     "id": "scientific-correspondence-networks",
     "title": "Scientific Correspondence Networks",
-    "year": 1620,
+    "year": 1635,
     "keyword": "shift",
     "summary": "Natural philosophers across Europe began writing letters sharing experiments and results, forming an informal 'Republic of Letters.' This network allowed ideas to be tested, replicated, and refined across borders — the first scientific community.",
     "causeIds": [
@@ -378,11 +380,13 @@
     "causeIds": [
       "vesalius-anatomy",
       "galileo-turns-telescope",
-      "bacon-inductive-method"
+      "bacon-inductive-method",
+      "harvey-blood-circulation"
     ],
     "effectIds": [
       "royal-society-founded",
-      "newton-principia"
+      "newton-principia",
+      "descartes-mathematics"
     ],
     "isAnchor": false,
     "isSeed": false

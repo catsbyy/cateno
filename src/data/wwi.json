@@ -9,7 +9,8 @@
     "effectIds": [
       "franco-german-hostility",
       "arms-race",
-      "alliance-system"
+      "alliance-system",
+      "austro-russian-balkan-rivalry"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -39,7 +40,8 @@
     "causeIds": [],
     "effectIds": [
       "serbian-nationalism",
-      "russia-supports-serbia"
+      "russia-supports-serbia",
+      "austro-russian-balkan-rivalry"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -56,7 +58,8 @@
     ],
     "effectIds": [
       "bosnian-annexation-crisis",
-      "russia-supports-serbia"
+      "russia-supports-serbia",
+      "balkan-wars"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -106,7 +109,8 @@
     ],
     "effectIds": [
       "france-supports-russia",
-      "germany-declares-war-france"
+      "germany-declares-war-france",
+      "german-war-planning"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -219,7 +223,9 @@
     ],
     "effectIds": [
       "black-hand",
-      "austro-hungarian-fear-of-serbia"
+      "austro-hungarian-fear-of-serbia",
+      "balkan-wars",
+      "assassination-franz-ferdinand"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -533,7 +539,9 @@
     ],
     "effectIds": [
       "us-enters-war",
-      "colonial-troops-mobilized"
+      "colonial-troops-mobilized",
+      "gallipoli-campaign",
+      "ottoman-collapse"
     ],
     "isAnchor": false,
     "isSeed": false

@@ -10,29 +10,108 @@ export interface CatenoNodeData {
   year: number;
   keyword: NodeType;
   isAnchor?: boolean;
+  isSeed?: boolean;
   isFocused?: boolean;
   isDimmed?: boolean;
+  hiddenCount?: number;
 }
 
-// Resting: 160×60   Focused: 190×90
-const W_REST = 160;
-const H_REST = 60;
-const W_FOCUS = 190;
-const H_FOCUS = 90;
+// Resting: 200×72   Focused: 230×108
+const W_REST = 200;
+const H_REST = 72;
+const W_FOCUS = 230;
+const H_FOCUS = 108;
 
 function CatenoNodeComponent({ data }: NodeProps) {
-  const { title, year, keyword, isFocused = false, isDimmed = false } =
-    data as CatenoNodeData;
+  const {
+    title,
+    year,
+    keyword,
+    isAnchor = false,
+    isSeed = false,
+    isFocused = false,
+    isDimmed = false,
+    hiddenCount = 0,
+  } = data as CatenoNodeData;
   const color = TYPE_COLORS[keyword];
 
   return (
-    // Outer shell — fixed size so React Flow's layout never shifts
-    <div style={{ width: W_REST, height: H_REST, position: 'relative' }}>
+    // Outer shell — fixed 200×72 so React Flow's layout never shifts.
+    // Fix 3: set zIndex here too so the expanded card floats above neighbours.
+    <div
+      style={{
+        width: W_REST,
+        height: H_REST,
+        position: 'relative',
+        zIndex: isFocused ? 50 : 1,
+      }}
+    >
       <Handle
         type="target"
         position={Position.Left}
         style={{ opacity: 0, width: 0, height: 0, minWidth: 0, minHeight: 0 }}
       />
+
+      {/* Hidden-connections badge — top-right corner */}
+      <AnimatePresence>
+        {hiddenCount > 0 && !isDimmed && (
+          <motion.div
+            key="badge"
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            exit={{ scale: 0, opacity: 0 }}
+            transition={{ duration: 0.18, ease: 'easeOut' }}
+            style={{
+              position: 'absolute',
+              top: -6,
+              right: -6,
+              minWidth: 16,
+              height: 16,
+              borderRadius: 8,
+              background: color,
+              color: '#0D0D0D',
+              fontSize: 9,
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              paddingInline: 4,
+              zIndex: 60,
+              pointerEvents: 'none',
+              boxShadow: `0 0 6px ${color}88`,
+            }}
+          >
+            +{hiddenCount}
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Anchor pulsing ring — "start here" affordance */}
+      {isAnchor && !isDimmed && (
+        <motion.div
+          style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            x: '-50%',
+            y: '-50%',
+            borderRadius: 8,
+            border: `1.5px solid ${color}`,
+            pointerEvents: 'none',
+          }}
+          animate={{
+            width: [W_REST + 6, W_REST + 24],
+            height: [H_REST + 6, H_REST + 24],
+            opacity: [0.5, 0],
+          }}
+          transition={{
+            duration: 2.2,
+            repeat: Infinity,
+            ease: 'easeOut',
+          }}
+        />
+      )}
 
       {/* Visual card — expands from centre, floats above siblings when focused */}
       <motion.div
@@ -43,7 +122,10 @@ function CatenoNodeComponent({ data }: NodeProps) {
           left: '50%',
           x: '-50%',
           y: '-50%',
-          zIndex: isFocused ? 20 : 1,
+          zIndex: isFocused ? 50 : 1,
+          // Fix 2: seed glow affordance — a faint type-colour halo
+          boxShadow:
+            isSeed && !isFocused && !isDimmed ? `0 0 10px ${color}2e` : 'none',
         }}
         initial={{ scale: 0.82, opacity: 0 }}
         animate={{
@@ -53,9 +135,13 @@ function CatenoNodeComponent({ data }: NodeProps) {
           height: isFocused ? H_FOCUS : H_REST,
         }}
         transition={{ duration: 0.22, ease: 'easeOut' }}
-        className="rounded-md border bg-[#1C1C1C] px-3 py-2 flex flex-col justify-center gap-1.5 overflow-hidden cursor-pointer"
+        className="rounded-md border bg-[#1C1C1C] px-3 py-2.5 flex flex-col justify-center gap-2 overflow-hidden cursor-pointer"
       >
-        <p className="text-[#E8E3D5] text-[13px] font-medium leading-snug font-sans m-0 select-none">
+        {/* Fix 2: two-line clamped title with word wrap */}
+        <p
+          className="text-[#E8E3D5] text-[12px] font-medium font-sans m-0 select-none line-clamp-2"
+          style={{ lineHeight: '1.4', wordBreak: 'break-word' }}
+        >
           {title}
         </p>
 

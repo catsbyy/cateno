@@ -1,4 +1,4 @@
-import { useMemo, useEffect } from 'react';
+import { useMemo, useEffect, useCallback } from 'react';
 import {
   ReactFlow,
   Background,
@@ -9,88 +9,140 @@ import {
   MarkerType,
 } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
-import dagre from '@dagrejs/dagre';
 import type { CatenoScenario } from '../types';
 import { TYPE_COLORS } from '../types';
 import { CatenoNodeRenderer } from './CatenoNode';
 import type { CatenoNodeData } from './CatenoNode';
 
-const NODE_W = 160;
-const NODE_H = 60;
+const NODE_W = 200;
+const NODE_H = 72;
+const CANVAS_WIDTH = 4200; // horizontal span in world px (100 AD → max year)
+const MARGIN_X = 200;      // left padding before the first year
+const Y_STEP = 120;        // vertical gap between same-year node centres
+
 const nodeTypes = { cateno: CatenoNodeRenderer };
 
-// ─── Dynamic layout: re-run dagre on the current visible set only ────────────
-// Positions are tight and readable at every expansion step.
-// Existing nodes will shift when new ones are added — acceptable for Phase 2.
+// ─── Y slot pattern: slot 0 → 0, slot 1 → +Y_STEP, slot 2 → -Y_STEP, … ──────
+// Slots alternate above and below the centre line so the stack stays balanced.
+function yForSlot(slot: number): number {
+  if (slot === 0) return 0;
+  const level = Math.ceil(slot / 2);
+  return slot % 2 === 1 ? level * Y_STEP : -(level * Y_STEP);
+}
 
-function buildVisibleLayout(
-  scenario: CatenoScenario,
-  visibleNodeIds: Set<string>,
-): Map<string, { x: number; y: number }> {
-  const g = new dagre.graphlib.Graph();
-  g.setDefaultEdgeLabel(() => ({}));
-  g.setGraph({ rankdir: 'LR', ranksep: 110, nodesep: 44, marginx: 80, marginy: 80 });
+// ─── Pure time-based layout (no dagre) ───────────────────────────────────────
+// X  = linear mapping of year onto CANVAS_WIDTH, plus a small per-node jitter
+//      so nodes that share the same year don't sit on the exact same vertical
+//      line (they get a diagonal staircase spread instead).
+// Y  = greedy lane assignment with MIN_H_SPACING minimum between same-lane nodes.
+//
+// The anchor is always processed first so it always lands on slot 0 (Y = 0).
 
-  for (const node of scenario.nodes) {
-    if (!visibleNodeIds.has(node.id)) continue;
-    g.setNode(node.id, { width: NODE_W, height: NODE_H });
-  }
+const COLUMN_WIDTH = 280;   // world-px between causal depth columns
 
-  const seen = new Set<string>();
-  for (const node of scenario.nodes) {
-    if (!visibleNodeIds.has(node.id)) continue;
+function buildLayout(scenario: CatenoScenario): {
+  positions: Map<string, { x: number; y: number }>;
+  depth: Map<string, number>;
+} {
+  const nodeMap = new Map(scenario.nodes.map((n) => [n.id, n]));
+
+  // ── Step 1: BFS from anchor to assign causal depth ────────────────────────
+  // Forward edges (effectIds) → depth + 1
+  // Backward edges (causeIds) → depth − 1
+  // First-found wins (BFS guarantees shortest hop count).
+  const depth = new Map<string, number>();
+  depth.set(scenario.anchorId, 0);
+  const queue: string[] = [scenario.anchorId];
+
+  while (queue.length > 0) {
+    const id = queue.shift()!;
+    const node = nodeMap.get(id);
+    if (!node) continue;
+    const d = depth.get(id)!;
+
     for (const effectId of node.effectIds) {
-      if (!visibleNodeIds.has(effectId)) continue;
-      const key = `${node.id}→${effectId}`;
-      if (!seen.has(key)) {
-        seen.add(key);
-        g.setEdge(node.id, effectId);
+      if (!depth.has(effectId)) {
+        depth.set(effectId, d + 1);
+        queue.push(effectId);
+      }
+    }
+    for (const causeId of node.causeIds) {
+      if (!depth.has(causeId)) {
+        depth.set(causeId, d - 1);
+        queue.push(causeId);
       }
     }
   }
 
-  dagre.layout(g);
-
-  const positions = new Map<string, { x: number; y: number }>();
+  // Fallback: any node unreachable from anchor lands in column 0.
   for (const node of scenario.nodes) {
-    if (!visibleNodeIds.has(node.id)) continue;
-    const pos = g.node(node.id);
-    positions.set(node.id, { x: pos.x - NODE_W / 2, y: pos.y - NODE_H / 2 });
+    if (!depth.has(node.id)) depth.set(node.id, 0);
   }
-  return positions;
+
+  // ── Step 2: group by depth column, anchor gets slot 0 ────────────────────
+  const columns = new Map<number, string[]>();
+  for (const node of scenario.nodes) {
+    const d = depth.get(node.id)!;
+    if (!columns.has(d)) columns.set(d, []);
+    columns.get(d)!.push(node.id);
+  }
+
+  // ── Step 3: assign positions ──────────────────────────────────────────────
+  const positions = new Map<string, { x: number; y: number }>();
+
+  for (const [d, ids] of columns) {
+    // Put anchor first so it always lands in slot 0 (Y = 0).
+    const sorted = [...ids].sort((a, b) => {
+      if (nodeMap.get(a)?.isAnchor) return -1;
+      if (nodeMap.get(b)?.isAnchor) return 1;
+      return 0;
+    });
+
+    sorted.forEach((id, slot) => {
+      positions.set(id, {
+        x: d * COLUMN_WIDTH,
+        y: yForSlot(slot) - NODE_H / 2,
+      });
+    });
+  }
+
+  return { positions, depth };
 }
 
 // ─── Pan controller (must live inside <ReactFlow> provider) ──────────────────
 
 interface PanControllerProps {
   focusedNodeId: string | null;
-  visibleNodeIds: Set<string>;
+  positions: Map<string, { x: number; y: number }>;
 }
 
-function PanController({ focusedNodeId, visibleNodeIds }: PanControllerProps) {
-  const { setCenter, getNode, getZoom, fitView } = useReactFlow();
+function PanController({ focusedNodeId, positions }: PanControllerProps) {
+  const { setCenter, getZoom } = useReactFlow();
 
-  // Re-fit whenever visible set changes OR focus is cleared — but not while focused
-  useEffect(() => {
-    if (focusedNodeId !== null) return;
-    const id = setTimeout(() => fitView({ padding: 0.22, duration: 400 }), 60);
-    return () => clearTimeout(id);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [focusedNodeId, visibleNodeIds, fitView]);
+  // Pan so the clicked node lands at ~35% from the left edge of the viewport.
+  // setCenter(cx, cy) centres that world point at 50% screen width.
+  // Adding 15% of viewport-width-in-world-units shifts the node left to 35%.
+  const panTo = useCallback(
+    (nodeId: string, duration: number) => {
+      const pos = positions.get(nodeId);
+      if (!pos) return;
+      const cx = pos.x + NODE_W / 2;
+      const cy = pos.y + NODE_H / 2;
+      const zoom = Math.max(getZoom(), 0.72);
+      const viewportW =
+        (document.querySelector('.react-flow') as HTMLElement | null)?.clientWidth ??
+        window.innerWidth;
+      const offsetX = (0.15 * viewportW) / zoom;
+      setCenter(cx + offsetX, cy, { zoom, duration });
+    },
+    [positions, getZoom, setCenter],
+  );
 
-  // Pan to focused node when focus changes
   useEffect(() => {
     if (!focusedNodeId) return;
-    const id = setTimeout(() => {
-      const node = getNode(focusedNodeId);
-      if (!node) return;
-      const cx = (node.position.x ?? 0) + NODE_W / 2;
-      const cy = (node.position.y ?? 0) + NODE_H / 2;
-      const zoom = Math.max(getZoom(), 0.72);
-      setCenter(cx, cy, { zoom, duration: 550 });
-    }, 80);
+    const id = setTimeout(() => panTo(focusedNodeId, 600), 60);
     return () => clearTimeout(id);
-  }, [focusedNodeId, setCenter, getNode, getZoom]);
+  }, [focusedNodeId, panTo]);
 
   return null;
 }
@@ -114,15 +166,32 @@ export function CatenoGraph({
   onNodeClick,
   onPaneClick,
 }: CatenoGraphProps) {
-  const positions = useMemo(
-    () => buildVisibleLayout(scenario, visibleNodeIds),
-    [scenario, visibleNodeIds],
-  );
+  // Layout is computed once per scenario — never recalculated as nodes are revealed.
+  const { positions, depth } = useMemo(() => buildLayout(scenario), [scenario]);
 
   const nodeMap = useMemo(
     () => new Map(scenario.nodes.map((n) => [n.id, n])),
     [scenario],
   );
+
+  // Open with the anchor at 35% from the left, vertically centred in the canvas
+  // (canvas = full window minus header ~60px and timeline bar ~44px).
+  const defaultViewport = useMemo(() => {
+    const anchor = positions.get(scenario.anchorId);
+    if (!anchor) return { x: 0, y: 0, zoom: 0.8 };
+    const zoom = 0.8;
+    const anchorCX = anchor.x + NODE_W / 2;
+    const anchorCY = anchor.y + NODE_H / 2;
+    const HEADER_H = 60;
+    const TIMELINE_H = 44;
+    const canvasW = window.innerWidth;
+    const canvasH = window.innerHeight - HEADER_H - TIMELINE_H;
+    return {
+      x: 0.35 * canvasW - anchorCX * zoom,
+      y: 0.5 * canvasH - anchorCY * zoom,
+      zoom,
+    };
+  }, [positions, scenario.anchorId]);
 
   const { nodes, edges } = useMemo(() => {
     const hasFocus = focusedNodeId !== null;
@@ -136,6 +205,9 @@ export function CatenoGraph({
       const isFocused = id === focusedNodeId;
       const isDimmed = hasFocus && !connectedIds.has(id);
 
+      const hiddenCount =
+        [...n.causeIds, ...n.effectIds].filter((cid) => !visibleNodeIds.has(cid)).length;
+
       nodes.push({
         id,
         type: 'cateno',
@@ -145,11 +217,12 @@ export function CatenoGraph({
           year: n.year,
           keyword: n.keyword,
           isAnchor: n.isAnchor,
+          isSeed: n.isSeed,
           isFocused,
           isDimmed,
+          hiddenCount,
         } satisfies CatenoNodeData,
-        zIndex: isFocused ? 20 : 1,
-        // Tell React Flow not to re-measure; our outer shell is always NODE_W × NODE_H
+        zIndex: isFocused ? 50 : 1,
         width: NODE_W,
         height: NODE_H,
       });
@@ -170,14 +243,19 @@ export function CatenoGraph({
         const isDimmedEdge = hasFocus && !isActive;
         const typeColor = TYPE_COLORS[n.keyword];
 
+        const sourceDepth = depth.get(n.id) ?? 0;
+        const targetDepth = depth.get(effectId) ?? 0;
+        const isLongRange = Math.abs(sourceDepth - targetDepth) > 1;
+
         edges.push({
           id: key,
           source: n.id,
           target: effectId,
-          type: 'default',
+          type: 'smoothstep',
           style: {
             stroke: isActive ? typeColor : '#2A2A2A',
             strokeWidth: isActive ? 2.5 : 1.5,
+            strokeDasharray: isLongRange ? '6 4' : undefined,
             opacity: isDimmedEdge ? 0.15 : 1,
             filter: isActive ? `drop-shadow(0 0 4px ${typeColor}88)` : 'none',
             transition: 'stroke 0.25s, opacity 0.25s, filter 0.25s',
@@ -193,7 +271,7 @@ export function CatenoGraph({
     }
 
     return { nodes, edges };
-  }, [visibleNodeIds, focusedNodeId, connectedIds, nodeMap, positions, scenario]);
+  }, [visibleNodeIds, focusedNodeId, connectedIds, nodeMap, positions, depth, scenario]);
 
   return (
     <div className="w-full h-full">
@@ -203,15 +281,13 @@ export function CatenoGraph({
         nodeTypes={nodeTypes}
         onNodeClick={(_, node) => onNodeClick(node.id)}
         onPaneClick={onPaneClick}
-        fitView
-        fitViewOptions={{ padding: 0.22 }}
-        minZoom={0.08}
+        defaultViewport={defaultViewport}
+        minZoom={0.05}
         maxZoom={2}
         colorMode="dark"
-        // Keep edges below nodes
         elevateEdgesOnSelect={false}
       >
-        <PanController focusedNodeId={focusedNodeId} visibleNodeIds={visibleNodeIds} />
+        <PanController focusedNodeId={focusedNodeId} positions={positions} />
         <Background color="#181818" gap={28} size={1} />
         <Controls />
       </ReactFlow>

@@ -40,7 +40,8 @@
     ],
     "effectIds": [
       "economic-decline",
-      "military-strain"
+      "military-strain",
+      "overreliance-on-slavery"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -48,16 +49,19 @@
   {
     "id": "economic-decline",
     "title": "Economic Decline",
-    "year": 200,
+    "year": 265,
     "keyword": "pressure",
     "summary": "Reduced revenue and inefficient systems weakened the Roman economy. Inflation and taxation increased pressure on citizens.",
     "causeIds": [
       "end-of-expansion",
-      "overreliance-on-slavery"
+      "overreliance-on-slavery",
+      "antonine-plague"
     ],
     "effectIds": [
       "tax-burden",
-      "urban-decline"
+      "urban-decline",
+      "currency-debasement",
+      "trade-collapse"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -65,7 +69,7 @@
   {
     "id": "overreliance-on-slavery",
     "title": "Reliance on Slave Labor",
-    "year": 150,
+    "year": 190,
     "keyword": "pressure",
     "summary": "Rome depended heavily on slave labor for production. When expansion slowed, the supply of slaves declined.",
     "causeIds": [
@@ -80,7 +84,7 @@
   {
     "id": "tax-burden",
     "title": "Heavy Tax Burden",
-    "year": 250,
+    "year": 270,
     "keyword": "pressure",
     "summary": "To support the army and administration, taxes increased. This burden drove people away from cities and reduced productivity.",
     "causeIds": [
@@ -88,7 +92,8 @@
     ],
     "effectIds": [
       "urban-decline",
-      "population-decline"
+      "population-decline",
+      "increased-bureaucracy"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -104,7 +109,8 @@
       "economic-decline"
     ],
     "effectIds": [
-      "loss-of-central-authority"
+      "loss-of-central-authority",
+      "trade-collapse"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -116,7 +122,8 @@
     "keyword": "pressure",
     "summary": "Disease, war, and economic hardship reduced population levels. This weakened both the workforce and the army.",
     "causeIds": [
-      "tax-burden"
+      "tax-burden",
+      "antonine-plague"
     ],
     "effectIds": [
       "military-strain"
@@ -127,7 +134,7 @@
   {
     "id": "military-strain",
     "title": "Military Strain",
-    "year": 250,
+    "year": 260,
     "keyword": "pressure",
     "summary": "Maintaining a large army became increasingly difficult. Recruitment and funding problems reduced effectiveness.",
     "causeIds": [
@@ -135,7 +142,12 @@
       "population-decline"
     ],
     "effectIds": [
-      "reliance-on-mercenaries"
+      "reliance-on-mercenaries",
+      "crisis-of-third-century",
+      "barbarian-invasions",
+      "soldier-emperors",
+      "currency-debasement",
+      "west-abandoned"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -165,7 +177,9 @@
       "reliance-on-mercenaries"
     ],
     "effectIds": [
-      "loss-of-central-authority"
+      "loss-of-central-authority",
+      "stilicho-execution",
+      "battle-of-adrianople"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -180,7 +194,9 @@
       "imperial-succession-problem"
     ],
     "effectIds": [
-      "loss-of-central-authority"
+      "loss-of-central-authority",
+      "stilicho-execution",
+      "crisis-of-third-century"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -188,7 +204,7 @@
   {
     "id": "crisis-of-third-century",
     "title": "Crisis of Third Century",
-    "year": 235,
+    "year": 260,
     "keyword": "turning-point",
     "summary": "A period of chaos with rapid leadership changes and invasions. It exposed the empire's structural weaknesses.",
     "causeIds": [
@@ -196,7 +212,9 @@
       "military-strain"
     ],
     "effectIds": [
-      "loss-of-central-authority"
+      "loss-of-central-authority",
+      "soldier-emperors",
+      "diocletian-reforms"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -211,11 +229,15 @@
       "urban-decline",
       "barbarian-influence",
       "political-instability",
-      "crisis-of-third-century"
+      "crisis-of-third-century",
+      "battle-of-adrianople"
     ],
     "effectIds": [
       "regional-fragmentation",
-      "romulus-augustulus-deposed"
+      "romulus-augustulus-deposed",
+      "pressure-on-borders",
+      "west-abandoned",
+      "fall-of-rome"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -230,7 +252,8 @@
       "loss-of-central-authority"
     ],
     "effectIds": [
-      "western-fragmentation"
+      "western-fragmentation",
+      "loss-of-confidence"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -242,7 +265,8 @@
     "keyword": "catalyst",
     "summary": "Germanic tribes moved into Roman territories. They were both pushed by external forces and attracted by Roman wealth.",
     "causeIds": [
-      "military-strain"
+      "military-strain",
+      "huns-arrive"
     ],
     "effectIds": [
       "sack-of-rome",
@@ -254,7 +278,7 @@
   {
     "id": "pressure-on-borders",
     "title": "Pressure on Borders",
-    "year": 350,
+    "year": 390,
     "keyword": "pressure",
     "summary": "Rome struggled to defend its long borders. External pressure increased over time.",
     "causeIds": [
@@ -273,7 +297,8 @@
     "keyword": "turning-point",
     "summary": "Rome was sacked by the Visigoths. This shocked the Roman world and showed its vulnerability.",
     "causeIds": [
-      "barbarian-invasions"
+      "barbarian-invasions",
+      "stilicho-execution"
     ],
     "effectIds": [
       "loss-of-confidence"
@@ -284,14 +309,15 @@
   {
     "id": "loss-of-confidence",
     "title": "Loss of Confidence",
-    "year": 410,
+    "year": 420,
     "keyword": "shift",
     "summary": "People lost faith in Rome's ability to protect itself. This weakened loyalty to the empire.",
     "causeIds": [
       "sack-of-rome"
     ],
     "effectIds": [
-      "regional-fragmentation"
+      "regional-fragmentation",
+      "pagan-roman-identity-weakens"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -323,7 +349,8 @@
     ],
     "effectIds": [
       "germanic-kingdoms",
-      "eastern-empire-survives"
+      "dark-ages-begin",
+      "latin-language-fragments"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -359,7 +386,7 @@
   {
     "id": "soldier-emperors",
     "title": "Soldier Emperors Era",
-    "year": 235,
+    "year": 260,
     "keyword": "collapse",
     "summary": "Between 235 and 284 AD, Rome had over 20 emperors in 50 years — almost all raised to power by the army and killed by it. This era gutted administrative continuity and drained the treasury.",
     "causeIds": [
@@ -368,7 +395,8 @@
     ],
     "effectIds": [
       "crisis-of-third-century",
-      "currency-debasement"
+      "currency-debasement",
+      "diocletian-reforms"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -393,7 +421,7 @@
   {
     "id": "trade-collapse",
     "title": "Trade Network Collapse",
-    "year": 280,
+    "year": 290,
     "keyword": "pressure",
     "summary": "Roman trade networks that spanned from Britain to Mesopotamia began to break down under inflation, insecurity, and political fragmentation. Cities that depended on commerce shrank or disappeared.",
     "causeIds": [
@@ -402,7 +430,8 @@
     ],
     "effectIds": [
       "economic-decline",
-      "urban-decline"
+      "urban-decline",
+      "dark-ages-begin"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -488,7 +517,7 @@
   {
     "id": "pagan-roman-identity-weakens",
     "title": "Roman Civic Identity Weakens",
-    "year": 380,
+    "year": 390,
     "keyword": "shift",
     "summary": "As Christianity became dominant, the traditional Roman civic religion and identity that had unified the empire for centuries faded. Loyalty shifted from Rome as an institution to the Church as a universal community.",
     "causeIds": [
@@ -539,8 +568,8 @@
       "visigoths-cross-danube"
     ],
     "effectIds": [
-      "reliance-on-mercenaries",
-      "barbarian-influence"
+      "barbarian-influence",
+      "loss-of-central-authority"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -571,7 +600,8 @@
       "western-fragmentation"
     ],
     "effectIds": [
-      "feudalism-emerges"
+      "feudalism-emerges",
+      "latin-language-fragments"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -583,10 +613,11 @@
     "keyword": "consequence",
     "summary": "The Eastern Roman Empire — later called the Byzantine Empire — continued for another thousand years. Its survival preserved Roman law, Greek learning, and Christian theology through the medieval period.",
     "causeIds": [
-      "east-west-split",
-      "western-fragmentation"
+      "east-west-split"
     ],
-    "effectIds": [],
+    "effectIds": [
+      "roman-knowledge-preserved"
+    ],
     "isAnchor": false,
     "isSeed": false
   },
@@ -601,7 +632,8 @@
       "constantines-conversion"
     ],
     "effectIds": [
-      "feudalism-emerges"
+      "feudalism-emerges",
+      "roman-knowledge-preserved"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -614,7 +646,8 @@
     "summary": "Without Roman centralized government, local strongmen offered protection in exchange for loyalty and labor. This decentralized arrangement of lords and serfs became the defining political structure of medieval Europe.",
     "causeIds": [
       "germanic-kingdoms",
-      "church-fills-vacuum"
+      "church-fills-vacuum",
+      "dark-ages-begin"
     ],
     "effectIds": [],
     "isAnchor": false,
