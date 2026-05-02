@@ -1,24 +1,14 @@
-import { useMemo, useEffect, useCallback } from 'react';
-import {
-  ReactFlow,
-  Background,
-  Controls,
-  useReactFlow,
-  type Node,
-  type Edge,
-  MarkerType,
-} from '@xyflow/react';
-import '@xyflow/react/dist/style.css';
-import type { CatenoScenario } from '../types';
-import { TYPE_COLORS } from '../types';
-import { CatenoNodeRenderer } from './CatenoNode';
-import type { CatenoNodeData } from './CatenoNode';
+import { useMemo, useEffect, useCallback } from "react";
+import { ReactFlow, Background, Controls, useReactFlow, type Node, type Edge, MarkerType } from "@xyflow/react";
+import "@xyflow/react/dist/style.css";
+import type { CatenoScenario } from "../types";
+import { TYPE_COLORS } from "../types";
+import { CatenoNodeRenderer } from "./CatenoNode";
+import type { CatenoNodeData } from "./CatenoNode";
 
 const NODE_W = 200;
 const NODE_H = 72;
-const CANVAS_WIDTH = 4200; // horizontal span in world px (100 AD → max year)
-const MARGIN_X = 200;      // left padding before the first year
-const Y_STEP = 120;        // vertical gap between same-year node centres
+const Y_STEP = 120; // vertical gap between same-year node centres
 
 const nodeTypes = { cateno: CatenoNodeRenderer };
 
@@ -38,7 +28,7 @@ function yForSlot(slot: number): number {
 //
 // The anchor is always processed first so it always lands on slot 0 (Y = 0).
 
-const COLUMN_WIDTH = 280;   // world-px between causal depth columns
+const COLUMN_WIDTH = 280; // world-px between causal depth columns
 
 function buildLayout(scenario: CatenoScenario): {
   positions: Map<string, { x: number; y: number }>;
@@ -129,13 +119,11 @@ function PanController({ focusedNodeId, positions }: PanControllerProps) {
       const cx = pos.x + NODE_W / 2;
       const cy = pos.y + NODE_H / 2;
       const zoom = Math.max(getZoom(), 0.72);
-      const viewportW =
-        (document.querySelector('.react-flow') as HTMLElement | null)?.clientWidth ??
-        window.innerWidth;
+      const viewportW = (document.querySelector(".react-flow") as HTMLElement | null)?.clientWidth ?? window.innerWidth;
       const offsetX = (0.15 * viewportW) / zoom;
       setCenter(cx + offsetX, cy, { zoom, duration });
     },
-    [positions, getZoom, setCenter],
+    [positions, getZoom, setCenter]
   );
 
   useEffect(() => {
@@ -169,10 +157,7 @@ export function CatenoGraph({
   // Layout is computed once per scenario — never recalculated as nodes are revealed.
   const { positions, depth } = useMemo(() => buildLayout(scenario), [scenario]);
 
-  const nodeMap = useMemo(
-    () => new Map(scenario.nodes.map((n) => [n.id, n])),
-    [scenario],
-  );
+  const nodeMap = useMemo(() => new Map(scenario.nodes.map((n) => [n.id, n])), [scenario]);
 
   // Open with the anchor at 35% from the left, vertically centred in the canvas
   // (canvas = full window minus header ~60px and timeline bar ~44px).
@@ -205,12 +190,11 @@ export function CatenoGraph({
       const isFocused = id === focusedNodeId;
       const isDimmed = hasFocus && !connectedIds.has(id);
 
-      const hiddenCount =
-        [...n.causeIds, ...n.effectIds].filter((cid) => !visibleNodeIds.has(cid)).length;
+      const hiddenCount = [...n.causeIds, ...n.effectIds].filter((cid) => !visibleNodeIds.has(cid)).length;
 
       nodes.push({
         id,
-        type: 'cateno',
+        type: "cateno",
         position: pos,
         data: {
           title: n.title,
@@ -238,8 +222,7 @@ export function CatenoGraph({
         if (seen.has(key)) continue;
         seen.add(key);
 
-        const isActive =
-          hasFocus && (n.id === focusedNodeId || effectId === focusedNodeId);
+        const isActive = hasFocus && (n.id === focusedNodeId || effectId === focusedNodeId);
         const isDimmedEdge = hasFocus && !isActive;
         const typeColor = TYPE_COLORS[n.keyword];
 
@@ -251,18 +234,18 @@ export function CatenoGraph({
           id: key,
           source: n.id,
           target: effectId,
-          type: 'smoothstep',
+          type: "smoothstep",
           style: {
-            stroke: isActive ? typeColor : '#2A2A2A',
+            stroke: isActive ? typeColor : "#2A2A2A",
             strokeWidth: isActive ? 2.5 : 1.5,
-            strokeDasharray: isLongRange ? '6 4' : undefined,
+            strokeDasharray: isLongRange ? "6 4" : undefined,
             opacity: isDimmedEdge ? 0.15 : 1,
-            filter: isActive ? `drop-shadow(0 0 4px ${typeColor}88)` : 'none',
-            transition: 'stroke 0.25s, opacity 0.25s, filter 0.25s',
+            filter: isActive ? `drop-shadow(0 0 4px ${typeColor}88)` : "none",
+            transition: "stroke 0.25s, opacity 0.25s, filter 0.25s",
           },
           markerEnd: {
             type: MarkerType.ArrowClosed,
-            color: isActive ? typeColor : '#2A2A2A',
+            color: isActive ? typeColor : "#2A2A2A",
             width: isActive ? 14 : 11,
             height: isActive ? 14 : 11,
           },

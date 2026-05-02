@@ -1,9 +1,9 @@
-import { memo } from 'react';
-import { Handle, Position } from '@xyflow/react';
-import type { NodeProps } from '@xyflow/react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { TYPE_COLORS } from '../types';
-import type { NodeType } from '../types';
+import { memo } from "react";
+import { Handle, Position } from "@xyflow/react";
+import type { NodeProps } from "@xyflow/react";
+import { motion, AnimatePresence } from "framer-motion";
+import { TYPE_COLORS } from "../types";
+import type { NodeType } from "../types";
 
 export interface CatenoNodeData {
   title: string;
@@ -32,7 +32,7 @@ function CatenoNodeComponent({ data }: NodeProps) {
     isFocused = false,
     isDimmed = false,
     hiddenCount = 0,
-  } = data as CatenoNodeData;
+  } = data as unknown as CatenoNodeData;
   const color = TYPE_COLORS[keyword];
 
   return (
@@ -42,7 +42,7 @@ function CatenoNodeComponent({ data }: NodeProps) {
       style={{
         width: W_REST,
         height: H_REST,
-        position: 'relative',
+        position: "relative",
         zIndex: isFocused ? 50 : 1,
       }}
     >
@@ -60,25 +60,25 @@ function CatenoNodeComponent({ data }: NodeProps) {
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0, opacity: 0 }}
-            transition={{ duration: 0.18, ease: 'easeOut' }}
+            transition={{ duration: 0.18, ease: "easeOut" }}
             style={{
-              position: 'absolute',
+              position: "absolute",
               top: -6,
               right: -6,
               minWidth: 16,
               height: 16,
               borderRadius: 8,
               background: color,
-              color: '#0D0D0D',
+              color: "#0D0D0D",
               fontSize: 9,
-              fontFamily: 'DM Sans, sans-serif',
+              fontFamily: "DM Sans, sans-serif",
               fontWeight: 700,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
               paddingInline: 4,
               zIndex: 60,
-              pointerEvents: 'none',
+              pointerEvents: "none",
               boxShadow: `0 0 6px ${color}88`,
             }}
           >
@@ -91,14 +91,14 @@ function CatenoNodeComponent({ data }: NodeProps) {
       {isAnchor && !isDimmed && (
         <motion.div
           style={{
-            position: 'absolute',
-            top: '50%',
-            left: '50%',
-            x: '-50%',
-            y: '-50%',
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            x: "-50%",
+            y: "-50%",
             borderRadius: 8,
             border: `1.5px solid ${color}`,
-            pointerEvents: 'none',
+            pointerEvents: "none",
           }}
           animate={{
             width: [W_REST + 6, W_REST + 24],
@@ -108,7 +108,7 @@ function CatenoNodeComponent({ data }: NodeProps) {
           transition={{
             duration: 2.2,
             repeat: Infinity,
-            ease: 'easeOut',
+            ease: "easeOut",
           }}
         />
       )}
@@ -117,15 +117,14 @@ function CatenoNodeComponent({ data }: NodeProps) {
       <motion.div
         style={{
           borderColor: color,
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          x: '-50%',
-          y: '-50%',
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          x: "-50%",
+          y: "-50%",
           zIndex: isFocused ? 50 : 1,
           // Fix 2: seed glow affordance — a faint type-colour halo
-          boxShadow:
-            isSeed && !isFocused && !isDimmed ? `0 0 10px ${color}2e` : 'none',
+          boxShadow: isSeed && !isFocused && !isDimmed ? `0 0 10px ${color}2e` : "none",
         }}
         initial={{ scale: 0.82, opacity: 0 }}
         animate={{
@@ -134,13 +133,13 @@ function CatenoNodeComponent({ data }: NodeProps) {
           width: isFocused ? W_FOCUS : W_REST,
           height: isFocused ? H_FOCUS : H_REST,
         }}
-        transition={{ duration: 0.22, ease: 'easeOut' }}
+        transition={{ duration: 0.22, ease: "easeOut" }}
         className="rounded-md border bg-[#1C1C1C] px-3 py-2.5 flex flex-col justify-center gap-2 overflow-hidden cursor-pointer"
       >
         {/* Fix 2: two-line clamped title with word wrap */}
         <p
           className="text-[#E8E3D5] text-[12px] font-medium font-sans m-0 select-none line-clamp-2"
-          style={{ lineHeight: '1.4', wordBreak: 'break-word' }}
+          style={{ lineHeight: "1.4", wordBreak: "break-word" }}
         >
           {title}
         </p>
@@ -155,9 +154,7 @@ function CatenoNodeComponent({ data }: NodeProps) {
               transition={{ duration: 0.16, delay: 0.08 }}
               className="flex items-center gap-2"
             >
-              <span className="text-[#E8E3D5]/45 text-[11px] font-sans select-none">
-                {year}
-              </span>
+              <span className="text-[#E8E3D5]/45 text-[11px] font-sans select-none">{year}</span>
               <span
                 className="text-[10px] font-sans px-1.5 py-[2px] rounded font-medium uppercase tracking-widest select-none"
                 style={{

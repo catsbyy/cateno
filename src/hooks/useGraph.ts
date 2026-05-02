@@ -1,15 +1,12 @@
-import { useState, useCallback, useMemo } from 'react';
-import type { CatenoScenario } from '../types';
+import { useState, useCallback, useMemo } from "react";
+import type { CatenoScenario } from "../types";
 
 export function useGraph(scenario: CatenoScenario) {
-  const nodeMap = useMemo(
-    () => new Map(scenario.nodes.map((n) => [n.id, n])),
-    [scenario],
-  );
+  const nodeMap = useMemo(() => new Map(scenario.nodes.map((n) => [n.id, n])), [scenario]);
 
   const seedIds = useMemo(
     () => new Set(scenario.nodes.filter((n) => n.isAnchor || n.isSeed).map((n) => n.id)),
-    [scenario],
+    [scenario]
   );
 
   const [visibleNodeIds, setVisibleNodeIds] = useState<Set<string>>(seedIds);
@@ -37,7 +34,7 @@ export function useGraph(scenario: CatenoScenario) {
 
       setFocusedNodeId(nodeId);
     },
-    [nodeMap],
+    [nodeMap]
   );
 
   const clearFocus = useCallback(() => {
