@@ -18,6 +18,7 @@ function KeywordLegend({ isOpen }: { isOpen: boolean }) {
     <motion.div
       animate={{ right: isOpen ? 356 : 16 }}
       transition={{ duration: 0.28, ease: [0.32, 0, 0.18, 1] }}
+      className="hidden md:block"
       style={{
         position: 'fixed',
         bottom: 64,

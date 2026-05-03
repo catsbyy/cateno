@@ -1,5 +1,6 @@
 import { useMemo, useEffect, useCallback } from "react";
 import { ReactFlow, Controls, useReactFlow, type Node, type Edge, MarkerType, Background } from "@xyflow/react";
+import { useIsMobile } from "../hooks/useIsMobile";
 import "@xyflow/react/dist/style.css";
 import type { CatenoScenario } from "../types";
 import { TYPE_COLORS } from "../types";
@@ -104,14 +105,14 @@ function buildLayout(scenario: CatenoScenario): {
 interface PanControllerProps {
   focusedNodeId: string | null;
   positions: Map<string, { x: number; y: number }>;
+  isMobile: boolean;
 }
 
-function PanController({ focusedNodeId, positions }: PanControllerProps) {
+function PanController({ focusedNodeId, positions, isMobile }: PanControllerProps) {
   const { setCenter, getZoom } = useReactFlow();
 
   // Pan so the clicked node lands at ~35% from the left edge of the viewport.
-  // setCenter(cx, cy) centres that world point at 50% screen width.
-  // Adding 15% of viewport-width-in-world-units shifts the node left to 35%.
+  // Skipped on mobile — panning fights the user's own pinch/scroll gestures.
   const panTo = useCallback(
     (nodeId: string, duration: number) => {
       const pos = positions.get(nodeId);
@@ -127,10 +128,10 @@ function PanController({ focusedNodeId, positions }: PanControllerProps) {
   );
 
   useEffect(() => {
-    if (!focusedNodeId) return;
+    if (!focusedNodeId || isMobile) return;
     const id = setTimeout(() => panTo(focusedNodeId, 600), 60);
     return () => clearTimeout(id);
-  }, [focusedNodeId, panTo]);
+  }, [focusedNodeId, panTo, isMobile]);
 
   return null;
 }
@@ -154,6 +155,8 @@ export function CatenoGraph({
   onNodeClick,
   onPaneClick,
 }: CatenoGraphProps) {
+  const isMobile = useIsMobile();
+
   // Layout is computed once per scenario — never recalculated as nodes are revealed.
   const { positions } = useMemo(() => buildLayout(scenario), [scenario]);
 
@@ -252,7 +255,7 @@ export function CatenoGraph({
   }, [visibleNodeIds, focusedNodeId, connectedIds, nodeMap, positions, scenario]);
 
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full" style={{ touchAction: 'none' }}>
       <ReactFlow
         nodes={nodes}
         edges={edges}
@@ -260,14 +263,14 @@ export function CatenoGraph({
         onNodeClick={(_, node) => onNodeClick(node.id)}
         onPaneClick={onPaneClick}
         defaultViewport={defaultViewport}
-        minZoom={0.05}
+        minZoom={isMobile ? 0.3 : 0.05}
         maxZoom={2}
         colorMode="dark"
         elevateEdgesOnSelect={false}
       >
-        <PanController focusedNodeId={focusedNodeId} positions={positions} />
+        <PanController focusedNodeId={focusedNodeId} positions={positions} isMobile={isMobile} />
         <Background color="#181818" gap={28} size={1} />
-        <Controls />
+        {!isMobile && <Controls />}
       </ReactFlow>
     </div>
   );

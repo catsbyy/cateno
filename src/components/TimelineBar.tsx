@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import type { CatenoScenario } from "../types";
 import { TYPE_COLORS } from "../types";
+import { useIsMobile } from "../hooks/useIsMobile";
 
 function parsePeriod(period: string): [number, number] {
   const nums = period.match(/\d+/g)?.map(Number) ?? [];
@@ -19,6 +20,7 @@ interface TimelineBarProps {
 }
 
 export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeClick }: TimelineBarProps) {
+  const isMobile = useIsMobile();
   const [periodStart, periodEnd] = parsePeriod(scenario.period);
   const periodSpan = periodEnd - periodStart || 1;
   const isAD = scenario.period.includes("AD");
@@ -55,19 +57,22 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
     [pivotalYears, intervalTickSet]
   );
 
+  // Focused node's year — shown as a label on mobile only
+  const focusedNode = focusedNodeId ? scenario.nodes.find((n) => n.id === focusedNodeId) : null;
+
   const pct = (year: number) => clampPct(((year - periodStart) / periodSpan) * 100);
 
-  // ── Track geometry (all in px, relative to the 28px track container) ─────
-  // Line:       top 8, height 2  (centre at 9)
-  // Ticks:      top 4, height 8–13 (straddle the line)
-  // Dot centre: 9 (on the line)
-  // Labels:     top 20 (below ticks, ~10px font)
+  // ── Track geometry ─────────────────────────────────────────────────────────
   const LINE_TOP = 8;
-  const DOT_CY = LINE_TOP + 1; // centre of 2px line
+  const DOT_CY = LINE_TOP + 1;
+
+  // Dot size: larger on mobile for easier tapping
+  const dotResting = isMobile ? 8 : 6;
+  const dotFocused = isMobile ? 10 : 8;
 
   return (
     <div
-      className="shrink-0 flex items-center px-6 gap-4 select-none"
+      className="shrink-0 flex items-center px-4 md:px-6 gap-3 md:gap-4 select-none"
       style={{
         height: 44,
         borderTop: "1px solid #2e2e2e",
@@ -95,8 +100,8 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
           }}
         />
 
-        {/* Interval ticks + year labels */}
-        {intervalTicks.map((year) => {
+        {/* Interval ticks + year labels — desktop only */}
+        {!isMobile && intervalTicks.map((year) => {
           const p = pct(year);
           const isPivotal = pivotalYears.has(year);
           return (
@@ -114,7 +119,6 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
                 pointerEvents: "none",
               }}
             >
-              {/* Tick mark — taller + brighter for pivotal years */}
               <div
                 style={{
                   width: isPivotal ? 1.5 : 1,
@@ -123,7 +127,6 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
                   borderRadius: 1,
                 }}
               />
-              {/* Year label */}
               <span
                 style={{
                   fontSize: 10,
@@ -141,8 +144,8 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
           );
         })}
 
-        {/* Pivotal-only ticks (non-interval years with 2+ nodes — tick, no label) */}
-        {pivotalOnly.map((year) => {
+        {/* Pivotal-only ticks — desktop only */}
+        {!isMobile && pivotalOnly.map((year) => {
           const p = pct(year);
           return (
             <div
@@ -162,6 +165,39 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
           );
         })}
 
+        {/* Focused node year label — mobile only */}
+        {isMobile && focusedNode && (
+          <div
+            key={`focused-year`}
+            style={{
+              position: "absolute",
+              left: `${pct(focusedNode.year)}%`,
+              top: 4,
+              transform: "translateX(-50%)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: 2,
+              pointerEvents: "none",
+            }}
+          >
+            <div style={{ width: 1.5, height: 10, background: TYPE_COLORS[focusedNode.keyword], borderRadius: 1 }} />
+            <span
+              style={{
+                fontSize: 10,
+                lineHeight: 1,
+                color: TYPE_COLORS[focusedNode.keyword],
+                opacity: 0.85,
+                fontFamily: "DM Sans, sans-serif",
+                whiteSpace: "nowrap",
+                letterSpacing: "0.02em",
+              }}
+            >
+              {focusedNode.year}
+            </span>
+          </div>
+        )}
+
         {/* Node event dots */}
         {visibleNodes.map((node) => {
           const p = pct(node.year);
@@ -178,8 +214,8 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
                 left: `${p}%`,
                 top: DOT_CY,
                 transform: "translateX(-50%) translateY(-50%)",
-                width: isFocused ? 8 : 6,
-                height: isFocused ? 8 : 6,
+                width: isFocused ? dotFocused : dotResting,
+                height: isFocused ? dotFocused : dotResting,
                 borderRadius: "50%",
                 background: isFocused ? color : "#3a3a3a",
                 border: isFocused ? `2px solid ${color}` : "1px solid #4a4a4a",
@@ -198,10 +234,12 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
         {isAD ? " AD" : ""}
       </span>
 
-      {/* Node count */}
-      <span className="text-[#E8E3D5]/20 text-[10px] font-sans whitespace-nowrap">
-        {visibleNodes.length} / {scenario.nodes.length} events
-      </span>
+      {/* Node count — desktop only */}
+      {!isMobile && (
+        <span className="text-[#E8E3D5]/20 text-[10px] font-sans whitespace-nowrap">
+          {visibleNodes.length} / {scenario.nodes.length} events
+        </span>
+      )}
     </div>
   );
 }
