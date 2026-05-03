@@ -70,12 +70,12 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
       className="shrink-0 flex items-center px-6 gap-4 select-none"
       style={{
         height: 44,
-        borderTop: "1px solid #1a1a1a",
+        borderTop: "1px solid #2e2e2e",
         background: "#0A0A0A",
       }}
     >
       {/* Start year */}
-      <span className="text-[#E8E3D5]/25 text-[11px] font-sans tabular-nums whitespace-nowrap">
+      <span className="text-[#E8E3D5]/50 text-[11px] font-sans tabular-nums whitespace-nowrap">
         {periodStart}
         {isAD ? " AD" : ""}
       </span>
@@ -90,7 +90,7 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
             left: 0,
             right: 0,
             height: 2,
-            background: "#1e1e1e",
+            background: "#333333",
             borderRadius: 1,
           }}
         />
@@ -129,7 +129,7 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
                   fontSize: 10,
                   lineHeight: 1,
                   color: "#E8E3D5",
-                  opacity: isPivotal ? 0.45 : 0.28,
+                  opacity: isPivotal ? 0.65 : 0.45,
                   fontFamily: "DM Sans, sans-serif",
                   whiteSpace: "nowrap",
                   letterSpacing: "0.02em",
@@ -193,7 +193,7 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
       </div>
 
       {/* End year */}
-      <span className="text-[#E8E3D5]/25 text-[11px] font-sans tabular-nums whitespace-nowrap">
+      <span className="text-[#E8E3D5]/50 text-[11px] font-sans tabular-nums whitespace-nowrap">
         {periodEnd}
         {isAD ? " AD" : ""}
       </span>

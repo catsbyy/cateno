@@ -1,5 +1,5 @@
 import { useMemo, useEffect, useCallback } from "react";
-import { ReactFlow, Background, Controls, useReactFlow, type Node, type Edge, MarkerType } from "@xyflow/react";
+import { ReactFlow, Controls, useReactFlow, type Node, type Edge, MarkerType, Background } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import type { CatenoScenario } from "../types";
 import { TYPE_COLORS } from "../types";
@@ -236,8 +236,8 @@ export function CatenoGraph({
           target: effectId,
           type: "smoothstep",
           style: {
-            stroke: isActive ? typeColor : "#2A2A2A",
-            strokeWidth: isActive ? 2.5 : 1.5,
+            stroke: isActive ? typeColor : "#3A3A3A",
+            strokeWidth: isActive ? 2.5 : 2,
             strokeDasharray: isLongRange ? "6 4" : undefined,
             opacity: isDimmedEdge ? 0.15 : 1,
             filter: isActive ? `drop-shadow(0 0 4px ${typeColor}88)` : "none",
@@ -245,7 +245,7 @@ export function CatenoGraph({
           },
           markerEnd: {
             type: MarkerType.ArrowClosed,
-            color: isActive ? typeColor : "#2A2A2A",
+            color: isActive ? typeColor : "#3A3A3A",
             width: isActive ? 14 : 11,
             height: isActive ? 14 : 11,
           },
