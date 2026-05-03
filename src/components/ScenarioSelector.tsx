@@ -30,12 +30,10 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
             <motion.button
               key={scenario.id}
               onClick={() => onSelect(scenario)}
-              className="flex-1 text-left rounded-lg border p-6 cursor-pointer transition-colors duration-200 group"
-              style={{ background: "#111111", borderColor: "#222222" }}
+              className="flex-1 text-left rounded-lg border border-[#222222] bg-[#111111] hover:border-[#383838] hover:bg-[#161616] p-6 cursor-pointer transition-colors duration-[120ms] ease-out group"
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.45, delay: 0.12 + i * 0.08, ease: "easeOut" }}
-              whileHover={{ borderColor: "#383838", backgroundColor: "#161616" }}
             >
               {/* Period */}
               <p className="text-[#E8E3D5]/30 text-[10px] font-sans uppercase tracking-[0.2em] mb-4">

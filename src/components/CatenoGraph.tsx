@@ -226,26 +226,21 @@ export function CatenoGraph({
         const isDimmedEdge = hasFocus && !isActive;
         const typeColor = TYPE_COLORS[n.keyword];
 
-        const sourceDepth = depth.get(n.id) ?? 0;
-        const targetDepth = depth.get(effectId) ?? 0;
-        const isLongRange = Math.abs(sourceDepth - targetDepth) > 1;
-
         edges.push({
           id: key,
           source: n.id,
           target: effectId,
           type: "smoothstep",
           style: {
-            stroke: isActive ? typeColor : "#3A3A3A",
+            stroke: isActive ? typeColor : "#484848",
             strokeWidth: isActive ? 2.5 : 2,
-            strokeDasharray: isLongRange ? "6 4" : undefined,
-            opacity: isDimmedEdge ? 0.15 : 1,
+            opacity: isDimmedEdge ? 0.2 : 1,
             filter: isActive ? `drop-shadow(0 0 4px ${typeColor}88)` : "none",
             transition: "stroke 0.25s, opacity 0.25s, filter 0.25s",
           },
           markerEnd: {
             type: MarkerType.ArrowClosed,
-            color: isActive ? typeColor : "#3A3A3A",
+            color: isActive ? typeColor : "#484848",
             width: isActive ? 14 : 11,
             height: isActive ? 14 : 11,
           },
@@ -254,7 +249,7 @@ export function CatenoGraph({
     }
 
     return { nodes, edges };
-  }, [visibleNodeIds, focusedNodeId, connectedIds, nodeMap, positions, depth, scenario]);
+  }, [visibleNodeIds, focusedNodeId, connectedIds, nodeMap, positions, scenario]);
 
   return (
     <div className="w-full h-full">
