@@ -155,7 +155,7 @@ export function CatenoGraph({
   onPaneClick,
 }: CatenoGraphProps) {
   // Layout is computed once per scenario — never recalculated as nodes are revealed.
-  const { positions, depth } = useMemo(() => buildLayout(scenario), [scenario]);
+  const { positions } = useMemo(() => buildLayout(scenario), [scenario]);
 
   const nodeMap = useMemo(() => new Map(scenario.nodes.map((n) => [n.id, n])), [scenario]);
 
