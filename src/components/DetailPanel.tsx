@@ -1,7 +1,135 @@
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { CatenoNode } from "../types";
 import { TYPE_COLORS } from "../types";
 import { useIsMobile } from "../hooks/useIsMobile";
+
+// ─── Wikipedia image fetch ────────────────────────────────────────────────────
+
+const STOP_WORDS = new Set(["of", "the", "a", "an", "in", "at", "on", "and", "to", "for"]);
+
+function toWikiTitle(text: string) {
+  return text.replace(/\s+/g, "_");
+}
+
+async function fetchWikiThumbnail(title: string, signal: AbortSignal): Promise<string | null> {
+  try {
+    const res = await fetch(
+      `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`,
+      { signal }
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    return (data.thumbnail?.source as string) ?? null;
+  } catch {
+    return null;
+  }
+}
+
+function useWikiImage(node: CatenoNode | null) {
+  const [imageUrl, setImageUrl] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (!node) {
+      setImageUrl(null);
+      setLoading(false);
+      return;
+    }
+
+    const controller = new AbortController();
+    const { signal } = controller;
+
+    (async () => {
+      setLoading(true);
+      setImageUrl(null);
+
+      // Attempt 1: full title
+      let url = await fetchWikiThumbnail(toWikiTitle(node.title), signal);
+
+      // Attempt 2: title without stop words
+      if (!url && !signal.aborted) {
+        const filtered = node.title
+          .split(" ")
+          .filter((w) => !STOP_WORDS.has(w.toLowerCase()))
+          .join("_");
+        if (filtered !== toWikiTitle(node.title)) {
+          url = await fetchWikiThumbnail(filtered, signal);
+        }
+      }
+
+      // Attempt 3: first meaningful word only
+      if (!url && !signal.aborted) {
+        const firstWord = node.title.split(" ").find((w) => !STOP_WORDS.has(w.toLowerCase())) ?? node.title.split(" ")[0];
+        url = await fetchWikiThumbnail(firstWord, signal);
+      }
+
+      if (!signal.aborted) {
+        setImageUrl(url);
+        setLoading(false);
+      }
+    })();
+
+    return () => controller.abort();
+  }, [node?.id]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  return { imageUrl, loading };
+}
+
+// ─── Image header ─────────────────────────────────────────────────────────────
+
+function WikiImageHeader({ imageUrl, loading, height, panelBg }: {
+  imageUrl: string | null;
+  loading: boolean;
+  height: number;
+  panelBg: string;
+}) {
+  const [imgLoaded, setImgLoaded] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  // Reset loaded state when url changes; if already cached, mark loaded immediately
+  useEffect(() => {
+    setImgLoaded(false);
+    // If the browser served from cache, onLoad already fired before React attached it
+    if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) {
+      setImgLoaded(true);
+    }
+  }, [imageUrl]);
+
+  // Show placeholder while loading; collapse if no image after load
+  if (!loading && !imageUrl) return null;
+
+  return (
+    <div
+      className="shrink-0 relative overflow-hidden"
+      style={{ height, background: "#1a1a1a" }}
+    >
+      {imageUrl && (
+        <img
+          ref={imgRef}
+          src={imageUrl}
+          alt=""
+          onLoad={() => setImgLoaded(true)}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            opacity: imgLoaded ? 1 : 0,
+            transition: "opacity 0.4s ease",
+          }}
+        />
+      )}
+      {/* Gradient: transparent → panel background */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          background: `linear-gradient(to bottom, transparent 20%, ${panelBg} 100%)`,
+        }}
+      />
+    </div>
+  );
+}
 
 // ─── Chip ────────────────────────────────────────────────────────────────────
 
@@ -32,13 +160,15 @@ interface DetailPanelProps {
   effectNodes: CatenoNode[];
   onNodeClick: (id: string) => void;
   onClose: () => void;
-  /** Called when a cause/effect chip is clicked — same as clicking the node on the graph */
   onChipClick: (id: string) => void;
 }
+
+const PANEL_BG = "#141414";
 
 export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClick }: DetailPanelProps) {
   const isMobile = useIsMobile();
   const color = node ? TYPE_COLORS[node.keyword] : "#ffffff";
+  const { imageUrl, loading: imageLoading } = useWikiImage(node);
 
   if (isMobile) {
     return (
@@ -62,7 +192,7 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
               className="absolute bottom-0 left-0 right-0 z-30 flex flex-col rounded-t-2xl overflow-hidden"
               style={{
                 height: "55vh",
-                background: "#141414",
+                background: PANEL_BG,
                 borderTop: "1px solid #2a2a2a",
                 boxShadow: "0 -12px 40px rgba(0,0,0,0.6)",
               }}
@@ -78,8 +208,11 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
                 <div className="w-9 h-1 rounded-full bg-[#444]" />
               </div>
 
+              {/* Wikipedia image */}
+              <WikiImageHeader imageUrl={imageUrl} loading={imageLoading} height={120} panelBg={PANEL_BG} />
+
               {/* Header */}
-              <div className="shrink-0 px-5 pt-2 pb-4" style={{ borderBottom: "1px solid #222" }}>
+              <div className="shrink-0 px-5 pt-3 pb-4" style={{ borderBottom: "1px solid #222" }}>
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-[#E8E3D5]/35 text-[12px] font-sans tracking-wider">{node.year}</span>
                   <button
@@ -103,12 +236,10 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
 
               {/* Scrollable body */}
               <div className="flex-1 overflow-y-auto">
-                {/* Summary */}
                 <div className="px-5 py-4" style={{ borderBottom: "1px solid #1e1e1e" }}>
                   <p className="text-[#E8E3D5]/75 text-[15px] font-sans leading-[1.6]">{node.summary}</p>
                 </div>
 
-                {/* Caused by */}
                 {causeNodes.length > 0 && (
                   <div className="px-5 py-4" style={{ borderBottom: "1px solid #1e1e1e" }}>
                     <p className="text-[#E8E3D5]/30 text-[11px] font-sans uppercase tracking-widest mb-3">Caused by</p>
@@ -120,7 +251,6 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
                   </div>
                 )}
 
-                {/* Led to */}
                 {effectNodes.length > 0 && (
                   <div className="px-5 py-4">
                     <p className="text-[#E8E3D5]/30 text-[11px] font-sans uppercase tracking-widest mb-3">Led to</p>
@@ -151,15 +281,18 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
           transition={{ duration: 0.28, ease: [0.32, 0, 0.18, 1] }}
           className="absolute top-0 right-0 h-full w-[340px] flex flex-col z-30"
           style={{
-            background: "#141414",
+            background: PANEL_BG,
             borderLeft: "1px solid #252525",
             boxShadow: "-12px 0 40px rgba(0,0,0,0.55)",
           }}
           onMouseDown={(e) => e.stopPropagation()}
           onClick={(e) => e.stopPropagation()}
         >
+          {/* Wikipedia image */}
+          <WikiImageHeader imageUrl={imageUrl} loading={imageLoading} height={160} panelBg={PANEL_BG} />
+
           {/* ── Header ── */}
-          <div className="shrink-0 px-6 pt-6 pb-5" style={{ borderBottom: "1px solid #222" }}>
+          <div className="shrink-0 px-6 pt-5 pb-5" style={{ borderBottom: "1px solid #222" }}>
             <div className="flex items-center justify-between mb-3">
               <span className="text-[#E8E3D5]/35 text-[12px] font-sans tracking-wider">{node.year}</span>
               <button

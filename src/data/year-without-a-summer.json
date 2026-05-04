@@ -1,0 +1,499 @@
+[
+  {
+    "id": "mount-tambora-eruption",
+    "title": "Mount Tambora Erupts",
+    "year": 1815,
+    "keyword": "spark",
+    "summary": "On April 10, 1815, Mount Tambora in Indonesia erupted in the most powerful volcanic event in recorded history — releasing energy equivalent to 800,000 Hiroshima bombs. Around 71,000 people died immediately from the blast, pyroclastic flows, and tsunamis.",
+    "causeIds": [],
+    "effectIds": [
+      "volcanic-aerosols",
+      "tambora-local-devastation"
+    ],
+    "isAnchor": true,
+    "isSeed": true
+  },
+  {
+    "id": "tambora-local-devastation",
+    "title": "Local Devastation in Indonesia",
+    "year": 1815,
+    "keyword": "collapse",
+    "summary": "The island of Sumbawa was almost entirely destroyed. Three kingdoms were wiped out, and the Tamboran language became extinct — one of the few languages ever erased by a natural disaster.",
+    "causeIds": [
+      "mount-tambora-eruption"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "volcanic-aerosols",
+    "title": "Volcanic Aerosols in Stratosphere",
+    "year": 1815,
+    "keyword": "catalyst",
+    "summary": "Tambora ejected over 150 cubic kilometres of material, including massive amounts of sulphur dioxide into the stratosphere. These particles formed a reflective veil around the entire planet, persisting for years.",
+    "causeIds": [
+      "mount-tambora-eruption"
+    ],
+    "effectIds": [
+      "reduced-solar-radiation",
+      "darkened-skies"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "reduced-solar-radiation",
+    "title": "Sunlight Reduced Globally",
+    "year": 1815,
+    "keyword": "pressure",
+    "summary": "The stratospheric aerosols reflected sunlight away from Earth's surface, reducing solar energy reaching the ground by an estimated 5–10%. The effect was global and persisted through 1817.",
+    "causeIds": [
+      "volcanic-aerosols"
+    ],
+    "effectIds": [
+      "global-temperature-drop"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "darkened-skies",
+    "title": "Vivid Sunsets and Dark Skies",
+    "year": 1815,
+    "keyword": "shift",
+    "summary": "The aerosol veil produced spectacularly coloured sunsets across Europe and North America — deep reds and purples that painters and poets recorded obsessively. The painter J.M.W. Turner's famous fiery skies from this period are directly attributable to Tambora's aerosols.",
+    "causeIds": [
+      "volcanic-aerosols"
+    ],
+    "effectIds": [
+      "turner-paintings",
+      "gloomy-atmosphere"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "global-temperature-drop",
+    "title": "Global Temperature Drop",
+    "year": 1816,
+    "keyword": "turning-point",
+    "summary": "Average global temperatures fell by 0.4–0.7°C — modest on paper but catastrophic for agriculture. Parts of Europe saw temperatures 3°C below average. Snow fell in New England in June. Frost killed crops in July across New York and New England.",
+    "causeIds": [
+      "reduced-solar-radiation"
+    ],
+    "effectIds": [
+      "abnormal-weather",
+      "shortened-growing-season"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "abnormal-weather",
+    "title": "Abnormal Weather Patterns",
+    "year": 1816,
+    "keyword": "pressure",
+    "summary": "1816 brought summer frosts, unseasonal snowfall, and persistent cold rain across Europe and North America. In Switzerland it snowed every month of the year. In China, rice crops failed and the Yangtze River flooded catastrophically.",
+    "causeIds": [
+      "global-temperature-drop"
+    ],
+    "effectIds": [
+      "crop-failures-europe",
+      "crop-failures-north-america",
+      "crop-failures-asia"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "shortened-growing-season",
+    "title": "Shortened Growing Season",
+    "year": 1816,
+    "keyword": "pressure",
+    "summary": "The cold compressed the window in which crops could mature from seed to harvest. Even where crops weren't killed by frost, they never had time to fully grow — yields across Europe dropped by 50–75% in the worst affected regions.",
+    "causeIds": [
+      "global-temperature-drop"
+    ],
+    "effectIds": [
+      "crop-failures-europe"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "crop-failures-europe",
+    "title": "Crop Failures Across Europe",
+    "year": 1816,
+    "keyword": "collapse",
+    "summary": "Harvests failed across France, Germany, Switzerland, and the British Isles. The summer of 1816 was the coldest in 500 years in Europe. Ireland lost its potato crop almost entirely — a grim rehearsal for the Great Famine thirty years later.",
+    "causeIds": [
+      "abnormal-weather",
+      "shortened-growing-season"
+    ],
+    "effectIds": [
+      "grain-price-surge",
+      "food-shortages-europe",
+      "irish-famine-1816"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "crop-failures-north-america",
+    "title": "Crop Failures in North America",
+    "year": 1816,
+    "keyword": "collapse",
+    "summary": "New England farmers saw frosts in every month of 1816. Entire harvests were lost. The event was called 'Eighteen Hundred and Froze to Death' by American settlers. Quebec recorded snowfall in June.",
+    "causeIds": [
+      "abnormal-weather"
+    ],
+    "effectIds": [
+      "new-england-migration",
+      "american-westward-push"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "crop-failures-asia",
+    "title": "Crop Failures in Asia",
+    "year": 1816,
+    "keyword": "collapse",
+    "summary": "The monsoon patterns were disrupted across South and East Asia. China's Yunnan province experienced severe cold and flooding simultaneously. India's monsoon delayed, setting up conditions for the first cholera pandemic.",
+    "causeIds": [
+      "abnormal-weather"
+    ],
+    "effectIds": [
+      "cholera-pandemic"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "irish-famine-1816",
+    "title": "Irish Famine of 1816–1817",
+    "year": 1816,
+    "keyword": "collapse",
+    "summary": "Ireland's potato crop — the primary food source for millions — failed almost completely. An estimated 65,000 people died of famine and fever in 1816–1817. This smaller famine prefigured the catastrophic Great Famine of the 1840s.",
+    "causeIds": [
+      "crop-failures-europe"
+    ],
+    "effectIds": [
+      "european-migration"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "grain-price-surge",
+    "title": "Grain Prices Triple",
+    "year": 1816,
+    "keyword": "pressure",
+    "summary": "Wheat prices across Europe tripled between 1815 and 1817. In some German cities grain prices increased 600%. The poor spent 80–90% of their income on food — leaving nothing for rent, clothing, or fuel as winter approached.",
+    "causeIds": [
+      "crop-failures-europe"
+    ],
+    "effectIds": [
+      "food-shortages-europe",
+      "social-unrest-europe"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "food-shortages-europe",
+    "title": "Famine Across Europe",
+    "year": 1816,
+    "keyword": "pressure",
+    "summary": "The worst famine in Europe in the 19th century unfolded across 1816–1817. An estimated 200,000 people died directly from starvation and hunger-related disease. Beggars overwhelmed cities. Riots broke out at food markets.",
+    "causeIds": [
+      "crop-failures-europe",
+      "grain-price-surge"
+    ],
+    "effectIds": [
+      "social-unrest-europe",
+      "malnutrition",
+      "european-migration"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "social-unrest-europe",
+    "title": "Riots and Social Unrest",
+    "year": 1816,
+    "keyword": "consequence",
+    "summary": "Food riots erupted across France, Germany, and Switzerland. In Würzburg, troops fired on hungry crowds. In France, grain convoys were attacked. Governments teetered. The unrest contributed to a wave of political repression across Europe.",
+    "causeIds": [
+      "food-shortages-europe",
+      "grain-price-surge"
+    ],
+    "effectIds": [
+      "political-repression",
+      "european-migration"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "malnutrition",
+    "title": "Mass Malnutrition",
+    "year": 1816,
+    "keyword": "consequence",
+    "summary": "Widespread hunger left populations weakened and immunocompromised. Children suffered stunted growth. The malnourished poor were catastrophically vulnerable to the diseases that followed.",
+    "causeIds": [
+      "food-shortages-europe"
+    ],
+    "effectIds": [
+      "cholera-pandemic",
+      "typhus-outbreak"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "typhus-outbreak",
+    "title": "Typhus Epidemic",
+    "year": 1816,
+    "keyword": "consequence",
+    "summary": "Typhus swept through weakened, overcrowded populations across Ireland and central Europe. In Ireland alone, an estimated 800,000 people contracted typhus fever in 1816–1819. It killed tens of thousands already weakened by famine.",
+    "causeIds": [
+      "malnutrition"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "cholera-pandemic",
+    "title": "First Cholera Pandemic",
+    "year": 1817,
+    "keyword": "consequence",
+    "summary": "The disruption of India's monsoon created conditions for a cholera outbreak in Bengal in 1817 that spread globally — the first cholera pandemic in history. It killed millions across Asia and eventually reached Europe and the Americas by the 1820s.",
+    "causeIds": [
+      "crop-failures-asia",
+      "malnutrition"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "political-repression",
+    "title": "Political Repression Intensifies",
+    "year": 1817,
+    "keyword": "consequence",
+    "summary": "Terrified by the food riots, European governments cracked down on political dissent. In Britain, the Habeas Corpus Act was suspended in 1817. In Germany, the Carlsbad Decrees of 1819 suppressed liberal movements. The famine paradoxically strengthened reactionary governments.",
+    "causeIds": [
+      "social-unrest-europe"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "european-migration",
+    "title": "Mass Migration from Europe",
+    "year": 1817,
+    "keyword": "shift",
+    "summary": "Hundreds of thousands of Europeans emigrated to escape famine and poverty. German emigration to America surged. Swiss villages emptied. This wave of migration reshaped the ethnic composition of North America and contributed to the growth of the American Midwest.",
+    "causeIds": [
+      "food-shortages-europe",
+      "social-unrest-europe",
+      "irish-famine-1816"
+    ],
+    "effectIds": [
+      "american-population-shift"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "new-england-migration",
+    "title": "New England Exodus",
+    "year": 1816,
+    "keyword": "shift",
+    "summary": "Thousands of New England farm families abandoned their land and moved west into New York, Ohio, and Indiana. Entire townships were depopulated. Vermont lost nearly a quarter of its population in a decade, directly triggered by the crop failures of 1816.",
+    "causeIds": [
+      "crop-failures-north-america"
+    ],
+    "effectIds": [
+      "american-westward-push",
+      "american-population-shift"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "american-westward-push",
+    "title": "American Westward Expansion Accelerates",
+    "year": 1817,
+    "keyword": "consequence",
+    "summary": "The agricultural disaster of 1816 pushed American settlement westward faster than any policy could have. Indiana became a state in 1816, Illinois in 1818. The search for reliable farmland helped drive the expansion that would define 19th century America.",
+    "causeIds": [
+      "crop-failures-north-america",
+      "new-england-migration"
+    ],
+    "effectIds": [
+      "american-population-shift"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "american-population-shift",
+    "title": "Demographic Shift in America",
+    "year": 1820,
+    "keyword": "consequence",
+    "summary": "The combined effect of European immigration and internal westward migration fundamentally altered American demographics. The population centre of gravity shifted westward permanently, reshaping American politics and culture for the rest of the century.",
+    "causeIds": [
+      "european-migration",
+      "new-england-migration",
+      "american-westward-push"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "gloomy-atmosphere",
+    "title": "Pervasive Gloom and Dread",
+    "year": 1816,
+    "keyword": "shift",
+    "summary": "The relentless cold, dim skies, and sense of impending catastrophe created a unique psychological atmosphere across Europe. The educated classes felt that nature itself had turned hostile. This mood saturated the literature and art of the period.",
+    "causeIds": [
+      "darkened-skies",
+      "food-shortages-europe"
+    ],
+    "effectIds": [
+      "lake-geneva-gathering",
+      "gothic-romanticism"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "lake-geneva-gathering",
+    "title": "The Villa Diodati Summer",
+    "year": 1816,
+    "keyword": "catalyst",
+    "summary": "Trapped indoors by the relentless rain and cold near Lake Geneva, Lord Byron, Percy Shelley, Mary Godwin, and John Polidori held a ghost story competition. Byron proposed it as a way to pass the miserable summer — a single offhand suggestion that produced two of the defining works of Gothic literature.",
+    "causeIds": [
+      "gloomy-atmosphere"
+    ],
+    "effectIds": [
+      "frankenstein-written",
+      "vampire-story-written"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "frankenstein-written",
+    "title": "Frankenstein Written",
+    "year": 1816,
+    "keyword": "consequence",
+    "summary": "18-year-old Mary Godwin wrote what became Frankenstein; or, The Modern Prometheus during the Villa Diodati summer. The novel explored humanity's hubris in controlling nature — themes that felt urgently relevant when nature itself seemed to have turned against civilization.",
+    "causeIds": [
+      "lake-geneva-gathering"
+    ],
+    "effectIds": [
+      "gothic-romanticism",
+      "science-fiction-born"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "vampire-story-written",
+    "title": "The Vampyre Written",
+    "year": 1816,
+    "keyword": "consequence",
+    "summary": "John Polidori wrote The Vampyre at the same gathering — the first modern vampire story in English, directly inspired by Byron's fragment. It established the aristocratic, seductive vampire archetype that Bram Stoker later developed into Dracula.",
+    "causeIds": [
+      "lake-geneva-gathering"
+    ],
+    "effectIds": [
+      "gothic-romanticism"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "turner-paintings",
+    "title": "Turner's Volcanic Sunsets",
+    "year": 1816,
+    "keyword": "consequence",
+    "summary": "J.M.W. Turner painted the extraordinary fiery sunsets produced by Tambora's aerosols — works like Chichester Canal and various sunset studies. Modern atmospheric scientists have confirmed that Turner's colour palette shifted measurably toward reds and oranges after 1815, matching aerosol optical depth data.",
+    "causeIds": [
+      "darkened-skies"
+    ],
+    "effectIds": [
+      "gothic-romanticism"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "gothic-romanticism",
+    "title": "Gothic Romanticism Flourishes",
+    "year": 1817,
+    "keyword": "consequence",
+    "summary": "The darkness, death, and existential dread of 1816 fed directly into the Romantic movement's gothic turn. Byron's poem 'Darkness' (1816) imagined the sun extinguished and humanity dying. The aesthetic of sublime terror — nature as overwhelming and indifferent — became the defining mood of Romanticism.",
+    "causeIds": [
+      "frankenstein-written",
+      "vampire-story-written",
+      "turner-paintings",
+      "gloomy-atmosphere"
+    ],
+    "effectIds": [
+      "science-fiction-born"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "science-fiction-born",
+    "title": "Science Fiction Is Born",
+    "year": 1818,
+    "keyword": "consequence",
+    "summary": "Frankenstein, published in 1818, is widely considered the first science fiction novel. Its central question — what happens when human technology outpaces human wisdom — remains the defining question of the genre. A volcanic eruption in Indonesia in 1815 indirectly created one of literature's most enduring forms.",
+    "causeIds": [
+      "frankenstein-written",
+      "gothic-romanticism"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "horse-deaths",
+    "title": "Mass Death of Horses",
+    "year": 1816,
+    "keyword": "collapse",
+    "summary": "The crop failures destroyed the oat and hay harvests that fed working horses across Europe and North America. Horses died in vast numbers or were slaughtered because they couldn't be fed. Transportation and agriculture were severely disrupted.",
+    "causeIds": [
+      "crop-failures-europe",
+      "crop-failures-north-america"
+    ],
+    "effectIds": [
+      "bicycle-invented"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "bicycle-invented",
+    "title": "Bicycle Invented",
+    "year": 1817,
+    "keyword": "consequence",
+    "summary": "German inventor Karl von Drais built the first bicycle — the 'running machine' or Laufmaschine — in direct response to the mass death of horses. With horses unavailable, he sought a human-powered alternative for transportation. The bicycle, one of the most transformative inventions in history, was born from a volcanic eruption.",
+    "causeIds": [
+      "horse-deaths"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]
