@@ -1,0 +1,200 @@
+// ─── Per-scenario background personality ──────────────────────────────────────
+// Each scenario gets a radial gradient colour tint + a subtle SVG pattern layer.
+// Both are pointer-events: none so they never interfere with interaction.
+
+// ─── Gradient tints ────────────────────────────────────────────────────────────
+// Radial gradient from a warm/cool tint at center → #0D0D0D at ~70%
+
+// Centre colours exposed separately so selector cards can use them as flat base colours.
+export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
+  "fall-of-rome":           "#2a1a06",
+  "french-revolution":      "#0d1f0d",
+  "scientific-revolution":  "#060d1f",
+  "wwi":                    "#141a0a",
+  "year-without-a-summer":  "#12101a",
+};
+
+const SCENARIO_GRADIENTS: Record<string, string> = {
+  "fall-of-rome":           "radial-gradient(ellipse at center, #2a1a06 0%, #0D0D0D 70%)",
+  "french-revolution":      "radial-gradient(ellipse at center, #0d1f0d 0%, #0D0D0D 70%)",
+  "scientific-revolution":  "radial-gradient(ellipse at center, #060d1f 0%, #0D0D0D 70%)",
+  "wwi":                    "radial-gradient(ellipse at center, #141a0a 0%, #0D0D0D 70%)",
+  "year-without-a-summer":  "radial-gradient(ellipse at center, #12101a 0%, #0D0D0D 70%)",
+};
+
+export function getScenarioGradient(scenarioId: string): string {
+  const gradient = SCENARIO_GRADIENTS[scenarioId] ?? "#0D0D0D";
+  console.log("[cateno] getScenarioGradient", { scenarioId, gradient });
+  return gradient;
+}
+
+// ─── SVG pattern components ────────────────────────────────────────────────────
+
+// Fall of Rome — Roman arch repeat
+function RomePattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-rome" x="0" y="0" width="80" height="96" patternUnits="userSpaceOnUse">
+          {/* Roman arch: two pillars + semicircular arch */}
+          <rect x="12" y="40" width="8" height="48" fill="none" stroke="#E8E3D5" strokeWidth="1.2" />
+          <rect x="60" y="40" width="8" height="48" fill="none" stroke="#E8E3D5" strokeWidth="1.2" />
+          <path d="M12 40 Q40 8 68 40" fill="none" stroke="#E8E3D5" strokeWidth="1.2" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-rome)" />
+    </svg>
+  );
+}
+
+// French Revolution — fleur-de-lis repeat
+function FrancePattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-france" x="0" y="0" width="64" height="80" patternUnits="userSpaceOnUse">
+          {/* Fleur-de-lis: centre petal + two side petals + base */}
+          <path
+            d="M32 12 C32 12 28 20 28 28 C28 34 32 36 32 36 C32 36 36 34 36 28 C36 20 32 12 32 12Z"
+            fill="none" stroke="#E8E3D5" strokeWidth="1"
+          />
+          <path
+            d="M32 36 C32 36 22 30 18 24 C16 20 20 16 24 20 C26 22 28 28 28 28"
+            fill="none" stroke="#E8E3D5" strokeWidth="1"
+          />
+          <path
+            d="M32 36 C32 36 42 30 46 24 C48 20 44 16 40 20 C38 22 36 28 36 28"
+            fill="none" stroke="#E8E3D5" strokeWidth="1"
+          />
+          <path d="M26 36 L38 36" stroke="#E8E3D5" strokeWidth="1" />
+          <path d="M28 38 L36 38" stroke="#E8E3D5" strokeWidth="1" />
+          <path d="M30 38 L30 44 M34 38 L34 44" stroke="#E8E3D5" strokeWidth="1" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-france)" />
+    </svg>
+  );
+}
+
+// Scientific Revolution — Copernican orbit diagram (centered, non-repeating)
+function SciencePattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      viewBox="0 0 400 400"
+      preserveAspectRatio="xMidYMid meet"
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      {/* Sun at center */}
+      <circle cx="50%" cy="50%" r="5" fill="#E8E3D5" />
+      {/* Orbits */}
+      {[32, 60, 92, 128, 168, 210].map((r, i) => (
+        <circle key={i} cx="50%" cy="50%" r={r} fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+      ))}
+      {/* Planet dots on orbits */}
+      {([
+        [32,  10],
+        [60,  195],
+        [92,  330],
+        [128, 80],
+        [168, 250],
+        [210, 155],
+      ] as [number, number][]).map(([r, deg], i) => {
+        const rad = (deg * Math.PI) / 180;
+        return (
+          <circle
+            key={i}
+            cx={`calc(50% + ${(r * Math.cos(rad)).toFixed(1)}px)`}
+            cy={`calc(50% + ${(r * Math.sin(rad)).toFixed(1)}px)`}
+            r="3"
+            fill="#E8E3D5"
+          />
+        );
+      })}
+    </svg>
+  );
+}
+
+// WWI — topographic contour repeat
+function WWIPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-wwi" x="0" y="0" width="120" height="80" patternUnits="userSpaceOnUse">
+          {/* Flowing topographic contour lines */}
+          <path d="M0 20 Q30 10 60 20 Q90 30 120 20" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <path d="M0 40 Q30 28 60 40 Q90 52 120 40" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <path d="M0 60 Q30 48 60 60 Q90 72 120 60" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-wwi)" />
+    </svg>
+  );
+}
+
+// Year Without a Summer — ash particle dots repeat
+function SummerPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-summer" x="0" y="0" width="72" height="72" patternUnits="userSpaceOnUse">
+          {/* Scattered ash dots at varied positions and sizes */}
+          <circle cx="12" cy="18" r="1.2" fill="#E8E3D5" />
+          <circle cx="38" cy="8"  r="0.8" fill="#E8E3D5" />
+          <circle cx="58" cy="26" r="1.5" fill="#E8E3D5" />
+          <circle cx="22" cy="44" r="0.9" fill="#E8E3D5" />
+          <circle cx="50" cy="50" r="1.1" fill="#E8E3D5" />
+          <circle cx="6"  cy="62" r="0.7" fill="#E8E3D5" />
+          <circle cx="64" cy="66" r="1.3" fill="#E8E3D5" />
+          <circle cx="34" cy="62" r="0.6" fill="#E8E3D5" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-summer)" />
+    </svg>
+  );
+}
+
+// ─── Public export ─────────────────────────────────────────────────────────────
+
+interface ScenarioPatternSvgProps {
+  scenarioId: string;
+  opacity: number;
+}
+
+export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgProps) {
+  switch (scenarioId) {
+    case "fall-of-rome":          return <RomePattern opacity={opacity} />;
+    case "french-revolution":     return <FrancePattern opacity={opacity} />;
+    case "scientific-revolution": return <SciencePattern opacity={opacity} />;
+    case "wwi":                   return <WWIPattern opacity={opacity} />;
+    case "year-without-a-summer": return <SummerPattern opacity={opacity} />;
+    default:                      return null;
+  }
+}

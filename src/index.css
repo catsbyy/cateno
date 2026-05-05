@@ -49,6 +49,14 @@ body {
 }
 
 /* React Flow overrides */
+
+/* Make the ReactFlow root element transparent so our per-scenario gradient shows through.
+   colorMode="dark" sets an opaque background on .react-flow via CSS custom properties —
+   we must override it here; .react-flow__background alone is not enough. */
+.react-flow {
+  background: transparent !important;
+}
+
 .react-flow__controls {
   background: #141414 !important;
   border: 1px solid #2a2a2a !important;
@@ -68,5 +76,5 @@ body {
 }
 
 .react-flow__background {
-  background: #0D0D0D !important;
+  background: transparent !important;
 }

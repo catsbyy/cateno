@@ -5,6 +5,7 @@ import { CatenoGraph } from './components/CatenoGraph';
 import { DetailPanel } from './components/DetailPanel';
 import { ScenarioSelector } from './components/ScenarioSelector';
 import { TimelineBar } from './components/TimelineBar';
+import { getScenarioGradient } from './utils/scenarioBackground';
 import type { CatenoScenario, CatenoNode } from './types';
 import { TYPE_COLORS } from './types';
 import type { NodeType } from './types';
@@ -114,7 +115,10 @@ function GraphView({
   );
 
   return (
-    <div className="w-full h-screen bg-[#0D0D0D] flex flex-col overflow-hidden">
+    <div
+      className="w-full h-screen flex flex-col overflow-hidden"
+      style={{ background: getScenarioGradient(scenario.id) }}
+    >
       {/* Header */}
       <header
         className="shrink-0 flex items-center gap-4 px-6 py-3"

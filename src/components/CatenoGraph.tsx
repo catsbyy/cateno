@@ -255,7 +255,7 @@ export function CatenoGraph({
   }, [visibleNodeIds, focusedNodeId, connectedIds, nodeMap, positions, scenario]);
 
   return (
-    <div className="w-full h-full" style={{ touchAction: 'none' }}>
+    <div className="w-full h-full" style={{ touchAction: 'none', position: 'relative', zIndex: 1 }}>
       <ReactFlow
         nodes={nodes}
         edges={edges}
