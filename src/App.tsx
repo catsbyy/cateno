@@ -114,7 +114,7 @@ function GraphView({
   );
 
   return (
-    <div className="w-screen h-screen bg-[#0D0D0D] flex flex-col">
+    <div className="w-full h-screen bg-[#0D0D0D] flex flex-col overflow-hidden">
       {/* Header */}
       <header
         className="shrink-0 flex items-center gap-4 px-6 py-3"
@@ -143,8 +143,8 @@ function GraphView({
         </div>
       </header>
 
-      {/* Graph + panel */}
-      <div className="flex-1 min-h-0 relative">
+      {/* Graph + panel — overflow:hidden prevents the sliding panel from causing page-level scrollbars */}
+      <div className="flex-1 min-h-0 relative overflow-hidden">
         <CatenoGraph
           scenario={scenario}
           visibleNodeIds={visibleNodeIds}
@@ -202,7 +202,7 @@ export default function App() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.2 }}
-          className="w-screen h-screen"
+          className="w-full h-screen overflow-hidden"
         >
           <GraphView scenario={scenario} onBack={() => setScenario(null)} />
         </motion.div>

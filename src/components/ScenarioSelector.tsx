@@ -11,7 +11,7 @@ const row2 = SCENARIOS.slice(3);
 
 export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
   return (
-    <div className="w-screen min-h-screen bg-[#0D0D0D] flex flex-col items-center px-4 py-12 md:py-16">
+    <div className="w-full min-h-screen bg-[#0D0D0D] flex flex-col items-center px-4 py-12 md:py-16">
       {/* Wordmark */}
       <motion.div
         className="text-center shrink-0"
