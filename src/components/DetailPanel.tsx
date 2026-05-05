@@ -4,129 +4,128 @@ import type { CatenoNode } from "../types";
 import { TYPE_COLORS } from "../types";
 import { useIsMobile } from "../hooks/useIsMobile";
 
-// ─── Wikipedia image fetch ────────────────────────────────────────────────────
+// ─── Wikimedia thumbnail rewriter ─────────────────────────────────────────────
+// Raw Wikimedia Commons URLs point to full-resolution files that can be 10 MB+
+// (e.g. the Prise de la Bastille painting is 11.2 MB and causes a UI freeze).
+// Rewrite them to use a pre-generated 500px thumbnail (≈ 70–150 KB).
+//
+// Wikimedia pre-generates thumbnails at specific widths (330px, 500px, etc.).
+// We use 500px — it works for all tested images and looks sharp in a 340px panel.
+// If the 500px thumbnail doesn't exist for an image, onError collapses the header.
+//
+// Pattern:  https://upload.wikimedia.org/wikipedia/commons/{a}/{ab}/{filename}
+// Becomes:  https://upload.wikimedia.org/wikipedia/commons/thumb/{a}/{ab}/{filename}/500px-{filename}
+const WIKI_COMMONS_RE = /^(https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/)([0-9a-f]\/[0-9a-f]{2}\/)(.+)$/i;
 
-const STOP_WORDS = new Set(["of", "the", "a", "an", "in", "at", "on", "and", "to", "for"]);
-
-function toWikiTitle(text: string) {
-  return text.replace(/\s+/g, "_");
-}
-
-async function fetchWikiThumbnail(title: string, signal: AbortSignal): Promise<string | null> {
-  try {
-    const res = await fetch(
-      `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`,
-      { signal }
-    );
-    if (!res.ok) return null;
-    const data = await res.json();
-    return (data.thumbnail?.source as string) ?? null;
-  } catch {
-    return null;
-  }
-}
-
-function useWikiImage(node: CatenoNode | null) {
-  const [imageUrl, setImageUrl] = useState<string | null>(null);
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    if (!node) {
-      setImageUrl(null);
-      setLoading(false);
-      return;
-    }
-
-    const controller = new AbortController();
-    const { signal } = controller;
-
-    (async () => {
-      setLoading(true);
-      setImageUrl(null);
-
-      // Attempt 1: full title
-      let url = await fetchWikiThumbnail(toWikiTitle(node.title), signal);
-
-      // Attempt 2: title without stop words
-      if (!url && !signal.aborted) {
-        const filtered = node.title
-          .split(" ")
-          .filter((w) => !STOP_WORDS.has(w.toLowerCase()))
-          .join("_");
-        if (filtered !== toWikiTitle(node.title)) {
-          url = await fetchWikiThumbnail(filtered, signal);
-        }
-      }
-
-      // Attempt 3: first meaningful word only
-      if (!url && !signal.aborted) {
-        const firstWord = node.title.split(" ").find((w) => !STOP_WORDS.has(w.toLowerCase())) ?? node.title.split(" ")[0];
-        url = await fetchWikiThumbnail(firstWord, signal);
-      }
-
-      if (!signal.aborted) {
-        setImageUrl(url);
-        setLoading(false);
-      }
-    })();
-
-    return () => controller.abort();
-  }, [node?.id]); // eslint-disable-line react-hooks/exhaustive-deps
-
-  return { imageUrl, loading };
+function toThumbnailUrl(url: string): string {
+  if (!url || url.includes("/thumb/")) return url; // already a thumbnail
+  const m = url.match(WIKI_COMMONS_RE);
+  if (!m) return url; // not a Wikimedia Commons URL — use as-is
+  const [, base, hash, filename] = m;
+  return `${base}thumb/${hash}${filename}/500px-${filename}`;
 }
 
 // ─── Image header ─────────────────────────────────────────────────────────────
 
-function WikiImageHeader({ imageUrl, loading, height, panelBg }: {
-  imageUrl: string | null;
-  loading: boolean;
-  height: number;
-  panelBg: string;
-}) {
-  const [imgLoaded, setImgLoaded] = useState(false);
+function NodeImageHeader({ node, height, panelBg }: { node: CatenoNode; height: number; panelBg: string }) {
+  // Resolve image source: imageUrl.
+  // Rewrite Wikimedia Commons raw URLs to thumbnail URLs to avoid downloading huge files.
+  const raw = node.imageUrl ?? null;
+  const src = raw ? toThumbnailUrl(raw) : null;
+
+  const [visible, setVisible] = useState(false);
+  const [failed, setFailed] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
 
-  // Reset loaded state when url changes; if already cached, mark loaded immediately
+  // Reset state whenever the source changes.
   useEffect(() => {
-    setImgLoaded(false);
-    // If the browser served from cache, onLoad already fired before React attached it
+    setVisible(false);
+    setFailed(false);
+    // Handle already-cached images — onLoad won't fire again.
     if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) {
-      setImgLoaded(true);
+      setVisible(true);
     }
-  }, [imageUrl]);
+  }, [src]);
 
-  // Show placeholder while loading; collapse if no image after load
-  if (!loading && !imageUrl) return null;
+  // No image on this node — render nothing, panel starts directly with header.
+  if (!src || failed) return null;
 
   return (
-    <div
-      className="shrink-0 relative overflow-hidden"
-      style={{ height, background: "#1a1a1a" }}
-    >
-      {imageUrl && (
-        <img
-          ref={imgRef}
-          src={imageUrl}
-          alt=""
-          onLoad={() => setImgLoaded(true)}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            opacity: imgLoaded ? 1 : 0,
-            transition: "opacity 0.4s ease",
-          }}
-        />
-      )}
-      {/* Gradient: transparent → panel background */}
+    <div className="shrink-0 relative overflow-hidden" style={{ height }}>
+      <img
+        ref={imgRef}
+        src={src}
+        alt=""
+        onLoad={() => setVisible(true)}
+        onError={() => setFailed(true)}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          objectPosition: "center",
+          opacity: visible ? 1 : 0,
+          transition: "opacity 0.3s ease",
+        }}
+      />
+      {/* Fade into panel background */}
       <div
         style={{
           position: "absolute",
           inset: 0,
-          background: `linear-gradient(to bottom, transparent 20%, ${panelBg} 100%)`,
+          background: `linear-gradient(to bottom, transparent 40%, ${panelBg} 100%)`,
         }}
       />
+    </div>
+  );
+}
+
+// ─── Wikipedia attribution link ───────────────────────────────────────────────
+
+function WikiLink({ wiki }: { wiki: string }) {
+  return (
+    <div className="px-6 py-4" style={{ borderTop: "1px solid #1e1e1e" }}>
+      <a
+        href={`https://en.wikipedia.org/wiki/${wiki}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-sans hover:underline"
+        style={{
+          fontSize: 11,
+          color: "#E8E3D5",
+          opacity: 0.35,
+          textDecoration: "none",
+          transition: "opacity 0.15s",
+        }}
+        onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.6")}
+        onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.35")}
+      >
+        ↗ Read more on Wikipedia
+      </a>
+    </div>
+  );
+}
+
+// Mobile version uses smaller padding.
+function WikiLinkMobile({ wiki }: { wiki: string }) {
+  return (
+    <div className="px-5 py-4" style={{ borderTop: "1px solid #1e1e1e" }}>
+      <a
+        href={`https://en.wikipedia.org/wiki/${wiki}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-sans hover:underline"
+        style={{
+          fontSize: 11,
+          color: "#E8E3D5",
+          opacity: 0.35,
+          textDecoration: "none",
+          transition: "opacity 0.15s",
+        }}
+        onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.6")}
+        onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.35")}
+      >
+        ↗ Read more on Wikipedia
+      </a>
     </div>
   );
 }
@@ -168,7 +167,6 @@ const PANEL_BG = "#141414";
 export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClick }: DetailPanelProps) {
   const isMobile = useIsMobile();
   const color = node ? TYPE_COLORS[node.keyword] : "#ffffff";
-  const { imageUrl, loading: imageLoading } = useWikiImage(node);
 
   if (isMobile) {
     return (
@@ -208,8 +206,8 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
                 <div className="w-9 h-1 rounded-full bg-[#444]" />
               </div>
 
-              {/* Wikipedia image */}
-              <WikiImageHeader imageUrl={imageUrl} loading={imageLoading} height={120} panelBg={PANEL_BG} />
+              {/* Image */}
+              <NodeImageHeader node={node} height={120} panelBg={PANEL_BG} />
 
               {/* Header */}
               <div className="shrink-0 px-5 pt-3 pb-4" style={{ borderBottom: "1px solid #222" }}>
@@ -223,9 +221,7 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
                     ✕
                   </button>
                 </div>
-                <h2 className="text-[#E8E3D5] text-[20px] font-serif leading-snug mb-2 font-bold">
-                  {node.title}
-                </h2>
+                <h2 className="text-[#E8E3D5] text-[20px] font-serif leading-snug mb-2 font-bold">{node.title}</h2>
                 <span
                   className="inline-block text-[10px] font-sans px-2 py-[3px] rounded uppercase tracking-widest font-medium"
                   style={{ color, border: `1px solid ${color}`, opacity: 0.85 }}
@@ -252,7 +248,7 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
                 )}
 
                 {effectNodes.length > 0 && (
-                  <div className="px-5 py-4">
+                  <div className="px-5 py-4" style={{ borderBottom: node.wiki ? "1px solid #1e1e1e" : "none" }}>
                     <p className="text-[#E8E3D5]/30 text-[11px] font-sans uppercase tracking-widest mb-3">Led to</p>
                     <div className="flex flex-col gap-2">
                       {effectNodes.map((n) => (
@@ -261,6 +257,8 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
                     </div>
                   </div>
                 )}
+
+                {node.wiki && <WikiLinkMobile wiki={node.wiki} />}
               </div>
             </motion.aside>
           </>
@@ -288,8 +286,8 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
           onMouseDown={(e) => e.stopPropagation()}
           onClick={(e) => e.stopPropagation()}
         >
-          {/* Wikipedia image */}
-          <WikiImageHeader imageUrl={imageUrl} loading={imageLoading} height={160} panelBg={PANEL_BG} />
+          {/* Image */}
+          <NodeImageHeader node={node} height={160} panelBg={PANEL_BG} />
 
           {/* ── Header ── */}
           <div className="shrink-0 px-6 pt-5 pb-5" style={{ borderBottom: "1px solid #222" }}>
@@ -332,7 +330,7 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
             )}
 
             {effectNodes.length > 0 && (
-              <div className="px-6 py-5">
+              <div className="px-6 py-5" style={{ borderBottom: node.wiki ? "1px solid #1e1e1e" : "none" }}>
                 <p className="text-[#E8E3D5]/30 text-[11px] font-sans uppercase tracking-widest mb-3">Led to</p>
                 <div className="flex flex-wrap gap-2">
                   {effectNodes.map((n) => (
@@ -341,6 +339,8 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
                 </div>
               </div>
             )}
+
+            {node.wiki && <WikiLink wiki={node.wiki} />}
           </div>
         </motion.aside>
       )}

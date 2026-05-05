@@ -1,6 +1,8 @@
 [
   {
     "id": "european-power-rivalry",
+    "wiki": "Unification_of_Germany",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_%283._Fassung_1885%29.jpg",
     "title": "European Power Rivalry",
     "year": 1871,
     "keyword": "pressure",
@@ -17,6 +19,8 @@
   },
   {
     "id": "franco-german-hostility",
+    "wiki": "Franco-Prussian_War",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Battle_of_Mars-La-Tour%2C_August_16%2C1870_by_Emil_H%C3%BCnten.jpg",
     "title": "Franco-German Hostility",
     "year": 1871,
     "keyword": "pressure",
@@ -33,6 +37,8 @@
   },
   {
     "id": "pan-slavism",
+    "wiki": "Pan-Slavism",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Slavic_europe_%28Kosovo_unshaded%29.svg/1280px-Slavic_europe_%28Kosovo_unshaded%29.svg.png",
     "title": "Pan-Slavic Solidarity",
     "year": 1878,
     "keyword": "pressure",
@@ -48,6 +54,8 @@
   },
   {
     "id": "austro-russian-balkan-rivalry",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/MixCollage-15-Jan-2024-08-56-PM-4371.jpg",
+    "wiki": "Russo-Turkish_War_(1877–1878)",
     "title": "Balkan Rivalry",
     "year": 1878,
     "keyword": "pressure",
@@ -66,6 +74,8 @@
   },
   {
     "id": "alliance-system",
+    "imageUrl": "https://i.redd.it/l49rqmmtf0311.jpg",
+    "wiki": "Concert_of_Europe",
     "title": "Alliance System",
     "year": 1882,
     "keyword": "pressure",
@@ -84,6 +94,8 @@
   },
   {
     "id": "triple-alliance",
+    "wiki": "Triple_Alliance_(1882)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Triple_Alliance_Lustige_Blatter.jpg",
     "title": "Triple Alliance",
     "year": 1882,
     "keyword": "shift",
@@ -99,6 +111,8 @@
   },
   {
     "id": "franco-russian-alliance",
+    "wiki": "Franco-Russian_Alliance",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ3Dj9JIOJD3EZvrBjdgQy9na1X6L6Jlnuu3Za8wd2X-xEvq1QF_pxWJzqhROenPoXygBz5CbROCv5Sq-RBB8ahDwXvQ-YQRosMOF7ADCXkmS3Wezw0MCw1e3vX5AW3Z0BFEAs6x2mT3E/s1600/Russo+French+Alliance+001.jpg",
     "title": "Franco-Russian Alliance",
     "year": 1894,
     "keyword": "shift",
@@ -117,6 +131,8 @@
   },
   {
     "id": "entente-cordiale",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Entente_Cordiale_dancing.png",
+    "wiki": "Entente_Cordiale",
     "title": "Entente Cordiale",
     "year": 1904,
     "keyword": "shift",
@@ -133,6 +149,8 @@
   },
   {
     "id": "anglo-russian-entente",
+    "imageUrl": "https://afisha.london/wp-content/uploads/2017/06/static1.squarespace.com_-7.jpg",
+    "wiki": "Anglo-Russian_Convention",
     "title": "Anglo-Russian Entente",
     "year": 1907,
     "keyword": "shift",
@@ -148,6 +166,8 @@
   },
   {
     "id": "arms-race",
+    "wiki": "Anglo-German_naval_arms_race",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/HMS_Dreadnought_1906_H61017.jpg",
     "title": "European Arms Race",
     "year": 1906,
     "keyword": "pressure",
@@ -164,6 +184,8 @@
   },
   {
     "id": "german-war-planning",
+    "wiki": "Schlieffen_Plan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Alfred_von_Schlieffen_1906.jpg",
     "title": "German War Planning",
     "year": 1905,
     "keyword": "pressure",
@@ -197,6 +219,8 @@
   },
   {
     "id": "bosnian-annexation-crisis",
+    "wiki": "Bosnian_Crisis",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Le_Petit_Journal_Balkan_Crisis_%281908%29.jpg",
     "title": "Bosnian Annexation Crisis",
     "year": 1908,
     "keyword": "pressure",
@@ -213,6 +237,8 @@
   },
   {
     "id": "serbian-nationalism",
+    "wiki": "Kingdom_of_Serbia",
+    "imageUrl": "https://cdn.britannica.com/03/160003-050-5C800089/Soldiers-assassination-Gavrilo-Princip-Franz-Ferdinand-June-1914.jpg",
     "title": "Serbian Nationalism",
     "year": 1908,
     "keyword": "pressure",
@@ -232,6 +258,8 @@
   },
   {
     "id": "black-hand",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Black_Hand%2C_logo.png",
+    "wiki": "Black_Hand_(Serbia)",
     "title": "Black Hand",
     "year": 1911,
     "keyword": "catalyst",
@@ -247,6 +275,8 @@
   },
   {
     "id": "balkan-wars",
+    "wiki": "Balkan_Wars",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Luleburgaz_Battle_Postcard.jpg",
     "title": "Balkan Wars",
     "year": 1912,
     "keyword": "pressure",
@@ -263,6 +293,8 @@
   },
   {
     "id": "austro-hungarian-fear-of-serbia",
+    "imageUrl": "https://www.mediastorehouse.co.uk/p/164/serbia-spanks-austria-1914-14280296.jpg.webp",
+    "wiki": "Austro-Hungarian_Armed_Forces",
     "title": "Fear of Serbia",
     "year": 1913,
     "keyword": "pressure",
@@ -280,6 +312,8 @@
   },
   {
     "id": "assassination-franz-ferdinand",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/DC-1914-27-d-Sarajevo-cropped.jpg",
+    "wiki": "Assassination_of_Archduke_Franz_Ferdinand",
     "title": "Assassination of Franz Ferdinand",
     "year": 1914,
     "keyword": "spark",
@@ -296,6 +330,7 @@
   },
   {
     "id": "austria-seeks-punishment",
+    "imageUrl": "https://www.mediastorehouse.co.uk/p/164/serbia-spanks-austria-1914-14280296.jpg.webp",
     "title": "Austria Seeks Punishment",
     "year": 1914,
     "keyword": "catalyst",
@@ -313,6 +348,8 @@
   },
   {
     "id": "german-blank-cheque",
+    "wiki": "July_Crisis",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Kaiser_Wilhelm_II_of_Germany_-_1902_%283x4_cropped%29.jpg",
     "title": "German Blank Cheque",
     "year": 1914,
     "keyword": "turning-point",
@@ -329,6 +366,8 @@
   },
   {
     "id": "austrian-ultimatum",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ultimatum_k.u.k_serbien.png",
+    "wiki": "Ultimatum_of_July_23,_1914",
     "title": "Austrian Ultimatum",
     "year": 1914,
     "keyword": "catalyst",
@@ -345,6 +384,8 @@
   },
   {
     "id": "serbian-partial-rejection",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ultimatum_k.u.k_serbien.png",
+    "wiki": "Ultimatum_of_July_23,_1914",
     "title": "Serbia Partially Rejects",
     "year": 1914,
     "keyword": "catalyst",
@@ -360,6 +401,8 @@
   },
   {
     "id": "austria-declares-war-serbia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Austro-Hungarian_troops_sent_across_Sarajevo_for_Serbia%2C_1914.jpg",
+    "wiki": "Serbian_campaign_(1914)",
     "title": "Austria Attacks Serbia",
     "year": 1914,
     "keyword": "turning-point",
@@ -393,6 +436,8 @@
   },
   {
     "id": "russian-general-mobilization",
+    "wiki": "Russian_entry_into_World_War_I",
+    "imageUrl": "https://static01.nyt.com/images/2015/08/30/books/review/30JOFFE/30JOFFE-superJumbo.jpg",
     "title": "Russian General Mobilization",
     "year": 1914,
     "keyword": "turning-point",
@@ -409,6 +454,8 @@
   },
   {
     "id": "germany-declares-war-russia",
+    "wiki": "German_entry_into_World_War_I",
+    "imageUrl": "https://www.worldwar1centennial.org/images/ww1edu/2017/07/HEADER_GermanInvasion1914_1000x500.jpg",
     "title": "Germany Declares War on Russia",
     "year": 1914,
     "keyword": "turning-point",
@@ -426,6 +473,8 @@
   },
   {
     "id": "france-supports-russia",
+    "wiki": "Franco-Russian_Alliance",
+    "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/the-franco-russian-alliance-1897-print-collector.jpg",
     "title": "France Supports Russia",
     "year": 1914,
     "keyword": "shift",
@@ -442,6 +491,8 @@
   },
   {
     "id": "germany-declares-war-france",
+    "wiki": "German_entry_into_World_War_I",
+    "imageUrl": "https://theplayersaid.com/wp-content/uploads/2017/07/the-new-york-herald-germany-declares-war-on-france.jpg",
     "title": "Germany Declares War on France",
     "year": 1914,
     "keyword": "turning-point",
@@ -460,6 +511,8 @@
   },
   {
     "id": "invasion-of-belgium",
+    "wiki": "German_invasion_of_Belgium_(1914)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Soldats_allemands_Place_Rogier.jpg",
     "title": "Invasion of Belgium",
     "year": 1914,
     "keyword": "catalyst",
@@ -477,6 +530,7 @@
   {
     "id": "british-concern-over-balance",
     "title": "British Balance Concerns",
+    "imageUrl": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/01/16/19/5652150.jpg",
     "year": 1914,
     "keyword": "pressure",
     "summary": "Britain feared a Europe dominated by one power, especially Germany. This concern shaped the British response when Belgium was invaded.",
@@ -492,6 +546,8 @@
   },
   {
     "id": "britain-enters-war",
+    "wiki": "British_entry_into_World_War_I",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/HMS_Dreadnought_1906_H61017.jpg",
     "title": "Britain Enters War",
     "year": 1914,
     "keyword": "turning-point",
@@ -509,6 +565,8 @@
   },
   {
     "id": "ww1-outbreak",
+    "imageUrl": "https://www.iwm.org.uk/sites/default/files/2018-07/1_77.jpg",
+    "wiki": "World_War_I",
     "title": "Outbreak of World War I",
     "year": 1914,
     "keyword": "collapse",
@@ -529,6 +587,8 @@
   },
   {
     "id": "globalization-of-war",
+    "wiki": "World_War_I",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/ArabCamelCorps.jpg",
     "title": "War Becomes Global",
     "year": 1914,
     "keyword": "consequence",
@@ -548,6 +608,8 @@
   },
   {
     "id": "trench-warfare-emerges",
+    "wiki": "Trench_warfare",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Aerial_Photography_on_the_Western_Front%2C_1916._HU100394.jpg",
     "title": "Trench Warfare Emerges",
     "year": 1914,
     "keyword": "consequence",
@@ -564,6 +626,8 @@
   },
   {
     "id": "gallipoli-campaign",
+    "wiki": "Gallipoli_campaign",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Landing_at_Gallipoli_%2813901951593%29.jpg",
     "title": "Gallipoli Campaign",
     "year": 1915,
     "keyword": "turning-point",
@@ -580,6 +644,8 @@
   },
   {
     "id": "battle-of-somme",
+    "wiki": "Battle_of_the_Somme",
+    "imageUrl": "https://uploads4.wikiart.org/00332/images/richard-caton-woodville-jr/richard-caton-ii-woodville-the-battle-of-the-somme-meisterdrucke-149650.jpg",
     "title": "Battle of the Somme",
     "year": 1916,
     "keyword": "collapse",
@@ -596,6 +662,8 @@
   },
   {
     "id": "war-of-attrition",
+    "wiki": "Trench_warfare",
+    "imageUrl": "https://www.nam.ac.uk/sites/default/files/styles/slice_lg/public/2018-04/1228_slice.jpg.webp",
     "title": "War of Attrition",
     "year": 1916,
     "keyword": "consequence",
@@ -613,6 +681,8 @@
   },
   {
     "id": "colonial-troops-mobilized",
+    "wiki": "1914_French_mobilization",
+    "imageUrl": "https://www.identifymedals.com/wp-content/uploads/2019/01/colonial-troops-africa-ww1-great-war.jpg",
     "title": "Colonial Troops Mobilized",
     "year": 1915,
     "keyword": "consequence",
@@ -628,6 +698,8 @@
   },
   {
     "id": "us-enters-war",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/President_Woodrow_Wilson_asking_Congress_to_declare_war_on_Germany%2C_2_April_1917.jpg",
+    "wiki": "American_entry_into_World_War_I",
     "title": "United States Enters War",
     "year": 1917,
     "keyword": "turning-point",
@@ -644,6 +716,8 @@
   },
   {
     "id": "russian-revolution",
+    "wiki": "Russian_Revolution",
+    "imageUrl": "https://cdn.britannica.com/78/121178-050-95767572/crowd-Vladimir-Ilyich-Lenin-Russian-Revolution-1917.jpg",
     "title": "Russian Revolution",
     "year": 1917,
     "keyword": "consequence",
@@ -661,6 +735,8 @@
   {
     "id": "home-front-pressure",
     "title": "Home Front Pressure",
+    "wiki": "Home_front_during_World_War_I",
+    "imageUrl": "https://media.iwm.org.uk/ciim5/297/763/large_000000.jpg",
     "year": 1917,
     "keyword": "pressure",
     "summary": "Prolonged war strained economies, food supplies, and civilian morale across all belligerents. Strikes, protests, and political crises became common as populations questioned the cost of continuing.",
@@ -679,6 +755,8 @@
   },
   {
     "id": "eastern-front-collapses",
+    "wiki": "Riga_offensive_(1917)",
+    "imageUrl": "https://warfarehistorynetwork.com/wp-content/uploads/2020/01/M-May19-Brusilov-11.jpg",
     "title": "Eastern Front Collapses",
     "year": 1917,
     "keyword": "collapse",
@@ -694,6 +772,8 @@
   },
   {
     "id": "ottoman-collapse",
+    "wiki": "Partition_of_the_Ottoman_Empire",
+    "imageUrl": "https://iadsb.tmgrup.com.tr/26f433/0/0/0/0/1732/929?u=https://idsb.tmgrup.com.tr/2018/10/29/the-armistice-that-spelled-the-end-of-the-ottoman-empire-1540845601006.jpg",
     "title": "Ottoman Empire Collapses",
     "year": 1918,
     "keyword": "collapse",
@@ -710,6 +790,8 @@
   },
   {
     "id": "german-collapse",
+    "wiki": "Collapse_of_the_Imperial_German_Army",
+    "imageUrl": "https://i0.wp.com/openhistorysociety.org/wp-content/uploads/2017/10/German-Spring-Offensive-1918.jpg?resize=640%2C420",
     "title": "German Military Collapse",
     "year": 1918,
     "keyword": "collapse",
@@ -727,6 +809,8 @@
   },
   {
     "id": "armistice-1918",
+    "wiki": "Armistice_of_11_November_1918",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Armisticetrain_%28slight_crop%29.jpg",
     "title": "Armistice — November 1918",
     "year": 1918,
     "keyword": "turning-point",
@@ -742,6 +826,8 @@
   },
   {
     "id": "treaty-of-versailles",
+    "wiki": "Treaty_of_Versailles",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Treaty_of_Versailles%2C_English_version.jpg/960px-Treaty_of_Versailles%2C_English_version.jpg",
     "title": "Treaty of Versailles",
     "year": 1919,
     "keyword": "consequence",

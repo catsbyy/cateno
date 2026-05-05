@@ -1,12 +1,12 @@
 export type NodeType =
-  | 'trigger'
-  | 'pressure'
-  | 'catalyst'
-  | 'turning-point'
-  | 'collapse'
-  | 'consequence'
-  | 'shift'
-  | 'spark';
+  | "trigger"
+  | "pressure"
+  | "catalyst"
+  | "turning-point"
+  | "collapse"
+  | "consequence"
+  | "shift"
+  | "spark";
 
 export interface CatenoNode {
   id: string;
@@ -18,6 +18,8 @@ export interface CatenoNode {
   effectIds: string[];
   isAnchor?: boolean;
   isSeed?: boolean;
+  wiki?: string; // Wikipedia article name, e.g. "Storming_of_the_Bastille"
+  imageUrl?: string; // Direct image URL, ready to use as src
 }
 
 export interface CatenoScenario {
@@ -30,12 +32,12 @@ export interface CatenoScenario {
 }
 
 export const TYPE_COLORS: Record<NodeType, string> = {
-  trigger: '#E63946',
-  pressure: '#E9A84C',
-  catalyst: '#F4D35E',
-  'turning-point': '#06D6A0',
-  collapse: '#8B5CF6',
-  consequence: '#3B82F6',
-  shift: '#10B981',
-  spark: '#F97316',
+  trigger: "#E63946",
+  pressure: "#E9A84C",
+  catalyst: "#F4D35E",
+  "turning-point": "#06D6A0",
+  collapse: "#8B5CF6",
+  consequence: "#3B82F6",
+  shift: "#10B981",
+  spark: "#F97316",
 };

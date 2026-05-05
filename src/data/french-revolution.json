@@ -1,6 +1,8 @@
 [
   {
     "id": "french-revolution",
+    "wiki": "Liberty_Leading_the_People",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
     "title": "French Revolution Begins",
     "year": 1789,
     "keyword": "collapse",
@@ -24,6 +26,8 @@
   {
     "id": "ancien-regime-structure",
     "title": "Ancien Régime Structure",
+    "wiki": "Ancien_régime",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Louis_XIV_of_France.jpg",
     "year": 1700,
     "keyword": "pressure",
     "summary": "French society was divided into three estates with unequal rights. This system concentrated privilege among the clergy and nobility.",
@@ -39,6 +43,8 @@
   {
     "id": "estate-inequality",
     "title": "Estates System Inequality",
+    "wiki": "Estates_of_the_realm",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Cleric%2C_Knight%2C_and_Workman_representing_the_Three_Classes.jpg",
     "year": 1700,
     "keyword": "pressure",
     "summary": "The First and Second Estates enjoyed privileges while the Third Estate carried most obligations. This imbalance fueled resentment among common people.",
@@ -55,7 +61,9 @@
   },
   {
     "id": "tax-burden-commoners",
+    "wiki": "Census_(feudal_tax)",
     "title": "Tax Burden on Commoners",
+    "imageUrl": "https://greyhistory.com/wp-content/uploads/2021/01/Awakening_of_the_third_estate-scaled-e1610845083836-1024x839.jpg",
     "year": 1700,
     "keyword": "pressure",
     "summary": "Common people paid most of the taxes while nobles were largely exempt. This deepened frustration with the monarchy and elite privilege.",
@@ -88,6 +96,8 @@
   },
   {
     "id": "enlightenment-ideas",
+    "wiki": "Age_of_Enlightenment",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Les_salons_au_XVIIIe_si%C3%A8cle_-_Histoire_Image.jpg",
     "title": "Enlightenment Ideas Spread",
     "year": 1750,
     "keyword": "shift",
@@ -103,6 +113,8 @@
   },
   {
     "id": "questioning-monarchy",
+    "wiki": "Absolute_monarchy_in_France",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Geromeconde.jpg",
     "title": "Questioning Royal Authority",
     "year": 1780,
     "keyword": "shift",
@@ -120,6 +132,7 @@
   {
     "id": "financial-crisis-monarchy",
     "title": "Monarchy Financial Crisis",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/50adfa2ae4b0cc1d786569eb/f5c1ce9e-5b73-4fe9-8fd6-d9acf27ee5eb/20231214+1024px-Louis_XVI_en_costume_de_sacre_-_Joseph-Siffred_Duplessis.jpg",
     "year": 1788,
     "keyword": "pressure",
     "summary": "France faced massive debt after wars and poor fiscal management. The state struggled to fund itself and maintain stability.",
@@ -137,6 +150,8 @@
   },
   {
     "id": "war-debt",
+    "wiki": "Anglo-French_War_(1778–1783)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Combat_naval_en_rade_de_Gondelour%2C_20_juin_1783.jpg",
     "title": "War Debt Accumulation",
     "year": 1783,
     "keyword": "pressure",
@@ -153,6 +168,8 @@
   },
   {
     "id": "inefficient-tax-system",
+    "wiki": "Vingtième",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN8gc5PiYByHOQ_M8ceY-C6BbeamBO7Y4onQ&s",
     "title": "Inefficient Tax System",
     "year": 1780,
     "keyword": "pressure",
@@ -168,6 +185,8 @@
   },
   {
     "id": "tax-reform-failure",
+    "wiki": "Charles_Alexandre_de_Calonne",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Vig%C3%A9e-Lebrun%2C_Elisabeth-Louise_-_Charles-Alexandre_de_Calonne_%281734-1802%29_-_Google_Art_Project.jpg",
     "title": "Failed Tax Reforms",
     "year": 1788,
     "keyword": "catalyst",
@@ -183,6 +202,8 @@
   },
   {
     "id": "estates-general-called",
+    "wiki": "Estates_General_of_1789",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Estatesgeneral.jpg",
     "title": "Estates-General Convened",
     "year": 1789,
     "keyword": "turning-point",
@@ -199,6 +220,8 @@
   },
   {
     "id": "third-estate-assertion",
+    "wiki": "Estates_of_the_realm",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Troisordres.jpg",
     "title": "Third Estate Asserts Power",
     "year": 1789,
     "keyword": "turning-point",
@@ -216,6 +239,8 @@
   },
   {
     "id": "tennis-court-oath",
+    "wiki": "Tennis_Court_Oath",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Le_Serment_du_Jeu_de_paume.jpg",
     "title": "Tennis Court Oath",
     "year": 1789,
     "keyword": "turning-point",
@@ -231,6 +256,8 @@
   },
   {
     "id": "national-assembly-formation",
+    "wiki": "National_Assembly_(French_Revolution)",
+    "imageUrl": "https://study.com/cimages/multimages/16/jacques-louis_david_-_serment_du_jeu_de_paume_le_20_juin_1789_-_p67_-_muse_carnavalet_-_02971255281811441320.jpg",
     "title": "National Assembly Formed",
     "year": 1789,
     "keyword": "turning-point",
@@ -248,7 +275,9 @@
   },
   {
     "id": "bread-crisis",
+    "wiki": "Flour_War",
     "title": "Bread Shortages Crisis",
+    "imageUrl": "https://daily.jstor.org/wp-content/uploads/2024/03/the_flour_war_1050x700.jpg",
     "year": 1789,
     "keyword": "pressure",
     "summary": "Poor harvests caused food shortages and rising bread prices. This triggered unrest among urban populations.",
@@ -267,6 +296,8 @@
   },
   {
     "id": "financial-strain-population",
+    "wiki": "Assembly_of_Notables",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Veny%2C_Girardet_-_Niquet_-_Assembl%C3%A9e_des_notables_1787.jpg",
     "title": "Financial Strain on People",
     "year": 1788,
     "keyword": "pressure",
@@ -282,6 +313,8 @@
   },
   {
     "id": "urban-unrest",
+    "wiki": "Storming_of_the_Bastille",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWJnJB9KCsacMuLRdFD2R3S7L8BfmH81ULIMqdlOoA1Tk2NYXpd-dUWjMy5rupnyhLqDowlhkUj9sh7-gN26OBFZ5bdIFe3l6OXyXZZD5VdjEmYRZ9QXSqaJJ5VjLWqEihoTXv-HKUYQU/s1600/Riots.jpg",
     "title": "Urban Unrest",
     "year": 1789,
     "keyword": "catalyst",
@@ -299,6 +332,8 @@
   },
   {
     "id": "storming-of-bastille",
+    "wiki": "Storming_of_the_Bastille",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Anonymous_-_Prise_de_la_Bastille.jpg",
     "title": "Storming of Bastille",
     "year": 1789,
     "keyword": "spark",
@@ -318,6 +353,8 @@
   },
   {
     "id": "monarchy-abolished",
+    "wiki": "Proclamation_of_the_abolition_of_the_monarchy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Proclamation_de_l%27abolition_de_la_royaut%C3%A9%2C_21_Septembre_1792.jpg",
     "title": "Monarchy Abolished",
     "year": 1792,
     "keyword": "collapse",
@@ -335,6 +372,8 @@
   },
   {
     "id": "execution-of-king",
+    "wiki": "Execution_of_Louis_XVI",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Execution_of_Louis_XVI.jpg",
     "title": "Execution of Louis XVI",
     "year": 1793,
     "keyword": "turning-point",
@@ -350,6 +389,8 @@
   },
   {
     "id": "reign-of-terror",
+    "wiki": "Reign_of_Terror",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Octobre_1793%2C_supplice_de_9_%C3%A9migr%C3%A9s.jpg",
     "title": "Reign of Terror",
     "year": 1793,
     "keyword": "collapse",
@@ -368,6 +409,7 @@
   {
     "id": "political-radicalization",
     "title": "Political Radicalization",
+    "imageUrl": "https://www.oercommons.org/editor/images/39849",
     "year": 1792,
     "keyword": "shift",
     "summary": "Revolutionary ideas intensified and factions became more extreme. Moderation gave way to more radical demands.",
@@ -386,6 +428,8 @@
   },
   {
     "id": "seven-years-war",
+    "wiki": "Seven_Years%27_War",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Erstes_pr._Bataillon_Leibgarde_in_Schlacht_bei_Kollin.jpg",
     "title": "Seven Years' War",
     "year": 1756,
     "keyword": "pressure",
@@ -399,6 +443,8 @@
   },
   {
     "id": "american-revolution-support",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Surrender_of_Lord_Cornwallis.jpg",
+    "wiki": "France_in_the_American_Revolutionary_War",
     "title": "France Backs American Revolution",
     "year": 1778,
     "keyword": "catalyst",
@@ -412,6 +458,8 @@
   },
   {
     "id": "louis-xvi-weakness",
+    "wiki": "Louis_XVI",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_%281754-1793%29%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg",
     "title": "Louis XVI's Weak Leadership",
     "year": 1774,
     "keyword": "pressure",
@@ -427,6 +475,8 @@
   },
   {
     "id": "necker-dismissed",
+    "wiki": "Jacques_Necker",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Necker%2C_Jacques_-_Duplessis.jpg",
     "title": "Necker Dismissed",
     "year": 1789,
     "keyword": "spark",
@@ -444,6 +494,7 @@
   {
     "id": "harvest-failure-1788",
     "title": "Harvest Failure of 1788",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv-2m0KWkdRUh878S6nKBbp7GHnIweUDKCILT5zO_7MIkY-0QS5F2WegIxKqQPkQPqcJGug3A308SQOUbj0kebGmvje79KvYnel-9lG717GM2KJOX3j-RM7WR6Y8G6BKnOi_AcEQAPnpBR/w1200-h630-p-k-no-nu/bruegel_peasants.jpg",
     "year": 1788,
     "keyword": "catalyst",
     "summary": "A severe drought followed by a brutal winter destroyed harvests across France. Bread prices soared to unaffordable levels just as the political crisis peaked — hunger became a revolutionary force.",
@@ -456,6 +507,8 @@
   },
   {
     "id": "womens-march-versailles",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/A_Versailles%2C_%C3%A0_Versailles_5_octobre_1789_-_Restoration.jpg",
+    "wiki": "Women%27s_March_on_Versailles",
     "title": "Women's March on Versailles",
     "year": 1789,
     "keyword": "turning-point",
@@ -472,6 +525,8 @@
   },
   {
     "id": "declaration-rights-man",
+    "wiki": "Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg",
     "title": "Declaration of Rights of Man",
     "year": 1789,
     "keyword": "consequence",
@@ -488,6 +543,8 @@
   },
   {
     "id": "flight-to-varennes",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Arrest_of_Louis_XVI_and_his_Family%2C_Varennes%2C_1791.jpg",
+    "wiki": "Flight_to_Varennes",
     "title": "Flight to Varennes",
     "year": 1791,
     "keyword": "turning-point",
@@ -504,6 +561,8 @@
   },
   {
     "id": "european-coalitions",
+    "wiki": "War_of_the_First_Coalition",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Battle_of_Fleurus%2C_26_June_1794.jpg",
     "title": "European Coalitions Against France",
     "year": 1792,
     "keyword": "catalyst",
@@ -521,6 +580,8 @@
   },
   {
     "id": "end-of-terror",
+    "wiki": "Thermidorian_Reaction",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Cl%C3%B4ture_de_la_salle_des_Jacobins_1794.jpg",
     "title": "Thermidorian Reaction",
     "year": 1794,
     "keyword": "turning-point",
@@ -536,6 +597,8 @@
   },
   {
     "id": "directory-government",
+    "wiki": "French_Directory",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Max_Adamo_Sturz_Robespierres.JPG",
     "title": "The Directory",
     "year": 1795,
     "keyword": "consequence",
@@ -551,6 +614,8 @@
   },
   {
     "id": "napoleon-rises",
+    "wiki": "Napoleon",
+    "imageUrl": "https://static.wikia.nocookie.net/bakerstreet/images/e/e3/Napoleon_Crossing_the_Alps_David.jpg/revision/latest?cb=20160116211310",
     "title": "Napoleon Seizes Power",
     "year": 1799,
     "keyword": "consequence",
@@ -567,6 +632,8 @@
   },
   {
     "id": "napoleonic-wars",
+    "wiki": "Napoleonic_Wars",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Napoleon_at_the_Battle_of_Rivoli.jpg",
     "title": "Napoleonic Wars",
     "year": 1803,
     "keyword": "consequence",
@@ -580,6 +647,8 @@
   },
   {
     "id": "european-revolutionary-spread",
+    "wiki": "Age_of_Revolution",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Jacques_Bertaux_-_Der_Tuileriensturm_am_10._August_1792.jpg",
     "title": "Revolutionary Ideas Spread",
     "year": 1800,
     "keyword": "consequence",
@@ -595,6 +664,8 @@
   {
     "id": "abolition-feudalism",
     "title": "Feudalism Abolished in France",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Assembl%C3%A9e_nationale_-_abandon_de_tous_les_privil%C3%A8ges_%C3%A0_Versailles%2C_s%C3%A9ance_de_la_nuit_du_4_au_5_ao%C3%BBt_1789_%28cropped%29.jpg",
+    "wiki": "Abolition_of_feudalism_in_France",
     "year": 1789,
     "keyword": "consequence",
     "summary": "The National Assembly abolished feudal privileges on the August 4th night in a wave of noble renunciations. Centuries of serfdom, tithes, and noble monopolies were swept away in hours.",
