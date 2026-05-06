@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import type { CatenoScenario } from "../types";
 import { SCENARIOS } from "../data/scenarios";
 import { ScenarioPatternSvg, SCENARIO_CENTRE_COLORS } from "../theme";
-import { CatenoLogo } from "./CatenoLogo";
 
 interface ScenarioSelectorProps {
   onSelect: (scenario: CatenoScenario) => void;
