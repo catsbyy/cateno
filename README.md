@@ -1,73 +1,127 @@
-# React + TypeScript + Vite
+# Cateno
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cause-and-effect history explorer. Pick a scenario, start at the anchor event, and follow the chain — forward into consequences, backward into causes.
 
-Currently, two official plugins are available:
+Built with React, TypeScript, React Flow, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+→ [cateno.app](https://cateno.app)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Scenarios
 
-## Expanding the ESLint configuration
+Eight curated scenarios, each with 30–45 interconnected events:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Fall of Rome** (100–600 AD)
+- **French Revolution** (1700–1803)
+- **Scientific Revolution** (1200–1760)
+- **Year Without a Summer** (1815–1820)
+- **World War I** (1871–1919)
+- **First Flight** (1485–1960)
+- **The Silent Archive** — Age of Underwater Archaeology (1500 BC–2010)
+- **The Last Templars** (1096–1500)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Screenshots
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+![Cateno landing page — eight curated historical scenarios](screenshots/landing.png)
+
+![The Silent Archive — full graph view showing all revealed nodes](screenshots/graph-full.png)
+
+![Exploring the Titanic discovery — detail panel with Wikipedia image](screenshots/graph-panel.png)
+
+<img src="screenshots/panel.png" width="360" alt="Detail panel — Vasa Sinks on Maiden Voyage">
+
+---
+
+## How it works
+
+Each scenario is a directed graph of historical events stored as a JSON file. Every node has:
+
+- A title, year, and one-paragraph summary
+- A keyword type (`trigger`, `pressure`, `catalyst`, `turning-point`, `collapse`, `consequence`, `shift`, `spark`)
+- Arrays of cause IDs and effect IDs linking it to other nodes
+- Optional Wikipedia article name and image URL
+
+The graph loads with 6 seed nodes visible. Clicking any node reveals its connected events and opens a detail panel. The `+N` badge on each node shows how many hidden connections remain.
+
+---
+
+## Tech stack
+
+| Layer      | Choice                    |
+| ---------- | ------------------------- |
+| Framework  | React + Vite + TypeScript |
+| Graph      | React Flow                |
+| Animations | Framer Motion             |
+| Styling    | Tailwind CSS              |
+| Data       | Static JSON — no backend  |
+| Analytics  | Vercel Analytics          |
+| Hosting    | Vercel                    |
+
+---
+
+## Project structure
+
+```
+src/
+  components/
+    CatenoGraph.tsx      # React Flow canvas — node layout, edges, pan/zoom
+    CatenoNode.tsx       # Individual node card with badge and keyword colour
+    CatenoLogo.tsx       # Mark + wordmark SVG component
+    DetailPanel.tsx      # Right-side / bottom-sheet event detail panel
+    GraphView.tsx        # Graph + panel + timeline assembled
+    Legend.tsx           # Keyword colour legend overlay
+    ScenarioSelector.tsx # Landing page card grid
+    TimelineBar.tsx      # Horizontal year timeline at the bottom
+  hooks/
+    useGraph.ts          # Visibility, focus, and connection state
+    useIsMobile.ts       # Responsive breakpoint hook
+  data/
+    scenarios.ts         # SCENARIOS array — imports all JSON files
+    fall-of-rome.json
+    french-revolution.json
+    scientific-revolution.json
+    year-without-a-summer.json
+    wwi.json
+    wright-brothers.json
+    underwater-archaeology.json
+    templars.json
+  App.tsx                # Root — scenario selection vs graph view
+  main.tsx               # Entry point + Analytics + SpeedInsights
+  types.ts               # CatenoNode, CatenoScenario interfaces
+  theme.tsx              # TYPE_COLORS, scenario gradients, SVG patterns
+  constants.ts           # Layout constants, animation values
+  index.css              # Global styles, font imports, React Flow overrides
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Adding a scenario
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1. Create a JSON file in `src/data/` following the `CatenoNode` schema
+2. Add it to the `SCENARIOS` array in `src/data/scenarios.ts`
+3. Add a background colour and SVG pattern in `src/theme.tsx`
+
+Each node must have:
+
+- A unique `id` (kebab-case)
+- `causeIds` and `effectIds` that reference other IDs in the same file
+- Exactly one node with `isAnchor: true`
+- Six nodes with `isSeed: true` (the anchor + 2–3 causes + 2–3 effects)
+
+---
+
+## Running locally
+
+```bash
+npm install
+npm run dev
 ```
+
+---
+
+## License
+
+MIT
