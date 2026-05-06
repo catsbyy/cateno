@@ -35,12 +35,15 @@ function NodeImageHeader({ node, height, panelBg }: { node: CatenoNode; height: 
 
   const [visible, setVisible] = useState(false);
   const [failed, setFailed] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+  const [hovered, setHovered] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
 
-  // Reset state whenever the source changes.
+  // Reset all state whenever the source changes (node switched).
   useEffect(() => {
     setVisible(false);
     setFailed(false);
+    setExpanded(false);
     // Handle already-cached images — onLoad won't fire again.
     if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) {
       setVisible(true);
@@ -50,8 +53,19 @@ function NodeImageHeader({ node, height, panelBg }: { node: CatenoNode; height: 
   // No image on this node — render nothing, panel starts directly with header.
   if (!src || failed) return null;
 
+  const collapsedHeight = height;
+  const expandedHeight = height * 2;
+
   return (
-    <div className="shrink-0 relative overflow-hidden" style={{ height }}>
+    <motion.div
+      className="shrink-0 relative overflow-hidden"
+      animate={{ height: expanded ? expandedHeight : collapsedHeight }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
+      onClick={() => setExpanded((e) => !e)}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      style={{ cursor: expanded ? "zoom-out" : "zoom-in" }}
+    >
       <img
         ref={imgRef}
         src={src}
@@ -73,9 +87,27 @@ function NodeImageHeader({ node, height, panelBg }: { node: CatenoNode; height: 
           position: "absolute",
           inset: 0,
           background: `linear-gradient(to bottom, transparent 40%, ${panelBg} 100%)`,
+          pointerEvents: "none",
         }}
       />
-    </div>
+      {/* Expand / collapse affordance */}
+      <span
+        style={{
+          position: "absolute",
+          bottom: 8,
+          right: 10,
+          fontSize: 12,
+          color: "#ffffff",
+          opacity: hovered ? 0.9 : 0.5,
+          transition: "opacity 0.15s ease",
+          pointerEvents: "none",
+          lineHeight: 1,
+          userSelect: "none",
+        }}
+      >
+        {expanded ? "⤡" : "⤢"}
+      </span>
+    </motion.div>
   );
 }
 
