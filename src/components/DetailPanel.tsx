@@ -238,32 +238,31 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
                 <div className="w-9 h-1 rounded-full bg-[#444]" />
               </div>
 
-              {/* Image */}
-              <NodeImageHeader node={node} height={120} panelBg={PANEL_BG} />
-
-              {/* Header */}
-              <div className="shrink-0 px-5 pt-3 pb-4" style={{ borderBottom: "1px solid #222" }}>
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-[#E8E3D5]/35 text-[12px] font-sans tracking-wider">{node.year}</span>
-                  <button
-                    onClick={onClose}
-                    aria-label="Close panel"
-                    className="text-[#E8E3D5]/30 cursor-pointer leading-none text-lg w-10 h-10 flex items-center justify-center"
-                  >
-                    ✕
-                  </button>
-                </div>
-                <h2 className="text-[#E8E3D5] text-[20px] font-serif leading-snug mb-2 font-bold">{node.title}</h2>
-                <span
-                  className="inline-block text-[10px] font-sans px-2 py-[3px] rounded uppercase tracking-widest font-medium"
-                  style={{ color, border: `1px solid ${color}`, opacity: 0.85 }}
-                >
-                  {node.keyword}
-                </span>
-              </div>
-
-              {/* Scrollable body */}
+              {/* Scrollable body — image + header + content all scroll together */}
               <div className="flex-1 overflow-y-auto">
+                {/* Image */}
+                <NodeImageHeader node={node} height={120} panelBg={PANEL_BG} />
+
+                {/* Header */}
+                <div className="px-5 pt-3 pb-4" style={{ borderBottom: "1px solid #222" }}>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-[#E8E3D5]/35 text-[12px] font-sans tracking-wider">{node.year}</span>
+                    <button
+                      onClick={onClose}
+                      aria-label="Close panel"
+                      className="text-[#E8E3D5]/30 cursor-pointer leading-none text-lg w-10 h-10 flex items-center justify-center"
+                    >
+                      ✕
+                    </button>
+                  </div>
+                  <h2 className="text-[#E8E3D5] text-[20px] font-serif leading-snug mb-2 font-bold">{node.title}</h2>
+                  <span
+                    className="inline-block text-[10px] font-sans px-2 py-[3px] rounded uppercase tracking-widest font-medium"
+                    style={{ color, border: `1px solid ${color}`, opacity: 0.85 }}
+                  >
+                    {node.keyword}
+                  </span>
+                </div>
                 <div className="px-5 py-4" style={{ borderBottom: "1px solid #1e1e1e" }}>
                   <p className="text-[#E8E3D5]/75 text-[15px] font-sans leading-[1.6]">{node.summary}</p>
                 </div>
@@ -318,34 +317,34 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
           onMouseDown={(e) => e.stopPropagation()}
           onClick={(e) => e.stopPropagation()}
         >
-          {/* Image */}
-          <NodeImageHeader node={node} height={160} panelBg={PANEL_BG} />
-
-          {/* ── Header ── */}
-          <div className="shrink-0 px-6 pt-5 pb-5" style={{ borderBottom: "1px solid #222" }}>
-            <div className="flex items-center justify-between mb-3">
-              <span className="text-[#E8E3D5]/35 text-[12px] font-sans tracking-wider">{node.year}</span>
-              <button
-                onClick={onClose}
-                aria-label="Close panel"
-                className="text-[#E8E3D5]/30 hover:text-[#E8E3D5]/70 transition-colors duration-150 cursor-pointer leading-none text-lg"
-              >
-                ✕
-              </button>
-            </div>
-            <h2 className="text-[#E8E3D5] text-[20px] font-serif leading-snug mb-3" style={{ fontWeight: 400 }}>
-              {node.title}
-            </h2>
-            <span
-              className="inline-block text-[10px] font-sans px-2 py-[3px] rounded uppercase tracking-widest font-medium"
-              style={{ color, border: `1px solid ${color}`, opacity: 0.85 }}
-            >
-              {node.keyword}
-            </span>
-          </div>
-
-          {/* ── Scrollable body ── */}
+          {/* ── Scrollable body — image + header + content all scroll together ── */}
           <div className="flex-1 overflow-y-auto scrollbar-thin">
+            {/* Image */}
+            <NodeImageHeader node={node} height={160} panelBg={PANEL_BG} />
+
+            {/* Header */}
+            <div className="px-6 pt-5 pb-5" style={{ borderBottom: "1px solid #222" }}>
+              <div className="flex items-center justify-between mb-3">
+                <span className="text-[#E8E3D5]/35 text-[12px] font-sans tracking-wider">{node.year}</span>
+                <button
+                  onClick={onClose}
+                  aria-label="Close panel"
+                  className="text-[#E8E3D5]/30 hover:text-[#E8E3D5]/70 transition-colors duration-150 cursor-pointer leading-none text-lg"
+                >
+                  ✕
+                </button>
+              </div>
+              <h2 className="text-[#E8E3D5] text-[20px] font-serif leading-snug mb-3" style={{ fontWeight: 400 }}>
+                {node.title}
+              </h2>
+              <span
+                className="inline-block text-[10px] font-sans px-2 py-[3px] rounded uppercase tracking-widest font-medium"
+                style={{ color, border: `1px solid ${color}`, opacity: 0.85 }}
+              >
+                {node.keyword}
+              </span>
+            </div>
+
             <div className="px-6 py-5" style={{ borderBottom: "1px solid #1e1e1e" }}>
               <p className="text-[#E8E3D5]/75 text-[14px] font-sans leading-relaxed">{node.summary}</p>
             </div>
