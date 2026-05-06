@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { ScenarioSelector } from "./components/ScenarioSelector";
 import { GraphView } from "./components/GraphView";
 import type { CatenoScenario } from "./types";
@@ -8,6 +10,7 @@ export default function App() {
   const [scenario, setScenario] = useState<CatenoScenario | null>(null);
 
   return (
+    <>
     <AnimatePresence mode="wait">
       {scenario === null ? (
         <motion.div
@@ -32,5 +35,8 @@ export default function App() {
         </motion.div>
       )}
     </AnimatePresence>
+    <Analytics />
+    <SpeedInsights />
+    </>
   );
 }
