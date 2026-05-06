@@ -1,3 +1,4 @@
+// React Flow wrapper: converts scenario data into a positioned DAG and renders it.
 import { useMemo, useEffect, useCallback } from "react";
 import { ReactFlow, Controls, useReactFlow, type Node, type Edge, MarkerType, Background } from "@xyflow/react";
 import { useIsMobile } from "../hooks/useIsMobile";
@@ -6,31 +7,20 @@ import type { CatenoScenario } from "../types";
 import { TYPE_COLORS } from "../types";
 import { CatenoNodeRenderer } from "./CatenoNode";
 import type { CatenoNodeData } from "./CatenoNode";
-
-const NODE_W = 200;
-const NODE_H = 72;
-const Y_STEP = 120; // vertical gap between same-year node centres
+import { NODE_W, NODE_H, COLUMN_WIDTH, Y_STEP, HEADER_H, TIMELINE_H } from "../constants";
 
 const nodeTypes = { cateno: CatenoNodeRenderer };
 
-// ─── Y slot pattern: slot 0 → 0, slot 1 → +Y_STEP, slot 2 → -Y_STEP, … ──────
-// Slots alternate above and below the centre line so the stack stays balanced.
+// Slot 0 → 0, slot 1 → +Y_STEP, slot 2 → -Y_STEP, …
+// Alternates above and below the centre line so the stack stays balanced.
 function yForSlot(slot: number): number {
   if (slot === 0) return 0;
   const level = Math.ceil(slot / 2);
   return slot % 2 === 1 ? level * Y_STEP : -(level * Y_STEP);
 }
 
-// ─── Pure time-based layout (no dagre) ───────────────────────────────────────
-// X  = linear mapping of year onto CANVAS_WIDTH, plus a small per-node jitter
-//      so nodes that share the same year don't sit on the exact same vertical
-//      line (they get a diagonal staircase spread instead).
-// Y  = greedy lane assignment with MIN_H_SPACING minimum between same-lane nodes.
-//
-// The anchor is always processed first so it always lands on slot 0 (Y = 0).
-
-const COLUMN_WIDTH = 280; // world-px between causal depth columns
-
+// BFS-based layout: assigns causal depth to every node starting from the anchor,
+// then places nodes in depth columns with balanced vertical stacking.
 function buildLayout(scenario: CatenoScenario): {
   positions: Map<string, { x: number; y: number }>;
   depth: Map<string, number>;
@@ -162,16 +152,13 @@ export function CatenoGraph({
 
   const nodeMap = useMemo(() => new Map(scenario.nodes.map((n) => [n.id, n])), [scenario]);
 
-  // Open with the anchor at 35% from the left, vertically centred in the canvas
-  // (canvas = full window minus header ~60px and timeline bar ~44px).
+  // Open with the anchor at 35% from the left, vertically centred in the canvas.
   const defaultViewport = useMemo(() => {
     const anchor = positions.get(scenario.anchorId);
     if (!anchor) return { x: 0, y: 0, zoom: 0.8 };
     const zoom = 0.8;
     const anchorCX = anchor.x + NODE_W / 2;
     const anchorCY = anchor.y + NODE_H / 2;
-    const HEADER_H = 60;
-    const TIMELINE_H = 44;
     const canvasW = window.innerWidth;
     const canvasH = window.innerHeight - HEADER_H - TIMELINE_H;
     return {
@@ -255,7 +242,7 @@ export function CatenoGraph({
   }, [visibleNodeIds, focusedNodeId, connectedIds, nodeMap, positions, scenario]);
 
   return (
-    <div className="w-full h-full" style={{ touchAction: 'none', position: 'relative', zIndex: 1 }}>
+    <div className="w-full h-full" style={{ touchAction: "none", position: "relative", zIndex: 1 }}>
       <ReactFlow
         nodes={nodes}
         edges={edges}
