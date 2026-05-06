@@ -27,20 +27,14 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
     <div className="w-full min-h-screen bg-[#0D0D0D] flex flex-col items-center px-4 py-12 md:py-16">
       {/* Wordmark */}
       <motion.div
-        className="w-full flex flex-col items-center shrink-0"
+        className="text-center shrink-0"
         style={{ marginBottom: 48 }}
         initial={{ opacity: 0, y: -16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
-        {/* Full logo on desktop, mark-only on mobile */}
-        <div className="hidden md:flex justify-center w-full mb-3">
-          <CatenoLogo showWordmark height={40} />
-        </div>
-        <div className="flex justify-center w-full mb-3 md:hidden">
-          <CatenoLogo showWordmark={false} height={36} />
-        </div>
-        <p className="text-[#E8E3D5]/35 text-[11px] font-sans uppercase tracking-[0.25em] text-center">
+        <h1 className="text-[#E8E3D5] text-5xl md:text-6xl font-serif tracking-tight mb-3">Cateno</h1>
+        <p className="text-[#E8E3D5]/35 text-[11px] font-sans uppercase tracking-[0.25em]">
           A cause-and-effect history explorer
         </p>
       </motion.div>
@@ -48,10 +42,7 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
       {/* Card grid — max 960px, centered */}
       <div className="w-full flex flex-col gap-4" style={{ maxWidth: 960 }}>
         {rows.map((row, rowIdx) => (
-          <div
-            key={rowIdx}
-            className="flex flex-col gap-4 md:flex-row md:justify-center md:items-stretch"
-          >
+          <div key={rowIdx} className="flex flex-col gap-4 md:flex-row md:justify-center md:items-stretch">
             {row.map((scenario, colIdx) => {
               const globalIdx = rowIdx * 3 + colIdx;
               const anchor = scenario.nodes.find((n) => n.isAnchor);
@@ -81,9 +72,7 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
                     <p className="text-[#E8E3D5]/30 text-[10px] font-sans uppercase tracking-[0.2em] mb-3">
                       {scenario.period}
                     </p>
-                    <h2 className="text-[#E8E3D5] text-[22px] font-serif leading-snug mb-3">
-                      {scenario.title}
-                    </h2>
+                    <h2 className="text-[#E8E3D5] text-[22px] font-serif leading-snug mb-3">{scenario.title}</h2>
                     <p className="text-[#E8E3D5]/50 text-[13px] font-sans leading-relaxed mb-5">
                       {scenario.description}
                     </p>
