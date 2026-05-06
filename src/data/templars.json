@@ -2,6 +2,8 @@
   {
     "id": "first-crusade",
     "title": "First Crusade",
+    "wiki": "First_Crusade",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Charles_Laplante_-_La_premi%C3%A8re_croisade_%28illustration_pour_Fran%C3%A7ois_Guizot%29.png",
     "year": 1096,
     "keyword": "catalyst",
     "summary": "Pope Urban II launched the First Crusade in 1095, sending thousands of European knights to capture Jerusalem. The Crusaders took the city in 1099 in a bloody massacre. This created a Christian kingdom in the Holy Land that needed defending — and pilgrims flooding dangerous roads that needed protecting.",
@@ -16,6 +18,8 @@
   {
     "id": "pilgrim-routes-dangerous",
     "title": "Pilgrim Routes Dangerously Unsafe",
+    "wiki": "Pilgrimage",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Charles_Laplante_-_La_premi%C3%A8re_croisade_%28illustration_pour_Fran%C3%A7ois_Guizot%29.png",
     "year": 1100,
     "keyword": "pressure",
     "summary": "The roads from European ports to Jerusalem were plagued by bandits, Muslim raiders, and local warlords. Thousands of pilgrims were robbed and killed every year. The Kingdom of Jerusalem lacked the forces to police vast territories — creating a vacuum that a small group of knights decided to fill.",
@@ -39,7 +43,9 @@
       "templars-invent-banking"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Medieval_banking",
+    "imageUrl": "https://premodeconhist.wordpress.com/files/2009/10/t970392a1.jpg?w=640"
   },
   {
     "id": "church-grants-exemptions",
@@ -55,7 +61,9 @@
       "templars-accumulate-wealth"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "wiki": "Omne_datum_optimum",
+    "imageUrl": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/593279626_wrf0jp?_a=BAVMn6DY0"
   },
   {
     "id": "templars-founded",
@@ -73,7 +81,9 @@
       "templars-invent-banking"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "wiki": "Knights_Templar",
+    "imageUrl": "https://www.worldhistory.org/img/r/p/1500x1500/9270.jpg"
   },
   {
     "id": "templars-invent-banking",
@@ -91,7 +101,9 @@
       "templars-become-bankers-to-kings"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "wiki": "Knights_Templar#Financial_activities",
+    "imageUrl": "https://static.wixstatic.com/media/b94234_bc408c2c7db143fb8579547aca7facbf~mv2.png/v1/fill/w_845,h_476,al_c,q_90,enc_avif,quality_auto/b94234_bc408c2c7db143fb8579547aca7facbf~mv2.png"
   },
   {
     "id": "templars-accumulate-wealth",
@@ -109,7 +121,9 @@
       "templars-become-bankers-to-kings"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Knights_Templar",
+    "imageUrl": "https://historyuk.s3.eu-west-2.amazonaws.com/s3fs-public/2023-08/shutterstock_2120047355.jpg?VersionId=pkVzBL222sMzusRw1W86sFM8ry1UOZM9"
   },
   {
     "id": "templars-become-bankers-to-kings",
@@ -126,7 +140,9 @@
       "templars-political-threat"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Temple_Church",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!-pi4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F240ab218-d083-48f0-8e59-b785175321a5_602x339.jpeg"
   },
   {
     "id": "acre-falls",
@@ -142,7 +158,9 @@
       "philip-sees-opportunity"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Siege_of_Acre_(1291)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/1291_si%C3%A8ge_d%27Acre.jpg"
   },
   {
     "id": "templars-lose-purpose",
@@ -158,7 +176,9 @@
       "templars-political-threat"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "History_of_the_Knights_Templar#Fall",
+    "imageUrl": "https://i.natgeofe.com/n/ed176d2a-02db-4bba-b652-1db89e076726/01-knights-templar.jpg"
   },
   {
     "id": "templars-political-threat",
@@ -174,7 +194,9 @@
       "philip-plots-destruction"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Philip_IV_of_France",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Philip_iv_and_family._2_%28detail_crop%29.jpg"
   },
   {
     "id": "philip-indebted-to-templars",
@@ -190,7 +212,9 @@
       "philip-plots-destruction"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Philip_IV_of_France",
+    "imageUrl": "https://www.meisterdrucke.uk/kunstwerke/1260px/Unknown_Artist_-_Philip_IV_the_Bel_%281268_-_1314%29_King_of_France_gave_his_daughter_Isabelle_of_Fra_-_%28MeisterDrucke-926539%29.jpg"
   },
   {
     "id": "philip-controls-papacy",
@@ -204,7 +228,9 @@
       "papacy-weakened"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "wiki": "Avignon_Papacy",
+    "imageUrl": "https://brewminate.com/wp-content/uploads/2018/10/102218-24-History-Medieval-Middle-Ages-Avignon-Papacy-Church.jpg"
   },
   {
     "id": "philip-sees-opportunity",
@@ -220,7 +246,9 @@
       "philip-plots-destruction"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Knights_Templar",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2371/0153/files/DALL_E_2024-11-20_18.49.14_-_A_solemn_scene_depicting_Pope_Clement_V_in_the_act_of_signing_the_Vox_in_excelso_bull_marking_the_dissolution_of_the_Knights_Templar._The_Pope_is_sho_480x480.webp?v=1732124289"
   },
   {
     "id": "philip-plots-destruction",
@@ -238,7 +266,9 @@
       "friday-13th-arrests"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Knights_Templar",
+    "imageUrl": "https://preview.redd.it/philip-iv-or-louis-ix-more-competent-king-of-france-v0-f3wlsw0w10vf1.jpeg?width=640&crop=smart&auto=webp&s=df835c18920da617f12c83c9204de17bfd92afbb"
   },
   {
     "id": "friday-13th-arrests",
@@ -256,7 +286,9 @@
       "pope-dissolves-order"
     ],
     "isAnchor": true,
-    "isSeed": true
+    "isSeed": true,
+    "wiki": "Knights_Templar",
+    "imageUrl": "https://gcp-na-images.contentstack.com/v3/assets/bltea6093859af6183b/bltca4b1e6bd0aab080/6988e1d2096a943f7069ffe4/templar.jpeg?branch=production"
   },
   {
     "id": "torture-extracts-confessions",
@@ -272,7 +304,9 @@
       "pope-dissolves-order"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Trial_of_the_Knights_Templar",
+    "imageUrl": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/knights-templar-gettyimages-534251110?_a=BAVMn6DY0"
   },
   {
     "id": "templar-treasury-seized",
@@ -287,7 +321,9 @@
       "templar-wealth-disperses"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Square_du_Temple_–_Elie-Wiesel",
+    "imageUrl": "https://static.wikia.nocookie.net/assassinscreed/images/5/59/ACU_Paris_Temple.png/revision/latest?cb=20141129201130"
   },
   {
     "id": "pope-dissolves-order",
@@ -306,7 +342,9 @@
       "papacy-weakened"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Council_of_Vienne",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Military_and_religious_life_in_the_Middle_Ages_and_at_the_period_of_the_Renaissance_%281870%29_%2814781914891%29.jpg"
   },
   {
     "id": "de-molay-burned",
@@ -323,7 +361,9 @@
       "papacy-weakened"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "wiki": "Jacques_de_Molay",
+    "imageUrl": "https://i.pinimg.com/1200x/29/27/32/292732fc4d7e5e8b60fa87c9384eab2b.jpg"
   },
   {
     "id": "friday-13th-superstition",
@@ -336,7 +376,8 @@
     ],
     "effectIds": [],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Friday_the_13th"
   },
   {
     "id": "templar-wealth-disperses",
@@ -353,7 +394,9 @@
       "medici-bank-founded"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Bardi_family",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Ognissanti%2C_coro%2C_stemma_bardi_02.jpg"
   },
   {
     "id": "papacy-weakened",
@@ -371,7 +414,9 @@
       "rise-of-secular-states"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Avignon_Papacy",
+    "imageUrl": "https://brewminate.com/wp-content/uploads/2018/10/102218-21-History-Medieval-Middle-Ages-Avignon-Papacy-Church.jpg"
   },
   {
     "id": "templar-curse-legend",
@@ -386,7 +431,9 @@
       "freemasonry-templar-myths"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Jacques_de_Molay#Curse_of_the_Templars",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/JacquesdeMolay.jpg"
   },
   {
     "id": "italian-banking-rises",
@@ -401,7 +448,9 @@
       "medici-bank-founded"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Bardi_family",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D5612AQEnkZOjUo9H_g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1715214247567?e=2147483647&v=beta&t=udWGZRNFMnhR0f-41oUssGTwP2kbVX6HJPu87zsQWYM"
   },
   {
     "id": "medici-bank-founded",
@@ -418,7 +467,9 @@
       "modern-banking-born"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Medici_Bank",
+    "imageUrl": "https://gertitashkomd.com/wp-content/uploads/2025/05/Italian-Renaissance-Begins-c1350%E2%80%931550.jpg"
   },
   {
     "id": "renaissance-funded",
@@ -433,7 +484,9 @@
       "modern-banking-born"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Italian_Renaissance",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Creaci%C3%B3n_de_Ad%C3%A1m.jpg/1280px-Creaci%C3%B3n_de_Ad%C3%A1m.jpg"
   },
   {
     "id": "modern-banking-born",
@@ -449,7 +502,9 @@
       "capitalism-emerges"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "History_of_banking",
+    "imageUrl": "https://i2.wp.com/www.lostkingdom.net/wp-content/uploads/2017/01/money_beauty04-26faf1c5c7a127bcb865d66d0232c3528dc18365-s900-c85.jpg?fit=900%2C663"
   },
   {
     "id": "protestant-reformation-seeds",
@@ -464,7 +519,9 @@
       "rise-of-secular-states"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "John_Wycliffe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/WycliffeYeamesLollards_01.jpg"
   },
   {
     "id": "rise-of-secular-states",
@@ -480,7 +537,9 @@
       "capitalism-emerges"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Secular_state",
+    "imageUrl": "https://cdn.britannica.com/47/121647-050-CEFF5FD4/St-Augustine-Sandro-Botticelli-Florence-Church-of.jpg"
   },
   {
     "id": "freemasonry-templar-myths",
@@ -493,7 +552,9 @@
     ],
     "effectIds": [],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Freemasonry",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Early-1740-Lodge.png"
   },
   {
     "id": "capitalism-emerges",
@@ -507,6 +568,8 @@
     ],
     "effectIds": [],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "History_of_capitalism",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4CLel3Sc-yPqenGYEGefJi1I_jqb2QDILGVQhzM_61kY98gp9YK7rDQOS4JeApcTj7ppakyziP7Q8neTTChBmm0vbr1wzZVpJTz5PYgqD9B38MLFnf7XarnJPhkQYiX_-2Dk0vceaMzY/s1600/tmp601500619752079362.jpg"
   }
 ]

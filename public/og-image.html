@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      width: 1200px;
+      height: 630px;
+      overflow: hidden;
+      background: #0D0D0D;
+    }
+
+    .card {
+      position: relative;
+      width: 1200px;
+      height: 630px;
+      background: #0D0D0D;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 72px 88px;
+      overflow: hidden;
+    }
+
+    /* Warm radial gradient centre */
+    .card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 50%, #2a1a06 0%, #0D0D0D 65%);
+      pointer-events: none;
+    }
+
+    /* Subtle dot grid */
+    .card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(circle, #E8E3D510 1px, transparent 1px);
+      background-size: 28px 28px;
+      pointer-events: none;
+    }
+
+    .logo {
+      position: absolute;
+      top: 52px;
+      left: 88px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      z-index: 1;
+    }
+
+    .logo-wordmark {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 28px;
+      color: #E8E3D5;
+      letter-spacing: 0.08em;
+      line-height: 1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      margin-top: 40px;
+    }
+
+    .headline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 76px;
+      font-weight: 400;
+      color: #E8E3D5;
+      line-height: 1.08;
+      letter-spacing: -0.01em;
+      margin-bottom: 28px;
+    }
+
+    .subtitle {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      color: #E8E3D5;
+      opacity: 0.6;
+      letter-spacing: 0.01em;
+      line-height: 1.4;
+    }
+
+    .scenarios {
+      position: absolute;
+      bottom: 52px;
+      right: 88px;
+      z-index: 1;
+      font-family: 'DM Sans', system-ui, sans-serif;
+      font-size: 15px;
+      font-variant: small-caps;
+      letter-spacing: 0.12em;
+      color: #E8E3D5;
+      opacity: 0.38;
+      text-align: right;
+    }
+
+    .divider {
+      position: absolute;
+      bottom: 0;
+      left: 88px;
+      right: 88px;
+      height: 1px;
+      background: #E8E3D515;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- Logo mark + wordmark -->
+    <div class="logo">
+      <svg width="52" height="32" viewBox="0 0 55 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="10" cy="16" r="10" fill="#E8E3D5"/>
+        <line x1="20" y1="16" x2="38" y2="16" stroke="#E8E3D5" stroke-width="1.5"/>
+        <path d="M34,11 L42,16 L34,21" fill="none" stroke="#E8E3D5" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+        <circle cx="48" cy="16" r="7" fill="none" stroke="#E8E3D5" stroke-width="1.5"/>
+      </svg>
+      <span class="logo-wordmark">Cateno</span>
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+      <h1 class="headline">Follow the chain.</h1>
+      <p class="subtitle">A cause-and-effect history explorer</p>
+    </div>
+
+    <!-- Scenario names bottom-right -->
+    <div class="scenarios">
+      WWI &nbsp;·&nbsp; French Revolution &nbsp;·&nbsp; The Last Templars &nbsp;·&nbsp; First Flight
+    </div>
+  </div>
+</body>
+</html>

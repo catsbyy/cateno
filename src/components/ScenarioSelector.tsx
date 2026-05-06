@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import type { CatenoScenario } from "../types";
 import { SCENARIOS } from "../data/scenarios";
 import { ScenarioPatternSvg, SCENARIO_CENTRE_COLORS } from "../utils/scenarioBackground";
+import { CatenoLogo } from "./CatenoLogo";
 
 interface ScenarioSelectorProps {
   onSelect: (scenario: CatenoScenario) => void;
@@ -26,14 +27,20 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
     <div className="w-full min-h-screen bg-[#0D0D0D] flex flex-col items-center px-4 py-12 md:py-16">
       {/* Wordmark */}
       <motion.div
-        className="text-center shrink-0"
+        className="w-full flex flex-col items-center shrink-0"
         style={{ marginBottom: 48 }}
         initial={{ opacity: 0, y: -16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
-        <h1 className="text-[#E8E3D5] text-5xl md:text-6xl font-serif tracking-tight mb-3">Cateno</h1>
-        <p className="text-[#E8E3D5]/35 text-[11px] font-sans uppercase tracking-[0.25em]">
+        {/* Full logo on desktop, mark-only on mobile */}
+        <div className="hidden md:flex justify-center w-full mb-3">
+          <CatenoLogo showWordmark height={40} />
+        </div>
+        <div className="flex justify-center w-full mb-3 md:hidden">
+          <CatenoLogo showWordmark={false} height={36} />
+        </div>
+        <p className="text-[#E8E3D5]/35 text-[11px] font-sans uppercase tracking-[0.25em] text-center">
           A cause-and-effect history explorer
         </p>
       </motion.div>
