@@ -2,6 +2,8 @@
   {
     "id": "ancient-dream-of-flight",
     "title": "Ancient Dream of Flight",
+    "wiki": "Icarus",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Gowy-icaro-prado.jpg",
     "year": 400,
     "keyword": "pressure",
     "summary": "Humans have dreamed of flight since antiquity — from the myth of Icarus to Chinese kites in 400 BC to the ornithopter sketches of medieval engineers. This persistent obsession drove centuries of observation of birds and repeated attempts to understand lift and aerodynamics.",
@@ -16,6 +18,8 @@
   {
     "id": "early-kites",
     "title": "Chinese Kites and Gliders",
+    "wiki": "Kite",
+    "imageUrl": "https://www.nationalkitemonth.org/wp-content/uploads/2014/03/h1-jap.jpg",
     "year": 500,
     "keyword": "shift",
     "summary": "Large Chinese kites capable of lifting objects — and possibly humans — existed by the 5th century AD, primarily for military signalling and observation. Whether they lifted humans reliably is debated, but the demonstrations of sustained lift influenced later thinkers who encountered accounts of them.",
@@ -31,6 +35,8 @@
   {
     "id": "leonardo-sketches",
     "title": "Leonardo's Flying Machines",
+     "wiki": "Leonardo_da_Vinci",
+    "imageUrl": "https://www.leonardodavinci.net/assets/img/works/design-for-a-flying-machine2.jpg",
     "year": 1485,
     "keyword": "catalyst",
     "summary": "Leonardo da Vinci filled notebooks with designs for ornithopters, hang gliders, and aerial screws between 1485 and 1505. None were built in his lifetime, but his systematic study of bird anatomy and lift principles established flight as a serious engineering problem rather than a fantasy.",
@@ -48,6 +54,8 @@
   {
     "id": "ornithopter-attempts",
     "title": "Ornithopter Attempts Fail",
+     "wiki": "Ornithopter",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Leonardo_da_Vinci_helicopter_and_lifting_wing.jpg/250px-Leonardo_da_Vinci_helicopter_and_lifting_wing.jpg",
     "year": 1600,
     "keyword": "pressure",
     "summary": "For two centuries, inventors tried to fly by flapping wings like birds — all failed catastrophically. These failures gradually proved that human muscle power was insufficient for flapping flight and forced a conceptual shift toward fixed wings and gliding.",
@@ -63,6 +71,8 @@
   {
     "id": "scientific-method-applied",
     "title": "Science Applied to Flight",
+     "wiki": "Giovanni_Alfonso_Borelli",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Giovanni_Alfonso_Borelli.jpg",
     "year": 1680,
     "keyword": "shift",
     "summary": "Giovanni Borelli's 1680 mathematical proof that human muscles were too weak for bird-style flight was a turning point. For the first time, the problem of flight was approached through physics and mathematics rather than imitation of nature — setting the stage for modern aerodynamics.",
@@ -78,6 +88,8 @@
   {
     "id": "montgolfier-balloon",
     "title": "Montgolfier Balloon Flight",
+    "wiki": "Montgolfier_brothers",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Early_flight_02562u_%282%29.jpg",
     "year": 1783,
     "keyword": "turning-point",
     "summary": "The Montgolfier brothers flew the first crewed hot air balloon over Paris on November 21, 1783 — the first time humans left the ground in a controlled vehicle. The flight proved sustained human flight was possible and sparked a century of aeronautical experimentation across Europe.",
@@ -94,6 +106,8 @@
   {
     "id": "balloon-era",
     "title": "Balloon Era and Its Limits",
+    "wiki": "Hot_air_balloon",
+    "imageUrl": "https://www.broadlandballoons.co.uk/wp-content/uploads/2015/09/800px-Montgolfier_brothers_flight.jpg",
     "year": 1800,
     "keyword": "pressure",
     "summary": "Balloons could lift humans but couldn't be steered — they went where the wind took them. This fundamental limitation drove engineers toward heavier-than-air controlled flight, as balloons proved useless for transportation despite decades of refinement.",
@@ -110,6 +124,8 @@
   {
     "id": "military-balloon-use",
     "title": "Military Balloon Reconnaissance",
+    "wiki": "History_of_military_ballooning",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Early_flight_02562u_%2810%29.jpg",
     "year": 1794,
     "keyword": "consequence",
     "summary": "France used observation balloons at the Battle of Fleurus in 1794 — the first military use of aircraft in history. Armies immediately saw the strategic value of aerial observation, creating institutional interest in aviation that would fund development for over a century.",
@@ -125,6 +141,8 @@
   {
     "id": "cayley-discovers-lift",
     "title": "Cayley Discovers Lift Principles",
+    "wiki": "George_Cayley",
+    "imageUrl": "https://owlcation.com/.image/MTc0NjQ2NDA0OTQ0NTA0NTkx/aerodynamics-the-theory-of-lift.png?io=1&profile=w2560&x=0&y=0",
     "year": 1799,
     "keyword": "turning-point",
     "summary": "George Cayley engraved the forces of flight — lift, drag, thrust, weight — on a silver disc in 1799, establishing the scientific framework for heavier-than-air flight. He built the first successful glider in 1853. Cayley is considered the true father of the aeroplane, doing the foundational physics 50 years before the Wright Brothers.",
@@ -143,6 +161,8 @@
   {
     "id": "glider-experiments",
     "title": "Glider Experiments",
+    "wiki": "Gliding_flight",
+    "imageUrl": "https://faculty.etsu.edu/gardnerr/wright-brothers/lilienthal-1893.jpg",
     "year": 1850,
     "keyword": "catalyst",
     "summary": "Through the mid-19th century, pioneers like Otto Lilienthal in Germany and Octave Chanute in America made hundreds of glider flights, systematically measuring lift and drag. Lilienthal alone made over 2,000 glider flights before his fatal crash in 1896 — his data became the foundation the Wright Brothers built on.",
@@ -160,6 +180,8 @@
   {
     "id": "lilienthal-dies",
     "title": "Lilienthal's Fatal Crash",
+    "wiki": "Otto_Lilienthal",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Otto_Lilienthal_gliding_experiment_ppmsca.02546.jpg",
     "year": 1896,
     "keyword": "spark",
     "summary": "Otto Lilienthal died from injuries sustained in a glider crash on August 10, 1896. His last words were reportedly 'sacrifices must be made.' The news reached Wilbur Wright and galvanized the brothers — Lilienthal's death made the problem of controlled flight feel urgent and solvable rather than merely theoretical.",
@@ -175,6 +197,8 @@
   {
     "id": "internal-combustion-engine",
     "title": "Internal Combustion Engine",
+    "wiki": "Otto_engine",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/PSM_V18_D500_An_american_internal_combustion_otto_engine.jpg",
     "year": 1876,
     "keyword": "catalyst",
     "summary": "The development of the internal combustion engine by Otto and later Daimler provided the first power source light enough and powerful enough to potentially drive an aircraft. Without it, heavier-than-air powered flight was physically impossible — the Wright Brothers' engine was a direct descendant of this technology.",
@@ -191,6 +215,8 @@
   {
     "id": "wright-brothers-inspired",
     "title": "Wright Brothers Enter the Race",
+     "wiki": "Wright_brothers",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Wright_Brothers_at_home%2C_1909.jpgg",
     "year": 1896,
     "keyword": "catalyst",
     "summary": "Inspired by Lilienthal's work and death, Wilbur and Orville Wright began their systematic study of flight in 1896. Unlike competitors who leapt to building powered aircraft, the brothers spent three years studying bird flight, building kites, and writing to the Smithsonian for every available paper on aeronautics.",
@@ -208,6 +234,8 @@
   {
     "id": "wind-tunnel-tests",
     "title": "Wright Brothers' Wind Tunnel",
+    "wiki": "Wind_tunnel",
+    "imageUrl": "https://media.defense.gov/2016/Jan/06/2001332715/-1/-1/0/160106-F-IO108-003.JPG",
     "year": 1901,
     "keyword": "turning-point",
     "summary": "After finding that Lilienthal's lift calculations produced far less lift than predicted in practice, the Wright Brothers built their own wind tunnel in 1901 and tested over 200 wing shapes. This methodical engineering approach produced accurate lift data that gave them a decisive advantage over all competitors who were still guessing.",
@@ -223,6 +251,8 @@
   {
     "id": "wright-brothers-build-engine",
     "title": "Wright Brothers Build Their Engine",
+     "wiki": "Wright_brothers",
+    "imageUrl": "https://www.wright-brothers.org/Information_Desk/Just_the_Facts/Engines_&_Props/Wright_Engine_&_Props_images/1908-Installing-Wright-Motor-Pau-France.jpg",
     "year": 1902,
     "keyword": "catalyst",
     "summary": "Unable to find a commercial engine light enough, the Wright Brothers designed and built their own 12-horsepower engine in just six weeks with mechanic Charlie Taylor. It weighed only 82kg — half the weight of any comparable engine. This custom engine made Kitty Hawk possible.",
@@ -239,6 +269,8 @@
   {
     "id": "race-to-fly",
     "title": "Race to Powered Flight",
+    "wiki": "Samuel_Langley",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Samuel_Pierpont_Langley_and_Charles_M._Manly_-_GPN-2000-001298.jpg",
     "year": 1900,
     "keyword": "pressure",
     "summary": "By 1900 a global race was underway — Samuel Langley with US government funding, Hiram Maxim in Britain, Clément Ader in France. All had more money, more prestige, and more resources than the Wright Brothers. The competitive pressure accelerated development and made Kitty Hawk feel like a decisive victory rather than a first step.",
@@ -254,7 +286,9 @@
   },
   {
     "id": "langley-fails",
-    "title": "Langley's Aerodrome Crashes",
+    "title": "Langley's Aerodrome Crashes", 
+    "wiki": "Samuel_Langley",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Samuel_Pierpont_Langley_-_Potomac_experiment_1903.jpeg",
     "year": 1903,
     "keyword": "turning-point",
     "summary": "Samuel Langley's Aerodrome — funded by $70,000 in US government money — crashed into the Potomac River on October 7 and December 8, 1903, just nine days before Kitty Hawk. The failures discredited government-backed aviation research and gave the Wright Brothers' bicycle-shop achievement an almost mythic quality.",
@@ -270,6 +304,8 @@
   {
     "id": "kitty-hawk-flight",
     "title": "First Flight at Kitty Hawk",
+    "wiki": "Wright_Flyer",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/First_flight2.jpg",
     "year": 1903,
     "keyword": "spark",
     "summary": "On December 17, 1903, Orville Wright flew the Flyer for 12 seconds and 37 metres at Kitty Hawk, North Carolina. The brothers made four flights that day, the longest lasting 59 seconds. Two bicycle mechanics from Dayton, Ohio had solved in four years what governments, universities, and funded researchers had failed to achieve in decades.",
@@ -290,6 +326,8 @@
   {
     "id": "world-ignores-flight",
     "title": "World Ignores the Achievement",
+    "wiki": "Wright_Flyer",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Orville_Wright%26flyer1909.jpg",
     "year": 1904,
     "keyword": "shift",
     "summary": "Despite flying repeatedly near Dayton through 1904 and 1905, the Wright Brothers were almost completely ignored by press and government. The US Army rejected their aircraft twice. Most newspapers refused to print the story. The world simply didn't believe powered flight had been achieved — it took five years for Kitty Hawk to be widely accepted.",
@@ -306,6 +344,8 @@
   {
     "id": "wright-brothers-patent",
     "title": "Wright Brothers Patent War",
+    "wiki": "Wright_brothers_patent_war",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/821393_-_Flying_Machine_-_Wright_Brothers_-_NARA_-_2524937_%28page_1%29.jpg",
     "year": 1906,
     "keyword": "consequence",
     "summary": "The Wright Brothers patented their wing-warping control system and spent the next decade in bitter legal battles against competitors. Their aggressive patent enforcement slowed American aviation development significantly — while Europe surged ahead. The patent war is widely blamed for America losing its early aviation lead.",
@@ -323,6 +363,8 @@
   {
     "id": "european-aviation-rises",
     "title": "European Aviation Surges Ahead",
+    "wiki": "Louis_Blériot",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bleriot_V.jpg",
     "year": 1907,
     "keyword": "shift",
     "summary": "While the Wright Brothers fought patent wars, European aviators — particularly in France — rapidly advanced aircraft design. Louis Blériot crossed the English Channel in 1909. By 1910, European aircraft outperformed American ones. The centre of aviation innovation had crossed the Atlantic westward only to return east within a decade.",
@@ -341,6 +383,8 @@
   {
     "id": "blériot-channel-crossing",
     "title": "Blériot Crosses the Channel",
+     "wiki": "Louis_Blériot",
+    "imageUrl": "https://airandspace.si.edu/sites/default/files/images/93-9132_640.jpg",
     "year": 1909,
     "keyword": "turning-point",
     "summary": "Louis Blériot's crossing of the English Channel on July 25, 1909 shocked Britain into realizing its island security was gone forever. The Times declared 'England is no longer an island.' It was the moment the world understood that aviation would transform not just transportation but geopolitics and warfare.",
@@ -357,6 +401,8 @@
   {
     "id": "military-funds-aviation",
     "title": "Militaries Fund Aviation",
+    "wiki": "Military_aviation",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Wright_Military_Flyer_arrives_at_Fort_Myer_VA_DA-SD-05-00659.JPEG",
     "year": 1909,
     "keyword": "catalyst",
     "summary": "After Blériot's Channel crossing, every major military began funding aviation programs urgently. The British, French, German, and Russian armies all established air services between 1909 and 1912. Military money transformed aviation from a sporting curiosity into a serious engineering industry almost overnight.",
@@ -374,6 +420,8 @@
   {
     "id": "wwi-air-warfare",
     "title": "WWI Air Warfare",
+    "wiki": "Aviation_in_World_War_I",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mitrailleuse_on_French_Morane_Saulnier_L_parasol_monoplane.jpg",
     "year": 1914,
     "keyword": "turning-point",
     "summary": "World War I transformed aviation from sport to weapon in months. Aircraft evolved from unarmed reconnaissance platforms to fighter planes, bombers, and ground attack aircraft in four years of desperate innovation. The war produced a generation of pilots, engineers, and aircraft factories that made commercial aviation possible.",
@@ -393,6 +441,8 @@
   {
     "id": "dogfight-transforms-warfare",
     "title": "Air Combat Changes War Forever",
+     "wiki": "Dogfight",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/An_Incident_on_the_Western_Front_Art.IWMART2660.jpg",
     "year": 1916,
     "keyword": "consequence",
     "summary": "The development of aerial combat — from the Fokker Scourge to the Red Baron — established air superiority as a decisive military concept. Control of the skies became as important as control of the seas, permanently reshaping military doctrine and making the air force an independent military branch.",
@@ -408,6 +458,8 @@
   {
     "id": "surplus-aircraft-postwar",
     "title": "Surplus Aircraft Flood Market",
+     "wiki": "Aviation_in_World_War_I",
+    "imageUrl": "https://historyguild.org/wp-content/uploads/2022/01/Planes_of_WW1-1.jpeg",
     "year": 1918,
     "keyword": "catalyst",
     "summary": "The end of WWI left thousands of aircraft and trained pilots with nothing to do. Surplus planes were sold cheaply, creating a generation of barnstormers and air mail pilots across America and Europe. This surplus infrastructure was the direct foundation of commercial aviation.",
@@ -424,6 +476,8 @@
   {
     "id": "barnstormers-era",
     "title": "Barnstormer Era",
+     "wiki": "Barnstorming",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Curtiss_JN-4_in_flight_over_Central_Ontario.jpg",
     "year": 1919,
     "keyword": "shift",
     "summary": "Thousands of WWI veterans became barnstormers — travelling the American countryside selling rides and performing stunts at county fairs. They made aviation visible and exciting to millions of ordinary Americans, creating the public enthusiasm that made commercial aviation politically and economically viable.",
@@ -439,6 +493,8 @@
   {
     "id": "commercial-aviation-born",
     "title": "Commercial Aviation Born",
+    "wiki": "Commercial_aviation",
+    "imageUrl": "https://aircargoweek.com/wp-content/uploads/2025/03/F-GEAB-Le_Crotoy-1080x751.jpg",
     "year": 1914,
     "keyword": "consequence",
     "summary": "The world's first scheduled commercial air service launched in 1910 — DELAG in Germany using Zeppelin airships. The first fixed-wing airline, St. Petersburg-Tampa Airboat Line, flew in 1914. KLM, still operating today, launched in 1919. Within a decade, air mail, passenger routes, and aviation companies had transformed flight from adventure into industry.",
@@ -457,6 +513,8 @@
   {
     "id": "lindbergh-transatlantic",
     "title": "Lindbergh Crosses the Atlantic",
+    "wiki": "Charles_Lindbergh",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Lindbergh_takes_off_from_Roosevelt_Field.jpg",
     "year": 1927,
     "keyword": "turning-point",
     "summary": "Charles Lindbergh's solo non-stop transatlantic flight on May 20–21, 1927 captured the world's imagination like no aviation event since Kitty Hawk. His arrival in Paris triggered a global aviation boom — airline stocks soared, routes multiplied, and public confidence in air travel transformed overnight.",
@@ -473,6 +531,8 @@
   {
     "id": "aviation-industry-grows",
     "title": "Aviation Industry Emerges",
+    "wiki": "Aviation",
+    "imageUrl": "https://loveincorporated.blob.core.windows.net/contentimages/gallery/f8839d26-c5ae-4258-86a3-ddbca674e37e-western-express-airways-plane.jpg",
     "year": 1925,
     "keyword": "consequence",
     "summary": "Boeing, Douglas, Lockheed, and dozens of other manufacturers emerged in the 1920s to meet military and commercial demand. The Air Mail Act of 1925 gave airlines government contracts that funded rapid expansion. Aviation became one of America's defining industries within two decades of Kitty Hawk.",
@@ -491,6 +551,8 @@
   {
     "id": "strategic-bombing-doctrine",
     "title": "Strategic Bombing Doctrine",
+    "wiki": "Strategic_bombing",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Bundesarchiv_Bild_146-2008-0051%2C_Frankreich%2C_Bombardierung_Calais.jpg",
     "year": 1921,
     "keyword": "shift",
     "summary": "Giulio Douhet's 1921 book 'The Command of the Air' argued that wars could be won by bombing civilian populations from the air. This doctrine shaped WWII strategy on all sides — the Blitz, Dresden, Hiroshima — and remains the basis of modern air power theory.",
@@ -507,6 +569,8 @@
   {
     "id": "wwii-air-power",
     "title": "WWII Transforms Air Power",
+    "wiki": "Aviation_in_World_War_II",
+    "imageUrl": "https://generalaviationnews.s3.amazonaws.com/uploads/2020/02/GAN-2-B-17G-Production-on-Ramp-.jpg",
     "year": 1939,
     "keyword": "consequence",
     "summary": "World War II made air power decisive in a way WWI hadn't. The Battle of Britain, Pearl Harbor, D-Day, and the atomic bombings of Japan were all fundamentally air events. WWII aviation research produced jet engines, radar, pressurised cabins, and long-range navigation — the foundations of the modern aviation world.",
@@ -523,6 +587,8 @@
   {
     "id": "transatlantic-routes",
     "title": "Transatlantic Air Travel",
+    "wiki": "Transatlantic_flight",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Boeing_314_Yankee_Clipper_1939.jpg",
     "year": 1939,
     "keyword": "consequence",
     "summary": "Pan American's flying boats began regular transatlantic passenger service in 1939, making what had been a week-long ocean voyage into a day's journey. The psychological shrinking of the globe — making distant places feel accessible — began the process of globalisation that jet travel would accelerate after WWII.",
@@ -539,6 +605,8 @@
   {
     "id": "jet-age-begins",
     "title": "Jet Age Begins",
+    "wiki": "Jet_Age",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Dh_Comet.jpg",
     "year": 1952,
     "keyword": "consequence",
     "summary": "The de Havilland Comet launched the jet age in 1952 — cutting transatlantic flight time in half. After early crashes revealed metal fatigue problems, the Boeing 707 in 1958 made jet travel reliable and affordable. Within a decade, mass air travel transformed tourism, global trade, migration, and the very nature of distance.",
@@ -555,6 +623,8 @@
   {
     "id": "globalisation-accelerates",
     "title": "Aviation Accelerates Globalisation",
+    "wiki": "Aviation",
+    "imageUrl": "https://i.pinimg.com/736x/06/e4/a4/06e4a42e4c1547b1088039137a9cd107.jpg",
     "year": 1960,
     "keyword": "consequence",
     "summary": "Mass air travel after 1960 shrank the world in ways no previous technology had. Multinational corporations, global tourism, international supply chains, and cultural exchange all depended on the ability to move people and goods rapidly across continents. The world the Wright Brothers made possible in 1903 became fully real sixty years later.",
@@ -572,6 +642,8 @@
     "title": "Aviation Leads to Space",
     "year": 1957,
     "keyword": "consequence",
+    "wiki": "Space_exploration",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Escape_rocket_of_Mercury-Redstone_1.jpg",
     "summary": "The same aeronautical engineering, jet propulsion research, and institutional investment that built the aviation industry directly produced the space age. NASA was founded by aviation engineers. The Saturn V rocket was designed by teams who had built WWII aircraft. Sputnik in 1957 and the Moon landing in 1969 were the direct grandchildren of Kitty Hawk.",
     "causeIds": [
       "globalisation-accelerates"
@@ -585,6 +657,8 @@
     "title": "Aviation Pioneers Inspired",
     "year": 1905,
     "keyword": "shift",
+    "wiki": "List_of_aviation_pioneers",
+    "imageUrl": "https://b4363232.smushcdn.com/4363232/wp-content/uploads/2023/12/pioneers-of-aviation-alberto-santos-dumont-1024x683.png?lossy=2&strip=1&webp=1",
     "summary": "News of the Wright Brothers' success — slow to spread but impossible to suppress — inspired a generation of pioneers across Europe and America. Alberto Santos-Dumont in Brazil, Louis Blériot in France, Glenn Curtiss in America — all were directly galvanized by Kitty Hawk into pursuing powered flight themselves.",
     "causeIds": [
       "kitty-hawk-flight"
