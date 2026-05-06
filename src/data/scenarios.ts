@@ -6,6 +6,7 @@ import scientificRevolutionData from "./scientific-revolution.json";
 import yearWithoutASummerData from "./year-without-a-summer.json";
 import wrightBrothersData from "./wright-brothers.json";
 import underwaterData from "./underwater-archaeology.json";
+import templarsData from "./templars.json";
 
 export const SCENARIOS: CatenoScenario[] = [
   {
@@ -70,5 +71,14 @@ export const SCENARIOS: CatenoScenario[] = [
       "The ocean floor is the largest archaeological site on Earth. How divers, engineers, and stubborn scholars dragged the ancient world back to the surface — and rewrote everything we thought we knew.",
     anchorId: "vasa-raising",
     nodes: underwaterData as CatenoScenario["nodes"],
+  },
+  {
+    id: "templars",
+    title: "The Last Templars",
+    period: "1096–1500",
+    description:
+      "A French king owed them money he couldn't repay. One October morning in 1307 he had them all arrested. How the destruction of the most powerful military order in history accidentally invented modern banking — and capitalism.",
+    anchorId: "friday-13th-arrests",
+    nodes: templarsData as CatenoScenario["nodes"],
   },
 ];

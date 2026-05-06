@@ -14,6 +14,7 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "year-without-a-summer":  "#12101a",
   "wright-brothers":        "#0f1218",
   "underwater-archaeology": "#071418",
+  "templars":               "#18100a",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -24,6 +25,7 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "year-without-a-summer":  "radial-gradient(ellipse at center, #12101a 0%, #0D0D0D 70%)",
   "wright-brothers":        "radial-gradient(ellipse at center, #0f1218 0%, #0D0D0D 70%)",
   "underwater-archaeology": "radial-gradient(ellipse at center, #071418 0%, #0D0D0D 70%)",
+  "templars":               "radial-gradient(ellipse at center, #18100a 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -185,6 +187,32 @@ function SummerPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Templars — cross pattée repeat
+function TemplarsPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-templars" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+          {/* Cross pattée ~40×40px: translate to center in tile, then scale from 1083×1083 source */}
+          <g transform="translate(40, 40) scale(0.037)">
+            <path
+              d="M358.145 1070.42l370.414 0c-71.7183,-110.608 -132.927,-316.36 -132.927,-469.658 153.3,-0.00354223 359.051,61.2061 469.66,132.926l-0.00118074 -370.413c-132.87,76.4341 -341.723,125.971 -473.362,118.969 0,-153.298 61.2085,-359.049 132.927,-469.658l-370.414 0c71.7183,110.608 132.927,316.36 132.926,469.659 -153.298,0 -359.049,-61.2085 -469.658,-132.927l-0.00236148 370.414c132.874,-76.4341 341.726,-125.97 473.364,-118.97 0,153.298 -61.2085,359.049 -132.927,469.658z"
+              fill="white"
+            />
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-templars)" />
+    </svg>
+  );
+}
+
 // Underwater Archaeology — sonar ping concentric arcs + depth lines
 function UnderwaterPattern({ opacity }: { opacity: number }) {
   return (
@@ -244,6 +272,7 @@ function WrightPattern({ opacity }: { opacity: number }) {
 
 // ─── Public export ─────────────────────────────────────────────────────────────
 
+
 interface ScenarioPatternSvgProps {
   scenarioId: string;
   opacity: number;
@@ -258,6 +287,7 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
     case "year-without-a-summer": return <SummerPattern opacity={opacity} />;
     case "wright-brothers":       return <WrightPattern opacity={opacity} />;
     case "underwater-archaeology": return <UnderwaterPattern opacity={opacity} />;
-    default:                      return null;
+    case "templars":               return <TemplarsPattern opacity={opacity} />;
+    default:                       return null;
   }
 }

@@ -2,6 +2,8 @@
   {
     "id": "fall-of-rome",
     "title": "Fall of Western Roman Empire",
+    "wiki": "Fall_of_the_Western_Roman_Empire",
+    "imageUrl": "https://about-history.com/wp-content/uploads/2017/12/End-of-an-Era-The-Fall-of-The-Western-Roman-Empire.jpg",
     "year": 476,
     "keyword": "collapse",
     "summary": "In 476, the last Western Roman emperor was deposed. This marked the symbolic end of centralized Roman rule in the West after centuries of internal and external pressures.",
@@ -19,6 +21,8 @@
   {
     "id": "pax-romana-stability",
     "title": "Pax Romana Stability",
+    "wiki": "Pax_Romana",
+    "imageUrl": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/gettyimages-122222591-2?_a=BAVMn6DY0",
     "year": 100,
     "keyword": "shift",
     "summary": "The Roman Empire enjoyed relative peace and prosperity during the Pax Romana. This stability depended on strong leadership and expansion.",
@@ -32,6 +36,8 @@
   {
     "id": "end-of-expansion",
     "title": "End of Expansion",
+     "wiki": "Pax_Romana",
+    "imageUrl": "https://cdn.britannica.com/67/148167-050-F596E6F2/Marcus-Aurelius-statue-Rome-Piazza-del-Campidoglio.jpg",
     "year": 180,
     "keyword": "pressure",
     "summary": "Territorial expansion slowed, reducing new sources of wealth and slaves. This strained the economic foundations of the empire.",
@@ -49,6 +55,8 @@
   {
     "id": "economic-decline",
     "title": "Economic Decline",
+    "wiki": "Roman_economy",
+    "imageUrl": "https://i.pinimg.com/736x/0d/56/32/0d5632ad2b400287750c75f391565f26.jpg",
     "year": 265,
     "keyword": "pressure",
     "summary": "Reduced revenue and inefficient systems weakened the Roman economy. Inflation and taxation increased pressure on citizens.",
@@ -69,6 +77,8 @@
   {
     "id": "overreliance-on-slavery",
     "title": "Reliance on Slave Labor",
+    "wiki": "Slavery_in_ancient_Rome",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Dougga_cup-bearers_mosa%C3%AFc.jpg",
     "year": 190,
     "keyword": "pressure",
     "summary": "Rome depended heavily on slave labor for production. When expansion slowed, the supply of slaves declined.",
@@ -84,6 +94,8 @@
   {
     "id": "tax-burden",
     "title": "Heavy Tax Burden",
+    "wiki": "Taxation_in_ancient_Rome",
+    "imageUrl": "https://i.ytimg.com/vi/2XKgWEwxHi4/sddefault.jpg",
     "year": 270,
     "keyword": "pressure",
     "summary": "To support the army and administration, taxes increased. This burden drove people away from cities and reduced productivity.",
@@ -101,6 +113,8 @@
   {
     "id": "urban-decline",
     "title": "Urban Decline",
+     "wiki": "Ancient_Rome",
+    "imageUrl": "https://i.guim.co.uk/img/media/ec1eb2bb3bf2ae2ae9a0c1ec570cf16d6f138959/0_0_4617_2770/master/4617.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=2ef1c46e87493ed79411899fcfcfa1f0",
     "year": 300,
     "keyword": "pressure",
     "summary": "Cities lost population and economic importance. Local infrastructure and trade weakened over time.",
@@ -118,6 +132,8 @@
   {
     "id": "population-decline",
     "title": "Population Decline",
+    "wiki": "Ancient_Rome",
+    "imageUrl": "https://cdn.theatlantic.com/thumbor/YvoLJUpA8pM3wzsLiSSI4SX7eWk=/10x2072:4797x4585/960x504/media/img/mt/2016/02/IX003488_1/original.jpg",
     "year": 300,
     "keyword": "pressure",
     "summary": "Disease, war, and economic hardship reduced population levels. This weakened both the workforce and the army.",
@@ -134,6 +150,8 @@
   {
     "id": "military-strain",
     "title": "Military Strain",
+    "wiki": "Ancient_Rome",
+    "imageUrl": "https://digitalmapsoftheancientworld.com/wp-content/uploads/2022/05/roman_army.jpg",
     "year": 260,
     "keyword": "pressure",
     "summary": "Maintaining a large army became increasingly difficult. Recruitment and funding problems reduced effectiveness.",
@@ -155,6 +173,8 @@
   {
     "id": "reliance-on-mercenaries",
     "title": "Reliance on Mercenaries",
+    "wiki": "Mercenary",
+    "imageUrl": "https://static.wixstatic.com/media/8afc09_9e81c4b75c844061a0d11dbf6613d172~mv2_d_2048_1280_s_2.jpg/v1/fill/w_980,h_613,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8afc09_9e81c4b75c844061a0d11dbf6613d172~mv2_d_2048_1280_s_2.jpg",
     "year": 350,
     "keyword": "shift",
     "summary": "Rome increasingly relied on foreign soldiers. These troops were less loyal to Rome and more tied to their own leaders.",
@@ -170,6 +190,8 @@
   {
     "id": "barbarian-influence",
     "title": "Barbarian Influence",
+    "wiki": "Barbarian",
+    "imageUrl": "https://cdn.thecollector.com/wp-content/uploads/2023/03/caesar-conquers-gaul.jpg?width=1000&quality=100&dpr=2",
     "year": 400,
     "keyword": "shift",
     "summary": "Barbarian groups gained influence within Roman military and politics. This blurred the line between Roman and non-Roman power.",
@@ -187,6 +209,8 @@
   {
     "id": "political-instability",
     "title": "Political Instability",
+    "wiki": "Ancient_Rome",
+    "imageUrl": "https://gcp-na-images.contentstack.com/v3/assets/bltea6093859af6183b/bltbca25a482aa6a5f8/69894177e76ad20af2633c74/The-Fall-of-Rome-and-the-Lessons-for-America1.jpg?branch=production",
     "year": 235,
     "keyword": "pressure",
     "summary": "Frequent changes of emperors created instability. Power struggles weakened central authority.",
@@ -204,6 +228,8 @@
   {
     "id": "crisis-of-third-century",
     "title": "Crisis of Third Century",
+    "wiki": "Crisis_of_the_Third_Century",
+    "imageUrl": "https://gertitashkomd.com/wp-content/uploads/2025/06/Tashko-Crisis-Third-Century-235-284-CE.jpg",
     "year": 260,
     "keyword": "turning-point",
     "summary": "A period of chaos with rapid leadership changes and invasions. It exposed the empire's structural weaknesses.",
@@ -222,6 +248,8 @@
   {
     "id": "loss-of-central-authority",
     "title": "Loss of Central Authority",
+    "wiki": "Crisis_of_the_Third_Century",
+    "imageUrl": "https://cdn.britannica.com/86/197486-050-A5AD998F/officials-son-Roman-Republic-consul-Titus-Manlius.jpg",
     "year": 400,
     "keyword": "collapse",
     "summary": "The central government lost control over distant regions. Local leaders gained more autonomy.",
@@ -245,6 +273,8 @@
   {
     "id": "regional-fragmentation",
     "title": "Regional Fragmentation",
+    "wiki": "Fall_of_the_Western_Roman_Empire",
+    "imageUrl": "https://www.historytoday.com/sites/default/files/articles/honorius.jpg",
     "year": 450,
     "keyword": "collapse",
     "summary": "Different regions of the empire operated independently. Unity weakened significantly.",
@@ -261,6 +291,8 @@
   {
     "id": "barbarian-invasions",
     "title": "Barbarian Invasions",
+    "wiki": "Barbarian_invasions_into_the_Roman_Empire_of_the_3rd_century",
+    "imageUrl": "https://images.steamusercontent.com/ugc/643251294842828448/2A791F43856CEF618528CDE3D285190B53AB9631/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
     "year": 400,
     "keyword": "catalyst",
     "summary": "Germanic tribes moved into Roman territories. They were both pushed by external forces and attracted by Roman wealth.",
@@ -278,6 +310,8 @@
   {
     "id": "pressure-on-borders",
     "title": "Pressure on Borders",
+    "wiki": "Ancient_Rome",
+    "imageUrl": "https://gertitashkomd.com/wp-content/uploads/2025/05/Tashko-Fall-Western-Roman-Empire-476-CE.jpg",
     "year": 390,
     "keyword": "pressure",
     "summary": "Rome struggled to defend its long borders. External pressure increased over time.",
@@ -293,6 +327,8 @@
   {
     "id": "sack-of-rome",
     "title": "Sack of Rome",
+    "wiki": "Sack_of_Rome_(410)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Visigoths_sack_Rome.jpg",
     "year": 410,
     "keyword": "turning-point",
     "summary": "Rome was sacked by the Visigoths. This shocked the Roman world and showed its vulnerability.",
@@ -309,6 +345,8 @@
   {
     "id": "loss-of-confidence",
     "title": "Loss of Confidence",
+    "wiki": "Ancient_Rome",
+    "imageUrl": "https://www.stefanorometours.com/upload/CONF100/20230623/Decline_and_Fall_of_the_Roman_Empire_-tSa-550X280.jpg",
     "year": 420,
     "keyword": "shift",
     "summary": "People lost faith in Rome's ability to protect itself. This weakened loyalty to the empire.",
@@ -325,6 +363,8 @@
   {
     "id": "romulus-augustulus-deposed",
     "title": "Romulus Augustulus Deposed",
+    "wiki": "Romulus_Augustulus",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Young_Folks%27_History_of_Rome_illus420.png",
     "year": 476,
     "keyword": "spark",
     "summary": "The last Western Roman emperor was removed by a Germanic leader. This is traditionally seen as the end of the Western Empire.",
@@ -340,6 +380,8 @@
   {
     "id": "western-fragmentation",
     "title": "Western Fragmentation",
+    "wiki": "Fall_of_the_Western_Roman_Empire",
+    "imageUrl": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/gettyimages-802428712?_a=BAVMn6DY0",
     "year": 500,
     "keyword": "consequence",
     "summary": "The Western Empire split into smaller kingdoms. Roman political unity in the West ended.",
@@ -357,6 +399,8 @@
   },
   {
     "id": "imperial-succession-problem",
+    "wiki": "Succession_of_the_Roman_Empire",
+    "imageUrl": "https://nathangoldwag.wordpress.com/wp-content/uploads/2021/02/cicero-cesare-maccari.jpg?w=900",
     "title": "No Clear Succession Law",
     "year": 100,
     "keyword": "pressure",
@@ -372,6 +416,8 @@
   {
     "id": "antonine-plague",
     "title": "Antonine Plague",
+     "wiki": "Antonine_Plague",
+    "imageUrl": "https://cdn.thecollector.com/wp-content/uploads/2023/12/peste-asdod-poussin-painting.jpg?width=1200&quality=100&dpr=2",
     "year": 165,
     "keyword": "catalyst",
     "summary": "A devastating pandemic struck the empire between 165 and 180 AD, killing millions including Emperor Marcus Aurelius. It weakened the army, disrupted trade, and accelerated economic and demographic decline.",
@@ -386,6 +432,8 @@
   {
     "id": "soldier-emperors",
     "title": "Soldier Emperors Era",
+     "wiki": "Barracks_emperor",
+    "imageUrl": "https://gertitashkomd.com/wp-content/uploads/2025/06/Tashko-Barracks-Emperors-235-284-CE.jpg",
     "year": 260,
     "keyword": "collapse",
     "summary": "Between 235 and 284 AD, Rome had over 20 emperors in 50 years — almost all raised to power by the army and killed by it. This era gutted administrative continuity and drained the treasury.",
@@ -404,6 +452,8 @@
   {
     "id": "currency-debasement",
     "title": "Currency Debasement",
+    "wiki": "Roman_currency",
+    "imageUrl": "https://warwickeconomics.wordpress.com/wp-content/uploads/2015/03/45157872_f429ba27-8127-46ee-9ca0-e5fd63b8bd401.jpg",
     "year": 260,
     "keyword": "catalyst",
     "summary": "To fund wars and pay troops, emperors reduced the silver content of coins drastically. This triggered inflation, destroyed savings, and eroded trust in Roman commerce.",
@@ -421,6 +471,8 @@
   {
     "id": "trade-collapse",
     "title": "Trade Network Collapse",
+    "wiki": "Trade_route",
+    "imageUrl": "https://cdn.thecollector.com/wp-content/uploads/2022/12/why-was-roman-indian-coean-trade-important.jpg",
     "year": 290,
     "keyword": "pressure",
     "summary": "Roman trade networks that spanned from Britain to Mesopotamia began to break down under inflation, insecurity, and political fragmentation. Cities that depended on commerce shrank or disappeared.",
@@ -439,6 +491,8 @@
   {
     "id": "diocletian-reforms",
     "title": "Diocletian's Reforms",
+    "wiki": "Diocletian",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Istanbul_-_Museo_archeol._-_Diocleziano_%28284-305_d.C.%29_-_Foto_G._Dall%27Orto_28-5-2006_%28cropped%29.jpg",
     "year": 284,
     "keyword": "turning-point",
     "summary": "Emperor Diocletian restructured the empire, splitting it administratively between two emperors. While stabilizing things temporarily, it set a precedent for division that would eventually become permanent.",
@@ -456,6 +510,8 @@
   {
     "id": "increased-bureaucracy",
     "title": "Bloated Bureaucracy",
+    "wiki": "Diocletian",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Croatia-01239_-_The_Peristil_%289551533404%29.jpg",
     "year": 300,
     "keyword": "pressure",
     "summary": "Diocletian's reforms tripled the size of the imperial administration. A larger bureaucracy required more taxes to sustain and became increasingly corrupt and inefficient.",
@@ -471,6 +527,8 @@
   {
     "id": "east-west-split",
     "title": "East-West Administrative Split",
+    "wiki": "Greek_East_and_Latin_West",
+    "imageUrl": "https://i.redd.it/roman-empire-split-map-395-ce-east-vs-west-dioceses-v0-6zjkyuii45ug1.jpg?width=1414&format=pjpg&auto=webp&s=ff1ab272bf3dcb0427a2ae4c3ababacaa558bc7e",
     "year": 285,
     "keyword": "shift",
     "summary": "The empire was divided into eastern and western halves for administrative purposes. The wealthier, more urbanized East increasingly operated independently, leaving the West under-resourced.",
@@ -487,6 +545,8 @@
   {
     "id": "west-abandoned",
     "title": "West Starved of Resources",
+    "wiki": "Greek_East_and_Latin_West",
+    "imageUrl": "https://www.romecabs.com/upload/CONF99/20230604/history_of_the_fall_of_the_Roman_Empire.jpg",
     "year": 400,
     "keyword": "pressure",
     "summary": "The richer Eastern Empire increasingly prioritized its own defense and interests. The West received fewer troops, less tax revenue, and diminishing imperial attention as the crises multiplied.",
@@ -503,6 +563,8 @@
   {
     "id": "constantines-conversion",
     "title": "Constantine's Conversion",
+    "wiki": "Constantine_the_Great_and_Christianity",
+    "imageUrl": "https://www.worldhistory.org/uploads/images/13987.jpeg",
     "year": 312,
     "keyword": "shift",
     "summary": "Emperor Constantine converted to Christianity and made it a favored religion of the empire. This transformed Roman society, redirected wealth toward the Church, and began a long shift in cultural identity.",
@@ -517,6 +579,8 @@
   {
     "id": "pagan-roman-identity-weakens",
     "title": "Roman Civic Identity Weakens",
+    "wiki": "Roman_decadence",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/THOMAS_COUTURE_-_Los_Romanos_de_la_Decadencia_%28Museo_de_Orsay%2C_1847._%C3%93leo_sobre_lienzo%2C_472_x_772_cm%29.jpg",
     "year": 390,
     "keyword": "shift",
     "summary": "As Christianity became dominant, the traditional Roman civic religion and identity that had unified the empire for centuries faded. Loyalty shifted from Rome as an institution to the Church as a universal community.",
@@ -532,6 +596,8 @@
   {
     "id": "huns-arrive",
     "title": "Huns Arrive in Europe",
+    "wiki": "Huns",
+    "imageUrl": "https://warfarehistorynetwork.com/wp-content/uploads/2023/02/M-Spr23-Huns-2-2000x1330.jpg",
     "year": 370,
     "keyword": "catalyst",
     "summary": "The Huns swept westward from Central Asia, pushing Germanic tribes ahead of them into Roman territory. Their arrival set off a chain reaction of mass migrations that overwhelmed Roman border defenses.",
@@ -546,6 +612,8 @@
   {
     "id": "visigoths-cross-danube",
     "title": "Visigoths Cross the Danube",
+    "wiki": "Visigoths",
+    "imageUrl": "https://www.heritage-history.com/books/haaren/middle/zpage028.gif",
     "year": 376,
     "keyword": "turning-point",
     "summary": "Fleeing the Huns, the Visigoths were permitted to cross the Danube into Roman territory. Roman officials treated them harshly, sparking a rebellion that culminated in a catastrophic Roman defeat.",
@@ -561,6 +629,8 @@
   {
     "id": "battle-of-adrianople",
     "title": "Battle of Adrianople",
+    "wiki": "Battle_of_Adrianople",
+    "imageUrl": "https://thehistorynetwork.org/wp-content/uploads/2024/01/3508-09.jpg",
     "year": 378,
     "keyword": "turning-point",
     "summary": "The Visigoths destroyed a Roman army and killed Emperor Valens at Adrianople in 378 AD. It was Rome's worst military defeat in centuries and proved the army could no longer defend its own borders.",
@@ -577,6 +647,8 @@
   {
     "id": "stilicho-execution",
     "title": "Execution of Stilicho",
+    "wiki": "Stilicho",
+    "imageUrl": "https://db637ll7r1kva.cloudfront.net/app/uploads/2023/05/05125113/GettyImages-938617676-770x775.jpg",
     "year": 408,
     "keyword": "spark",
     "summary": "Stilicho, the half-Vandal general who was Rome's most effective military commander, was executed on suspicion of treason. His death removed the one man capable of defending Italy and directly enabled the Visigoth sack of Rome.",
@@ -593,6 +665,8 @@
   {
     "id": "germanic-kingdoms",
     "title": "Germanic Kingdoms Emerge",
+    "wiki": "Barbarian_kingdoms",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Alaric_entering_Athens.jpg",
     "year": 500,
     "keyword": "consequence",
     "summary": "Visigoths, Ostrogoths, Franks, and Vandals carved the former Western Empire into competing kingdoms. These successor states preserved fragments of Roman law and culture while building new political orders.",
@@ -609,6 +683,8 @@
   {
     "id": "eastern-empire-survives",
     "title": "Eastern Empire Survives",
+    "wiki": "Byzantine_Empire",
+    "imageUrl": "https://emporiumromanum.com/cdn/shop/articles/the-byzantine-empire-the-continuation-of-rome-in-the-east-479456.jpg?v=1716172999",
     "year": 476,
     "keyword": "consequence",
     "summary": "The Eastern Roman Empire — later called the Byzantine Empire — continued for another thousand years. Its survival preserved Roman law, Greek learning, and Christian theology through the medieval period.",
@@ -624,6 +700,8 @@
   {
     "id": "church-fills-vacuum",
     "title": "Church Fills Power Vacuum",
+     "wiki": "Catholic_Church",
+    "imageUrl": "https://www.worldhistory.org/img/c/p/2400x1254/9659.jpg",
     "year": 500,
     "keyword": "consequence",
     "summary": "As Roman administrative structures collapsed, the Catholic Church stepped in to provide order, education, and social welfare. The Pope gradually assumed political authority that emperors had once held in the West.",
@@ -641,6 +719,8 @@
   {
     "id": "feudalism-emerges",
     "title": "Feudalism Emerges",
+    "wiki": "Feudalism",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/BNF_Fr_4274_8v_knight_detail.jpg",
     "year": 550,
     "keyword": "consequence",
     "summary": "Without Roman centralized government, local strongmen offered protection in exchange for loyalty and labor. This decentralized arrangement of lords and serfs became the defining political structure of medieval Europe.",
@@ -656,6 +736,8 @@
   {
     "id": "roman-knowledge-preserved",
     "title": "Roman Knowledge Preserved",
+     "wiki": "Roman_Empire",
+    "imageUrl": "https://i0.wp.com/romanempirehistory.com/wp-content/uploads/2023/11/roman-empire-1024x694.jpg?resize=1024%2C694&ssl=1",
     "year": 530,
     "keyword": "consequence",
     "summary": "Monasteries and the Byzantine East preserved Roman texts, law, and engineering knowledge through the early medieval period. This preservation made the later Renaissance possible.",
@@ -670,6 +752,8 @@
   {
     "id": "dark-ages-begin",
     "title": "Dark Ages Begin",
+     "wiki": "Dark_Ages_(historiography)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Tommaso.Laureti_Triumph.of.Christianity.jpg",
     "year": 500,
     "keyword": "consequence",
     "summary": "Trade, literacy, and urban life declined sharply across much of Western Europe after Rome's fall. Population shrank, roads crumbled, and the sophisticated Roman world gave way to simpler, more localized societies.",
@@ -686,6 +770,8 @@
   {
     "id": "latin-language-fragments",
     "title": "Latin Fragments into Languages",
+     "wiki": "Latin",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rome_Colosseum_inscription_2.jpg",
     "year": 600,
     "keyword": "consequence",
     "summary": "Without a central Roman state to enforce a standard language, spoken Latin evolved differently across regions over centuries. This gradual drift eventually produced French, Spanish, Italian, Portuguese, and Romanian.",

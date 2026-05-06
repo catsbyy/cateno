@@ -1,0 +1,512 @@
+[
+  {
+    "id": "first-crusade",
+    "title": "First Crusade",
+    "year": 1096,
+    "keyword": "catalyst",
+    "summary": "Pope Urban II launched the First Crusade in 1095, sending thousands of European knights to capture Jerusalem. The Crusaders took the city in 1099 in a bloody massacre. This created a Christian kingdom in the Holy Land that needed defending — and pilgrims flooding dangerous roads that needed protecting.",
+    "causeIds": [],
+    "effectIds": [
+      "pilgrim-routes-dangerous",
+      "templars-founded"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "pilgrim-routes-dangerous",
+    "title": "Pilgrim Routes Dangerously Unsafe",
+    "year": 1100,
+    "keyword": "pressure",
+    "summary": "The roads from European ports to Jerusalem were plagued by bandits, Muslim raiders, and local warlords. Thousands of pilgrims were robbed and killed every year. The Kingdom of Jerusalem lacked the forces to police vast territories — creating a vacuum that a small group of knights decided to fill.",
+    "causeIds": [
+      "first-crusade"
+    ],
+    "effectIds": [
+      "templars-founded"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "medieval-banking-absent",
+    "title": "No Safe Way to Move Money",
+    "year": 1100,
+    "keyword": "pressure",
+    "summary": "Medieval Europe had no banking system. Moving gold overland was extraordinarily dangerous — merchants and pilgrims carrying cash were robbed constantly. The Church prohibited lending at interest as usury. There was no mechanism for transferring wealth across long distances without physical transport of coins or bullion.",
+    "causeIds": [],
+    "effectIds": [
+      "templars-invent-banking"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "church-grants-exemptions",
+    "title": "Pope Grants Templars Unique Powers",
+    "year": 1139,
+    "keyword": "catalyst",
+    "summary": "Pope Innocent II's 1139 papal bull Omne Datum Optimum granted the Templars extraordinary privileges — answering only to the Pope, exempt from all local taxes and laws, able to cross any border freely. These exemptions made them uniquely suited to operate a pan-European financial network that no other institution could replicate.",
+    "causeIds": [
+      "templars-founded"
+    ],
+    "effectIds": [
+      "templars-invent-banking",
+      "templars-accumulate-wealth"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "templars-founded",
+    "title": "Knights Templar Founded",
+    "year": 1119,
+    "keyword": "spark",
+    "summary": "Nine knights led by Hugues de Payens established the Poor Fellow-Soldiers of Christ and of the Temple of Solomon in Jerusalem in 1119, headquartered on the Temple Mount. Their original mission was simple: protect pilgrims on the roads of the Holy Land. Within two decades they had become the most powerful military organisation in Europe.",
+    "causeIds": [
+      "first-crusade",
+      "pilgrim-routes-dangerous"
+    ],
+    "effectIds": [
+      "church-grants-exemptions",
+      "templars-accumulate-wealth",
+      "templars-invent-banking"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "templars-invent-banking",
+    "title": "Templars Invent Banking",
+    "year": 1150,
+    "keyword": "turning-point",
+    "summary": "To protect pilgrims from robbery, the Templars developed the first letter of credit system — deposit gold at a Templar house in Paris, receive an encoded document, withdraw equivalent gold in Jerusalem. This invented the fundamental concept of banking: the separation of physical money from financial value. It was the most consequential financial innovation of the medieval world.",
+    "causeIds": [
+      "templars-founded",
+      "church-grants-exemptions",
+      "medieval-banking-absent"
+    ],
+    "effectIds": [
+      "templars-accumulate-wealth",
+      "templars-become-bankers-to-kings"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "templars-accumulate-wealth",
+    "title": "Templars Accumulate Vast Wealth",
+    "year": 1200,
+    "keyword": "pressure",
+    "summary": "Donations from nobles, income from their estates across Europe, banking fees, and military contracts made the Templars fabulously wealthy. By 1300 they owned thousands of properties across Europe and the Middle East, ran the largest financial network in Christendom, and were richer than most European monarchs — including the King of France.",
+    "causeIds": [
+      "templars-founded",
+      "church-grants-exemptions",
+      "templars-invent-banking"
+    ],
+    "effectIds": [
+      "philip-indebted-to-templars",
+      "templars-become-bankers-to-kings"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "templars-become-bankers-to-kings",
+    "title": "Templars Become Bankers to Kings",
+    "year": 1220,
+    "keyword": "shift",
+    "summary": "European monarchs — including the kings of France and England — routinely deposited their treasuries with the Templars and borrowed from them to fund wars. The Paris Temple became effectively the royal treasury of France. This gave the Templars unprecedented political leverage — and made them dangerous enemies of any king who couldn't repay his debts.",
+    "causeIds": [
+      "templars-invent-banking",
+      "templars-accumulate-wealth"
+    ],
+    "effectIds": [
+      "philip-indebted-to-templars",
+      "templars-political-threat"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "acre-falls",
+    "title": "Acre Falls — Crusades End",
+    "year": 1291,
+    "keyword": "collapse",
+    "summary": "The fall of Acre in 1291 ended the Crusader presence in the Holy Land entirely. The Templars' original military mission — defending Jerusalem and protecting pilgrims — had become impossible. They retreated to Cyprus, then to France, leaving critics to ask: why does this enormously wealthy military order still exist if there's nothing left to fight for?",
+    "causeIds": [
+      "first-crusade"
+    ],
+    "effectIds": [
+      "templars-lose-purpose",
+      "philip-sees-opportunity"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "templars-lose-purpose",
+    "title": "Templars Lose Their Purpose",
+    "year": 1291,
+    "keyword": "pressure",
+    "summary": "Without the Holy Land to defend, the Templars were a powerful, wealthy, secretive military order with no obvious mission. Proposals to merge them with other orders or launch new Crusades went nowhere. Their political independence and vast wealth now looked less like a reward for service and more like an affront to royal authority — especially to Philip IV of France.",
+    "causeIds": [
+      "acre-falls"
+    ],
+    "effectIds": [
+      "philip-sees-opportunity",
+      "templars-political-threat"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "templars-political-threat",
+    "title": "Templars Become a Political Threat",
+    "year": 1300,
+    "keyword": "pressure",
+    "summary": "The Templars' combination of military capability, vast wealth, papal protection, and legal immunity from royal courts made them effectively a state within a state. A grand master of the Templars sat on the French royal council. Philip IV grew increasingly alarmed at an organisation he could neither tax, control, nor challenge through normal legal means.",
+    "causeIds": [
+      "templars-become-bankers-to-kings",
+      "templars-lose-purpose"
+    ],
+    "effectIds": [
+      "philip-plots-destruction"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "philip-indebted-to-templars",
+    "title": "Philip IV Deeply in Debt",
+    "year": 1305,
+    "keyword": "pressure",
+    "summary": "Decades of expensive wars — against England, Flanders, and his own nobility — had left Philip IV of France ('the Fair') catastrophically indebted to the Templars and other creditors. He had already expelled Jews and Lombard bankers to seize their assets. The Templars, with their papal protection, seemed untouchable — until Philip found a way.",
+    "causeIds": [
+      "templars-become-bankers-to-kings",
+      "templars-accumulate-wealth"
+    ],
+    "effectIds": [
+      "philip-plots-destruction"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "philip-controls-papacy",
+    "title": "Philip Controls the Papacy",
+    "year": 1305,
+    "keyword": "catalyst",
+    "summary": "After a bitter conflict with Pope Boniface VIII (who died in humiliation after Philip had him briefly arrested), Philip engineered the election of a French pope — Clement V — in 1305. Clement moved the papacy to Avignon in France, beginning the 'Babylonian Captivity' of the Church. For the first time, Philip had a pope he could pressure into action against the Templars.",
+    "causeIds": [],
+    "effectIds": [
+      "philip-plots-destruction",
+      "papacy-weakened"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "philip-sees-opportunity",
+    "title": "Philip Sees His Opportunity",
+    "year": 1306,
+    "keyword": "catalyst",
+    "summary": "With a compliant French pope installed at Avignon, the Templars weakened by their loss of mission, and his own treasury empty, Philip IV began secretly planning the destruction of the order. He gathered accusations of heresy, sodomy, and devil worship — charges that were almost certainly fabricated but that a sympathetic pope and compliant inquisitors would accept.",
+    "causeIds": [
+      "acre-falls",
+      "templars-lose-purpose"
+    ],
+    "effectIds": [
+      "philip-plots-destruction"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "philip-plots-destruction",
+    "title": "Philip Plans Secret Coordinated Arrest",
+    "year": 1307,
+    "keyword": "turning-point",
+    "summary": "Philip IV spent months secretly coordinating the simultaneous arrest of every Templar in France. Sealed orders were sent to royal officers across the country, not to be opened until the morning of October 13, 1307. The secrecy was essential — any warning would allow the Templars to move their vast treasury beyond reach. The plan required perfect coordination across the entire kingdom.",
+    "causeIds": [
+      "philip-indebted-to-templars",
+      "templars-political-threat",
+      "philip-controls-papacy",
+      "philip-sees-opportunity"
+    ],
+    "effectIds": [
+      "friday-13th-arrests"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "friday-13th-arrests",
+    "title": "Friday the 13th — Mass Arrest",
+    "year": 1307,
+    "keyword": "spark",
+    "summary": "On Friday, October 13, 1307, royal officers across France simultaneously arrested every Knight Templar they could find — over 2,000 men including Grand Master Jacques de Molay. The coordinated dawn raids were executed with extraordinary efficiency. Philip seized the Paris Temple and its treasury. The most powerful military order in Christendom was destroyed in a single morning.",
+    "causeIds": [
+      "philip-plots-destruction"
+    ],
+    "effectIds": [
+      "torture-extracts-confessions",
+      "templar-treasury-seized",
+      "friday-13th-superstition",
+      "pope-dissolves-order"
+    ],
+    "isAnchor": true,
+    "isSeed": true
+  },
+  {
+    "id": "torture-extracts-confessions",
+    "title": "Torture Extracts False Confessions",
+    "year": 1307,
+    "keyword": "collapse",
+    "summary": "Under torture by the Inquisition, Templars confessed to heresy, spitting on the cross, and worshipping an idol called Baphomet. Most later recanted when the torture stopped. Jacques de Molay himself confessed, recanted publicly, and was burned at the stake in 1314 for his recantation — cursing Philip and Clement from the flames. Both were dead within a year.",
+    "causeIds": [
+      "friday-13th-arrests"
+    ],
+    "effectIds": [
+      "de-molay-burned",
+      "pope-dissolves-order"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "templar-treasury-seized",
+    "title": "Treasury Seized — Debts Cancelled",
+    "year": 1307,
+    "keyword": "consequence",
+    "summary": "Philip seized the Templar treasury in Paris and cancelled his debts to the order overnight. The immediate financial relief was enormous. However, historians note that the Templars had apparently moved much of their liquid wealth before the arrests — the treasury was smaller than expected, and the whereabouts of the bulk of Templar gold remains unknown to this day.",
+    "causeIds": [
+      "friday-13th-arrests"
+    ],
+    "effectIds": [
+      "templar-wealth-disperses"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "pope-dissolves-order",
+    "title": "Pope Dissolves the Templars",
+    "year": 1312,
+    "keyword": "collapse",
+    "summary": "Under intense pressure from Philip, Pope Clement V dissolved the Knights Templar at the Council of Vienne in 1312 — not by formal condemnation (the evidence was too weak) but by papal decree. The order's assets were transferred to the rival Knights Hospitaller. Two centuries of accumulated power, wealth, and institutional knowledge were obliterated by royal convenience.",
+    "causeIds": [
+      "torture-extracts-confessions",
+      "friday-13th-arrests",
+      "philip-controls-papacy"
+    ],
+    "effectIds": [
+      "de-molay-burned",
+      "templar-wealth-disperses",
+      "papacy-weakened"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "de-molay-burned",
+    "title": "De Molay Burned at the Stake",
+    "year": 1314,
+    "keyword": "turning-point",
+    "summary": "Jacques de Molay, last Grand Master of the Templars, was burned alive on a small island in the Seine on March 18, 1314. He died cursing Philip IV and Pope Clement V, predicting both would face God's judgment within a year. Clement died 33 days later; Philip died in a hunting accident seven months after that — feeding centuries of legend about the Templar curse.",
+    "causeIds": [
+      "torture-extracts-confessions",
+      "pope-dissolves-order"
+    ],
+    "effectIds": [
+      "templar-curse-legend",
+      "papacy-weakened"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "friday-13th-superstition",
+    "title": "Friday the 13th Becomes Unlucky",
+    "year": 1307,
+    "keyword": "consequence",
+    "summary": "The mass arrest of October 13, 1307 — a Friday — is the most widely cited origin of the Friday the 13th superstition. While the folk belief likely has multiple origins, the Templar arrests gave the date its most dramatic historical anchor. One morning of royal ruthlessness embedded itself permanently into Western superstition.",
+    "causeIds": [
+      "friday-13th-arrests"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "templar-wealth-disperses",
+    "title": "Templar Banking Knowledge Disperses",
+    "year": 1315,
+    "keyword": "shift",
+    "summary": "When the Templars were dissolved, their banking personnel, techniques, and networks didn't disappear — they dispersed. Former Templar agents and the techniques they had developed were absorbed by Italian merchant banking families: the Medicis, Bardis, and Peruzzis. The letter of credit, double-entry bookkeeping, and international financial networks all survived through these successors.",
+    "causeIds": [
+      "templar-treasury-seized",
+      "pope-dissolves-order"
+    ],
+    "effectIds": [
+      "italian-banking-rises",
+      "medici-bank-founded"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "papacy-weakened",
+    "title": "Papal Authority Permanently Weakened",
+    "year": 1314,
+    "keyword": "consequence",
+    "summary": "Philip's successful destruction of the Templars — forcing a compliant pope to dissolve a papally protected order — demonstrated that secular kings could bend the Church to their will. The Avignon papacy that followed (1309-1377) further damaged papal prestige. The precedent that kings could override Church authority planted a seed that would flower two centuries later in the Reformation.",
+    "causeIds": [
+      "philip-controls-papacy",
+      "pope-dissolves-order",
+      "de-molay-burned"
+    ],
+    "effectIds": [
+      "protestant-reformation-seeds",
+      "rise-of-secular-states"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "templar-curse-legend",
+    "title": "The Templar Curse and Mythology",
+    "year": 1314,
+    "keyword": "shift",
+    "summary": "De Molay's dying curse, the mysterious disappearance of the Templar treasury, and the suspicious deaths of Philip and Clement created an enduring mythology around the Templars. By the 18th century, Masonic lodges were claiming Templar descent. The legend of hidden Templar treasure, secret knowledge, and underground survival has never died — and spawned a modern industry of conspiracy theories.",
+    "causeIds": [
+      "de-molay-burned"
+    ],
+    "effectIds": [
+      "freemasonry-templar-myths"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "italian-banking-rises",
+    "title": "Italian Banking Houses Rise",
+    "year": 1320,
+    "keyword": "consequence",
+    "summary": "With the Templars gone, Italian merchant banking families — particularly the Bardi and Peruzzi of Florence — filled the vacuum as bankers to European kings. They refined and expanded the Templar banking techniques, developing sophisticated credit instruments, exchange networks, and deposit banking across Europe. When they collapsed in the 1340s, the Medicis inherited their position.",
+    "causeIds": [
+      "templar-wealth-disperses"
+    ],
+    "effectIds": [
+      "medici-bank-founded"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "medici-bank-founded",
+    "title": "Medici Bank Founded",
+    "year": 1397,
+    "keyword": "turning-point",
+    "summary": "Giovanni di Bicci de' Medici founded the Medici Bank in Florence in 1397, building on the banking techniques that traced directly back to the Templars. The Medicis became bankers to popes and kings, the wealthiest family in Europe — and used that wealth to fund the Renaissance. Botticelli, Michelangelo, Leonardo da Vinci — all worked under Medici patronage.",
+    "causeIds": [
+      "italian-banking-rises",
+      "templar-wealth-disperses"
+    ],
+    "effectIds": [
+      "renaissance-funded",
+      "modern-banking-born"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "renaissance-funded",
+    "title": "Renaissance Funded by Banking",
+    "year": 1434,
+    "keyword": "consequence",
+    "summary": "Medici banking profits funded the Florentine Renaissance directly — Cosimo de' Medici alone spent more on art and architecture than any patron in history to that point. The banking techniques the Templars invented, refined by Italian merchants, generated the surplus wealth that paid for Brunelleschi's dome, Michelangelo's David, and Botticelli's Primavera.",
+    "causeIds": [
+      "medici-bank-founded"
+    ],
+    "effectIds": [
+      "modern-banking-born"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "modern-banking-born",
+    "title": "Modern Banking System Born",
+    "year": 1450,
+    "keyword": "consequence",
+    "summary": "The financial techniques that evolved from Templar letter of credit through Italian merchant banking — fractional reserve banking, bills of exchange, double-entry bookkeeping, international currency exchange — became the foundation of the modern financial system. Every bank account, credit card, and wire transfer today is a direct descendant of the system the Templars invented to protect pilgrims in 1150.",
+    "causeIds": [
+      "medici-bank-founded",
+      "renaissance-funded"
+    ],
+    "effectIds": [
+      "capitalism-emerges"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "protestant-reformation-seeds",
+    "title": "Seeds of the Reformation",
+    "year": 1380,
+    "keyword": "consequence",
+    "summary": "The humiliation of the papacy by Philip IV — forcing it to destroy a holy order for political convenience — accelerated a crisis of Church legitimacy that had been building for decades. Thinkers like John Wycliffe and Jan Hus began challenging papal authority in the late 14th century, directly inspired by the Avignon captivity and the Templar affair. Luther was still a century away, but the fracture had begun.",
+    "causeIds": [
+      "papacy-weakened"
+    ],
+    "effectIds": [
+      "rise-of-secular-states"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "rise-of-secular-states",
+    "title": "Rise of Secular State Power",
+    "year": 1400,
+    "keyword": "consequence",
+    "summary": "Philip's successful subordination of the Church to royal power established a new political reality: the secular state was supreme. This principle — that kings ruled by political right rather than divine delegation — gradually displaced the medieval idea of Christendom as a unified spiritual empire under the Pope. The modern nation-state, in embryonic form, was born from Philip's debt.",
+    "causeIds": [
+      "papacy-weakened",
+      "protestant-reformation-seeds"
+    ],
+    "effectIds": [
+      "capitalism-emerges"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "freemasonry-templar-myths",
+    "title": "Freemasonry Claims Templar Heritage",
+    "year": 1717,
+    "keyword": "shift",
+    "summary": "When organised Freemasonry emerged in 18th century Britain, some lodges claimed descent from the Knights Templar — asserting that surviving Templars had passed secret knowledge down through stonemason guilds. Though historically baseless, this connection gave Freemasonry mystique and created the enduring popular myth of Templar secret societies that persists in conspiracy culture today.",
+    "causeIds": [
+      "templar-curse-legend"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "capitalism-emerges",
+    "title": "Capitalism Emerges",
+    "year": 1500,
+    "keyword": "consequence",
+    "summary": "The confluence of modern banking techniques, secular state power, and accumulated mercantile wealth created the conditions for early capitalism. The separation of financial value from physical gold — the core Templar innovation — made the accumulation and deployment of abstract capital possible. The arrest of 2,000 knights on a October morning in 1307 set in motion the economic system that shapes the world today.",
+    "causeIds": [
+      "modern-banking-born",
+      "rise-of-secular-states"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]
