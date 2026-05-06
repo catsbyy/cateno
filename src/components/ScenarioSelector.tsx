@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import type { CatenoScenario } from "../types";
 import { SCENARIOS } from "../data/scenarios";
 import { ScenarioPatternSvg, SCENARIO_CENTRE_COLORS } from "../theme";
+import { Footer } from "./Footer";
 
 interface ScenarioSelectorProps {
   onSelect: (scenario: CatenoScenario) => void;
@@ -23,7 +24,7 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
   const rows = chunkArray(SCENARIOS, 3);
 
   return (
-    <div className="w-full min-h-screen bg-[#0D0D0D] flex flex-col items-center px-4 py-12 md:py-16">
+    <div className="w-full min-h-screen bg-[#0D0D0D] flex flex-col items-center px-4 py-12 md:py-16 pb-0">
       {/* Wordmark */}
       <motion.div
         className="text-center shrink-0"
@@ -92,6 +93,8 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
           </div>
         ))}
       </div>
+
+      <Footer />
     </div>
   );
 }
