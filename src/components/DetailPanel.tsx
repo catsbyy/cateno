@@ -173,15 +173,16 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
       <AnimatePresence>
         {node && (
           <>
-            {/* Backdrop — tap to dismiss */}
+            {/* Backdrop — pointer-events: none so graph remains pannable above the sheet.
+                Dismissal is handled by the ✕ button and the drag-handle tap below. */}
             <motion.div
               key="backdrop"
               className="absolute inset-0 z-20"
+              style={{ pointerEvents: "none" }}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.2 }}
-              onClick={onClose}
             />
 
             {/* Bottom sheet */}
@@ -200,14 +201,19 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
               transition={{ duration: 0.28, ease: [0.32, 0, 0.18, 1] }}
               onMouseDown={(e) => e.stopPropagation()}
               onClick={(e) => e.stopPropagation()}
+              onTouchStart={(e) => e.stopPropagation()}
+              onTouchMove={(e) => e.stopPropagation()}
             >
-              {/* Drag handle */}
-              <div className="shrink-0 flex justify-center pt-3 pb-1">
+              {/* Drag handle — tap to dismiss */}
+              <div
+                className="shrink-0 flex justify-center pt-3 pb-1 cursor-pointer"
+                onClick={onClose}
+              >
                 <div className="w-9 h-1 rounded-full bg-[#444]" />
               </div>
 
               {/* Scrollable body — image + header + content all scroll together */}
-              <div className="flex-1 overflow-y-auto">
+              <div className="flex-1 overflow-y-auto" style={{ touchAction: "pan-y" }}>
                 <NodeImageHeader node={node} height={120} panelBg={PANEL_BG} />
 
                 <div className="px-5 pt-3 pb-4" style={{ borderBottom: "1px solid #222" }}>
