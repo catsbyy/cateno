@@ -12,6 +12,8 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "scientific-revolution":  "#060d1f",
   "wwi":                    "#141a0a",
   "year-without-a-summer":  "#12101a",
+  "wright-brothers":        "#0f1218",
+  "underwater-archaeology": "#071418",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -20,6 +22,8 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "scientific-revolution":  "radial-gradient(ellipse at center, #060d1f 0%, #0D0D0D 70%)",
   "wwi":                    "radial-gradient(ellipse at center, #141a0a 0%, #0D0D0D 70%)",
   "year-without-a-summer":  "radial-gradient(ellipse at center, #12101a 0%, #0D0D0D 70%)",
+  "wright-brothers":        "radial-gradient(ellipse at center, #0f1218 0%, #0D0D0D 70%)",
+  "underwater-archaeology": "radial-gradient(ellipse at center, #071418 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -181,6 +185,63 @@ function SummerPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Underwater Archaeology — sonar ping concentric arcs + depth lines
+function UnderwaterPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-underwater" x="0" y="0" width="300" height="300" patternUnits="userSpaceOnUse">
+          {/* Sonar ping: concentric arcs radiating from bottom-left corner */}
+          <path d="M0,300 Q75,225 150,300"  fill="none" stroke="white" strokeWidth="0.7" />
+          <path d="M0,300 Q112,188 225,300" fill="none" stroke="white" strokeWidth="0.6" />
+          <path d="M0,300 Q150,150 300,300" fill="none" stroke="white" strokeWidth="0.5" />
+          {/* Horizontal depth lines suggesting water layers */}
+          <line x1="0" y1="100" x2="300" y2="100" stroke="white" strokeWidth="0.3" strokeDasharray="4 8" />
+          <line x1="0" y1="200" x2="300" y2="200" stroke="white" strokeWidth="0.3" strokeDasharray="4 8" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-underwater)" />
+    </svg>
+  );
+}
+
+// Wright Brothers — biplane wing cross-section blueprint repeat
+function WrightPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-wright" x="0" y="0" width="200" height="120" patternUnits="userSpaceOnUse">
+          {/* Upper wing aerofoil */}
+          <path d="M10,30 C40,20 120,18 180,28 C120,32 40,34 10,30 Z"
+                fill="none" stroke="white" strokeWidth="0.8" />
+          {/* Lower wing aerofoil */}
+          <path d="M10,55 C40,45 120,43 180,53 C120,57 40,59 10,55 Z"
+                fill="none" stroke="white" strokeWidth="0.8" />
+          {/* Struts connecting wings */}
+          <line x1="60" y1="30" x2="60" y2="55" stroke="white" strokeWidth="0.6" />
+          <line x1="120" y1="28" x2="120" y2="53" stroke="white" strokeWidth="0.6" />
+          {/* Propeller hint */}
+          <line x1="180" y1="20" x2="180" y2="62" stroke="white" strokeWidth="0.8" />
+          <line x1="174" y1="41" x2="186" y2="41" stroke="white" strokeWidth="0.6" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-wright)" />
+    </svg>
+  );
+}
+
 // ─── Public export ─────────────────────────────────────────────────────────────
 
 interface ScenarioPatternSvgProps {
@@ -195,6 +256,8 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
     case "scientific-revolution": return <SciencePattern opacity={opacity} />;
     case "wwi":                   return <WWIPattern opacity={opacity} />;
     case "year-without-a-summer": return <SummerPattern opacity={opacity} />;
+    case "wright-brothers":       return <WrightPattern opacity={opacity} />;
+    case "underwater-archaeology": return <UnderwaterPattern opacity={opacity} />;
     default:                      return null;
   }
 }

@@ -4,6 +4,8 @@ import frenchRevolutionData from "./french-revolution.json";
 import fallOfRomeData from "./fall-of-rome.json";
 import scientificRevolutionData from "./scientific-revolution.json";
 import yearWithoutASummerData from "./year-without-a-summer.json";
+import wrightBrothersData from "./wright-brothers.json";
+import underwaterData from "./underwater-archaeology.json";
 
 export const SCENARIOS: CatenoScenario[] = [
   {
@@ -50,5 +52,23 @@ export const SCENARIOS: CatenoScenario[] = [
       "One assassination. Thirty-seven days. How a continent armed to the teeth and bound by secret alliances sleepwalked into the deadliest war in human history.",
     anchorId: "assassination-franz-ferdinand",
     nodes: wwiData as CatenoScenario["nodes"],
+  },
+  {
+    id: "wright-brothers",
+    title: "First Flight",
+    period: "1485–1960",
+    description:
+      "Two bicycle mechanics from Ohio solved in four years what governments and universities had failed to achieve in decades. How twelve seconds above a North Carolina beach changed the shape of the world forever.",
+    anchorId: "kitty-hawk-flight",
+    nodes: wrightBrothersData as CatenoScenario["nodes"],
+  },
+  {
+    id: "underwater-archaeology",
+    title: "The Silent Archive",
+    period: "1500 BC–2010",
+    description:
+      "The ocean floor is the largest archaeological site on Earth. How divers, engineers, and stubborn scholars dragged the ancient world back to the surface — and rewrote everything we thought we knew.",
+    anchorId: "vasa-raising",
+    nodes: underwaterData as CatenoScenario["nodes"],
   },
 ];
