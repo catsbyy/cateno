@@ -1,8 +1,10 @@
+// Slide-in panel showing full event details. Desktop: right sidebar. Mobile: bottom sheet.
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { CatenoNode } from "../types";
 import { TYPE_COLORS } from "../types";
 import { useIsMobile } from "../hooks/useIsMobile";
+import { PANEL_BG, PANEL_WIDTH } from "../constants";
 
 // ─── Wikimedia thumbnail rewriter ─────────────────────────────────────────────
 // Raw Wikimedia Commons URLs point to full-resolution files that can be 10 MB+
@@ -28,10 +30,7 @@ function toThumbnailUrl(url: string): string {
 // ─── Image header ─────────────────────────────────────────────────────────────
 
 function NodeImageHeader({ node, height, panelBg }: { node: CatenoNode; height: number; panelBg: string }) {
-  // Resolve image source: imageUrl.
-  // Rewrite Wikimedia Commons raw URLs to thumbnail URLs to avoid downloading huge files.
-  const raw = node.imageUrl ?? null;
-  const src = raw ? toThumbnailUrl(raw) : null;
+  const src = node.imageUrl ? toThumbnailUrl(node.imageUrl) : null;
 
   const [visible, setVisible] = useState(false);
   const [failed, setFailed] = useState(false);
@@ -50,16 +49,12 @@ function NodeImageHeader({ node, height, panelBg }: { node: CatenoNode; height: 
     }
   }, [src]);
 
-  // No image on this node — render nothing, panel starts directly with header.
   if (!src || failed) return null;
-
-  const collapsedHeight = height;
-  const expandedHeight = height * 2;
 
   return (
     <motion.div
       className="shrink-0 relative overflow-hidden"
-      animate={{ height: expanded ? expandedHeight : collapsedHeight }}
+      animate={{ height: expanded ? height * 2 : height }}
       transition={{ duration: 0.3, ease: "easeInOut" }}
       onClick={() => setExpanded((e) => !e)}
       onMouseEnter={() => setHovered(true)}
@@ -113,34 +108,10 @@ function NodeImageHeader({ node, height, panelBg }: { node: CatenoNode; height: 
 
 // ─── Wikipedia attribution link ───────────────────────────────────────────────
 
-function WikiLink({ wiki }: { wiki: string }) {
+function WikiLink({ wiki, mobile }: { wiki: string; mobile?: boolean }) {
+  const pad = mobile ? "px-5 py-4" : "px-6 py-4";
   return (
-    <div className="px-6 py-4" style={{ borderTop: "1px solid #1e1e1e" }}>
-      <a
-        href={`https://en.wikipedia.org/wiki/${wiki}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="font-sans hover:underline"
-        style={{
-          fontSize: 11,
-          color: "#E8E3D5",
-          opacity: 0.35,
-          textDecoration: "none",
-          transition: "opacity 0.15s",
-        }}
-        onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.6")}
-        onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.35")}
-      >
-        ↗ Read more on Wikipedia
-      </a>
-    </div>
-  );
-}
-
-// Mobile version uses smaller padding.
-function WikiLinkMobile({ wiki }: { wiki: string }) {
-  return (
-    <div className="px-5 py-4" style={{ borderTop: "1px solid #1e1e1e" }}>
+    <div className={pad} style={{ borderTop: "1px solid #1e1e1e" }}>
       <a
         href={`https://en.wikipedia.org/wiki/${wiki}`}
         target="_blank"
@@ -189,12 +160,9 @@ interface DetailPanelProps {
   node: CatenoNode | null;
   causeNodes: CatenoNode[];
   effectNodes: CatenoNode[];
-  onNodeClick: (id: string) => void;
-  onClose: () => void;
   onChipClick: (id: string) => void;
+  onClose: () => void;
 }
-
-const PANEL_BG = "#141414";
 
 export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClick }: DetailPanelProps) {
   const isMobile = useIsMobile();
@@ -240,10 +208,8 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
 
               {/* Scrollable body — image + header + content all scroll together */}
               <div className="flex-1 overflow-y-auto">
-                {/* Image */}
                 <NodeImageHeader node={node} height={120} panelBg={PANEL_BG} />
 
-                {/* Header */}
                 <div className="px-5 pt-3 pb-4" style={{ borderBottom: "1px solid #222" }}>
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-[#E8E3D5]/35 text-[12px] font-sans tracking-wider">{node.year}</span>
@@ -289,7 +255,7 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
                   </div>
                 )}
 
-                {node.wiki && <WikiLinkMobile wiki={node.wiki} />}
+                {node.wiki && <WikiLink wiki={node.wiki} mobile />}
               </div>
             </motion.aside>
           </>
@@ -304,12 +270,13 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
       {node && (
         <motion.aside
           key={node.id}
-          initial={{ x: 340, opacity: 0.6 }}
+          initial={{ x: PANEL_WIDTH, opacity: 0.6 }}
           animate={{ x: 0, opacity: 1 }}
-          exit={{ x: 340, opacity: 0 }}
+          exit={{ x: PANEL_WIDTH, opacity: 0 }}
           transition={{ duration: 0.28, ease: [0.32, 0, 0.18, 1] }}
-          className="absolute top-0 right-0 h-full w-[340px] flex flex-col z-30"
+          className={`absolute top-0 right-0 h-full w-[${PANEL_WIDTH}px] flex flex-col z-30`}
           style={{
+            width: PANEL_WIDTH,
             background: PANEL_BG,
             borderLeft: "1px solid #252525",
             boxShadow: "-12px 0 40px rgba(0,0,0,0.55)",
@@ -317,12 +284,10 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
           onMouseDown={(e) => e.stopPropagation()}
           onClick={(e) => e.stopPropagation()}
         >
-          {/* ── Scrollable body — image + header + content all scroll together ── */}
+          {/* Scrollable body — image + header + content all scroll together */}
           <div className="flex-1 overflow-y-auto scrollbar-thin">
-            {/* Image */}
             <NodeImageHeader node={node} height={160} panelBg={PANEL_BG} />
 
-            {/* Header */}
             <div className="px-6 pt-5 pb-5" style={{ borderBottom: "1px solid #222" }}>
               <div className="flex items-center justify-between mb-3">
                 <span className="text-[#E8E3D5]/35 text-[12px] font-sans tracking-wider">{node.year}</span>

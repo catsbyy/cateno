@@ -29,9 +29,7 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
 };
 
 export function getScenarioGradient(scenarioId: string): string {
-  const gradient = SCENARIO_GRADIENTS[scenarioId] ?? "#0D0D0D";
-  console.log("[cateno] getScenarioGradient", { scenarioId, gradient });
-  return gradient;
+  return SCENARIO_GRADIENTS[scenarioId] ?? "#0D0D0D";
 }
 
 // ─── SVG pattern components ────────────────────────────────────────────────────
@@ -48,7 +46,6 @@ function RomePattern({ opacity }: { opacity: number }) {
     >
       <defs>
         <pattern id="bg-rome" x="0" y="0" width="80" height="96" patternUnits="userSpaceOnUse">
-          {/* Roman arch: two pillars + semicircular arch */}
           <rect x="12" y="40" width="8" height="48" fill="none" stroke="#E8E3D5" strokeWidth="1.2" />
           <rect x="60" y="40" width="8" height="48" fill="none" stroke="#E8E3D5" strokeWidth="1.2" />
           <path d="M12 40 Q40 8 68 40" fill="none" stroke="#E8E3D5" strokeWidth="1.2" />
@@ -71,7 +68,6 @@ function FrancePattern({ opacity }: { opacity: number }) {
     >
       <defs>
         <pattern id="bg-france" x="0" y="0" width="64" height="80" patternUnits="userSpaceOnUse">
-          {/* Fleur-de-lis: centre petal + two side petals + base */}
           <path
             d="M32 12 C32 12 28 20 28 28 C28 34 32 36 32 36 C32 36 36 34 36 28 C36 20 32 12 32 12Z"
             fill="none" stroke="#E8E3D5" strokeWidth="1"
@@ -106,13 +102,10 @@ function SciencePattern({ opacity }: { opacity: number }) {
         pointerEvents: "none", opacity,
       }}
     >
-      {/* Sun at center */}
       <circle cx="50%" cy="50%" r="5" fill="#E8E3D5" />
-      {/* Orbits */}
       {[32, 60, 92, 128, 168, 210].map((r, i) => (
         <circle key={i} cx="50%" cy="50%" r={r} fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
       ))}
-      {/* Planet dots on orbits */}
       {([
         [32,  10],
         [60,  195],
@@ -148,7 +141,6 @@ function WWIPattern({ opacity }: { opacity: number }) {
     >
       <defs>
         <pattern id="bg-wwi" x="0" y="0" width="120" height="80" patternUnits="userSpaceOnUse">
-          {/* Flowing topographic contour lines */}
           <path d="M0 20 Q30 10 60 20 Q90 30 120 20" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
           <path d="M0 40 Q30 28 60 40 Q90 52 120 40" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
           <path d="M0 60 Q30 48 60 60 Q90 72 120 60" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
@@ -171,7 +163,6 @@ function SummerPattern({ opacity }: { opacity: number }) {
     >
       <defs>
         <pattern id="bg-summer" x="0" y="0" width="72" height="72" patternUnits="userSpaceOnUse">
-          {/* Scattered ash dots at varied positions and sizes */}
           <circle cx="12" cy="18" r="1.2" fill="#E8E3D5" />
           <circle cx="38" cy="8"  r="0.8" fill="#E8E3D5" />
           <circle cx="58" cy="26" r="1.5" fill="#E8E3D5" />
@@ -199,7 +190,7 @@ function TemplarsPattern({ opacity }: { opacity: number }) {
     >
       <defs>
         <pattern id="bg-templars" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
-          {/* Cross pattée ~40×40px: translate to center in tile, then scale from 1083×1083 source */}
+          {/* Cross pattée: translate to tile centre, scale from 1083×1083 source to ~40×40px */}
           <g transform="translate(40, 40) scale(0.037)">
             <path
               d="M358.145 1070.42l370.414 0c-71.7183,-110.608 -132.927,-316.36 -132.927,-469.658 153.3,-0.00354223 359.051,61.2061 469.66,132.926l-0.00118074 -370.413c-132.87,76.4341 -341.723,125.971 -473.362,118.969 0,-153.298 61.2085,-359.049 132.927,-469.658l-370.414 0c71.7183,110.608 132.927,316.36 132.926,469.659 -153.298,0 -359.049,-61.2085 -469.658,-132.927l-0.00236148 370.414c132.874,-76.4341 341.726,-125.97 473.364,-118.97 0,153.298 -61.2085,359.049 -132.927,469.658z"
@@ -225,11 +216,9 @@ function UnderwaterPattern({ opacity }: { opacity: number }) {
     >
       <defs>
         <pattern id="bg-underwater" x="0" y="0" width="300" height="300" patternUnits="userSpaceOnUse">
-          {/* Sonar ping: concentric arcs radiating from bottom-left corner */}
           <path d="M0,300 Q75,225 150,300"  fill="none" stroke="white" strokeWidth="0.7" />
           <path d="M0,300 Q112,188 225,300" fill="none" stroke="white" strokeWidth="0.6" />
           <path d="M0,300 Q150,150 300,300" fill="none" stroke="white" strokeWidth="0.5" />
-          {/* Horizontal depth lines suggesting water layers */}
           <line x1="0" y1="100" x2="300" y2="100" stroke="white" strokeWidth="0.3" strokeDasharray="4 8" />
           <line x1="0" y1="200" x2="300" y2="200" stroke="white" strokeWidth="0.3" strokeDasharray="4 8" />
         </pattern>
@@ -251,16 +240,12 @@ function WrightPattern({ opacity }: { opacity: number }) {
     >
       <defs>
         <pattern id="bg-wright" x="0" y="0" width="200" height="120" patternUnits="userSpaceOnUse">
-          {/* Upper wing aerofoil */}
           <path d="M10,30 C40,20 120,18 180,28 C120,32 40,34 10,30 Z"
                 fill="none" stroke="white" strokeWidth="0.8" />
-          {/* Lower wing aerofoil */}
           <path d="M10,55 C40,45 120,43 180,53 C120,57 40,59 10,55 Z"
                 fill="none" stroke="white" strokeWidth="0.8" />
-          {/* Struts connecting wings */}
           <line x1="60" y1="30" x2="60" y2="55" stroke="white" strokeWidth="0.6" />
           <line x1="120" y1="28" x2="120" y2="53" stroke="white" strokeWidth="0.6" />
-          {/* Propeller hint */}
           <line x1="180" y1="20" x2="180" y2="62" stroke="white" strokeWidth="0.8" />
           <line x1="174" y1="41" x2="186" y2="41" stroke="white" strokeWidth="0.6" />
         </pattern>
@@ -272,7 +257,6 @@ function WrightPattern({ opacity }: { opacity: number }) {
 
 // ─── Public export ─────────────────────────────────────────────────────────────
 
-
 interface ScenarioPatternSvgProps {
   scenarioId: string;
   opacity: number;
@@ -280,12 +264,12 @@ interface ScenarioPatternSvgProps {
 
 export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgProps) {
   switch (scenarioId) {
-    case "fall-of-rome":          return <RomePattern opacity={opacity} />;
-    case "french-revolution":     return <FrancePattern opacity={opacity} />;
-    case "scientific-revolution": return <SciencePattern opacity={opacity} />;
-    case "wwi":                   return <WWIPattern opacity={opacity} />;
-    case "year-without-a-summer": return <SummerPattern opacity={opacity} />;
-    case "wright-brothers":       return <WrightPattern opacity={opacity} />;
+    case "fall-of-rome":           return <RomePattern opacity={opacity} />;
+    case "french-revolution":      return <FrancePattern opacity={opacity} />;
+    case "scientific-revolution":  return <SciencePattern opacity={opacity} />;
+    case "wwi":                    return <WWIPattern opacity={opacity} />;
+    case "year-without-a-summer":  return <SummerPattern opacity={opacity} />;
+    case "wright-brothers":        return <WrightPattern opacity={opacity} />;
     case "underwater-archaeology": return <UnderwaterPattern opacity={opacity} />;
     case "templars":               return <TemplarsPattern opacity={opacity} />;
     default:                       return null;

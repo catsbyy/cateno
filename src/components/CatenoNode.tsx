@@ -1,9 +1,11 @@
+// Individual event card rendered inside React Flow. Expands from centre on focus.
 import { memo } from "react";
 import { Handle, Position } from "@xyflow/react";
 import type { NodeProps } from "@xyflow/react";
 import { motion, AnimatePresence } from "framer-motion";
 import { TYPE_COLORS } from "../types";
 import type { NodeType } from "../types";
+import { NODE_W, NODE_H, W_FOCUS, H_FOCUS } from "../constants";
 
 export interface CatenoNodeData {
   title: string;
@@ -15,12 +17,6 @@ export interface CatenoNodeData {
   isDimmed?: boolean;
   hiddenCount?: number;
 }
-
-// Resting: 200×72   Focused: 230×108
-const W_REST = 200;
-const H_REST = 72;
-const W_FOCUS = 230;
-const H_FOCUS = 108;
 
 function CatenoNodeComponent({ data }: NodeProps) {
   const {
@@ -36,12 +32,12 @@ function CatenoNodeComponent({ data }: NodeProps) {
   const color = TYPE_COLORS[keyword];
 
   return (
-    // Outer shell — fixed 200×72 so React Flow's layout never shifts.
-    // Fix 3: set zIndex here too so the expanded card floats above neighbours.
+    // Outer shell — fixed NODE_W×NODE_H so React Flow's layout never shifts.
+    // zIndex here ensures the expanded card floats above neighbours.
     <div
       style={{
-        width: W_REST,
-        height: H_REST,
+        width: NODE_W,
+        height: NODE_H,
         position: "relative",
         zIndex: isFocused ? 50 : 1,
       }}
@@ -101,8 +97,8 @@ function CatenoNodeComponent({ data }: NodeProps) {
             pointerEvents: "none",
           }}
           animate={{
-            width: [W_REST + 6, W_REST + 24],
-            height: [H_REST + 6, H_REST + 24],
+            width: [NODE_W + 6, NODE_W + 24],
+            height: [NODE_H + 6, NODE_H + 24],
             opacity: [0.5, 0],
           }}
           transition={{
@@ -123,20 +119,19 @@ function CatenoNodeComponent({ data }: NodeProps) {
           x: "-50%",
           y: "-50%",
           zIndex: isFocused ? 50 : 1,
-          // Fix 2: seed glow affordance — a faint type-colour halo
+          // Seed nodes get a faint type-colour halo to hint they're explorable
           boxShadow: isSeed && !isFocused && !isDimmed ? `0 0 10px ${color}2e` : "none",
         }}
         initial={{ scale: 0.82, opacity: 0 }}
         animate={{
           scale: 1,
           opacity: isDimmed ? 0.3 : 1,
-          width: isFocused ? W_FOCUS : W_REST,
-          height: isFocused ? H_FOCUS : H_REST,
+          width: isFocused ? W_FOCUS : NODE_W,
+          height: isFocused ? H_FOCUS : NODE_H,
         }}
         transition={{ duration: 0.22, ease: "easeOut" }}
         className="rounded-md border bg-[#1C1C1C] px-3 py-2.5 flex flex-col justify-center gap-2 overflow-hidden cursor-pointer"
       >
-        {/* Fix 2: two-line clamped title with word wrap */}
         <p
           className="text-[#E8E3D5] text-[12px] font-medium font-sans m-0 select-none line-clamp-2"
           style={{ lineHeight: "1.4", wordBreak: "break-word" }}
