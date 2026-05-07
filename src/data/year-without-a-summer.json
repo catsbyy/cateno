@@ -6,7 +6,7 @@
     "title": "Mount Tambora Erupts",
     "year": 1815,
     "keyword": "spark",
-    "summary": "On April 10, 1815, Mount Tambora in Indonesia erupted in the most powerful volcanic event in recorded history — releasing energy equivalent to 800,000 Hiroshima bombs. Around 71,000 people died immediately from the blast, pyroclastic flows, and tsunamis.",
+    "summary": "On April 10, 1815, Mount Tambora in Indonesia erupted in the most powerful volcanic event in recorded history — releasing energy equivalent to hundreds of thousands of Hiroshima bombs. Around 10,000–12,000 people died immediately from the blast, pyroclastic flows, and tsunamis; the total death toll including subsequent famine and disease reached approximately 71,000.",
     "causeIds": [],
     "effectIds": [
       "volcanic-aerosols",
@@ -22,7 +22,7 @@
     "title": "Local Devastation in Indonesia",
     "year": 1815,
     "keyword": "collapse",
-    "summary": "The island of Sumbawa was almost entirely destroyed. Three kingdoms were wiped out, and the Tamboran language became extinct — one of the few languages ever erased by a natural disaster.",
+    "summary": "The eruption deposited ash up to three metres deep across the island of Sumbawa, destroying all agriculture and drinking water sources. The three kingdoms of Tambora, Pekat, and Sanggar were wiped out entirely. The Tamboran language — spoken by the kingdom of Tambora — became extinct, one of the only documented cases of a language being permanently erased by a natural disaster rather than by human action.",
     "causeIds": [
       "mount-tambora-eruption"
     ],
@@ -37,7 +37,7 @@
     "title": "Volcanic Aerosols in Stratosphere",
     "year": 1815,
     "keyword": "catalyst",
-    "summary": "Tambora ejected over 150 cubic kilometres of material, including massive amounts of sulphur dioxide into the stratosphere. These particles formed a reflective veil around the entire planet, persisting for years.",
+    "summary": "Tambora ejected an estimated 150–200 cubic kilometres of material, including approximately 60 megatons of sulphur dioxide gas into the stratosphere. This reacted with water vapour to form sulphuric acid aerosols — tiny reflective droplets that spread globally within months, forming a persistent veil that reduced sunlight reaching Earth's surface. Unlike ash, which settles within weeks, these stratospheric aerosols persisted for two to three years.",
     "causeIds": [
       "mount-tambora-eruption"
     ],
@@ -90,7 +90,7 @@
     "title": "Global Temperature Drop",
     "year": 1816,
     "keyword": "turning-point",
-    "summary": "Average global temperatures fell by 0.4–0.7°C — modest on paper but catastrophic for agriculture. Parts of Europe saw temperatures 3°C below average. Snow fell in New England in June. Frost killed crops in July across New York and New England.",
+    "summary": "Global average temperatures fell by an estimated 0.4–0.7°C — modest as an average but catastrophic at the agricultural margins. Parts of Europe and eastern North America experienced summer temperatures 3°C below normal. Snow fell in New England in June 1816. In the French Jura, the winter of 1816–17 was the coldest in 500 years. The drop was most severe in the northern hemisphere, where the bulk of the world's food production was concentrated.",
     "causeIds": [
       "reduced-solar-radiation"
     ],
@@ -142,7 +142,7 @@
     "title": "Crop Failures Across Europe",
     "year": 1816,
     "keyword": "collapse",
-    "summary": "Harvests failed across France, Germany, Switzerland, and the British Isles. The summer of 1816 was the coldest in 500 years in Europe. Ireland lost its potato crop almost entirely — a grim rehearsal for the Great Famine thirty years later.",
+    "summary": "Harvests failed across France, Germany, Switzerland, the British Isles, and Scandinavia in 1816. The grain crop in Germany fell by around a third; in Switzerland it was the worst harvest in living memory. Ireland's potato crop — the primary caloric source for most of its population — was devastated by late frosts and persistent wet rot. The summer of 1816 was the coldest in Europe in 500 years.",
     "causeIds": [
       "abnormal-weather",
       "shortened-growing-season"
@@ -150,7 +150,8 @@
     "effectIds": [
       "grain-price-surge",
       "food-shortages-europe",
-      "irish-famine-1816"
+      "irish-famine-1816",
+      "horse-deaths"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -166,7 +167,8 @@
     ],
     "effectIds": [
       "new-england-migration",
-      "american-westward-push"
+      "american-westward-push",
+      "horse-deaths"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -176,7 +178,7 @@
     "title": "Crop Failures in Asia",
     "year": 1816,
     "keyword": "collapse",
-    "summary": "The monsoon patterns were disrupted across South and East Asia. China's Yunnan province experienced severe cold and flooding simultaneously. India's monsoon delayed, setting up conditions for the first cholera pandemic.",
+    "summary": "The monsoon system was severely disrupted across South and East Asia in 1816–1817. China's Yunnan province experienced simultaneous drought and unseasonable flooding. The opium poppy — suddenly one of the few crops that could grow in the difficult conditions — expanded dramatically in the region, contributing to the later opium trade. India's delayed monsoon created the warm, wet conditions in Bengal that may have triggered the first cholera pandemic.",
     "causeIds": [
       "abnormal-weather"
     ],
@@ -193,7 +195,7 @@
     "title": "Irish Famine of 1816–1817",
     "year": 1816,
     "keyword": "collapse",
-    "summary": "Ireland's potato crop — the primary food source for millions — failed almost completely. An estimated 65,000 people died of famine and fever in 1816–1817. This smaller famine prefigured the catastrophic Great Famine of the 1840s.",
+    "summary": "Ireland's potato crop nearly failed in 1816, and the subsequent wet, cold conditions of 1817 produced a typhus epidemic that compounded the famine. Estimates of deaths from hunger and fever range from 50,000 to 100,000. The crisis demonstrated Ireland's catastrophic vulnerability to a single-crop food system — a warning that was not heeded, and that returned with devastating force in the Great Famine of 1845–1852.",
     "causeIds": [
       "crop-failures-europe"
     ],
@@ -225,7 +227,7 @@
     "imageUrl": "https://historicinterpreter.wordpress.com/wp-content/uploads/2015/05/early-settlers.jpg",
     "year": 1816,
     "keyword": "pressure",
-    "summary": "The worst famine in Europe in the 19th century unfolded across 1816–1817. An estimated 200,000 people died directly from starvation and hunger-related disease. Beggars overwhelmed cities. Riots broke out at food markets.",
+    "summary": "The European famine of 1816–1817 was the worst on the continent in the 19th century and one of the deadliest in two hundred years. Estimates of excess mortality from starvation and hunger-related disease range from 65,000 to over 200,000 across Europe. In Swiss villages, municipal records show death rates two to three times the normal level. The famine disproportionately killed the elderly, infants, and those already weakened by poverty.",
     "causeIds": [
       "crop-failures-europe",
       "grain-price-surge"
@@ -233,7 +235,8 @@
     "effectIds": [
       "social-unrest-europe",
       "malnutrition",
-      "european-migration"
+      "european-migration",
+      "gloomy-atmosphere"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -269,7 +272,6 @@
       "food-shortages-europe"
     ],
     "effectIds": [
-      "cholera-pandemic",
       "typhus-outbreak"
     ],
     "isAnchor": false,
@@ -297,10 +299,9 @@
     "title": "First Cholera Pandemic",
     "year": 1817,
     "keyword": "consequence",
-    "summary": "The disruption of India's monsoon created conditions for a cholera outbreak in Bengal in 1817 that spread globally — the first cholera pandemic in history. It killed millions across Asia and eventually reached Europe and the Americas by the 1820s.",
+    "summary": "The disruption of India's monsoon may have contributed to conditions for a cholera outbreak in Bengal in 1817 that spread globally — the first cholera pandemic in history. It killed millions across Asia and eventually reached Europe and the Americas by the 1820s. The link between Tambora's climate disruption and the pandemic's timing remains historically debated.",
     "causeIds": [
-      "crop-failures-asia",
-      "malnutrition"
+      "crop-failures-asia"
     ],
     "effectIds": [],
     "isAnchor": false,
@@ -313,7 +314,7 @@
     "title": "Political Repression Intensifies",
     "year": 1817,
     "keyword": "consequence",
-    "summary": "Terrified by the food riots, European governments cracked down on political dissent. In Britain, the Habeas Corpus Act was suspended in 1817. In Germany, the Carlsbad Decrees of 1819 suppressed liberal movements. The famine paradoxically strengthened reactionary governments.",
+    "summary": "Terrified by the food riots and mindful of what revolution had done to France, European governments responded with repression rather than reform. In Britain, the Habeas Corpus Act was suspended in 1817 and the Seditious Meetings Act restricted public assembly — a trajectory that led to the Peterloo Massacre of 1819. In Germany, the Carlsbad Decrees of 1819 censored universities and newspapers. The famine paradoxically strengthened reactionary governments by giving them an emergency justification for suspending normal liberties.",
     "causeIds": [
       "social-unrest-europe"
     ],
@@ -346,7 +347,7 @@
     "title": "New England Exodus",
     "year": 1816,
     "keyword": "shift",
-    "summary": "Thousands of New England farm families abandoned their land and moved west into New York, Ohio, and Indiana. Entire townships were depopulated. Vermont lost nearly a quarter of its population in a decade, directly triggered by the crop failures of 1816.",
+    "summary": "Thousands of New England farming families abandoned their land and moved west after the harvest failures of 1816. Vermont lost approximately 10,000–15,000 people in the following decade — the first significant population decline in its history. Whole townships were vacated. The migration accelerated the settlement of western New York, Ohio, Indiana, and eventually Illinois, with ripple effects on American political geography for generations.",
     "causeIds": [
       "crop-failures-north-america"
     ],
@@ -434,7 +435,7 @@
     "title": "Frankenstein Written",
     "year": 1816,
     "keyword": "consequence",
-    "summary": "18-year-old Mary Godwin wrote what became Frankenstein; or, The Modern Prometheus during the Villa Diodati summer. The novel explored humanity's hubris in controlling nature — themes that felt urgently relevant when nature itself seemed to have turned against civilization.",
+    "summary": "Eighteen-year-old Mary Godwin wrote what became Frankenstein; or, The Modern Prometheus during the Villa Diodati summer. Published anonymously in January 1818, the novel explored humanity's dangerous presumption in mastering the forces of creation — themes that resonated with particular urgency in a year when nature itself seemed to be rebelling against human control. It became the foundational text of science fiction and Gothic horror simultaneously.",
     "causeIds": [
       "lake-geneva-gathering"
     ],
@@ -452,7 +453,7 @@
     "title": "The Vampyre Written",
     "year": 1816,
     "keyword": "consequence",
-    "summary": "John Polidori wrote The Vampyre at the same gathering — the first modern vampire story in English, directly inspired by Byron's fragment. It established the aristocratic, seductive vampire archetype that Bram Stoker later developed into Dracula.",
+    "summary": "John Polidori began writing The Vampyre at the same gathering — the first modern vampire story in English, drawing on Byron's abandoned fragment. It established the aristocratic, seductive vampire archetype that Bram Stoker later developed into Dracula. The story was completed and published in 1819.",
     "causeIds": [
       "lake-geneva-gathering"
     ],
@@ -522,7 +523,7 @@
     "title": "Mass Death of Horses",
     "year": 1816,
     "keyword": "collapse",
-    "summary": "The crop failures destroyed the oat and hay harvests that fed working horses across Europe and North America. Horses died in vast numbers or were slaughtered because they couldn't be fed. Transportation and agriculture were severely disrupted.",
+    "summary": "The oat and hay harvests that sustained Europe's and North America's working horses were among the most severely affected crops of 1816. Horses died in large numbers from starvation or were slaughtered because they could no longer be fed. In some German regions, cavalry units were dismounted for lack of feed. The disruption to horse-powered transport and agriculture — which meant almost all transport and agriculture — was severe and immediate.",
     "causeIds": [
       "crop-failures-europe",
       "crop-failures-north-america"
@@ -540,7 +541,7 @@
     "title": "Bicycle Invented",
     "year": 1817,
     "keyword": "consequence",
-    "summary": "German inventor Karl von Drais built the first bicycle — the 'running machine' or Laufmaschine — in direct response to the mass death of horses. With horses unavailable, he sought a human-powered alternative for transportation. The bicycle, one of the most transformative inventions in history, was born from a volcanic eruption.",
+    "summary": "German inventor Karl von Drais built the first bicycle — the 'running machine' or Laufmaschine — in 1817, partly in response to the mass death of horses that had disrupted transportation. With horses unavailable or unaffordable, he sought a human-powered alternative. The bicycle, one of the most transformative inventions in history, was born in the shadow of a volcanic eruption.",
     "causeIds": [
       "horse-deaths"
     ],

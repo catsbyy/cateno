@@ -41,7 +41,7 @@ export const SCENARIOS: CatenoScenario[] = [
     title: "Year Without a Summer",
     period: "1815–1820",
     description:
-      "A volcano in Indonesia erupted. Harvests failed across three continents. And somehow, the world got Frankenstein, the bicycle, and the first cholera pandemic — all from the same cloud of ash.",
+      "A volcano in Indonesia erupted. Harvests failed across three continents. And somehow, the world got Frankenstein, the bicycle, and the first cholera pandemic — all from the same volcanic eruption.",
     anchorId: "mount-tambora-eruption",
     nodes: yearWithoutASummerData as CatenoScenario["nodes"],
   },
@@ -50,14 +50,14 @@ export const SCENARIOS: CatenoScenario[] = [
     title: "World War I",
     period: "1871–1919",
     description:
-      "One assassination. Thirty-seven days. How a continent armed to the teeth and bound by secret alliances sleepwalked into the deadliest war in human history.",
+      "One assassination. Thirty-seven days. How a continent armed to the teeth and bound by rigid alliances sleepwalked into the deadliest war in human history.",
     anchorId: "assassination-franz-ferdinand",
     nodes: wwiData as CatenoScenario["nodes"],
   },
   {
     id: "wright-brothers",
     title: "First Flight",
-    period: "1485–1960",
+    period: "1485–1961",
     description:
       "Two bicycle mechanics from Ohio solved in four years what governments and universities had failed to achieve in decades. How twelve seconds above a North Carolina beach changed the shape of the world forever.",
     anchorId: "kitty-hawk-flight",

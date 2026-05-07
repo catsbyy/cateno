@@ -6,11 +6,12 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Charles_Laplante_-_La_premi%C3%A8re_croisade_%28illustration_pour_Fran%C3%A7ois_Guizot%29.png",
     "year": 1096,
     "keyword": "catalyst",
-    "summary": "Pope Urban II launched the First Crusade in 1095, sending thousands of European knights to capture Jerusalem. The Crusaders took the city in 1099 in a bloody massacre. This created a Christian kingdom in the Holy Land that needed defending — and pilgrims flooding dangerous roads that needed protecting.",
+    "summary": "Pope Urban II launched the First Crusade in 1095, sending tens of thousands of European knights to recapture Jerusalem from Seljuk Turkish control. The Crusaders took the city in July 1099 in a massacre that shocked even contemporary chroniclers. This created a Christian kingdom in the Holy Land that required permanent defence — and sent a flood of pilgrims along roads that no one was equipped to protect.",
     "causeIds": [],
     "effectIds": [
       "pilgrim-routes-dangerous",
-      "templars-founded"
+      "templars-founded",
+      "acre-falls"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -90,7 +91,7 @@
     "title": "Templars Invent Banking",
     "year": 1150,
     "keyword": "turning-point",
-    "summary": "To protect pilgrims from robbery, the Templars developed the first letter of credit system — deposit gold at a Templar house in Paris, receive an encoded document, withdraw equivalent gold in Jerusalem. This invented the fundamental concept of banking: the separation of physical money from financial value. It was the most consequential financial innovation of the medieval world.",
+    "summary": "To protect pilgrims from robbery, the Templars developed the first letter-of-credit system: deposit gold at a Templar commandery in Paris or London, receive an encoded document, present it at a Templar house in Jerusalem or Acre, and withdraw the equivalent value. This separated financial value from physical gold — you could transfer wealth across a thousand miles without carrying a single coin. It was the foundational concept of all subsequent banking.",
     "causeIds": [
       "templars-founded",
       "church-grants-exemptions",
@@ -221,11 +222,12 @@
     "title": "Philip Controls the Papacy",
     "year": 1305,
     "keyword": "catalyst",
-    "summary": "After a bitter conflict with Pope Boniface VIII (who died in humiliation after Philip had him briefly arrested), Philip engineered the election of a French pope — Clement V — in 1305. Clement moved the papacy to Avignon in France, beginning the 'Babylonian Captivity' of the Church. For the first time, Philip had a pope he could pressure into action against the Templars.",
+    "summary": "After a bitter conflict with Pope Boniface VIII — who died after Philip's agents briefly seized him at Anagni in 1303 — Philip engineered the election of a French pope, Clement V, in 1305. Clement moved the papacy to Avignon in France, beginning the 'Babylonian Captivity' of the Church. For the first time, Philip had a pope he could pressure into action against the Templars.",
     "causeIds": [],
     "effectIds": [
       "philip-plots-destruction",
-      "papacy-weakened"
+      "papacy-weakened",
+      "pope-dissolves-order"
     ],
     "isAnchor": false,
     "isSeed": true,
@@ -237,7 +239,7 @@
     "title": "Philip Sees His Opportunity",
     "year": 1306,
     "keyword": "catalyst",
-    "summary": "With a compliant French pope installed at Avignon, the Templars weakened by their loss of mission, and his own treasury empty, Philip IV began secretly planning the destruction of the order. He gathered accusations of heresy, sodomy, and devil worship — charges that were almost certainly fabricated but that a sympathetic pope and compliant inquisitors would accept.",
+    "summary": "With a compliant French pope at Avignon and the Templars weakened by their loss of mission, Philip IV spent 1306–1307 systematically constructing a legal case. His agents gathered testimony from a disgruntled former Templar alleging heresy, sodomy, denial of Christ, and worship of an idol called Baphomet. The charges were almost certainly fabricated or wildly exaggerated — but they were designed for a specific audience: a sympathetic pope and royal inquisitors.",
     "causeIds": [
       "acre-falls",
       "templars-lose-purpose"
@@ -275,7 +277,7 @@
     "title": "Friday the 13th — Mass Arrest",
     "year": 1307,
     "keyword": "spark",
-    "summary": "On Friday, October 13, 1307, royal officers across France simultaneously arrested every Knight Templar they could find — over 2,000 men including Grand Master Jacques de Molay. The coordinated dawn raids were executed with extraordinary efficiency. Philip seized the Paris Temple and its treasury. The most powerful military order in Christendom was destroyed in a single morning.",
+    "summary": "On Friday, October 13, 1307, royal officers across France simultaneously arrested every Knight Templar they could find — hundreds of men including Grand Master Jacques de Molay. The coordinated dawn raids were executed with extraordinary efficiency. Philip seized the Paris Temple and its treasury. The most powerful military order in Christendom was destroyed in a single morning.",
     "causeIds": [
       "philip-plots-destruction"
     ],
@@ -295,7 +297,7 @@
     "title": "Torture Extracts False Confessions",
     "year": 1307,
     "keyword": "collapse",
-    "summary": "Under torture by the Inquisition, Templars confessed to heresy, spitting on the cross, and worshipping an idol called Baphomet. Most later recanted when the torture stopped. Jacques de Molay himself confessed, recanted publicly, and was burned at the stake in 1314 for his recantation — cursing Philip and Clement from the flames. Both were dead within a year.",
+    "summary": "Under torture by the Inquisition, Templars confessed to heresy, spitting on the cross, and worshipping an idol called Baphomet. Most later recanted when the torture stopped. Jacques de Molay confessed under torture, then recanted before papal commissioners — reclassifying him legally as a relapsed heretic — and was burned at the stake in 1314.",
     "causeIds": [
       "friday-13th-arrests"
     ],
@@ -313,7 +315,7 @@
     "title": "Treasury Seized — Debts Cancelled",
     "year": 1307,
     "keyword": "consequence",
-    "summary": "Philip seized the Templar treasury in Paris and cancelled his debts to the order overnight. The immediate financial relief was enormous. However, historians note that the Templars had apparently moved much of their liquid wealth before the arrests — the treasury was smaller than expected, and the whereabouts of the bulk of Templar gold remains unknown to this day.",
+    "summary": "Philip seized the Templar treasury in the Paris Temple immediately after the arrests, cancelling his debts to the order overnight. The financial relief was substantial but disappointing — the treasury was significantly smaller than expected. Evidence suggests the Templars had been warned and moved much of their liquid wealth before October 13. The location of the bulk of the Templar treasury has never been established.",
     "causeIds": [
       "friday-13th-arrests"
     ],
@@ -370,7 +372,7 @@
     "title": "Friday the 13th Becomes Unlucky",
     "year": 1307,
     "keyword": "consequence",
-    "summary": "The mass arrest of October 13, 1307 — a Friday — is the most widely cited origin of the Friday the 13th superstition. While the folk belief likely has multiple origins, the Templar arrests gave the date its most dramatic historical anchor. One morning of royal ruthlessness embedded itself permanently into Western superstition.",
+    "summary": "The mass arrest of October 13, 1307 — a Friday — is the most widely cited origin of the Friday the 13th superstition, though historians note that the connection was not explicitly documented until centuries later. The folk belief likely accumulated multiple origins over time. Regardless of the historical chain, the Templar arrests gave the date its most dramatic historical anchor in popular memory.",
     "causeIds": [
       "friday-13th-arrests"
     ],
@@ -384,7 +386,7 @@
     "title": "Templar Banking Knowledge Disperses",
     "year": 1315,
     "keyword": "shift",
-    "summary": "When the Templars were dissolved, their banking personnel, techniques, and networks didn't disappear — they dispersed. Former Templar agents and the techniques they had developed were absorbed by Italian merchant banking families: the Medicis, Bardis, and Peruzzis. The letter of credit, double-entry bookkeeping, and international financial networks all survived through these successors.",
+    "summary": "When the Templars were dissolved, their banking personnel and techniques dispersed across Europe rather than disappearing. The sophisticated credit and transfer networks they had operated were absorbed by Italian merchant banking families — primarily the Bardi and Peruzzi of Florence, who were already active as royal bankers and who further developed these techniques before their own collapse in the 1340s.",
     "causeIds": [
       "templar-treasury-seized",
       "pope-dissolves-order"
@@ -422,7 +424,7 @@
     "id": "templar-curse-legend",
     "title": "The Templar Curse and Mythology",
     "year": 1314,
-    "keyword": "shift",
+    "keyword": "consequence",
     "summary": "De Molay's dying curse, the mysterious disappearance of the Templar treasury, and the suspicious deaths of Philip and Clement created an enduring mythology around the Templars. By the 18th century, Masonic lodges were claiming Templar descent. The legend of hidden Templar treasure, secret knowledge, and underground survival has never died — and spawned a modern industry of conspiracy theories.",
     "causeIds": [
       "de-molay-burned"
@@ -457,7 +459,7 @@
     "title": "Medici Bank Founded",
     "year": 1397,
     "keyword": "turning-point",
-    "summary": "Giovanni di Bicci de' Medici founded the Medici Bank in Florence in 1397, building on the banking techniques that traced directly back to the Templars. The Medicis became bankers to popes and kings, the wealthiest family in Europe — and used that wealth to fund the Renaissance. Botticelli, Michelangelo, Leonardo da Vinci — all worked under Medici patronage.",
+    "summary": "Giovanni di Bicci de' Medici founded the Medici Bank in Florence in 1397, building on banking techniques that traced back through the Italian merchant tradition to Templar innovations. Under Lorenzo de' Medici, the bank's profits funded an extraordinary concentration of artistic patronage: Botticelli, Michelangelo, and the young Leonardo da Vinci all worked under Medici support in Florence, making the bank one of the indirect financial engines of the Renaissance.",
     "causeIds": [
       "italian-banking-rises",
       "templar-wealth-disperses"
@@ -493,7 +495,7 @@
     "title": "Modern Banking System Born",
     "year": 1450,
     "keyword": "consequence",
-    "summary": "The financial techniques that evolved from Templar letter of credit through Italian merchant banking — fractional reserve banking, bills of exchange, double-entry bookkeeping, international currency exchange — became the foundation of the modern financial system. Every bank account, credit card, and wire transfer today is a direct descendant of the system the Templars invented to protect pilgrims in 1150.",
+    "summary": "The financial techniques that evolved from the Templar letter of credit through Italian merchant banking — bills of exchange, international currency networks, and sophisticated credit instruments — became foundational to the modern financial system. Every bank account, credit card, and wire transfer today descends in part from the innovations the Templars helped pioneer to protect pilgrims in the 12th century.",
     "causeIds": [
       "medici-bank-founded",
       "renaissance-funded"

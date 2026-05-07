@@ -6,7 +6,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg",
     "year": 1200,
     "keyword": "pressure",
-    "summary": "Medieval European thought was dominated by Aristotelian philosophy interpreted through Church doctrine. Knowledge was deduced from ancient authority rather than observed from nature, creating a rigid intellectual framework that the Scientific Revolution would dismantle.",
+    "summary": "Medieval European thought was dominated by Aristotelian philosophy as interpreted through Church doctrine, primarily by Thomas Aquinas in the 13th century. Knowledge was established by deduction from ancient texts rather than by observation of nature. To contradict Aristotle was to contradict the Church — a proposition with serious personal consequences that shaped how every subsequent thinker framed their findings.",
     "causeIds": [],
     "effectIds": [
       "aristotelian-cosmology",
@@ -40,7 +40,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Arbre_des_batailles_BnF_Arsenal_ms_2695_folio_6v.jpg",
     "year": 1300,
     "keyword": "pressure",
-    "summary": "The Catholic Church controlled universities and determined which ideas were permissible. Challenging Aristotle meant challenging Church authority — a dangerous proposition that shaped how early scientists framed and published their findings.",
+    "summary": "The Catholic Church controlled Europe's universities, determined the curriculum, and held authority over which ideas were permissible. Challenging Aristotle meant implicitly challenging Church doctrine — a dangerous position that caused early scientists to publish cautiously, frame findings as mathematical conveniences rather than physical truths, or delay publication entirely. This institutional power over knowledge was a defining constraint of the Scientific Revolution's first century.",
     "causeIds": [
       "medieval-scholasticism"
     ],
@@ -91,13 +91,12 @@
     "imageUrl": "https://www.worldhistory.org/img/r/p/1500x1500/12693.jpg",
     "year": 1400,
     "keyword": "shift",
-    "summary": "Humanist scholars rediscovered and translated ancient Greek and Roman texts, including works that contradicted Aristotle. The emphasis on direct observation of nature and human experience planted the seed of empirical thinking.",
+    "summary": "Humanist scholars beginning in 14th-century Italy rediscovered and translated ancient Greek and Latin texts — including works by Archimedes, Hero of Alexandria, and Plato — that offered alternatives to Aristotelian authority. Their emphasis on direct engagement with primary sources, and on human experience as a valid object of study, planted the epistemological seed from which the Scientific Revolution grew.",
     "causeIds": [
       "black-death-disruption"
     ],
     "effectIds": [
-      "observation-over-authority",
-      "printing-press-spreads-ideas"
+      "observation-over-authority"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -109,7 +108,7 @@
     "imageUrl": "https://images.nationalgeographic.org/image/upload/v1638892499/EducationHub/photos/martin-luther-at-the-diet-of-worms-1521.jpg",
     "year": 1400,
     "keyword": "shift",
-    "summary": "The Black Death, the Great Schism, and growing corruption eroded the Church's moral authority. The Protestant Reformation further fractured religious unity, creating spaces where heterodox ideas — including new science — could circulate more freely.",
+    "summary": "The Black Death's devastation, which Church doctrine could neither explain nor prevent, severely damaged clerical authority. The Great Schism (1378–1417), during which two or three men simultaneously claimed to be pope, made the Church appear politically corrupt and doctrinally unreliable. These crises created intellectual breathing room — especially in Italian city-states and later Protestant territories — where heterodox ideas could circulate with less risk.",
     "causeIds": [
       "black-death-disruption"
     ],
@@ -128,9 +127,7 @@
     "year": 1450,
     "keyword": "catalyst",
     "summary": "Gutenberg's printing press allowed scientific ideas to spread across Europe within years rather than centuries. A discovery in Italy could reach England in months — the first time in history that a scientific community could function across borders.",
-    "causeIds": [
-      "renaissance-humanism"
-    ],
+    "causeIds": [],
     "effectIds": [
       "copernicus-publishes",
       "scientific-correspondence-networks"
@@ -145,7 +142,7 @@
     "imageUrl": "https://images.aeonmedia.co/images/4ea3dad7-6d60-4eaa-893d-7e9ca3be5f65/v1-essay-cotton-claudius-e-iv-st-albans-bl.jpg",
     "year": 1450,
     "keyword": "shift",
-    "summary": "Renaissance artists and anatomists like Leonardo da Vinci began treating direct observation of the world as more reliable than ancient texts. This epistemological shift — look first, reason second — was the philosophical foundation of the Scientific Revolution.",
+    "summary": "Renaissance artists and anatomists made direct observation a practice before it became a philosophy. Leonardo da Vinci filled thousands of notebook pages with meticulous drawings of anatomy, hydraulics, and bird flight — treating the visible world as a more reliable source of truth than ancient texts. Andreas Vesalius dissected human bodies rather than reading Galen. This epistemological shift — look first, then reason — was the philosophical foundation of the Scientific Revolution.",
     "causeIds": [
       "renaissance-humanism"
     ],
@@ -240,7 +237,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif/lossy-page1-960px-Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif.jpg",
     "year": 1576,
     "keyword": "catalyst",
-    "summary": "Tycho Brahe spent twenty years making the most precise naked-eye astronomical observations in history, cataloguing thousands of star and planet positions. Though he rejected Copernicus, his meticulous data would become the foundation on which Kepler proved heliocentrism.",
+    "summary": "Working from his island observatory Uraniborg in Denmark, Tycho Brahe spent over twenty years making the most precise naked-eye astronomical observations ever achieved, cataloguing over 1,000 star positions with unprecedented accuracy. Though he rejected the Copernican heliocentric model and proposed his own hybrid system, his meticulous data was the raw material on which Kepler proved that heliocentrism was mathematically correct.",
     "causeIds": [
       "copernicus-publishes"
     ],
@@ -257,7 +254,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/JKepler.jpg",
     "year": 1601,
     "keyword": "turning-point",
-    "summary": "After Tycho's death, Johannes Kepler gained access to his precise observations. Kepler spent eight years wrestling with the data until he discovered that planetary orbits are ellipses, not circles — finally making the heliocentric model work mathematically.",
+    "summary": "After Tycho's death in 1601, Johannes Kepler — who had been Tycho's assistant — gained access to his precise observations. Kepler spent nearly a decade wrestling with the data, ultimately discovering that the orbit of Mars was not a circle but an ellipse. This insight, which Kepler found deeply unsatisfying aesthetically, finally made the heliocentric model work with mathematical precision.",
     "causeIds": [
       "tycho-observes-skies",
       "copernicus-publishes"
@@ -293,7 +290,7 @@
     "imageUrl": "https://gertitashkomd.com/wp-content/uploads/2025/06/Tashko-Galileo-Galilei-Telescope-Revolution-1564-1642.jpg",
     "year": 1609,
     "keyword": "spark",
-    "summary": "Galileo improved the recently invented telescope and pointed it at the night sky, discovering Jupiter's moons, the phases of Venus, and mountains on the Moon. Each observation was a direct contradiction of Aristotelian cosmology, and he published immediately.",
+    "summary": "In 1609, Galileo improved a Dutch-invented telescope and turned it on the night sky, discovering mountains on the Moon (disproving the perfect crystalline spheres), four moons orbiting Jupiter (proving not everything orbited Earth), and the phases of Venus (confirming it orbited the Sun). He published his findings immediately in Sidereus Nuncius (1610), making his evidence public before the Church could respond.",
     "causeIds": [
       "copernicus-publishes"
     ],
@@ -407,12 +404,11 @@
     "year": 1637,
     "keyword": "shift",
     "summary": "René Descartes invented coordinate geometry and argued that nature is fundamentally mathematical and mechanical. His vision of the universe as a vast clockwork mechanism provided the philosophical framework that Newton would later fill with equations.",
-    "causeIds": [
-      "empirical-method-established"
-    ],
+    "causeIds": [],
     "effectIds": [
       "mechanistic-universe",
-      "newton-principia"
+      "newton-principia",
+      "empirical-method-established"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -429,12 +425,12 @@
       "vesalius-anatomy",
       "galileo-turns-telescope",
       "bacon-inductive-method",
-      "harvey-blood-circulation"
+      "harvey-blood-circulation",
+      "descartes-mathematics"
     ],
     "effectIds": [
       "royal-society-founded",
-      "newton-principia",
-      "descartes-mathematics"
+      "newton-principia"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -479,7 +475,7 @@
   {
     "id": "mechanistic-universe",
     "title": "Universe as Clockwork",
-     "wiki": "Clockwork_universe",
+    "wiki": "Clockwork_universe",
     "imageUrl": "https://media.npr.org/assets/img/2014/01/22/istock-4025480-prague-clock-orloj_custom-8e40a5eab2ef87c5fb1f999e89b41e3f79c4cdfc.jpg",
     "year": 1660,
     "keyword": "shift",
@@ -545,7 +541,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Les_salons_au_XVIIIe_si%C3%A8cle_-_Histoire_Image.jpg",
     "year": 1700,
     "keyword": "consequence",
-    "summary": "Educated Europeans increasingly applied rational analysis to institutions, religion, and tradition. The idea that the world could be understood and improved through reason alone — without revelation — transformed philosophy, law, and governance across the 18th century.",
+    "summary": "Educated Europeans increasingly applied rational analysis to religion, tradition, and authority. The idea that the natural world — and human institutions — could be understood through reason alone transformed philosophy, law, and governance across the 18th century, producing the encyclopédistes and the broader culture of critical inquiry.",
     "causeIds": [
       "newton-principia"
     ],
@@ -581,7 +577,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Archiginnasio_ora_blu_Bologna.jpg",
     "year": 1700,
     "keyword": "consequence",
-    "summary": "Inspired by the Royal Society, scientific academies were founded across Europe — Paris, Berlin, St. Petersburg. Science became a recognized profession with institutions, journals, and prizes. The amateur natural philosopher gave way to the professional scientist.",
+    "summary": "Inspired by the Royal Society, Louis XIV founded the Académie des Sciences in Paris in 1666; Frederick the Great established the Berlin Academy in 1744; Peter the Great founded the St. Petersburg Academy in 1724. Science became a recognised profession with state patronage, peer-reviewed publications, and international prizes. The solitary natural philosopher gave way to an organised, institutionalised scientific community.",
     "causeIds": [
       "newton-principia",
       "age-of-reason"
@@ -625,11 +621,11 @@
   {
     "id": "industrial-revolution-enabled",
     "title": "Industrial Revolution Enabled",
-     "wiki": "Industrial_Revolution",
+    "wiki": "Industrial_Revolution",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Griffiths%27_Guide_to_the_iron_trade_of_Great_Britain_an_elaborate_review_of_the_iron_%28and%29_coal_trades_for_last_year%2C_addresses_and_names_of_all_ironmasters%2C_with_a_list_of_blast_furnaces%2C_iron_%2814761790294%29.jpg",
     "year": 1760,
     "keyword": "consequence",
-    "summary": "The scientific method, mathematical engineering, and the culture of systematic experimentation created the conditions for the Industrial Revolution. Steam engines, textile machinery, and chemical processes were all products of applied scientific thinking.",
+    "summary": "The systematic application of mathematical analysis to physical problems — the core habit of thought the Scientific Revolution established — made the Industrial Revolution possible. James Watt improved the steam engine by calculating thermal efficiency. Canal builders applied Newtonian mechanics. Chemical industrialists used quantitative analysis. The revolution in how humans thought about nature preceded and enabled the revolution in how they transformed it.",
     "causeIds": [
       "scientific-institutions-spread"
     ],

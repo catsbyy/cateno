@@ -6,7 +6,7 @@
     "title": "European Power Rivalry",
     "year": 1871,
     "keyword": "pressure",
-    "summary": "After German unification, Europe’s balance of power became more tense. Rival empires watched each other closely, making later crises harder to contain.",
+    "summary": "German unification in 1871 fundamentally altered Europe's balance of power. A new, rapidly industrialising Germany at the continent's centre displaced France as the dominant continental power and created anxieties in Russia, Britain, and Austria-Hungary that none of their existing arrangements could fully manage. Every subsequent European crisis — Moroccan, Balkan, naval — was shaped by the question of whether Germany's rising power could be accommodated or must be contained.",
     "causeIds": [],
     "effectIds": [
       "franco-german-hostility",
@@ -24,7 +24,7 @@
     "title": "Franco-German Hostility",
     "year": 1871,
     "keyword": "pressure",
-    "summary": "France’s defeat in the Franco-Prussian War left a lasting rivalry with Germany. This hostility helped push France toward alliances that could balance German power.",
+    "summary": "France's crushing defeat in the Franco-Prussian War of 1870–71 left wounds that shaped European politics for half a century. Germany annexed Alsace-Lorraine, a rich industrial region with a mixed French-German population, creating a permanent French grievance and a revanchist determination to recover it. French military planning and alliance-building for the next forty years was oriented around the single goal of reversing 1871.",
     "causeIds": [
       "european-power-rivalry"
     ],
@@ -59,7 +59,7 @@
     "title": "Balkan Rivalry",
     "year": 1878,
     "keyword": "pressure",
-    "summary": "Austria-Hungary and Russia both wanted influence in the Balkans. Their rivalry meant that a local Balkan dispute could quickly become a great-power crisis.",
+    "summary": "The Congress of Berlin (1878) settled the Russo-Turkish War but left both Austria-Hungary and Russia frustrated. Russia had won the war but was denied the spoils; Austria-Hungary gained administrative control of Bosnia-Herzegovina without full annexation. Both empires viewed the declining Ottoman Balkans as their sphere of influence — a zero-sum competition that made every Balkan crisis a potential great-power confrontation.",
     "causeIds": [
       "pan-slavism",
       "european-power-rivalry"
@@ -79,7 +79,7 @@
     "title": "Alliance System",
     "year": 1882,
     "keyword": "pressure",
-    "summary": "European powers formed alliances to protect themselves and deter rivals. These alliances made diplomacy more rigid when the July Crisis began.",
+    "summary": "From the 1870s onward, European powers assembled interlocking defensive alliances designed to deter attack by ensuring that aggression against any member would trigger a wider war. The logic was sound as deterrence — but it also meant that a regional crisis could automatically activate obligations across the continent. Diplomats who wanted to contain a local conflict found themselves bound by treaty commitments that left almost no room for manoeuvre.",
     "causeIds": [
       "european-power-rivalry"
     ],
@@ -99,7 +99,7 @@
     "title": "Triple Alliance",
     "year": 1882,
     "keyword": "shift",
-    "summary": "Germany, Austria-Hungary, and Italy formed the Triple Alliance. In 1914, Germany’s support for Austria-Hungary became the crucial part of this alignment.",
+    "summary": "Germany, Austria-Hungary, and Italy formalised the Triple Alliance in 1882. In practice it was always asymmetric: Germany's commitment to Austria-Hungary was absolute, while Italy's was conditional and ultimately hollow — Italy declared neutrality in 1914, citing that Austria-Hungary had been the aggressor, and joined the Entente in 1915. The Alliance's real operational significance in 1914 was Germany's unconditional backing of Austrian actions against Serbia.",
     "causeIds": [
       "alliance-system"
     ],
@@ -136,7 +136,7 @@
     "title": "Entente Cordiale",
     "year": 1904,
     "keyword": "shift",
-    "summary": "Britain and France improved relations through the Entente Cordiale. It did not automatically force Britain into war, but it made British neutrality less certain.",
+    "summary": "The Entente Cordiale of 1904 resolved longstanding colonial disputes between Britain and France over Egypt and Morocco. It was not a military alliance and created no automatic obligation to go to war — but it generated military staff conversations and a shared assumption of mutual support that made British neutrality psychologically and strategically difficult. The two Moroccan crises (1905, 1911) cemented it into something closer to a de facto alliance.",
     "causeIds": [
       "franco-german-hostility",
       "alliance-system"
@@ -171,7 +171,7 @@
     "title": "European Arms Race",
     "year": 1906,
     "keyword": "pressure",
-    "summary": "European states expanded armies, fleets, and military planning before 1914. This made leaders more willing to think in terms of mobilization schedules and military advantage.",
+    "summary": "Britain's launch of HMS Dreadnought in 1906 — a battleship so powerful it made every existing warship obsolete — triggered a naval arms race with Germany that consumed vast resources and deeply poisoned Anglo-German relations. On land, France and Germany both doubled their army sizes between 1870 and 1914. The military build-up made leaders think in terms of striking first to exploit mobilisation windows rather than negotiating from positions of mutual restraint.",
     "causeIds": [
       "european-power-rivalry"
     ],
@@ -187,9 +187,9 @@
     "wiki": "Schlieffen_Plan",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Alfred_von_Schlieffen_1906.jpg",
     "title": "German War Planning",
-    "year": 1905,
+    "year": 1906,
     "keyword": "pressure",
-    "summary": "German strategy assumed that a war with Russia could also require rapid action against France. This planning made a localized eastern crisis harder to keep local.",
+    "summary": "The Schlieffen Plan, developed from 1891 and revised through 1906, called for a rapid knock-out blow against France through neutral Belgium before turning east to face Russia — on the assumption that Russia's slow mobilisation gave Germany a brief window. The plan left almost no room for diplomatic solutions once a Franco-Russian crisis began: German strategy required attacking France even if the quarrel was with Russia alone, transforming every eastern crisis into a potential western war.",
     "causeIds": [
       "arms-race",
       "franco-russian-alliance"
@@ -206,7 +206,7 @@
     "title": "Mobilization Timetables",
     "year": 1910,
     "keyword": "pressure",
-    "summary": "Military plans depended on fast mobilization once a crisis began. This compressed diplomacy and made delay feel dangerous to governments and generals.",
+    "summary": "By 1914, every major power's war plan depended on mobilising faster than the enemy. Mobilisation required calling up millions of reservists, requisitioning railways, and pre-positioning supplies — a process that, once started, was extremely difficult to halt or reverse without military disadvantage. This created a structural pressure to mobilise at the first sign of crisis rather than wait for diplomacy: delay felt like unilateral disarmament.",
     "causeIds": [
       "arms-race"
     ],
@@ -224,7 +224,7 @@
     "title": "Bosnian Annexation Crisis",
     "year": 1908,
     "keyword": "pressure",
-    "summary": "Austria-Hungary annexed Bosnia-Herzegovina, angering Serbia and Russia. The crisis deepened Balkan resentment and made Serbia appear more threatening to Vienna.",
+    "summary": "Austria-Hungary's formal annexation of Bosnia-Herzegovina in 1908 — territory it had administered since 1878 — enraged Serbia, which had hoped to absorb it, and humiliated Russia, which had been secretly promised compensation that never materialised. Russia backed down under German pressure, an experience its leadership was determined never to repeat. The crisis convinced Vienna that Serbia could be confronted successfully, and convinced St. Petersburg that it must not yield again.",
     "causeIds": [
       "austro-russian-balkan-rivalry"
     ],
@@ -263,7 +263,7 @@
     "title": "Black Hand",
     "year": 1911,
     "keyword": "catalyst",
-    "summary": "The Black Hand was a secret Serbian nationalist society connected to radical anti-Habsburg activity. Its members helped support the plot that led to Franz Ferdinand’s assassination.",
+    "summary": "The Black Hand (Ujedinjenje ili smrt — 'Union or Death') was a secret Serbian nationalist society founded in 1911 by Colonel Dragutin Dimitrijević, known as Apis, who was simultaneously chief of Serbian military intelligence. The organisation promoted the violent unification of South Slavs under Serbian leadership. Apis provided the Sarajevo assassins with weapons, grenades, and training — making the Black Hand's role in the assassination direct, even if the Serbian government's knowledge remains disputed.",
     "causeIds": [
       "serbian-nationalism"
     ],
@@ -280,7 +280,7 @@
     "title": "Balkan Wars",
     "year": 1912,
     "keyword": "pressure",
-    "summary": "The Balkan Wars weakened Ottoman influence and changed the regional balance. Serbia emerged stronger, which alarmed Austria-Hungary.",
+    "summary": "The First Balkan War (1912–13) saw the Balkan League — Serbia, Bulgaria, Greece, and Montenegro — strip the Ottoman Empire of almost all its remaining European territory. The Second Balkan War (1913) saw the victors fight each other over the spoils. Serbia nearly doubled in size and population, emerging as a formidable regional power with a newly confident military and an emboldened nationalist movement — exactly what Austria-Hungary had most feared.",
     "causeIds": [
       "austro-russian-balkan-rivalry",
       "serbian-nationalism"
@@ -298,7 +298,7 @@
     "title": "Fear of Serbia",
     "year": 1913,
     "keyword": "pressure",
-    "summary": "Austria-Hungary increasingly saw Serbia as a threat to imperial stability. Serbian nationalism could inspire Slavs inside the empire, making Vienna more willing to confront Serbia.",
+    "summary": "Austria-Hungary was a multi-ethnic empire of eleven major nationalities held together by dynastic loyalty rather than national identity. A strong, expansionist Serbia advertising the appeal of South Slav nationalism was an existential threat: if Serbs, Croats, and Slovenes inside the empire were inspired to seek union with Belgrade, the empire would fragment. Vienna's fear of Serbia was not irrational — it was an accurate reading of where Serbian nationalism logically led.",
     "causeIds": [
       "serbian-nationalism",
       "bosnian-annexation-crisis",
@@ -317,7 +317,7 @@
     "title": "Assassination of Franz Ferdinand",
     "year": 1914,
     "keyword": "spark",
-    "summary": "Archduke Franz Ferdinand and his wife Sophie were assassinated in Sarajevo by Gavrilo Princip. The killing gave Austria-Hungary the immediate pretext to move against Serbia.",
+    "summary": "On June 28, 1914, Gavrilo Princip — a 19-year-old Bosnian Serb affiliated with the Black Hand — shot Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, and his wife Sophie in Sarajevo. An earlier grenade attack that morning had failed; Princip encountered the Archduke's car by chance when it took a wrong turn. Both died within the hour. The assassination gave Austria-Hungary the pretext it had been waiting for to move against Serbia.",
     "causeIds": [
       "black-hand",
       "serbian-nationalism"
@@ -344,7 +344,7 @@
       "austrian-ultimatum"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "german-blank-cheque",
@@ -353,7 +353,7 @@
     "title": "German Blank Cheque",
     "year": 1914,
     "keyword": "turning-point",
-    "summary": "Germany promised strong support for Austria-Hungary, even if the crisis widened. This encouraged Vienna to take a harder line against Serbia.",
+    "summary": "On July 5–6, 1914, Kaiser Wilhelm II and Chancellor Bethmann Hollweg assured Austria-Hungary of Germany's 'full support' in whatever action it chose against Serbia — including if it led to war with Russia. This 'blank cheque' was the pivotal decision of the July Crisis. It removed the main constraint on Austrian action and transformed a bilateral Austro-Serbian dispute into a potential continental war. Why Germany gave it — miscalculation, fatalism, or deliberate risk — historians still debate.",
     "causeIds": [
       "triple-alliance",
       "austria-seeks-punishment"
@@ -371,7 +371,7 @@
     "title": "Austrian Ultimatum",
     "year": 1914,
     "keyword": "catalyst",
-    "summary": "Austria-Hungary sent Serbia a harsh ultimatum after the assassination. The demands were designed to assert control and made peaceful compromise extremely difficult.",
+    "summary": "On July 23, Austria-Hungary delivered a 48-hour ultimatum to Serbia containing ten demands, several of which — including the right of Austro-Hungarian officials to participate in Serbian judicial proceedings — were designed to be unacceptable to any sovereign state. Even the Kaiser, when he read Serbia's conciliatory response, thought it removed any justification for war. Austria-Hungary declared it insufficient and began mobilisation.",
     "causeIds": [
       "austria-seeks-punishment",
       "german-blank-cheque"
@@ -389,7 +389,7 @@
     "title": "Serbia Partially Rejects",
     "year": 1914,
     "keyword": "catalyst",
-    "summary": "Serbia accepted many demands but resisted points that threatened its sovereignty. Austria-Hungary treated the response as insufficient.",
+    "summary": "Serbia accepted or partially accepted most of Austria-Hungary's demands but rejected the clause permitting Austro-Hungarian officials to conduct investigations on Serbian soil — a condition it considered incompatible with sovereignty. The response was diplomatically masterful: it appeared conciliatory to outside observers while protecting Serbia's core interests. Austria-Hungary declared it unsatisfactory and severed diplomatic relations within hours.",
     "causeIds": [
       "austrian-ultimatum"
     ],
@@ -406,7 +406,7 @@
     "title": "Austria Attacks Serbia",
     "year": 1914,
     "keyword": "turning-point",
-    "summary": "Austria-Hungary declared war on Serbia on July 28, 1914. A regional conflict had now begun, but the alliance system made it unlikely to remain isolated.",
+    "summary": "Austria-Hungary declared war on Serbia on July 28, 1914 — exactly one month after the Sarajevo assassination — by telegram. The Vienna military had not yet finished mobilising and was not ready to actually invade, making the declaration politically motivated rather than militarily necessary. The declaration activated the alliance system: Russia began partial mobilisation the same day, setting the machinery of continental war in motion.",
     "causeIds": [
       "serbian-partial-rejection"
     ],
@@ -422,7 +422,7 @@
     "title": "Russia Supports Serbia",
     "year": 1914,
     "keyword": "turning-point",
-    "summary": "Russia saw Serbia as a Slavic partner and a key influence point in the Balkans. Supporting Serbia also helped Russia avoid another diplomatic humiliation in the region.",
+    "summary": "Russia had backed down over Bosnia in 1908 under German pressure, an experience Foreign Minister Sazonov described as a 'diplomatic Tsushima.' Another retreat — abandoning Serbia to Austrian punishment — was politically and psychologically impossible for the Tsar's government, which needed to demonstrate that it could protect Slavic interests. Russia ordered partial mobilisation on July 25 and general mobilisation on July 30.",
     "causeIds": [
       "pan-slavism",
       "austro-russian-balkan-rivalry",
@@ -441,7 +441,7 @@
     "title": "Russian General Mobilization",
     "year": 1914,
     "keyword": "turning-point",
-    "summary": "Russia began general mobilization as the crisis escalated. Germany interpreted this as a direct military threat.",
+    "summary": "Russia's general mobilisation order of July 30, 1914 was, in the logic of the military planning era, essentially a declaration of war. It activated German war plans that required an immediate strike against France before Russia could complete its own mobilisation. The Tsar reportedly tried to restrict mobilisation to the Austrian border only, but his generals insisted the railway timetables made a partial mobilisation operationally impossible.",
     "causeIds": [
       "russia-supports-serbia",
       "mobilization-timetables"
@@ -516,7 +516,7 @@
     "title": "Invasion of Belgium",
     "year": 1914,
     "keyword": "catalyst",
-    "summary": "Germany invaded neutral Belgium to attack France. This became a decisive reason for Britain to enter the war.",
+    "summary": "Germany invaded neutral Belgium on August 4, 1914, invoking military necessity — the Schlieffen Plan required the fastest possible route to Paris. Belgium had been guaranteed neutrality by the Treaty of London (1839), to which both Britain and Prussia were signatories. The invasion gave Britain the legal and moral justification it needed to declare war, transforming what might have been a continental conflict into a world war within hours.",
     "causeIds": [
       "germany-declares-war-france",
       "german-war-planning"
@@ -551,7 +551,7 @@
     "title": "Britain Enters War",
     "year": 1914,
     "keyword": "turning-point",
-    "summary": "Britain declared war on Germany after the invasion of Belgium. The war now included all major European powers and quickly became global through empires and colonies.",
+    "summary": "Britain issued an ultimatum to Germany on August 4, 1914, demanding withdrawal from Belgium by midnight. Germany refused. Britain declared war at 11pm London time — 'the lamps are going out all over Europe,' Foreign Secretary Grey reportedly remarked. Through its empire, Britain immediately brought Canada, Australia, New Zealand, South Africa, and India into the conflict, transforming a European war into a truly global one.",
     "causeIds": [
       "invasion-of-belgium",
       "british-concern-over-balance"
@@ -569,7 +569,7 @@
     "wiki": "World_War_I",
     "title": "Outbreak of World War I",
     "year": 1914,
-    "keyword": "collapse",
+    "keyword": "turning-point",
     "summary": "By early August 1914, a regional crisis had become a European war. The assassination was the spark, but alliances, nationalism, military planning, and imperial rivalry made escalation possible.",
     "causeIds": [
       "austria-declares-war-serbia",
@@ -583,7 +583,7 @@
       "gallipoli-campaign"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "globalization-of-war",
@@ -613,7 +613,7 @@
     "title": "Trench Warfare Emerges",
     "year": 1914,
     "keyword": "consequence",
-    "summary": "After early movement failed to produce a quick victory, the Western Front hardened into trench warfare. This turned the war into a long, exhausting conflict of attrition.",
+    "summary": "German forces advanced rapidly through Belgium and into France in August 1914, nearly reaching Paris before being halted at the Marne. Both sides then tried to outflank each other northward in the 'Race to the Sea' until the front solidified from the English Channel to the Swiss border. By November 1914, 700 kilometres of trenches faced each other across a no-man's-land measured in metres — a line that barely moved for four years.",
     "causeIds": [
       "ww1-outbreak"
     ],
@@ -631,7 +631,7 @@
     "title": "Gallipoli Campaign",
     "year": 1915,
     "keyword": "turning-point",
-    "summary": "The Allies attempted to knock Ottoman Turkey out of the war by seizing the Dardanelles strait. The costly failure showed the limits of amphibious strategy and deepened the stalemate.",
+    "summary": "Winston Churchill's plan to force the Dardanelles and knock Ottoman Turkey out of the war began as a naval operation in February 1915 and escalated into a grinding land campaign that lasted until January 1916. Allied forces suffered approximately 250,000 casualties; the Ottomans suffered similar losses. The failure ended Churchill's time as First Lord of the Admiralty, demonstrated the limits of amphibious operations against prepared defences, and hardened the Gallipoli front into another attritional stalemate.",
     "causeIds": [
       "ww1-outbreak",
       "globalization-of-war"
@@ -648,7 +648,7 @@
     "imageUrl": "https://uploads4.wikiart.org/00332/images/richard-caton-woodville-jr/richard-caton-ii-woodville-the-battle-of-the-somme-meisterdrucke-149650.jpg",
     "title": "Battle of the Somme",
     "year": 1916,
-    "keyword": "collapse",
+    "keyword": "turning-point",
     "summary": "One of the deadliest battles in history, the Somme produced massive casualties for minimal territorial gain. It became a symbol of industrial-scale slaughter and eroded public confidence in military leadership.",
     "causeIds": [
       "trench-warfare-emerges"
@@ -686,7 +686,7 @@
     "title": "Colonial Troops Mobilized",
     "year": 1915,
     "keyword": "consequence",
-    "summary": "European empires drew soldiers from Africa, Asia, and the Americas into the conflict. This exposed millions of colonial subjects to the war and planted seeds of anti-colonial thought.",
+    "summary": "Over one million Indian soldiers served the British Empire; France recruited approximately 600,000 troops from West Africa and North Africa. Soldiers from Australia, New Zealand, Canada, South Africa, and the Caribbean served on multiple fronts. The war exposed millions of colonial subjects to European brutality and to the contradiction of fighting for empires that denied them the self-determination they claimed to be defending. The seeds of 20th-century independence movements were planted in the trenches of the Somme and Gallipoli.",
     "causeIds": [
       "globalization-of-war"
     ],
@@ -703,10 +703,9 @@
     "title": "United States Enters War",
     "year": 1917,
     "keyword": "turning-point",
-    "summary": "After years of neutrality, the US declared war on Germany in April 1917, driven by unrestricted submarine warfare and the Zimmermann Telegram. Fresh American troops and industrial resources tipped the balance decisively.",
+    "summary": "Germany's resumption of unrestricted submarine warfare in February 1917 — sinking neutral ships including American vessels — and the revelation of the Zimmermann Telegram (in which Germany secretly proposed a military alliance with Mexico against the United States) finally overcame American public resistance to involvement. President Wilson asked Congress to declare war on April 2, 1917. Two million American troops eventually served in France, providing the fresh manpower that tipped the military balance decisively.",
     "causeIds": [
-      "globalization-of-war",
-      "home-front-pressure"
+      "globalization-of-war"
     ],
     "effectIds": [
       "german-collapse"
@@ -747,7 +746,6 @@
     ],
     "effectIds": [
       "russian-revolution",
-      "us-enters-war",
       "german-collapse"
     ],
     "isAnchor": false,
@@ -760,7 +758,7 @@
     "title": "Eastern Front Collapses",
     "year": 1917,
     "keyword": "collapse",
-    "summary": "Russia's withdrawal after the revolution allowed Germany to transfer forces westward. The Treaty of Brest-Litovsk ended fighting in the east but came too late to save Germany in the west.",
+    "summary": "The Bolshevik seizure of power in October 1917 was followed by an armistice in December and the Treaty of Brest-Litovsk in March 1918, under which Russia surrendered Ukraine, Poland, Finland, and the Baltic states — one-third of its European territory. Germany transferred over fifty divisions westward for a final offensive in spring 1918. The gamble failed: the Spring Offensive gained ground but exhausted Germany's last reserves before American forces arrived in strength.",
     "causeIds": [
       "russian-revolution"
     ],
@@ -777,7 +775,7 @@
     "title": "Ottoman Empire Collapses",
     "year": 1918,
     "keyword": "collapse",
-    "summary": "Ottoman Turkey, exhausted by war on multiple fronts, collapsed by late 1918. Its defeat began the long process of dismemberment that reshaped the Middle East for a century.",
+    "summary": "The Ottoman Empire fought on four fronts simultaneously: Gallipoli, Mesopotamia, Palestine, and the Caucasus. The Arab Revolt (1916) and General Allenby's Palestine campaign (1917–1918) collapsed the southern front; British forces took Baghdad in 1917 and Jerusalem in December 1917. By October 1918 the Ottoman military was disintegrating. The Armistice of Mudros on October 30, 1918 ended Ottoman participation in the war, setting the stage for the empire's dismemberment.",
     "causeIds": [
       "gallipoli-campaign",
       "globalization-of-war"
@@ -795,7 +793,7 @@
     "title": "German Military Collapse",
     "year": 1918,
     "keyword": "collapse",
-    "summary": "By autumn 1918, Germany's armies were retreating, allies were surrendering, and revolution threatened at home. The Kaiser abdicated and an armistice was signed on November 11, 1918.",
+    "summary": "By October 1918, Germany's allies had all surrendered, the Hindenburg Line had been broken, and the army was in continuous retreat. Sailors at Kiel mutinied rather than sail on a suicidal final mission; revolution spread to Hamburg, Munich, and Berlin. Kaiser Wilhelm II abdicated on November 9, 1918. A civilian government signed the Armistice on November 11 — a circumstance the military later exploited with the 'stab-in-the-back' myth that the army had been undefeated in the field.",
     "causeIds": [
       "us-enters-war",
       "home-front-pressure",
@@ -831,7 +829,7 @@
     "title": "Treaty of Versailles",
     "year": 1919,
     "keyword": "consequence",
-    "summary": "The peace settlement imposed heavy reparations and territorial losses on Germany. Its punishing terms bred resentment that many historians see as a direct cause of the Second World War.",
+    "summary": "The Treaty of Versailles (June 1919) imposed full war guilt on Germany, required reparations eventually set at 132 billion gold marks, stripped Germany of its colonies and roughly 13% of its territory including Alsace-Lorraine, and limited its army to 100,000 men. Germany was excluded from the negotiations entirely. The combination of humiliation, financial burden, and territorial loss created the conditions of resentment and economic instability that Adolf Hitler would systematically exploit fifteen years later.",
     "causeIds": [
       "armistice-1918",
       "ottoman-collapse"

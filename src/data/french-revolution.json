@@ -5,7 +5,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
     "title": "French Revolution Begins",
     "year": 1789,
-    "keyword": "collapse",
+    "keyword": "turning-point",
     "summary": "In 1789, France entered a period of radical political and social upheaval. Long-term financial crisis, inequality, and new political ideas pushed the monarchy toward collapse.",
     "causeIds": [
       "storming-of-bastille",
@@ -30,7 +30,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Louis_XIV_of_France.jpg",
     "year": 1700,
     "keyword": "pressure",
-    "summary": "French society was divided into three estates with unequal rights. This system concentrated privilege among the clergy and nobility.",
+    "summary": "French society was legally divided into three estates: the First Estate (clergy), Second Estate (nobility), and Third Estate (everyone else — roughly 97% of the population). The First and Second Estates were largely exempt from taxation while enjoying extensive legal privileges. This arrangement had persisted largely unchanged since the medieval period, making structural reform almost impossible without the consent of those who benefited from it.",
     "causeIds": [],
     "effectIds": [
       "estate-inequality",
@@ -47,7 +47,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Cleric%2C_Knight%2C_and_Workman_representing_the_Three_Classes.jpg",
     "year": 1700,
     "keyword": "pressure",
-    "summary": "The First and Second Estates enjoyed privileges while the Third Estate carried most obligations. This imbalance fueled resentment among common people.",
+    "summary": "The clergy and nobility together made up roughly 3% of France's population yet owned approximately 35% of the land and paid almost no direct taxes. The Third Estate — from wealthy bourgeois merchants to destitute peasants — bore nearly the entire tax burden. This stark structural inequality had been tolerated for generations, but by the 1780s, with food prices rising and the treasury collapsing, it became politically explosive.",
     "causeIds": [
       "ancien-regime-structure"
     ],
@@ -66,7 +66,7 @@
     "imageUrl": "https://greyhistory.com/wp-content/uploads/2021/01/Awakening_of_the_third_estate-scaled-e1610845083836-1024x839.jpg",
     "year": 1700,
     "keyword": "pressure",
-    "summary": "Common people paid most of the taxes while nobles were largely exempt. This deepened frustration with the monarchy and elite privilege.",
+    "summary": "French commoners paid the taille (a direct land tax), the gabelle (salt tax), road-building corvée labour obligations, and Church tithes — while nobles and clergy were exempt from most of these. The tax system was also administered by private tax farmers who kept a share of what they collected, making it both inefficient and deeply resented as legalised extortion.",
     "causeIds": [
       "ancien-regime-structure"
     ],
@@ -82,7 +82,7 @@
     "title": "Growing Public Resentment",
     "year": 1780,
     "keyword": "pressure",
-    "summary": "Years of inequality and economic hardship created widespread dissatisfaction. The population became increasingly open to radical change.",
+    "summary": "Decades of visible inequality — nobles exempt from taxes while peasants starved, the Church accumulating wealth while tithe collectors visited even the poorest villages — built a reservoir of anger that required only a trigger to become politically explosive. By the late 1780s, broadsheets, pamphlets, and Enlightenment philosophy had given this resentment a vocabulary and a target.",
     "causeIds": [
       "estate-inequality",
       "tax-burden-commoners"
@@ -101,7 +101,7 @@
     "title": "Enlightenment Ideas Spread",
     "year": 1750,
     "keyword": "shift",
-    "summary": "Thinkers promoted ideas of liberty, equality, and popular sovereignty. These ideas challenged the legitimacy of absolute monarchy.",
+    "summary": "Voltaire attacked the Church and arbitrary royal power. Montesquieu argued for separation of powers. Rousseau developed the concept of popular sovereignty — the idea that legitimate government requires the consent of the governed. These ideas circulated through salons, pamphlets, and the Encyclopédie, giving educated French citizens a framework for imagining a radically different political order.",
     "causeIds": [],
     "effectIds": [
       "questioning-monarchy",
@@ -118,7 +118,7 @@
     "title": "Questioning Royal Authority",
     "year": 1780,
     "keyword": "shift",
-    "summary": "People increasingly doubted the divine right of kings. Political authority began to shift from monarchy toward the people.",
+    "summary": "The doctrine of divine right — that kings ruled by God's direct mandate and answered to no earthly authority — had justified absolute monarchy for centuries. By the 1780s, Enlightenment arguments had made this claim intellectually untenable for much of the educated public. Political authority came to be seen as a contract between ruler and ruled, not a gift from heaven — a shift that made Louis XVI's failures feel like breaches of obligation rather than God's will.",
     "causeIds": [
       "enlightenment-ideas"
     ],
@@ -135,10 +135,11 @@
     "imageUrl": "https://images.squarespace-cdn.com/content/v1/50adfa2ae4b0cc1d786569eb/f5c1ce9e-5b73-4fe9-8fd6-d9acf27ee5eb/20231214+1024px-Louis_XVI_en_costume_de_sacre_-_Joseph-Siffred_Duplessis.jpg",
     "year": 1788,
     "keyword": "pressure",
-    "summary": "France faced massive debt after wars and poor fiscal management. The state struggled to fund itself and maintain stability.",
+    "summary": "By 1788, France was effectively bankrupt. Debt service consumed roughly 60% of royal revenue — the result of decades of war spending and a tax system incapable of reaching the wealthiest subjects. The government had already borrowed to its limits, and international creditors were losing confidence. Without fundamental fiscal reform, the monarchy could not function.",
     "causeIds": [
       "war-debt",
-      "inefficient-tax-system"
+      "inefficient-tax-system",
+      "louis-xvi-weakness"
     ],
     "effectIds": [
       "estates-general-called",
@@ -155,7 +156,7 @@
     "title": "War Debt Accumulation",
     "year": 1783,
     "keyword": "pressure",
-    "summary": "Participation in expensive wars, including the American Revolution, increased France's debt. This weakened the monarchy's financial position.",
+    "summary": "France's support for the American Revolution (1778–1783) and its costly defeat in the Seven Years' War (1756–1763) together added catastrophically to the royal debt. The American venture alone cost roughly 1.3 billion livres. The ideological irony was acute: France had helped fund a revolution based on principles that its own people would soon turn against the French crown.",
     "causeIds": [
       "american-revolution-support",
       "seven-years-war"
@@ -173,7 +174,7 @@
     "title": "Inefficient Tax System",
     "year": 1780,
     "keyword": "pressure",
-    "summary": "The tax system failed to collect enough revenue from privileged classes. This made financial reform difficult.",
+    "summary": "France's tax system was a patchwork of medieval exemptions, regional variations, and noble privileges that made it structurally incapable of raising sufficient revenue. Repeated attempts at reform — including Louis XVI's Assembly of Notables in 1787 — were blocked by the privileged classes. The nobility's ability to veto its own taxation made the fiscal crisis insoluble through normal channels.",
     "causeIds": [
       "ancien-regime-structure"
     ],
@@ -190,9 +191,10 @@
     "title": "Failed Tax Reforms",
     "year": 1788,
     "keyword": "catalyst",
-    "summary": "Attempts to reform taxation met resistance from nobles. This left the monarchy with few options to solve the crisis.",
+    "summary": "Finance Minister Calonne proposed taxing all landowners regardless of rank in 1786 — a radical break from tradition. The Assembly of Notables rejected it. His successor Necker published the royal accounts publicly (the Compte rendu), revealing the scale of the crisis and making reform even more politically charged. Each failed attempt narrowed the monarchy's options until only a meeting of the Estates-General remained.",
     "causeIds": [
-      "financial-crisis-monarchy"
+      "financial-crisis-monarchy",
+      "louis-xvi-weakness"
     ],
     "effectIds": [
       "estates-general-called"
@@ -207,7 +209,7 @@
     "title": "Estates-General Convened",
     "year": 1789,
     "keyword": "turning-point",
-    "summary": "The king called the Estates-General to address the financial crisis. This opened the door for political conflict between estates.",
+    "summary": "Louis XVI convened the Estates-General in May 1789 — the first time it had met since 1614. The convening immediately produced a constitutional crisis: the Third Estate demanded that votes be counted by head rather than by estate (which would give them a majority), while the nobility insisted on the traditional arrangement where each estate had one vote regardless of size. This procedural dispute became the revolution's first flashpoint.",
     "causeIds": [
       "financial-crisis-monarchy",
       "tax-reform-failure"
@@ -225,7 +227,7 @@
     "title": "Third Estate Asserts Power",
     "year": 1789,
     "keyword": "turning-point",
-    "summary": "Representatives of the Third Estate demanded greater political influence. They refused to accept the traditional voting system.",
+    "summary": "Locked out of the Estates-General meeting hall in June 1789, the Third Estate's deputies found the doors literally barred. They reconvened at a nearby tennis court and declared themselves the National Assembly — claiming the right to speak for the French nation as a whole. Their refusal to disperse even under royal command was the first direct constitutional challenge to Louis XVI's authority.",
     "causeIds": [
       "estate-inequality",
       "questioning-monarchy",
@@ -244,7 +246,7 @@
     "title": "Tennis Court Oath",
     "year": 1789,
     "keyword": "turning-point",
-    "summary": "Members of the Third Estate vowed to create a constitution. This marked a direct challenge to royal authority.",
+    "summary": "On June 20, 1789, members of the Third Estate — joined by sympathetic clergy — swore not to disperse until France had a written constitution. The oath transformed a tax dispute into a constitutional revolution: for the first time, elected representatives were claiming sovereign authority in direct defiance of the king. Almost every one of the 577 deputies signed.",
     "causeIds": [
       "third-estate-assertion"
     ],
@@ -261,7 +263,7 @@
     "title": "National Assembly Formed",
     "year": 1789,
     "keyword": "turning-point",
-    "summary": "The Third Estate declared itself the National Assembly. It claimed to represent the French people.",
+    "summary": "The Third Estate's deputies, joined by reform-minded clergy and some nobles, declared themselves the National Assembly of France on June 17, 1789 — asserting that sovereignty resided in the nation, not the crown. When Louis XVI attempted to dissolve them, the deputies refused. Within weeks he was forced to formally recognise the Assembly, effectively ending absolute monarchy.",
     "causeIds": [
       "tennis-court-oath",
       "questioning-monarchy"
@@ -275,12 +277,12 @@
   },
   {
     "id": "bread-crisis",
-    "wiki": "Flour_War",
+    "wiki": "French_bread_riots",
     "title": "Bread Shortages Crisis",
     "imageUrl": "https://daily.jstor.org/wp-content/uploads/2024/03/the_flour_war_1050x700.jpg",
     "year": 1789,
     "keyword": "pressure",
-    "summary": "Poor harvests caused food shortages and rising bread prices. This triggered unrest among urban populations.",
+    "summary": "The harvest failure of 1788 caused bread prices to reach their highest level in decades by the spring of 1789. In Paris, a four-pound loaf of bread cost nearly a full day's wages for a labourer. For urban workers spending 80–90% of their income on food, this was not hardship but starvation. Hunger transformed political discontent into physical desperation.",
     "causeIds": [
       "financial-strain-population",
       "harvest-failure-1788"
@@ -301,7 +303,7 @@
     "title": "Financial Strain on People",
     "year": 1788,
     "keyword": "pressure",
-    "summary": "Economic hardship reduced living standards for common people. Many struggled to afford basic necessities.",
+    "summary": "Years of high taxation and poor harvests had left French peasants and urban workers with almost no financial cushion. Even before 1788's catastrophic harvest, many rural families were chronically indebted to landlords and tax collectors. The additional shock of food price inflation in 1789 pushed millions from poverty into genuine destitution, making revolutionary action feel like survival rather than politics.",
     "causeIds": [
       "tax-burden-commoners"
     ],
@@ -318,10 +320,11 @@
     "title": "Urban Unrest",
     "year": 1789,
     "keyword": "catalyst",
-    "summary": "Protests and riots spread in cities due to economic hardship and political tension. Paris became a center of revolutionary activity.",
+    "summary": "In the spring and early summer of 1789, grain convoys were attacked across France, markets were invaded, and local officials were threatened. In Paris, crowds gathered around the Palais-Royal to hear radical speeches. The dismissal of finance minister Necker on July 11 transformed simmering unrest into open insurrection within 48 hours.",
     "causeIds": [
       "public-resentment",
-      "bread-crisis"
+      "bread-crisis",
+      "necker-dismissed"
     ],
     "effectIds": [
       "storming-of-bastille",
@@ -337,13 +340,12 @@
     "title": "Storming of Bastille",
     "year": 1789,
     "keyword": "spark",
-    "summary": "Parisian crowds seized the Bastille prison, symbolizing resistance to royal authority. This became a defining moment of the revolution.",
+    "summary": "On July 14, 1789, Parisian crowds stormed the Bastille fortress, killing its governor and releasing its seven prisoners. The fortress held almost no one and was militarily irrelevant — but it symbolised royal tyranny and the possibility of defeating it. News spread across France within days, triggering the 'Great Fear' as peasants attacked noble estates throughout the countryside.",
     "causeIds": [
       "urban-unrest",
       "national-assembly-formation",
       "bread-crisis",
-      "necker-dismissed",
-      "womens-march-versailles"
+      "necker-dismissed"
     ],
     "effectIds": [
       "french-revolution"
@@ -358,7 +360,7 @@
     "title": "Monarchy Abolished",
     "year": 1792,
     "keyword": "collapse",
-    "summary": "The monarchy was officially abolished after growing radicalization. France became a republic.",
+    "summary": "On September 21, 1792, the newly elected National Convention abolished the monarchy by unanimous vote and declared France a republic. The decision came one day after the French revolutionary army's unexpected victory at Valmy — the first sign that the republic could defend itself militarily. Louis XVI was placed on trial for treason the following month.",
     "causeIds": [
       "french-revolution",
       "political-radicalization",
@@ -377,7 +379,7 @@
     "title": "Execution of Louis XVI",
     "year": 1793,
     "keyword": "turning-point",
-    "summary": "King Louis XVI was executed for treason. This marked a decisive break from monarchy.",
+    "summary": "Louis XVI was guillotined on January 21, 1793, before a large crowd in the Place de la Révolution. His execution horrified European monarchies, accelerating the formation of the First Coalition against France and giving the war an ideological dimension it had previously lacked. Within France, it committed the revolution irrevocably: there was now no monarchy to restore, no going back.",
     "causeIds": [
       "monarchy-abolished"
     ],
@@ -394,14 +396,15 @@
     "title": "Reign of Terror",
     "year": 1793,
     "keyword": "collapse",
-    "summary": "A period of mass executions and political repression followed. Revolutionary leaders sought to eliminate threats to the republic.",
+    "summary": "Between September 1793 and July 1794, the Committee of Public Safety under Maximilien Robespierre executed approximately 17,000 people officially and perhaps 40,000 in total, including former revolutionaries, nobles, priests, and ordinary citizens denounced by neighbours. The Terror was justified as a wartime emergency measure to eliminate counter-revolutionary threats — but it consumed its own architects when Robespierre himself was guillotined in Thermidor.",
     "causeIds": [
       "execution-of-king",
-      "political-radicalization"
+      "political-radicalization",
+      "french-revolution",
+      "european-coalitions"
     ],
     "effectIds": [
-      "end-of-terror",
-      "european-coalitions"
+      "end-of-terror"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -411,17 +414,17 @@
     "title": "Political Radicalization",
     "imageUrl": "https://www.oercommons.org/editor/images/39849",
     "year": 1792,
-    "keyword": "shift",
-    "summary": "Revolutionary ideas intensified and factions became more extreme. Moderation gave way to more radical demands.",
+    "keyword": "catalyst",
+    "summary": "As the revolution faced foreign invasion and internal rebellion, moderate constitutional monarchists gave way to Girondins, who in turn were purged by Jacobins. Each escalation was driven by genuine crisis — war, food shortages, conspiracy — but also by the revolutionary logic that any compromise with enemies was treason. By 1793 the political centre had been destroyed, leaving only radical factions competing to prove their revolutionary purity.",
     "causeIds": [
       "public-resentment",
-      "enlightenment-ideas"
+      "enlightenment-ideas",
+      "flight-to-varennes",
+      "european-coalitions"
     ],
     "effectIds": [
       "monarchy-abolished",
-      "reign-of-terror",
-      "flight-to-varennes",
-      "european-coalitions"
+      "reign-of-terror"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -433,7 +436,7 @@
     "title": "Seven Years' War",
     "year": 1756,
     "keyword": "pressure",
-    "summary": "France's costly participation in the Seven Years' War left the treasury severely depleted. The humiliating defeat also damaged royal prestige and exposed the monarchy's weakness.",
+    "summary": "The Seven Years' War (1756–1763) was effectively the first world war, fought across Europe, North America, India, and the Caribbean. France lost Canada, its Indian trading posts, and much of its colonial empire to Britain, while accumulating enormous debt. The humiliating defeat damaged royal prestige and left France determined to reverse British dominance — a goal that led directly to its ruinously expensive support for American independence.",
     "causeIds": [],
     "effectIds": [
       "war-debt"
@@ -448,7 +451,7 @@
     "title": "France Backs American Revolution",
     "year": 1778,
     "keyword": "catalyst",
-    "summary": "France funded and fought alongside American colonists against Britain, driven by rivalry and revenge. The cost added enormously to France's debt while the revolutionary ideals it helped spread soon returned home.",
+    "summary": "France intervened in the American Revolutionary War from 1778, driven by the desire to weaken Britain after the Seven Years' War humiliation. The strategy succeeded militarily — American independence was secured — but at catastrophic financial cost, adding roughly 1.3 billion livres to the royal debt. The revolutionary ideals France helped export soon returned home, now armed with an American example of successful republican government.",
     "causeIds": [],
     "effectIds": [
       "war-debt"
@@ -463,7 +466,7 @@
     "title": "Louis XVI's Weak Leadership",
     "year": 1774,
     "keyword": "pressure",
-    "summary": "Louis XVI was indecisive and poorly suited to manage the overlapping crises facing France. His inability to push through reforms or project authority accelerated the collapse of royal credibility.",
+    "summary": "Louis XVI was by temperament a man suited to administration in stable times — conscientious, well-meaning, and genuinely interested in reform — but catastrophically ill-equipped for revolutionary crisis. He repeatedly agreed to reforms under pressure and then reversed course when the pressure eased, destroying his credibility with all factions. His most consequential failure was his inability to choose between genuine constitutionalism and counter-revolution; his attempts at both convinced everyone he was committed to neither.",
     "causeIds": [],
     "effectIds": [
       "tax-reform-failure",
@@ -480,13 +483,14 @@
     "title": "Necker Dismissed",
     "year": 1789,
     "keyword": "spark",
-    "summary": "Louis XVI dismissed the popular finance minister Jacques Necker just days before the Bastille fell. Parisians saw it as a sign the king would use force against reformers, triggering immediate street mobilization.",
+    "summary": "Louis XVI dismissed the popular finance minister Jacques Necker on July 11, 1789 — just three days before the Bastille fell. Parisians interpreted the dismissal as a signal that the king was planning to use the troops massing around Paris to dissolve the National Assembly by force. The news spread through the city within hours, and crowds began arming themselves that same afternoon.",
     "causeIds": [
       "louis-xvi-weakness",
       "financial-crisis-monarchy"
     ],
     "effectIds": [
-      "urban-unrest"
+      "urban-unrest",
+      "storming-of-bastille"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -512,14 +516,12 @@
     "title": "Women's March on Versailles",
     "year": 1789,
     "keyword": "turning-point",
-    "summary": "Thousands of Parisian women marched to Versailles demanding bread and forcing the royal family back to Paris. The king was now physically in the hands of the revolution.",
+    "summary": "On October 5, 1789, thousands of Parisian market women marched 21 kilometres to Versailles demanding bread and an end to the food crisis. They invaded the palace, killed two royal guards, and forced the royal family to return to Paris the following day. The king and his family were now physically in the capital, under the effective supervision of the revolutionary crowd — a prisoner in all but name.",
     "causeIds": [
       "bread-crisis",
       "urban-unrest"
     ],
-    "effectIds": [
-      "french-revolution"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
@@ -530,7 +532,7 @@
     "title": "Declaration of Rights of Man",
     "year": 1789,
     "keyword": "consequence",
-    "summary": "The National Assembly proclaimed that liberty, equality, and popular sovereignty were universal rights. This document became a foundational text of modern liberal democracy.",
+    "summary": "Adopted by the National Assembly on August 26, 1789, the Declaration proclaimed that liberty, property, security, and resistance to oppression were natural and inalienable rights of all men. Drafted partly with reference to the American Declaration of Independence, it became the foundational text of modern liberal democracy, directly inspiring revolutionary movements across Latin America, Europe, and beyond throughout the 19th century.",
     "causeIds": [
       "french-revolution",
       "enlightenment-ideas"
@@ -548,7 +550,7 @@
     "title": "Flight to Varennes",
     "year": 1791,
     "keyword": "turning-point",
-    "summary": "Louis XVI's failed attempt to flee France with his family was caught at Varennes. It destroyed what remained of royal credibility and made reconciliation between king and revolution impossible.",
+    "summary": "In June 1791, Louis XVI and his family disguised themselves as servants and attempted to flee to the Austrian border, where Queen Marie Antoinette's nephew Emperor Leopold II had troops. They were recognised and arrested at Varennes, 50 kilometres from safety. The escape attempt was politically catastrophic: it confirmed suspicions that Louis was secretly negotiating with foreign powers to crush the revolution, and destroyed what remained of his public credibility.",
     "causeIds": [
       "french-revolution"
     ],
@@ -566,7 +568,7 @@
     "title": "European Coalitions Against France",
     "year": 1792,
     "keyword": "catalyst",
-    "summary": "Austria, Prussia, and later Britain formed coalitions to crush the revolution before it spread. The threat of foreign invasion radicalized French politics and fueled the Terror.",
+    "summary": "Austria and Prussia issued the Declaration of Pillnitz in 1791, warning that they would intervene if Louis XVI was threatened. France declared war on Austria in April 1792; within months Prussia, Britain, Spain, and the Netherlands joined the coalition. The threat of foreign invasion unified French opinion behind the revolution and radicalised it simultaneously — war emergency became the justification for the Terror.",
     "causeIds": [
       "french-revolution"
     ],
@@ -585,7 +587,7 @@
     "title": "Thermidorian Reaction",
     "year": 1794,
     "keyword": "turning-point",
-    "summary": "Robespierre was arrested and executed, ending the Reign of Terror. The revolution pulled back from its most extreme phase as exhausted moderates reasserted control.",
+    "summary": "On 9 Thermidor Year II (July 27, 1794), members of the National Convention voted to arrest Robespierre, Saint-Just, and their allies, who were guillotined the following day. The Thermidorian Reaction that followed systematically dismantled the machinery of the Terror: the Committee of Public Safety was stripped of power, the Jacobin Club was closed, and surviving political prisoners were released. France pulled back from its most extreme phase, exhausted and traumatised.",
     "causeIds": [
       "reign-of-terror"
     ],
@@ -602,7 +604,7 @@
     "title": "The Directory",
     "year": 1795,
     "keyword": "consequence",
-    "summary": "A five-man executive called the Directory governed France from 1795 to 1799. It was corrupt and unstable but kept the republic alive until Napoleon's coup ended it.",
+    "summary": "A five-man executive Directory governed France from November 1795 to November 1799. It was constitutionally designed to prevent any single leader from accumulating too much power — and succeeded only in preventing effective governance. Plagued by corruption, factional intrigue, and military dependence, the Directory staged two coups against its own elected legislators to survive. By 1799 it was universally despised, making Napoleon's coup almost welcome.",
     "causeIds": [
       "end-of-terror"
     ],
@@ -652,7 +654,7 @@
     "title": "Revolutionary Ideas Spread",
     "year": 1800,
     "keyword": "consequence",
-    "summary": "The ideals of liberty, equality, and national self-determination spread across Europe and the Americas. The French Revolution inspired independence movements and liberal revolutions throughout the 19th century.",
+    "summary": "The French Revolution's core ideas — that sovereignty derives from the people, that hereditary privilege is illegitimate, that nations have the right to self-determination — proved impossible to contain. They inspired the Haitian Revolution (1791), Latin American independence movements, the liberal revolutions of 1830 and 1848 across Europe, and the unification movements of Italy and Germany. The French Revolution did not merely change France; it changed the political vocabulary of the modern world.",
     "causeIds": [
       "declaration-rights-man",
       "abolition-feudalism"
@@ -668,7 +670,7 @@
     "wiki": "Abolition_of_feudalism_in_France",
     "year": 1789,
     "keyword": "consequence",
-    "summary": "The National Assembly abolished feudal privileges on the August 4th night in a wave of noble renunciations. Centuries of serfdom, tithes, and noble monopolies were swept away in hours.",
+    "summary": "In a dramatic overnight session on August 4–5, 1789, the National Assembly voted to abolish feudal privileges entirely. Noble after noble rose to renounce their rights — hunting monopolies, mill fees, serfdom obligations, Church tithes — in a competitive cascade of generosity that transformed the legal structure of French society in a single night. Centuries of inherited obligation were legally extinguished before dawn.",
     "causeIds": [
       "french-revolution",
       "estate-inequality"

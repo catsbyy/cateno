@@ -6,7 +6,7 @@
     "imageUrl": "https://cdn.mos.cms.futurecdn.net/yGRJauEXsS9Qfe9FaFWW76.jpg",
     "year": -1500,
     "keyword": "pressure",
-    "summary": "Thousands of ancient ships sank in the Mediterranean, Aegean, and Black Sea over millennia of trade. These wrecks carried amphorae, cargo, coins, and artefacts from civilisations across the ancient world — an entire library of history preserved in silt and cold water, completely unknown and unreachable.",
+    "summary": "Modern surveys estimate that over one million ancient shipwrecks lie in the Mediterranean, Aegean, and Black Sea alone — the accumulated losses of three millennia of trade. These wrecks carried amphorae, grain, metals, luxury goods, and sometimes extraordinary objects from civilisations across the ancient world, preserved in silt and cold water, completely unknown and unreachable until modern technology made the seabed accessible.",
     "causeIds": [],
     "effectIds": [
       "ancient-trade-routes-lost",
@@ -39,7 +39,7 @@
     "imageUrl": "https://www.ancient-origins.net/sites/default/files/field/image/early-diving-bell.jpg",
     "year": 1535,
     "keyword": "catalyst",
-    "summary": "Guglielmo de Lorena built the first practical diving bell in 1535, used to explore a sunken Roman ship in Lake Nemi near Rome. The concept — trapping air underwater for divers to breathe — was the first technology to make deliberate exploration of sunken wrecks possible, though it was extremely limited in depth and time.",
+    "summary": "Guglielmo de Lorena constructed a practical diving bell in 1535 — a weighted, open-bottomed chamber trapping an air pocket — and used it to explore Roman ships in Lake Nemi. The technology allowed divers to work for a few minutes at depths of around 5–10 metres before the air was exhausted. It was the first time deliberate exploration of a known submerged site had been technically attempted.",
     "causeIds": [],
     "effectIds": [
       "hardhat-diving-suit",
@@ -54,8 +54,8 @@
     "wiki": "Nemi_ships",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Nemi_Ship_by_CM_Knight-Smith_1906.jpg",
     "year": 1535,
-    "keyword": "turning-point",
-    "summary": "Two enormous Roman pleasure barges built by Emperor Caligula lay in Lake Nemi near Rome. Early salvage attempts using diving bells in the 16th century recovered bronze fittings and tiles. The ships were finally raised by Mussolini in 1932 by draining the lake — only to be destroyed by retreating German forces in 1944.",
+    "keyword": "catalyst",
+    "summary": "Two enormous ceremonial barges built by Emperor Caligula around 37–41 AD lay in Lake Nemi south of Rome. Renaissance salvagers recovered decorative bronze fittings using early diving equipment. Mussolini ordered the lake drained in 1929–1931, revealing the intact hulls and extraordinary bronze lion-head mooring rings. The ships were destroyed by fire — either deliberately or accidentally — during the German retreat in 1944.",
     "causeIds": [
       "diving-bell-invented"
     ],
@@ -72,7 +72,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Deane_helmet_1842.jpg",
     "year": 1837,
     "keyword": "catalyst",
-    "summary": "Augustus Siebe perfected the closed hard-hat diving suit in 1837, allowing divers to work at depth for extended periods. For the first time, deliberate salvage of specific wrecks became practical. The Royal Navy used Siebe's suits to recover cannon and treasure from HMS Royal George, demonstrating the technology's commercial and military potential.",
+    "summary": "Augustus Siebe's closed hard-hat diving suit, perfected around 1837, pumped air continuously from the surface through a hose, allowing divers to work at significant depths for extended periods. The Royal Navy used early versions to recover cannon from HMS Royal George, sunk in 1782. For the first time, the deliberate salvage of specific known wrecks became practically achievable on a commercial scale.",
     "causeIds": [
       "diving-bell-invented",
       "lake-nemi-ships"
@@ -147,7 +147,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Antikythera_Fragment_A_%28Front%29.webp",
     "year": 1902,
     "keyword": "pressure",
-    "summary": "The corroded bronze fragments from Antikythera sat in the Athens museum largely ignored for decades. When archaeologist Valerios Stais noticed gears inside in 1902 he was ridiculed — no one believed Greeks could have built mechanical devices of such complexity. The mechanism's true nature would not be understood for another fifty years.",
+    "summary": "The corroded bronze fragments from Antikythera sat in the Athens museum largely ignored for decades. When archaeologist Valerios Stais noticed gears inside in 1902, his claim was met with widespread scepticism — no one believed Greeks could have built mechanical devices of such complexity. The mechanism's true nature would not be understood for another fifty years.",
     "causeIds": [
       "antikythera-sponge-divers",
       "greek-government-funds-salvage"
@@ -165,14 +165,15 @@
     "imageUrl": "https://cdn.shopify.com/s/files/1/0840/4831/4667/files/Cousteau_team.jpg?v=1720105050",
     "year": 1943,
     "keyword": "turning-point",
-    "summary": "Jacques Cousteau and engineer Émile Gagnan developed the Aqua-Lung — the first self-contained underwater breathing apparatus — in German-occupied Paris in 1943. SCUBA freed divers from surface air hoses and diving suits for the first time, making underwater exploration accessible, mobile, and eventually affordable to anyone.",
+    "summary": "Jacques Cousteau and engineer Émile Gagnan developed the Aqua-Lung in German-occupied Paris in 1943 — a demand-regulator that delivered compressed air automatically as the diver inhaled. SCUBA freed divers from surface air hoses and heavy suits for the first time, making underwater exploration mobile, relatively affordable, and accessible to anyone. Cousteau tested the first working prototype in the Marne River in January 1943.",
     "causeIds": [
       "professional-salvage-industry"
     ],
     "effectIds": [
       "amateur-diving-explosion",
       "cousteau-raises-awareness",
-      "grand-congloue-excavation"
+      "grand-congloue-excavation",
+      "vasa-raising"
     ],
     "isAnchor": false,
     "isSeed": true
@@ -199,7 +200,7 @@
   {
     "id": "cousteau-raises-awareness",
     "title": "Cousteau's Films Change Public View",
-     "wiki": "Jacques_Cousteau",
+    "wiki": "Jacques_Cousteau",
     "imageUrl": "https://artblart.com/wp-content/uploads/2013/02/nationalgeographic_117052-web.jpg",
     "year": 1956,
     "keyword": "shift",
@@ -209,7 +210,8 @@
     ],
     "effectIds": [
       "underwater-heritage-law",
-      "deep-sea-exploration"
+      "deep-sea-exploration",
+      "public-engages-underwater"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -221,7 +223,7 @@
     "imageUrl": "https://archeologie.culture.gouv.fr/sites/archeologie/files/styles/master_home_cover/public/upload/images/cover/1-1-6new_grand_conglou002.jpg?itok=LalR2r2s",
     "year": 1952,
     "keyword": "turning-point",
-    "summary": "Cousteau's excavation of a Roman wine ship at Grand-Congloué near Marseille in 1952 was the first attempt to apply archaeological method to an underwater site. Though flawed by modern standards, it established that underwater sites could be systematically excavated rather than simply looted — the conceptual birth of underwater archaeology.",
+    "summary": "Cousteau's excavation of a Roman wine ship at Grand-Congloué near Marseille, begun in 1952, was the first attempt to apply systematic archaeological recording to an underwater site using SCUBA. Though flawed by modern standards — a suction pump destroyed stratigraphy, and artefacts were lifted without proper documentation — it established that underwater sites could be excavated methodically rather than simply looted, and trained the first generation of underwater archaeologists.",
     "causeIds": [
       "cousteau-invents-scuba",
       "amateur-diving-explosion"
@@ -273,7 +275,7 @@
     "wiki": "Vasa_(ship)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Vasa_14_maj_1961.jpg/1280px-Vasa_14_maj_1961.jpg",
     "keyword": "turning-point",
-    "summary": "Engineer Anders Franzén located the Vasa in 1956 and spent five years planning her recovery. On April 24, 1961, the Vasa was raised to the surface — a complete 17th century warship with 700 sculptures, 4,000 objects, and the remains of 15 crew members still aboard. No underwater excavation had ever produced anything remotely comparable.",
+    "summary": "Engineer Anders Franzén located the Vasa in 1956 and spent five years planning her recovery. On April 24, 1961, the Vasa was raised to the surface — a complete 17th century warship with approximately 500 sculptures, 4,000 objects, and the remains of 15 crew members still aboard. No underwater excavation had ever produced anything remotely comparable.",
     "causeIds": [
       "vasa-forgotten",
       "amateur-diving-explosion",
@@ -300,7 +302,6 @@
       "vasa-raising"
     ],
     "effectIds": [
-      "bass-founds-discipline",
       "underwater-heritage-law",
       "mary-rose-inspired"
     ],
@@ -309,15 +310,14 @@
   },
   {
     "id": "bass-founds-discipline",
-    "title": "George Bass Founds the Discipline", 
+    "title": "George Bass Founds the Discipline",
     "wiki": "George_Bass_(archaeologist)",
     "imageUrl": "https://nauticalarch.org/wp-content/uploads/2015/06/CG28.jpg",
     "year": 1960,
     "keyword": "turning-point",
     "summary": "American archaeologist George Bass excavated the Bronze Age Cape Gelidonya shipwreck in Turkey in 1960 — the first underwater excavation conducted entirely by archaeologists rather than salvagers. Bass developed systematic recording methods, mapping grids, and stratigraphic analysis adapted for underwater conditions, establishing the methodological foundations of the entire field.",
     "causeIds": [
-      "grand-congloue-excavation",
-      "vasa-legitimises-discipline"
+      "grand-congloue-excavation"
     ],
     "effectIds": [
       "ina-founded",
@@ -351,13 +351,12 @@
     "imageUrl": "https://maryrose.org/wp-content/uploads/2022/02/Mary-rose-stern-from-shiphall-bottom.jpg",
     "year": 1982,
     "keyword": "consequence",
-    "summary": "Inspired directly by the Vasa's success, British archaeologists spent a decade excavating Henry VIII's warship Mary Rose before raising her hull in 1982 — watched live on television by 60 million people. The recovery of 19,000 artefacts including longbows, musical instruments, and personal possessions gave an unparalleled glimpse into Tudor naval life.",
+    "summary": "Inspired directly by the Vasa's success, British archaeologists spent over a decade excavating Henry VIII's warship Mary Rose before raising her hull on October 11, 1982 — broadcast live on television to an audience of millions. The recovery of approximately 19,000 artefacts including longbows, musical instruments, and personal possessions gave an unparalleled glimpse into Tudor naval life and demonstrated the cultural power of underwater archaeology.",
     "causeIds": [
       "vasa-raising",
       "vasa-legitimises-discipline"
     ],
     "effectIds": [
-      "preservation-techniques",
       "public-engages-underwater"
     ],
     "isAnchor": false,
@@ -370,7 +369,7 @@
     "imageUrl": "https://peterborougharchaeology.org/wp-content/uploads/2021/12/uluburun-shipwreck.jpg",
     "year": 1982,
     "keyword": "turning-point",
-    "summary": "The Uluburun shipwreck discovered off Turkey in 1982 was the richest Bronze Age find in history — carrying cargo from Egypt, Canaan, Cyprus, Greece, and the Baltic simultaneously. It proved conclusively that Bronze Age Mediterranean trade was a sophisticated, globalised network connecting civilisations from Britain to Mesopotamia, completely overturning the isolation model of ancient history.",
+    "summary": "The Uluburun shipwreck, discovered by a sponge diver off Turkey in 1982 and excavated between 1984 and 1994, was the richest Late Bronze Age find in history — carrying cargo from Egypt, Canaan, Cyprus, Greece, and the Baltic simultaneously in a single vessel. It proved conclusively that Bronze Age Mediterranean trade was a sophisticated, interconnected network of civilisations, overturning the previously dominant view of ancient peoples as largely isolated and local.",
     "causeIds": [
       "bass-founds-discipline",
       "ina-founded",
@@ -425,10 +424,9 @@
     "imageUrl": "https://i.guim.co.uk/img/media/8a2402853b9538f0a8c9792ce6dbccf672c04ef5/16_0_1888_1133/master/1888.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=de48aac0886ac46e429917379f87a40e",
     "year": 2006,
     "keyword": "consequence",
-    "summary": "Using advanced CT scanning in 2006, researchers finally decoded the Antikythera mechanism — revealing a hand-cranked computer that predicted eclipses, tracked planetary movements, and calculated the Olympic Games calendar. Built around 87 BC, it was 1,400 years ahead of any comparable European technology, proving that the ancient world's technical sophistication had been catastrophically underestimated.",
+    "summary": "Using advanced CT scanning in 2006, researchers finally decoded the Antikythera mechanism — revealing a hand-cranked computer that predicted eclipses, tracked planetary movements, and calculated the Olympic Games calendar. Built around 100–87 BC, it was over a millennium ahead of any comparable European technology, proving that the ancient world's technical sophistication had been catastrophically underestimated.",
     "causeIds": [
-      "antikythera-mechanism-ignored",
-      "rov-archaeology"
+      "antikythera-mechanism-ignored"
     ],
     "effectIds": [
       "history-of-antiquity-rewritten"
@@ -461,10 +459,9 @@
     "imageUrl": "https://www.wessexarch.co.uk/sites/default/files/styles/image_paragraph/public/field_image/Victory%20side.jpg?h=9afbe590&itok=hlKWXq_h",
     "year": 1965,
     "keyword": "shift",
-    "summary": "The Vasa and Mary Rose posed an unprecedented conservation challenge — waterlogged wood collapses when it dries. Swedish and British scientists developed polyethylene glycol impregnation techniques over decades of research, creating an entirely new branch of conservation science that now protects waterlogged artefacts worldwide.",
+    "summary": "Waterlogged wood is structurally supported by water — when it dries it collapses irreversibly. Swedish and later British conservation scientists developed polyethylene glycol (PEG) impregnation: the chemical gradually replaces the water molecules in the wood cells, providing permanent structural support without shrinkage. The Vasa required 17 years of continuous PEG spraying before she was stable enough to display. These techniques are now used to preserve waterlogged artefacts worldwide.",
     "causeIds": [
-      "vasa-raising",
-      "mary-rose-inspired"
+      "vasa-raising"
     ],
     "effectIds": [
       "underwater-heritage-law"
@@ -505,7 +502,6 @@
     ],
     "effectIds": [
       "black-sea-discoveries",
-      "antikythera-decoded",
       "history-of-antiquity-rewritten"
     ],
     "isAnchor": false,
@@ -518,7 +514,7 @@
     "imageUrl": "https://www.unesco.org/sites/default/files/2023-02/02_1%5B1%5D.jpg",
     "year": 2001,
     "keyword": "consequence",
-    "summary": "After decades of looting, treasure hunting, and jurisdictional chaos, UNESCO adopted the Convention on the Protection of the Underwater Cultural Heritage in 2001. It established that wrecks over 100 years old are protected heritage, banned commercial salvage for profit, and created an international legal framework — though major maritime nations including the US and UK refused to ratify it.",
+    "summary": "After decades of looting by treasure hunters and jurisdictional chaos over ownership of historic wrecks, UNESCO adopted the Convention on the Protection of the Underwater Cultural Heritage in 2001. It established that wrecks over 100 years old are protected heritage, banned commercial salvage conducted for profit, and required in-situ preservation where possible. Notably, major maritime nations including the United States, United Kingdom, and Russia declined to ratify it, limiting its practical enforcement.",
     "causeIds": [
       "greek-government-funds-salvage",
       "cousteau-raises-awareness",
@@ -541,7 +537,7 @@
     "title": "Public Fascination with Underwater Finds",
     "wiki": "Underwater_archaeology",
     "imageUrl": "https://www.ancient-origins.net/sites/default/files/styles/article_image/public/field/image/Underwater-Discoveries.jpg?itok=y4_r1bMu",
-    "year": 1975,
+    "year": 1983,
     "keyword": "shift",
     "summary": "Television documentaries, Cousteau's films, and coverage of major raises like the Mary Rose created mass public fascination with underwater archaeology. Museums dedicated to maritime heritage opened worldwide. The sunken past became part of popular culture — making funding, protection, and public engagement with underwater sites far easier than for land archaeology.",
     "causeIds": [
