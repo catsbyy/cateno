@@ -7,6 +7,8 @@ import yearWithoutASummerData from "./year-without-a-summer.json";
 import wrightBrothersData from "./wright-brothers.json";
 import underwaterData from "./underwater-archaeology.json";
 import templarsData from "./templars.json";
+import mongolsData from "./mongols.json";
+import polynesiaData from "./polynesia.json";
 
 export const SCENARIOS: CatenoScenario[] = [
   {
@@ -80,5 +82,23 @@ export const SCENARIOS: CatenoScenario[] = [
       "A French king owed them money he couldn't repay. One October morning in 1307 he had them all arrested. How the destruction of the most powerful military order in history accidentally invented modern banking — and capitalism.",
     anchorId: "friday-13th-arrests",
     nodes: templarsData as CatenoScenario["nodes"],
+  },
+  {
+    id: "mongols",
+    title: "Mongol Conquests",
+    period: "1100–1492",
+    description:
+      "They built the largest land empire in history in a single generation — and in doing so accidentally delivered the Black Death to Europe, transmitted gunpowder from China to the West, and sent Marco Polo on the journey that inspired Columbus. History's most destructive conquerors were also its greatest unifiers.",
+    anchorId: "genghis-unifies-mongols",
+    nodes: mongolsData as CatenoScenario["nodes"],
+  },
+  {
+    id: "polynesia",
+    title: "The Polynesian Expansion",
+    period: "1500 BC–1976 AD",
+    description:
+      "Without compasses, charts, or metal tools, they settled every island in a triangle of ocean larger than all of Earth's landmasses combined. The greatest feat of navigation in human history — and one island got it catastrophically wrong.",
+    anchorId: "austronesian-reach-tonga-samoa",
+    nodes: polynesiaData as CatenoScenario["nodes"],
   },
 ];

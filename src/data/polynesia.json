@@ -1,0 +1,518 @@
+[
+  {
+    "id": "lapita-culture",
+    "title": "Lapita Culture",
+    "wiki": "Lapita_culture",
+    "year": -1300,
+    "keyword": "pressure",
+    "summary": "The Lapita people — identified archaeologically by their distinctive geometric pottery — were the ancestors of all Polynesians. Originating in island Southeast Asia, they migrated through Melanesia from around 1500 BC, reaching Tonga and Samoa by roughly 900–800 BC. They were already skilled coastal sailors and farmers who cultivated taro, yam, and breadfruit, and raised pigs and chickens. Everything that would make the Polynesian expansion possible — the crops, the animals, the culture — they carried with them.",
+    "causeIds": [],
+    "effectIds": [
+      "austronesian-reach-tonga-samoa",
+      "pottery-and-agriculture"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "outrigger-canoe-technology",
+    "title": "Outrigger Canoe Technology",
+    "wiki": "Outrigger_canoe",
+    "year": -1500,
+    "keyword": "shift",
+    "summary": "The double-hulled voyaging canoe — the waka hourua — was the technological foundation of the entire Polynesian expansion. Two hulls connected by a platform created a vessel stable enough to survive open-ocean swells, large enough to carry families, livestock, plants, and supplies for weeks, and fast enough to cover enormous distances. No other culture on Earth had developed anything comparable for deep-ocean travel. Without this vessel, the Pacific would have remained empty.",
+    "causeIds": [],
+    "effectIds": [
+      "austronesian-reach-tonga-samoa",
+      "deep-ocean-voyaging"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "star-navigation",
+    "title": "Star Path Navigation",
+    "wiki": "Polynesian_navigation",
+    "year": -1000,
+    "keyword": "shift",
+    "summary": "Polynesian navigators developed a sophisticated system of celestial navigation using the rising and setting points of over 200 stars as compass bearings. Each island had a 'star path' — a sequence of stars that, followed in order through the night, led directly to it. Combined with the ability to read ocean swells, wind patterns, cloud formations, and the behaviour of birds, this gave skilled navigators the ability to locate islands the size of a pinpoint across thousands of kilometres of open ocean without any instruments.",
+    "causeIds": [],
+    "effectIds": [
+      "deep-ocean-voyaging",
+      "polynesian-wayfinding"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "sweet-potato-mystery",
+    "title": "The Sweet Potato Mystery",
+    "wiki": "Polynesian_navigation#Contact_with_the_Americas",
+    "year": 1100,
+    "keyword": "shift",
+    "summary": "The sweet potato is a South American plant with no natural mechanism for crossing the Pacific — yet it was a staple crop across Polynesia centuries before European contact. DNA evidence published in 2020 confirms that Polynesians reached South America and brought the sweet potato back, probably around 1100–1200 AD. This single botanical fact proves that Polynesian navigators made a round-trip voyage of over 7,000 kilometres to a continent most of the world didn't know existed, and returned home.",
+    "causeIds": [],
+    "effectIds": [
+      "maori-culture-develops"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "austronesian-reach-tonga-samoa",
+    "title": "Polynesians Settle Tonga & Samoa",
+    "wiki": "Polynesia#Origins",
+    "year": -900,
+    "keyword": "spark",
+    "summary": "When the Lapita people reached Tonga and Samoa around 900–800 BC, they had arrived at the eastern edge of the known world — beyond lay 10,000 kilometres of open Pacific with no land visible on the horizon. Here they stopped for roughly a thousand years, not from inability but from geography: the winds and currents beyond Samoa were formidable, and reliable island targets were hundreds of kilometres away. During this pause, a distinctly Polynesian culture crystallised — the language, the navigation system, the social structures, the mythology — that would carry their descendants across the largest ocean on Earth.",
+    "causeIds": [
+      "lapita-culture",
+      "outrigger-canoe-technology"
+    ],
+    "effectIds": [
+      "polynesian-culture-forms",
+      "population-pressure-drives-expansion"
+    ],
+    "isAnchor": true,
+    "isSeed": true
+  },
+  {
+    "id": "pottery-and-agriculture",
+    "title": "Portable Agriculture System",
+    "wiki": "Lapita_culture#Agriculture",
+    "year": -1200,
+    "keyword": "pressure",
+    "summary": "The Lapita people carried a complete agricultural system: taro, yam, breadfruit, bananas, coconuts, sugarcane, pigs, chickens, and dogs. This 'transported landscape' — the deliberate carrying of an entire ecosystem onto new islands — was what made permanent settlement of remote islands possible. Without it, voyagers could explore but not colonise. The ability to recreate a functioning food system on any habitable island they found transformed exploration into expansion.",
+    "causeIds": [
+      "lapita-culture"
+    ],
+    "effectIds": [
+      "polynesian-culture-forms"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "polynesian-culture-forms",
+    "title": "Polynesian Culture Crystallises",
+    "wiki": "Polynesian_culture",
+    "year": -700,
+    "keyword": "shift",
+    "summary": "During roughly a thousand years of relative isolation in Tonga and Samoa, a distinctly Polynesian culture took shape. A common Proto-Polynesian language developed — the ancestor of Hawaiian, Māori, Tahitian, and Samoan. Shared religious concepts emerged around the marae temple platform and the mana system of sacred power and social rank. Navigation knowledge was codified into oral traditions and star catalogues. By the time expansion resumed, Polynesians possessed a remarkably unified cultural toolkit that they would carry — and adapt — across the Pacific.",
+    "causeIds": [
+      "austronesian-reach-tonga-samoa",
+      "pottery-and-agriculture"
+    ],
+    "effectIds": [
+      "voyaging-culture-develops",
+      "oral-tradition-navigational-knowledge"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "population-pressure-drives-expansion",
+    "title": "Population Pressure Builds",
+    "wiki": "Polynesian_navigation#Motivation",
+    "year": -800,
+    "keyword": "pressure",
+    "summary": "As Tonga and Samoa filled up over centuries, the social and ecological pressure to find new land intensified. Polynesian social systems created surplus younger sons and political losers who had strong incentives to leave — a defeated chief and his followers had little to lose by sailing into the unknown. This social logic meant that voyaging was not random adventurism but a structured response to real resource and status pressure. Every habitable island that was found and reported back became a beacon for the next wave.",
+    "causeIds": [
+      "austronesian-reach-tonga-samoa"
+    ],
+    "effectIds": [
+      "deep-ocean-voyaging",
+      "voyaging-culture-develops"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "deep-ocean-voyaging",
+    "title": "Deep Ocean Voyaging Begins",
+    "wiki": "Polynesian_navigation#Voyaging",
+    "year": -600,
+    "keyword": "turning-point",
+    "summary": "Around 600 BC, Polynesians began making deliberate voyages beyond the sight of land into the open Pacific. The debate among scholars about whether these voyages were accidental drift or planned exploration has largely been settled in favour of deliberate navigation: the wind patterns of the Pacific would make drift voyaging a statistical impossibility for successful round trips. These were planned expeditions with return routes calculated in advance, carrying enough food, water, and planting material to establish a colony if land was found.",
+    "causeIds": [
+      "outrigger-canoe-technology",
+      "star-navigation",
+      "population-pressure-drives-expansion"
+    ],
+    "effectIds": [
+      "voyaging-culture-develops",
+      "marquesas-settled"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "oral-tradition-navigational-knowledge",
+    "title": "Navigation Encoded in Oral Tradition",
+    "wiki": "Polynesian_navigation#Methods",
+    "year": -400,
+    "keyword": "shift",
+    "summary": "Polynesian navigational knowledge was preserved and transmitted through chants, songs, and ritual recitation — not written charts. A master navigator (tohunga) trained for years to memorise star paths, swell patterns, cloud behaviour over islands, and the migratory routes of birds used as signs of land. This oral encoding meant the knowledge was simultaneously fragile (one generation's failure to transmit could erase it) and portable (it existed in human memory, not in objects that could be lost or destroyed). When contact with Europeans disrupted traditional training, the knowledge nearly vanished.",
+    "causeIds": [
+      "polynesian-culture-forms"
+    ],
+    "effectIds": [
+      "polynesian-wayfinding"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "voyaging-culture-develops",
+    "title": "A Culture Built Around Voyaging",
+    "wiki": "Polynesian_navigation",
+    "year": -500,
+    "keyword": "shift",
+    "summary": "Polynesian societies developed voyaging as a central cultural institution rather than an occasional adventure. The construction and maintenance of ocean-going canoes was a sacred activity overseen by specialist craftsmen. Navigators held a social status equivalent to chiefs. Mythology encoded geographical knowledge — gods and ancestors were associated with specific star paths and island groups. Competitive voyaging between island groups spread and refined techniques. The entire culture was oriented toward the ocean rather than away from it — the Pacific was a highway, not a barrier.",
+    "causeIds": [
+      "polynesian-culture-forms",
+      "deep-ocean-voyaging",
+      "population-pressure-drives-expansion"
+    ],
+    "effectIds": [
+      "polynesian-wayfinding"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "polynesian-wayfinding",
+    "title": "Polynesian Wayfinding System",
+    "wiki": "Polynesian_navigation#Wayfinding",
+    "year": -300,
+    "keyword": "shift",
+    "summary": "Polynesian wayfinding was a complete cognitive system for navigating without instruments. Stars provided direction; ocean swells (which maintain consistent patterns regardless of surface weather) provided orientation; the behaviour of birds, fish, phosphorescence, and cloud formations indicated land within 50–100 kilometres. A skilled navigator kept a mental model of the canoe's position relative to a fixed point, continuously updated by all sensory inputs. Mau Piailug, one of the last traditional navigators, demonstrated in 1976 that these techniques could still guide a double-hulled canoe from Hawaii to Tahiti — 4,000 kilometres — without instruments.",
+    "causeIds": [
+      "voyaging-culture-develops",
+      "star-navigation",
+      "oral-tradition-navigational-knowledge"
+    ],
+    "effectIds": [
+      "marquesas-settled",
+      "society-islands-settled",
+      "hawaii-settled",
+      "easter-island-settled",
+      "new-zealand-settled"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "marquesas-settled",
+    "title": "Marquesas Islands Settled",
+    "wiki": "Marquesas_Islands#History",
+    "year": 300,
+    "keyword": "turning-point",
+    "summary": "The Marquesas Islands, settled around 300 AD, were the critical stepping stone for the second great wave of Polynesian expansion. Lying in the central Pacific, they became the launching point for voyages in three directions simultaneously: northwest to Hawaii, southeast to Easter Island, and southwest toward the Society Islands and eventually New Zealand. Virtually every major eastern Polynesian settlement can be traced linguistically and archaeologically back to the Marquesas. The entire eastern Pacific was colonised from this one cluster of islands.",
+    "causeIds": [
+      "deep-ocean-voyaging",
+      "polynesian-wayfinding"
+    ],
+    "effectIds": [
+      "society-islands-settled",
+      "hawaii-settled",
+      "easter-island-settled"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "society-islands-settled",
+    "title": "Society Islands Settled",
+    "wiki": "History_of_the_Society_Islands",
+    "year": 600,
+    "keyword": "turning-point",
+    "summary": "The Society Islands — including Tahiti and Raiatea — became the cultural and religious heartland of eastern Polynesia after settlement around 600 AD. The marae temple complex at Taputapuātea on Raiatea was the most sacred site in the Polynesian world, visited by voyagers from across the Pacific. From here, a second wave of deliberate long-distance voyaging reached Hawaii and New Zealand between roughly 1000 and 1300 AD — voyages so well established that two-way contact between Tahiti and Hawaii was maintained for centuries before being discontinued.",
+    "causeIds": [
+      "marquesas-settled",
+      "polynesian-wayfinding"
+    ],
+    "effectIds": [
+      "marae-temple-culture",
+      "new-zealand-settled",
+      "hawaiian-chiefdom-system"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "hawaii-settled",
+    "title": "Hawaii Settled",
+    "wiki": "History_of_Hawaii#Polynesian_settlement",
+    "year": 500,
+    "keyword": "turning-point",
+    "summary": "Hawaii — the most isolated archipelago on Earth, 3,500 kilometres from the nearest land — was reached by Polynesian voyagers from the Marquesas around 400–600 AD. A second wave from the Society Islands arrived around 1000 AD, bringing new chiefs, new religious practices, and a new social hierarchy. Two-way voyaging between Hawaii and Tahiti is well-documented in oral tradition and appears to have continued for roughly two centuries before contact was severed — for reasons unknown — leaving Hawaii to develop in isolation for another 500 years before Captain Cook arrived in 1778.",
+    "causeIds": [
+      "marquesas-settled",
+      "polynesian-wayfinding"
+    ],
+    "effectIds": [
+      "hawaiian-chiefdom-system",
+      "hawaii-isolation-divergence"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "easter-island-settled",
+    "title": "Easter Island Settled",
+    "wiki": "History_of_Easter_Island",
+    "year": 800,
+    "keyword": "turning-point",
+    "summary": "Easter Island — Rapa Nui — is the most remote inhabited place on Earth: 3,700 kilometres from South America, 2,000 kilometres from the nearest Polynesian island. Archaeological and genetic evidence places its first settlement at around 700–900 AD by voyagers from the Marquesas. The settlers arrived on a lush, forested island with abundant bird life. What they built there — and what happened next — is one of the most debated and cautionary stories in human history. The same navigational genius that found the island contained the seeds of what would eventually destroy its civilisation.",
+    "causeIds": [
+      "marquesas-settled",
+      "polynesian-wayfinding"
+    ],
+    "effectIds": [
+      "moai-construction",
+      "easter-island-deforestation",
+      "polynesian-triangle-complete"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "new-zealand-settled",
+    "title": "New Zealand Settled",
+    "wiki": "Māori_people#Origins",
+    "year": 1250,
+    "keyword": "turning-point",
+    "summary": "New Zealand — Aotearoa — was the last major landmass on Earth to be settled by humans, reached by Polynesian voyagers from the Society Islands around 1250–1300 AD. It was also the most radically different environment any Polynesian people had encountered: temperate rather than tropical, enormous (larger than Britain), with a completely alien ecosystem including giant flightless birds and no land mammals except bats. The settlers adapted rapidly, developing a distinct Māori culture shaped by the demands of this new environment within just a few generations.",
+    "causeIds": [
+      "society-islands-settled",
+      "polynesian-wayfinding"
+    ],
+    "effectIds": [
+      "maori-culture-develops",
+      "moa-extinction",
+      "polynesian-triangle-complete"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "marae-temple-culture",
+    "title": "Marae Temple Culture Spreads",
+    "wiki": "Marae",
+    "year": 700,
+    "keyword": "shift",
+    "summary": "The marae — a raised stone platform used for religious ceremonies, chiefly gatherings, and ancestor veneration — spread with Polynesian settlers across the Pacific, appearing in forms recognisably related to each other from New Zealand to Hawaii to Easter Island. Each island adapted the template: in Hawaii it became the heiau; in Easter Island the ahu platform on which the moai stood; in New Zealand the marae became the centre of Māori communal life. The same sacred architecture, transformed by a thousand years of separate development, connected communities that had no living memory of each other.",
+    "causeIds": [
+      "society-islands-settled"
+    ],
+    "effectIds": [
+      "hawaiian-chiefdom-system",
+      "moai-construction"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "hawaiian-chiefdom-system",
+    "title": "Hawaiian Chiefdom System",
+    "wiki": "Hawaiian_chiefdoms",
+    "year": 900,
+    "keyword": "shift",
+    "summary": "Hawaii's large islands and productive agriculture allowed social stratification to develop further than almost anywhere else in Polynesia. A rigid hierarchy emerged: the ali'i (chiefs) claimed divine descent and accumulated power and resources; commoners farmed, fished, and fought; kapu (taboo) rules governed almost every aspect of daily life. By the time of European contact, Hawaii had developed one of the most complex chiefdom societies in the Pacific — on the verge of becoming a full monarchy, which Kamehameha I completed in 1810 using European weapons.",
+    "causeIds": [
+      "hawaii-settled",
+      "marae-temple-culture",
+      "society-islands-settled"
+    ],
+    "effectIds": [
+      "hawaii-isolation-divergence"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "hawaii-isolation-divergence",
+    "title": "Hawaii Develops in Isolation",
+    "wiki": "History_of_Hawaii",
+    "year": 1200,
+    "keyword": "consequence",
+    "summary": "At some point around 1200–1300 AD, regular two-way voyaging between Hawaii and the Society Islands ceased — the reasons remain unknown. Hawaii then developed in complete isolation for roughly 500 years. Without outside contact, its language, religion, and culture diverged dramatically from other Polynesian traditions, developing unique features that Captain Cook's crew in 1778 found simultaneously familiar and completely foreign. This isolation also meant that Hawaiians had no immunity to, or preparation for, the diseases, weapons, and political systems that European contact would bring.",
+    "causeIds": [
+      "hawaiian-chiefdom-system",
+      "hawaii-settled"
+    ],
+    "effectIds": [
+      "polynesian-triangle-complete"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "moai-construction",
+    "title": "Moai Construction on Rapa Nui",
+    "wiki": "Moai",
+    "year": 900,
+    "keyword": "shift",
+    "summary": "The Rapa Nui people carved nearly 1,000 monumental stone statues — moai — from the volcanic rock of Rano Raraku quarry between roughly 900 and 1500 AD. The largest completed moai weigh over 80 tonnes. They were carved, transported kilometres across the island using rope and possibly a 'walking' technique, and erected on stone ahu platforms facing inland to watch over villages. The moai represent ancestors whose spiritual power (mana) protected the living — a Polynesian concept taken to its most extraordinary material expression anywhere in the Pacific.",
+    "causeIds": [
+      "easter-island-settled",
+      "marae-temple-culture"
+    ],
+    "effectIds": [
+      "easter-island-deforestation",
+      "moai-mystery"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "easter-island-deforestation",
+    "title": "Rapa Nui Deforestation",
+    "wiki": "Deforestation_of_Easter_Island",
+    "year": 1200,
+    "keyword": "collapse",
+    "summary": "Rapa Nui was once covered by a dense palm forest. By 1600 AD it was almost completely deforested. The causes were multiple: land cleared for agriculture, wood used for canoe construction, and — most consequentially — the enormous quantities of timber required to build sledges, rollers, and rope for transporting and erecting the moai. Palynological evidence shows the deforestation accelerating in direct proportion to moai construction activity. The islanders were not ignorant of what they were doing — they were making rational short-term decisions within a competitive social system that had no mechanism for collective restraint.",
+    "causeIds": [
+      "moai-construction",
+      "easter-island-settled"
+    ],
+    "effectIds": [
+      "easter-island-societal-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "easter-island-societal-collapse",
+    "title": "Rapa Nui Societal Collapse",
+    "wiki": "History_of_Easter_Island#Societal_collapse",
+    "year": 1400,
+    "keyword": "collapse",
+    "summary": "As Rapa Nui's forests disappeared, the consequences cascaded: soil eroded, crop yields fell, canoes could no longer be built to fish offshore, and the bird colonies that had provided protein were hunted to local extinction. The chiefly system that had organised moai construction lost its resource base and its legitimacy. A new warrior class — the Birdman cult — replaced the old hierarchy in violent conflict. Moai were toppled by rival clans. By the time Dutch explorer Jacob Roggeveen arrived in 1722, he found a population of perhaps 2,000–3,000 — a fraction of the island's peak — living in caves, surrounded by fallen statues.",
+    "causeIds": [
+      "easter-island-deforestation"
+    ],
+    "effectIds": [
+      "european-contact-shocked"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "moai-mystery",
+    "title": "The Moai Puzzle",
+    "wiki": "Moai#Transport",
+    "year": 1500,
+    "keyword": "shift",
+    "summary": "When Europeans first encountered Easter Island's moai, the civilisation that had built them had already collapsed. The statues stood — and then lay toppled — without any living tradition that could explain how nearly 900 statues averaging 13 tonnes had been carved, moved kilometres, and erected without metal tools, wheels, or large animals. Thor Heyerdahl's 1947 Kon-Tiki expedition proposed South American origins for the islanders; this has since been disproved by genetics. The mystery of the moai became the mystery of the Polynesians — navigators of extraordinary capability whose achievements seemed to Europeans simply impossible.",
+    "causeIds": [
+      "moai-construction"
+    ],
+    "effectIds": [
+      "european-contact-shocked"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "maori-culture-develops",
+    "title": "Māori Culture Develops",
+    "wiki": "Māori_culture",
+    "year": 1300,
+    "keyword": "shift",
+    "summary": "Within two or three generations of arriving in New Zealand, Polynesian settlers had adapted their tropical Pacific culture to a temperate environment without precedent in their tradition. Unable to grow taro and breadfruit in the cooler climate, they pivoted to the native fern root, kumara (sweet potato, carried from South America via Polynesian contact), and hunting — most famously of the giant moa. Distinct regional dialects, tribal structures, and artistic traditions emerged rapidly. The haka, ta moko facial tattooing, and the meeting house (wharenui) all developed in New Zealand, not in the Polynesian homeland.",
+    "causeIds": [
+      "new-zealand-settled",
+      "sweet-potato-mystery"
+    ],
+    "effectIds": [
+      "moa-extinction"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "moa-extinction",
+    "title": "Moa Extinction",
+    "wiki": "Moa",
+    "year": 1400,
+    "keyword": "collapse",
+    "summary": "New Zealand's nine species of moa — giant flightless birds ranging from turkey-sized to three metres tall — had evolved over millions of years with no mammalian predators and no reason to fear anything on the ground. Within roughly 100 years of Polynesian arrival, all nine species were extinct. Hunting was not the only cause: Polynesian rats (kiore) destroyed eggs and chicks; dogs killed juveniles; forest clearance removed habitat. The moa extinction was the most rapid large-animal extinction event in recorded prehistory — a preview of the ecological disruptions that Polynesian settlement brought to every island they reached.",
+    "causeIds": [
+      "new-zealand-settled",
+      "maori-culture-develops"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "polynesian-triangle-complete",
+    "title": "The Polynesian Triangle Complete",
+    "wiki": "Polynesia",
+    "year": 1300,
+    "keyword": "consequence",
+    "summary": "By roughly 1300 AD, Polynesians had settled every habitable island within a triangle of ocean 10,000 kilometres on each side — from Hawaii in the north to New Zealand in the southwest to Easter Island in the southeast. This triangle contains more ocean than all of Earth's landmasses combined. The peoples at each corner spoke related languages, practised related religions, and built related architecture — yet had developed independently for centuries. Nothing in human history compares to it: a single culture's deliberate settlement of one third of the planet's surface.",
+    "causeIds": [
+      "hawaii-isolation-divergence",
+      "easter-island-settled",
+      "new-zealand-settled"
+    ],
+    "effectIds": [
+      "european-contact-shocked"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "european-contact-shocked",
+    "title": "Europeans Encounter Polynesians",
+    "wiki": "European_exploration_of_Oceania",
+    "year": 1722,
+    "keyword": "consequence",
+    "summary": "When Dutch, Spanish, British, and French explorers arrived in the Pacific in the 17th and 18th centuries, they found people living on islands so remote that European navigational theory said humans could not have reached them deliberately. Jacob Roggeveen reached Easter Island in 1722 and found fallen stone giants. Samuel Wallis reached Tahiti in 1767. Captain Cook made three Pacific voyages between 1768 and 1779, mapping the triangle and realising that the same people — speaking related languages — had somehow settled every island in it. His naturalists began the question that still drives Polynesian studies: how?",
+    "causeIds": [
+      "polynesian-triangle-complete",
+      "easter-island-societal-collapse",
+      "moai-mystery"
+    ],
+    "effectIds": [
+      "navigation-revolution-inspired",
+      "polynesian-legacy"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "navigation-revolution-inspired",
+    "title": "European Navigation Transformed",
+    "wiki": "History_of_navigation",
+    "year": 1770,
+    "keyword": "consequence",
+    "summary": "Cook's Pacific voyages, made possible by the new marine chronometer (John Harrison's H4, carried on Cook's first voyage), demonstrated that systematic empirical navigation could chart the entire ocean. The realisation that Polynesians had achieved comparable feats without any instruments forced a re-evaluation of what non-European peoples were capable of. More practically, the charts Cook produced using Polynesian geographical knowledge — Polynesian pilots guided him between islands — formed the basis of Pacific navigation for the next century.",
+    "causeIds": [
+      "european-contact-shocked"
+    ],
+    "effectIds": [
+      "polynesian-legacy"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "polynesian-legacy",
+    "title": "The Polynesian Legacy",
+    "wiki": "Polynesia#Legacy",
+    "year": 1976,
+    "keyword": "consequence",
+    "summary": "In 1976, the Polynesian Voyaging Society launched Hōkūle'a — a reconstructed double-hulled canoe — and sailed it from Hawaii to Tahiti using only traditional navigation, guided by Mau Piailug, one of the last living traditional navigators from Micronesia. The voyage proved definitively that the Polynesian expansion was deliberate and skilled, not accidental drift. It also sparked a pan-Pacific cultural renaissance: today, traditional voyaging canoes sail between islands across the Pacific, young navigators are trained in star paths and swell reading, and the ocean that colonialism had turned into a barrier between island peoples has been reclaimed as the highway it always was.",
+    "causeIds": [
+      "european-contact-shocked",
+      "navigation-revolution-inspired"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]

@@ -15,6 +15,8 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "wright-brothers":        "#0f1218",
   "underwater-archaeology": "#071418",
   "templars":               "#18100a",
+  "mongols":                "#1a0e06",
+  "polynesia":              "#051418",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -26,6 +28,8 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "wright-brothers":        "radial-gradient(ellipse at center, #0f1218 0%, #0D0D0D 70%)",
   "underwater-archaeology": "radial-gradient(ellipse at center, #071418 0%, #0D0D0D 70%)",
   "templars":               "radial-gradient(ellipse at center, #18100a 0%, #0D0D0D 70%)",
+  "mongols":                "radial-gradient(ellipse at center, #1a0e06 0%, #0D0D0D 70%)",
+  "polynesia":              "radial-gradient(ellipse at center, #051418 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -255,6 +259,68 @@ function WrightPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Mongol Conquests — diamond chevrons suggesting cavalry arrow formations + steppe horizon
+function MongolsPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-mongols" x="0" y="0" width="120" height="80" patternUnits="userSpaceOnUse">
+          <path d="M10,40 L40,15 L55,40 L40,65 Z"
+                fill="none" stroke="white" strokeWidth="0.8" />
+          <path d="M50,40 L80,15 L95,40 L80,65 Z"
+                fill="none" stroke="white" strokeWidth="0.8" />
+          <line x1="0" y1="40" x2="120" y2="40" stroke="white" strokeWidth="0.3" opacity="0.5" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-mongols)" />
+    </svg>
+  );
+}
+
+// Polynesian Expansion — star compass rose + ocean waves
+function PolynesiaPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-polynesia" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+          {/* Cardinal points — longer */}
+          <line x1="100" y1="100" x2="100" y2="60"  stroke="white" strokeWidth="0.8" />
+          <line x1="100" y1="100" x2="100" y2="140" stroke="white" strokeWidth="0.8" />
+          <line x1="100" y1="100" x2="60"  y2="100" stroke="white" strokeWidth="0.8" />
+          <line x1="100" y1="100" x2="140" y2="100" stroke="white" strokeWidth="0.8" />
+          {/* Intercardinal points — shorter */}
+          <line x1="100" y1="100" x2="128" y2="72"  stroke="white" strokeWidth="0.5" />
+          <line x1="100" y1="100" x2="72"  y2="72"  stroke="white" strokeWidth="0.5" />
+          <line x1="100" y1="100" x2="128" y2="128" stroke="white" strokeWidth="0.5" />
+          <line x1="100" y1="100" x2="72"  y2="128" stroke="white" strokeWidth="0.5" />
+          {/* Centre dot */}
+          <circle cx="100" cy="100" r="2" fill="white" />
+          {/* Outer ring */}
+          <circle cx="100" cy="100" r="38" fill="none" stroke="white" strokeWidth="0.4" />
+          {/* Ocean waves */}
+          <path d="M20,170 Q50,162 80,170 Q110,178 140,170 Q170,162 200,170"
+                fill="none" stroke="white" strokeWidth="0.5" />
+          <path d="M20,182 Q50,174 80,182 Q110,190 140,182 Q170,174 200,182"
+                fill="none" stroke="white" strokeWidth="0.4" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-polynesia)" />
+    </svg>
+  );
+}
+
 // ─── Public export ─────────────────────────────────────────────────────────────
 
 interface ScenarioPatternSvgProps {
@@ -272,6 +338,8 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
     case "wright-brothers":        return <WrightPattern opacity={opacity} />;
     case "underwater-archaeology": return <UnderwaterPattern opacity={opacity} />;
     case "templars":               return <TemplarsPattern opacity={opacity} />;
+    case "mongols":                return <MongolsPattern opacity={opacity} />;
+    case "polynesia":              return <PolynesiaPattern opacity={opacity} />;
     default:                       return null;
   }
 }
