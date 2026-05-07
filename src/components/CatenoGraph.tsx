@@ -1,6 +1,6 @@
 // React Flow wrapper: converts scenario data into a positioned DAG and renders it.
 import { useMemo, useEffect, useCallback } from "react";
-import { ReactFlow, Controls, useReactFlow, type Node, type Edge, MarkerType, Background } from "@xyflow/react";
+import { ReactFlow, useReactFlow, type Node, type Edge, MarkerType, Background } from "@xyflow/react";
 import { useIsMobile } from "../hooks/useIsMobile";
 import "@xyflow/react/dist/style.css";
 import type { CatenoScenario } from "../types";
@@ -119,7 +119,7 @@ function PanController({ focusedNodeId, positions, isMobile }: PanControllerProp
 
   useEffect(() => {
     if (!focusedNodeId || isMobile) return;
-    const id = setTimeout(() => panTo(focusedNodeId, 600), 60);
+    const id = setTimeout(() => panTo(focusedNodeId, 900), 60);
     return () => clearTimeout(id);
   }, [focusedNodeId, panTo, isMobile]);
 
@@ -226,7 +226,7 @@ export function CatenoGraph({
             strokeWidth: isActive ? 2.5 : 2,
             opacity: isDimmedEdge ? 0.2 : 1,
             filter: isActive ? `drop-shadow(0 0 4px ${typeColor}88)` : "none",
-            transition: "stroke 0.25s, opacity 0.25s, filter 0.25s",
+            transition: "stroke 0.4s, opacity 0.4s, filter 0.4s",
           },
           markerEnd: {
             type: MarkerType.ArrowClosed,
@@ -257,7 +257,6 @@ export function CatenoGraph({
       >
         <PanController focusedNodeId={focusedNodeId} positions={positions} isMobile={isMobile} />
         <Background color="#181818" gap={28} size={1} />
-        {!isMobile && <Controls />}
       </ReactFlow>
     </div>
   );

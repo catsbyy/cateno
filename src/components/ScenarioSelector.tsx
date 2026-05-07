@@ -52,7 +52,7 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
                 <motion.button
                   key={scenario.id}
                   onClick={() => onSelect(scenario)}
-                  className="w-full text-left rounded-lg border border-[#222222] hover:border-[#383838] p-5 md:p-6 cursor-pointer transition-colors duration-[120ms] ease-out flex flex-col relative overflow-hidden"
+                  className="group w-full text-left rounded-lg border border-[#222222] hover:border-[#383838] p-5 md:p-6 cursor-pointer transition-colors duration-[120ms] ease-out flex flex-col relative overflow-hidden"
                   style={{
                     flexBasis: CARD_BASIS,
                     flexGrow: 0,
@@ -82,9 +82,10 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
                       </p>
                       <p className="text-[#E8E3D5]/55 text-[12px] font-sans">{anchor?.title ?? "—"}</p>
                     </div>
-                    <div className="mt-4 flex items-center gap-1.5 text-[#E8E3D5]/25 min-h-[44px] md:min-h-0 transition-colors duration-[120ms]">
-                      <span className="text-[11px] font-sans uppercase tracking-[0.15em]">Explore</span>
-                      <span className="text-[13px]">→</span>
+                    <div className="mt-4 min-h-[44px] md:min-h-0 flex items-center">
+                      <span className="text-[11px] font-sans uppercase tracking-[0.15em] text-[#E8E3D5]/40 opacity-0 group-hover:opacity-100 transition-opacity duration-150 ease-out">
+                        Begin
+                      </span>
                     </div>
                   </div>
                 </motion.button>

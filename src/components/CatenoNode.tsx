@@ -96,15 +96,12 @@ function CatenoNodeComponent({ data }: NodeProps) {
             border: `1.5px solid ${color}`,
             pointerEvents: "none",
           }}
-          animate={{
-            width: [NODE_W + 6, NODE_W + 24],
-            height: [NODE_H + 6, NODE_H + 24],
-            opacity: [0.5, 0],
-          }}
+          initial={{ width: NODE_W + 6, height: NODE_H + 6, opacity: 0.4 }}
+          animate={{ width: NODE_W + 24, height: NODE_H + 24, opacity: 0 }}
           transition={{
-            duration: 2.2,
-            repeat: Infinity,
+            duration: 7,
             ease: "easeOut",
+            repeat: 0,
           }}
         />
       )}
@@ -129,7 +126,12 @@ function CatenoNodeComponent({ data }: NodeProps) {
           width: isFocused ? W_FOCUS : NODE_W,
           height: isFocused ? H_FOCUS : NODE_H,
         }}
-        transition={{ duration: 0.22, ease: "easeOut" }}
+        transition={{
+          scale:   { duration: 0.48, ease: "easeOut" },
+          opacity: { duration: 0.4,  ease: "easeOut" },
+          width:   { duration: 0.38, ease: "easeOut" },
+          height:  { duration: 0.38, ease: "easeOut" },
+        }}
         className="rounded-md border bg-[#1C1C1C] px-3 py-2.5 flex flex-col justify-center gap-2 overflow-hidden cursor-pointer"
       >
         <p

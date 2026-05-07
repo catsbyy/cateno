@@ -198,7 +198,7 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               exit={{ y: "100%" }}
-              transition={{ duration: 0.28, ease: [0.32, 0, 0.18, 1] }}
+              transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1.0] }}
               onMouseDown={(e) => e.stopPropagation()}
               onClick={(e) => e.stopPropagation()}
               onTouchStart={(e) => e.stopPropagation()}
