@@ -20,6 +20,8 @@ Eight curated scenarios, each with 30–45 interconnected events:
 - **First Flight** (1485–1960)
 - **The Silent Archive** — Age of Underwater Archaeology (1500 BC–2010)
 - **The Last Templars** (1096–1500)
+- **Mongol Conquests** (1100–1492)
+- **The Polynesian Expansion** (1500 BC–1976 AD)
 
 ---
 
@@ -83,11 +85,7 @@ src/
     fall-of-rome.json
     french-revolution.json
     scientific-revolution.json
-    year-without-a-summer.json
-    wwi.json
-    wright-brothers.json
-    underwater-archaeology.json
-    templars.json
+    ...
   App.tsx                # Root — scenario selection vs graph view
   main.tsx               # Entry point + Analytics + SpeedInsights
   types.ts               # CatenoNode, CatenoScenario interfaces
