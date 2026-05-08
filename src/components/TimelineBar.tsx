@@ -223,17 +223,39 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
           </div>
         )}
 
-        {/* Node event dots */}
-        {visibleNodes.map((node) => {
+        {/* Node event dots — all nodes rendered; undiscovered are decorative only */}
+        {scenario.nodes.map((node) => {
           const p = pct(node.year);
+          const isDiscovered = visibleNodeIds.has(node.id);
           const isFocused = node.id === focusedNodeId;
           const color = TYPE_COLORS[node.keyword];
+
+          if (!isDiscovered) {
+            return (
+              <div
+                key={node.id}
+                style={{
+                  position: "absolute",
+                  left: `${p}%`,
+                  top: DOT_CY,
+                  transform: "translateX(-50%) translateY(-50%)",
+                  width: 4,
+                  height: 4,
+                  borderRadius: "50%",
+                  background: "#252525",
+                  border: "1px solid #333333",
+                  pointerEvents: "none",
+                  zIndex: 1,
+                }}
+              />
+            );
+          }
 
           return (
             <button
               key={node.id}
               onClick={() => onNodeClick(node.id)}
-              title={`${node.title} (${node.year})`}
+              title={`${node.title} (${formatYear(node.year)})`}
               className="absolute cursor-pointer"
               style={{
                 left: `${p}%`,
