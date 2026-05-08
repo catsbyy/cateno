@@ -6,6 +6,8 @@ import { TYPE_COLORS } from "../types";
 import { useIsMobile } from "../hooks/useIsMobile";
 import { PANEL_BG, PANEL_WIDTH } from "../constants";
 
+const formatYear = (year: number) => (year < 0 ? `${Math.abs(year)} BC` : `${year}`);
+
 // ─── Wikimedia thumbnail rewriter ─────────────────────────────────────────────
 // Raw Wikimedia Commons URLs point to full-resolution files that can be 10 MB+
 // (e.g. the Prise de la Bastille painting is 11.2 MB and causes a UI freeze).
@@ -205,10 +207,7 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
               onTouchMove={(e) => e.stopPropagation()}
             >
               {/* Drag handle — tap to dismiss */}
-              <div
-                className="shrink-0 flex justify-center pt-3 pb-1 cursor-pointer"
-                onClick={onClose}
-              >
+              <div className="shrink-0 flex justify-center pt-3 pb-1 cursor-pointer" onClick={onClose}>
                 <div className="w-9 h-1 rounded-full bg-[#444]" />
               </div>
 
@@ -218,7 +217,9 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
 
                 <div className="px-5 pt-3 pb-4" style={{ borderBottom: "1px solid #222" }}>
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-[#E8E3D5]/35 text-[12px] font-sans tracking-wider">{node.year}</span>
+                    <span className="text-[#E8E3D5]/35 text-[12px] font-sans tracking-wider">
+                      {formatYear(node.year)}
+                    </span>
                     <button
                       onClick={onClose}
                       aria-label="Close panel"
@@ -296,7 +297,7 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
 
             <div className="px-6 pt-5 pb-5" style={{ borderBottom: "1px solid #222" }}>
               <div className="flex items-center justify-between mb-3">
-                <span className="text-[#E8E3D5]/35 text-[12px] font-sans tracking-wider">{node.year}</span>
+                <span className="text-[#E8E3D5]/35 text-[12px] font-sans tracking-wider">{formatYear(node.year)}</span>
                 <button
                   onClick={onClose}
                   aria-label="Close panel"

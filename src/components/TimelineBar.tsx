@@ -4,9 +4,20 @@ import { TYPE_COLORS } from "../types";
 import { useIsMobile } from "../hooks/useIsMobile";
 
 function parsePeriod(period: string): [number, number] {
-  const nums = period.match(/\d+/g)?.map(Number) ?? [];
-  if (nums.length >= 2) return [nums[0], nums[nums.length - 1]];
+  const parts = period.split(/–|-|—/);
+  const parse = (s: string): number => {
+    const trimmed = s.trim();
+    const num = parseInt(trimmed.match(/\d+/)?.[0] ?? "0", 10);
+    const isBC = trimmed.toUpperCase().includes("BC");
+    console.log("parsing:", trimmed, "→ isBC:", isBC, "num:", num);
+    return isBC ? -num : num;
+  };
+  if (parts.length >= 2) return [parse(parts[0]), parse(parts[1])];
   return [0, 100];
+}
+
+function formatYear(year: number): string {
+  return year < 0 ? `${Math.abs(year)} BC` : `${year}`;
 }
 
 // Clamp a percentage to [0, 100]
@@ -23,7 +34,6 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
   const isMobile = useIsMobile();
   const [periodStart, periodEnd] = parsePeriod(scenario.period);
   const periodSpan = periodEnd - periodStart || 1;
-  const isAD = scenario.period.includes("AD");
 
   const visibleNodes = useMemo(
     () => scenario.nodes.filter((n) => visibleNodeIds.has(n.id)),
@@ -39,23 +49,37 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
     return new Set([...counts.entries()].filter(([, c]) => c >= 2).map(([y]) => y));
   }, [scenario]);
 
-  // Regular interval ticks: every 10yr for spans < 150yr, every 50yr otherwise.
-  // Skip the start and end year — those are shown by the outer labels.
+  // Regular interval ticks — scale interval to span, cap at 12 ticks.
+  // Skip any tick within 10% of interval distance from start or end (those are shown by outer labels).
   const { intervalTicks, intervalTickSet } = useMemo(() => {
-    const interval = periodSpan < 150 ? 10 : 50;
+    const interval =
+      periodSpan < 150 ? 10 : periodSpan < 500 ? 50 : periodSpan < 2000 ? 100 : periodSpan < 5000 ? 500 : 1000;
+
     const ticks: number[] = [];
-    const start = Math.ceil(periodStart / interval) * interval;
-    for (let y = start; y <= periodEnd; y += interval) {
-      if (y !== periodStart && y !== periodEnd) ticks.push(y);
+    let y = Math.ceil(periodStart / interval) * interval;
+    while (y <= periodEnd) {
+      if (Math.abs(y - periodStart) > interval * 0.1 && Math.abs(y - periodEnd) > interval * 0.1) {
+        ticks.push(y);
+      }
+      y += interval;
     }
-    return { intervalTicks: ticks, intervalTickSet: new Set(ticks) };
+    const cappedTicks = ticks.slice(0, 12);
+    return { intervalTicks: cappedTicks, intervalTickSet: new Set(cappedTicks) };
   }, [periodStart, periodEnd, periodSpan]);
 
-  // Pivotal years that don't fall on an interval tick (shown as tick-only, no label)
-  const pivotalOnly = useMemo(
-    () => [...pivotalYears].filter((y) => !intervalTickSet.has(y)),
-    [pivotalYears, intervalTickSet]
-  );
+  // Pivotal years that don't fall on an interval tick (shown as tick-only, no label).
+  // Deduplicate: skip any pivotal year within 3% of the total span from an interval tick
+  // or from another already-accepted pivotal tick — prevents crowding on dense scenarios.
+  const pivotalOnly = useMemo(() => {
+    const minGap = periodSpan * 0.03;
+    const accepted: number[] = [];
+    for (const y of [...pivotalYears].sort((a, b) => a - b)) {
+      if (intervalTickSet.has(y)) continue;
+      const tooClose = [...intervalTickSet, ...accepted].some((t) => Math.abs(t - y) < minGap);
+      if (!tooClose) accepted.push(y);
+    }
+    return accepted;
+  }, [pivotalYears, intervalTickSet, periodSpan]);
 
   // Focused node's year — shown as a label on mobile only
   const focusedNode = focusedNodeId ? scenario.nodes.find((n) => n.id === focusedNodeId) : null;
@@ -81,8 +105,7 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
     >
       {/* Start year */}
       <span className="text-[#E8E3D5]/50 text-[11px] font-sans tabular-nums whitespace-nowrap">
-        {periodStart}
-        {isAD ? " AD" : ""}
+        {formatYear(periodStart)}
       </span>
 
       {/* ── Track ── */}
@@ -101,69 +124,71 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
         />
 
         {/* Interval ticks + year labels — desktop only */}
-        {!isMobile && intervalTicks.map((year) => {
-          const p = pct(year);
-          const isPivotal = pivotalYears.has(year);
-          return (
-            <div
-              key={`itick-${year}`}
-              style={{
-                position: "absolute",
-                left: `${p}%`,
-                top: 4,
-                transform: "translateX(-50%)",
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                gap: 2,
-                pointerEvents: "none",
-              }}
-            >
+        {!isMobile &&
+          intervalTicks.map((year) => {
+            const p = pct(year);
+            const isPivotal = pivotalYears.has(year);
+            return (
               <div
+                key={`itick-${year}`}
                 style={{
-                  width: isPivotal ? 1.5 : 1,
-                  height: isPivotal ? 13 : 8,
-                  background: isPivotal ? "#606060" : "#343434",
-                  borderRadius: 1,
-                }}
-              />
-              <span
-                style={{
-                  fontSize: 10,
-                  lineHeight: 1,
-                  color: "#E8E3D5",
-                  opacity: isPivotal ? 0.65 : 0.45,
-                  fontFamily: "DM Sans, sans-serif",
-                  whiteSpace: "nowrap",
-                  letterSpacing: "0.02em",
+                  position: "absolute",
+                  left: `${p}%`,
+                  top: 4,
+                  transform: "translateX(-50%)",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  gap: 2,
+                  pointerEvents: "none",
                 }}
               >
-                {year}
-              </span>
-            </div>
-          );
-        })}
+                <div
+                  style={{
+                    width: isPivotal ? 1.5 : 1,
+                    height: isPivotal ? 13 : 8,
+                    background: isPivotal ? "#606060" : "#343434",
+                    borderRadius: 1,
+                  }}
+                />
+                <span
+                  style={{
+                    fontSize: 10,
+                    lineHeight: 1,
+                    color: "#E8E3D5",
+                    opacity: isPivotal ? 0.65 : 0.45,
+                    fontFamily: "DM Sans, sans-serif",
+                    whiteSpace: "nowrap",
+                    letterSpacing: "0.02em",
+                  }}
+                >
+                  {formatYear(year)}
+                </span>
+              </div>
+            );
+          })}
 
         {/* Pivotal-only ticks — desktop only */}
-        {!isMobile && pivotalOnly.map((year) => {
-          const p = pct(year);
-          return (
-            <div
-              key={`piv-${year}`}
-              style={{
-                position: "absolute",
-                left: `${p}%`,
-                top: 4,
-                transform: "translateX(-50%)",
-                width: 1.5,
-                height: 11,
-                background: "#505050",
-                borderRadius: 1,
-                pointerEvents: "none",
-              }}
-            />
-          );
-        })}
+        {!isMobile &&
+          pivotalOnly.map((year) => {
+            const p = pct(year);
+            return (
+              <div
+                key={`piv-${year}`}
+                style={{
+                  position: "absolute",
+                  left: `${p}%`,
+                  top: 4,
+                  transform: "translateX(-50%)",
+                  width: 1.5,
+                  height: 11,
+                  background: "#505050",
+                  borderRadius: 1,
+                  pointerEvents: "none",
+                }}
+              />
+            );
+          })}
 
         {/* Focused node year label — mobile only */}
         {isMobile && focusedNode && (
@@ -193,7 +218,7 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
                 letterSpacing: "0.02em",
               }}
             >
-              {focusedNode.year}
+              {formatYear(focusedNode.year)}
             </span>
           </div>
         )}
@@ -230,8 +255,7 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
 
       {/* End year */}
       <span className="text-[#E8E3D5]/50 text-[11px] font-sans tabular-nums whitespace-nowrap">
-        {periodEnd}
-        {isAD ? " AD" : ""}
+        {formatYear(periodEnd)}
       </span>
 
       {/* Node count — desktop only */}

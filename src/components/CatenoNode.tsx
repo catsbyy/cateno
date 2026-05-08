@@ -7,6 +7,8 @@ import { TYPE_COLORS } from "../types";
 import type { NodeType } from "../types";
 import { NODE_W, NODE_H, W_FOCUS, H_FOCUS } from "../constants";
 
+const formatYear = (year: number) => (year < 0 ? `${Math.abs(year)} BC` : `${year}`);
+
 export interface CatenoNodeData {
   title: string;
   year: number;
@@ -127,10 +129,10 @@ function CatenoNodeComponent({ data }: NodeProps) {
           height: isFocused ? H_FOCUS : NODE_H,
         }}
         transition={{
-          scale:   { duration: 0.48, ease: "easeOut" },
-          opacity: { duration: 0.4,  ease: "easeOut" },
-          width:   { duration: 0.38, ease: "easeOut" },
-          height:  { duration: 0.38, ease: "easeOut" },
+          scale: { duration: 0.48, ease: "easeOut" },
+          opacity: { duration: 0.4, ease: "easeOut" },
+          width: { duration: 0.38, ease: "easeOut" },
+          height: { duration: 0.38, ease: "easeOut" },
         }}
         className="rounded-md border bg-[#1C1C1C] px-3 py-2.5 flex flex-col justify-center gap-2 overflow-hidden cursor-pointer"
       >
@@ -151,7 +153,7 @@ function CatenoNodeComponent({ data }: NodeProps) {
               transition={{ duration: 0.16, delay: 0.08 }}
               className="flex items-center gap-2"
             >
-              <span className="text-[#E8E3D5]/45 text-[11px] font-sans select-none">{year}</span>
+              <span className="text-[#E8E3D5]/45 text-[11px] font-sans select-none">{formatYear(year)}</span>
               <span
                 className="text-[10px] font-sans px-1.5 py-[2px] rounded font-medium uppercase tracking-widest select-none"
                 style={{
