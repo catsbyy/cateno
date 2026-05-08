@@ -12,7 +12,7 @@ Built with React, TypeScript, React Flow, and Tailwind CSS.
 
 Eight curated scenarios, each with 30–45 interconnected events:
 
-- **Fall of Rome** (100–600 AD)
+- **Fall of Rome** (100–600)
 - **French Revolution** (1700–1803)
 - **Scientific Revolution** (1200–1760)
 - **Year Without a Summer** (1815–1820)
@@ -22,6 +22,7 @@ Eight curated scenarios, each with 30–45 interconnected events:
 - **The Last Templars** (1096–1500)
 - **Mongol Conquests** (1100–1492)
 - **The Polynesian Expansion** (1500 BC–1976 AD)
+- **The Voyages That Stopped** (960–1500)
 
 ---
 

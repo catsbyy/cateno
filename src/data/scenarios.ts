@@ -9,12 +9,13 @@ import underwaterData from "./underwater-archaeology.json";
 import templarsData from "./templars.json";
 import mongolsData from "./mongols.json";
 import polynesiaData from "./polynesia.json";
+import zhengHeData from "./zheng-he.json";
 
 export const SCENARIOS: CatenoScenario[] = [
   {
     id: "fall-of-rome",
     title: "Fall of Rome",
-    period: "100–600 AD",
+    period: "100–600",
     description:
       "Five centuries of slow collapse. How military overstretch, economic rot, and barbarian pressure dismantled the most powerful state the ancient world had ever built.",
     anchorId: "romulus-augustulus-deposed",
@@ -95,10 +96,19 @@ export const SCENARIOS: CatenoScenario[] = [
   {
     id: "polynesia",
     title: "The Polynesian Expansion",
-    period: "1500 BC–1976 AD",
+    period: "1500 BC–1976",
     description:
       "Without compasses, charts, or metal tools, they settled every island in a triangle of ocean larger than all of Earth's landmasses combined. The greatest feat of navigation in human history — and one island got it catastrophically wrong.",
     anchorId: "austronesian-reach-tonga-samoa",
     nodes: polynesiaData as CatenoScenario["nodes"],
+  },
+  {
+    id: "zheng-he",
+    title: "The Voyages That Stopped",
+    period: "960–1500",
+    description:
+      "China had the largest ships, the best navigators, and the resources to dominate every ocean on Earth. Then it chose to stop — burned its records, banned its sailors, and forgot what it knew. Sixty years later, Portugal arrived in China's ports with four ships and a cannon.",
+    anchorId: "zheng-he-first-voyage",
+    nodes: zhengHeData as CatenoScenario["nodes"],
   },
 ];

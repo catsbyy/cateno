@@ -17,6 +17,7 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "templars":               "#18100a",
   "mongols":                "#1a0e06",
   "polynesia":              "#051418",
+  "zheng-he":               "#061410",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -30,6 +31,7 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "templars":               "radial-gradient(ellipse at center, #18100a 0%, #0D0D0D 70%)",
   "mongols":                "radial-gradient(ellipse at center, #1a0e06 0%, #0D0D0D 70%)",
   "polynesia":              "radial-gradient(ellipse at center, #051418 0%, #0D0D0D 70%)",
+  "zheng-he":               "radial-gradient(ellipse at center, #061410 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -321,6 +323,44 @@ function PolynesiaPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Zheng He — luopan compass octagon + ocean waves
+function ZhengHePattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-zheng-he" x="0" y="0" width="180" height="180" patternUnits="userSpaceOnUse">
+          {/* Outer octagonal ring — ba gua / compass shape */}
+          <polygon
+            points="90,52 118,62 128,90 118,118 90,128 62,118 52,90 62,62"
+            fill="none" stroke="white" strokeWidth="0.7"
+          />
+          {/* Inner circle */}
+          <circle cx="90" cy="90" r="18" fill="none" stroke="white" strokeWidth="0.6" />
+          {/* Centre dot */}
+          <circle cx="90" cy="90" r="2.5" fill="white" />
+          {/* Cardinal lines through centre */}
+          <line x1="90" y1="52"  x2="90"  y2="72"  stroke="white" strokeWidth="0.5" />
+          <line x1="90" y1="108" x2="90"  y2="128" stroke="white" strokeWidth="0.5" />
+          <line x1="52" y1="90"  x2="72"  y2="90"  stroke="white" strokeWidth="0.5" />
+          <line x1="108" y1="90" x2="128" y2="90"  stroke="white" strokeWidth="0.5" />
+          {/* Ocean waves */}
+          <path d="M0,158 Q22,150 45,158 Q68,166 90,158 Q112,150 135,158 Q158,166 180,158"
+                fill="none" stroke="white" strokeWidth="0.5" />
+          <path d="M0,168 Q22,160 45,168 Q68,176 90,168 Q112,160 135,168 Q158,176 180,168"
+                fill="none" stroke="white" strokeWidth="0.4" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-zheng-he)" />
+    </svg>
+  );
+}
+
 // ─── Public export ─────────────────────────────────────────────────────────────
 
 interface ScenarioPatternSvgProps {
@@ -340,6 +380,7 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
     case "templars":               return <TemplarsPattern opacity={opacity} />;
     case "mongols":                return <MongolsPattern opacity={opacity} />;
     case "polynesia":              return <PolynesiaPattern opacity={opacity} />;
+    case "zheng-he":               return <ZhengHePattern opacity={opacity} />;
     default:                       return null;
   }
 }
