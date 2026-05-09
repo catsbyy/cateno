@@ -27,7 +27,6 @@ function CatenoNodeComponent({ data }: NodeProps) {
     year,
     keyword,
     isAnchor = false,
-    isSeed = false,
     isFocused = false,
     isDimmed = false,
     isUnvisited = false,
@@ -136,10 +135,10 @@ function CatenoNodeComponent({ data }: NodeProps) {
           height: isFocused ? H_FOCUS : NODE_H,
         }}
         transition={{
-          scale:   { duration: 0.48, ease: "easeOut" },
-          opacity: { duration: 0.4,  ease: "easeOut" },
-          width:   { duration: 0.38, ease: "easeOut" },
-          height:  { duration: 0.38, ease: "easeOut" },
+          scale: { duration: 0.48, ease: "easeOut" },
+          opacity: { duration: 0.4, ease: "easeOut" },
+          width: { duration: 0.38, ease: "easeOut" },
+          height: { duration: 0.38, ease: "easeOut" },
         }}
         className="rounded-md border px-3 py-2.5 flex flex-col justify-center gap-2 overflow-hidden cursor-pointer"
       >
