@@ -11,6 +11,8 @@ export function useGraph(scenario: CatenoScenario) {
 
   const [visibleNodeIds, setVisibleNodeIds] = useState<Set<string>>(seedIds);
   const [focusedNodeId, setFocusedNodeId] = useState<string | null>(null);
+  // Starts empty — only nodes the user has explicitly clicked are "visited".
+  const [visitedNodeIds, setVisitedNodeIds] = useState<Set<string>>(new Set());
 
   // IDs of the focused node + its direct causes + direct effects
   const connectedIds = useMemo((): Set<string> => {
@@ -32,6 +34,13 @@ export function useGraph(scenario: CatenoScenario) {
         return next;
       });
 
+      setVisitedNodeIds((prev) => {
+        if (prev.has(nodeId)) return prev;
+        const next = new Set(prev);
+        next.add(nodeId);
+        return next;
+      });
+
       setFocusedNodeId(nodeId);
     },
     [nodeMap]
@@ -41,5 +50,5 @@ export function useGraph(scenario: CatenoScenario) {
     setFocusedNodeId(null);
   }, []);
 
-  return { visibleNodeIds, focusedNodeId, connectedIds, focusNode, clearFocus };
+  return { visibleNodeIds, visitedNodeIds, focusedNodeId, connectedIds, focusNode, clearFocus };
 }

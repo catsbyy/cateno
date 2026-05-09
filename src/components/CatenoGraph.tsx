@@ -131,6 +131,7 @@ function PanController({ focusedNodeId, positions, isMobile }: PanControllerProp
 interface CatenoGraphProps {
   scenario: CatenoScenario;
   visibleNodeIds: Set<string>;
+  visitedNodeIds: Set<string>;
   focusedNodeId: string | null;
   connectedIds: Set<string>;
   onNodeClick: (nodeId: string) => void;
@@ -140,6 +141,7 @@ interface CatenoGraphProps {
 export function CatenoGraph({
   scenario,
   visibleNodeIds,
+  visitedNodeIds,
   focusedNodeId,
   connectedIds,
   onNodeClick,
@@ -179,6 +181,7 @@ export function CatenoGraph({
 
       const isFocused = id === focusedNodeId;
       const isDimmed = hasFocus && !connectedIds.has(id);
+      const isUnvisited = !visitedNodeIds.has(id) && !isFocused;
 
       const hiddenCount = [...n.causeIds, ...n.effectIds].filter((cid) => !visibleNodeIds.has(cid)).length;
 
@@ -194,6 +197,7 @@ export function CatenoGraph({
           isSeed: n.isSeed,
           isFocused,
           isDimmed,
+          isUnvisited,
           hiddenCount,
         } satisfies CatenoNodeData,
         zIndex: isFocused ? 50 : 1,

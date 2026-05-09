@@ -15,7 +15,7 @@ interface GraphViewProps {
 
 // Keyed by scenario.id in App.tsx so all state resets when the scenario changes.
 export function GraphView({ scenario, onBack }: GraphViewProps) {
-  const { visibleNodeIds, focusedNodeId, connectedIds, focusNode, clearFocus } =
+  const { visibleNodeIds, visitedNodeIds, focusedNodeId, connectedIds, focusNode, clearFocus } =
     useGraph(scenario);
 
   const nodeMap = useMemo(
@@ -79,6 +79,7 @@ export function GraphView({ scenario, onBack }: GraphViewProps) {
         <CatenoGraph
           scenario={scenario}
           visibleNodeIds={visibleNodeIds}
+          visitedNodeIds={visitedNodeIds}
           focusedNodeId={focusedNodeId}
           connectedIds={connectedIds}
           onNodeClick={focusNode}

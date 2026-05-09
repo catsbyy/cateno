@@ -17,6 +17,7 @@ export interface CatenoNodeData {
   isSeed?: boolean;
   isFocused?: boolean;
   isDimmed?: boolean;
+  isUnvisited?: boolean;
   hiddenCount?: number;
 }
 
@@ -29,6 +30,7 @@ function CatenoNodeComponent({ data }: NodeProps) {
     isSeed = false,
     isFocused = false,
     isDimmed = false,
+    isUnvisited = false,
     hiddenCount = 0,
   } = data as unknown as CatenoNodeData;
   const color = TYPE_COLORS[keyword];
@@ -111,15 +113,20 @@ function CatenoNodeComponent({ data }: NodeProps) {
       {/* Visual card — expands from centre, floats above siblings when focused */}
       <motion.div
         style={{
-          borderColor: color,
+          // Two-tier resting state:
+          //   unvisited → faint colour tint inside the card
+          //   visited   → plain dark background (tint fades out on click)
+          // Border is identical for both; only the background differs.
+          borderColor: isFocused ? color : `${color}b3`,
+          background: isUnvisited && !isDimmed ? `${color}0a` : "#1C1C1C",
           position: "absolute",
           top: "50%",
           left: "50%",
           x: "-50%",
           y: "-50%",
           zIndex: isFocused ? 50 : 1,
-          // Seed nodes get a faint type-colour halo to hint they're explorable
-          boxShadow: isSeed && !isFocused && !isDimmed ? `0 0 10px ${color}2e` : "none",
+          boxShadow: "none",
+          transition: "background 0.4s ease",
         }}
         initial={{ scale: 0.82, opacity: 0 }}
         animate={{
@@ -129,12 +136,12 @@ function CatenoNodeComponent({ data }: NodeProps) {
           height: isFocused ? H_FOCUS : NODE_H,
         }}
         transition={{
-          scale: { duration: 0.48, ease: "easeOut" },
-          opacity: { duration: 0.4, ease: "easeOut" },
-          width: { duration: 0.38, ease: "easeOut" },
-          height: { duration: 0.38, ease: "easeOut" },
+          scale:   { duration: 0.48, ease: "easeOut" },
+          opacity: { duration: 0.4,  ease: "easeOut" },
+          width:   { duration: 0.38, ease: "easeOut" },
+          height:  { duration: 0.38, ease: "easeOut" },
         }}
-        className="rounded-md border bg-[#1C1C1C] px-3 py-2.5 flex flex-col justify-center gap-2 overflow-hidden cursor-pointer"
+        className="rounded-md border px-3 py-2.5 flex flex-col justify-center gap-2 overflow-hidden cursor-pointer"
       >
         <p
           className="text-[#E8E3D5] text-[12px] font-medium font-sans m-0 select-none line-clamp-2"
