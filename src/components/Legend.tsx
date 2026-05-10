@@ -57,7 +57,7 @@ export function Legend({ isOpen }: LegendProps) {
               <span
                 style={{
                   color: "#E8E3D5",
-                  opacity: 0.5,
+                  opacity: 0.7,
                   fontSize: 10,
                   fontFamily: "DM Sans, sans-serif",
                   textTransform: "uppercase",
@@ -72,22 +72,27 @@ export function Legend({ isOpen }: LegendProps) {
         </div>
       </motion.div>
 
-      {/* "TYPE" trigger label — always visible, invites hover */}
-      <div
+      {/* Trigger label — always visible, invites hover */}
+      <motion.div
+        animate={{ opacity: hovered ? 0.8 : 0.5 }}
+        transition={{ duration: 0.15 }}
         style={{
           fontSize: 9,
           letterSpacing: "0.16em",
           textTransform: "uppercase",
           fontFamily: "DM Sans, sans-serif",
           color: "#E8E3D5",
-          opacity: 0.28,
           padding: "4px 2px",
           cursor: "default",
           userSelect: "none",
+          display: "flex",
+          alignItems: "center",
+          gap: 3,
         }}
       >
-        Type
-      </div>
+        <span>Type</span>
+        <span style={{ letterSpacing: 0, opacity: 0.7 }}>↑</span>
+      </motion.div>
     </motion.div>
   );
 }

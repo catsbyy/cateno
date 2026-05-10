@@ -16,7 +16,7 @@ Eight curated scenarios, each with 30–45 interconnected events:
 - **French Revolution** (1700–1803)
 - **Scientific Revolution** (1200–1760)
 - **Year Without a Summer** (1815–1820)
-- **World War I** (1871–1919)
+- **World War I** (1871–1933)
 - **First Flight** (1485–1960)
 - **The Silent Archive** — Age of Underwater Archaeology (1500 BC–2010)
 - **The Last Templars** (1096–1500)
