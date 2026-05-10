@@ -1,5 +1,5 @@
 // Full-screen graph view for a single scenario: header, graph canvas, detail panel, timeline, and legend.
-import { useMemo } from "react";
+import { useMemo, useEffect, useRef } from "react";
 import { useGraph } from "../hooks/useGraph";
 import { CatenoGraph } from "./CatenoGraph";
 import { DetailPanel } from "./DetailPanel";
@@ -10,13 +10,36 @@ import type { CatenoScenario, CatenoNode } from "../types";
 
 interface GraphViewProps {
   scenario: CatenoScenario;
+  initialNodeId: string | null;   // from URL /:scenarioId/:nodeId
   onBack: () => void;
+  onNodeFocus: (nodeId: string) => void;   // updates URL on click
+  onFocusClear: () => void;                // removes nodeId from URL
 }
 
 // Keyed by scenario.id in App.tsx so all state resets when the scenario changes.
-export function GraphView({ scenario, onBack }: GraphViewProps) {
+export function GraphView({ scenario, initialNodeId, onBack, onNodeFocus, onFocusClear }: GraphViewProps) {
   const { visibleNodeIds, visitedNodeIds, focusedNodeId, connectedIds, focusNode, clearFocus } =
     useGraph(scenario);
+
+  // When the user clicks a node we update both graph state and the URL ourselves,
+  // so we don't want the effect below to re-fire. This ref lets us skip it.
+  const isLocalNav = useRef(false);
+
+  // React to URL changes driven by the browser (back/forward).
+  // Skipped when the change originated from a click inside this component.
+  useEffect(() => {
+    if (isLocalNav.current) {
+      isLocalNav.current = false;
+      return;
+    }
+    if (initialNodeId) {
+      focusNode(initialNodeId);
+    } else {
+      clearFocus();
+    }
+  // focusNode/clearFocus are stable callbacks — only re-run when the URL nodeId changes.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [initialNodeId]);
 
   const nodeMap = useMemo(
     () => new Map<string, CatenoNode>(scenario.nodes.map((n) => [n.id, n])),
@@ -40,6 +63,20 @@ export function GraphView({ scenario, onBack }: GraphViewProps) {
         .filter(Boolean) as CatenoNode[]) ?? [],
     [focusedNode, nodeMap],
   );
+
+  // Click handler: mark as local so the effect skips it, then update state + push URL.
+  function handleNodeClick(nodeId: string) {
+    isLocalNav.current = true;
+    focusNode(nodeId);
+    onNodeFocus(nodeId);
+  }
+
+  // Clear handler: mark as local, update state + replace URL (clearing isn't a back-able step).
+  function handleClear() {
+    isLocalNav.current = true;
+    clearFocus();
+    onFocusClear();
+  }
 
   return (
     <div
@@ -82,16 +119,16 @@ export function GraphView({ scenario, onBack }: GraphViewProps) {
           visitedNodeIds={visitedNodeIds}
           focusedNodeId={focusedNodeId}
           connectedIds={connectedIds}
-          onNodeClick={focusNode}
-          onPaneClick={clearFocus}
+          onNodeClick={handleNodeClick}
+          onPaneClick={handleClear}
         />
 
         <DetailPanel
           node={focusedNode}
           causeNodes={causeNodes}
           effectNodes={effectNodes}
-          onChipClick={focusNode}
-          onClose={clearFocus}
+          onChipClick={handleNodeClick}
+          onClose={handleClear}
         />
       </div>
 
@@ -100,7 +137,7 @@ export function GraphView({ scenario, onBack }: GraphViewProps) {
         scenario={scenario}
         visibleNodeIds={visibleNodeIds}
         focusedNodeId={focusedNodeId}
-        onNodeClick={focusNode}
+        onNodeClick={handleNodeClick}
       />
 
       {/* Keyword legend — fixed overlay, sits above the timeline bar */}
