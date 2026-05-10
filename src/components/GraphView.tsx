@@ -5,6 +5,7 @@ import { CatenoGraph } from "./CatenoGraph";
 import { DetailPanel } from "./DetailPanel";
 import { TimelineBar } from "./TimelineBar";
 import { Legend } from "./Legend";
+import { OnboardingHint } from "./OnboardingHint";
 import { getScenarioGradient } from "../theme";
 import type { CatenoScenario, CatenoNode } from "../types";
 
@@ -122,6 +123,8 @@ export function GraphView({ scenario, initialNodeId, onBack, onNodeFocus, onFocu
           onNodeClick={handleNodeClick}
           onPaneClick={handleClear}
         />
+
+        <OnboardingHint />
 
         <DetailPanel
           node={focusedNode}
