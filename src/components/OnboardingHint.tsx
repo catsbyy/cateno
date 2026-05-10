@@ -7,6 +7,7 @@ const HINTS = [
   "Click any node to explore its connections",
   "+N shows how many new events will be revealed",
   "Browser ← goes back to the previous node",
+  "TYPE ↑ in the corner shows event categories",
   "Reload the page to start over",
 ];
 
