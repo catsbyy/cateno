@@ -1,5 +1,5 @@
 // Full-screen graph view for a single scenario: header, graph canvas, detail panel, timeline, and legend.
-import { useMemo, useEffect, useRef } from "react";
+import { useMemo, useEffect, useRef, useState } from "react";
 import { useGraph } from "../hooks/useGraph";
 import { CatenoGraph } from "./CatenoGraph";
 import { DetailPanel } from "./DetailPanel";
@@ -19,8 +19,21 @@ interface GraphViewProps {
 
 // Keyed by scenario.id in App.tsx so all state resets when the scenario changes.
 export function GraphView({ scenario, initialNodeId, onBack, onNodeFocus, onFocusClear }: GraphViewProps) {
-  const { visibleNodeIds, visitedNodeIds, focusedNodeId, connectedIds, focusNode, clearFocus } =
+  const { visibleNodeIds, visitedNodeIds, focusedNodeId, connectedIds, focusNode, clearFocus, revealAll, reset } =
     useGraph(scenario);
+
+  // Hint overlay — auto-shows once on first visit, always triggerable via ? button.
+  const HINT_KEY = "cateno_hint_seen";
+  const [hintOpen, setHintOpen] = useState(false);
+  useEffect(() => {
+    if (localStorage.getItem(HINT_KEY)) return;
+    const id = setTimeout(() => setHintOpen(true), 1500);
+    return () => clearTimeout(id);
+  }, []);
+  function closeHint() {
+    setHintOpen(false);
+    localStorage.setItem(HINT_KEY, "1");
+  }
 
   // When the user clicks a node we update both graph state and the URL ourselves,
   // so we don't want the effect below to re-fire. This ref lets us skip it.
@@ -124,7 +137,37 @@ export function GraphView({ scenario, initialNodeId, onBack, onNodeFocus, onFocu
           onPaneClick={handleClear}
         />
 
-        <OnboardingHint />
+        <OnboardingHint open={hintOpen} onClose={closeHint} />
+
+        {/* ? button — bottom-left, always visible */}
+        <button
+          onClick={() => setHintOpen(true)}
+          aria-label="Show hints"
+          style={{
+            position: "absolute",
+            bottom: 16,
+            left: 16,
+            zIndex: 101,
+            width: 24,
+            height: 24,
+            borderRadius: "50%",
+            background: "#1a1a1a",
+            border: "1px solid #2e2e2e",
+            color: "#E8E3D5",
+            fontSize: 12,
+            lineHeight: 1,
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            opacity: 0.4,
+            transition: "opacity 0.15s ease",
+          }}
+          onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
+          onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.4")}
+        >
+          ?
+        </button>
 
         <DetailPanel
           node={focusedNode}
@@ -141,6 +184,8 @@ export function GraphView({ scenario, initialNodeId, onBack, onNodeFocus, onFocu
         visibleNodeIds={visibleNodeIds}
         focusedNodeId={focusedNodeId}
         onNodeClick={handleNodeClick}
+        onRevealAll={revealAll}
+        onReset={() => { reset(); onFocusClear(); }}
       />
 
       {/* Keyword legend — fixed overlay, sits above the timeline bar */}

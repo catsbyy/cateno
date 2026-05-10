@@ -9,7 +9,6 @@ function parsePeriod(period: string): [number, number] {
     const trimmed = s.trim();
     const num = parseInt(trimmed.match(/\d+/)?.[0] ?? "0", 10);
     const isBC = trimmed.toUpperCase().includes("BC");
-    console.log("parsing:", trimmed, "→ isBC:", isBC, "num:", num);
     return isBC ? -num : num;
   };
   if (parts.length >= 2) return [parse(parts[0]), parse(parts[1])];
@@ -28,9 +27,18 @@ interface TimelineBarProps {
   visibleNodeIds: Set<string>;
   focusedNodeId: string | null;
   onNodeClick: (id: string) => void;
+  onRevealAll: () => void;
+  onReset: () => void;
 }
 
-export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeClick }: TimelineBarProps) {
+export function TimelineBar({
+  scenario,
+  visibleNodeIds,
+  focusedNodeId,
+  onNodeClick,
+  onRevealAll,
+  onReset,
+}: TimelineBarProps) {
   const isMobile = useIsMobile();
   const [periodStart, periodEnd] = parsePeriod(scenario.period);
   const periodSpan = periodEnd - periodStart || 1;
@@ -280,11 +288,77 @@ export function TimelineBar({ scenario, visibleNodeIds, focusedNodeId, onNodeCli
         {formatYear(periodEnd)}
       </span>
 
-      {/* Node count — desktop only */}
+      {/* Reveal all / Reset — mobile icon buttons */}
+      {isMobile && (
+        <div className="shrink-0 flex items-center">
+          {visibleNodeIds.size < scenario.nodes.length ? (
+            <button
+              onClick={onRevealAll}
+              aria-label="Reveal all"
+              style={{
+                background: "none",
+                border: "none",
+                padding: "2px 4px",
+                color: "#E8E3D5",
+                opacity: 0.35,
+                fontSize: 18,
+                lineHeight: 1,
+                cursor: "pointer",
+              }}
+              onPointerDown={(e) => (e.currentTarget.style.opacity = "0.65")}
+              onPointerUp={(e) => (e.currentTarget.style.opacity = "0.35")}
+              onPointerLeave={(e) => (e.currentTarget.style.opacity = "0.35")}
+            >
+              ⊕
+            </button>
+          ) : (
+            <button
+              onClick={onReset}
+              aria-label="Reset"
+              style={{
+                background: "none",
+                border: "none",
+                padding: "2px 4px",
+                color: "#E8E3D5",
+                opacity: 0.35,
+                fontSize: 18,
+                lineHeight: 1,
+                cursor: "pointer",
+              }}
+              onPointerDown={(e) => (e.currentTarget.style.opacity = "0.65")}
+              onPointerUp={(e) => (e.currentTarget.style.opacity = "0.35")}
+              onPointerLeave={(e) => (e.currentTarget.style.opacity = "0.35")}
+            >
+              ↺
+            </button>
+          )}
+        </div>
+      )}
+
+      {/* Node count + Reveal all / Reset — desktop only */}
       {!isMobile && (
-        <span className="text-[#E8E3D5]/20 text-[10px] font-sans whitespace-nowrap">
-          {visibleNodes.length} / {scenario.nodes.length} events
-        </span>
+        <div className="flex items-center gap-3 shrink-0">
+          <span className="text-[#E8E3D5]/20 text-[10px] font-sans whitespace-nowrap">
+            {visibleNodes.length} / {scenario.nodes.length} events
+          </span>
+          {visibleNodeIds.size < scenario.nodes.length ? (
+            <button
+              onClick={onRevealAll}
+              className="text-[#E8E3D5]/35 hover:text-[#E8E3D5]/60 transition-colors duration-150 text-[11px] font-sans whitespace-nowrap cursor-pointer"
+              style={{ background: "none", border: "none", padding: 0 }}
+            >
+              Reveal all
+            </button>
+          ) : (
+            <button
+              onClick={onReset}
+              className="text-[#E8E3D5]/35 hover:text-[#E8E3D5]/60 transition-colors duration-150 text-[11px] font-sans whitespace-nowrap cursor-pointer"
+              style={{ background: "none", border: "none", padding: 0 }}
+            >
+              Reset
+            </button>
+          )}
+        </div>
       )}
     </div>
   );

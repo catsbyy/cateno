@@ -50,5 +50,17 @@ export function useGraph(scenario: CatenoScenario) {
     setFocusedNodeId(null);
   }, []);
 
-  return { visibleNodeIds, visitedNodeIds, focusedNodeId, connectedIds, focusNode, clearFocus };
+  // Reveal every node in the scenario at once.
+  const revealAll = useCallback(() => {
+    setVisibleNodeIds(new Set(scenario.nodes.map((n) => n.id)));
+  }, [scenario]);
+
+  // Reset to the initial seed state — as if the scenario was just opened.
+  const reset = useCallback(() => {
+    setVisibleNodeIds(new Set(seedIds));
+    setFocusedNodeId(null);
+    setVisitedNodeIds(new Set());
+  }, [seedIds]);
+
+  return { visibleNodeIds, visitedNodeIds, focusedNodeId, connectedIds, focusNode, clearFocus, revealAll, reset };
 }
