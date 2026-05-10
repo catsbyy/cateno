@@ -104,7 +104,8 @@
       "alliance-system"
     ],
     "effectIds": [
-      "german-blank-cheque"
+      "german-blank-cheque",
+      "italy-switches-sides"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -579,8 +580,7 @@
     ],
     "effectIds": [
       "globalization-of-war",
-      "trench-warfare-emerges",
-      "gallipoli-campaign"
+      "trench-warfare-emerges"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -601,7 +601,9 @@
       "us-enters-war",
       "colonial-troops-mobilized",
       "gallipoli-campaign",
-      "ottoman-collapse"
+      "ottoman-entry-war",
+      "arab-revolt",
+      "italy-switches-sides"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -619,7 +621,8 @@
     ],
     "effectIds": [
       "battle-of-somme",
-      "war-of-attrition"
+      "war-of-attrition",
+      "new-weapons-technology"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -633,11 +636,12 @@
     "keyword": "turning-point",
     "summary": "Winston Churchill's plan to force the Dardanelles and knock Ottoman Turkey out of the war began as a naval operation in February 1915 and escalated into a grinding land campaign that lasted until January 1916. Allied forces suffered approximately 250,000 casualties; the Ottomans suffered similar losses. The failure ended Churchill's time as First Lord of the Admiralty, demonstrated the limits of amphibious operations against prepared defences, and hardened the Gallipoli front into another attritional stalemate.",
     "causeIds": [
-      "ww1-outbreak",
-      "globalization-of-war"
+      "globalization-of-war",
+      "colonial-troops-mobilized",
+      "ottoman-entry-war"
     ],
     "effectIds": [
-      "ottoman-collapse"
+      "arab-revolt"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -674,7 +678,9 @@
     ],
     "effectIds": [
       "home-front-pressure",
-      "russian-revolution"
+      "russian-revolution",
+      "new-weapons-technology",
+      "austria-hungary-collapse"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -691,7 +697,8 @@
       "globalization-of-war"
     ],
     "effectIds": [
-      "home-front-pressure"
+      "home-front-pressure",
+      "gallipoli-campaign"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -763,7 +770,8 @@
       "russian-revolution"
     ],
     "effectIds": [
-      "german-collapse"
+      "german-collapse",
+      "austria-hungary-collapse"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -777,11 +785,10 @@
     "keyword": "collapse",
     "summary": "The Ottoman Empire fought on four fronts simultaneously: Gallipoli, Mesopotamia, Palestine, and the Caucasus. The Arab Revolt (1916) and General Allenby's Palestine campaign (1917–1918) collapsed the southern front; British forces took Baghdad in 1917 and Jerusalem in December 1917. By October 1918 the Ottoman military was disintegrating. The Armistice of Mudros on October 30, 1918 ended Ottoman participation in the war, setting the stage for the empire's dismemberment.",
     "causeIds": [
-      "gallipoli-campaign",
-      "globalization-of-war"
+      "allenby-palestine-campaign"
     ],
     "effectIds": [
-      "treaty-of-versailles"
+      "treaty-of-sevres"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -797,10 +804,12 @@
     "causeIds": [
       "us-enters-war",
       "home-front-pressure",
-      "eastern-front-collapses"
+      "eastern-front-collapses",
+      "new-weapons-technology"
     ],
     "effectIds": [
-      "armistice-1918"
+      "armistice-1918",
+      "weimar-republic"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -817,7 +826,10 @@
       "german-collapse"
     ],
     "effectIds": [
-      "treaty-of-versailles"
+      "treaty-of-versailles",
+      "league-of-nations",
+      "treaty-of-saint-germain-trianon",
+      "treaty-of-sevres"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -831,8 +843,227 @@
     "keyword": "consequence",
     "summary": "The Treaty of Versailles (June 1919) imposed full war guilt on Germany, required reparations eventually set at 132 billion gold marks, stripped Germany of its colonies and roughly 13% of its territory including Alsace-Lorraine, and limited its army to 100,000 men. Germany was excluded from the negotiations entirely. The combination of humiliation, financial burden, and territorial loss created the conditions of resentment and economic instability that Adolf Hitler would systematically exploit fifteen years later.",
     "causeIds": [
-      "armistice-1918",
+      "armistice-1918"
+    ],
+    "effectIds": [
+      "weimar-republic",
+      "league-of-nations",
+      "new-world-order",
+      "rise-of-nazism"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "ottoman-entry-war",
+    "title": "Ottoman Empire Enters the War",
+    "wiki": "Ottoman_Empire_in_World_War_I",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg026lS3m-rjBi1BB5ORVI8DcHTQCO6DWif8ghj6LXvwCzdpSQz6mOhx1p8nfMC7QcK3Wbd_EAd005g7uFPfLOtm9cq_AM58TIDHKlToG2LVpM7R0wF-6u9V_yh4L-3Nx4uJJVIsZw8igRK/s1600/00turks01.jpg",
+    "year": 1914,
+    "keyword": "turning-point",
+    "summary": "The Ottoman Empire entered the war on the side of the Central Powers in October 1914, after a secret alliance with Germany signed in August. The Ottomans opened new fronts across the Middle East, Caucasus, and Gallipoli, stretching Allied resources. Their entry also gave Britain a strategic incentive to dismember the empire — plans for post-war partition of Ottoman territory (the Sykes-Picot Agreement, 1916) began almost immediately, with consequences for the Middle East still unresolved today.",
+    "causeIds": [
+      "globalization-of-war"
+    ],
+    "effectIds": [
+      "gallipoli-campaign",
+      "arab-revolt"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "arab-revolt",
+    "title": "Arab Revolt",
+    "wiki": "Arab_Revolt",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/030Arab.jpg",
+    "year": 1916,
+    "keyword": "catalyst",
+    "summary": "Sharif Hussein of Mecca launched the Arab Revolt against Ottoman rule in June 1916, backed by British promises of Arab independence and coordinated by liaison officers including T.E. Lawrence. Arab forces tied down Ottoman troops across the Hejaz and Syria, disrupting supply lines and communications. The revolt opened the southern front that — combined with General Allenby's Palestine campaign — ultimately collapsed Ottoman military power in the Middle East.",
+    "causeIds": [
+      "gallipoli-campaign",
+      "ottoman-entry-war",
+      "globalization-of-war"
+    ],
+    "effectIds": [
+      "allenby-palestine-campaign"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "allenby-palestine-campaign",
+    "title": "Allenby's Palestine Campaign",
+    "wiki": "Sinai_and_Palestine_campaign",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Turkish_howitzer_10.5cm_leFH_98_09_LOC_00121.jpg",
+    "year": 1917,
+    "keyword": "turning-point",
+    "summary": "General Edmund Allenby's Egyptian Expeditionary Force captured Jerusalem in December 1917 and broke through Ottoman lines at Megiddo in September 1918 — one of the most complete cavalry victories of the war. Combined with the Arab Revolt's disruption of Ottoman supply lines, the campaign destroyed Ottoman military capacity in the Middle East. The Armistice of Mudros on October 30, 1918 ended Ottoman participation in the war, five weeks before Germany's own armistice.",
+    "causeIds": [
+      "arab-revolt"
+    ],
+    "effectIds": [
       "ottoman-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "new-weapons-technology",
+    "title": "New Weapons Break the Stalemate",
+    "wiki": "Military_technology_during_World_War_I",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Tanks_on_parade_in_London_at_the_end_of_World_War_I%2C_1918_%283056450509%29.jpg",
+    "year": 1916,
+    "keyword": "shift",
+    "summary": "The static horror of the trenches drove both sides to develop new weapons at extraordinary speed. Poison gas (first used at Ypres in 1915), tanks (debuted on the Somme in 1916, decisive at Cambrai in 1917), and ground-attack aircraft fundamentally changed the battlefield by 1918. The Hundred Days Offensive of 1918 — which broke the German army — depended on combined-arms tactics integrating tanks, artillery, infantry, and aircraft in ways the war's opening battles could not have imagined.",
+    "causeIds": [
+      "trench-warfare-emerges",
+      "war-of-attrition"
+    ],
+    "effectIds": [
+      "german-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "italy-switches-sides",
+    "title": "Italy Switches to the Allies",
+    "wiki": "Italy_in_World_War_I",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Interventisti_Bologna_1914.jpg",
+    "year": 1915,
+    "keyword": "shift",
+    "summary": "Italy had been a member of the Triple Alliance with Germany and Austria-Hungary but declared neutrality in 1914, arguing the alliance was defensive and Austria-Hungary was the aggressor. In April 1915, Italy secretly signed the Treaty of London with the Entente powers, promised territories including Trentino, Trieste, and Dalmatia in exchange for joining the war against its former allies. Italy opened a new front against Austria-Hungary along the Isonzo River — eleven costly battles that achieved little until the disaster at Caporetto in 1917.",
+    "causeIds": [
+      "globalization-of-war",
+      "triple-alliance"
+    ],
+    "effectIds": [
+      "austria-hungary-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "austria-hungary-collapse",
+    "title": "Austria-Hungary Collapses",
+    "wiki": "Dissolution_of_Austria-Hungary",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWMQ078ZalikMxmW_exG8LSBWW0fWbbIvIIe8RKWocCYw7S-QnG4PZgiexAZLP5UXhQBcTqmvcsmbzen0eZlGL4ygdBJQdtvlLg_tXLrTQo1qNrVfjVLQQEggA18MV-cMNfVd4oRxmgT2hgyYjQY3TLeZESJ4yS20ThpehrvLGJdbgvv3Jd8ylHmY3N1U/w1200-h630-p-k-no-nu/roads_dissolutionah_1.jpg",
+    "year": 1918,
+    "keyword": "collapse",
+    "summary": "Austria-Hungary disintegrated in October–November 1918 — not merely defeated militarily but dissolved as a political entity. Czech, Slovak, South Slav, and Polish national councils declared independence simultaneously; the Habsburg emperor Karl I abdicated on November 11. The multi-ethnic empire that had made the July Crisis possible had ceased to exist. From its ruins emerged Austria, Hungary, Czechoslovakia, Yugoslavia, and parts of Romania and Poland — a complete redrawing of Central Europe whose borders generated conflicts throughout the 20th century.",
+    "causeIds": [
+      "war-of-attrition",
+      "italy-switches-sides",
+      "eastern-front-collapses"
+    ],
+    "effectIds": [
+      "treaty-of-saint-germain-trianon"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "treaty-of-saint-germain-trianon",
+    "title": "Treaties Dismember Austria-Hungary",
+    "wiki": "Treaty_of_Saint-Germain-en-Laye_(1919)",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/TratadoDeSaintGermainRenner.png",
+    "year": 1919,
+    "keyword": "consequence",
+    "summary": "The Treaty of Saint-Germain (September 1919) formally dissolved the Austrian Empire and the Treaty of Trianon (June 1920) partitioned Hungary — together stripping the former empire of two-thirds of its territory and population. Hungary alone lost Transylvania to Romania, Slovakia to Czechoslovakia, and Croatia to Yugoslavia. These settlements created multiple ethnic minorities in the wrong states, generating the irredentist grievances that would fuel instability across Central Europe through the 1930s and beyond.",
+    "causeIds": [
+      "austria-hungary-collapse",
+      "armistice-1918"
+    ],
+    "effectIds": [
+      "new-world-order"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "treaty-of-sevres",
+    "title": "Treaty of Sèvres",
+    "wiki": "Treaty_of_Sèvres",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Sevres_signing.jpg",
+    "year": 1920,
+    "keyword": "consequence",
+    "summary": "The Treaty of Sèvres (August 1920) partitioned the Ottoman Empire between Britain, France, Greece, Italy, and Armenia — leaving Turkey only a rump state in northern Anatolia. It was never implemented: Mustafa Kemal's nationalist forces rejected it, defeated the Greek army in the Greco-Turkish War (1919–1922), and negotiated a replacement Treaty of Lausanne (1923) on far better terms. The Sèvres/Lausanne settlement drew the modern borders of the Middle East and planted the seeds of the Kurdish question, the Israeli-Palestinian conflict, and decades of regional instability.",
+    "causeIds": [
+      "ottoman-collapse",
+      "armistice-1918"
+    ],
+    "effectIds": [
+      "new-world-order"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "weimar-republic",
+    "title": "Weimar Republic Founded",
+    "wiki": "Weimar_Republic",
+     "imageUrl": "https://cdn.britannica.com/18/197018-050-C91372BC/armistice-officials-Allied-German-signing-fighting-World-November-11-1918.jpg",
+    "year": 1919,
+    "keyword": "consequence",
+    "summary": "Germany's new democratic republic — proclaimed on November 9, 1918, two days before the armistice — was born under the worst possible conditions. It was immediately blamed by the military for the defeat (the 'stab-in-the-back' myth), forced to sign the humiliating Versailles treaty, and confronted with hyperinflation, Communist uprisings, and right-wing coups (the Kapp Putsch, the Beer Hall Putsch). The republic was democratic in law but fragile in culture — a political system that most of its subjects neither trusted nor wanted.",
+    "causeIds": [
+      "treaty-of-versailles",
+      "german-collapse"
+    ],
+    "effectIds": [
+      "rise-of-nazism"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "rise-of-nazism",
+    "title": "Rise of Nazism",
+    "wiki": "Adolf_Hitler%27s_rise_to_power",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Hitler_as_young_man.jpg",
+    "year": 1933,
+    "keyword": "consequence",
+    "summary": "Adolf Hitler's National Socialist German Workers' Party exploited every wound the war and Versailles had left open: the stab-in-the-back myth, the humiliation of reparations, the territorial losses, the economic devastation of hyperinflation and then the Great Depression. Hitler was appointed Chancellor in January 1933 within the legal framework of the Weimar Republic he intended to destroy. The path from Sarajevo 1914 to Berlin 1933 was not inevitable — but it was direct.",
+    "causeIds": [
+      "weimar-republic",
+      "treaty-of-versailles"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "league-of-nations",
+    "title": "League of Nations Founded",
+    "wiki": "League_of_Nations",
+    "imageUrl": "https://i.natgeofe.com/n/39ee9244-1efb-470d-a320-37c77fbfc4a9/league-nations-reference-3224934.jpg",
+    "year": 1920,
+    "keyword": "consequence",
+    "summary": "Woodrow Wilson's Fourteen Points had promised a post-war order based on national self-determination and collective security, with the League of Nations as its institutional expression. The League was founded in 1920 — and the United States Senate refused to ratify membership, leaving Wilson's creation without its intended anchor. The League proved unable to stop Japanese expansion in Manchuria (1931), Italian invasion of Ethiopia (1935), or German rearmament — its failure demonstrating that international institutions without great-power commitment are only as strong as their weakest member's interests.",
+    "causeIds": [
+      "treaty-of-versailles",
+      "armistice-1918"
+    ],
+    "effectIds": [
+      "new-world-order"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "new-world-order",
+    "title": "A Shattered and Redrawn World",
+    "wiki": "Aftermath_of_World_War_I",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/William_Orpen_-_The_Signing_of_Peace_in_the_Hall_of_Mirrors.jpg",
+    "year": 1923,
+    "keyword": "consequence",
+    "summary": "By 1923, four empires had ceased to exist — the Ottoman, Austro-Hungarian, Russian, and German — and the map of Europe and the Middle East had been redrawn almost entirely. The League of Nations promised collective security but lacked the power to enforce it. New nations built on self-determination contained millions of minorities in the wrong countries. The United States retreated into isolationism. The war that was supposed to end all wars had instead created the economic ruin, territorial resentments, and ideological extremism that would produce a second, deadlier one within twenty years.",
+    "causeIds": [
+      "treaty-of-versailles",
+      "treaty-of-sevres",
+      "treaty-of-saint-germain-trianon",
+      "league-of-nations"
     ],
     "effectIds": [],
     "isAnchor": false,

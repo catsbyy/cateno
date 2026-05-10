@@ -51,7 +51,7 @@ export const SCENARIOS: CatenoScenario[] = [
   {
     id: "wwi",
     title: "World War I",
-    period: "1871–1919",
+    period: "1871–1933",
     description:
       "One assassination. Thirty-seven days. How a continent armed to the teeth and bound by rigid alliances sleepwalked into the deadliest war in human history.",
     anchorId: "assassination-franz-ferdinand",
