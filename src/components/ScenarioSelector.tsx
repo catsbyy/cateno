@@ -34,7 +34,7 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <h1 className="text-[#E8E3D5] text-5xl md:text-6xl font-serif tracking-tight mb-3">Cateno</h1>
-        <p className="text-[#E8E3D5]/35 text-[11px] font-sans uppercase tracking-[0.25em]">
+        <p className="text-[#E8E3D5]/45 text-[11px] font-sans uppercase tracking-[0.25em]">
           A cause-and-effect history explorer
         </p>
       </motion.div>
@@ -69,7 +69,7 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
 
                   {/* Card content lifted above pattern */}
                   <div className="flex flex-col flex-1 relative" style={{ zIndex: 1 }}>
-                    <p className="text-[#E8E3D5]/30 text-[10px] font-sans uppercase tracking-[0.2em] mb-3">
+                    <p className="text-[#E8E3D5]/55 text-[10px] font-sans uppercase tracking-[0.2em] mb-3">
                       {scenario.period}
                     </p>
                     <h2 className="text-[#E8E3D5] text-[22px] font-serif leading-snug mb-3">{scenario.title}</h2>
@@ -77,13 +77,13 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
                       {scenario.description}
                     </p>
                     <div className="pt-4 mb-auto" style={{ borderTop: "1px solid #1e1e1e" }}>
-                      <p className="text-[#E8E3D5]/25 text-[10px] font-sans uppercase tracking-[0.15em] mb-1">
+                      <p className="text-[#E8E3D5]/45 text-[10px] font-sans uppercase tracking-[0.15em] mb-1">
                         Anchor event
                       </p>
-                      <p className="text-[#E8E3D5]/55 text-[12px] font-sans">{anchor?.title ?? "—"}</p>
+                      <p className="text-[#E8E3D5]/75 text-[12px] font-sans">{anchor?.title ?? "—"}</p>
                     </div>
                     <div className="mt-4 min-h-[44px] md:min-h-0 flex items-center">
-                      <span className="text-[11px] font-sans uppercase tracking-[0.15em] text-[#E8E3D5]/40 opacity-0 group-hover:opacity-100 transition-opacity duration-150 ease-out">
+                      <span className="text-[11px] font-sans uppercase tracking-[0.15em] text-[#E8E3D5]/50 opacity-0 group-hover:opacity-100 transition-opacity duration-150 ease-out">
                         Begin
                       </span>
                     </div>
