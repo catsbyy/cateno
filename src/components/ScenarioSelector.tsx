@@ -65,7 +65,7 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
                   transition={{ duration: 0.45, delay: 0.12 + globalIdx * 0.08, ease: "easeOut" }}
                 >
                   {/* Per-scenario background pattern */}
-                  <ScenarioPatternSvg scenarioId={scenario.id} opacity={0.04} />
+                  <ScenarioPatternSvg scenarioId={scenario.id} opacity={0.06} />
 
                   {/* Card content lifted above pattern */}
                   <div className="flex flex-col flex-1 relative" style={{ zIndex: 1 }}>
