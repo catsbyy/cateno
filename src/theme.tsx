@@ -18,6 +18,7 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "mongols":                "#1a0e06",
   "polynesia":              "#051418",
   "zheng-he":               "#061410",
+  "louisiana-purchase":     "#0e1a0a",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -32,6 +33,7 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "mongols":                "radial-gradient(ellipse at center, #1a0e06 0%, #0D0D0D 70%)",
   "polynesia":              "radial-gradient(ellipse at center, #051418 0%, #0D0D0D 70%)",
   "zheng-he":               "radial-gradient(ellipse at center, #061410 0%, #0D0D0D 70%)",
+  "louisiana-purchase":     "radial-gradient(ellipse at center, #0e1a0a 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -361,6 +363,42 @@ function ZhengHePattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Louisiana Purchase — Mississippi River delta branching waterways
+function LouisianaPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-louisiana-purchase" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+          {/* Main river channel */}
+          <path d="M100,0 C95,40 105,80 100,120 C95,160 105,180 100,200"
+                fill="none" stroke="white" strokeWidth="1"/>
+          {/* Left tributaries */}
+          <path d="M100,40 C80,50 60,45 40,55"
+                fill="none" stroke="white" strokeWidth="0.6"/>
+          <path d="M100,80 C75,85 55,80 30,90"
+                fill="none" stroke="white" strokeWidth="0.5"/>
+          <path d="M100,120 C80,125 65,120 45,130"
+                fill="none" stroke="white" strokeWidth="0.4"/>
+          {/* Right tributaries */}
+          <path d="M100,50 C120,58 140,52 165,60"
+                fill="none" stroke="white" strokeWidth="0.6"/>
+          <path d="M100,90 C125,94 145,88 170,96"
+                fill="none" stroke="white" strokeWidth="0.5"/>
+          <path d="M100,130 C118,134 138,128 160,136"
+                fill="none" stroke="white" strokeWidth="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-louisiana-purchase)" />
+    </svg>
+  );
+}
+
 // ─── Public export ─────────────────────────────────────────────────────────────
 
 interface ScenarioPatternSvgProps {
@@ -381,6 +419,7 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
     case "mongols":                return <MongolsPattern opacity={opacity} />;
     case "polynesia":              return <PolynesiaPattern opacity={opacity} />;
     case "zheng-he":               return <ZhengHePattern opacity={opacity} />;
+    case "louisiana-purchase":     return <LouisianaPattern opacity={opacity} />;
     default:                       return null;
   }
 }

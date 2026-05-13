@@ -10,6 +10,7 @@ import templarsData from "./templars.json";
 import mongolsData from "./mongols.json";
 import polynesiaData from "./polynesia.json";
 import zhengHeData from "./zheng-he.json";
+import louisianaPurchaseData from "./louisiana-purchase.json";
 
 export const SCENARIOS: CatenoScenario[] = [
   {
@@ -110,5 +111,14 @@ export const SCENARIOS: CatenoScenario[] = [
       "China had the largest ships, the best navigators, and the resources to dominate every ocean on Earth. Then it chose to stop — burned its records, banned its sailors, and forgot what it knew. Sixty years later, Portugal arrived in China's ports with four ships and a cannon.",
     anchorId: "zheng-he-first-voyage",
     nodes: zhengHeData as CatenoScenario["nodes"],
+  },
+  {
+    id: "louisiana-purchase",
+    title: "The Sale That Made America",
+    period: "1697–1853",
+    description:
+      "Napoleon needed money for his European wars. Enslaved people in the Caribbean destroyed the army he sent to stop them. So he sold half a continent to the United States for three cents an acre — and accidentally built a superpower.",
+    anchorId: "louisiana-purchase-signed",
+    nodes: louisianaPurchaseData as CatenoScenario["nodes"],
   },
 ];
