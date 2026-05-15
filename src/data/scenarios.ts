@@ -11,6 +11,7 @@ import mongolsData from "./mongols.json";
 import polynesiaData from "./polynesia.json";
 import zhengHeData from "./zheng-he.json";
 import louisianaPurchaseData from "./louisiana-purchase.json";
+import whalesData from "./whales.json";
 
 export const SCENARIOS: CatenoScenario[] = [
   {
@@ -120,5 +121,14 @@ export const SCENARIOS: CatenoScenario[] = [
       "Napoleon needed money for his European wars. Enslaved people in the Caribbean destroyed the army he sent to stop them. So he sold half a continent to the United States for three cents an acre — and accidentally built a superpower.",
     anchorId: "louisiana-purchase-signed",
     nodes: louisianaPurchaseData as CatenoScenario["nodes"],
+  },
+  {
+    id: "whales",
+    title: "The Oil That Lit the World",
+    period: "900–2005",
+    description:
+      "For centuries, whales powered the Industrial Revolution — their oil lighting factories, lubricating machines, and fuelling the modern world. Their near-extinction forced humans to find an alternative. The alternative was petroleum. The industry that saved the whales from harpoons created a larger threat than the one it replaced.",
+    anchorId: "new-bedford-whaling-peak",
+    nodes: whalesData as CatenoScenario["nodes"],
   },
 ];

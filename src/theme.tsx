@@ -19,6 +19,7 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "polynesia":              "#051418",
   "zheng-he":               "#061410",
   "louisiana-purchase":     "#0e1a0a",
+  "whales":                 "#050e18",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -34,6 +35,7 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "polynesia":              "radial-gradient(ellipse at center, #051418 0%, #0D0D0D 70%)",
   "zheng-he":               "radial-gradient(ellipse at center, #061410 0%, #0D0D0D 70%)",
   "louisiana-purchase":     "radial-gradient(ellipse at center, #0e1a0a 0%, #0D0D0D 70%)",
+  "whales":                 "radial-gradient(ellipse at center, #050e18 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -363,6 +365,37 @@ function ZhengHePattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Whaling — whale fluke breaking the surface, repeated
+function WhalesPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-whales" x="0" y="0" width="200" height="160" patternUnits="userSpaceOnUse">
+          {/* Left fluke */}
+          <path d="M100,100 C85,90 60,75 40,80 C25,84 20,95 30,100 C45,106 70,95 100,100"
+                fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Right fluke */}
+          <path d="M100,100 C115,90 140,75 160,80 C175,84 180,95 170,100 C155,106 130,95 100,100"
+                fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Body hint rising from centre */}
+          <path d="M100,100 C100,85 98,70 96,55"
+                fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Water surface line */}
+          <path d="M0,115 Q50,108 100,115 Q150,122 200,115"
+                fill="none" stroke="white" strokeWidth="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-whales)" />
+    </svg>
+  );
+}
+
 // Louisiana Purchase — Mississippi River delta branching waterways
 function LouisianaPattern({ opacity }: { opacity: number }) {
   return (
@@ -420,6 +453,7 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
     case "polynesia":              return <PolynesiaPattern opacity={opacity} />;
     case "zheng-he":               return <ZhengHePattern opacity={opacity} />;
     case "louisiana-purchase":     return <LouisianaPattern opacity={opacity} />;
+    case "whales":                 return <WhalesPattern opacity={opacity} />;
     default:                       return null;
   }
 }

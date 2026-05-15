@@ -1,0 +1,679 @@
+[
+  {
+    "id": "whale-abundance-preindustrial",
+    "title": "Whales Abundant in Pre-Industrial Oceans",
+    "wiki": "Whaling#History",
+    "year": 900,
+    "keyword": "pressure",
+    "summary": "Before commercial whaling began, the world's oceans teemed with whales in numbers modern observers find almost impossible to imagine. Right whales crowded the Bay of Biscay so thickly that early sailors reported nearly running aground on them. Bowhead whales filled the Arctic seas in their hundreds of thousands. Sperm whales ranged every ocean. These populations had been stable for millennia, shaped by pre-human hunting pressures that barely dented them. The abundance that made whaling seem inexhaustible was also what made the subsequent collapse so catastrophic — there was simply so much to take.",
+    "causeIds": [],
+    "effectIds": [
+      "basque-whaling-origins"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "european-lighting-problem",
+    "title": "Europe's Lighting and Lubrication Problem",
+    "wiki": "History_of_lighting",
+    "year": 1000,
+    "keyword": "pressure",
+    "summary": "Medieval and early modern Europe had an unsolved energy problem: clean, bright, reliable light. Tallow candles from cattle and sheep were smoky and dim; beeswax was expensive; vegetable oils were scarce and needed for food. As cities grew, the demand for street lighting, workshop illumination, and domestic candles grew with them. Industrial machinery needed lubrication that wouldn't freeze, smoke, or corrode. The ocean, it turned out, contained the solution in vast quantities — if only someone could figure out how to harvest it at scale.",
+    "causeIds": [],
+    "effectIds": [
+      "basque-whaling-origins",
+      "coal-gas-lighting",
+      "whale-oil-demand"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "basque-whaling-origins",
+    "title": "Basque Whalers of the Bay of Biscay",
+    "wiki": "Basque_whalers",
+    "year": 1000,
+    "keyword": "spark",
+    "summary": "The Basque people of northern Spain and southern France developed the first systematic commercial whaling industry in the Bay of Biscay, beginning around the 11th century. They perfected the essential technologies — the iron harpoon, the small pursuit boat, the try-works furnace for rendering blubber into oil on shore — that would define whaling for the next eight centuries. Basque whale oil lit the lamps of medieval Europe. So skilled were Basque whalers that other nations hired them as instructors when they wanted to enter the trade. The entire industrial whaling tradition of the modern world descends from techniques developed on the Biscay coast.",
+    "causeIds": [
+      "whale-abundance-preindustrial",
+      "european-lighting-problem"
+    ],
+    "effectIds": [
+      "basque-reach-newfoundland",
+      "whaling-technology-develops"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "whaling-technology-develops",
+    "title": "Whaling Technology Refined",
+    "wiki": "Whaling#Equipment",
+    "year": 1100,
+    "keyword": "shift",
+    "summary": "Over centuries of practice, Basque whalers refined every aspect of their trade into an efficient system. The iron harpoon attached to a line allowed a whale to be held and exhausted before being killed with a lance; the shallop — a small, manoeuvrable wooden boat — allowed pursuit in open water; the try-works, a brick furnace for rendering blubber into oil, allowed processing at sea rather than on shore. These technologies transferred readily to other nations and species. When the Basques' Bay of Biscay grounds ran thin, they simply took their methods further — first to Newfoundland, then to the Arctic, then to the Pacific.",
+    "causeIds": [
+      "basque-whaling-origins"
+    ],
+    "effectIds": [
+      "dutch-english-enter-whaling",
+      "sperm-whale-discovery"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "basque-reach-newfoundland",
+    "title": "Basques Reach the New World",
+    "wiki": "Basque_whalers_in_the_New_World",
+    "year": 1530,
+    "keyword": "turning-point",
+    "summary": "By the 1530s, Basque whalers were operating regularly in the Strait of Belle Isle off Labrador — decades before English colonists settled Virginia, and possibly before Columbus's voyages were widely known in their communities. The Red Bay whaling station in Labrador, excavated archaeologically in the 1970s, reveals an operation of remarkable scale: hundreds of sailors, sophisticated try-works, and the wrecked remains of the San Juan, a Basque galleon that sank in 1565 carrying whale oil worth a fortune. Basque whalers had quietly built a transatlantic industry that European elites barely noticed.",
+    "causeIds": [
+      "basque-whaling-origins"
+    ],
+    "effectIds": [
+      "dutch-english-enter-whaling",
+      "north-atlantic-whales-depleted"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "dutch-english-enter-whaling",
+    "title": "Dutch and English Enter the Trade",
+    "wiki": "Dutch_whaling",
+    "year": 1611,
+    "keyword": "turning-point",
+    "summary": "In 1611, English and Dutch ships arrived at Spitsbergen in the Arctic and found bowhead whales so numerous that the sea was said to be black with them. Both nations immediately recognised the commercial opportunity and established whaling fleets, hiring Basque harpooners as instructors. The Dutch in particular built a massive industry centred at Smeerenburg — 'Blubber Town' — on Spitsbergen, processing thousands of whales per season. By the mid-17th century, Dutch whaling employed tens of thousands of sailors and generated more revenue than the entire Dutch East India Company. The industrialisation of whale killing had begun.",
+    "causeIds": [
+      "basque-reach-newfoundland",
+      "whaling-technology-develops"
+    ],
+    "effectIds": [
+      "north-atlantic-whales-depleted",
+      "whale-oil-demand"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "north-atlantic-whales-depleted",
+    "title": "North Atlantic Whales Nearly Extinct",
+    "wiki": "North_Atlantic_right_whale",
+    "year": 1700,
+    "keyword": "collapse",
+    "summary": "Within a century of intensive Dutch and English hunting, the bowhead whale populations around Spitsbergen had been devastated. Whalers who had once filled their ships in days now spent weeks searching. The North Atlantic right whale — so named because it was the 'right' whale to hunt, being slow, buoyant when dead, and rich in oil — was reduced to functional extinction in European waters by the early 18th century. This was the first ecological warning the whaling industry ignored: abundance is not inexhaustibility. Rather than stop, the industry simply looked further — westward, southward, into the deep Pacific.",
+    "causeIds": [
+      "dutch-english-enter-whaling",
+      "basque-reach-newfoundland"
+    ],
+    "effectIds": [
+      "sperm-whale-discovery",
+      "global-whaling-grounds"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "sperm-whale-discovery",
+    "title": "Sperm Whale Discovered Off Nantucket",
+    "wiki": "Sperm_whale#Whaling",
+    "year": 1712,
+    "keyword": "turning-point",
+    "summary": "In 1712, a Nantucket whaling boat — according to tradition, captained by Christopher Hussey — was blown offshore by a storm and encountered a pod of sperm whales, a species previously unknown to American whalers. One was harpooned and towed back. The sperm whale proved revolutionary: its enormous head contained a cavity filled with spermaceti — a waxy liquid of extraordinary quality as an illuminant and lubricant. Spermaceti candles burned brighter and cleaner than any alternative; spermaceti oil lubricated precision machinery without degrading. A single accidental encounter had unlocked a new industry that would dominate global commerce for over a century.",
+    "causeIds": [
+      "whaling-technology-develops",
+      "north-atlantic-whales-depleted"
+    ],
+    "effectIds": [
+      "nantucket-dominance",
+      "spermaceti-superior-properties"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "spermaceti-superior-properties",
+    "title": "Spermaceti — The Perfect Industrial Oil",
+    "wiki": "Spermaceti",
+    "year": 1720,
+    "keyword": "shift",
+    "summary": "Spermaceti proved to be the most valuable natural substance the whaling industry had ever found. As a lamp oil it burned with a bright, steady, odourless flame — the standard against which all other illuminants were measured (the 'candlepower' unit was literally defined as the light output of a spermaceti candle). As a lubricant it was incomparable: it remained fluid at low temperatures, didn't become acidic, and could lubricate the finest clockwork or the heaviest industrial machinery equally well. Spermaceti was used in precision instruments, in textile manufacturing, in leather treatment, and in the world's first automatic transmissions. No synthetic substitute matched all its properties until the space age.",
+    "causeIds": [
+      "sperm-whale-discovery"
+    ],
+    "effectIds": [
+      "whale-oil-demand",
+      "industrial-revolution-lighting"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "nantucket-dominance",
+    "title": "Nantucket Becomes the Whaling Capital",
+    "wiki": "Nantucket#Whaling",
+    "year": 1750,
+    "keyword": "shift",
+    "summary": "The small island of Nantucket off Cape Cod became the whaling capital of the world in the mid-18th century, sending ships into every ocean in pursuit of sperm whales. Nantucket Quakers developed the industry with characteristic efficiency: they built ships optimised for long voyages, trained the most skilled harpooners, and developed the financial networks that could sustain multi-year expeditions. A Nantucket whaling voyage might last three to four years, visiting the Pacific, Indian Ocean, and Arctic before returning. This global reach was unprecedented for any private commercial enterprise of the era.",
+    "causeIds": [
+      "sperm-whale-discovery"
+    ],
+    "effectIds": [
+      "new-bedford-whaling-peak",
+      "global-whaling-grounds"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "whale-oil-demand",
+    "title": "The Industrial World Runs on Whale Oil",
+    "wiki": "Whale_oil",
+    "year": 1750,
+    "keyword": "pressure",
+    "summary": "By the mid-18th century, whale oil had become a strategic industrial commodity. It lit the street lamps of London, Paris, and Boston. It lubricated the spinning machines and power looms of the early Industrial Revolution — machinery that could not operate without a lubricant that wouldn't freeze in winter or turn rancid in summer heat. It was used in rope-making, leather tanning, soap production, and paint manufacture. Navies required it for maintaining rigging. The British government granted tax exemptions on whale oil imports because the industry was deemed strategically essential. The Industrial Revolution was, in a very literal sense, powered by whales.",
+    "causeIds": [
+      "european-lighting-problem",
+      "spermaceti-superior-properties",
+      "dutch-english-enter-whaling"
+    ],
+    "effectIds": [
+      "new-bedford-whaling-peak",
+      "industrial-revolution-lighting"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "global-whaling-grounds",
+    "title": "Whalers Push Into Every Ocean",
+    "wiki": "Whaling#Grounds",
+    "year": 1791,
+    "keyword": "shift",
+    "summary": "As nearshore stocks declined, American whalers pushed into increasingly remote waters: the Pacific in the 1790s, the Arctic in the 1820s, the Sea of Japan by the 1820s. Whaling charts mapped the world's oceans more comprehensively than any naval survey. Herman Melville's fictional voyage in Moby-Dick traced a route that hundreds of real ships followed. These global expeditions meant that whaling was the first genuinely worldwide extractive industry — operating simultaneously in the Arctic, the equatorial Pacific, and the Southern Ocean, with a single commodity market in New Bedford setting prices that affected whale populations on the opposite side of the Earth.",
+    "causeIds": [
+      "nantucket-dominance",
+      "north-atlantic-whales-depleted"
+    ],
+    "effectIds": [
+      "new-bedford-whaling-peak",
+      "pacific-whales-depleted"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "industrial-revolution-lighting",
+    "title": "Whale Oil Lights the Industrial Revolution",
+    "wiki": "Industrial_Revolution#Energy",
+    "year": 1780,
+    "keyword": "shift",
+    "summary": "The early Industrial Revolution's factories operated largely after dark — and darkness required light. Whale oil lamps illuminated textile mills in Manchester, printing houses in London, and workshops across New England. City governments installed whale oil street lamps by the thousands, making urban life after sunset possible for the first time at scale. The lighthouse system — essential for the maritime trade that supplied the industrial economy — ran entirely on whale oil. Every ship that docked, every factory that ran a night shift, every city street that was safe after dark depended on the harvesting of animals in the world's most remote oceans.",
+    "causeIds": [
+      "whale-oil-demand",
+      "spermaceti-superior-properties"
+    ],
+    "effectIds": [
+      "new-bedford-whaling-peak"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "coal-gas-lighting",
+    "title": "Coal Gas — The First Alternative",
+    "wiki": "Gas_lighting",
+    "year": 1807,
+    "keyword": "shift",
+    "summary": "In 1807, Pall Mall in London became the first street in the world lit by coal gas — a byproduct of coking coal for iron production. Gas lighting was brighter and cheaper than whale oil for fixed installations but required expensive pipeline infrastructure and was unsuitable for ships, rural areas, or portable lamps. It proved that a market existed for alternatives to whale oil, and that consumers would switch if a better option appeared. Coal gas lighting spread rapidly through European and American cities through the 1820s–1850s, slowly eroding whale oil's dominance in urban street lighting while leaving its marine and industrial applications untouched.",
+    "causeIds": [
+      "european-lighting-problem"
+    ],
+    "effectIds": [
+      "search-for-alternatives"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "new-bedford-whaling-peak",
+    "title": "New Bedford — The Whaling Capital of the World",
+    "wiki": "New_Bedford,_Massachusetts#Whaling",
+    "year": 1850,
+    "keyword": "spark",
+    "summary": "By 1850, New Bedford, Massachusetts was the richest city per capita in the United States — possibly in the world. Its harbour held over 400 ships; its fleet of 735 vessels represented a capital investment worth hundreds of millions in modern terms. The industry employed 70,000 sailors and generated $10 million annually. Herman Melville, who sailed from New Bedford on a whaling voyage in 1841, described it as a city that 'landsmen know not of.' New Bedford's merchants built stone mansions; its workers from thirty nations crowded its taverns. The entire economy of southeastern New England depended on animals being hunted in the Pacific. It was the peak — and the last days — of a civilisation built on blubber.",
+    "causeIds": [
+      "nantucket-dominance",
+      "whale-oil-demand",
+      "global-whaling-grounds",
+      "industrial-revolution-lighting"
+    ],
+    "effectIds": [
+      "moby-dick-published",
+      "pacific-whales-depleted",
+      "search-for-alternatives",
+      "baleen-products"
+    ],
+    "isAnchor": true,
+    "isSeed": true
+  },
+  {
+    "id": "moby-dick-published",
+    "title": "Moby-Dick Published",
+    "wiki": "Moby-Dick",
+    "year": 1851,
+    "keyword": "shift",
+    "summary": "Herman Melville published Moby-Dick in 1851 — the most complete literary document of the whaling world at its peak. Melville had sailed as a common seaman on the whaler Acushnet out of New Bedford in 1841 and spent eighteen months in the Pacific. His novel was simultaneously a technical manual of whaling practice, a philosophical meditation on obsession and nature, and an unconscious elegy for an industry approaching its end. Largely ignored on publication, Moby-Dick was rediscovered in the 20th century as the great American novel — and as a portrait of an ecological relationship between humans and whales that no longer exists. The whale Melville described as an invincible force of nature would within decades be hunted to near-extinction.",
+    "causeIds": [
+      "new-bedford-whaling-peak"
+    ],
+    "effectIds": [
+      "cultural-image-of-whale"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "pacific-whales-depleted",
+    "title": "Pacific Whale Populations Collapse",
+    "wiki": "History_of_whaling#Decline_of_American_whaling",
+    "year": 1850,
+    "keyword": "collapse",
+    "summary": "By the 1840s and 1850s, the sperm whale populations of the Pacific — which had seemed infinite to Nantucket captains in 1800 — had been dramatically reduced. Voyages that once returned full in eighteen months now required three or four years to fill a ship's hold. Whale oil prices spiked as the cost of finding whales rose. The industry had repeated its North Atlantic mistake on a global scale: hunting every accessible population to the point of unprofitability, then moving on to find a new one. There were no new populations left. The American whaling industry, the largest in history, had hunted itself into obsolescence.",
+    "causeIds": [
+      "new-bedford-whaling-peak",
+      "global-whaling-grounds"
+    ],
+    "effectIds": [
+      "search-for-alternatives",
+      "whaling-industry-declines"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "search-for-alternatives",
+    "title": "The Search for Whale Oil Substitutes",
+    "wiki": "Whale_oil#Alternatives",
+    "year": 1855,
+    "keyword": "pressure",
+    "summary": "As whale oil prices rose through the 1840s and 1850s, inventors and entrepreneurs across North America and Europe competed to find cheaper alternatives. Camphene (a turpentine distillate) was tried and proved dangerously explosive. Lard oil from pigs worked but was thick and expensive. Coal tar yielded some useful fractions. The critical insight — that petroleum seeping from the ground in Pennsylvania and elsewhere could be refined into a clean-burning illuminant — was being pursued simultaneously by several researchers. The market pull was enormous: whoever could supply a cheaper substitute for whale oil at industrial scale would become fabulously wealthy. Drake's 1859 well was the answer.",
+    "causeIds": [
+      "new-bedford-whaling-peak",
+      "pacific-whales-depleted",
+      "coal-gas-lighting"
+    ],
+    "effectIds": [
+      "petroleum-discovered"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "petroleum-discovered",
+    "title": "Drake Strikes Oil in Pennsylvania",
+    "wiki": "Drake_Well",
+    "year": 1859,
+    "keyword": "turning-point",
+    "summary": "On August 27, 1859, Edwin Drake struck oil at his well in Titusville, Pennsylvania — the first commercially successful oil well in the United States. Within a year, refineries were producing kerosene — a petroleum fraction that burned more brightly and cheaply than whale oil in standard lamps. The timing was not coincidental: decades of rising whale oil prices had created an enormous latent demand for any viable substitute, and dozens of entrepreneurs were simultaneously racing to find one. Drake won. The whale oil industry, which had spent two centuries building a global infrastructure, suddenly had a competitor that could undercut it on price and was available in unlimited quantities directly beneath American soil.",
+    "causeIds": [
+      "search-for-alternatives"
+    ],
+    "effectIds": [
+      "kerosene-replaces-whale-oil",
+      "oil-age-begins"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "kerosene-replaces-whale-oil",
+    "title": "Kerosene Destroys the Whale Oil Market",
+    "wiki": "Kerosene#History",
+    "year": 1860,
+    "keyword": "collapse",
+    "summary": "Kerosene refined from petroleum was available for retail sale in American markets by 1860 at roughly half the price of whale oil. Within a decade, whale oil had been largely displaced from domestic lighting. The economic logic was brutal and swift: a product that had taken centuries to build a global harvesting infrastructure for was made obsolete by a cheaper substitute in less than ten years. New Bedford's whaling fleet, which had numbered 735 ships in 1846, had shrunk to a few dozen by the 1880s. The sailors, the shipbuilders, the coopers who made the barrels — entire communities built on whale oil were displaced in a single generation.",
+    "causeIds": [
+      "petroleum-discovered"
+    ],
+    "effectIds": [
+      "whaling-industry-declines",
+      "oil-age-begins"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "whaling-industry-declines",
+    "title": "American Whaling Industry Collapses",
+    "wiki": "History_of_whaling#Decline_of_American_whaling",
+    "year": 1862,
+    "keyword": "collapse",
+    "summary": "The American whaling industry — which had been the world's largest for a century — collapsed within two decades of Drake's oil well. The combination of depleted whale populations and kerosene competition made whaling economically unviable for most operators. Ships were abandoned, converted, or sold; ports that had lived by the trade declined. A final blow came in 1871, when 33 whaling ships were trapped and crushed by Arctic ice near Point Barrow, Alaska — the worst disaster in American whaling history. The industry that had built New Bedford's stone mansions was gone. But whaling itself did not end — it was simply reinvented elsewhere, with more lethal technology.",
+    "causeIds": [
+      "pacific-whales-depleted",
+      "kerosene-replaces-whale-oil",
+      "baleen-products"
+    ],
+    "effectIds": [
+      "industrial-harpoon"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "oil-age-begins",
+    "title": "The Oil Age Begins",
+    "wiki": "Petroleum_industry#History",
+    "year": 1865,
+    "keyword": "consequence",
+    "summary": "The petroleum industry that displaced whale oil quickly grew far beyond lighting. John D. Rockefeller consolidated American oil refining into Standard Oil by 1870; by 1900 petroleum was fuelling the internal combustion engine and the automobile. The industry that whales had accidentally seeded — by creating the demand for an alternative illuminant — became the dominant force in the global economy, in international geopolitics, and in the Earth's climate system. The whaling industry's environmental damage, which killed perhaps a few million animals, was dwarfed by the fossil fuel industry's, which altered the chemistry of the entire atmosphere. One extractive industry, made obsolete by resource depletion, had been replaced by an infinitely larger one.",
+    "causeIds": [
+      "kerosene-replaces-whale-oil",
+      "petroleum-discovered"
+    ],
+    "effectIds": [
+      "fossil-fuel-era"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "industrial-harpoon",
+    "title": "Svend Foyn's Exploding Harpoon",
+    "wiki": "Svend_Foyn",
+    "year": 1864,
+    "keyword": "shift",
+    "summary": "Norwegian inventor Svend Foyn patented the exploding grenade harpoon in 1864 and mounted it on a steam-powered catcher boat — solving the two problems that had made the fastest, largest whales unkillable with traditional methods. A blue whale can swim at 30 kilometres per hour and sinks when dead; no rowing crew could catch it and no hand-thrown harpoon could reliably kill it. Foyn's cannon-fired explosive harpoon killed instantly from a distance; the steam catcher could pursue any whale regardless of speed; and compressed air could be pumped into the carcass to float it. The last natural refuge of the largest animals on Earth had been eliminated by engineering.",
+    "causeIds": [
+      "whaling-industry-declines"
+    ],
+    "effectIds": [
+      "norwegian-industrial-whaling",
+      "blue-whales-targeted"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "norwegian-industrial-whaling",
+    "title": "Norway Industrialises Whaling",
+    "wiki": "Norwegian_whaling",
+    "year": 1868,
+    "keyword": "turning-point",
+    "summary": "Svend Foyn's first commercial whaling station at Vadsø, Norway, in 1868 launched a new era of industrialised whaling. Norwegian companies combined steam catchers, explosive harpoons, and factory processing ships into an integrated killing and processing system of extraordinary efficiency. The product was no longer primarily whale oil for lamps — that market had been lost to kerosene. Instead whale carcasses were converted into margarine (whale oil hydrogenated to solid fat), soap, animal feed, and eventually fertiliser. Whale meat began entering the human food supply. Whaling had found a new commercial rationale just as the old one collapsed, ensuring that hunting would continue at unprecedented scale.",
+    "causeIds": [
+      "industrial-harpoon"
+    ],
+    "effectIds": [
+      "blue-whales-targeted",
+      "antarctic-whaling"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "blue-whales-targeted",
+    "title": "The Great Whales Now Huntable",
+    "wiki": "Blue_whale#Whaling",
+    "year": 1870,
+    "keyword": "collapse",
+    "summary": "Before Foyn's harpoon, the blue whale — the largest animal that has ever lived, reaching 30 metres and 190 tonnes — was effectively unhuntable. It was too fast for rowing boats and sank immediately when killed. With steam catchers and explosive harpoons, it became the most commercially desirable target: more oil per animal than any other species. Norwegian, British, and eventually Soviet and Japanese fleets hunted blue whales systematically from the 1870s onward. An estimated 380,000 blue whales were killed in the 20th century alone — roughly 99% of the global population. The largest creature that has ever existed on Earth was hunted to the edge of extinction within a single human lifetime.",
+    "causeIds": [
+      "industrial-harpoon",
+      "norwegian-industrial-whaling"
+    ],
+    "effectIds": [
+      "whale-population-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "antarctic-whaling",
+    "title": "Antarctic Whaling Begins",
+    "wiki": "Antarctic_whaling",
+    "year": 1904,
+    "keyword": "turning-point",
+    "summary": "Norwegian explorer Carl Anton Larsen established the first Antarctic whaling station at Grytviken, South Georgia, in 1904. The Southern Ocean held the last great untouched whale populations on Earth — enormous aggregations of blue, fin, and humpback whales feeding on krill in waters no previous whaling industry had reached. Factory ships that could process entire whales at sea without needing shore stations were developed specifically for Antarctic operations, allowing fleets to remain in southern waters for entire seasons. At peak Antarctic whaling in the 1930s, over 46,000 whales were killed in a single season. The last refuge of the great whales had been breached.",
+    "causeIds": [
+      "norwegian-industrial-whaling"
+    ],
+    "effectIds": [
+      "whale-population-collapse",
+      "japanese-soviet-whaling"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "whale-population-collapse",
+    "title": "Global Whale Populations Collapse",
+    "wiki": "Whaling#Population_depletion",
+    "year": 1940,
+    "keyword": "collapse",
+    "summary": "By the mid-20th century, industrial whaling had driven virtually every commercially targeted whale species to the edge of extinction. The blue whale population fell from an estimated 200,000–350,000 to perhaps 2,000–3,000 at its lowest point in the 1960s. Humpbacks dropped from 150,000 to 10,000. North Atlantic right whales — already devastated by early whaling — numbered in the hundreds. Fin whales, sei whales, and sperm whales were all critically reduced. The scale of destruction was without precedent in the history of any large vertebrate: within sixty years of Foyn's harpoon, humans had nearly eliminated every species of great whale on Earth. The tragedy was visible to anyone who looked — and almost no one did.",
+    "causeIds": [
+      "blue-whales-targeted",
+      "antarctic-whaling"
+    ],
+    "effectIds": [
+      "international-whaling-commission",
+      "whale-conservation-movement",
+      "whale-song-recording",
+      "sperm-whale-endangered"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "international-whaling-commission",
+    "title": "International Whaling Commission Founded",
+    "wiki": "International_Whaling_Commission",
+    "year": 1946,
+    "keyword": "shift",
+    "summary": "The International Whaling Commission was founded in 1946 — not primarily to protect whales, but to manage the whaling industry more efficiently and prevent it from hunting itself into bankruptcy as it had repeatedly done. Early IWC regulations were routinely violated or set at levels that continued population decline. The Soviet Union's whaling fleet falsified its catch records for decades, reporting tens of thousands fewer whales killed than it actually hunted. The IWC's early history is largely a story of conservation failure — but it established the institutional framework that would eventually, under intense political pressure, produce a genuine moratorium.",
+    "causeIds": [
+      "whale-population-collapse"
+    ],
+    "effectIds": [
+      "whaling-moratorium",
+      "japanese-soviet-whaling"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "whale-conservation-movement",
+    "title": "Save the Whales",
+    "wiki": "Anti-whaling",
+    "year": 1970,
+    "keyword": "catalyst",
+    "summary": "The modern whale conservation movement coalesced in the early 1970s from multiple streams: the scientific evidence of population collapse, Roger Payne's whale song recordings that had transformed public perception, and Greenpeace's dramatic direct-action campaigns placing inflatable boats between harpoon cannons and fleeing whales. These campaigns transformed attitudes in Western countries with remarkable speed. The whale became the symbol of the environmental movement: enormous, ancient, communicative, and being slaughtered by industrial machinery. 'Save the Whales' became the rallying cry of a generation and generated political pressure that the IWC could not indefinitely resist.",
+    "causeIds": [
+      "whale-population-collapse",
+      "whale-song-recording",
+      "cultural-image-of-whale",
+      "japanese-soviet-whaling"
+    ],
+    "effectIds": [
+      "whaling-moratorium",
+      "whale-watching-industry",
+      "sperm-whale-endangered"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "whaling-moratorium",
+    "title": "Commercial Whaling Moratorium",
+    "wiki": "Whaling#International_regulation",
+    "year": 1986,
+    "keyword": "consequence",
+    "summary": "The International Whaling Commission voted in 1982 to implement a moratorium on commercial whaling, which took effect in 1986. It was the most significant wildlife protection decision in history — a complete commercial ban on an industry that had operated continuously for a thousand years. Japan, Norway, and the Soviet Union initially objected and continued hunting under various legal exceptions. Japan maintained a 'scientific whaling' programme that was widely criticised as commercial whaling in disguise until 2019, when it formally withdrew from the IWC and resumed commercial whaling in its own waters. The moratorium held the line — imperfectly, contentiously, but effectively enough to allow some recovery.",
+    "causeIds": [
+      "international-whaling-commission",
+      "whale-conservation-movement",
+      "whale-watching-industry",
+      "sperm-whale-endangered",
+      "japanese-soviet-whaling"
+    ],
+    "effectIds": [
+      "whale-population-recovery"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "whale-watching-industry",
+    "title": "Whales Worth More Alive Than Dead",
+    "wiki": "Whale_watching",
+    "year": 1980,
+    "keyword": "consequence",
+    "summary": "The first commercial whale-watching trip was offered in San Diego in 1950; by the 1980s the industry had expanded globally. Today whale watching generates over $2 billion annually in more than 130 countries, directly employing tens of thousands of people. The economic argument proved as powerful as the ethical one: a living whale could generate whale-watching revenue indefinitely, while a dead whale provided one-time commercial value. This economic reframing — wildlife as a sustainable asset rather than an extractive commodity — changed the political calculus for coastal communities worldwide and created a constituency with a direct financial interest in whale survival.",
+    "causeIds": [
+      "whale-conservation-movement"
+    ],
+    "effectIds": [
+      "whale-population-recovery",
+      "whaling-moratorium"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "fossil-fuel-era",
+    "title": "The Industry That Replaced Whaling",
+    "wiki": "Fossil_fuel#Environmental_effects",
+    "year": 1900,
+    "keyword": "consequence",
+    "summary": "The petroleum industry that replaced whale oil as the world's primary illuminant and lubricant grew into the dominant force in the global economy — and the primary driver of climate change. Whaling, at its destructive peak, killed perhaps two million animals over a thousand years. The fossil fuel industry, in its first century of operation, altered the chemistry of the entire atmosphere, acidified the oceans, and set in motion temperature changes that now threaten the marine ecosystems on which whales depend. The whales that were saved from harpoons now face warming seas, disrupted krill populations, and shipping noise that interferes with the same songs that inspired the conservation movement. The industry humans invented to replace the one destroying whales has created a larger threat than the one it solved.",
+    "causeIds": [
+      "oil-age-begins"
+    ],
+    "effectIds": [
+      "climate-threatens-whales"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "whale-population-recovery",
+    "title": "Whales Begin to Return",
+    "wiki": "Whale_population",
+    "year": 2005,
+    "keyword": "consequence",
+    "summary": "Since the 1986 moratorium, some whale populations have shown meaningful recovery. Humpback whales — reduced to perhaps 10,000 in the 1960s — now number over 80,000 and were removed from the endangered species list in most regions in 2016. Gray whales in the eastern Pacific have fully recovered. But the blue whale, the largest animal that has ever lived, remains critically endangered: perhaps 10,000–25,000 survive, a fraction of pre-whaling numbers. North Atlantic right whales number fewer than 350 and are declining, killed by ship strikes and fishing gear entanglement. Recovery is real but incomplete — and the emerging threats of climate change, ocean acidification, and industrial noise may be more difficult to legislate away than the harpoon.",
+    "causeIds": [
+      "whaling-moratorium",
+      "whale-watching-industry",
+      "climate-threatens-whales"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "baleen-products",
+    "title": "Baleen — The Plastic of the 19th Century",
+    "wiki": "Baleen#Uses",
+    "year": 1850,
+    "keyword": "shift",
+    "summary": "Baleen — the flexible keratin plates through which filter-feeding whales sieve krill — was one of whaling's most valuable products alongside oil. Strong, flexible, and capable of being moulded with hot water, baleen was used for corset stays, umbrella ribs, buggy whips, fishing rods, and the hoops of fashionable skirts. Victorian women's fashion was literally structured around it. Baleen's properties made it irreplaceable until the late 19th century, when spring steel and eventually celluloid and other early plastics provided cheaper substitutes. The shift away from baleen mirrored the shift away from whale oil — industrial alternatives made the hunt economically unnecessary just as it reached its most destructive phase.",
+    "causeIds": [
+      "new-bedford-whaling-peak"
+    ],
+    "effectIds": [
+      "whaling-industry-declines"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "whale-song-recording",
+    "title": "Songs of the Humpback Whale",
+    "wiki": "Songs_of_the_Humpback_Whale",
+    "year": 1970,
+    "keyword": "catalyst",
+    "summary": "Marine biologist Roger Payne released 'Songs of the Humpback Whale' in 1970 — a recording of the complex, haunting vocalisations of humpback whales in the Atlantic. It sold over 100,000 copies as a commercial record, reaching millions more when National Geographic distributed a version with its magazine in 1979 — one of the largest single print runs in publishing history. The recordings did something no scientific paper could: they made whales feel like sentient beings rather than raw material. A creature that sang deserved different treatment than a resource to be harvested. The cultural shift the recording triggered was arguably more powerful than any legislation in building the political will for the 1986 moratorium.",
+    "causeIds": [
+      "whale-population-collapse"
+    ],
+    "effectIds": [
+      "whale-conservation-movement"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "japanese-soviet-whaling",
+    "title": "Japan and the Soviet Union Dominate",
+    "wiki": "Soviet_whaling",
+    "year": 1948,
+    "keyword": "collapse",
+    "summary": "After World War II, Japan and the Soviet Union built the largest whaling fleets in history, killing whales at rates that dwarfed anything the American industry had achieved. The Soviet fleet was the most destructive: Soviet whalers killed an estimated 180,000 whales between 1948 and 1973 while systematically falsifying their catch data to the IWC — reporting tens of thousands fewer kills than actually occurred. The true scale of Soviet whaling only became known after the USSR collapsed and the records were published. Japan's fleet, operating under a 'scientific whaling' exemption after the 1986 moratorium, continued killing whales until 2019 when Japan formally withdrew from the IWC and resumed commercial whaling in its own waters.",
+    "causeIds": [
+      "antarctic-whaling",
+      "international-whaling-commission"
+    ],
+    "effectIds": [
+      "whale-conservation-movement",
+      "whaling-moratorium"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "sperm-whale-endangered",
+    "title": "Sperm Whale Listed as Endangered",
+    "wiki": "Sperm_whale#Conservation",
+    "year": 1973,
+    "keyword": "shift",
+    "summary": "The US Endangered Species Act of 1973 listed the sperm whale — once hunted in the millions — as an endangered species, triggering a remarkable practical consequence: the US military and NASA had been using spermaceti oil in precision instruments and spacecraft mechanisms because no synthetic substitute matched its extreme-temperature stability and non-corrosive properties. The listing forced a scramble for alternatives. Scientists eventually found that jojoba oil — pressed from the seed of a Sonoran Desert shrub — matched spermaceti's properties almost exactly. The sperm whale's listing inadvertently launched the jojoba farming industry and proved that human ingenuity could find alternatives to wildlife exploitation when legally compelled to look.",
+    "causeIds": [
+      "whale-conservation-movement",
+      "whale-population-collapse"
+    ],
+    "effectIds": [
+      "whaling-moratorium"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "cultural-image-of-whale",
+    "title": "The Whale as Cultural Symbol",
+    "wiki": "Whale#Cultural_significance",
+    "year": 1920,
+    "keyword": "shift",
+    "summary": "Moby-Dick was largely ignored on its 1851 publication but was rediscovered and canonised in the 1920s as the great American novel. This rediscovery — coinciding with the rise of nature writing, early environmentalism, and the first scientific studies of whale intelligence — began shifting the cultural image of whales from sea monsters or commercial resources to something more complex: sublime, ancient, and possessed of an inner life. By the time Roger Payne released his whale song recordings in 1970, a century of cultural preparation had primed Western audiences to receive them as music rather than noise. Melville's doomed whale had become the symbol of everything industrial civilisation was destroying.",
+    "causeIds": [
+      "moby-dick-published"
+    ],
+    "effectIds": [
+      "whale-conservation-movement"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "climate-threatens-whales",
+    "title": "Climate Change — The New Threat",
+    "wiki": "Climate_change_and_cetaceans",
+    "year": 2000,
+    "keyword": "consequence",
+    "summary": "The industry that replaced whale oil — petroleum — now poses a different threat to whale survival. Ocean warming disrupts the krill and fish populations that whales depend on, forcing range shifts that bring them into greater contact with shipping lanes and fishing gear. Ocean acidification affects the zooplankton at the base of the food chain. Shipping noise — an inevitable consequence of globalised trade — interferes with the long-distance vocalisations that whales use for navigation, mating, and feeding coordination. The harpoon was banned; the threats it was replaced by are harder to legislate. A whale saved from Norwegian hunters in 1990 faces warming seas, acoustic pollution, and ship strikes in 2024.",
+    "causeIds": [
+      "fossil-fuel-era"
+    ],
+    "effectIds": [
+      "whale-population-recovery"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]
