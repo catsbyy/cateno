@@ -10,7 +10,7 @@ Built with React, TypeScript, React Flow, and Tailwind CSS.
 
 ## Scenarios
 
-Eight curated scenarios, each with 30–45 interconnected events:
+Thirteen curated scenarios, each with a number of interconnected events:
 
 - **Fall of Rome** (100–600)
 - **French Revolution** (1700–1803)
@@ -21,8 +21,9 @@ Eight curated scenarios, each with 30–45 interconnected events:
 - **The Silent Archive** — Age of Underwater Archaeology (1500 BC–2010)
 - **The Last Templars** (1096–1500)
 - **Mongol Conquests** (1100–1492)
-- **The Polynesian Expansion** (1500 BC–1976 AD)
+- **The Polynesian Expansion** (1500 BC–1976)
 - **The Voyages That Stopped** (960–1500)
+- **The Oil That Lit the World** (900-2005)
 
 ---
 
