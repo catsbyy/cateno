@@ -6,7 +6,7 @@
     "title": "French Revolution Begins",
     "year": 1789,
     "keyword": "turning-point",
-    "summary": "In 1789, France entered a period of radical political and social upheaval. Long-term financial crisis, inequality, and new political ideas pushed the monarchy toward collapse.",
+    "summary": "The storming of the Bastille on July 14, 1789 marked the opening of the French Revolutionary period — the point at which political crisis became open insurrection. What followed was not a single event but a decade of radical transformation: the National Assembly legislated a new France, the monarchy was abolished, thousands were guillotined in the Terror, and Napoleon eventually emerged from the wreckage to spread revolutionary ideals by force across Europe. The Revolution's causes were long in building; its consequences are still felt today.",
     "causeIds": [
       "storming-of-bastille",
       "national-assembly-formation",
@@ -92,7 +92,9 @@
       "political-radicalization"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "French_Revolution",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Cleric%2C_Knight%2C_and_Workman_representing_the_Three_Classes.jpg"
   },
   {
     "id": "enlightenment-ideas",
@@ -191,7 +193,7 @@
     "title": "Failed Tax Reforms",
     "year": 1788,
     "keyword": "catalyst",
-    "summary": "Finance Minister Calonne proposed taxing all landowners regardless of rank in 1786 — a radical break from tradition. The Assembly of Notables rejected it. His successor Necker published the royal accounts publicly (the Compte rendu), revealing the scale of the crisis and making reform even more politically charged. Each failed attempt narrowed the monarchy's options until only a meeting of the Estates-General remained.",
+    "summary": "Finance Minister Calonne proposed taxing all landowners regardless of rank in 1786 — a radical break from tradition that the Assembly of Notables rejected outright. Each failed attempt at reform narrowed the monarchy's options further: the privileged classes could veto any plan that threatened their exemptions, while the treasury hemorrhaged. It was Necker's earlier publication of the royal accounts in the Compte rendu (1781, during his first ministry) that had already made the scale of the fiscal crisis public knowledge — making every subsequent failure more politically charged. By 1788, only a meeting of the Estates-General remained as an option, and even that was an admission of defeat.",
     "causeIds": [
       "financial-crisis-monarchy",
       "louis-xvi-weakness"
@@ -396,7 +398,7 @@
     "title": "Reign of Terror",
     "year": 1793,
     "keyword": "collapse",
-    "summary": "Between September 1793 and July 1794, the Committee of Public Safety under Maximilien Robespierre executed approximately 17,000 people officially and perhaps 40,000 in total, including former revolutionaries, nobles, priests, and ordinary citizens denounced by neighbours. The Terror was justified as a wartime emergency measure to eliminate counter-revolutionary threats — but it consumed its own architects when Robespierre himself was guillotined in Thermidor.",
+    "summary": "Between September 1793 and July 1794, the Committee of Public Safety under Maximilien Robespierre executed approximately 17,000 people officially and perhaps 40,000 in total, including former revolutionaries, nobles, priests, and ordinary citizens denounced by neighbours. The Terror was justified as a wartime emergency measure to eliminate counter-revolutionary threats — but it consumed its own architects when Robespierre was arrested on 9 Thermidor (July 27, 1794) and guillotined the following day.",
     "causeIds": [
       "execution-of-king",
       "political-radicalization",
@@ -516,12 +518,14 @@
     "title": "Women's March on Versailles",
     "year": 1789,
     "keyword": "turning-point",
-    "summary": "On October 5, 1789, thousands of Parisian market women marched 21 kilometres to Versailles demanding bread and an end to the food crisis. They invaded the palace, killed two royal guards, and forced the royal family to return to Paris the following day. The king and his family were now physically in the capital, under the effective supervision of the revolutionary crowd — a prisoner in all but name.",
+    "summary": "On October 5, 1789, thousands of Parisian market women marched 21 kilometres to Versailles demanding bread and an end to the food crisis. They invaded the palace, killed two royal guards, and forced the royal family to return to Paris the following day. The king and his family were now physically in the capital, under the effective supervision of the revolutionary crowd — prisoners in all but name. Louis XVI's subsequent experience of confinement in Paris directly shaped his decision to attempt the disastrous escape to Varennes in June 1791.",
     "causeIds": [
       "bread-crisis",
       "urban-unrest"
     ],
-    "effectIds": [],
+    "effectIds": [
+      "flight-to-varennes"
+    ],
     "isAnchor": false,
     "isSeed": false
   },
@@ -552,7 +556,8 @@
     "keyword": "turning-point",
     "summary": "In June 1791, Louis XVI and his family disguised themselves as servants and attempted to flee to the Austrian border, where Queen Marie Antoinette's nephew Emperor Leopold II had troops. They were recognised and arrested at Varennes, 50 kilometres from safety. The escape attempt was politically catastrophic: it confirmed suspicions that Louis was secretly negotiating with foreign powers to crush the revolution, and destroyed what remained of his public credibility.",
     "causeIds": [
-      "french-revolution"
+      "french-revolution",
+      "womens-march-versailles"
     ],
     "effectIds": [
       "monarchy-abolished",
@@ -621,7 +626,7 @@
     "title": "Napoleon Seizes Power",
     "year": 1799,
     "keyword": "consequence",
-    "summary": "Napoleon Bonaparte staged the 18 Brumaire coup and became First Consul, ending the revolutionary period. He preserved some revolutionary gains — legal equality, meritocracy — while restoring authoritarian rule.",
+    "summary": "Napoleon Bonaparte staged the coup of 18 Brumaire (November 9, 1799) with the support of key Directory members and his brother Lucien, who presided over the legislature. He became First Consul — in practice sole ruler — ending the revolutionary period. He preserved some revolutionary gains: the Civil Code enshrined legal equality, meritocracy replaced birth privilege in state appointments, and Church-state relations were rationalised. But he also restored authoritarian power, censored the press, and built a police state. The Directory's universal unpopularity made resistance minimal; most French citizens were simply relieved the chaos had ended.",
     "causeIds": [
       "directory-government",
       "european-coalitions"

@@ -6,7 +6,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Carte_lapita.png",
     "year": -1300,
     "keyword": "pressure",
-    "summary": "The Lapita people — identified archaeologically by their distinctive geometric pottery — were the ancestors of all Polynesians. Originating in island Southeast Asia, they migrated through Melanesia from around 1500 BC, reaching Tonga and Samoa by roughly 900–800 BC. They were already skilled coastal sailors and farmers who cultivated taro, yam, and breadfruit, and raised pigs and chickens. Everything that would make the Polynesian expansion possible — the crops, the animals, the culture — they carried with them.",
+    "summary": "The Lapita people — identified archaeologically by their distinctive geometric pottery — were the ancestors of all Polynesians. Originating in island Southeast Asia, they migrated through Melanesia from around 1500 BC, reaching Tonga and Samoa by roughly 900–800 BC. They were already skilled coastal sailors and farmers who cultivated taro, yam, and breadfruit, and raised pigs and chickens. Everything that would make the Polynesian expansion possible — the crops, the animals, the culture — they carried with them. (The year shown, c. 1300 BC, is approximate and represents the middle of the Lapita expansion period, conventionally dated c. 1600–500 BC.)",
     "causeIds": [],
     "effectIds": [
       "austronesian-reach-tonga-samoa",
@@ -142,7 +142,7 @@
     "imageUrl": "https://dnmkr7tf85gze.cloudfront.net/CACHE/images/media/image/a6a10445e8a442e0adfbcd43aef76041/f49533ea47455be66dc1713b975f03f3.jpg",
     "year": -600,
     "keyword": "turning-point",
-    "summary": "Around 600 BC, Polynesians began making deliberate voyages beyond the sight of land into the open Pacific. The debate among scholars about whether these voyages were accidental drift or planned exploration has largely been settled in favour of deliberate navigation: the wind patterns of the Pacific would make drift voyaging a statistical impossibility for successful round trips. These were planned expeditions with return routes calculated in advance, carrying enough food, water, and planting material to establish a colony if land was found.",
+    "summary": "By the first few centuries BCE, Polynesians appear to have been making deliberate exploratory voyages beyond the sight of land into the open Pacific. The debate among scholars about whether these voyages were accidental drift or planned exploration has largely resolved in favour of deliberate navigation: the wind patterns of the Pacific make successful drift-voyage round trips statistically implausible. The first confirmed distant settlement — the Marquesas, around 300 AD — demonstrates the result of this voyaging, but the exploratory phase that preceded permanent settlement almost certainly began centuries earlier. These were planned expeditions carrying enough food, water, and planting material to establish a colony if land was found.",
     "causeIds": [
       "outrigger-canoe-technology",
       "star-navigation",
@@ -259,9 +259,9 @@
     "title": "Hawaii Settled",
     "wiki": "History_of_Hawaii#Polynesian_settlement",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Arago_%E2%80%93_Iles_Sandwich_-_Vue_du_Morai_du_Roi_a_Kayakakoua.jpg",
-    "year": 500,
+    "year": 600,
     "keyword": "turning-point",
-    "summary": "Hawaii — the most isolated archipelago on Earth, 3,500 kilometres from the nearest land — was reached by Polynesian voyagers from the Marquesas around 400–600 AD. A second wave from the Society Islands arrived around 1000 AD, bringing new chiefs, new religious practices, and a new social hierarchy. Two-way voyaging between Hawaii and Tahiti is well-documented in oral tradition and appears to have continued for roughly two centuries before contact was severed — for reasons unknown — leaving Hawaii to develop in isolation for another 500 years before Captain Cook arrived in 1778.",
+    "summary": "Hawaii — the most isolated archipelago on Earth, 3,500 kilometres from the nearest land — was reached by Polynesian voyagers from the Marquesas. Older scholarship placed initial settlement around 400–600 AD; more recent radiocarbon analyses suggest a somewhat later date, with some studies pushing initial settlement toward 700–800 CE. A second wave from the Society Islands arrived around 1000 AD, bringing new chiefs, new religious practices, and a new social hierarchy. Two-way voyaging between Hawaii and Tahiti is well-documented in oral tradition and appears to have continued for roughly two centuries before contact was severed — for reasons unknown — leaving Hawaii to develop in isolation for another 500 years before Captain Cook arrived in 1778.",
     "causeIds": [
       "marquesas-settled",
       "polynesian-wayfinding"
@@ -278,9 +278,9 @@
     "title": "Easter Island Settled",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/AhuTongariki.JPG",
     "wiki": "History_of_Easter_Island",
-    "year": 800,
+    "year": 1000,
     "keyword": "turning-point",
-    "summary": "Easter Island — Rapa Nui — is the most remote inhabited place on Earth: 3,700 kilometres from South America, 2,000 kilometres from the nearest Polynesian island. Archaeological and genetic evidence places its first settlement at around 700–900 AD by voyagers from the Marquesas. The settlers arrived on a lush, forested island with abundant bird life. What they built there — and what happened next — is one of the most debated and cautionary stories in human history. The same navigational genius that found the island contained the seeds of what would eventually destroy its civilisation.",
+    "summary": "Easter Island — Rapa Nui — is the most remote inhabited place on Earth: 3,700 kilometres from South America, 2,000 kilometres from the nearest Polynesian island. The date of first settlement is contested: older scholarship placed it at 700–900 AD, but analyses by Hunt, Lipo, and others using high-precision radiocarbon dating now cluster around 1000–1200 CE. Genetic evidence confirms Polynesian settlers, almost certainly from the Marquesas. The settlers arrived on a lush, forested island with abundant bird life. What they built there — and what happened next — is one of the most debated and cautionary stories in human history.",
     "causeIds": [
       "marquesas-settled",
       "polynesian-wayfinding"
@@ -298,9 +298,9 @@
     "title": "New Zealand Settled",
     "wiki": "Māori_people#Origins",
     "imageUrl": "https://teara.govt.nz/sites/default/files/di17355enz.jpg",
-    "year": 1250,
+    "year": 1280,
     "keyword": "turning-point",
-    "summary": "New Zealand — Aotearoa — was the last major landmass on Earth to be settled by humans, reached by Polynesian voyagers from the Society Islands around 1250–1300 AD. It was also the most radically different environment any Polynesian people had encountered: temperate rather than tropical, enormous (larger than Britain), with a completely alien ecosystem including giant flightless birds and no land mammals except bats. The settlers adapted rapidly, developing a distinct Māori culture shaped by the demands of this new environment within just a few generations.",
+    "summary": "New Zealand — Aotearoa — was the last major landmass on Earth to be settled by humans. High-precision radiocarbon dating (Jacomb et al., 2014 and subsequent studies) places initial settlement at approximately 1280–1300 AD by Polynesian voyagers from the Society Islands. It was also the most radically different environment any Polynesian people had encountered: temperate rather than tropical, enormous (larger than Britain), with a completely alien ecosystem including giant flightless birds and no land mammals except bats. The settlers adapted rapidly, developing a distinct Māori culture shaped by the demands of this new environment within just a few generations.",
     "causeIds": [
       "society-islands-settled",
       "polynesian-wayfinding"
@@ -373,9 +373,9 @@
     "title": "Moai Construction on Rapa Nui",
     "wiki": "Moai",
     "imageUrl": "https://i.natgeofe.com/n/fb1ba5cc-4a0d-4ac9-a54e-396a11f4216c/55437_16x9.jpg?w=1200",
-    "year": 900,
+    "year": 1050,
     "keyword": "shift",
-    "summary": "The Rapa Nui people carved nearly 1,000 monumental stone statues — moai — from the volcanic rock of Rano Raraku quarry between roughly 900 and 1500 AD. The largest completed moai weigh over 80 tonnes. They were carved, transported kilometres across the island using rope and possibly a 'walking' technique, and erected on stone ahu platforms facing inland to watch over villages. The moai represent ancestors whose spiritual power (mana) protected the living — a Polynesian concept taken to its most extraordinary material expression anywhere in the Pacific.",
+    "summary": "The Rapa Nui people carved nearly 1,000 monumental stone statues — moai — from the volcanic rock of Rano Raraku quarry between roughly 1050 and 1500 AD. The largest completed moai weigh over 80 tonnes. They were carved, transported kilometres across the island using rope and possibly a 'walking' technique, and erected on stone ahu platforms facing inland to watch over villages. The moai represent ancestors whose spiritual power (mana) protected the living — a Polynesian concept taken to its most extraordinary material expression anywhere in the Pacific.",
     "causeIds": [
       "easter-island-settled",
       "marae-temple-culture"
@@ -391,7 +391,7 @@
     "id": "easter-island-deforestation",
     "title": "Rapa Nui Deforestation",
     "wiki": "Easter_Island",
-     "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/WEdZwxno3V_4oubcAZE4oyLWzbQ=/fit-in/1200x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/Rano-Raraku-quarry-moai631.jpg",
+    "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/WEdZwxno3V_4oubcAZE4oyLWzbQ=/fit-in/1200x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/Rano-Raraku-quarry-moai631.jpg",
     "year": 1200,
     "keyword": "collapse",
     "summary": "Rapa Nui was once covered by a dense palm forest. By 1600 AD it was almost completely deforested. The causes were multiple: land cleared for agriculture, wood used for canoe construction, and — most consequentially — the enormous quantities of timber required to build sledges, rollers, and rope for transporting and erecting the moai. Palynological evidence shows the deforestation accelerating in direct proportion to moai construction activity. The islanders were not ignorant of what they were doing — they were making rational short-term decisions within a competitive social system that had no mechanism for collective restraint.",
@@ -429,7 +429,7 @@
     "imageUrl": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2F490448a/MediaObjects/41586_2012_BF490448a_Figa_HTML.jpg",
     "year": 1500,
     "keyword": "shift",
-    "summary": "When Europeans first encountered Easter Island's moai, the civilisation that had built them had already collapsed. The statues stood — and then lay toppled — without any living tradition that could explain how nearly 900 statues averaging 13 tonnes had been carved, moved kilometres, and erected without metal tools, wheels, or large animals. Thor Heyerdahl's 1947 Kon-Tiki expedition proposed South American origins for the islanders; this has since been disproved by genetics. The mystery of the moai became the mystery of the Polynesians — navigators of extraordinary capability whose achievements seemed to Europeans simply impossible.",
+    "summary": "When Europeans first encountered Easter Island's moai, the civilisation that had built them had already collapsed. The statues stood — and then lay toppled — without any living tradition that could explain how nearly 900 statues averaging 13 tonnes had been carved, moved kilometres, and erected without metal tools, wheels, or large animals. Thor Heyerdahl's 1947 Kon-Tiki expedition proposed that the islanders were of South American origin; this theory has since been conclusively disproved by genetics — the Rapa Nui people are overwhelmingly Polynesian. However, the same 2020 genetic study (Nature) confirmed that Polynesians did make contact with South Americans around 1200 CE, validating trans-Pacific voyaging in both directions. The mystery of the moai became the mystery of the Polynesians — navigators of extraordinary capability whose achievements seemed to Europeans simply impossible.",
     "causeIds": [
       "moai-construction"
     ],
@@ -461,7 +461,7 @@
     "id": "moa-extinction",
     "title": "Moa Extinction",
     "wiki": "Moa",
-     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc830CT0PV8IMZEhxB6xvhPFSXxQtOaCDIiw&s",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc830CT0PV8IMZEhxB6xvhPFSXxQtOaCDIiw&s",
     "year": 1400,
     "keyword": "collapse",
     "summary": "New Zealand's nine species of moa — giant flightless birds ranging from turkey-sized to three metres tall — had evolved over millions of years with no mammalian predators and no reason to fear anything on the ground. Within roughly 100 years of Polynesian arrival, all nine species were extinct. Hunting was not the only cause: Polynesian rats (kiore) destroyed eggs and chicks; dogs killed juveniles; forest clearance removed habitat. The moa extinction was the most rapid large-animal extinction event in recorded prehistory — a preview of the ecological disruptions that Polynesian settlement brought to every island they reached.",
@@ -479,7 +479,7 @@
     "wiki": "Polynesian_Triangle",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Polynesia-triangle.png",
     "year": 1300,
-    "keyword": "consequence",
+    "keyword": "turning-point",
     "summary": "By roughly 1300 AD, Polynesians had settled every habitable island within a triangle of ocean 10,000 kilometres on each side — from Hawaii in the north to New Zealand in the southwest to Easter Island in the southeast. This triangle contains more ocean than all of Earth's landmasses combined. The peoples at each corner spoke related languages, practised related religions, and built related architecture — yet had developed independently for centuries. Nothing in human history compares to it: a single culture's deliberate settlement of one third of the planet's surface.",
     "causeIds": [
       "hawaii-isolation-divergence",

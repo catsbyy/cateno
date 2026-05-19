@@ -19,10 +19,10 @@
     "id": "slavery-sustains-empire",
     "title": "Slavery as Economic Foundation",
     "wiki": "Slavery_in_France",
-     "imageUrl": "https://www.historymuseum.ca/virtual-museum-of-new-france/files/2011/04/New_France_4_3_Overseer-and-slaves-Latrobe.jpg",
+    "imageUrl": "https://www.historymuseum.ca/virtual-museum-of-new-france/files/2011/04/New_France_4_3_Overseer-and-slaves-Latrobe.jpg",
     "year": 1750,
     "keyword": "pressure",
-    "summary": "Saint-Domingue's wealth was built entirely on enslaved labour under conditions of extreme brutality. Mortality rates were so high that the colony required constant importation of new enslaved people from West Africa — an estimated 40,000 per year by the 1780s — simply to maintain the workforce. This demographic reality created a society of radical inequality: 500,000 enslaved people, 30,000 free people of colour, and 30,000 white colonists. It was a society that functioned only through terror, and that carried within it the conditions of its own violent destruction.",
+    "summary": "Saint-Domingue's wealth was built entirely on enslaved labour under conditions of extreme brutality. The institution was in place from the colony's earliest decades; by its 1780s peak, mortality rates were so high that the colony required an estimated 40,000 newly enslaved people imported from West Africa each year simply to maintain the workforce. This demographic reality created a society of radical inequality: roughly 500,000 enslaved people, 30,000 free people of colour, and 30,000 white colonists. It was a society that functioned only through terror, and that carried within it the conditions of its own violent destruction.",
     "causeIds": [
       "french-caribbean-colonies"
     ],
@@ -52,7 +52,7 @@
     "id": "napoleon-european-ambitions",
     "title": "Napoleon's European Ambitions",
     "wiki": "Napoleonic_Wars",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Napoleon_at_the_Battle_of_Rivoli.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Napoleon_at_the_Battle_of_Rivoli.jpg",
     "year": 1799,
     "keyword": "pressure",
     "summary": "Napoleon Bonaparte seized power in France in November 1799 with continental ambitions that required enormous and continuous military expenditure. His vision of a French empire in the Americas — with Louisiana as a breadbasket supplying Saint-Domingue, and Saint-Domingue generating the wealth to fund European campaigns — depended on first restoring French control of the Caribbean colony. When that plan collapsed, the entire American strategy became not just undesirable but actively dangerous: territory France couldn't defend would simply fall to Britain.",
@@ -79,13 +79,13 @@
       "napoleon-needs-funding"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": true
   },
   {
     "id": "saint-domingue-wealth",
     "title": "Saint-Domingue — The Pearl of the Antilles",
     "wiki": "Saint-Domingue",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/%27Shipping_Sugar%27_RMG_PY3019.tiff/lossy-page1-1280px-%27Shipping_Sugar%27_RMG_PY3019.tiff.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/%27Shipping_Sugar%27_RMG_PY3019.tiff/lossy-page1-1280px-%27Shipping_Sugar%27_RMG_PY3019.tiff.jpg",
     "year": 1780,
     "keyword": "pressure",
     "summary": "By the 1780s, Saint-Domingue was the most valuable piece of real estate on Earth. Its sugar, coffee, cotton, and indigo made it responsible for roughly a third of France's total foreign trade. Merchants in Bordeaux and Nantes had built their fortunes on it; French manufacturing supplied its plantations; French banks financed its slave trade. The colony was so central to the French economy that losing it was unthinkable — which is precisely why Napoleon sent an army of 40,000 men to take it back, and why their failure was so consequential.",
@@ -124,7 +124,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Battle-of-Verti%C3%A8res-in-1803-620x458.jpg",
     "year": 1791,
     "keyword": "spark",
-    "summary": "On the night of August 22, 1791, enslaved people across Saint-Domingue's northern plain rose in a coordinated revolt — burning plantations, killing enslavers, and seizing the countryside in what became the only successful slave revolution in history. The uprising had been planned at a secret ceremony at Bois Caïman days earlier. Within weeks, the northern province was in flames. The French government, distracted by revolution at home, sent contradictory orders; the colonists armed themselves. What began as an uprising would become a twelve-year war for independence that shocked every slaveholding society on Earth.",
+    "summary": "On the night of August 22, 1791, enslaved people across Saint-Domingue's northern plain rose in a coordinated revolt — burning plantations, killing enslavers, and seizing the countryside in what became the only slave revolution in history to produce an independent state governed by formerly enslaved people. The uprising had been planned at a secret ceremony at Bois Caïman days earlier. Within weeks, the northern province was in flames. The French government, distracted by revolution at home, sent contradictory orders; the colonists armed themselves. What began as an uprising would become a twelve-year war for independence that shocked every slaveholding society on Earth.",
     "causeIds": [
       "slavery-sustains-empire",
       "french-revolution-ripples",
@@ -239,7 +239,7 @@
     "id": "louisiana-purchase-signed",
     "title": "Louisiana Purchase Signed",
     "wiki": "Louisiana_Purchase",
-     "imageUrl": "https://daily.jstor.org/wp-content/uploads/2016/04/LouisianaPurchase_1050x700.jpg",
+    "imageUrl": "https://daily.jstor.org/wp-content/uploads/2016/04/LouisianaPurchase_1050x700.jpg",
     "year": 1803,
     "keyword": "spark",
     "summary": "On April 30, 1803, the United States purchased approximately 828,000 square miles of territory from France for $15 million — roughly three cents per acre. The transaction doubled the size of the United States overnight, adding all or part of fifteen future states from Louisiana to Montana. It was the largest peaceful land transaction in history. Napoleon got his war chest. Jefferson got a continent. The Haitian revolutionaries, whose victory had made it possible, got nothing — and would shortly be made to pay for it.",
@@ -283,7 +283,7 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI3MPU-hEradl6F7ScW1BPZ_dYWLno7KEPzA&sg",
     "year": 1825,
     "keyword": "consequence",
-    "summary": "In 1825, France agreed to recognise Haitian independence — on condition that Haiti pay 150 million francs in reparations to compensate former slaveholders for their 'lost property,' including the people Haiti had freed. Haiti agreed, having no real choice: French warships sat in the harbour during the negotiations. Haiti took out loans to pay this debt, which was not fully repaid until 1947. The country that had made the Louisiana Purchase possible by defeating Napoleon's army was simultaneously embargoed by the United States and indebted to France for the crime of winning its own freedom.",
+    "summary": "In 1825, France agreed to recognise Haitian independence — on condition that Haiti pay 150 million francs in reparations to compensate former slaveholders for their 'lost property,' including the people Haiti had freed. Haiti agreed, having no real choice: French warships sat in the harbour during the negotiations. Haiti took out loans to pay this debt; the last payments on the original bonds were made in 1947, though scholars argue the total economic burden — including compound interest and foregone investment — extended the damage well beyond that date. The country that had made the Louisiana Purchase possible by defeating Napoleon's army was simultaneously embargoed by the United States and indebted to France for the crime of winning its own freedom.",
     "causeIds": [
       "haiti-independence"
     ],
@@ -338,9 +338,7 @@
     "causeIds": [
       "jefferson-constitutional-crisis"
     ],
-    "effectIds": [
-      "manifest-destiny"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
@@ -350,7 +348,7 @@
     "wiki": "Lewis_and_Clark_Expedition",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Lewis_and_clark-expedition.jpg",
     "year": 1804,
-    "keyword": "catalyst",
+    "keyword": "shift",
     "summary": "Jefferson dispatched Meriwether Lewis and William Clark in 1804 to explore the new territory and find a route to the Pacific — accompanied by the Shoshone woman Sacagawea, whose knowledge and diplomatic skills proved essential. The Corps of Discovery returned in 1806 with detailed maps, botanical specimens, ethnographic records of dozens of Native nations, and proof that a land route to the Pacific existed. Their journals, widely published, transformed the American West from abstract geography into a place people could imagine reaching. The expedition's maps became the template for every subsequent wagon trail.",
     "causeIds": [
       "louisiana-purchase-signed"
@@ -369,7 +367,7 @@
     "imageUrl": "https://warfarehistorynetwork.com/wp-content/uploads/2014/09/CW-Slavery-LEAD-4C-Fal14-e1743448850831.jpg",
     "year": 1803,
     "keyword": "pressure",
-    "summary": "The Northwest Ordinance of 1787 had banned slavery north of the Ohio River — but Louisiana was west of everything, in territory the ordinance didn't cover. The question of whether the new states carved from the purchase would be slave or free immediately fractured American politics along sectional lines. Southern slaveholders insisted on the right to bring enslaved people into new territories; Northern free-soilers resisted. The Louisiana Purchase didn't create the slavery crisis — it vastly enlarged the battlefield on which it would be fought.",
+    "summary": "The Northwest Ordinance of 1787 had banned slavery north of the Ohio River — but Louisiana was west of everything, in territory the ordinance didn't cover. The question of whether the new states carved from the purchase would be slave or free immediately fractured American politics along sectional lines. Southern slaveholders insisted on the right to bring enslaved people into new territories; Northern free-soilers resisted. The Louisiana Purchase didn't create the slavery crisis — it vastly enlarged the battlefield on which it would be fought, turning a manageable political tension into a continental one.",
     "causeIds": [
       "louisiana-purchase-signed",
       "us-doubles-in-size"
@@ -440,7 +438,7 @@
     "imageUrl": "https://digitalprairieok.net/wp-content/uploads/2020/03/Trail-of-Tears-by-Robert-Lindneux.jpg",
     "year": 1838,
     "keyword": "collapse",
-    "summary": "The forced relocation of the Cherokee nation in 1838–1839 — known as Nunna daul Tsuny, 'the trail where they cried' — killed an estimated 4,000–8,000 of the roughly 16,000 people marched westward in winter conditions, without adequate food, clothing, or shelter. Similar forced marches affected the other 'Five Civilised Tribes.' The Trail of Tears became the defining emblem of American Indian policy: the systematic dispossession of Native peoples to make room for westward expansion, carried out by a government that had declared itself founded on the principle that all men are created equal.",
+    "summary": "The forced relocation of the Cherokee nation in 1838–1839 — known as Nunna daul Tsuny, 'the trail where they cried' — killed an estimated 4,000–8,000 or more of the roughly 16,000 people marched westward in winter conditions, without adequate food, clothing, or shelter; Cherokee Nation historical sources place the toll toward the higher end of this range. Similar forced marches affected the other 'Five Civilised Tribes.' The Trail of Tears became the defining emblem of American Indian policy: the systematic dispossession of Native peoples to make room for westward expansion, carried out by a government that had declared itself founded on the principle that all men are created equal.",
     "causeIds": [
       "indian-removal-act"
     ],
@@ -454,12 +452,11 @@
     "id": "manifest-destiny",
     "title": "Manifest Destiny",
     "wiki": "Manifest_destiny",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/American_Progress_%28John_Gast_painting%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/American_Progress_%28John_Gast_painting%29.jpg",
     "year": 1845,
     "keyword": "shift",
     "summary": "Journalist John O'Sullivan coined the phrase 'manifest destiny' in 1845 — the belief that American expansion across the continent was not merely desirable but divinely ordained and historically inevitable. The ideology gave moral and theological cover to what was in practice a programme of territorial acquisition, Native dispossession, and military conquest. It justified the annexation of Texas (1845), the Mexican-American War (1846–48), and the Oregon settlement with Britain (1846). Manifest Destiny was less a cause of American expansion than its retrospective justification — the ideology that made what had already been done feel inevitable.",
     "causeIds": [
-      "federal-power-expands",
       "oregon-trail-knowledge",
       "indian-removal-act"
     ],
@@ -533,7 +530,7 @@
     "id": "gadsden-purchase",
     "title": "Gadsden Purchase Completes the Map",
     "wiki": "Gadsden_Purchase",
-     "imageUrl": "https://www.thoughtco.com/thmb/llei7g5VgKwAHQhvde1QA9nKFts=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Gadsden-Purchase-3000-3x2gty-592f10735f9b585950daabd0.jpg",
+    "imageUrl": "https://www.thoughtco.com/thmb/llei7g5VgKwAHQhvde1QA9nKFts=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Gadsden-Purchase-3000-3x2gty-592f10735f9b585950daabd0.jpg",
     "year": 1853,
     "keyword": "consequence",
     "summary": "The United States purchased a strip of land from Mexico in 1853 — modern southern Arizona and New Mexico — for $10 million, primarily to secure a southern route for a transcontinental railroad. The Gadsden Purchase completed the contiguous territorial outline of the continental United States as it exists today. The nation that had been a strip of Atlantic seaboard in 1800 now spanned a continent. The process had taken 50 years, three major land transactions, one war, and the forced removal of dozens of Native nations. The Louisiana Purchase, sold by a man who needed money for a European war, had made all of it possible.",
@@ -549,7 +546,7 @@
     "id": "spanish-louisiana",
     "title": "Spain Controls Louisiana",
     "wiki": "Spanish_Louisiana",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Discovery_of_the_Mississippi.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Discovery_of_the_Mississippi.jpg",
     "year": 1762,
     "keyword": "pressure",
     "summary": "France secretly ceded Louisiana to Spain via the Treaty of Fontainebleau in 1762, confirmed publicly by the Treaty of Paris in 1763, as compensation for Spain's losses in the Seven Years' War. Spain governed Louisiana for nearly four decades — a largely neglected backwater generating little revenue but serving as a buffer between British North America and Spanish Mexico. When Napoleon Bonaparte rose to power, Louisiana's strategic position between the United States and Spanish silver mines made it suddenly valuable again, and he moved to recover it.",
@@ -708,7 +705,7 @@
     "id": "internal-slave-trade-expands",
     "title": "New Orleans: Largest Slave Market in America",
     "wiki": "Slave_trade_in_the_United_States",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/HENRY_BYAM_MARTIN_Charleston_S.C._4th_March_1833_The_land_of_the_free_%26_home_of_the_brave.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/HENRY_BYAM_MARTIN_Charleston_S.C._4th_March_1833_The_land_of_the_free_%26_home_of_the_brave.jpg",
     "year": 1820,
     "keyword": "collapse",
     "summary": "The US ban on importing enslaved people from Africa (effective 1808) paradoxically intensified the domestic slave trade: with international supply cut off, the internal market became the only legal source of enslaved labour for the expanding cotton states. New Orleans became the largest slave market in North America — a city where enslaved people were bought and sold more efficiently than anywhere else on the continent. The phrase 'sold down the river' entered the American language as a description of the terror enslaved people in the Upper South lived with: separation from family and shipment to the brutal cotton and sugar plantations of the Deep South. Between 1820 and 1860, an estimated one million enslaved people were sold in this internal trade.",
@@ -725,7 +722,7 @@
     "id": "slavery-crisis-deepens",
     "title": "Slavery Crisis Deepens",
     "wiki": "Slavery_in_the_United_States#Antebellum_period",
-     "imageUrl": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/slavery-in-america-gettyimages-464757479?_a=BAVMn6DY0",
+    "imageUrl": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/slavery-in-america-gettyimages-464757479?_a=BAVMn6DY0",
     "year": 1831,
     "keyword": "pressure",
     "summary": "The expansion of cotton slavery into Louisiana Purchase territory transformed the slavery debate from a manageable political irritant into an existential national crisis. The abolitionist movement grew in direct response to the cotton kingdom's expansion and the internal slave trade's visibility. William Lloyd Garrison founded The Liberator in 1831; Nat Turner's rebellion the same year terrified the South into hardening its defence of slavery. Each new territory acquired raised the same question with greater urgency: slave or free? The Missouri Compromise line held for a generation — but the pressure building beneath it would eventually produce the Civil War.",
@@ -744,7 +741,7 @@
     "id": "texas-annexation",
     "title": "Texas Annexed",
     "wiki": "Texas_annexation",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/SantaAnnaSurrender.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/SantaAnnaSurrender.jpg",
     "year": 1845,
     "keyword": "turning-point",
     "summary": "Texas had declared independence from Mexico in 1836 and existed as an independent republic for nine years before American annexation in December 1845. The delay reflected the slavery question: Texas would enter as an enormous slave state, upsetting the balance the Missouri Compromise had maintained. Southern politicians pushed hard for annexation; Northern Whigs resisted. President Polk's successful annexation immediately provoked Mexico, which had never recognised Texan independence, and provided the pretext for the Mexican-American War that followed within months. Every acre of Texas had ultimately become American because of the expansionist appetite the Louisiana Purchase had awakened.",

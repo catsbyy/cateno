@@ -6,7 +6,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Gowy-icaro-prado.jpg",
     "year": 400,
     "keyword": "pressure",
-    "summary": "Humans have attempted to fly since antiquity — from the Greek myth of Icarus to large military kites in Han dynasty China to the mechanical wing designs of medieval Arabic and European engineers. This persistent obsession drove centuries of systematic observation of birds and repeated attempts to understand what kept them aloft, establishing flight as a serious problem of natural philosophy long before it became an engineering challenge.",
+    "summary": "Humans have attempted to fly since antiquity — from the Greek myth of Icarus to large military kites in Han dynasty China (around 200 BCE–200 CE) to the mechanical wing designs of medieval Arabic and European engineers. This persistent obsession drove centuries of systematic observation of birds and repeated attempts to understand what kept them aloft, establishing flight as a serious problem of natural philosophy long before it became an engineering challenge. (Year shown is approximate, representing the classical era when these traditions converged.)",
     "causeIds": [],
     "effectIds": [
       "leonardo-sketches",
@@ -75,7 +75,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Giovanni_Alfonso_Borelli.jpg",
     "year": 1680,
     "keyword": "shift",
-    "summary": "Italian mathematician Giovanni Borelli published De Motu Animalium in 1680, which included the first mathematical proof that human muscles are structurally incapable of generating the power-to-weight ratio needed for bird-style flapping flight. This was a turning point: it closed off one approach definitively and redirected serious thinkers toward fixed-wing gliding and mechanical power sources as the only viable path to human flight.",
+    "summary": "Italian mathematician Giovanni Borelli published De Motu Animalium posthumously in 1680–1681 (he died in 1679), which included the first mathematical proof that human muscles are structurally incapable of generating the power-to-weight ratio needed for bird-style flapping flight. This was a turning point: it closed off one approach definitively and redirected serious thinkers toward fixed-wing gliding and mechanical power sources as the only viable path to human flight.",
     "causeIds": [
       "leonardo-sketches"
     ],
@@ -146,7 +146,7 @@
     "imageUrl": "https://owlcation.com/.image/MTc0NjQ2NDA0OTQ0NTA0NTkx/aerodynamics-the-theory-of-lift.png?io=1&profile=w2560&x=0&y=0",
     "year": 1799,
     "keyword": "turning-point",
-    "summary": "George Cayley engraved the four forces of flight — lift, drag, thrust, and weight — on a silver disc in 1799, establishing the scientific framework for heavier-than-air flight. He built and flew the first successful human-carrying glider in 1853, reportedly with his terrified coachman as the involuntary pilot. Cayley is considered the true father of the aeroplane: he defined the problem the Wright Brothers would solve, fifty years before they solved it.",
+    "summary": "George Cayley engraved the four forces of flight — lift, drag, thrust, and weight — on a silver disc in 1799, establishing the scientific framework for heavier-than-air flight. He built and flew the first successful human-carrying glider in 1853, reportedly carrying his coachman as an involuntary passenger — a claim based on family accounts written decades after the event, though the flight itself is generally accepted. Cayley is considered the true father of the aeroplane: he defined the problem the Wright Brothers would solve, fifty years before they solved it.",
     "causeIds": [
       "balloon-era",
       "scientific-method-applied",
@@ -292,13 +292,11 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Samuel_Pierpont_Langley_-_Potomac_experiment_1903.jpeg",
     "year": 1903,
     "keyword": "turning-point",
-    "summary": "Samuel Langley's Aerodrome — funded by $50,000 in US government money — crashed into the Potomac River on October 7 and December 8, 1903, just nine days before Kitty Hawk. The failures discredited government-backed aviation research and gave the Wright Brothers' bicycle-shop achievement an almost mythic quality.",
+    "summary": "Samuel Langley's Aerodrome — funded by $50,000 in US government money — crashed into the Potomac River on October 7 and December 8, 1903, just nine days before Kitty Hawk. The failures discredited government-backed aviation research and gave the Wright Brothers' bicycle-shop achievement an almost mythic quality in hindsight. Langley's crashes were not a cause of the Wright Brothers' success — the brothers had been pursuing their own independent programme for years — but the dramatic contrast in outcomes became central to how the Kitty Hawk story was told.",
     "causeIds": [
       "race-to-fly"
     ],
-    "effectIds": [
-      "kitty-hawk-flight"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
@@ -313,8 +311,7 @@
     "causeIds": [
       "wind-tunnel-tests",
       "wright-brothers-build-engine",
-      "race-to-fly",
-      "langley-fails"
+      "race-to-fly"
     ],
     "effectIds": [
       "world-ignores-flight",
@@ -330,7 +327,7 @@
     "wiki": "Wright_Flyer",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Orville_Wright%26flyer1909.jpg",
     "year": 1904,
-    "keyword": "shift",
+    "keyword": "consequence",
     "summary": "Despite flying repeatedly near Dayton through 1904 and 1905, the Wright Brothers were almost completely ignored by press and government. The US Army rejected their aircraft twice. Most newspapers refused to print the story. The world simply didn't believe powered flight had been achieved — it took five years for Kitty Hawk to be widely accepted.",
     "causeIds": [
       "kitty-hawk-flight"
@@ -388,7 +385,7 @@
     "imageUrl": "https://airandspace.si.edu/sites/default/files/images/93-9132_640.jpg",
     "year": 1909,
     "keyword": "turning-point",
-    "summary": "Louis Blériot's crossing of the English Channel on July 25, 1909 shocked Britain into realizing its island security was gone forever. The Times declared 'England is no longer an island.' It was the moment the world understood that aviation would transform not just transportation but geopolitics and warfare.",
+    "summary": "Louis Blériot's crossing of the English Channel on July 25, 1909 shocked Britain into realising its island security was gone forever. The Daily Mail, which had sponsored the £1,000 prize Blériot won, declared the event world-historic; British newspapers widely observed that England was no longer an island in any military sense. It was the moment the world understood that aviation would transform not just transportation but geopolitics and warfare.",
     "causeIds": [
       "european-aviation-rises"
     ],
@@ -498,7 +495,7 @@
     "imageUrl": "https://aircargoweek.com/wp-content/uploads/2025/03/F-GEAB-Le_Crotoy-1080x751.jpg",
     "year": 1919,
     "keyword": "consequence",
-    "summary": "The world's first scheduled commercial air service launched in 1909 — DELAG in Germany using Zeppelin airships. The first fixed-wing airline, St. Petersburg-Tampa Airboat Line, flew in 1914. KLM, still operating today, launched in 1919. Within a decade, air mail, passenger routes, and aviation companies had transformed flight from adventure into industry.",
+    "summary": "The world's first scheduled commercial air service began in 1910 — DELAG in Germany using Zeppelin airships (the company was founded in 1909 but flew its first passengers in June 1910). The first fixed-wing airline, St. Petersburg-Tampa Airboat Line, flew in January 1914. KLM, still operating today, launched in 1919. Within a decade, air mail, passenger routes, and aviation companies had transformed flight from adventure into industry.",
     "causeIds": [
       "surplus-aircraft-postwar",
       "barnstormers-era",

@@ -6,12 +6,11 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Charles_Laplante_-_La_premi%C3%A8re_croisade_%28illustration_pour_Fran%C3%A7ois_Guizot%29.png",
     "year": 1096,
     "keyword": "catalyst",
-    "summary": "Pope Urban II launched the First Crusade in 1095, sending tens of thousands of European knights to recapture Jerusalem from Seljuk Turkish control. The Crusaders took the city in July 1099 in a massacre that shocked even contemporary chroniclers. This created a Christian kingdom in the Holy Land that required permanent defence — and sent a flood of pilgrims along roads that no one was equipped to protect.",
+    "summary": "Pope Urban II launched the First Crusade in 1095, sending tens of thousands of European knights to recapture Jerusalem from Seljuk Turkish control. The Crusaders took the city in July 1099 in a massacre that shocked even contemporary chroniclers. This created a Christian kingdom in the Holy Land that required permanent defence — and sent a flood of pilgrims along roads that no one was equipped to protect. The entire Templar story, from founding to dissolution, flows from this single act of conquest and the institutions it made necessary.",
     "causeIds": [],
     "effectIds": [
       "pilgrim-routes-dangerous",
-      "templars-founded",
-      "acre-falls"
+      "templars-founded"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -151,9 +150,7 @@
     "year": 1291,
     "keyword": "collapse",
     "summary": "The fall of Acre in 1291 ended the Crusader presence in the Holy Land entirely. The Templars' original military mission — defending Jerusalem and protecting pilgrims — had become impossible. They retreated to Cyprus, then to France, leaving critics to ask: why does this enormously wealthy military order still exist if there's nothing left to fight for?",
-    "causeIds": [
-      "first-crusade"
-    ],
+    "causeIds": [],
     "effectIds": [
       "templars-lose-purpose",
       "philip-sees-opportunity"
@@ -372,7 +369,7 @@
     "title": "Friday the 13th Becomes Unlucky",
     "year": 1307,
     "keyword": "consequence",
-    "summary": "The mass arrest of October 13, 1307 — a Friday — is the most widely cited origin of the Friday the 13th superstition, though historians note that the connection was not explicitly documented until centuries later. The folk belief likely accumulated multiple origins over time. Regardless of the historical chain, the Templar arrests gave the date its most dramatic historical anchor in popular memory.",
+    "summary": "The mass arrest of October 13, 1307 — a Friday — is frequently cited as the origin of the Friday the 13th superstition. Historians and folklorists note that the explicit connection between this date and the superstition was not documented until the 20th century; the specific Templar link appears to be a modern folk etymology rather than a medieval belief. The superstition itself likely accumulated from multiple sources over time. Regardless, the Templar arrests have become the most widely repeated historical anchor for the date in popular culture — the story is more powerful than its evidential basis.",
     "causeIds": [
       "friday-13th-arrests"
     ],
@@ -459,7 +456,7 @@
     "title": "Medici Bank Founded",
     "year": 1397,
     "keyword": "turning-point",
-    "summary": "Giovanni di Bicci de' Medici founded the Medici Bank in Florence in 1397, building on banking techniques that traced back through the Italian merchant tradition to Templar innovations. Under Lorenzo de' Medici, the bank's profits funded an extraordinary concentration of artistic patronage: Botticelli, Michelangelo, and the young Leonardo da Vinci all worked under Medici support in Florence, making the bank one of the indirect financial engines of the Renaissance.",
+    "summary": "Giovanni di Bicci de' Medici founded the Medici Bank in Florence in 1397, building on banking techniques that traced back through the Italian merchant tradition to Templar innovations. Under his great-grandson Lorenzo de' Medici (1449–1492), the bank's profits funded an extraordinary concentration of artistic patronage: Botticelli, Michelangelo, and the young Leonardo da Vinci all worked under Lorenzo's support in Florence, making the Medici bank one of the indirect financial engines of the Renaissance.",
     "causeIds": [
       "italian-banking-rises",
       "templar-wealth-disperses"
@@ -563,7 +560,7 @@
     "title": "Capitalism Emerges",
     "year": 1500,
     "keyword": "consequence",
-    "summary": "The confluence of modern banking techniques, secular state power, and accumulated mercantile wealth created the conditions for early capitalism. The separation of financial value from physical gold — the core Templar innovation — made the accumulation and deployment of abstract capital possible. The arrest of 2,000 knights on a October morning in 1307 set in motion the economic system that shapes the world today.",
+    "summary": "The confluence of modern banking techniques, secular state power, and accumulated mercantile wealth created the conditions for early capitalism. The separation of financial value from physical gold — the core Templar innovation — made the accumulation and deployment of abstract capital possible. The arrest of roughly 2,000 members of the Templar order on an October morning in 1307 set in motion the economic system that shapes the world today.",
     "causeIds": [
       "modern-banking-born",
       "rise-of-secular-states"

@@ -91,7 +91,7 @@
     "imageUrl": "https://www.worldhistory.org/img/r/p/1500x1500/12693.jpg",
     "year": 1400,
     "keyword": "shift",
-    "summary": "Humanist scholars beginning in 14th-century Italy rediscovered and translated ancient Greek and Latin texts — including works by Archimedes, Hero of Alexandria, and Plato — that offered alternatives to Aristotelian authority. Their emphasis on direct engagement with primary sources, and on human experience as a valid object of study, planted the epistemological seed from which the Scientific Revolution grew.",
+    "summary": "Humanist scholars beginning in 14th–15th century Italy rediscovered and translated ancient Greek and Latin texts. The recovery of Greek mathematical and scientific works — including Archimedes and Hero of Alexandria, accelerated by Greek scholars fleeing after the fall of Constantinople in 1453 — offered alternatives to Aristotelian authority. The humanists' emphasis on direct engagement with primary sources and on human experience as a valid object of study planted the epistemological seed from which the Scientific Revolution grew.",
     "causeIds": [
       "black-death-disruption"
     ],
@@ -179,7 +179,7 @@
     "wiki": "Nicolaus_Copernicus",
     "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/oUwG3QoetGpJ6Y81px5Grvv-2Qc=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/0f/75/0f752e13-f744-428b-b078-1a8f71f36751/jan_matejko-astronomer_copernicus-conversation_with_god.jpg",
     "year": 1530,
-    "keyword": "pressure",
+    "keyword": "consequence",
     "summary": "Copernicus sat on his heliocentric theory for over thirty years, fearing Church condemnation. He only agreed to publish on his deathbed, and even then a preface was added without his knowledge framing it as a mathematical convenience rather than physical reality.",
     "causeIds": [
       "copernicus-challenges",
@@ -206,7 +206,6 @@
     ],
     "effectIds": [
       "tycho-observes-skies",
-      "kepler-inherits-data",
       "galileo-turns-telescope"
     ],
     "isAnchor": false,
@@ -237,7 +236,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif/lossy-page1-960px-Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif.jpg",
     "year": 1576,
     "keyword": "catalyst",
-    "summary": "Working from his island observatory Uraniborg in Denmark, Tycho Brahe spent over twenty years making the most precise naked-eye astronomical observations ever achieved, cataloguing over 1,000 star positions with unprecedented accuracy. Though he rejected the Copernican heliocentric model and proposed his own hybrid system, his meticulous data was the raw material on which Kepler proved that heliocentrism was mathematically correct.",
+    "summary": "Working from his island observatory Uraniborg in Denmark, Tycho Brahe spent over twenty years making the most precise naked-eye astronomical observations ever achieved, publishing a catalogue of approximately 777 star positions and eventually compiling data on over 1,000 stars. Though he rejected the Copernican heliocentric model and proposed his own hybrid system, his meticulous data was the raw material on which Kepler proved that heliocentrism was mathematically correct.",
     "causeIds": [
       "copernicus-publishes"
     ],
@@ -256,8 +255,7 @@
     "keyword": "turning-point",
     "summary": "After Tycho's death in 1601, Johannes Kepler — who had been Tycho's assistant — gained access to his precise observations. Kepler spent nearly a decade wrestling with the data, ultimately discovering that the orbit of Mars was not a circle but an ellipse. This insight, which Kepler found deeply unsatisfying aesthetically, finally made the heliocentric model work with mathematical precision.",
     "causeIds": [
-      "tycho-observes-skies",
-      "copernicus-publishes"
+      "tycho-observes-skies"
     ],
     "effectIds": [
       "kepler-laws-motion"
@@ -290,7 +288,7 @@
     "imageUrl": "https://gertitashkomd.com/wp-content/uploads/2025/06/Tashko-Galileo-Galilei-Telescope-Revolution-1564-1642.jpg",
     "year": 1609,
     "keyword": "spark",
-    "summary": "In 1609, Galileo improved a Dutch-invented telescope and turned it on the night sky, discovering mountains on the Moon (disproving the perfect crystalline spheres), four moons orbiting Jupiter (proving not everything orbited Earth), and the phases of Venus (confirming it orbited the Sun). He published his findings immediately in Sidereus Nuncius (1610), making his evidence public before the Church could respond.",
+    "summary": "In 1609, Galileo improved a telescope first developed in the Netherlands in 1608 (attributed primarily to Hans Lippershey) and turned it on the night sky, discovering mountains on the Moon — proving the Moon's surface was irregular and Earth-like, contradicting Aristotelian doctrine of celestial perfection — four moons orbiting Jupiter (proving not everything orbited Earth), and the phases of Venus (confirming it orbited the Sun). He published his findings in Sidereus Nuncius in March 1610, making his evidence public before the Church could respond.",
     "causeIds": [
       "copernicus-publishes"
     ],
@@ -498,7 +496,7 @@
     "imageUrl": "https://d3525k1ryd2155.cloudfront.net/h/034/880/1376880034.0.x.jpg",
     "year": 1687,
     "keyword": "turning-point",
-    "summary": "Isaac Newton published the Principia, unifying terrestrial and celestial mechanics under three laws of motion and universal gravitation. The same force that drops an apple moves the Moon — the cosmos was one system, governed by mathematics. It was the single greatest scientific synthesis in history.",
+    "summary": "Isaac Newton published the Principia, unifying terrestrial and celestial mechanics under three laws of motion and universal gravitation. The insight — whether or not the famous apple story is literally true — was that the same gravitational force governing falling objects on Earth also governs the Moon's orbit: the cosmos was one system, governed by mathematics. It was the single greatest scientific synthesis in history, and it made the heavens comprehensible by the same rational methods that explained a pendulum.",
     "causeIds": [
       "kepler-laws-motion",
       "galileo-turns-telescope",
@@ -577,7 +575,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Archiginnasio_ora_blu_Bologna.jpg",
     "year": 1700,
     "keyword": "consequence",
-    "summary": "Inspired by the Royal Society, Louis XIV founded the Académie des Sciences in Paris in 1666; Frederick the Great established the Berlin Academy in 1744; Peter the Great founded the St. Petersburg Academy in 1724. Science became a recognised profession with state patronage, peer-reviewed publications, and international prizes. The solitary natural philosopher gave way to an organised, institutionalised scientific community.",
+    "summary": "Inspired by the Royal Society, Louis XIV founded the Académie des Sciences in Paris in 1666; Leibniz helped establish the Berlin Academy in 1700 under Elector Frederick III (substantially reformed by Frederick the Great in 1744); Peter the Great founded the St. Petersburg Academy in 1724. Science became a recognised profession with state patronage, peer-reviewed publications, and international prizes. The solitary natural philosopher gave way to an organised, institutionalised scientific community whose collaborative structure would make the Industrial Revolution possible.",
     "causeIds": [
       "newton-principia",
       "age-of-reason"

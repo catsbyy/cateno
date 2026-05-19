@@ -55,7 +55,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Nemi_Ship_by_CM_Knight-Smith_1906.jpg",
     "year": 1535,
     "keyword": "catalyst",
-    "summary": "Two enormous ceremonial barges built by Emperor Caligula around 37–41 AD lay in Lake Nemi south of Rome. Renaissance salvagers recovered decorative bronze fittings using early diving equipment. Mussolini ordered the lake drained in 1929–1931, revealing the intact hulls and extraordinary bronze lion-head mooring rings. The ships were destroyed by fire — either deliberately or accidentally — during the German retreat in 1944.",
+    "summary": "Two enormous ceremonial barges built by Emperor Caligula around 37–41 AD lay in Lake Nemi south of Rome. Renaissance salvagers using early diving bells recovered decorative bronze fittings in the 16th century. Mussolini ordered the lake drained in 1929–1931, revealing the intact hulls and extraordinary bronze lion-head mooring rings — by this point, hard-hat divers and pumps were employed. The ships were destroyed by fire — either deliberately or accidentally — during the German retreat in 1944.",
     "causeIds": [
       "diving-bell-invented"
     ],
@@ -165,7 +165,7 @@
     "imageUrl": "https://cdn.shopify.com/s/files/1/0840/4831/4667/files/Cousteau_team.jpg?v=1720105050",
     "year": 1943,
     "keyword": "turning-point",
-    "summary": "Jacques Cousteau and engineer Émile Gagnan developed the Aqua-Lung in German-occupied Paris in 1943 — a demand-regulator that delivered compressed air automatically as the diver inhaled. SCUBA freed divers from surface air hoses and heavy suits for the first time, making underwater exploration mobile, relatively affordable, and accessible to anyone. Cousteau tested the first working prototype in the Marne River in January 1943.",
+    "summary": "Jacques Cousteau and engineer Émile Gagnan co-developed the Aqua-Lung in German-occupied Paris in 1943. Gagnan designed the critical demand-regulator mechanism that delivered compressed air automatically as the diver inhaled; Cousteau contributed the application to diving and tested the prototype. SCUBA freed divers from surface air hoses and heavy suits for the first time, making underwater exploration mobile, relatively affordable, and accessible to anyone. Cousteau tested the first working prototype in the Marne River in January 1943.",
     "causeIds": [
       "professional-salvage-industry"
     ],
@@ -222,7 +222,7 @@
     "wiki": "Jacques_Cousteau",
     "imageUrl": "https://archeologie.culture.gouv.fr/sites/archeologie/files/styles/master_home_cover/public/upload/images/cover/1-1-6new_grand_conglou002.jpg?itok=LalR2r2s",
     "year": 1952,
-    "keyword": "turning-point",
+    "keyword": "catalyst",
     "summary": "Cousteau's excavation of a Roman wine ship at Grand-Congloué near Marseille, begun in 1952, was the first attempt to apply systematic archaeological recording to an underwater site using SCUBA. Though flawed by modern standards — a suction pump destroyed stratigraphy, and artefacts were lifted without proper documentation — it established that underwater sites could be excavated methodically rather than simply looted, and trained the first generation of underwater archaeologists.",
     "causeIds": [
       "cousteau-invents-scuba",

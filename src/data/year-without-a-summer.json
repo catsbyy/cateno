@@ -6,7 +6,7 @@
     "title": "Mount Tambora Erupts",
     "year": 1815,
     "keyword": "spark",
-    "summary": "On April 10, 1815, Mount Tambora in Indonesia erupted in the most powerful volcanic event in recorded history — releasing energy equivalent to hundreds of thousands of Hiroshima bombs. Around 10,000–12,000 people died immediately from the blast, pyroclastic flows, and tsunamis; the total death toll including subsequent famine and disease reached approximately 71,000.",
+    "summary": "On April 10, 1815, Mount Tambora in Indonesia erupted in the most powerful volcanic event in recorded history — releasing energy equivalent to hundreds of thousands of Hiroshima bombs. Around 10,000–12,000 people died immediately from the blast, pyroclastic flows, and tsunamis; the total death toll including subsequent famine and disease is commonly estimated at approximately 71,000, with some more recent scholarship placing the figure considerably higher.",
     "causeIds": [],
     "effectIds": [
       "volcanic-aerosols",
@@ -89,7 +89,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/1816_summer.png",
     "title": "Global Temperature Drop",
     "year": 1816,
-    "keyword": "turning-point",
+    "keyword": "catalyst",
     "summary": "Global average temperatures fell by an estimated 0.4–0.7°C — modest as an average but catastrophic at the agricultural margins. Parts of Europe and eastern North America experienced summer temperatures 3°C below normal. Snow fell in New England in June 1816. In the French Jura, the winter of 1816–17 was the coldest in 500 years. The drop was most severe in the northern hemisphere, where the bulk of the world's food production was concentrated.",
     "causeIds": [
       "reduced-solar-radiation"
@@ -142,7 +142,7 @@
     "title": "Crop Failures Across Europe",
     "year": 1816,
     "keyword": "collapse",
-    "summary": "Harvests failed across France, Germany, Switzerland, the British Isles, and Scandinavia in 1816. The grain crop in Germany fell by around a third; in Switzerland it was the worst harvest in living memory. Ireland's potato crop — the primary caloric source for most of its population — was devastated by late frosts and persistent wet rot. The summer of 1816 was the coldest in Europe in 500 years.",
+    "summary": "Harvests failed across France, Germany, Switzerland, the British Isles, and Scandinavia in 1816. The grain crop in Germany fell by around a third; in Switzerland it was among the worst harvests in living memory. Ireland's potato crop — the primary caloric source for most of its population — was devastated by late frosts and persistent wet rot. The summer of 1816 was one of the coldest in European records, with some regional data suggesting it was among the most extreme in several centuries.",
     "causeIds": [
       "abnormal-weather",
       "shortened-growing-season"
@@ -178,7 +178,7 @@
     "title": "Crop Failures in Asia",
     "year": 1816,
     "keyword": "collapse",
-    "summary": "The monsoon system was severely disrupted across South and East Asia in 1816–1817. China's Yunnan province experienced simultaneous drought and unseasonable flooding. The opium poppy — suddenly one of the few crops that could grow in the difficult conditions — expanded dramatically in the region, contributing to the later opium trade. India's delayed monsoon created the warm, wet conditions in Bengal that may have triggered the first cholera pandemic.",
+    "summary": "The monsoon system was severely disrupted across South and East Asia in 1816–1817. China's Yunnan province experienced simultaneous drought and unseasonable flooding. Some historians have suggested that the opium poppy — relatively hardy compared to food crops — may have expanded in cultivation during this period, though this causal link is debated and opium's later expansion was driven by many factors. India's delayed monsoon created the warm, wet conditions in Bengal that may have contributed to the first cholera pandemic, though this connection also remains historically debated.",
     "causeIds": [
       "abnormal-weather"
     ],
@@ -190,7 +190,7 @@
   },
   {
     "id": "irish-famine-1816",
-    "wiki": "Great_Famine_(Ireland)",
+    "wiki": "Year_Without_a_Summer",
     "imageUrl": "https://www.thoughtco.com/thmb/dhgBSCkvakQZsdLCCLwueJB0Vk4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ridpaths_history_of_the_world_-_being_an_account_of_the_principal_events_in_the_career_of_the_human_race_from_the_beginnings_of_civilization_to_the_present_time_comprising_the_development_of_social_14749361956-0dcb6c46ffb64d03ac4926a5312cf295.jpg",
     "title": "Irish Famine of 1816–1817",
     "year": 1816,
@@ -298,8 +298,8 @@
     "wiki": "1817–1824_cholera_pandemic",
     "title": "First Cholera Pandemic",
     "year": 1817,
-    "keyword": "consequence",
-    "summary": "The disruption of India's monsoon may have contributed to conditions for a cholera outbreak in Bengal in 1817 that spread globally — the first cholera pandemic in history. It killed millions across Asia and eventually reached Europe and the Americas by the 1820s. The link between Tambora's climate disruption and the pandemic's timing remains historically debated.",
+    "keyword": "shift",
+    "summary": "The disruption of India's monsoon may have contributed to conditions for a cholera outbreak in Bengal in 1817 that spread globally — the first cholera pandemic in history. It killed millions across Asia and eventually reached Europe and the Americas by the 1820s. The link between Tambora's climate disruption and the pandemic's timing is plausible given the monsoon disruption, but remains historically debated; other factors including pre-existing conditions in Bengal were also at play.",
     "causeIds": [
       "crop-failures-asia"
     ],
@@ -417,7 +417,7 @@
     "title": "The Villa Diodati Summer",
     "year": 1816,
     "keyword": "catalyst",
-    "summary": "Trapped indoors by the relentless rain and cold near Lake Geneva, Lord Byron, Percy Shelley, Mary Godwin, and John Polidori held a ghost story competition. Byron proposed it as a way to pass the miserable summer — a single offhand suggestion that produced two of the defining works of Gothic literature.",
+    "summary": "Trapped indoors by the relentless rain and cold near Lake Geneva, Lord Byron, Percy Shelley, Mary Godwin, John Polidori, and Mary's stepsister Claire Clairmont held a ghost story competition. Byron proposed it as a way to pass the miserable summer — a single offhand suggestion that produced two of the defining works of Gothic literature.",
     "causeIds": [
       "gloomy-atmosphere"
     ],
@@ -453,7 +453,7 @@
     "title": "The Vampyre Written",
     "year": 1816,
     "keyword": "consequence",
-    "summary": "John Polidori began writing The Vampyre at the same gathering — the first modern vampire story in English, drawing on Byron's abandoned fragment. It established the aristocratic, seductive vampire archetype that Bram Stoker later developed into Dracula. The story was completed and published in 1819.",
+    "summary": "John Polidori began writing The Vampyre at the same gathering — drawing on a fragment by Lord Byron. When published in 1819, it established the aristocratic, seductive vampire archetype that Bram Stoker later developed into Dracula. It is often called the first influential modern prose vampire story in English, though earlier treatments of the vampire theme existed in English verse. Its direct lineage to the Villa Diodati makes it a product of the same volcanic summer that produced Frankenstein.",
     "causeIds": [
       "lake-geneva-gathering"
     ],

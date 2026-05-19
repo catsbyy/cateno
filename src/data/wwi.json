@@ -190,7 +190,7 @@
     "title": "German War Planning",
     "year": 1906,
     "keyword": "pressure",
-    "summary": "The Schlieffen Plan, developed from 1891 and revised through 1906, called for a rapid knock-out blow against France through neutral Belgium before turning east to face Russia — on the assumption that Russia's slow mobilisation gave Germany a brief window. The plan left almost no room for diplomatic solutions once a Franco-Russian crisis began: German strategy required attacking France even if the quarrel was with Russia alone, transforming every eastern crisis into a potential western war.",
+    "summary": "The Schlieffen Plan memorandum, drafted by Chief of Staff Alfred von Schlieffen in December 1905 and revised by his successor Moltke the Younger through 1914, called for a rapid knock-out blow against France through neutral Belgium before turning east to face Russia — on the assumption that Russia's slow mobilisation gave Germany a brief window. The plan left almost no room for diplomatic solutions once a Franco-Russian crisis began: German strategy required attacking France even if the quarrel was with Russia alone, transforming every eastern crisis into a potential western war. Moltke's modifications — reducing the all-important right wing — were later blamed by German commanders for the plan's ultimate failure.",
     "causeIds": [
       "arms-race",
       "franco-russian-alliance"
@@ -634,14 +634,15 @@
     "title": "Gallipoli Campaign",
     "year": 1915,
     "keyword": "turning-point",
-    "summary": "Winston Churchill's plan to force the Dardanelles and knock Ottoman Turkey out of the war began as a naval operation in February 1915 and escalated into a grinding land campaign that lasted until January 1916. Allied forces suffered approximately 250,000 casualties; the Ottomans suffered similar losses. The failure ended Churchill's time as First Lord of the Admiralty, demonstrated the limits of amphibious operations against prepared defences, and hardened the Gallipoli front into another attritional stalemate.",
+    "summary": "Winston Churchill's plan to force the Dardanelles and knock Ottoman Turkey out of the war began as a naval operation in February 1915 and escalated into a grinding land campaign that lasted until January 1916. Allied forces suffered approximately 187,000–250,000 casualties; the Ottomans suffered comparable or somewhat higher losses, estimated at 250,000–300,000. The failure ended Churchill's time as First Lord of the Admiralty, demonstrated the limits of amphibious operations against prepared defences, and hardened the Gallipoli front into another attritional stalemate — while opening the southern campaign that would eventually bring about the Ottoman Empire's collapse.",
     "causeIds": [
       "globalization-of-war",
       "colonial-troops-mobilized",
       "ottoman-entry-war"
     ],
     "effectIds": [
-      "arab-revolt"
+      "arab-revolt",
+      "ottoman-collapse"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -680,7 +681,8 @@
       "home-front-pressure",
       "russian-revolution",
       "new-weapons-technology",
-      "austria-hungary-collapse"
+      "austria-hungary-collapse",
+      "ottoman-collapse"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -783,9 +785,11 @@
     "title": "Ottoman Empire Collapses",
     "year": 1918,
     "keyword": "collapse",
-    "summary": "The Ottoman Empire fought on four fronts simultaneously: Gallipoli, Mesopotamia, Palestine, and the Caucasus. The Arab Revolt (1916) and General Allenby's Palestine campaign (1917–1918) collapsed the southern front; British forces took Baghdad in 1917 and Jerusalem in December 1917. By October 1918 the Ottoman military was disintegrating. The Armistice of Mudros on October 30, 1918 ended Ottoman participation in the war, setting the stage for the empire's dismemberment.",
+    "summary": "The Ottoman Empire fought on four fronts simultaneously: Gallipoli, Mesopotamia, Palestine, and the Caucasus. The failed Gallipoli campaign (1915–16) drained Ottoman reserves and shattered any hope of quick Allied defeat; the grinding war of attrition eroded Ottoman manpower and supplies throughout 1916–18. The Arab Revolt (1916) and General Allenby's Palestine campaign (1917–18) then collapsed the southern front. British forces took Baghdad in 1917 and Jerusalem in December 1917. By October 1918 the Ottoman military was disintegrating across all fronts. The Armistice of Mudros on October 30, 1918 ended Ottoman participation in the war, setting the stage for the empire's dismemberment.",
     "causeIds": [
-      "allenby-palestine-campaign"
+      "allenby-palestine-campaign",
+      "gallipoli-campaign",
+      "war-of-attrition"
     ],
     "effectIds": [
       "treaty-of-sevres"
@@ -821,7 +825,7 @@
     "title": "Armistice — November 1918",
     "year": 1918,
     "keyword": "turning-point",
-    "summary": "Fighting ceased on the Western Front at 11am on November 11, 1918. The war had killed an estimated 20 million people and permanently altered the political map of Europe.",
+    "summary": "Fighting ceased on the Western Front at 11am on November 11, 1918. The war had killed an estimated 17–20 million people in military and direct civilian deaths, with some estimates reaching higher when including war-related famine and disease. It permanently altered the political map of Europe, destroyed four empires, and set the conditions for the economic and ideological crises that would produce a second, deadlier war within twenty years.",
     "causeIds": [
       "german-collapse"
     ],
@@ -841,7 +845,7 @@
     "title": "Treaty of Versailles",
     "year": 1919,
     "keyword": "consequence",
-    "summary": "The Treaty of Versailles (June 1919) imposed full war guilt on Germany, required reparations eventually set at 132 billion gold marks, stripped Germany of its colonies and roughly 13% of its territory including Alsace-Lorraine, and limited its army to 100,000 men. Germany was excluded from the negotiations entirely. The combination of humiliation, financial burden, and territorial loss created the conditions of resentment and economic instability that Adolf Hitler would systematically exploit fifteen years later.",
+    "summary": "The Treaty of Versailles (June 1919) imposed full war guilt on Germany, required reparations eventually set at a headline figure of 132 billion gold marks — though subsequent scholarship has shown the actual expected payments (the A and B bonds) were considerably lower, with the C bonds largely fictional — stripped Germany of its colonies and roughly 13% of its territory including Alsace-Lorraine, and limited its army to 100,000 men. Germany was excluded from the negotiations entirely. The combination of humiliation, financial burden, and territorial loss created the conditions of resentment and economic instability that Adolf Hitler would systematically exploit fifteen years later.",
     "causeIds": [
       "armistice-1918"
     ],
@@ -915,7 +919,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Tanks_on_parade_in_London_at_the_end_of_World_War_I%2C_1918_%283056450509%29.jpg",
     "year": 1916,
     "keyword": "shift",
-    "summary": "The static horror of the trenches drove both sides to develop new weapons at extraordinary speed. Poison gas (first used at Ypres in 1915), tanks (debuted on the Somme in 1916, decisive at Cambrai in 1917), and ground-attack aircraft fundamentally changed the battlefield by 1918. The Hundred Days Offensive of 1918 — which broke the German army — depended on combined-arms tactics integrating tanks, artillery, infantry, and aircraft in ways the war's opening battles could not have imagined.",
+    "summary": "The static horror of the trenches drove both sides to develop new weapons at extraordinary speed. Poison gas — used by France in small quantities in 1914 but first deployed on a large scale by Germany at the Second Battle of Ypres in April 1915 — tanks (debuted on the Somme in 1916, decisive at Cambrai in 1917), and ground-attack aircraft fundamentally changed the battlefield by 1918. The Hundred Days Offensive of 1918 — which broke the German army — depended on combined-arms tactics integrating tanks, artillery, infantry, and aircraft in ways the war's opening battles could not have imagined.",
     "causeIds": [
       "trench-warfare-emerges",
       "war-of-attrition"
@@ -967,7 +971,7 @@
     "id": "treaty-of-saint-germain-trianon",
     "title": "Treaties Dismember Austria-Hungary",
     "wiki": "Treaty_of_Saint-Germain-en-Laye_(1919)",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/TratadoDeSaintGermainRenner.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/TratadoDeSaintGermainRenner.png",
     "year": 1919,
     "keyword": "consequence",
     "summary": "The Treaty of Saint-Germain (September 1919) formally dissolved the Austrian Empire and the Treaty of Trianon (June 1920) partitioned Hungary — together stripping the former empire of two-thirds of its territory and population. Hungary alone lost Transylvania to Romania, Slovakia to Czechoslovakia, and Croatia to Yugoslavia. These settlements created multiple ethnic minorities in the wrong states, generating the irredentist grievances that would fuel instability across Central Europe through the 1930s and beyond.",
@@ -988,7 +992,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Sevres_signing.jpg",
     "year": 1920,
     "keyword": "consequence",
-    "summary": "The Treaty of Sèvres (August 1920) partitioned the Ottoman Empire between Britain, France, Greece, Italy, and Armenia — leaving Turkey only a rump state in northern Anatolia. It was never implemented: Mustafa Kemal's nationalist forces rejected it, defeated the Greek army in the Greco-Turkish War (1919–1922), and negotiated a replacement Treaty of Lausanne (1923) on far better terms. The Sèvres/Lausanne settlement drew the modern borders of the Middle East and planted the seeds of the Kurdish question, the Israeli-Palestinian conflict, and decades of regional instability.",
+    "summary": "The Treaty of Sèvres (August 1920) partitioned the Ottoman Empire between Britain, France, Greece, Italy, and Armenia — leaving Turkey only a rump state in northern Anatolia. It was never implemented: Mustafa Kemal's nationalist forces rejected it, defeated the Greek army in the Greco-Turkish War (1919–1922), and negotiated the replacement Treaty of Lausanne (1923). Together with the earlier Sykes-Picot Agreement (1916) and the Balfour Declaration (1917), these settlements drew the modern borders of the Middle East, created the Mandate period that shaped the Israeli-Palestinian conflict, and planted the seeds of the Kurdish question and decades of regional instability.",
     "causeIds": [
       "ottoman-collapse",
       "armistice-1918"
@@ -1003,7 +1007,7 @@
     "id": "weimar-republic",
     "title": "Weimar Republic Founded",
     "wiki": "Weimar_Republic",
-     "imageUrl": "https://cdn.britannica.com/18/197018-050-C91372BC/armistice-officials-Allied-German-signing-fighting-World-November-11-1918.jpg",
+    "imageUrl": "https://cdn.britannica.com/18/197018-050-C91372BC/armistice-officials-Allied-German-signing-fighting-World-November-11-1918.jpg",
     "year": 1919,
     "keyword": "consequence",
     "summary": "Germany's new democratic republic — proclaimed on November 9, 1918, two days before the armistice — was born under the worst possible conditions. It was immediately blamed by the military for the defeat (the 'stab-in-the-back' myth), forced to sign the humiliating Versailles treaty, and confronted with hyperinflation, Communist uprisings, and right-wing coups (the Kapp Putsch, the Beer Hall Putsch). The republic was democratic in law but fragile in culture — a political system that most of its subjects neither trusted nor wanted.",

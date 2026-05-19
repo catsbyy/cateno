@@ -20,6 +20,10 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "zheng-he":               "#061410",
   "louisiana-purchase":     "#0e1a0a",
   "whales":                 "#050e18",
+  "napster":                "#0a0a18",
+  "tulip-mania":            "#150e06",
+  "leaded-gasoline":        "#0e0e08",
+  "invention-of-teenager":  "#12080e",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -36,6 +40,10 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "zheng-he":               "radial-gradient(ellipse at center, #061410 0%, #0D0D0D 70%)",
   "louisiana-purchase":     "radial-gradient(ellipse at center, #0e1a0a 0%, #0D0D0D 70%)",
   "whales":                 "radial-gradient(ellipse at center, #050e18 0%, #0D0D0D 70%)",
+  "napster":                "radial-gradient(ellipse at center, #0a0a18 0%, #0D0D0D 70%)",
+  "tulip-mania":            "radial-gradient(ellipse at center, #150e06 0%, #0D0D0D 70%)",
+  "leaded-gasoline":        "radial-gradient(ellipse at center, #0e0e08 0%, #0D0D0D 70%)",
+  "invention-of-teenager":  "radial-gradient(ellipse at center, #12080e 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -432,6 +440,131 @@ function LouisianaPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Napster — audio waveform suggesting music, signal, transmission
+function NapsterPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-napster" x="0" y="0" width="200" height="120" patternUnits="userSpaceOnUse">
+          {/* Audio waveform: alternating peaks and valleys */}
+          <path d="M0,60 L15,60 L20,30 L25,90 L30,20 L35,100 L40,35 L45,85 L50,45 L55,75 L60,50 L65,70 L70,55 L75,65 L80,60 L200,60"
+                fill="none" stroke="white" strokeWidth="0.7" strokeLinejoin="round"/>
+          {/* Mirror waveform below centre line for symmetry */}
+          <path d="M0,60 L15,60 L20,90 L25,30 L30,100 L35,20 L40,85 L45,35 L50,75 L55,45 L60,70 L65,50 L70,65 L75,55 L80,60 L200,60"
+                fill="none" stroke="white" strokeWidth="0.4" strokeLinejoin="round" opacity="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-napster)" />
+    </svg>
+  );
+}
+
+// Tulip Mania — tulip silhouette with stem, leaves, and three petals
+function TulipManiaPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-tulip-mania" x="0" y="0" width="140" height="180" patternUnits="userSpaceOnUse">
+          {/* Stem */}
+          <line x1="70" y1="140" x2="70" y2="100" stroke="white" strokeWidth="0.8"/>
+          {/* Left leaf */}
+          <path d="M70,125 C55,115 45,105 50,95"
+                fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Right leaf */}
+          <path d="M70,120 C85,110 92,100 87,90"
+                fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Tulip head: three petals */}
+          <path d="M70,100 C62,92 58,80 62,68 C65,58 70,55 70,55"
+                fill="none" stroke="white" strokeWidth="0.8"/>
+          <path d="M70,100 C78,92 82,80 78,68 C75,58 70,55 70,55"
+                fill="none" stroke="white" strokeWidth="0.8"/>
+          <path d="M70,98 C70,88 70,72 70,55"
+                fill="none" stroke="white" strokeWidth="0.7"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-tulip-mania)" />
+    </svg>
+  );
+}
+
+// Leaded Gasoline — simplified molecular bond diagram suggesting chemistry and industry
+function LeadedGasolinePattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-leaded-gasoline" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
+          {/* Central atom */}
+          <circle cx="80" cy="80" r="5" fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Four bonds radiating outward — tetrahedral structure */}
+          <line x1="80" y1="80" x2="80" y2="44" stroke="white" strokeWidth="0.6"/>
+          <line x1="80" y1="80" x2="80" y2="116" stroke="white" strokeWidth="0.6"/>
+          <line x1="80" y1="80" x2="44" y2="80" stroke="white" strokeWidth="0.6"/>
+          <line x1="80" y1="80" x2="116" y2="80" stroke="white" strokeWidth="0.6"/>
+          {/* Outer atoms */}
+          <circle cx="80" cy="40" r="3.5" fill="none" stroke="white" strokeWidth="0.7"/>
+          <circle cx="80" cy="120" r="3.5" fill="none" stroke="white" strokeWidth="0.7"/>
+          <circle cx="40" cy="80" r="3.5" fill="none" stroke="white" strokeWidth="0.7"/>
+          <circle cx="120" cy="80" r="3.5" fill="none" stroke="white" strokeWidth="0.7"/>
+          {/* Diagonal bonds for ethyl groups */}
+          <line x1="80" y1="80" x2="108" y2="52" stroke="white" strokeWidth="0.4" opacity="0.5"/>
+          <line x1="80" y1="80" x2="52" y2="108" stroke="white" strokeWidth="0.4" opacity="0.5"/>
+          <circle cx="111" cy="49" r="2.5" fill="none" stroke="white" strokeWidth="0.6" opacity="0.5"/>
+          <circle cx="49" cy="111" r="2.5" fill="none" stroke="white" strokeWidth="0.6" opacity="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-leaded-gasoline)" />
+    </svg>
+  );
+}
+
+// Invention of the Teenager — vinyl record with concentric grooves
+function InventionOfTeenagerPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-invention-of-teenager" x="0" y="0" width="180" height="180" patternUnits="userSpaceOnUse">
+          {/* Outer edge of record */}
+          <circle cx="90" cy="90" r="72" fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Grooves — concentric circles suggesting vinyl */}
+          <circle cx="90" cy="90" r="62" fill="none" stroke="white" strokeWidth="0.4"/>
+          <circle cx="90" cy="90" r="52" fill="none" stroke="white" strokeWidth="0.4"/>
+          <circle cx="90" cy="90" r="42" fill="none" stroke="white" strokeWidth="0.4"/>
+          <circle cx="90" cy="90" r="32" fill="none" stroke="white" strokeWidth="0.4"/>
+          {/* Label area */}
+          <circle cx="90" cy="90" r="22" fill="none" stroke="white" strokeWidth="0.7"/>
+          {/* Centre hole */}
+          <circle cx="90" cy="90" r="3" fill="white"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-invention-of-teenager)" />
+    </svg>
+  );
+}
+
 // ─── Public export ─────────────────────────────────────────────────────────────
 
 interface ScenarioPatternSvgProps {
@@ -454,6 +587,10 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
     case "zheng-he":               return <ZhengHePattern opacity={opacity} />;
     case "louisiana-purchase":     return <LouisianaPattern opacity={opacity} />;
     case "whales":                 return <WhalesPattern opacity={opacity} />;
+    case "napster":                return <NapsterPattern opacity={opacity} />;
+    case "tulip-mania":            return <TulipManiaPattern opacity={opacity} />;
+    case "leaded-gasoline":        return <LeadedGasolinePattern opacity={opacity} />;
+    case "invention-of-teenager":  return <InventionOfTeenagerPattern opacity={opacity} />;
     default:                       return null;
   }
 }

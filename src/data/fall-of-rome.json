@@ -38,9 +38,9 @@
     "title": "End of Expansion",
     "wiki": "Pax_Romana",
     "imageUrl": "https://cdn.britannica.com/67/148167-050-F596E6F2/Marcus-Aurelius-statue-Rome-Piazza-del-Campidoglio.jpg",
-    "year": 180,
+    "year": 117,
     "keyword": "pressure",
-    "summary": "After the death of Emperor Trajan in 117 AD, Rome largely stopped acquiring new territory. The empire had reached its practical limits — deserts, forests, and distant steppes offered more resistance than reward. Without fresh conquests, the flow of slaves, tribute, and plunder that had financed the Roman economy began to dry up.",
+    "summary": "Upon the death of Emperor Trajan in 117 AD, his successor Hadrian reversed course and consolidated Rome's existing borders rather than continuing to expand. The empire had reached its practical limits — deserts, forests, and distant steppes offered more resistance than reward. Hadrian's Wall and the Limes Germanicus formalised a defensive posture that Trajan's offensive strategy had not required. Without fresh conquests, the flow of slaves, tribute, and plunder that had financed the Roman economy began to dry up — a structural problem that would compound over the following two centuries.",
     "causeIds": [
       "pax-romana-stability"
     ],
@@ -117,7 +117,7 @@
     "imageUrl": "https://i.guim.co.uk/img/media/ec1eb2bb3bf2ae2ae9a0c1ec570cf16d6f138959/0_0_4617_2770/master/4617.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=2ef1c46e87493ed79411899fcfcfa1f0",
     "year": 310,
     "keyword": "pressure",
-    "summary": "Cities lost population and economic importance. Local infrastructure and trade weakened over time.",
+    "summary": "The tax burden and trade collapse of the 3rd and 4th centuries struck cities hardest. Urban populations contracted as small landowners abandoned their properties rather than face ruinous tax demands, and as the long-distance trade that had supplied urban markets broke down. Municipal institutions — the local councils (curiae) whose members were personally liable for tax collection shortfalls — became positions of ruin rather than honour, and were increasingly avoided or escaped. Cities that had been thriving administrative and commercial centres shrank to fortified enclaves, and the civic culture that had defined Roman life slowly dissolved.",
     "causeIds": [
       "tax-burden",
       "economic-decline",
@@ -212,7 +212,7 @@
     "imageUrl": "https://gcp-na-images.contentstack.com/v3/assets/bltea6093859af6183b/bltbca25a482aa6a5f8/69894177e76ad20af2633c74/The-Fall-of-Rome-and-the-Lessons-for-America1.jpg?branch=production",
     "year": 235,
     "keyword": "pressure",
-    "summary": "Rome never developed a reliable system for peaceful imperial succession. Power was regularly seized by military force, and emperors who lost army support were simply killed. This structural instability made long-term policy impossible and drained the treasury through endless civil wars and loyalty payments to competing factions.",
+    "summary": "Rome never developed a reliable system for peaceful imperial succession. Power was regularly seized by military force, and emperors who lost army support were simply killed. This structural weakness predated 235 AD — the year shown marks when it became catastrophically acute during the Crisis of the Third Century — but it had undermined governance since the Julio-Claudian period. The structural instability made long-term policy impossible and drained the treasury through endless civil wars and loyalty payments to competing factions.",
     "causeIds": [
       "imperial-succession-problem"
     ],
@@ -264,7 +264,6 @@
     "effectIds": [
       "regional-fragmentation",
       "romulus-augustulus-deposed",
-      "west-abandoned",
       "fall-of-rome"
     ],
     "isAnchor": false,
@@ -319,7 +318,7 @@
       "loss-of-central-authority"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": true
   },
   {
     "id": "sack-of-rome",
@@ -328,7 +327,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Visigoths_sack_Rome.jpg",
     "year": 410,
     "keyword": "turning-point",
-    "summary": "In August 410 AD, Visigoth king Alaric sacked Rome — the first time the city had fallen to a foreign enemy in 800 years. The sack lasted three days. Though the physical damage was limited, the psychological impact was enormous: Augustine wrote The City of God partly in response to the shock. It proved that Rome itself was no longer inviolable.",
+    "summary": "In August 410 AD, Visigoth king Alaric sacked Rome — the first time the city had been sacked by a foreign enemy in approximately 800 years, since the Gallic sack of 390 BC (some sources give 387 BC). The sack lasted three days. Though the physical damage was limited, the psychological impact was enormous: Augustine wrote The City of God partly in response to the shock. It proved that Rome itself was no longer inviolable, shattering the psychological contract between the empire and its subjects.",
     "causeIds": [
       "barbarian-invasions",
       "stilicho-execution"
@@ -417,7 +416,7 @@
     "imageUrl": "https://cdn.thecollector.com/wp-content/uploads/2023/12/peste-asdod-poussin-painting.jpg?width=1200&quality=100&dpr=2",
     "year": 165,
     "keyword": "catalyst",
-    "summary": "A devastating pandemic struck the empire between 165 and 180 AD, killing millions and possibly contributing to the death of Emperor Marcus Aurelius. It weakened the army, disrupted trade, and accelerated economic and demographic decline.",
+    "summary": "A devastating pandemic struck the empire between 165 and 180 AD, killing an estimated five to ten million people across the empire and severely weakening the army and trade networks. Probably smallpox, brought back by troops returning from the Parthian campaign, it disrupted agriculture, reduced the military recruiting pool, and accelerated economic decline in regions already strained by the end of expansion. Combined with the later Plague of Cyprian (249–262 AD), the demographic losses of the plague era significantly reduced both the workforce and the tax base.",
     "causeIds": [],
     "effectIds": [
       "population-decline",
@@ -548,8 +547,7 @@
     "summary": "The richer Eastern Empire increasingly prioritized its own defense and interests. The West received fewer troops, less tax revenue, and diminishing imperial attention as the crises multiplied.",
     "causeIds": [
       "east-west-split",
-      "military-strain",
-      "loss-of-central-authority"
+      "military-strain"
     ],
     "effectIds": [
       "loss-of-central-authority"
@@ -630,7 +628,7 @@
     "imageUrl": "https://thehistorynetwork.org/wp-content/uploads/2024/01/3508-09.jpg",
     "year": 378,
     "keyword": "turning-point",
-    "summary": "The Visigoths destroyed a Roman army and killed Emperor Valens at Adrianople in 378 AD. It was Rome's worst military defeat in centuries and proved the army could no longer defend its own borders.",
+    "summary": "The Visigoths destroyed a Roman army and killed Emperor Valens at Adrianople in 378 AD — Rome's most catastrophic military defeat since Cannae in 216 BC. An estimated two-thirds of the Eastern Roman field army was killed or captured. The battle proved the army could no longer reliably defend its own borders, and it forced the policy of settling barbarian groups inside Roman territory under their own leaders — a precedent that would progressively blur the line between Roman soldier and barbarian conqueror.",
     "causeIds": [
       "visigoths-cross-danube"
     ],

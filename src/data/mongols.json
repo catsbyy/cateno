@@ -22,7 +22,7 @@
     "imageUrl": "https://www.toursmongolia.com/uploads/Mongol-Nomads.jpg",
     "year": 1162,
     "keyword": "pressure",
-    "summary": "At the time of Temujin's birth, the Mongols were not a unified people but a constellation of rival clans locked in perpetual feuding — kidnapping each other's women, raiding each other's herds, and forming alliances that dissolved as quickly as they formed. Temujin himself was born into captivity; his father was poisoned by enemies when he was nine. This fragmentation was both the problem he solved and the fuel that drove him to solve it.",
+    "summary": "At the time of Temujin's birth — conventionally dated to around 1162, though sources vary between 1155 and 1167 — the Mongols were not a unified people but a constellation of rival clans locked in perpetual feuding: kidnapping each other's women, raiding each other's herds, and forming alliances that dissolved as quickly as they formed. Temujin himself was born into captivity; his father was poisoned by enemies when he was nine. This fragmentation was both the problem he solved and the fuel that drove him to solve it.",
     "causeIds": [],
     "effectIds": [
       "temujin-rises"
@@ -51,9 +51,9 @@
     "title": "Islamic Golden Age",
     "wiki": "Islamic_Golden_Age",
     "imageUrl": "https://islamic-study.org/wp-content/uploads/2017/07/Islams-Golden-age.jpg",
-    "year": 1150,
+    "year": 750,
     "keyword": "pressure",
-    "summary": "Between roughly 750 and 1258 AD, the Abbasid Caliphate centred in Baghdad produced the most sophisticated civilisation on Earth. Muslim scholars preserved and extended Greek philosophy, invented algebra, mapped the stars, developed advanced medicine, and built the House of Wisdom — a library and translation centre that was arguably the most important intellectual institution in human history. All of it rested on the stability of the Abbasid state.",
+    "summary": "Between roughly 750 and 1258 AD, the Abbasid Caliphate centred in Baghdad produced the most sophisticated civilisation on Earth. Muslim scholars preserved and extended Greek philosophy, invented algebra, mapped the stars, developed advanced medicine, and built the House of Wisdom — a library and translation centre that was arguably the most important intellectual institution in human history. All of it rested on the stability of the Abbasid state, which reached its political and cultural apex under Harun al-Rashid in the late 8th century before being gradually weakened by internal fragmentation and outside powers — yet endured as the symbolic heart of Islamic civilisation until the Mongols ended it.",
     "causeIds": [],
     "effectIds": [
       "abbasid-caliphate-power"
@@ -228,9 +228,9 @@
     "title": "Conquest of China",
     "wiki": "Mongol_conquest_of_China",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Bataille_entre_mongols_%26_chinois_%281211%29.jpeg",
-    "year": 1215,
+    "year": 1211,
     "keyword": "turning-point",
-    "summary": "The Mongol campaigns against northern China, beginning with the Jin dynasty in 1211 and culminating in the Southern Song conquest completed by Kublai Khan in 1279, were the longest and most complex military operations in the empire's history. China gave the Mongols gunpowder weapons, paper money technology, administrative systems, and millions of skilled subjects. The sack of Zhongdu (modern Beijing) in 1215 marked the point where the Mongols stopped being raiders and became rulers.",
+    "summary": "The Mongol campaigns against China began with the invasion of the Jin dynasty in 1211, culminating in the sack of Zhongdu (modern Beijing) in 1215 — the point at which the Mongols transitioned from raiders to rulers. The later conquest of the Southern Song was completed by Kublai Khan in 1279, making the full subjugation of China the longest and most complex military operation in the empire's history. China gave the Mongols gunpowder weapons, paper money technology, administrative systems, and millions of skilled subjects.",
     "causeIds": [
       "expansion-begins",
       "mongol-adopts-siege-warfare"
@@ -256,7 +256,6 @@
       "total-war-doctrine"
     ],
     "effectIds": [
-      "destruction-of-cities",
       "depopulation-of-persia",
       "abbasid-caliphate-falls"
     ],
@@ -287,7 +286,7 @@
     "wiki": "Mongol_Empire",
     "imageUrl": "https://www.simpsonstreetfreepress.org/images/Genghis%20Khan%20and%20His_Court.jpg",
     "year": 1209,
-    "keyword": "shift",
+    "keyword": "catalyst",
     "summary": "The Mongol Empire expanded at a pace with no precedent in human history. In 25 years, Genghis Khan conquered more territory than the Romans had in 400. This speed meant that no political entity had time to adapt — alliances that might have checked Mongol expansion could not form quickly enough. The very incomprehensibility of the threat paralysed rulers who had no framework for understanding what was happening to them.",
     "causeIds": [
       "mongol-cavalry-tactics",
@@ -305,11 +304,10 @@
     "wiki": "Mongol_Empire#Destruction_and_death",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/DiezAlbumsArmedRiders_II.jpg",
     "year": 1221,
-    "keyword": "collapse",
+    "keyword": "catalyst",
     "summary": "The Mongol campaigns destroyed a string of the most sophisticated urban centres in the medieval world — Samarkand, Bukhara, Merv, Nishapur, Herat, Baghdad. Modern demographic estimates suggest the campaigns reduced the population of Iran by perhaps 75% over the 13th century. Irrigation infrastructure that had sustained agriculture for millennia was wrecked and never fully rebuilt. The destruction was not merely military — it was civilisational, setting the economic development of Central Asia and Persia back by centuries.",
     "causeIds": [
       "total-war-doctrine",
-      "conquest-of-persia",
       "mongol-adopts-siege-warfare",
       "speed-of-conquest"
     ],
@@ -325,10 +323,10 @@
     "id": "baghdad-sacked",
     "title": "Baghdad Sacked",
     "wiki": "Siege_of_Baghdad_(1258)",
-     "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/0*j3C-xlrCqNJ4_eWV.jpeg",
+    "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/0*j3C-xlrCqNJ4_eWV.jpeg",
     "year": 1258,
     "keyword": "collapse",
-    "summary": "Hulagu Khan's Mongol army besieged Baghdad in January 1258 and sacked it over seventeen days. The Caliph Al-Musta'sim was executed — rolled in a carpet and trampled by horses so that royal blood would not touch the ground. The canals of the irrigation system were destroyed. The House of Wisdom's books were thrown into the Tigris in such numbers, according to contemporary accounts, that the river ran black with ink. It was the most consequential single act of destruction in medieval history.",
+    "summary": "Hulagu Khan's Mongol army besieged Baghdad in January 1258 and sacked it over seventeen days. The Caliph Al-Musta'sim was executed in a manner designed to avoid spilling royal blood — sources describe him being rolled in a carpet and trampled by horses, though the exact method is disputed in the historical record. The canals of the irrigation system were destroyed. The House of Wisdom's books were thrown into the Tigris in such numbers, according to contemporary accounts, that the river ran black with ink. It was the most consequential single act of destruction in medieval history.",
     "causeIds": [
       "destruction-of-cities"
     ],
@@ -382,9 +380,9 @@
     "title": "Abbasid Caliphate at its Peak",
     "wiki": "Abbasid_Caliphate",
     "imageUrl": "https://i0.wp.com/thinkafrica.net/wp-content/uploads/2018/10/abbasid_caliphate_The-House-of-Wisdom-Bayt-Al-Hikma-Baghdad-Iraq.jpg?resize=800%2C382&ssl=1",
-    "year": 1150,
+    "year": 800,
     "keyword": "pressure",
-    "summary": "At its height, the Abbasid Caliphate governed a territory stretching from Spain to Central Asia, with Baghdad as the wealthiest and most sophisticated city in the world. The caliphs patronised scholars, funded translation projects, and created the institutional conditions for the Islamic Golden Age. This concentrated cultural and political wealth made the Abbasid heartland simultaneously the most advanced and the most tempting target in the medieval world.",
+    "summary": "At its height under Harun al-Rashid (r. 786–809), the Abbasid Caliphate governed a territory stretching from Spain to Central Asia, with Baghdad as the wealthiest and most sophisticated city in the world. The caliphs patronised scholars, funded translation projects, and created the institutional conditions for the Islamic Golden Age. By the 12th century Abbasid political power had been diminished by Buyid and Seljuk dominance, but the dynasty remained the symbolic centre of Sunni Islam. This concentrated cultural and political wealth made the Abbasid heartland simultaneously the most advanced and the most tempting target in the medieval world.",
     "causeIds": [
       "islamic-golden-age"
     ],
@@ -398,7 +396,7 @@
     "id": "islamic-golden-age-ends",
     "title": "Islamic Golden Age Ends",
     "wiki": "Islamic_Golden_Age#Decline",
-     "imageUrl": "https://www.alabamagazette.com/IMG/8Wimnn8qWeQlnWXiqVaDpu0Ut2vzt/XPATH/home/cms_data/dfault/photos/stories/id/0/9/10009/s_topXEXT1358x33880is.jpg",
+    "imageUrl": "https://www.alabamagazette.com/IMG/8Wimnn8qWeQlnWXiqVaDpu0Ut2vzt/XPATH/home/cms_data/dfault/photos/stories/id/0/9/10009/s_topXEXT1358x33880is.jpg",
     "year": 1258,
     "keyword": "collapse",
     "summary": "The Mongol destruction of Baghdad in 1258 is the conventional endpoint of the Islamic Golden Age — not because Islamic scholarship immediately ceased, but because the institutional infrastructure that had sustained it was gone. The Abbasid Caliphate, the House of Wisdom, the great madrasas of Persia, the irrigation systems that fed the cities — all were destroyed or permanently disrupted. Survivors carried knowledge westward and eastward, seeding other traditions, but the integrated civilisation they represented never reassembled itself.",
@@ -419,7 +417,7 @@
     "id": "silk-road-under-mongol-control",
     "title": "Silk Road Unified Under Mongols",
     "wiki": "Silk_Road#Mongol_Empire",
-    "imageUrl": "https://www.thevintagenews.com/wp-content/uploads/sites/65/2017/09/1024px-silk_route_copy-640x416.jpg", 
+    "imageUrl": "https://www.thevintagenews.com/wp-content/uploads/sites/65/2017/09/1024px-silk_route_copy-640x416.jpg",
     "year": 1240,
     "keyword": "shift",
     "summary": "By the 1240s, the entire length of the Silk Road from China to Persia fell within Mongol-controlled territory. The Mongols imposed a single legal system, standardised weights and measures, established way stations (yam) every 25 miles, and ruthlessly punished the robbery of merchants. Trade that had been interrupted by political borders and banditry was suddenly safer and faster than at any previous point in history. The irony was stark: the world's most destructive conquerors created its most effective trading system.",
@@ -440,7 +438,7 @@
     "imageUrl": "https://images.nationalgeographic.org/image/upload/v1638892474/EducationHub/photos/the-silk-road-map.jpg",
     "year": 1250,
     "keyword": "shift",
-    "summary": "The 'Mongol Peace' — roughly 1250 to 1350 — was a period of unprecedented connectivity across Eurasia. Diplomats, merchants, missionaries, and scholars could travel from Europe to China with a degree of safety that would not be matched for centuries. Ibn Battuta, William of Rubruck, and Marco Polo all made journeys that would have been impossible before. The same network that carried silk and spices also carried technologies, diseases, and ideas in both directions simultaneously.",
+    "summary": "The 'Mongol Peace' — roughly 1250 to 1350 — was a period of unprecedented connectivity across Eurasia. Diplomats, merchants, missionaries, and scholars could travel from Europe to China with a degree of safety that would not be matched for centuries. William of Rubruck and Marco Polo made journeys that would have been impossible before; Ibn Battuta's wide-ranging travels in the 1320s–1350s took place at the tail end of this era, when Mongol power was already fragmenting. The same network that carried silk and spices also carried technologies, diseases, and ideas in both directions simultaneously.",
     "causeIds": [
       "silk-road-under-mongol-control",
       "mongol-desire-for-trade",
@@ -477,7 +475,7 @@
     "id": "europe-learns-of-east",
     "title": "Europe Discovers the East",
     "wiki": "Mongol_Empire#Cultural_exchange",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/M%C5%8Dko_Sh%C5%ABrai_Ekotoba_2.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/M%C5%8Dko_Sh%C5%ABrai_Ekotoba_2.jpg",
     "year": 1295,
     "keyword": "shift",
     "summary": "Marco Polo's account, and the reports of Franciscan missionaries sent to the Mongol court, gave Western Europeans their first detailed knowledge of China, India, and the spice routes. This knowledge was transformative: it established that vast civilisations and enormous wealth existed beyond the Islamic world, and that they were potentially reachable. The hunger to reach Asian markets directly — bypassing Islamic middlemen — became the driving motivation behind the Age of Exploration two centuries later.",
@@ -583,10 +581,10 @@
     "id": "east-west-knowledge-exchange",
     "title": "East–West Knowledge Exchange",
     "wiki": "Pax_Mongolica#Cultural_exchange",
-     "imageUrl": "https://static.wixstatic.com/media/ff063f_7f1e1b40397c46ba88eb723d71d0cb50~mv2.jpg/v1/fill/w_768,h_403,al_c,lg_1,q_80/ff063f_7f1e1b40397c46ba88eb723d71d0cb50~mv2.jpg",
+    "imageUrl": "https://static.wixstatic.com/media/ff063f_7f1e1b40397c46ba88eb723d71d0cb50~mv2.jpg/v1/fill/w_768,h_403,al_c,lg_1,q_80/ff063f_7f1e1b40397c46ba88eb723d71d0cb50~mv2.jpg",
     "year": 1275,
     "keyword": "shift",
-    "summary": "The Pax Mongolica enabled an exchange of knowledge between East and East that had no precedent. Chinese printing technology, Persian astronomical observations, Indian numerical systems, and Greek philosophical texts preserved in Arabic all moved along the Mongol trade routes simultaneously. European scholars encountered medical and mathematical knowledge they had not known existed. This cross-civilisational fertilisation of ideas was one of the less visible but most consequential effects of an empire built on destruction.",
+    "summary": "The Pax Mongolica enabled an exchange of knowledge between East and West that had no precedent. Chinese printing technology, Persian astronomical observations, Indian numerical systems, and Greek philosophical texts preserved in Arabic all moved along the Mongol trade routes simultaneously. European scholars encountered medical and mathematical knowledge they had not known existed. This cross-civilisational fertilisation of ideas was one of the less visible but most consequential effects of an empire built on destruction.",
     "causeIds": [
       "pax-mongolica",
       "kublai-founds-yuan",
@@ -602,7 +600,7 @@
     "id": "depopulation-of-persia",
     "title": "Depopulation of Central Asia",
     "wiki": "Mongol_conquest_of_the_Khwarazmian_Empire#Casualties",
-     "imageUrl": "https://www.aljazeera.com/wp-content/uploads/2015/05/11fa3788b7a242019ef0042d4d1d68f1_18.jpeg?resize=1200%2C675",
+    "imageUrl": "https://www.aljazeera.com/wp-content/uploads/2015/05/11fa3788b7a242019ef0042d4d1d68f1_18.jpeg?resize=1200%2C675",
     "year": 1230,
     "keyword": "consequence",
     "summary": "Demographic historians estimate that the Mongol campaigns reduced the population of Iran and Central Asia by 50–75% over the 13th century — a combination of direct killing, famine caused by destroyed irrigation, and disease. Cities that had been among the largest in the world were reduced to villages or abandoned entirely. The agricultural base that had sustained these civilisations for millennia was not rebuilt for generations. Some regions of Central Asia never recovered their pre-Mongol population levels.",
@@ -689,7 +687,7 @@
     "id": "knowledge-flows-to-europe",
     "title": "Knowledge Flows to Europe",
     "wiki": "Graeco-Arabic_translation_movement",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Hunayn_-_Articella.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Hunayn_-_Articella.jpg",
     "year": 1300,
     "keyword": "shift",
     "summary": "The displacement of Islamic scholars by the Mongol conquests, combined with the new connectivity of the Pax Mongolica, accelerated the flow of scientific and philosophical knowledge into Western Europe. Arabic translations of Greek texts, Persian astronomical tables, and mathematical treatises reached European universities through Spain, Sicily, and the Byzantine world. Scholars fleeing destroyed cities carried manuscripts westward. The intellectual raw material for the European Renaissance and Scientific Revolution arrived partly through the catastrophe of Mongol conquest.",
@@ -725,7 +723,7 @@
     "id": "labour-shortage-europe",
     "title": "Labour Shortage Empowers Peasants",
     "wiki": "Black_Death#Social_and_economic_effects",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Doutielt3.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Doutielt3.jpg",
     "year": 1350,
     "keyword": "consequence",
     "summary": "With a third of Europe's agricultural workforce dead, surviving peasants found themselves in a buyer's market for labour for the first time in history. Lords who had previously dictated terms now competed for workers. Wages rose, serfdom became harder to enforce, and peasants gained the practical leverage to demand better conditions and legal freedoms. This economic disruption of the traditional feudal relationship accelerated social changes that would have taken generations under normal demographic conditions.",
@@ -764,7 +762,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/La_scuola_di_Atene.jpg",
     "year": 1380,
     "keyword": "consequence",
-    "summary": "The European Renaissance was not a spontaneous flowering of genius — it had material causes. Recovered Greek and Islamic texts transmitted through Mongol-era trade networks provided the intellectual raw material. Black Death survivors inherited concentrated wealth. The breakdown of feudal rigidity created social mobility for talented individuals of non-noble birth. Gutenberg's printing press (1450) disseminated ideas at unprecedented speed. All of these threads trace back, through varying degrees of indirection, to the catastrophic and creative disruption of Mongol expansion.",
+    "summary": "The European Renaissance was not a spontaneous flowering of genius — it had material causes. Recovered Greek and Islamic texts transmitted through Mongol-era trade networks provided the intellectual raw material. Black Death survivors inherited concentrated wealth. The breakdown of feudal rigidity created social mobility for talented individuals of non-noble birth. Gutenberg's printing press, developed around 1440 and first widely deployed in the 1450s, disseminated ideas at unprecedented speed. All of these threads trace back, through varying degrees of indirection, to the catastrophic and creative disruption of Mongol expansion.",
     "causeIds": [
       "knowledge-flows-to-europe",
       "feudalism-weakens"
@@ -777,7 +775,7 @@
     "id": "age-of-exploration-enabled",
     "title": "Age of Exploration Enabled",
     "wiki": "Age_of_Discovery",
-     "imageUrl": "https://img-c.udemycdn.com/course/480x270/1501264_939c.jpg",
+    "imageUrl": "https://img-c.udemycdn.com/course/480x270/1501264_939c.jpg",
     "year": 1400,
     "keyword": "consequence",
     "summary": "The Age of Exploration had two Mongol-era inputs: the desire and the means. Marco Polo's accounts of Eastern wealth created the desire to reach Asia directly, bypassing Islamic middlemen whose power had been concentrated by the collapse of the Abbasid Caliphate. Gunpowder weapons and improved navigation technology provided the means. When the Ottoman capture of Constantinople in 1453 closed overland routes, European powers turned to the sea — and found, instead of Asia, the Americas.",
