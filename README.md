@@ -10,7 +10,7 @@ Built with React, TypeScript, React Flow, and Tailwind CSS.
 
 ## Scenarios
 
-Thirteen curated scenarios, each with a number of interconnected events:
+Seventeen curated scenarios, each with a number of interconnected events:
 
 - **Fall of Rome** (100–600)
 - **French Revolution** (1700–1803)
@@ -23,7 +23,12 @@ Thirteen curated scenarios, each with a number of interconnected events:
 - **Mongol Conquests** (1100–1492)
 - **The Polynesian Expansion** (1500 BC–1976)
 - **The Voyages That Stopped** (960–1500)
+- **The Sale That Made America** (1697-1853)
 - **The Oil That Lit the World** (900-2005)
+- **How Napster Broke Music** (1877-2015)
+- **The Flower That Invented Finance** (1500-1900)
+- **The Poison They Chose** (1900-2010)
+- **The Invention of the Teenager** (1890-1982)
 
 ---
 
