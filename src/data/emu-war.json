@@ -1,0 +1,399 @@
+[
+  {
+    "id": "world-war-one-ends",
+    "title": "The War Ends — Now What?",
+    "wiki": "Soldier_settlement_in_Australia",
+    "year": 1918,
+    "keyword": "pressure",
+    "summary": "When the First World War ended in 1918, Australia faced the question that every belligerent nation faced: what do you do with hundreds of thousands of veterans who have spent four years learning to shoot things, and who now need jobs? The Australian government's answer was land. The Empire had been built on land; land was what Australia had plenty of; land was what a man could call his own. The soldier settler scheme would give veterans farms, tools, and a future. What it would not give them — and what nobody in 1918 thought to check — was any guarantee that 60,000 large, fast, hungry birds would not periodically migrate through their wheat crops.",
+    "causeIds": [],
+    "effectIds": [
+      "soldier-settler-scheme"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/WWI_-_Trench_warfare.jpg"
+  },
+  {
+    "id": "soldier-settler-scheme",
+    "title": "The Soldier Settler Scheme",
+    "wiki": "Soldier_settlement_in_Australia",
+    "year": 1920,
+    "keyword": "pressure",
+    "summary": "The Australian government's soldier settler scheme offered WWI veterans cheap loans to purchase farmland — particularly in Western Australia's wheatbelt, where vast areas of previously uncleared land were available. Thousands of veterans took up the offer, clearing bush, building homesteads, and planting wheat in the Campion district and surrounding areas. The scheme was genuinely well-intentioned and many settlers made a go of it through the 1920s. What they had done, without fully realising it, was establish farms directly in the path of the annual emu migration route — a route the emus had been following for considerably longer than Australia had existed as a nation.",
+    "causeIds": [
+      "world-war-one-ends"
+    ],
+    "effectIds": [
+      "wheat-farms-established"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Australian_soldier_settlers.jpg"
+  },
+  {
+    "id": "wheat-farms-established",
+    "title": "Wheat Farms in Emu Country",
+    "wiki": "Wheatbelt_(Western_Australia)",
+    "year": 1925,
+    "keyword": "shift",
+    "summary": "By the mid-1920s, the Western Australian wheatbelt had been substantially cleared and planted. The veteran farmers had done everything right: they had worked hard, built fences, planted crops, and created viable family farms from what had been scrubland. The farms also happened to be situated across the Campion district — the exact region through which tens of thousands of emus migrated each year between the coast and the interior, following water and food sources. The emus had no particular opinion about this. They simply continued doing what emus had always done, which was walk through whatever was in their way.",
+    "causeIds": [
+      "soldier-settler-scheme"
+    ],
+    "effectIds": [
+      "wheat-farming-crisis"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Wheatbelt_Western_Australia.jpg"
+  },
+  {
+    "id": "great-depression-hits",
+    "title": "The Great Depression Arrives",
+    "wiki": "Great_Depression_in_Australia",
+    "year": 1929,
+    "keyword": "pressure",
+    "summary": "The Great Depression hit Australian wheat farmers with particular cruelty. Global wheat prices collapsed; the cost of production exceeded what the crop could be sold for; the government's promised subsidies arrived slowly if at all. Veterans who had survived Gallipoli and the Western Front were being driven off farms they had cleared with their own hands, unable to pay loans they had taken out in good faith. By 1932, the situation in the wheatbelt was genuinely desperate. The farmers needed help from somewhere. Unfortunately, the help that arrived took the form of an army officer, two soldiers, two Lewis guns, and approximately ten thousand rounds of ammunition.",
+    "causeIds": [],
+    "effectIds": [
+      "wheat-farming-crisis"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Lange-MigrantMother02.jpg"
+  },
+  {
+    "id": "wheat-farming-crisis",
+    "title": "The Farmers Are Desperate",
+    "wiki": "Emu_War#Background",
+    "year": 1931,
+    "keyword": "collapse",
+    "summary": "By 1931, the veteran wheat farmers of the Campion district were facing ruin from two directions simultaneously: global wheat prices had collapsed due to the Depression, and an estimated 20,000 emus were descending on their crops each year. The emus ate the wheat, damaged the fences, and fouled the water supplies. A farmer who survived the Depression's price collapse could still be ruined by a particularly enthusiastic emu migration. The settlers organised, petitioned their members of parliament, and made a simple request that seemed entirely reasonable to everyone involved: the government should send the military to deal with the emus. The government agreed. This was, in retrospect, optimistic.",
+    "causeIds": [
+      "wheat-farms-established",
+      "great-depression-hits"
+    ],
+    "effectIds": [
+      "emus-arrive-worst-time",
+      "farmers-petition-government"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Wheatbelt_Western_Australia.jpg"
+  },
+  {
+    "id": "emu-ecology",
+    "title": "How Emus Work",
+    "wiki": "Emu",
+    "year": 1900,
+    "keyword": "pressure",
+    "summary": "The emu is the world's second-largest living bird, reaching 1.9 metres tall and weighing up to 60 kilograms. It cannot fly, but it can run at 50km/h and sustain that speed for considerable distances. It has no natural predators in Western Australia large enough to threaten an adult. Its feathers are double-shafted and extremely dense, providing remarkable protection against the environment — and, as the Australian Army would discover, against anything short of a direct hit from a machine gun round at close range. Emus are not aggressive by nature, but they are also not deterred by much. The emu's primary characteristic, relevant to what follows, is that it does not particularly care what humans think about its behaviour.",
+    "causeIds": [],
+    "effectIds": [
+      "emus-arrive-worst-time"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Emu-Emu_Bay_-_Kangaroo_Island.jpg"
+  },
+  {
+    "id": "emus-arrive-worst-time",
+    "title": "60,000 Emus Arrive",
+    "wiki": "Emu_War#Background",
+    "year": 1932,
+    "keyword": "catalyst",
+    "summary": "In the spring of 1932, approximately 20,000 emus — some estimates put it considerably higher — migrated through the Campion district on their annual journey. They were following ancient routes to water and food that had existed long before any farm was there. From the emus' perspective, the wheat was a convenient food source on a long walk. From the farmers' perspective, watching a column of large birds eat their crops while they faced bankruptcy from collapsed wheat prices, the situation had become intolerable. The timing could not have been worse: the Depression had already stripped the farmers of any financial cushion. The emus arrived into a community with nothing left to lose.",
+    "causeIds": [
+      "emu-ecology",
+      "wheat-farming-crisis"
+    ],
+    "effectIds": [
+      "farmers-petition-government"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emu_group.jpg"
+  },
+  {
+    "id": "farmers-petition-government",
+    "title": "Send the Army",
+    "wiki": "Emu_War#Initiation",
+    "year": 1932,
+    "keyword": "pressure",
+    "summary": "The veteran farmers of the Campion district did what veterans of the Australian Imperial Force were good at: they organised, made their case clearly, and escalated through the chain of command. Their argument was straightforward — they had served their country, the country had given them land, that land was being destroyed by birds, and the government had an obligation to help. They specifically requested military assistance, reasoning that soldiers with automatic weapons were the most efficient way to reduce the emu population quickly. The Minister of Defence, Sir George Pearce, agreed. Pearce had not fought in the war himself, but he had enormous respect for the men who had. He approved the deployment without, it seems, extensive consultation with anyone who had encountered an emu at close range.",
+    "causeIds": [
+      "wheat-farming-crisis",
+      "emus-arrive-worst-time"
+    ],
+    "effectIds": [
+      "government-sends-army"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/George_Pearce.jpg"
+  },
+  {
+    "id": "government-sends-army",
+    "title": "The Government Agrees — What Could Go Wrong?",
+    "wiki": "Emu_War#Initiation",
+    "year": 1932,
+    "keyword": "turning-point",
+    "summary": "Sir George Pearce, Australia's Minister of Defence, approved the deployment of soldiers and Lewis guns to the Campion district in October 1932. The plan was simple: soldiers would drive the emus toward water sources, concentrate them, and dispatch them efficiently with automatic weapons. The operation was expected to take days. The government believed — not unreasonably — that this would demonstrate responsiveness to veterans' needs and that the results would speak for themselves. Pearce later said he had no idea the operation would attract the attention it did. This was one of several things about the operation that he had not fully anticipated.",
+    "causeIds": [
+      "farmers-petition-government"
+    ],
+    "effectIds": [
+      "emu-war-begins"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/George_Pearce.jpg"
+  },
+  {
+    "id": "emu-war-begins",
+    "title": "The Australian Army Goes to War With Birds",
+    "wiki": "Emu_War",
+    "year": 1932,
+    "keyword": "spark",
+    "summary": "Major G.P.W. Meredith of the Royal Australian Artillery arrived at Campion on October 2, 1932, with Sergeant F. McMurray, Gunner J. O'Halloran, two Lewis guns, and ten thousand rounds of ammunition. Operations were immediately delayed by heavy rain — the Western Australian climate observing no ceasefire with either side. The Lewis gun was a First World War-era light machine gun capable of firing around 550 rounds per minute — a weapon that had mowed down men in their thousands on the Western Front. The emus were approximately 1.9 metres tall, weighed up to 60 kilograms, and had no experience of machine guns. The first shots were fired on November 2, after a month's wait. The emus, who had spent the month grazing, were unimpressed by the delay.",
+    "causeIds": [
+      "government-sends-army"
+    ],
+    "effectIds": [
+      "emus-demonstrate-tactics",
+      "opening-dam-engagement"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Lewis_gun_team.jpg"
+  },
+  {
+    "id": "machine-guns-deployed",
+    "title": "The Lewis Guns Open Fire",
+    "wiki": "Emu_War#First_campaign",
+    "year": 1932,
+    "keyword": "catalyst",
+    "summary": "The first major engagement of the Great Emu War took place at a dam where several hundred emus had gathered to drink. Meredith positioned his Lewis guns and waited until the emus were in range. The guns opened fire — and immediately jammed, the mechanism fouled by wet conditions after weeks of rain. When the guns were cleared and firing resumed, the emus scattered in all directions in groups of five or six, presenting targets too small and too fast to engage effectively. Meredith later reported that each emu 'seemed to have a bullet-proof vest' — the birds' dense double-shafted feathers absorbed a remarkable amount of punishment before the birds went down, and a wounded emu could travel considerable distances before collapsing. The guns needed multiple direct hits to stop a single bird. The mathematics were not promising.",
+    "causeIds": [
+      "opening-dam-engagement"
+    ],
+    "effectIds": [
+      "emus-demonstrate-tactics"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Lewis_gun_team.jpg"
+  },
+  {
+    "id": "emus-demonstrate-tactics",
+    "title": "The Emus Adopt Guerrilla Tactics",
+    "wiki": "Emu_War#First_campaign",
+    "year": 1932,
+    "keyword": "shift",
+    "summary": "Major Meredith's official military dispatch from the front contained a sentence that has since achieved a kind of immortality: the emus, he reported, had 'adopted guerrilla tactics.' When the Lewis guns opened fire, the birds immediately dispersed into small groups that were impossible to concentrate. A single gun could not engage multiple scattered targets simultaneously; by the time it traversed to a new target, the original targets had run. Observers noted that the emus displayed what looked like a coordinated response under fire. The effect was real regardless of its cause: the emus' instinctive dispersal behaviour was functionally identical to the evasive tactics that military doctrine recommended for infantry under machine gun fire. This was either very impressive or a complete coincidence. The emus had no comment.",
+    "causeIds": [
+      "machine-guns-deployed",
+      "emu-war-begins"
+    ],
+    "effectIds": [
+      "meredith-mounts-gun-on-truck",
+      "first-campaign-fails"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emu_group.jpg"
+  },
+  {
+    "id": "meredith-mounts-gun-on-truck",
+    "title": "Mobile Warfare — A New Strategy",
+    "wiki": "Emu_War#First_campaign",
+    "year": 1932,
+    "keyword": "shift",
+    "summary": "After the failure of static engagements, Major Meredith attempted to bring mobility to the campaign by mounting a Lewis gun on a truck and pursuing the emus across the countryside. This innovative tactical adaptation was defeated by the Western Australian outback. The terrain was too rough for the truck to maintain pursuit speed; the emus, moving across country they knew intimately on feet designed for exactly this landscape, simply outpaced the vehicle. On the occasions when the truck did get close enough to engage, the vibration and instability of firing a machine gun from a moving vehicle over corrugated dirt tracks made accurate fire impossible. The emus declined to stand still and wait. Meredith's battle reports from this period have a quality of increasing bewilderment.",
+    "causeIds": [
+      "emus-demonstrate-tactics"
+    ],
+    "effectIds": [
+      "first-campaign-fails"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Lewis_gun_on_vehicle_WWI.jpg"
+  },
+  {
+    "id": "first-campaign-fails",
+    "title": "Operation Suspended — The Emus Hold the Field",
+    "wiki": "Emu_War#First_campaign",
+    "year": 1932,
+    "keyword": "collapse",
+    "summary": "On December 10, 1932, Major Meredith withdrew his forces. The first campaign of the Great Emu War was over. The tally was approximately 986 emus killed, with an estimated ten thousand rounds of ammunition expended — roughly ten bullets per confirmed emu, at a time when Australia was in the grip of the Great Depression and ammunition was not free. The film crew's footage, intended to show government responsiveness and military efficiency, instead documented something that everyone present found difficult to characterise as a victory. Parliament was informed. Members of Parliament began asking questions. The questions were, in the main, unkind.",
+    "causeIds": [
+      "meredith-mounts-gun-on-truck",
+      "emus-demonstrate-tactics"
+    ],
+    "effectIds": [
+      "emus-win-first-campaign",
+      "parliament-debates"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Emu-Emu_Bay_-_Kangaroo_Island.jpg"
+  },
+  {
+    "id": "emus-win-first-campaign",
+    "title": "The Press Declares the Emus Victorious",
+    "wiki": "Emu_War#Media_coverage",
+    "year": 1932,
+    "keyword": "turning-point",
+    "summary": "Australian newspapers reported the outcome of the first campaign with considerable enthusiasm and varying degrees of diplomatic restraint. The Sydney Sun declared that the military had been 'routed by emus.' The ornithological press noted that the emu had demonstrated remarkable resilience. Sir George Pearce, the Minister of Defence who had approved the operation, acquired a nickname that followed him for the rest of his political career: 'Minister for the Emu War.' This was not intended as a compliment. The emus, unaware of their new celebrity status, continued doing whatever emus do, in the same places they had always done it.",
+    "causeIds": [
+      "first-campaign-fails"
+    ],
+    "effectIds": [
+      "parliament-debates",
+      "second-campaign-launched"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Sydney_Morning_Herald_historic.jpg"
+  },
+  {
+    "id": "parliament-debates",
+    "title": "Parliament Asks About Emu Ranks",
+    "wiki": "Emu_War#Parliamentary_debate",
+    "year": 1933,
+    "keyword": "shift",
+    "summary": "The Great Emu War reached the floor of the Australian Parliament, where it was debated with the gravity appropriate to a matter of national embarrassment. One member asked whether, given the emus' performance, they should be awarded military decorations. Another suggested that if the birds were classified as the enemy, they had defeated a properly equipped military force in the field — a fact that raised questions about the military's readiness that went beyond avian agriculture. Accounts from observers of the campaign described the operation in terms that Parliament found difficult to characterise as a success: that the birds had used 'numerical advantage,' that 'each emu seemed to have a plan.' The Parliament found it difficult to construct a counterargument, and declined to try.",
+    "causeIds": [
+      "emus-win-first-campaign",
+      "first-campaign-fails"
+    ],
+    "effectIds": [
+      "second-campaign-launched"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Parliament_House_Canberra_old.jpg"
+  },
+  {
+    "id": "second-campaign-launched",
+    "title": "Round Two",
+    "wiki": "Emu_War#Second_campaign",
+    "year": 1933,
+    "keyword": "turning-point",
+    "summary": "Despite the parliamentary mockery, the farmers of the Campion district remained desperate. The emus had not left. The wheat prices had not recovered. In February 1933, Major Meredith returned with his Lewis guns for a second campaign. Asked by journalists why he was trying again given the outcome of the first attempt, Meredith responded that the fundamentals had not changed: there were still emus, the farmers still needed help, and he still had ammunition. The second campaign ran until May 1933 with results that were described in the official report as 'more satisfactory' — which, given the baseline being compared against, was setting a low bar.",
+    "causeIds": [
+      "parliament-debates",
+      "emus-win-first-campaign"
+    ],
+    "effectIds": [
+      "emus-win-second-campaign"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Lewis_gun_team.jpg"
+  },
+  {
+    "id": "emus-win-second-campaign",
+    "title": "The Government Quietly Stops Reporting",
+    "wiki": "Emu_War#Second_campaign",
+    "year": 1933,
+    "keyword": "consequence",
+    "summary": "The second campaign killed an estimated 2,500 emus and used a further nine thousand rounds of ammunition. Major Meredith reported that his forces had 'the upper hand' — a claim that the emus, still migrating through the Campion district in their tens of thousands, were not in a position to contest verbally. The government accepted the report, quietly declined to issue any press release, and the Great Emu War effectively ended without a formal conclusion. There was no surrender ceremony. There was no peace treaty. The emus continued their migration the following year as they always had. Farmers would request military assistance again in 1934, 1943, and 1948. The government refused each time. The lesson, whatever it was, had been learned.",
+    "causeIds": [
+      "second-campaign-launched"
+    ],
+    "effectIds": [
+      "bounty-system-replaces-army",
+      "military-requests-rejected"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Emu-Emu_Bay_-_Kangaroo_Island.jpg"
+  },
+  {
+    "id": "bounty-system-replaces-army",
+    "title": "The Bounty System — Humans Finally Win",
+    "wiki": "Emu_War#Aftermath",
+    "year": 1934,
+    "keyword": "consequence",
+    "summary": "With the military option having demonstrated its limitations, the government implemented a bounty system in 1934 — paying farmers and professional hunters a fee for each emu killed. The results were dramatically more effective than anything the army had achieved. Professional hunters with local knowledge, working in familiar terrain with weapons appropriate for the task, killed tens of thousands of emus in the following years — orders of magnitude more than the roughly 3,500 the army had managed in two full campaigns. The lesson appeared to be that the most efficient way to reduce the emu population was to hire people who knew what they were doing, give them appropriate tools, and not invite the press.",
+    "causeIds": [
+      "emus-win-second-campaign"
+    ],
+    "effectIds": [
+      "emus-still-in-western-australia"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Emu-Emu_Bay_-_Kangaroo_Island.jpg"
+  },
+  {
+    "id": "military-requests-rejected",
+    "title": "The Army Never Returns",
+    "wiki": "Emu_War#Aftermath",
+    "year": 1934,
+    "keyword": "consequence",
+    "summary": "Farmers in the wheatbelt continued to struggle with emu incursions and requested military assistance again in 1934, 1943, and 1948. The government refused all three requests. No official explanation was given for the policy change, but the reasoning was not difficult to infer: the Great Emu War had demonstrated conclusively that deploying Lewis guns against migratory birds was expensive, ineffective, and — once the press got involved — quite difficult to explain. The government had learned something that it preferred not to have learned publicly. The emus, who had not attended any of the parliamentary debates and were unaware they had won a war, continued their annual migrations undisturbed by further military intervention.",
+    "causeIds": [
+      "emus-win-second-campaign"
+    ],
+    "effectIds": [
+      "emus-still-in-western-australia"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Parliament_House_Canberra_old.jpg"
+  },
+  {
+    "id": "emus-still-in-western-australia",
+    "title": "The Emus: Undefeated",
+    "wiki": "Emu",
+    "year": 1948,
+    "keyword": "consequence",
+    "summary": "The emus of Western Australia continue their annual migrations to this day. The current population is estimated at approximately 700,000 birds in Western Australia alone, making them one of the most successful large animals on the continent. Farmers have adapted — better fencing, less confrontational management strategies, the occasional bounty scheme — and the emus have adapted to nothing, because the emus did not need to adapt. They were doing exactly what they had always done. Major Meredith, reflecting on the campaign in later years, reportedly said: 'If we had a military division with the bullet-carrying capacity of these birds, it would face any army in the world. They could face machine guns with the invulnerability of tanks.' He meant this as a lament. History has recorded it as a tribute.",
+    "causeIds": [
+      "bounty-system-replaces-army",
+      "military-requests-rejected"
+    ],
+    "effectIds": [
+      "emu-war-global-legacy"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emu_group.jpg"
+  },
+  {
+    "id": "opening-dam-engagement",
+    "title": "The Dam — Where It All Went Wrong",
+    "wiki": "Emu_War#First_campaign",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Lewis_gun_team.jpg",
+    "year": 1932,
+    "keyword": "spark",
+    "summary": "The opening engagement of the Great Emu War has entered history with the quality of a carefully constructed comic set-piece, which makes it more frustrating that it actually happened. On November 2, 1932, several hundred emus gathered at a dam to drink. Meredith positioned both Lewis guns. He waited until the birds were densely concentrated. He gave the order to fire. The guns jammed — the mechanisms fouled by weeks of wet weather. By the time they were cleared and operational, the emus had scattered. When fire was eventually opened on the dispersed birds, each hit seemed insufficient to bring them down immediately. Meredith reported that a single emu could absorb 'five or more bullets' and continue moving. The final tally for the engagement: twelve emus confirmed dead. Ammunition expended: approximately 2,500 rounds. Meredith wrote in his dispatch that the engagement had not proceeded as anticipated. This was his most understated sentence.",
+    "causeIds": [
+      "emu-war-begins"
+    ],
+    "effectIds": [
+      "machine-guns-deployed"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "emu-war-global-legacy",
+    "title": "The War That Wouldn't Stay Dead",
+    "wiki": "Emu_War#Legacy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Emu-Emu_Bay_-_Kangaroo_Island.jpg",
+    "year": 1950,
+    "keyword": "consequence",
+    "summary": "The Great Emu War has outlasted everything it produced: the farms it was meant to protect, the careers of the politicians involved, and the military records of everyone present. It has become one of the most cited examples in wildlife management literature of what happens when the wrong tool is applied to an ecological problem with misplaced confidence. It appears regularly in academic papers on human-wildlife conflict, in histories of ecological hubris, and in philosophical discussions of the limits of force. It has been the subject of documentaries, a musical, and innumerable journalistic retrospectives in every decade since it occurred. The Meredith quote about 'bullet-carrying capacity' has been cited approvingly by military historians studying the relationship between firepower and effectiveness. The lesson the Great Emu War teaches — that understanding the adversary's biology and behaviour matters more than the size of your weapons — has proven more durable than anything Major Meredith intended to demonstrate.",
+    "causeIds": [
+      "emus-still-in-western-australia"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]
