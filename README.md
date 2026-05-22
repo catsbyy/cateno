@@ -10,7 +10,7 @@ Built with React, TypeScript, React Flow, and Tailwind CSS.
 
 ## Scenarios
 
-Seventeen curated scenarios, each with a number of interconnected events:
+Twenty-two curated scenarios, each with a number of interconnected events:
 
 - **Fall of Rome** (100–600)
 - **French Revolution** (1700–1803)
@@ -29,6 +29,11 @@ Seventeen curated scenarios, each with a number of interconnected events:
 - **The Flower That Invented Finance** (1500-1900)
 - **The Poison They Chose** (1900-2010)
 - **The Invention of the Teenager** (1890-1982)
+- **Death and the Birth of Humanism** (1100-1520)
+- **The Voyage That Connected the World** (1300-1602)
+- **How a Patent Lawsuit Built Hollywood** (1891-1930)
+- **The Postmaster Who Ran Hollywood** (1921-1968)
+- **The Two Films That Ended Good Cinema** (1967-1995)
 
 ---
 
