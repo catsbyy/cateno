@@ -21,9 +21,11 @@ import ageOfExplorationData from "./age-of-exploration.json";
 import hollywoodBirthData from "./hollywood-birth.json";
 import hollywoodCodeData from "./hollywood-code.json";
 import hollywoodBlockbusterData from "./hollywood-blockbuster.json";
+/*
 import f1TurboData from "./f1-turbo-era.json";
 import f1BernieData from "./f1-bernie.json";
 import f1SennaData from "./f1-senna.json";
+*/
 
 export const SCENARIOS: CatenoScenario[] = [
   {
