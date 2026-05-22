@@ -21,6 +21,9 @@ import ageOfExplorationData from "./age-of-exploration.json";
 import hollywoodBirthData from "./hollywood-birth.json";
 import hollywoodCodeData from "./hollywood-code.json";
 import hollywoodBlockbusterData from "./hollywood-blockbuster.json";
+import f1TurboData from "./f1-turbo-era.json";
+import f1BernieData from "./f1-bernie.json";
+import f1SennaData from "./f1-senna.json";
 
 export const SCENARIOS: CatenoScenario[] = [
   {
@@ -221,4 +224,33 @@ export const SCENARIOS: CatenoScenario[] = [
     anchorId: "jaws-changes-everything",
     nodes: hollywoodBlockbusterData as CatenoScenario["nodes"],
   },
+  /*
+  {
+    id: "f1-turbo-era",
+    title: "The Arms Race That Nearly Destroyed F1",
+    period: "1966–1990",
+    description:
+      "Renault found a loophole in the regulations and built an engine producing 1,500 horsepower. Every major manufacturer in the world scrambled to match it. Costs exploded, small teams died, and the cars became too fast to control. The FIA banned turbos — but the arms race had permanently changed what F1 was.",
+    anchorId: "renault-turbo-debuts",
+    nodes: f1TurboData as CatenoScenario["nodes"],
+  },
+  {
+    id: "f1-bernie",
+    title: "How a Used Car Dealer Built a $6 Billion Empire",
+    period: "1970–2017",
+    description:
+      "Formula One in 1970 was a collection of racing teams with no commercial strategy, no centralised television rights, and no collective bargaining power. Bernie Ecclestone noticed. Thirty years later he owned the commercial rights to the sport for the next hundred years.",
+    anchorId: "ecclestone-takes-foca",
+    nodes: f1BernieData as CatenoScenario["nodes"],
+  },
+  {
+    id: "f1-senna",
+    title: "The Weekend That Changed Everything",
+    period: "1950–2022",
+    description:
+      "Between 1950 and 1994, Formula One killed 31 drivers at race weekends. Then one weekend at Imola killed the most beloved driver in the world — and the sport could no longer accept what it had always accepted. The 30 years since have produced zero racing deaths.",
+    anchorId: "san-marino-gp-1994",
+    nodes: f1SennaData as CatenoScenario["nodes"],
+  },
+  */
 ];

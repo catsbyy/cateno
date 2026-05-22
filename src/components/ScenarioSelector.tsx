@@ -18,10 +18,10 @@ function chunkArray<T>(arr: T[], size: number): T[][] {
   return chunks;
 }
 
-const CARD_BASIS = "calc((100% - 32px) / 3)"; // width of one card in a full 3-column row
+const CARD_BASIS = "calc((100% - 48px) / 4)"; // width of one card in a full 4-column row
 
 export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
-  const rows = chunkArray(SCENARIOS, 3);
+  const rows = chunkArray(SCENARIOS, 4);
 
   return (
     <div className="w-full min-h-screen bg-[#0D0D0D] flex flex-col items-center px-4 py-12 md:py-16 pb-0">
@@ -39,12 +39,12 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
         </p>
       </motion.div>
 
-      {/* Card grid — max 960px, centered */}
-      <div className="w-full flex flex-col gap-4" style={{ maxWidth: 960 }}>
+      {/* Card grid — max 1200px, centered */}
+      <div className="w-full flex flex-col gap-4" style={{ maxWidth: 1200 }}>
         {rows.map((row, rowIdx) => (
           <div key={rowIdx} className="flex flex-col gap-4 md:flex-row md:justify-center md:items-stretch">
             {row.map((scenario, colIdx) => {
-              const globalIdx = rowIdx * 3 + colIdx;
+              const globalIdx = rowIdx * 4 + colIdx;
               const anchor = scenario.nodes.find((n) => n.isAnchor);
               const centreColor = SCENARIO_CENTRE_COLORS[scenario.id] ?? "#111111";
 

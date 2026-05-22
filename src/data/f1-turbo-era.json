@@ -1,0 +1,315 @@
+[
+  {
+    "id": "three-litre-formula",
+    "title": "The 3-Litre Formula",
+    "wiki": "Formula_One_regulations#1966_Formula",
+    "year": 1966,
+    "keyword": "pressure",
+    "summary": "The FIA introduced a new 3-litre engine formula in 1966, replacing the outgoing 1.5-litre formula. The regulation was intended to increase engine displacement and therefore power, making F1 more spectacular. It contained a crucial loophole: turbocharged engines were permitted with a smaller 1.5-litre displacement — the assumption being that turbocharging technology was too unreliable and complex to be competitive. For eleven years, this assumption held. Then Renault noticed.",
+    "causeIds": [],
+    "effectIds": [
+      "cosworth-dfv-dominance",
+      "renault-turbo-debuts",
+      "ground-effect-revolution"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jack_Brabham_1966.jpg"
+  },
+  {
+    "id": "cosworth-dfv-dominance",
+    "title": "The Cosworth DFV — Democracy in F1",
+    "wiki": "Ford_Cosworth_DFV",
+    "year": 1967,
+    "keyword": "pressure",
+    "summary": "The Ford Cosworth DFV engine, developed by Keith Duckworth and introduced by Lotus in 1967, became available to customer teams from 1968 at a cost of roughly £7,500 per unit. The DFV was a masterpiece of engineering — compact, powerful, and mounted as a stressed structural member of the chassis. It dominated F1 for over a decade, powering cars to 8 Constructors' Championships and 12 Drivers' Championships. More importantly, it democratised the sport: small teams with good chassis and a DFV could compete with factory operations. Customer engines — bought off the shelf rather than developed in-house — became the foundation of F1's competitive structure. Renault's turbo would shatter this model permanently.",
+    "causeIds": [
+      "three-litre-formula"
+    ],
+    "effectIds": [
+      "renault-turbo-debuts"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Cosworth_DFV.jpg"
+  },
+  {
+    "id": "renault-turbo-debuts",
+    "title": "Renault's Yellow Teapot",
+    "wiki": "Renault_in_Formula_One#Turbo_era",
+    "year": 1977,
+    "keyword": "spark",
+    "summary": "Renault entered Formula One in 1977 with a turbocharged 1.5-litre V6 engine — the RS01, immediately nicknamed the 'Yellow Teapot' for its habit of trailing black smoke from its frequent failures. The car retired from its debut at the British Grand Prix with a blown turbo, and retired regularly for the next two seasons. The paddock was not impressed. Then in 1979, Jean-Pierre Jabouille won the French Grand Prix at Dijon — the first turbo victory in F1 — and the tone changed immediately. Renault had been right. The 3-litre DFV, producing around 480bhp, was about to be made obsolete by an engine producing twice the power in qualifying trim.",
+    "causeIds": [
+      "three-litre-formula",
+      "cosworth-dfv-dominance"
+    ],
+    "effectIds": [
+      "turbo-proves-viable",
+      "arms-race-begins",
+      "fisa-foca-war"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Renault_RS01_1977.jpg"
+  },
+  {
+    "id": "turbo-proves-viable",
+    "title": "The Turbo Wins — Everything Changes",
+    "wiki": "1979_French_Grand_Prix",
+    "year": 1979,
+    "keyword": "turning-point",
+    "summary": "Jabouille's victory at Dijon in 1979, with Arnoux finishing third in the second Renault, proved that turbo technology had matured enough to win. The performance gap between Renault's turbocharged engine and the normally-aspirated Cosworth DFVs of the opposition was enormous — on the straights, the Renault was simply in a different category. Every major manufacturer and engine supplier in the paddock immediately recognised what this meant: the DFV era was over, and the arms race to develop competitive turbo engines had begun. Teams without turbo power were now running to stand still.",
+    "causeIds": [
+      "renault-turbo-debuts"
+    ],
+    "effectIds": [
+      "arms-race-begins"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Jean-Pierre_Jabouille_1979.jpg"
+  },
+  {
+    "id": "fisa-foca-war",
+    "title": "The FISA-FOCA War",
+    "wiki": "FISA-FOCA_war",
+    "year": 1981,
+    "keyword": "pressure",
+    "summary": "The turbo era arrived simultaneously with a bitter political battle for control of Formula One. Jean-Marie Balestre's FIA (through FISA) clashed with Bernie Ecclestone's Formula One Constructors' Association (FOCA) over rule-making authority, prize money distribution, and the commercial rights to the sport. The war was fought through threatened strikes, team boycotts — the 1982 San Marino GP was boycotted by the FOCA teams, leaving only Ferrari, Renault, and Toleman on the grid — and complex legal maneuvering. It ended with the Concorde Agreement of 1981, which established the commercial and political framework that governed F1 for decades. The turbo teams — manufacturer-backed — aligned with FISA; the customer-engine teams — independent constructors — backed FOCA. The battle lines of F1's internal politics were drawn along the fracture created by the turbo.",
+    "causeIds": [
+      "renault-turbo-debuts"
+    ],
+    "effectIds": [
+      "arms-race-begins",
+      "small-teams-die"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Jean-Marie_Balestre.jpg"
+  },
+  {
+    "id": "arms-race-begins",
+    "title": "The Manufacturers Enter",
+    "wiki": "Turbo_era_(Formula_One)",
+    "year": 1981,
+    "keyword": "shift",
+    "summary": "Renault's competitive success triggered an entry of major manufacturers into Formula One engine supply that fundamentally changed the sport's economics. Ferrari developed their own turbo; BMW supplied Brabham with a four-cylinder turbo of extraordinary violence (essentially a race-tuned version of their production engine block); TAG-Porsche supplied McLaren; Honda began supplying Spirit and then Williams; Ford developed the TEC turbo. Each program required hundreds of engineers and budgets orders of magnitude larger than the DFV's customer price. The era of the affordable customer engine was over; the era of factory warfare had begun.",
+    "causeIds": [
+      "renault-turbo-debuts",
+      "turbo-proves-viable",
+      "fisa-foca-war",
+      "ground-effect-revolution"
+    ],
+    "effectIds": [
+      "honda-enters-turbo",
+      "turbo-power-explosion",
+      "small-teams-die",
+      "competitive-turbo-era-racing"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/BMW_M12-13_turbo.jpg"
+  },
+  {
+    "id": "honda-enters-turbo",
+    "title": "Honda's Engineering Obsession",
+    "wiki": "Honda_in_Formula_One#1983–1992",
+    "year": 1983,
+    "keyword": "catalyst",
+    "summary": "Honda entered F1 as an engine supplier in 1983 with their RA163E turbo V6, initially powering the Spirit team. They moved to Williams in 1984 and began winning immediately. Honda's approach to F1 was distinctively Japanese: enormous engineering resources, obsessive attention to reliability, and a corporate determination to demonstrate technological supremacy that transcended normal commercial calculation. By 1986, Honda-powered Williams cars were dominant — Nelson Piquet and Nigel Mansell giving Williams back-to-back championship challenges. Honda had turned F1 engine supply into a statement of national industrial capability, and their best years — with McLaren and Ayrton Senna — were still ahead.",
+    "causeIds": [
+      "arms-race-begins"
+    ],
+    "effectIds": [
+      "turbo-power-explosion",
+      "mclaren-honda-dominance"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Honda_RA163E.jpg"
+  },
+  {
+    "id": "turbo-power-explosion",
+    "title": "1,500 Horsepower — The Untameable Engines",
+    "wiki": "Turbo_era_(Formula_One)#Power_output",
+    "year": 1983,
+    "keyword": "collapse",
+    "summary": "By the mid-1980s, turbo engines in qualifying trim were producing power outputs that had never been seen in motorsport. The BMW M12/13 four-cylinder engine — essentially derived from a production car block — reportedly produced up to 1,400–1,500bhp in short-burst qualifying trim by 1985–1986, fuelled with highly pressurised fuel mixtures. Race engines ran at more manageable levels of around 800–900bhp, but even this was far beyond what contemporary tyres, circuits, and safety standards could properly accommodate. Drivers described the cars as barely controllable on acceleration, requiring enormous physical effort and precision simply to keep them pointed correctly. The cars were phenomenally fast and genuinely dangerous.",
+    "causeIds": [
+      "arms-race-begins",
+      "honda-enters-turbo"
+    ],
+    "effectIds": [
+      "safety-concerns-mount",
+      "qualifying-engines-insanity",
+      "mclaren-honda-dominance"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Brabham_BT52.jpg"
+  },
+  {
+    "id": "qualifying-engines-insanity",
+    "title": "The Qualifying Engine — One Lap, Then Destroyed",
+    "wiki": "Turbo_era_(Formula_One)#Qualifying_engines",
+    "year": 1985,
+    "keyword": "shift",
+    "summary": "The development of dedicated qualifying engines — units designed to produce maximum power for a single flying lap before being destroyed — represented the turbo era's most extreme expression. BMW's four-cylinder unit produced an estimated 1,300-1,500bhp in qualifying trim, fuelled by special fuel blends that were barely legal under F1 regulations. Mechanics would fit the qualifying engine, the driver would complete one flying lap producing a time that the race engine couldn't approach, and the unit would be removed and discarded. This was motorsport as pure technological theatre — a one-lap performance that served no purpose except to demonstrate what was technically possible when cost and reliability were irrelevant.",
+    "causeIds": [
+      "turbo-power-explosion"
+    ],
+    "effectIds": [
+      "turbo-ban-1989"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Qualifying_tyre_F1.jpg"
+  },
+  {
+    "id": "small-teams-die",
+    "title": "The Small Teams Are Left Behind",
+    "wiki": "Turbo_era_(Formula_One)#Effects_on_smaller_teams",
+    "year": 1984,
+    "keyword": "collapse",
+    "summary": "The turbo era destroyed the economics that had allowed small independent constructors to compete in Formula One. Teams running Cosworth DFVs — Tyrrell, Toleman, RAM, Osella — found themselves lapped routinely by turbo-powered cars. Sponsorship followed performance; sponsors followed sponsorship. Teams that had been midfield competitors in the DFV era became also-rans, then backmarkers, then failures. The customer engine economy that had sustained perhaps a dozen viable constructors collapsed as turbo development costs escalated beyond any independent team's ability to share them. The pre-qualifying system — introduced in 1984 to manage the bloated entry list — required teams without turbo power to qualify simply to participate. Formula One was ceasing to be a competition and becoming a demonstration.",
+    "causeIds": [
+      "arms-race-begins",
+      "fisa-foca-war"
+    ],
+    "effectIds": [
+      "turbo-ban-1989",
+      "costs-never-recover"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Tyrrell_012.jpg"
+  },
+  {
+    "id": "safety-concerns-mount",
+    "title": "The Cars Become Too Fast to Control",
+    "wiki": "Turbo_era_(Formula_One)#Safety",
+    "year": 1984,
+    "keyword": "pressure",
+    "summary": "The combination of enormous turbo power, relatively unsophisticated aerodynamics, and circuits designed for cars producing half the power created genuine safety concerns throughout the turbo era. Straight-line speeds exceeded 350km/h at Monza; cars could accelerate from 0-160km/h in under three seconds. Tyre technology struggled to keep pace with power outputs. The Brazilian Grand Prix of 1982 saw cars bottoming out so severely on the bumpy Jacarepaguá circuit that gearboxes were damaged by the impacts. Circuit safety barriers designed for 200km/h impacts were now facing cars capable of 350km/h. The accident that didn't happen — a major accident at a chicane or in a crowded field — was largely a matter of fortune.",
+    "causeIds": [
+      "turbo-power-explosion",
+      "ground-effect-revolution"
+    ],
+    "effectIds": [
+      "turbo-ban-1989"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/F1_race_1984.jpg"
+  },
+  {
+    "id": "mclaren-honda-dominance",
+    "title": "McLaren-Honda — 15 from 16",
+    "wiki": "1988_Formula_One_World_Championship",
+    "year": 1988,
+    "keyword": "collapse",
+    "summary": "The 1988 Formula One season produced the most dominant performance by a single team in the sport's history to that point: McLaren, powered by Honda, won 15 of 16 races. Ayrton Senna and Alain Prost — the two greatest drivers of their era — finished first and second in the championship. The constructors' championship wasn't a contest. Other teams' seasons were essentially irrelevant to the outcome. This was the turbo era's final flourish — and its clearest demonstration of what happened when the arms race produced a winner so dominant that competition became notional. The sport had been consumed by engineering warfare to the point where racing itself was secondary. The FIA had already announced the turbo ban; this season provided the definitive justification.",
+    "causeIds": [
+      "honda-enters-turbo",
+      "turbo-power-explosion",
+      "competitive-turbo-era-racing"
+    ],
+    "effectIds": [
+      "turbo-ban-1989"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/McLaren_MP4-4.jpg"
+  },
+  {
+    "id": "turbo-ban-1989",
+    "title": "The FIA Bans Turbos",
+    "wiki": "Turbo_era_(Formula_One)#End_of_the_turbo_era",
+    "year": 1989,
+    "keyword": "turning-point",
+    "summary": "The FIA banned turbocharged engines from Formula One from the start of the 1989 season, returning to a normally-aspirated 3.5-litre formula. The decision was announced in 1986 and gave teams three years to prepare. The stated reasons were safety (power levels were excessive), cost (the arms race had made F1 inaccessible to independent constructors), and competition (McLaren-Honda's dominance had made racing meaningless). All three were valid. What the ban couldn't undo was the transformation in F1's economic structure: the turbo era had demonstrated that manufacturer budgets could dominate the sport, and manufacturers had learned to want that dominance.",
+    "causeIds": [
+      "safety-concerns-mount",
+      "small-teams-die",
+      "mclaren-honda-dominance",
+      "qualifying-engines-insanity"
+    ],
+    "effectIds": [
+      "costs-never-recover",
+      "manufacturer-power-established"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Ferrari_640_1989.jpg"
+  },
+  {
+    "id": "costs-never-recover",
+    "title": "The Cost Baseline Never Returns",
+    "wiki": "Formula_One#Costs",
+    "year": 1990,
+    "keyword": "consequence",
+    "summary": "The return to normally-aspirated engines in 1989 reduced power outputs dramatically, but it did not reverse the structural transformation in F1's cost base. Teams that had developed turbo programs had built large engineering departments, sophisticated simulation facilities, and supply chains that remained in place. The expectation of what a competitive F1 program cost — in wind tunnel hours, in aerodynamic development, in engine development — had been permanently elevated by the turbo era. A competitive budget in 1990 was far larger than a competitive budget in 1976, despite running a simpler engine formula. The arms race had ratcheted the cost floor upward and it never came back down.",
+    "causeIds": [
+      "turbo-ban-1989",
+      "small-teams-die"
+    ],
+    "effectIds": [
+      "manufacturer-power-established"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Williams_FW14B_1992.jpg"
+  },
+  {
+    "id": "manufacturer-power-established",
+    "title": "Manufacturers Learn They Can Win",
+    "wiki": "Formula_One#Manufacturers",
+    "year": 1990,
+    "keyword": "consequence",
+    "summary": "The turbo era's most lasting consequence was not technological but strategic: it proved to major manufacturers that Formula One could be dominated by engineering investment, and that domination was achievable if the budget was large enough. Honda had demonstrated this with McLaren; BMW had shown it was possible even with an adapted road car engine block. The knowledge that manufacturer resources could win F1 outright — rather than merely participate — created an incentive for manufacturers to return repeatedly. Renault, Honda, BMW, Mercedes, Ferrari, and Toyota all subsequently invested in full manufacturer F1 programs, drawn by the template Renault had established when their Yellow Teapot first smoked its way around the British Grand Prix in 1977.",
+    "causeIds": [
+      "turbo-ban-1989",
+      "costs-never-recover"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Renault_F1_2005.jpg"
+  },
+  {
+    "id": "ground-effect-revolution",
+    "title": "Ground Effect — The Other Arms Race",
+    "wiki": "Ground_effect_in_cars",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Lotus_78_1977.jpg",
+    "year": 1977,
+    "keyword": "catalyst",
+    "summary": "While Renault was developing the turbo, Colin Chapman and Lotus engineer Peter Wright were discovering ground effect — using the car's underside as an inverted wing to generate enormous downforce. The Lotus 78 (1977) and 79 (1978) produced downforce levels that transformed cornering speeds and effectively rewrote the performance envelope of F1. Ground effect and the turbo arrived simultaneously, creating a compound revolution: more downforce meant cars could use more power, and more power meant more downforce was needed. The combination produced the fastest and most dangerous F1 cars ever built. The FIA banned skirts — the sliding seals that enabled ground effect — from 1983, but by then turbos had taken over as the dominant performance technology. Ground effect would return in a different form in 2022.",
+    "causeIds": [
+      "three-litre-formula"
+    ],
+    "effectIds": [
+      "safety-concerns-mount",
+      "arms-race-begins"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "competitive-turbo-era-racing",
+    "title": "The Racing Itself — Piquet, Lauda, Prost",
+    "wiki": "Turbo_era_(Formula_One)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Piquet_Lauda_1984.jpg",
+    "year": 1984,
+    "keyword": "shift",
+    "summary": "Amid the engineering warfare, the turbo era produced some of the most dramatic championship battles in F1 history. Keke Rosberg won the 1982 championship in a normally-aspirated Ford Cosworth — the last time an NA car would win the title during the turbo era. Nelson Piquet, Niki Lauda (in his second championship in 1984, at 35 years old), and Alain Prost traded titles as the turbo teams achieved parity with each other if not with the normally-aspirated runners. The 1984 season produced the closest championship finish in F1 history: Lauda beat Prost by half a point. The sport's competitive spectacle was real even as the economics were becoming unsustainable for smaller teams — a tension that defined the era and would recur in every subsequent manufacturer-dominated period.",
+    "causeIds": [
+      "arms-race-begins"
+    ],
+    "effectIds": [
+      "mclaren-honda-dominance"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]

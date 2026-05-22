@@ -29,6 +29,9 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "hollywood-birth":        "#140e06",
   "hollywood-code":         "#0e0a12",
   "hollywood-blockbuster":  "#0a0808",
+  "f1-turbo-era":           "#160a04",
+  "f1-bernie":              "#0a0a0a",
+  "f1-senna":               "#06100e",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -54,6 +57,9 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "hollywood-birth":        "radial-gradient(ellipse at center, #140e06 0%, #0D0D0D 70%)",
   "hollywood-code":         "radial-gradient(ellipse at center, #0e0a12 0%, #0D0D0D 70%)",
   "hollywood-blockbuster":  "radial-gradient(ellipse at center, #0a0808 0%, #0D0D0D 70%)",
+  "f1-turbo-era":           "radial-gradient(ellipse at center, #160a04 0%, #0D0D0D 70%)",
+  "f1-bernie":              "radial-gradient(ellipse at center, #0a0a0a 0%, #0D0D0D 70%)",
+  "f1-senna":               "radial-gradient(ellipse at center, #06100e 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -756,6 +762,107 @@ function HollywoodBlockbusterPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// F1 Turbo Era — turbocharger cross-section, turbine blades radiating from centre
+function F1TurboPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-f1-turbo-era" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
+          {/* Outer housing circle */}
+          <circle cx="80" cy="80" r="55" fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Inner hub */}
+          <circle cx="80" cy="80" r="12" fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Centre point */}
+          <circle cx="80" cy="80" r="3" fill="white"/>
+          {/* Turbine blades — 6 curved blades */}
+          <path d="M80,68 C85,65 90,60 88,52" fill="none" stroke="white" strokeWidth="1.2"/>
+          <path d="M92,74 C97,72 103,70 104,62" fill="none" stroke="white" strokeWidth="1.2"/>
+          <path d="M92,86 C95,91 96,98 90,102" fill="none" stroke="white" strokeWidth="1.2"/>
+          <path d="M80,92 C82,97 80,104 74,106" fill="none" stroke="white" strokeWidth="1.2"/>
+          <path d="M68,86 C63,89 57,90 54,84" fill="none" stroke="white" strokeWidth="1.2"/>
+          <path d="M68,74 C65,69 64,62 70,58" fill="none" stroke="white" strokeWidth="1.2"/>
+          {/* Speed lines suggesting rotation */}
+          <path d="M80,25 Q85,52 80,68" fill="none" stroke="white" strokeWidth="0.3" opacity="0.4"/>
+          <path d="M120,50 Q100,65 92,74" fill="none" stroke="white" strokeWidth="0.3" opacity="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-f1-turbo-era)" />
+    </svg>
+  );
+}
+
+// F1 Bernie — banknote grid suggesting money and backroom deals
+function F1BerniePattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-f1-bernie" x="0" y="0" width="120" height="80" patternUnits="userSpaceOnUse">
+          {/* Banknote border rectangle */}
+          <rect x="10" y="10" width="100" height="60" rx="3" fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Inner double border */}
+          <rect x="15" y="15" width="90" height="50" rx="2" fill="none" stroke="white" strokeWidth="0.3"/>
+          {/* Horizontal ruling lines suggesting engraved currency */}
+          <line x1="20" y1="28" x2="100" y2="28" stroke="white" strokeWidth="0.3"/>
+          <line x1="20" y1="36" x2="100" y2="36" stroke="white" strokeWidth="0.3"/>
+          <line x1="20" y1="44" x2="100" y2="44" stroke="white" strokeWidth="0.3"/>
+          <line x1="20" y1="52" x2="100" y2="52" stroke="white" strokeWidth="0.3"/>
+          {/* Corner ornaments */}
+          <circle cx="22" cy="22" r="3" fill="none" stroke="white" strokeWidth="0.4"/>
+          <circle cx="98" cy="22" r="3" fill="none" stroke="white" strokeWidth="0.4"/>
+          <circle cx="22" cy="58" r="3" fill="none" stroke="white" strokeWidth="0.4"/>
+          <circle cx="98" cy="58" r="3" fill="none" stroke="white" strokeWidth="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-f1-bernie)" />
+    </svg>
+  );
+}
+
+// F1 Senna — racing helmet side profile
+function F1SennaPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-f1-senna" x="0" y="0" width="180" height="160" patternUnits="userSpaceOnUse">
+          {/* Helmet outer shell */}
+          <path d="M40,120 C40,80 50,45 90,40 C130,45 140,80 140,120 L130,125 L50,125 Z"
+                fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Visor opening */}
+          <path d="M55,85 C55,72 65,65 90,64 C115,65 125,72 125,85 L122,95 L58,95 Z"
+                fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Chin piece */}
+          <path d="M58,118 C60,108 65,102 90,100 C115,102 120,108 122,118"
+                fill="none" stroke="white" strokeWidth="0.5"/>
+          {/* Air vent slots */}
+          <line x1="75" y1="112" x2="85" y2="112" stroke="white" strokeWidth="0.5"/>
+          <line x1="75" y1="116" x2="85" y2="116" stroke="white" strokeWidth="0.5"/>
+          <line x1="95" y1="112" x2="105" y2="112" stroke="white" strokeWidth="0.5"/>
+          <line x1="95" y1="116" x2="105" y2="116" stroke="white" strokeWidth="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-f1-senna)" />
+    </svg>
+  );
+}
+
 // ─── Public export ─────────────────────────────────────────────────────────────
 
 interface ScenarioPatternSvgProps {
@@ -787,6 +894,9 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
     case "hollywood-birth":        return <HollywoodBirthPattern opacity={opacity} />;
     case "hollywood-code":         return <HollywoodCodePattern opacity={opacity} />;
     case "hollywood-blockbuster":  return <HollywoodBlockbusterPattern opacity={opacity} />;
+    case "f1-turbo-era":           return <F1TurboPattern opacity={opacity} />;
+    case "f1-bernie":              return <F1BerniePattern opacity={opacity} />;
+    case "f1-senna":               return <F1SennaPattern opacity={opacity} />;
     default:                       return null;
   }
 }
