@@ -1,9 +1,10 @@
-import { Routes, Route, useNavigate, useParams, Navigate } from "react-router-dom";
+import { Routes, Route, useNavigate, useParams } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { ScenarioSelector } from "./components/ScenarioSelector";
 import { GraphView } from "./components/GraphView";
+import { NotFound } from "./components/NotFound";
 import { SCENARIOS } from "./data/scenarios";
 import type { CatenoScenario } from "./types";
 
@@ -14,7 +15,7 @@ function ScenarioRoute() {
   const navigate = useNavigate();
 
   const scenario = SCENARIOS.find((s) => s.id === scenarioId);
-  if (!scenario) return <Navigate to="/" replace />;
+  if (!scenario) return <NotFound />;
 
   return (
     <motion.div
@@ -61,6 +62,7 @@ export default function App() {
           <Route path="/" element={<SelectorRoute />} />
           <Route path="/:scenarioId" element={<ScenarioRoute />} />
           <Route path="/:scenarioId/:nodeId" element={<ScenarioRoute />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </AnimatePresence>
       <Analytics />
