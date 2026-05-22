@@ -21,11 +21,9 @@ import ageOfExplorationData from "./age-of-exploration.json";
 import hollywoodBirthData from "./hollywood-birth.json";
 import hollywoodCodeData from "./hollywood-code.json";
 import hollywoodBlockbusterData from "./hollywood-blockbuster.json";
-/*
 import f1TurboData from "./f1-turbo-era.json";
 import f1BernieData from "./f1-bernie.json";
 import f1SennaData from "./f1-senna.json";
-*/
 
 export const SCENARIOS: CatenoScenario[] = [
   {
@@ -69,7 +67,7 @@ export const SCENARIOS: CatenoScenario[] = [
     title: "World War I",
     period: "1871–1933",
     description:
-      "One assassination. Thirty-seven days. How a continent armed to the teeth and bound by rigid alliances sleepwalked into the deadliest war in human history.",
+      "One assassination. Thirty-seven days. How a continent armed to the teeth and bound by rigid alliances sleepwalked into the deadliest war the world had yet seen.",
     anchorId: "assassination-franz-ferdinand",
     nodes: wwiData as CatenoScenario["nodes"],
   },
@@ -150,7 +148,7 @@ export const SCENARIOS: CatenoScenario[] = [
     title: "How Napster Broke Music",
     period: "1877–2015",
     description:
-      "An 18-year-old built it in a dorm room in six months. The music industry spent $100 billion in market value trying to kill it. They won every lawsuit. They lost everything else.",
+      "An 18-year-old built it in a dorm room in about nine months. The music industry spent $100 billion in market value trying to kill it. They won every lawsuit. They lost everything else.",
     anchorId: "napster-launches",
     nodes: napsterData as CatenoScenario["nodes"],
   },
@@ -168,7 +166,7 @@ export const SCENARIOS: CatenoScenario[] = [
     title: "The Poison They Chose",
     period: "1900–2010",
     description:
-      "In 1921, a chemist discovered that adding lead to gasoline eliminated engine knock. He knew it was toxic. A safe alternative existed. They sold it anyway for sixty years — and may have measurably lowered the intelligence and raised the violence of an entire generation.",
+      "In 1921, a chemist discovered that adding lead to gasoline eliminated engine knock. He knew it was toxic. A safe alternative existed. They sold it anyway for more than sixty years — and may have measurably lowered the intelligence and raised the violence of an entire generation.",
     anchorId: "tetraethyl-lead-invented",
     nodes: leadedGasolineData as CatenoScenario["nodes"],
   },
@@ -195,7 +193,7 @@ export const SCENARIOS: CatenoScenario[] = [
     title: "The Voyage That Connected the World",
     period: "1300–1602",
     description:
-      "Europe needed pepper. The spice routes were blocked. So they sailed around the world to find them — and accidentally connected two biospheres that had been separated for 10,000 years, killed 90% of the people they found, and built the global economy we still live in.",
+      "Europe needed pepper. The spice routes were blocked. So they sailed around the world to find them — and accidentally connected two biospheres that had been separated for 10,000 years, killed up to 90% of the people they found, and built the global economy we still live in.",
     anchorId: "columbus-reaches-americas",
     nodes: ageOfExplorationData as CatenoScenario["nodes"],
   },
@@ -226,7 +224,6 @@ export const SCENARIOS: CatenoScenario[] = [
     anchorId: "jaws-changes-everything",
     nodes: hollywoodBlockbusterData as CatenoScenario["nodes"],
   },
-  /*
   {
     id: "f1-turbo-era",
     title: "The Arms Race That Nearly Destroyed F1",
@@ -250,9 +247,8 @@ export const SCENARIOS: CatenoScenario[] = [
     title: "The Weekend That Changed Everything",
     period: "1950–2022",
     description:
-      "Between 1950 and 1994, Formula One killed 31 drivers at race weekends. Then one weekend at Imola killed the most beloved driver in the world — and the sport could no longer accept what it had always accepted. The 30 years since have produced zero racing deaths.",
+      "Between 1950 and 1994, Formula One killed more than 25 drivers at championship race weekends. Then one weekend at Imola killed the most beloved driver in the world — and the sport could no longer accept what it had always accepted. In the thirty years since, there has been one racing death. Before 1994, there were years with three.",
     anchorId: "san-marino-gp-1994",
     nodes: f1SennaData as CatenoScenario["nodes"],
   },
-  */
 ];

@@ -10,7 +10,7 @@ Built with React, TypeScript, React Flow, and Tailwind CSS.
 
 ## Scenarios
 
-Twenty-two curated scenarios, each with a number of interconnected events:
+Twenty-five curated scenarios, each with a number of interconnected events:
 
 - **Fall of Rome** (100-600)
 - **French Revolution** (1700-1803)
@@ -34,6 +34,9 @@ Twenty-two curated scenarios, each with a number of interconnected events:
 - **How a Patent Lawsuit Built Hollywood** (1891-1930)
 - **The Postmaster Who Ran Hollywood** (1921-1968)
 - **The Two Films That Ended Good Cinema** (1967-1995)
+- **The Arms Race That Nearly Destroyed F1** (1966-1990)
+- **How a Used Car Dealer Built a $6 Billion Empire** (1970-2017)
+- **The Weekend That Changed Everything** (1950-2022)
 
 ---
 
