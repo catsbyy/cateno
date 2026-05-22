@@ -24,6 +24,11 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "tulip-mania":            "#150e06",
   "leaded-gasoline":        "#0e0e08",
   "invention-of-teenager":  "#12080e",
+  "black-plague-renaissance": "#12080a",
+  "age-of-exploration":     "#0a100e",
+  "hollywood-birth":        "#140e06",
+  "hollywood-code":         "#0e0a12",
+  "hollywood-blockbuster":  "#0a0808",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -44,6 +49,11 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "tulip-mania":            "radial-gradient(ellipse at center, #150e06 0%, #0D0D0D 70%)",
   "leaded-gasoline":        "radial-gradient(ellipse at center, #0e0e08 0%, #0D0D0D 70%)",
   "invention-of-teenager":  "radial-gradient(ellipse at center, #12080e 0%, #0D0D0D 70%)",
+  "black-plague-renaissance": "radial-gradient(ellipse at center, #12080a 0%, #0D0D0D 70%)",
+  "age-of-exploration":     "radial-gradient(ellipse at center, #0a100e 0%, #0D0D0D 70%)",
+  "hollywood-birth":        "radial-gradient(ellipse at center, #140e06 0%, #0D0D0D 70%)",
+  "hollywood-code":         "radial-gradient(ellipse at center, #0e0a12 0%, #0D0D0D 70%)",
+  "hollywood-blockbuster":  "radial-gradient(ellipse at center, #0a0808 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -565,6 +575,187 @@ function InventionOfTeenagerPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Black Plague & Renaissance — memento mori skull inside a Renaissance arch
+function BlackPlagueRenaissancePattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-black-plague-renaissance" x="0" y="0" width="160" height="200" patternUnits="userSpaceOnUse">
+          {/* Renaissance arch */}
+          <path d="M40,180 L40,100 Q40,60 80,60 Q120,60 120,100 L120,180"
+                fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Keystone at top of arch */}
+          <path d="M70,62 L80,50 L90,62" fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Simple skull inside arch */}
+          <circle cx="80" cy="118" r="14" fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Eye sockets */}
+          <ellipse cx="74" cy="116" rx="4" ry="3" fill="none" stroke="white" strokeWidth="0.5"/>
+          <ellipse cx="86" cy="116" rx="4" ry="3" fill="none" stroke="white" strokeWidth="0.5"/>
+          {/* Nose */}
+          <path d="M78,122 L80,125 L82,122" fill="none" stroke="white" strokeWidth="0.4"/>
+          {/* Teeth suggestion */}
+          <line x1="74" y1="128" x2="86" y2="128" stroke="white" strokeWidth="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-black-plague-renaissance)" />
+    </svg>
+  );
+}
+
+// Age of Exploration — compass rose, symbol of navigation and discovery
+function AgeOfExplorationPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-age-of-exploration" x="0" y="0" width="180" height="180" patternUnits="userSpaceOnUse">
+          {/* Outer circle */}
+          <circle cx="90" cy="90" r="60" fill="none" stroke="white" strokeWidth="0.5"/>
+          {/* Cardinal points — diamond shapes */}
+          <polygon points="90,30 94,86 90,90 86,86" fill="white" opacity="0.7"/>
+          <polygon points="90,150 94,94 90,90 86,94" fill="white" opacity="0.4"/>
+          <polygon points="30,90 86,86 90,90 86,94" fill="white" opacity="0.4"/>
+          <polygon points="150,90 94,86 90,90 94,94" fill="white" opacity="0.7"/>
+          {/* Intercardinal points — smaller diamonds */}
+          <polygon points="90,90 127,53 131,57 94,94" fill="none" stroke="white" strokeWidth="0.5"/>
+          <polygon points="90,90 53,53 57,57 86,86" fill="none" stroke="white" strokeWidth="0.5"/>
+          <polygon points="90,90 127,127 123,131 86,94" fill="none" stroke="white" strokeWidth="0.5"/>
+          <polygon points="90,90 53,127 57,131 94,94" fill="none" stroke="white" strokeWidth="0.5"/>
+          {/* Centre dot */}
+          <circle cx="90" cy="90" r="3" fill="white"/>
+          {/* Inner circle */}
+          <circle cx="90" cy="90" r="12" fill="none" stroke="white" strokeWidth="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-age-of-exploration)" />
+    </svg>
+  );
+}
+
+// Hollywood Birth — film strip with sprocket holes
+function HollywoodBirthPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-hollywood-birth" x="0" y="0" width="80" height="200" patternUnits="userSpaceOnUse">
+          {/* Film strip edges */}
+          <rect x="8" y="0" width="64" height="200" fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Left sprocket holes */}
+          <rect x="12" y="10"  width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          <rect x="12" y="40"  width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          <rect x="12" y="70"  width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          <rect x="12" y="100" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          <rect x="12" y="130" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          <rect x="12" y="160" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          {/* Right sprocket holes */}
+          <rect x="58" y="10"  width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          <rect x="58" y="40"  width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          <rect x="58" y="70"  width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          <rect x="58" y="100" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          <rect x="58" y="130" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          <rect x="58" y="160" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          {/* Frame lines */}
+          <line x1="26" y1="30"  x2="54" y2="30"  stroke="white" strokeWidth="0.4"/>
+          <line x1="26" y1="60"  x2="54" y2="60"  stroke="white" strokeWidth="0.4"/>
+          <line x1="26" y1="90"  x2="54" y2="90"  stroke="white" strokeWidth="0.4"/>
+          <line x1="26" y1="120" x2="54" y2="120" stroke="white" strokeWidth="0.4"/>
+          <line x1="26" y1="150" x2="54" y2="150" stroke="white" strokeWidth="0.4"/>
+          <line x1="26" y1="180" x2="54" y2="180" stroke="white" strokeWidth="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-hollywood-birth)" />
+    </svg>
+  );
+}
+
+// Hollywood Code — scissors, symbol of censorship and cutting
+function HollywoodCodePattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-hollywood-code" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
+          {/* Left blade */}
+          <path d="M80,80 L30,40" fill="none" stroke="white" strokeWidth="1"/>
+          <path d="M80,80 L25,50" fill="none" stroke="white" strokeWidth="0.5"/>
+          {/* Right blade */}
+          <path d="M80,80 L130,40" fill="none" stroke="white" strokeWidth="1"/>
+          <path d="M80,80 L135,50" fill="none" stroke="white" strokeWidth="0.5"/>
+          {/* Pivot/screw at centre */}
+          <circle cx="80" cy="80" r="4" fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Handle stems */}
+          <line x1="80" y1="80" x2="52"  y2="98" stroke="white" strokeWidth="1"/>
+          <line x1="80" y1="80" x2="108" y2="98" stroke="white" strokeWidth="1"/>
+          {/* Handles — left loop */}
+          <ellipse cx="44" cy="112" rx="14" ry="18" fill="none" stroke="white" strokeWidth="0.8"
+                   transform="rotate(-20 44 112)"/>
+          {/* Handles — right loop */}
+          <ellipse cx="116" cy="112" rx="14" ry="18" fill="none" stroke="white" strokeWidth="0.8"
+                   transform="rotate(20 116 112)"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-hollywood-code)" />
+    </svg>
+  );
+}
+
+// Hollywood Blockbuster — clapperboard, the symbol of filmmaking
+function HollywoodBlockbusterPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-hollywood-blockbuster" x="0" y="0" width="180" height="160" patternUnits="userSpaceOnUse">
+          {/* Clapperboard body */}
+          <rect x="30" y="55" width="120" height="85" rx="3" fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Clapper strip */}
+          <rect x="30" y="38" width="120" height="22" rx="3" fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Diagonal stripes on clapper */}
+          <line x1="50"  y1="38" x2="40"  y2="60" stroke="white" strokeWidth="2.5"/>
+          <line x1="70"  y1="38" x2="60"  y2="60" stroke="white" strokeWidth="2.5"/>
+          <line x1="90"  y1="38" x2="80"  y2="60" stroke="white" strokeWidth="2.5"/>
+          <line x1="110" y1="38" x2="100" y2="60" stroke="white" strokeWidth="2.5"/>
+          <line x1="130" y1="38" x2="120" y2="60" stroke="white" strokeWidth="2.5"/>
+          {/* Hinge */}
+          <circle cx="38" cy="42" r="3" fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Text lines on board */}
+          <line x1="45" y1="80"  x2="135" y2="80"  stroke="white" strokeWidth="0.4"/>
+          <line x1="45" y1="95"  x2="135" y2="95"  stroke="white" strokeWidth="0.4"/>
+          <line x1="45" y1="110" x2="100" y2="110" stroke="white" strokeWidth="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-hollywood-blockbuster)" />
+    </svg>
+  );
+}
+
 // ─── Public export ─────────────────────────────────────────────────────────────
 
 interface ScenarioPatternSvgProps {
@@ -591,6 +782,11 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
     case "tulip-mania":            return <TulipManiaPattern opacity={opacity} />;
     case "leaded-gasoline":        return <LeadedGasolinePattern opacity={opacity} />;
     case "invention-of-teenager":  return <InventionOfTeenagerPattern opacity={opacity} />;
+    case "black-plague-renaissance": return <BlackPlagueRenaissancePattern opacity={opacity} />;
+    case "age-of-exploration":     return <AgeOfExplorationPattern opacity={opacity} />;
+    case "hollywood-birth":        return <HollywoodBirthPattern opacity={opacity} />;
+    case "hollywood-code":         return <HollywoodCodePattern opacity={opacity} />;
+    case "hollywood-blockbuster":  return <HollywoodBlockbusterPattern opacity={opacity} />;
     default:                       return null;
   }
 }

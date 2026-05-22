@@ -1,0 +1,289 @@
+[
+  {
+    "id": "edison-invents-motion-pictures",
+    "title": "Edison Invents Motion Pictures",
+    "wiki": "History_of_film#Invention",
+    "year": 1891,
+    "keyword": "spark",
+    "summary": "Thomas Edison's laboratory developed the Kinetoscope in 1891 — a peephole viewer that allowed one person at a time to watch a short film loop. In 1896, Edison commercialised the Vitascope projector, which could project films for an audience, though the key projection technology had been developed by inventors Thomas Armat and C. Francis Jenkins before Edison acquired and rebranded it. Edison's instinct was immediately commercial and immediately monopolistic: he filed patents on everything related to film production and projection, intending to control the entire industry as he had tried to control the electrical industry. What he failed to anticipate was that other inventors were working on similar devices simultaneously in France, Britain, and Germany, and that the technology was too simple and too useful to be controlled by any single patent holder.",
+    "causeIds": [],
+    "effectIds": [
+      "nickelodeon-explosion",
+      "motion-picture-patents-company"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Kinetoscope.jpg"
+  },
+  {
+    "id": "nickelodeon-explosion",
+    "title": "The Nickelodeon Explosion",
+    "wiki": "Nickelodeon_(movie_theater)",
+    "year": 1905,
+    "keyword": "pressure",
+    "summary": "The first nickelodeon — a converted storefront charging five cents admission for film screenings — opened in Pittsburgh in 1905. Within three years, an estimated 8,000–10,000 were operating across the United States, drawing particularly large audiences from immigrant and working-class communities who could follow visual storytelling without needing to read English. Film had become a mass medium almost overnight, before anyone had figured out how to control or monetise it properly. The nickelodeon explosion created an enormous demand for content that existing film producers couldn't satisfy, and demonstrated to Edison that his patents were not preventing the industry from growing around him.",
+    "causeIds": [
+      "edison-invents-motion-pictures"
+    ],
+    "effectIds": [
+      "motion-picture-patents-company",
+      "star-system-born"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Children_at_a_nickelodeon%2C_ca._1910.jpg"
+  },
+  {
+    "id": "motion-picture-patents-company",
+    "title": "Edison's Film Trust",
+    "wiki": "Motion_Picture_Patents_Company",
+    "year": 1908,
+    "keyword": "pressure",
+    "summary": "In 1908, Edison brought together nine competing film companies — including Biograph, Vitagraph, and Pathé — into the Motion Picture Patents Company, a cartel that pooled their patents and attempted to control every aspect of film production and distribution. The Trust licensed cameras, film stock, and projectors only to approved producers and distributors; unlicensed operators faced legal action and, allegedly, physical intimidation by Trust enforcers. The strategy was straightforward: use intellectual property law to create a monopoly. What the Trust's lawyers couldn't do was stop determined independents from moving their operations somewhere the enforcers couldn't follow.",
+    "causeIds": [
+      "edison-invents-motion-pictures",
+      "nickelodeon-explosion"
+    ],
+    "effectIds": [
+      "independents-flee-west"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Motion_Picture_Patents_Company.jpg"
+  },
+  {
+    "id": "independents-flee-west",
+    "title": "The Independents Flee to California",
+    "wiki": "Hollywood,_California#Early_film_industry",
+    "year": 1910,
+    "keyword": "turning-point",
+    "summary": "Unlicensed filmmakers facing patent litigation from Edison's Trust discovered a practical solution: move 3,000 miles away. California offered more than just distance — it offered year-round sunshine for outdoor shooting (indoor sets required expensive artificial lighting), varied landscapes from desert to mountains to ocean, cheap undeveloped land on the outskirts of a small town called Hollywood, and proximity to the Mexican border for rapid escape if Trust lawyers arrived with court orders. The independents who fled west included the founders of what would become Universal, Paramount, and Warner Bros. Edison had tried to prevent competition and instead created the conditions for the world's most powerful entertainment industry.",
+    "causeIds": [
+      "motion-picture-patents-company"
+    ],
+    "effectIds": [
+      "hollywood-geography",
+      "edison-trust-collapses"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hollywood_Sign%2C_2019.jpg"
+  },
+  {
+    "id": "hollywood-geography",
+    "title": "Why Hollywood Is in Hollywood",
+    "wiki": "Hollywood,_California",
+    "year": 1912,
+    "keyword": "shift",
+    "summary": "The specific geography of Hollywood — a suburb of Los Angeles in southern California — shaped the industry that grew there in ways that persist today. Year-round Mediterranean sun eliminated the seasonal limitations of early filmmaking. The range of landscapes within a short drive — beach, desert, mountains, forest — meant that almost any setting could be simulated locally. Land was cheap and plentiful, allowing studios to build enormous physical lots. Labour was non-union and inexpensive. And crucially, California's distance from New York financial and legal structures gave the new industry room to develop its own business practices before anyone with the power to regulate it paid much attention.",
+    "causeIds": [
+      "independents-flee-west"
+    ],
+    "effectIds": [
+      "studio-system-emerges"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Hollywood_1905.jpg"
+  },
+  {
+    "id": "edison-trust-collapses",
+    "title": "The Trust Is Broken",
+    "wiki": "Motion_Picture_Patents_Company#Demise",
+    "year": 1915,
+    "keyword": "turning-point",
+    "summary": "Federal courts ruled the Motion Picture Patents Company an illegal monopoly in 1915, dismantling Edison's attempt to control the film industry. By this point it hardly mattered legally — the independents in California had already built viable studios beyond the Trust's practical reach. But the ruling was symbolically important: it confirmed that film was an industry where legal monopoly would not be permitted, and that the companies that had defied Edison had been right to do so. The founders of Universal (Carl Laemmle), Paramount (Adolph Zukor), and Warner Bros — most of them Jewish immigrants from Eastern Europe whom Edison's patrician Trust had treated as unwelcome outsiders — were now the industry. Their studios would dominate for the next four decades.",
+    "causeIds": [
+      "independents-flee-west"
+    ],
+    "effectIds": [
+      "studio-system-emerges",
+      "feature-film-emerges"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Thomas_Edison_-_Moffett.jpg"
+  },
+  {
+    "id": "feature-film-emerges",
+    "title": "The Feature Film Is Born",
+    "wiki": "Feature_film#History",
+    "year": 1915,
+    "keyword": "shift",
+    "summary": "D.W. Griffith's Birth of a Nation (1915) — three hours long, a genuine narrative epic — proved that audiences would pay more and sit longer for a substantial cinematic experience. The film was enormously commercially successful and deeply racist, celebrating the Ku Klux Klan and prompting some of the first organised protests against a film in American history. Its artistic and commercial achievement, however, established the feature film as the industry's primary product. Studios that had been producing dozens of short films per week pivoted to producing fewer, more expensive, longer features — which required more capital, more planning, and more industrial organisation. The feature film made the studio system necessary.",
+    "causeIds": [
+      "edison-trust-collapses"
+    ],
+    "effectIds": [
+      "studio-system-emerges"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/The_Birth_of_a_Nation_theatrical_poster.jpg"
+  },
+  {
+    "id": "star-system-born",
+    "title": "The Star System",
+    "wiki": "Star_system_(film)",
+    "year": 1910,
+    "keyword": "shift",
+    "summary": "Early film studios deliberately kept their actors anonymous, fearing that named performers would demand higher salaries. The audience ignored this policy: fans wrote letters to studios asking for the names of their favourite performers, and fan publications began naming them anyway. Studios quickly recognised that named stars drew audiences regardless of the film's quality — that people would pay to see Mary Pickford in anything. The star became the product. Studios then moved to own the star completely: signing actors to exclusive long-term contracts that controlled not just their screen work but their off-screen image, personal relationships, and public statements. The star system created the first modern celebrity culture.",
+    "causeIds": [
+      "nickelodeon-explosion"
+    ],
+    "effectIds": [
+      "silent-film-stars-born",
+      "star-contracts-system"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Mary_Pickford_1917.jpg"
+  },
+  {
+    "id": "silent-film-stars-born",
+    "title": "The Silent Film Stars",
+    "wiki": "Silent_film#Stars",
+    "year": 1916,
+    "keyword": "shift",
+    "summary": "Charlie Chaplin, Mary Pickford, Douglas Fairbanks, and Rudolph Valentino became the first global celebrities in the modern sense — their faces recognised worldwide, their private lives subjects of obsessive public interest, their salaries the subject of newspaper headlines. Chaplin was earning $670,000 per year at Mutual by 1916 and over a million dollars annually by 1917 — figures that astonished a public still adjusting to the idea that entertainers could be wealthy. Pickford — 'America's Sweetheart' — was arguably the most famous person on Earth. These were people whose fame derived entirely from a new medium, who had no equivalent in previous generations, and whose cultural power was built on emotional intimacy with an audience they would never meet. They were also the first people to understand that their fame was a form of capital that the studios were monetising without adequately compensating them.",
+    "causeIds": [
+      "star-system-born"
+    ],
+    "effectIds": [
+      "united-artists-founded",
+      "star-contracts-system"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Charlie_Chaplin.jpg"
+  },
+  {
+    "id": "united-artists-founded",
+    "title": "United Artists — The Lunatics Take Over",
+    "wiki": "United_Artists",
+    "year": 1919,
+    "keyword": "catalyst",
+    "summary": "In 1919, Charlie Chaplin, Mary Pickford, Douglas Fairbanks, and director D.W. Griffith founded United Artists — a distribution company that would release films made by the artists themselves, cutting out the studio middlemen. When they announced the venture, a studio executive reportedly said 'the lunatics have taken over the asylum.' United Artists was the first serious attempt by talent to own the means of their own production and distribution. It worked — Chaplin, Pickford, and Fairbanks produced some of their best work under this arrangement. But the studio system's response was to tighten control everywhere else, accelerating the consolidation of power in the major studios.",
+    "causeIds": [
+      "silent-film-stars-born"
+    ],
+    "effectIds": [
+      "studio-system-emerges"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/United_Artists_1919.jpg"
+  },
+  {
+    "id": "studio-system-emerges",
+    "title": "The Studio System",
+    "wiki": "Classical_Hollywood_cinema",
+    "year": 1920,
+    "keyword": "turning-point",
+    "summary": "By the early 1920s, the structure of the Hollywood studio system had crystallised: five major studios — MGM, Paramount, Warner Bros, RKO, and Fox — controlled production, distribution, and exhibition (they owned the theatres too) in a vertically integrated oligopoly. Each studio had a distinctive style: MGM made glossy prestige pictures with lavish production values; Paramount specialised in sophisticated comedies and European talent; Warner Bros made grittier urban dramas. Stars, directors, writers, and craftspeople were under exclusive contract, working on whatever the studio assigned them. The system was efficient, profitable, and creatively constraining — a factory for dreams, organised like any other factory.",
+    "causeIds": [
+      "edison-trust-collapses",
+      "hollywood-geography",
+      "feature-film-emerges",
+      "united-artists-founded"
+    ],
+    "effectIds": [
+      "star-contracts-system",
+      "talkies-arrive",
+      "studio-system-peaks"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/MGM_Studios_1920s.jpg"
+  },
+  {
+    "id": "star-contracts-system",
+    "title": "Stars as Property",
+    "wiki": "Contract_system_of_Hollywood_studios",
+    "year": 1922,
+    "keyword": "pressure",
+    "summary": "Hollywood's standard seven-year exclusive contract gave studios near-total control over an actor's professional and personal life. Studios could loan stars to other studios, assign them any role, suspend them without pay for refusing a role, and extend the contract for the period of any suspension — meaning the seven years could stretch indefinitely. Studios maintained publicity departments that managed stars' public images, arranged marriages for gay actors, suppressed scandals, and cultivated personas that bore little relationship to the person underneath. Stars who objected had little legal recourse and no alternative employment in their industry. The contract system made stars simultaneously the industry's most valuable asset and its most controlled labour.",
+    "causeIds": [
+      "star-system-born",
+      "silent-film-stars-born",
+      "studio-system-emerges"
+    ],
+    "effectIds": [
+      "talkies-destroy-careers",
+      "hays-code-needed"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Bette_Davis_1930s.jpg"
+  },
+  {
+    "id": "talkies-arrive",
+    "title": "The Jazz Singer — Sound Changes Everything",
+    "wiki": "The_Jazz_Singer",
+    "year": 1927,
+    "keyword": "turning-point",
+    "summary": "Warner Bros released The Jazz Singer on October 6, 1927 — the first commercially successful sound film, featuring Al Jolson singing and speaking synchronised dialogue. The film was not technically the first talking picture, but it was the first to demonstrate that audiences would pay a premium for sound and that the silent era was over. The studios, which had invested heavily in the infrastructure of silent film, scrambled to convert. Within two years, virtually every major studio had switched entirely to sound production. The transition happened faster than any comparable technological shift in entertainment history — and it destroyed careers and fortunes with equal speed.",
+    "causeIds": [
+      "studio-system-emerges"
+    ],
+    "effectIds": [
+      "talkies-destroy-careers",
+      "studio-system-peaks",
+      "hays-code-needed"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/The_Jazz_Singer_1927_poster.jpg"
+  },
+  {
+    "id": "talkies-destroy-careers",
+    "title": "Sound Destroys Silent Careers",
+    "wiki": "History_of_film#Sound_era",
+    "year": 1928,
+    "keyword": "collapse",
+    "summary": "The transition to sound was catastrophic for many who had built careers in silent film. Stars whose voices didn't match their screen personas found their contracts dropped overnight — thick accents, high-pitched voices, and speech impediments ended careers that audiences had adored for a decade. Foreign stars who spoke no English were suddenly unemployable. Silent directors who had developed a purely visual grammar for storytelling struggled to adapt to a medium in which dialogue dominated. The studio system, which had controlled stars through their silence, now controlled them through their sound — and those who couldn't make the transition found that seven-year contracts offered no protection against obsolescence.",
+    "causeIds": [
+      "talkies-arrive",
+      "star-contracts-system"
+    ],
+    "effectIds": [
+      "studio-system-peaks"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Vilma_Banky.jpg"
+  },
+  {
+    "id": "hays-code-needed",
+    "title": "Sound Brings Scandal — Congress Threatens",
+    "wiki": "Hays_Code#Background",
+    "year": 1930,
+    "keyword": "pressure",
+    "summary": "Sound film enabled a new frankness in storytelling — dialogue could express what silent intertitles had kept politely vague. Pre-Code Hollywood of the late 1920s and early 1930s produced films featuring drug addiction, prostitution, interracial relationships, and crime presented sympathetically. Meanwhile, a series of real-world scandals — Roscoe 'Fatty' Arbuckle's manslaughter trial, director William Desmond Taylor's unsolved murder, Wallace Reid's death from morphine addiction — had already prompted the industry to hire Will Hays in 1922 as its public moral guardian. By 1930, the bolder content enabled by sound film, combined with a Catholic pressure campaign, would transform Hays's voluntary guidelines into strictly enforced rules. The industry's choice was self-regulate or be regulated by Congress.",
+    "causeIds": [
+      "talkies-arrive",
+      "star-contracts-system"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Will_H._Hays.jpg"
+  },
+  {
+    "id": "studio-system-peaks",
+    "title": "The Golden Age of Hollywood",
+    "wiki": "Golden_Age_of_Hollywood",
+    "year": 1930,
+    "keyword": "consequence",
+    "summary": "The studio system reached its peak in the 1930s and 1940s — the period now called Hollywood's Golden Age. Studios released hundreds of films per year, star rosters encompassed the most famous people on Earth, and weekly cinema attendance reached 90 million Americans in a nation of 130 million. Humphrey Bogart, Bette Davis, James Cagney, Katharine Hepburn, Cary Grant, and Greta Garbo were factory-produced by a system that had figured out how to manufacture desire at industrial scale. But the system's foundations were already cracking: television's arrival after World War II would collapse the captive audience the studios depended on, and a 1948 Supreme Court ruling would strip them of the theatre chains that guaranteed their films screen time. The Golden Age was also the era of the Production Code, the blacklist, and the contract system's most controlling excesses — a factory for dreams, with the factory's characteristic indifference to its workers.",
+    "causeIds": [
+      "talkies-arrive",
+      "talkies-destroy-careers",
+      "studio-system-emerges"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Gone_with_the_Wind_1940_Poster.jpg"
+  }
+]

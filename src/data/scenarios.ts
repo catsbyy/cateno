@@ -16,6 +16,11 @@ import whalesData from "./whales.json";
 import tulipManiaData from "./tulip-mania.json";
 import leadedGasolineData from "./leaded-gasoline.json";
 import inventionOfTeenagerData from "./invention-of-teenager.json";
+import blackPlagueRenaissanceData from "./black-plague-renaissance.json";
+import ageOfExplorationData from "./age-of-exploration.json";
+import hollywoodBirthData from "./hollywood-birth.json";
+import hollywoodCodeData from "./hollywood-code.json";
+import hollywoodBlockbusterData from "./hollywood-blockbuster.json";
 
 export const SCENARIOS: CatenoScenario[] = [
   {
@@ -170,5 +175,50 @@ export const SCENARIOS: CatenoScenario[] = [
       "Before 1900, 'teenager' wasn't a concept. You were a child, then an adult. Compulsory schooling, child labour laws, and postwar prosperity created a new human category — and the first people to notice were not educators or parents, but marketers.",
     anchorId: "teenager-word-coined",
     nodes: inventionOfTeenagerData as CatenoScenario["nodes"],
+  },
+  {
+    id: "black-plague-renaissance",
+    title: "Death and the Birth of Humanism",
+    period: "1100–1520",
+    description:
+      "The Black Death killed half of Florence. The survivors inherited concentrated wealth, shattered Church authority, and a desperate need to make sense of a world where death was arbitrary and life was short. What they built with it was the Renaissance.",
+    anchorId: "humanist-philosophy-emerges",
+    nodes: blackPlagueRenaissanceData as CatenoScenario["nodes"],
+  },
+  {
+    id: "age-of-exploration",
+    title: "The Voyage That Connected the World",
+    period: "1300–1602",
+    description:
+      "Europe needed pepper. The spice routes were blocked. So they sailed around the world to find them — and accidentally connected two biospheres that had been separated for 10,000 years, killed 90% of the people they found, and built the global economy we still live in.",
+    anchorId: "columbus-reaches-americas",
+    nodes: ageOfExplorationData as CatenoScenario["nodes"],
+  },
+  {
+    id: "hollywood-birth",
+    title: "How a Patent Lawsuit Built Hollywood",
+    period: "1891–1930",
+    description:
+      "Thomas Edison tried to monopolise the entire film industry with a patent cartel. The filmmakers he couldn't control fled to California to escape his lawyers — and accidentally built the most powerful entertainment industry in history.",
+    anchorId: "edison-trust-collapses",
+    nodes: hollywoodBirthData as CatenoScenario["nodes"],
+  },
+  {
+    id: "hollywood-code",
+    title: "The Postmaster Who Ran Hollywood",
+    period: "1921–1968",
+    description:
+      "For 34 years, everything Hollywood made was filtered through a list of prohibitions written by a Catholic priest and enforced by a former postmaster from Indiana. Then television, antitrust law, and Psycho's toilet destroyed it in a decade.",
+    anchorId: "hays-code-adopted",
+    nodes: hollywoodCodeData as CatenoScenario["nodes"],
+  },
+  {
+    id: "hollywood-blockbuster",
+    title: "The Two Films That Ended Good Cinema",
+    period: "1967–1995",
+    description:
+      "The 1970s were the best decade in Hollywood history. Then Jaws and Star Wars accidentally proved that one film could make more money than a studio's entire annual slate — and everything changed. Pulp Fiction thought it won. It didn't.",
+    anchorId: "jaws-changes-everything",
+    nodes: hollywoodBlockbusterData as CatenoScenario["nodes"],
   },
 ];

@@ -1,0 +1,260 @@
+[
+  {
+    "id": "hollywood-scandals-1920s",
+    "title": "Hollywood Scandals Shock America",
+    "wiki": "Roscoe_Arbuckle#Trials",
+    "year": 1921,
+    "keyword": "pressure",
+    "summary": "Between 1921 and 1923, a series of real-world scandals devastated Hollywood's public image. Roscoe 'Fatty' Arbuckle — one of the most popular comedians in the world — faced three manslaughter trials for the death of actress Virginia Rappe at a San Francisco party, destroying his career even after acquittal. Director William Desmond Taylor was murdered in his bungalow, and the subsequent investigation revealed embarrassing personal details about multiple major stars. Actor Wallace Reid died of morphine addiction while under studio contract. Congress began holding hearings on whether federal regulation of the film industry was needed. The studios recognised that if they didn't control their own image, the government would do it for them.",
+    "causeIds": [],
+    "effectIds": [
+      "hays-office-created"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Roscoe_Arbuckle_1920.jpg"
+  },
+  {
+    "id": "hays-office-created",
+    "title": "Will Hays Is Hired to Save Hollywood",
+    "wiki": "Hays_Code#Will_Hays",
+    "year": 1922,
+    "keyword": "shift",
+    "summary": "The studios hired Will Hays — former Postmaster General of the United States, chairman of the Republican National Committee, elder of the Presbyterian Church — as president of the Motion Picture Producers and Distributors of America at a salary of $100,000 per year. Hays was chosen precisely because he was everything Hollywood was not: Protestant, midwestern, politically connected, morally respectable. His job was to be the industry's public face, to lobby against federal censorship, and to implement the self-regulatory framework that would make government intervention unnecessary. He was, in effect, Hollywood's designated adult — hired by an industry full of Jewish immigrants to reassure Christian America that the movies were safe.",
+    "causeIds": [
+      "hollywood-scandals-1920s"
+    ],
+    "effectIds": [
+      "hays-code-adopted"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Will_H._Hays.jpg"
+  },
+  {
+    "id": "pre-code-cinema",
+    "title": "Pre-Code Hollywood",
+    "wiki": "Pre-Code_Hollywood",
+    "year": 1929,
+    "keyword": "pressure",
+    "summary": "The early sound era produced some of the most frank and subversive films in Hollywood history — precisely because the Production Code existed but wasn't yet enforced. Mae West's sexual double entendres, James Cagney's charming gangsters, Barbara Stanwyck's independent women, and films openly depicting drug addiction, prostitution, and political corruption all reached audiences before the studios buckled to enforcement pressure in 1934. Pre-Code films treated adult themes with a directness that would not reappear in mainstream Hollywood cinema for thirty years. They also demonstrated what audiences actually wanted to see — which was precisely why the Code's enforcers were so determined to prevent them from seeing it.",
+    "causeIds": [],
+    "effectIds": [
+      "hays-code-adopted",
+      "catholic-legion-of-decency"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mae_West_in_She_Done_Him_Wrong.jpg"
+  },
+  {
+    "id": "catholic-legion-of-decency",
+    "title": "The Catholic Legion of Decency",
+    "wiki": "Legion_of_Decency",
+    "year": 1934,
+    "keyword": "catalyst",
+    "summary": "The Catholic Legion of Decency, formally established in April 1934, organised a national pledge campaign in which millions of Catholics promised to boycott any film condemned as morally objectionable. With Catholics representing roughly a quarter of the American population and concentrated in major urban markets, the threat was commercially existential. Studio heads — most of whom were Jewish and had complicated feelings about being lectured on morality by the Catholic Church — nonetheless capitulated immediately. The Legion had discovered a lever that the Hays Office's gentle persuasion had failed to find: direct economic threat. From 1934 onward, studios submitted films for Code review and enforcement became genuine rather than nominal.",
+    "causeIds": [
+      "pre-code-cinema"
+    ],
+    "effectIds": [
+      "hays-code-adopted"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Catholic_Legion_of_Decency_Pledge.jpg"
+  },
+  {
+    "id": "hays-code-adopted",
+    "title": "The Production Code",
+    "wiki": "Hays_Code",
+    "year": 1934,
+    "keyword": "turning-point",
+    "summary": "The Motion Picture Production Code — written by a Catholic priest and a Catholic layman, adopted in 1930 and strictly enforced from 1934 — listed what American films could and could not show. Crime must not be presented sympathetically or shown to pay. No interracial romantic relationships. Nudity prohibited. Clergy must not be portrayed as comic characters or villains. 'Excessive and lustful kissing' forbidden. Homosexuality was unmentionable. The Code did not merely prohibit content — it mandated a particular moral framework in which evil was punished and virtue rewarded. For thirty-four years, it was the operating system of the most powerful entertainment industry on Earth, shaping what millions of people around the world understood movies to be.",
+    "causeIds": [
+      "hays-office-created",
+      "pre-code-cinema",
+      "catholic-legion-of-decency"
+    ],
+    "effectIds": [
+      "code-shapes-golden-age",
+      "foreign-films-show-contrast"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Hays_Code.jpg"
+  },
+  {
+    "id": "code-shapes-golden-age",
+    "title": "Creativity Within Constraints",
+    "wiki": "Classical_Hollywood_cinema#Style",
+    "year": 1934,
+    "keyword": "shift",
+    "summary": "The Production Code did not eliminate creativity — it redirected it. Directors and writers developed elaborate techniques for implying what they could not show: the camera cutting away at the decisive moment, the double entendre that sailed past Code reviewers, the villain whose crimes were suggested by shadow and reaction rather than depicted directly. Alfred Hitchcock, Billy Wilder, and Howard Hawks produced some of their greatest work within the Code's constraints, finding that limitation could be generative. The Code also had an unintended aesthetic effect: it forced storytellers to develop sophisticated visual and narrative vocabularies for conveying adult content indirectly — skills that would become the foundation of what later generations called 'classic' Hollywood style.",
+    "causeIds": [
+      "hays-code-adopted"
+    ],
+    "effectIds": [
+      "film-noir-emerges",
+      "foreign-films-show-contrast"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Alfred_Hitchcock_by_Jack_Mitchell.jpg"
+  },
+  {
+    "id": "film-noir-emerges",
+    "title": "Film Noir — The Code's Dark Shadow",
+    "wiki": "Film_noir",
+    "year": 1941,
+    "keyword": "shift",
+    "summary": "Film noir — the cycle of dark, morally ambiguous crime films produced between roughly 1941 and 1958 — was in many ways the Production Code's unintended creation. The Code's requirement that crime not pay and evil be punished left filmmakers with a world of cynicism and moral failure that couldn't be resolved honestly. The result was a visual and narrative style built on shadow, fatalism, and the sense that the world's corruption was too deep for any individual to escape: The Maltese Falcon, Double Indemnity, Sunset Boulevard, Touch of Evil. Noir was what happened when talented filmmakers internalised the Code's constraints and found the darkness that existed in the space between what could be shown and what was clearly true.",
+    "causeIds": [
+      "code-shapes-golden-age"
+    ],
+    "effectIds": [
+      "auteur-movement-seeds"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Double_Indemnity_poster.jpg"
+  },
+  {
+    "id": "foreign-films-show-contrast",
+    "title": "European Cinema Shows What Hollywood Cannot",
+    "wiki": "Italian_neorealism",
+    "year": 1950,
+    "keyword": "shift",
+    "summary": "Post-war Italian neorealism — Rossellini's Rome, Open City, De Sica's Bicycle Thieves, Visconti's La Terra Trema — showed American audiences and filmmakers what cinema could do when freed from the Code's constraints. These films dealt with poverty, moral ambiguity, and the aftermath of fascism with a directness impossible in Hollywood. French New Wave directors of the late 1950s — Godard, Truffaut, Resnais — combined this frankness with a cinephile's obsession with Hollywood's own techniques, creating films that were simultaneously foreign and deeply American in their references. American audiences who encountered European cinema began to understand that the Hollywood they had accepted as cinema itself was only one version of what film could be.",
+    "causeIds": [
+      "hays-code-adopted",
+      "code-shapes-golden-age"
+    ],
+    "effectIds": [
+      "auteur-movement-seeds",
+      "code-losing-grip"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/BicycleThieves.jpg"
+  },
+  {
+    "id": "post-war-hollywood-crisis",
+    "title": "Television Destroys the Studio System",
+    "wiki": "History_of_film#Post-war_decline",
+    "year": 1948,
+    "keyword": "collapse",
+    "summary": "Television arrived in American homes in the late 1940s and collapsed Hollywood's audience with extraordinary speed. Weekly cinema attendance fell from 90 million in 1946 to 47 million in 1956 to 17 million by 1967. Studios that had been built on the assumption of weekly cinema-going by the entire adult population suddenly had enormous physical infrastructure — studios, lots, contract employees — that they could no longer afford to maintain. The studio system's vertically integrated model, which had worked perfectly when it had a captive audience, was now a liability. The crisis was financial, but it created the conditions for every subsequent change in the industry's structure.",
+    "causeIds": [],
+    "effectIds": [
+      "supreme-court-ends-monopoly"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Family_watching_television_1958.jpg"
+  },
+  {
+    "id": "supreme-court-ends-monopoly",
+    "title": "The Paramount Decree",
+    "wiki": "United_States_v._Paramount_Pictures,_Inc.",
+    "year": 1948,
+    "keyword": "turning-point",
+    "summary": "In United States v. Paramount Pictures (1948), the Supreme Court ruled that the major studios' ownership of theatre chains constituted an illegal monopoly and ordered them to sell their exhibition networks. The Paramount Decree broke the vertical integration that had been the studio system's economic foundation: studios could no longer guarantee their films theatre playtime by owning the theatres. Independent exhibitors could now choose what to show; studios had to compete for screen time. The decision, combined with the television crisis, made the old contract system economically unsustainable — studios could no longer afford to keep hundreds of actors, directors, and crew on salary when they couldn't guarantee the volume of production that had previously justified it.",
+    "causeIds": [
+      "post-war-hollywood-crisis"
+    ],
+    "effectIds": [
+      "independent-directors-emerge",
+      "code-losing-grip"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/US_Supreme_Court.jpg"
+  },
+  {
+    "id": "blacklist-era",
+    "title": "The Hollywood Blacklist",
+    "wiki": "Hollywood_blacklist",
+    "year": 1947,
+    "keyword": "collapse",
+    "summary": "The House Un-American Activities Committee began investigating alleged Communist influence in Hollywood in 1947, resulting in the jailing of the Hollywood Ten — primarily screenwriters and producers who refused to testify — and a blacklist that eventually prevented hundreds of film professionals from working in Hollywood. The blacklist exposed the political dimension of the Code's moral framework: the same studios that had accepted the Code's constraints on sexual content now enthusiastically enforced political conformity. Many blacklisted writers and directors worked in Europe, where they encountered film cultures with no equivalent of either constraint. The experience radicalised an entire generation of filmmakers about what American cinema was and what it could be.",
+    "causeIds": [],
+    "effectIds": [
+      "independent-directors-emerge"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hollywood_Ten.jpg"
+  },
+  {
+    "id": "auteur-movement-seeds",
+    "title": "The Auteur Theory Arrives",
+    "wiki": "Auteur_theory",
+    "year": 1954,
+    "keyword": "shift",
+    "summary": "French film critic François Truffaut published 'A Certain Tendency of the French Cinema' in Cahiers du Cinéma in January 1954, articulating the auteur theory: that a film's director was its true author, expressing a personal vision through the medium. American critic Andrew Sarris later developed this into a systematic reassessment of Hollywood history — most influentially in his 1962 essay 'Notes on the Auteur Theory' — identifying directors like Hitchcock, Hawks, and Ford as artists whose signatures could be traced across the constraints of the studio system. The auteur theory arrived just as the studio system was collapsing under economic pressure, providing the intellectual framework that would justify giving directors creative control — and creating the cultural conditions for a generation of American film school graduates who understood themselves as artists.",
+    "causeIds": [
+      "film-noir-emerges",
+      "foreign-films-show-contrast"
+    ],
+    "effectIds": [
+      "independent-directors-emerge"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Fran%C3%A7ois_Truffaut_1965.jpg"
+  },
+  {
+    "id": "independent-directors-emerge",
+    "title": "Directors Begin Testing the Code",
+    "wiki": "New_Hollywood#Precursors",
+    "year": 1955,
+    "keyword": "catalyst",
+    "summary": "A series of films in the mid-1950s began probing the Code's boundaries with increasing boldness. Otto Preminger released The Man with the Golden Arm (1955) — a film explicitly about heroin addiction — without a Code seal of approval, and it was commercially successful anyway. Stanley Kubrick, Elia Kazan, and Billy Wilder pushed content that Code reviewers found difficult to reject without looking ridiculous. Each successful challenge demonstrated that the Code's enforcement was losing commercial force: audiences would pay to see films that the Code condemned. The moral framework that had seemed immovable in 1934 was visibly cracking by 1960.",
+    "causeIds": [
+      "supreme-court-ends-monopoly",
+      "blacklist-era",
+      "auteur-movement-seeds"
+    ],
+    "effectIds": [
+      "code-losing-grip"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Otto_Preminger.jpg"
+  },
+  {
+    "id": "code-losing-grip",
+    "title": "The Code Loses Its Authority",
+    "wiki": "Hays_Code#Decline",
+    "year": 1960,
+    "keyword": "collapse",
+    "summary": "Alfred Hitchcock's Psycho (1960) — featuring a toilet flushing on screen, a graphic shower murder, and a woman killed in the first act — was submitted to Code reviewers and released with minor modifications despite violating multiple provisions. Who's Afraid of Virginia Woolf (1966) was released with a Code seal despite language and content that would have been unthinkable a decade earlier. By the mid-1960s, the Code was being routinely flouted by major studios, major directors, and major stars, with no meaningful commercial consequence. The Legion of Decency's boycott threat had become an empty ritual; audiences were making their own viewing decisions regardless of what any organisation recommended.",
+    "causeIds": [
+      "independent-directors-emerge",
+      "foreign-films-show-contrast",
+      "supreme-court-ends-monopoly"
+    ],
+    "effectIds": [
+      "rating-system-replaces-code"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Psycho_1960_film_poster.jpg"
+  },
+  {
+    "id": "rating-system-replaces-code",
+    "title": "The Rating System",
+    "wiki": "Motion_Picture_Association_film_rating_system",
+    "year": 1968,
+    "keyword": "consequence",
+    "summary": "In November 1968, the MPAA replaced the Production Code with a voluntary age-based rating system: G (all ages), M (mature, later PG), R (restricted, under 17 with parent), and X (adults only). The shift was fundamental: instead of prohibiting content entirely, the system merely classified it and restricted access by age. Directors could now show anything — provided they accepted the commercial consequences of the rating they received. The Code's moral framework — the idea that cinema had an obligation to present a world in which virtue triumphed and evil was punished — was replaced by a neutral classification system that made no judgements about content at all. In 1969, Midnight Cowboy became the only X-rated film to win the Best Picture Oscar. The New Hollywood was about to begin: a decade in which freed directors would produce the most sustained burst of ambitious American cinema in the industry's history — before the blockbuster era ended it.",
+    "causeIds": [
+      "code-losing-grip"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Midnight_Cowboy_poster.jpg"
+  }
+]

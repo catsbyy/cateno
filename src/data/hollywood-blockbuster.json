@@ -1,0 +1,268 @@
+[
+  {
+    "id": "new-hollywood-unleashed",
+    "title": "The Rating System Frees Directors",
+    "wiki": "New_Hollywood",
+    "year": 1968,
+    "keyword": "shift",
+    "summary": "The replacement of the Production Code with the MPAA rating system in November 1968 removed the fundamental constraint that had governed Hollywood storytelling for thirty-four years. Directors could now depict violence, sexuality, moral ambiguity, and political complexity without having to navigate a censor's list of prohibitions. The first films to test this freedom were dramatic: Midnight Cowboy (1969) became the only X-rated film to win Best Picture; Easy Rider (1969) was made for $400,000 and earned $60 million. Both films demonstrated that there was an enormous audience — particularly the baby boom generation reaching adulthood — that wanted to see films that reflected the world as it actually was rather than as the Code had insisted it should be.",
+    "causeIds": [],
+    "effectIds": [
+      "new-hollywood-directors"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Midnight_Cowboy_-_X_rating.jpg"
+  },
+  {
+    "id": "bonnie-and-clyde-moment",
+    "title": "Bonnie and Clyde Changes the Rules",
+    "wiki": "Bonnie_and_Clyde_(film)",
+    "year": 1967,
+    "keyword": "catalyst",
+    "summary": "Arthur Penn's Bonnie and Clyde (1967) arrived before the Code was officially replaced but during its effective collapse — Penn simply submitted the film with its graphic violence and received a Code seal through technical compliance rather than genuine approval. The film was simultaneously a commercial sensation and a critical controversy: the opening weeks produced baffled negative reviews from established critics, followed by a wave of rapturous reassessment led by younger writers who recognised it as something genuinely new. Bonnie and Clyde proved that American audiences — particularly young audiences — were hungry for cinema that engaged with violence, sexuality, and moral complexity with the frankness of European film. The studios, bewildered by both the negative reviews and the box office, began looking for more.",
+    "causeIds": [],
+    "effectIds": [
+      "new-hollywood-directors"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bonnie_and_Clyde_poster.jpg"
+  },
+  {
+    "id": "new-hollywood-directors",
+    "title": "The Film School Generation",
+    "wiki": "New_Hollywood#Directors",
+    "year": 1969,
+    "keyword": "shift",
+    "summary": "Francis Ford Coppola, Martin Scorsese, Steven Spielberg, George Lucas, Robert Altman, Hal Ashby, Brian De Palma — the directors of the New Hollywood were the first generation to have studied film academically, at USC, UCLA, and NYU. They understood cinema as art with a history; they had watched thousands of films and absorbed the lessons of Godard, Kurosawa, and Fellini alongside Hawks and Ford. They were hired by a studio system in financial crisis that was willing to bet on cheap films with unknown casts rather than expensive films with fading stars. What the studios got — cheaply, initially — was the most sustained burst of cinematic creativity in American film history.",
+    "causeIds": [
+      "bonnie-and-clyde-moment",
+      "new-hollywood-unleashed"
+    ],
+    "effectIds": [
+      "auteur-golden-decade",
+      "jaws-changes-everything"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Francis_Ford_Coppola_2011.jpg"
+  },
+  {
+    "id": "auteur-golden-decade",
+    "title": "The Golden Decade — 1970s Hollywood",
+    "wiki": "New_Hollywood#Films",
+    "year": 1971,
+    "keyword": "shift",
+    "summary": "Between 1971 and 1976, American cinema produced a body of work with no precedent in its own history: The Godfather (1972), Chinatown (1974), The Conversation (1974), Taxi Driver (1976), Nashville (1975), Shampoo (1975), Dog Day Afternoon (1975), One Flew Over the Cuckoo's Nest (1975). These were adult films made for adult audiences — morally complex, formally ambitious, often downbeat, frequently political. Studios funded them because the economics were favourable: low budgets, auteur reputation attracting critical attention, and an audience that was willing to be challenged. The system worked, briefly and improbably, because no one had yet figured out that a different kind of film could make much, much more money.",
+    "causeIds": [
+      "new-hollywood-directors"
+    ],
+    "effectIds": [
+      "jaws-changes-everything",
+      "new-hollywood-dismantled"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/The_Godfather_film_poster.jpg"
+  },
+  {
+    "id": "jaws-changes-everything",
+    "title": "Jaws — The First Blockbuster",
+    "wiki": "Jaws_(film)",
+    "year": 1975,
+    "keyword": "spark",
+    "summary": "Steven Spielberg's Jaws opened on June 20, 1975, in 409 theatres across the United States — a wide simultaneous national release that was, at the time, unusually broad. Backed by a massive television advertising campaign, it earned $260 million at the North American box office against a $9 million budget, becoming the highest-grossing film in history at that point. The summer blockbuster — a film engineered for maximum audience and marketed as an event rather than an experience — had been invented. What was not immediately apparent was the price: Jaws demonstrated that a single film could generate more profit than a studio's entire slate of thoughtful adult dramas. The financial logic of this discovery would reshape every decision the studios made for decades.",
+    "causeIds": [
+      "new-hollywood-directors",
+      "auteur-golden-decade"
+    ],
+    "effectIds": [
+      "blockbuster-release-model",
+      "star-wars-completes-shift"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Jaws_poster.jpg"
+  },
+  {
+    "id": "star-wars-completes-shift",
+    "title": "Star Wars — A New Universe of Revenue",
+    "wiki": "Star_Wars_(film)",
+    "year": 1977,
+    "keyword": "turning-point",
+    "summary": "George Lucas's Star Wars (1977) earned $775 million worldwide against a $11 million budget and transformed the economics of Hollywood in ways that Jaws had merely suggested. Lucas had negotiated to retain the merchandising rights — considered worthless by 20th Century Fox — and the resulting toy, clothing, and licensing revenue exceeded the film's theatrical income. Star Wars proved that a film was not just a film: it was an intellectual property that could generate revenue across multiple streams for decades. Lucas became a billionaire. Every studio executive understood immediately: the business was no longer about making films that audiences wanted to see. It was about creating franchises that audiences wanted to own.",
+    "causeIds": [
+      "jaws-changes-everything"
+    ],
+    "effectIds": [
+      "franchise-era-begins",
+      "merchandise-changes-everything"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Star_Wars_original_trilogy_logo.png"
+  },
+  {
+    "id": "blockbuster-release-model",
+    "title": "The Wide Release",
+    "wiki": "Wide_release",
+    "year": 1976,
+    "keyword": "shift",
+    "summary": "The simultaneous wide national release, combined with saturation television advertising, replaced the older model of platform releasing — opening in a few cities, building critical word of mouth, then expanding. The new model front-loaded revenue in the opening weekend, which required enormous marketing spend but allowed studios to recoup investment quickly and reduced their dependence on sustained critical support. The opening weekend as the primary metric of a film's success — a number reported in every newspaper every Monday — was invented by Jaws and institutionalised by Star Wars. A film that opened well but faded was now considered a disappointment regardless of its total earnings; a film that opened huge was a success regardless of whether anyone thought it was any good.",
+    "causeIds": [
+      "jaws-changes-everything"
+    ],
+    "effectIds": [
+      "franchise-era-begins",
+      "new-hollywood-dismantled"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/JawsOCRelease.jpg"
+  },
+  {
+    "id": "merchandise-changes-everything",
+    "title": "Films Become Product Lines",
+    "wiki": "Film_merchandise",
+    "year": 1977,
+    "keyword": "shift",
+    "summary": "Star Wars merchandise — action figures, lunch boxes, bedsheets, clothing — generated more revenue than the film itself. This was not a coincidence but a model: Lucas had designed the film with its toy potential in mind, creating clearly distinct characters, memorable vehicles, and a mythology that could be endlessly extended. Studios recognised immediately that intellectual property — the characters, settings, and worlds that a successful film established — was potentially worth more than any individual film. The film became the advertisement for the franchise. This insight would take two decades to fully manifest as the Marvel Cinematic Universe, but its logic was established in a trailer park in Tatooine in 1977.",
+    "causeIds": [
+      "star-wars-completes-shift"
+    ],
+    "effectIds": [
+      "franchise-era-begins"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Star_wars_figurines.jpg"
+  },
+  {
+    "id": "new-hollywood-dismantled",
+    "title": "Heaven's Gate — The Studios Take Back Control",
+    "wiki": "Heaven%27s_Gate_(film)",
+    "year": 1980,
+    "keyword": "collapse",
+    "summary": "Michael Cimino's Heaven's Gate (1980) — budgeted at $11 million, completed at $44 million after the director refused any interference with his vision, and earning approximately $3.5 million in its initial North American release — became the most notorious commercial disaster in Hollywood history and the symbolic end of director-driven cinema. United Artists, which had funded the film, was sold by its parent company Transamerica to MGM in 1981 in the aftermath. Studio executives who had given directors creative control throughout the 1970s used Heaven's Gate as the definitive argument for reasserting authority: this was what happened when you trusted artists. The lesson was not entirely honest — the New Hollywood had produced far more commercial successes than failures — but it was expedient and final.",
+    "causeIds": [
+      "blockbuster-release-model",
+      "auteur-golden-decade"
+    ],
+    "effectIds": [
+      "directors-lose-final-cut",
+      "franchise-era-begins"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Heavens_Gate_film_poster.jpg"
+  },
+  {
+    "id": "directors-lose-final-cut",
+    "title": "Directors Become Employees Again",
+    "wiki": "Final_cut_privilege",
+    "year": 1981,
+    "keyword": "collapse",
+    "summary": "The contractual right to final cut — the director's ability to deliver a film without studio interference — had been the defining privilege of the New Hollywood generation. After Heaven's Gate, studios systematically stopped granting it. Test screenings, notes from marketing departments, and studio-mandated reshoots became standard practice. Directors who had been treated as visionary artists became expensive contractors whose instincts were subordinate to audience research. The exceptions — Spielberg, Scorsese, and a handful of others who had demonstrated their ability to reconcile personal vision with commercial performance — were treated as exceptions. The idea that the director's creative autonomy was an asset worth protecting had been quietly buried alongside United Artists.",
+    "causeIds": [
+      "new-hollywood-dismantled"
+    ],
+    "effectIds": [
+      "franchise-era-begins"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Martin_Scorsese_2010.jpg"
+  },
+  {
+    "id": "franchise-era-begins",
+    "title": "The Franchise Era",
+    "wiki": "Film_franchise",
+    "year": 1982,
+    "keyword": "turning-point",
+    "summary": "By the early 1980s, the studio strategy had crystallised: invest in a small number of large-budget films designed to launch franchises — sequels, merchandise, spin-offs — rather than a diverse slate of medium-budget films. E.T. (1982), Indiana Jones (1981–), Star Trek (1979–), and Superman (1978–) demonstrated that the right intellectual property could generate revenue indefinitely. The commercial logic was sound but had a cultural cost: franchises required broad audience appeal, which discouraged the kind of specific, risky, adult content that had defined the New Hollywood. The industry had optimised for what made the most money, which turned out to be films that the largest possible number of people would enjoy rather than films that anyone would love with particular intensity.",
+    "causeIds": [
+      "star-wars-completes-shift",
+      "merchandise-changes-everything",
+      "directors-lose-final-cut",
+      "new-hollywood-dismantled",
+      "blockbuster-release-model"
+    ],
+    "effectIds": [
+      "indie-film-rises",
+      "new-hollywood-last-gasp"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/E.T._the_Extra-Terrestrial_film.jpg"
+  },
+  {
+    "id": "indie-film-rises",
+    "title": "Sundance and the Indie Alternative",
+    "wiki": "Sundance_Film_Festival",
+    "year": 1985,
+    "keyword": "shift",
+    "summary": "Robert Redford founded the Sundance Institute in 1981 as a workshop and support organisation for independent filmmakers; in 1985, the Institute took over the existing Utah/US Film Festival (founded 1978), renaming and expanding it into the Sundance Film Festival — the primary venue for American independent cinema. Films made outside the studio system — with low budgets, personal subjects, and creative freedom — found audiences through the festival circuit and art-house distribution. Jim Jarmusch's Stranger Than Paradise (1984), Spike Lee's She's Gotta Have It (1986), and Steven Soderbergh's sex, lies, and videotape (1989) demonstrated that films made for hundreds of thousands of dollars could reach audiences the studios' franchise machinery couldn't serve. Independent film was not a commercial alternative to Hollywood — it was a cultural one, keeping alive the tradition of personal filmmaking the blockbuster era had made economically impossible inside the studios.",
+    "causeIds": [
+      "franchise-era-begins"
+    ],
+    "effectIds": [
+      "new-hollywood-last-gasp",
+      "pulp-fiction-closes-era"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sundance_Film_Festival_2013.jpg"
+  },
+  {
+    "id": "new-hollywood-last-gasp",
+    "title": "Prestige Cinema's Last Stand",
+    "wiki": "New_Hollywood#Legacy",
+    "year": 1990,
+    "keyword": "shift",
+    "summary": "The late 1980s and early 1990s produced a last flowering of ambitious, director-driven Hollywood cinema. Scorsese made GoodFellas (1990) and The Age of Innocence (1993); Jonathan Demme made The Silence of the Lambs (1991); Clint Eastwood made Unforgiven (1992); Oliver Stone made JFK (1991). Studios funded these films for reasons of prestige — Oscar nominations, critical credibility — while simultaneously expanding their franchise operations. The period demonstrated that adult, personal filmmaking and commercial success were not incompatible, but it was fighting a structural current: every year, the economics of franchises made the space for non-franchise films slightly smaller.",
+    "causeIds": [
+      "franchise-era-begins",
+      "indie-film-rises"
+    ],
+    "effectIds": [
+      "pulp-fiction-closes-era"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/GoodFellas.jpg"
+  },
+  {
+    "id": "pulp-fiction-closes-era",
+    "title": "Pulp Fiction — The Last Independent Victory",
+    "wiki": "Pulp_Fiction",
+    "year": 1994,
+    "keyword": "turning-point",
+    "summary": "Quentin Tarantino's Pulp Fiction premiered at Cannes in May 1994, won the Palme d'Or, and earned $213 million against an $8 million budget — proving that a profoundly personal, formally experimental film made entirely outside the studio system could outperform most franchise sequels. It seemed to vindicate everything the New Hollywood generation had believed: that personal vision and commercial success were compatible, that audiences were smarter than studios gave them credit for, that independent cinema could win. The victory was real but the lesson was misread: Pulp Fiction's success attracted studio money into 'independent' film, which was absorbed, commodified, and eventually turned into just another category of franchise content. Miramax, which distributed it, was acquired by Disney. The film that seemed to prove the system wrong was the beginning of the system's final victory.",
+    "causeIds": [
+      "new-hollywood-last-gasp",
+      "indie-film-rises"
+    ],
+    "effectIds": [
+      "studios-absorb-indie"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Pulp_Fiction_%281994%29_poster.jpg"
+  },
+  {
+    "id": "studios-absorb-indie",
+    "title": "Hollywood Buys Its Alternative",
+    "wiki": "Miramax_Films",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Miramax_logo.jpg",
+    "year": 1995,
+    "keyword": "collapse",
+    "summary": "Pulp Fiction's $213 million global gross on an $8 million budget was the wrong kind of lesson for the studios: they concluded not that personal cinema could compete with franchises, but that independent film was an undervalued asset class. Disney had acquired Miramax — Pulp Fiction's distributor — in 1993, just before the film's release. Warner Bros launched Warner Independent; Sony created Sony Pictures Classics; Fox Searchlight was established in 1994. The specialty division — a studio-owned subsidiary that could claim the prestige and awards-season benefits of independent film while applying studio distribution muscle — became the industry's response to Sundance. Within a decade, almost every significant independent distributor had been absorbed by a major. The alternative was now owned by the thing it was an alternative to.",
+    "causeIds": [
+      "pulp-fiction-closes-era"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]

@@ -1,0 +1,581 @@
+[
+  {
+    "id": "european-spice-dependency",
+    "title": "Europe's Spice Obsession",
+    "wiki": "Spice_trade",
+    "year": 1300,
+    "keyword": "pressure",
+    "summary": "Medieval Europeans needed spices desperately — not for luxury but for survival. Without refrigeration, meat spoiled rapidly, and pepper, cinnamon, cloves, and nutmeg were essential for preservation and for making spoiled food palatable through a long winter. All of these spices came from the Spice Islands of Southeast Asia, travelling through Arab merchants, Persian middlemen, and Venetian traders before reaching European tables. Each intermediary took a cut. By 1300, spices were worth more than gold by weight in European markets, and the trade route that supplied them was entirely controlled by parties with no interest in making it cheaper. The desire to find a direct route to the source drove everything that followed.",
+    "causeIds": [],
+    "effectIds": [
+      "portuguese-navigation-program",
+      "ottoman-blocks-spice-routes"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Spices_in_an_Indonesian_market.jpg"
+  },
+  {
+    "id": "portuguese-navigation-program",
+    "title": "Henry the Navigator's Program",
+    "wiki": "Henry_the_Navigator",
+    "year": 1419,
+    "keyword": "shift",
+    "summary": "Prince Henry of Portugal — known as the Navigator though he rarely sailed himself — established the first state-sponsored programme of systematic maritime exploration in history. Working from his court, he funded voyages down the African coast, oversaw improvements to the caravel (a ship capable of sailing into the wind and navigating shallow coastal waters), trained navigators in celestial observation, and accumulated geographical knowledge over decades. His method was cumulative and patient: each voyage went a little further than the last, mapped what it found, and reported back. By the time Henry died in 1460, Portuguese ships had reached the Gulf of Guinea. His programme transformed exploration from individual adventure into institutional practice — a state investment in geographical knowledge rather than a series of private gambles.",
+    "causeIds": [
+      "european-spice-dependency"
+    ],
+    "effectIds": [
+      "atlantic-islands-colonised",
+      "dias-rounds-cape",
+      "columbus-reaches-americas"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Henry_the_Navigator1.jpg"
+  },
+  {
+    "id": "ottoman-blocks-spice-routes",
+    "title": "The Fall of Constantinople",
+    "wiki": "Fall_of_Constantinople",
+    "year": 1453,
+    "keyword": "catalyst",
+    "summary": "On May 29, 1453, Ottoman Sultan Mehmed II's forces breached the walls of Constantinople — ending the Byzantine Empire and closing the most direct overland route from Europe to Asia. The Ottomans did not immediately ban spice trade, but they taxed it heavily and made it unreliable. Spice prices in European markets spiked sharply. The urgency of finding an alternative sea route — which Portuguese navigators had already been working toward for thirty years — became acute. The fall of Constantinople was not the sole cause of the Age of Exploration, but it was the event that transformed a commercial aspiration into a political and economic emergency.",
+    "causeIds": [
+      "european-spice-dependency"
+    ],
+    "effectIds": [
+      "columbus-reaches-americas",
+      "dias-rounds-cape"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Taking_of_Constantinople_1453.jpg"
+  },
+  {
+    "id": "atlantic-islands-colonised",
+    "title": "Atlantic Islands — The First Colonies",
+    "wiki": "Portuguese_colonization_of_the_Azores",
+    "year": 1420,
+    "keyword": "shift",
+    "summary": "Portuguese explorers reached Madeira in 1419, the Azores in 1427, and the Cape Verde Islands in 1456. These uninhabited or sparsely populated islands became the laboratories of European colonialism: the Portuguese introduced sugar cultivation worked by enslaved Africans, creating the plantation model that would later be transplanted to the Americas. Sugar from Madeira made Portugal wealthy and proved that tropical agricultural colonies could generate enormous profit. The Atlantic islands also served as provisioning stations for longer voyages — without them, the voyages to India and the Americas would have been far more difficult. The entire subsequent architecture of European empire was first assembled on these islands.",
+    "causeIds": [
+      "portuguese-navigation-program"
+    ],
+    "effectIds": [
+      "atlantic-slave-trade-expands"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Madeira_Island_aerial_view.jpg"
+  },
+  {
+    "id": "dias-rounds-cape",
+    "title": "Dias Rounds the Cape of Good Hope",
+    "wiki": "Bartolomeu_Dias",
+    "year": 1488,
+    "keyword": "turning-point",
+    "summary": "In February 1488, Bartolomeu Dias became the first European to round the southern tip of Africa — proving that a sea route to the Indian Ocean existed. His crew, terrified and exhausted, forced him to turn back before reaching India. But the proof was enough: the route was possible. Columbus, who was in Lisbon at this period seeking Portuguese patronage, later claimed to have spoken with Dias about the findings. Whether or not that conversation occurred, Columbus knew of the Cape route's existence and used it in his pitch to the Spanish Crown: his westward route would be shorter, he argued. He was wrong about the distance — but the competition between the two approaches drove both forward.",
+    "causeIds": [
+      "portuguese-navigation-program",
+      "ottoman-blocks-spice-routes"
+    ],
+    "effectIds": [
+      "vasco-da-gama-reaches-india",
+      "columbus-reaches-americas"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Bartolomeu_Dias.jpg"
+  },
+  {
+    "id": "columbus-reaches-americas",
+    "title": "Columbus Reaches the Americas",
+    "wiki": "Voyages_of_Christopher_Columbus",
+    "year": 1492,
+    "keyword": "spark",
+    "summary": "On August 3, 1492, Christopher Columbus departed Palos de la Frontera with three ships and around 90 men, funded by the Spanish Crown after Portugal had twice rejected his proposal. On October 12, 1492, he made landfall in the Bahamas — believing until his death in 1506 that he had reached islands off the coast of Asia. He had not. He had encountered two continents containing perhaps 50–60 million people, ecosystems entirely unknown to Europe, and enough silver to destabilise the global economy for a century. The most consequential navigational error in history opened an exchange between worlds that had been separated for 10,000 years and fundamentally altered the trajectory of every civilisation on Earth.",
+    "causeIds": [
+      "ottoman-blocks-spice-routes",
+      "dias-rounds-cape",
+      "portuguese-navigation-program"
+    ],
+    "effectIds": [
+      "treaty-of-tordesillas",
+      "columbian-exchange-begins",
+      "spanish-conquistadors",
+      "european-imagination-transformed",
+      "encomienda-system",
+      "magellan-circumnavigation"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Columbus_Taking_Possession.jpg"
+  },
+  {
+    "id": "vasco-da-gama-reaches-india",
+    "title": "Da Gama Reaches India",
+    "wiki": "Vasco_da_Gama",
+    "year": 1498,
+    "keyword": "turning-point",
+    "summary": "Vasco da Gama arrived at Calicut on India's Malabar Coast in May 1498 — the same port Zheng He had visited with 300 ships and 28,000 men eighty-five years earlier. Da Gama arrived with four ships and 170 men, and immediately demanded trading rights at gunpoint. Portuguese cannon technology made refusal costly. The direct sea route to India had been achieved: the Portuguese had done what the Ottoman blockade of overland routes had made necessary. Within a decade, Portugal had established a network of fortified trading posts from East Africa to the Persian Gulf to the Malabar Coast, seizing control of the Indian Ocean spice trade that had been in Arab and Indian hands for centuries.",
+    "causeIds": [
+      "dias-rounds-cape"
+    ],
+    "effectIds": [
+      "portuguese-spice-empire",
+      "indian-ocean-trade-disrupted"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Vasco_da_Gama_by_Antonio_Manuel_da_Fonseca_%281838%29_-_cropped.jpg"
+  },
+  {
+    "id": "treaty-of-tordesillas",
+    "title": "Dividing the World",
+    "wiki": "Treaty_of_Tordesillas",
+    "year": 1494,
+    "keyword": "shift",
+    "summary": "In June 1494, Spain and Portugal signed the Treaty of Tordesillas, dividing the entire non-European world between them along a line of longitude running through the mid-Atlantic. Everything west of the line — including the Americas — went to Spain; everything east — including Africa, India, and Asia — went to Portugal. Pope Alexander VI (himself Spanish) endorsed the arrangement. The treaty was historically astonishing: two nations, with papal approval, partitioned a planet most of whose inhabitants had never heard of either of them and whose existence they had barely begun to grasp. Other European powers — France, England, the Netherlands — eventually decided simply to ignore it.",
+    "causeIds": [
+      "columbus-reaches-americas"
+    ],
+    "effectIds": [
+      "spanish-conquistadors",
+      "portuguese-spice-empire",
+      "magellan-circumnavigation",
+      "dutch-english-challenge"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Spain_and_Portugal_first.jpg"
+  },
+  {
+    "id": "spanish-conquistadors",
+    "title": "The Conquistadors",
+    "wiki": "Spanish_conquistadors",
+    "year": 1519,
+    "keyword": "catalyst",
+    "summary": "Hernán Cortés landed on the Mexican coast in April 1519 with 600 men, 16 horses, and 11 ships — and within two years had conquered the Aztec Empire, the largest state in the Americas. Francisco Pizarro subdued the Inca Empire in Peru with fewer than 200 men a decade later. These were not military victories in any conventional sense: the conquistadors succeeded because disease had already killed the majority of their opponents, because indigenous political divisions made alliance-building possible, and because the psychological shock of horses, firearms, and steel armour created temporary paralysis among peoples who had never encountered any of them. The conquest was the most dramatic demonstration in history of what technological and biological asymmetry can accomplish.",
+    "causeIds": [
+      "columbus-reaches-americas",
+      "treaty-of-tordesillas"
+    ],
+    "effectIds": [
+      "aztec-empire-falls",
+      "inca-empire-falls",
+      "indigenous-population-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Hernan_Cortes_1519_-_drawing.jpg"
+  },
+  {
+    "id": "smallpox-arrives-americas",
+    "title": "Smallpox — The Invisible Conquistador",
+    "wiki": "Smallpox#History_in_the_Americas",
+    "year": 1520,
+    "keyword": "collapse",
+    "summary": "In 1520, a smallpox epidemic struck Tenochtitlan while the Spanish were temporarily driven out of the city — introduced by a single infected soldier from Cuba who had arrived with a relief expedition. The disease killed the Aztec leader Cuitláhuac and an estimated 40% of Tenochtitlan's population within months, enabling Cortés's return and final siege. Native Americans had no evolutionary history with the Old World diseases Europeans had developed partial immunity to over millennia: smallpox, measles, typhus, influenza. Their immune systems had never encountered these pathogens. In many regions, 90% of the indigenous population died within a century of first European contact — not from war or enslavement, but from disease. The conquistadors did not conquer the Americas; they arrived after the real conquest had already happened.",
+    "causeIds": [
+      "columbian-exchange-begins"
+    ],
+    "effectIds": [
+      "indigenous-population-collapse",
+      "aztec-empire-falls",
+      "inca-empire-falls"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Smallpox_victims_Florentine_Codex.jpg"
+  },
+  {
+    "id": "aztec-empire-falls",
+    "title": "The Aztec Empire Falls",
+    "wiki": "Fall_of_Tenochtitlan",
+    "year": 1521,
+    "keyword": "collapse",
+    "summary": "Tenochtitlan — the Aztec capital, built on an island in Lake Texcoco, with a population larger than any European city — fell to Cortés on August 13, 1521. The siege had lasted 75 days; by the end, the city was almost entirely destroyed and its surviving population decimated by smallpox. Emperor Cuauhtémoc was captured and later tortured and executed. What had been the most sophisticated political entity in the Western Hemisphere was dismantled in three years by a few hundred European soldiers, their indigenous allies, and an invisible epidemic. Mexico City was built on Tenochtitlan's ruins.",
+    "causeIds": [
+      "spanish-conquistadors",
+      "smallpox-arrives-americas"
+    ],
+    "effectIds": [
+      "silver-discovered-potosi",
+      "indigenous-population-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Aztec_Empire_c_1519.png"
+  },
+  {
+    "id": "inca-empire-falls",
+    "title": "The Inca Empire Falls",
+    "wiki": "Spanish_conquest_of_the_Inca_Empire",
+    "year": 1533,
+    "keyword": "collapse",
+    "summary": "Francisco Pizarro captured the Inca Emperor Atahualpa at Cajamarca in November 1532 — famously filling a room with gold and silver as ransom, then executing him anyway. The Inca Empire, which stretched 4,000 kilometres along the Andes and had a population of perhaps 12 million, had already been ravaged by a smallpox epidemic that had arrived from the north in 1527–1530, killing the previous emperor and triggering a civil war that Pizarro exploited. Within two years of Pizarro's arrival, the empire was gone. The largest political entity in the pre-Columbian Americas, with roads, record-keeping, and administrative systems of extraordinary sophistication, was destroyed in less time than it takes to build a European cathedral.",
+    "causeIds": [
+      "spanish-conquistadors",
+      "smallpox-arrives-americas"
+    ],
+    "effectIds": [
+      "silver-discovered-potosi",
+      "indigenous-population-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Pizarro_and_Atahualpa.jpg"
+  },
+  {
+    "id": "indigenous-population-collapse",
+    "title": "The Great Dying",
+    "wiki": "Population_history_of_indigenous_peoples_of_the_Americas",
+    "year": 1540,
+    "keyword": "collapse",
+    "summary": "The demographic catastrophe that followed European contact with the Americas was the largest in human history. Estimates vary, but most historians now accept that the indigenous population of the Americas fell by 50–90% within a century of contact — from perhaps 60 million to perhaps 6 million. Disease was the primary killer, but war, forced labour, famine caused by agricultural disruption, and the deliberate destruction of communities all contributed. The encomienda system — which assigned indigenous people as forced labourers to Spanish colonists — killed hundreds of thousands through overwork in mines and plantations. The demographic collapse also accelerated the Atlantic slave trade: as indigenous labour disappeared, colonists turned to enslaved Africans to fill the vacuum. Entire cultures, languages, and knowledge systems were lost permanently. The historian Charles Mann called it 'the greatest die-off in human history.'",
+    "causeIds": [
+      "smallpox-arrives-americas",
+      "spanish-conquistadors",
+      "aztec-empire-falls",
+      "inca-empire-falls",
+      "horses-transform-americas",
+      "encomienda-system"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/BartolomedelasCasas.jpg"
+  },
+  {
+    "id": "columbian-exchange-begins",
+    "title": "The Columbian Exchange",
+    "wiki": "Columbian_exchange",
+    "year": 1493,
+    "keyword": "shift",
+    "summary": "Columbus's second voyage in 1493 deliberately carried European livestock — horses, cattle, pigs, sheep, goats — along with wheat, barley, and sugar cane to plant in the Americas. In return, the Americas sent back to Europe an ecological revolution: potatoes, maize, tomatoes, chilli peppers, chocolate, tobacco, rubber, and dozens of other crops that transformed European agriculture, cuisine, and economics. The exchange also carried microbes. Historian Alfred Crosby, who coined the term, described it as the most consequential biological event since the extinction of the dinosaurs: two biospheres that had evolved separately for 10,000 years suddenly merged, with consequences for every ecosystem and every human population on Earth.",
+    "causeIds": [
+      "columbus-reaches-americas"
+    ],
+    "effectIds": [
+      "smallpox-arrives-americas",
+      "new-world-crops-transform-europe",
+      "horses-transform-americas",
+      "old-world-crops-transform-americas",
+      "european-imagination-transformed"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Columbian_Exchange.png"
+  },
+  {
+    "id": "new-world-crops-transform-europe",
+    "title": "New World Crops Transform Europe",
+    "wiki": "Columbian_exchange#Crops",
+    "year": 1500,
+    "keyword": "consequence",
+    "summary": "The crops that arrived from the Americas transformed European agriculture more profoundly than any development since the original Neolithic farming revolution. The potato — easy to grow, calorie-dense, storable, and capable of feeding a family on a fraction of the land required by grain — enabled a dramatic expansion of the European population. Maize provided animal feed that made year-round livestock keeping viable. Tomatoes transformed Mediterranean cuisine. Chilli peppers replaced expensive Asian spices in peasant cooking. By 1800, the potato alone was feeding a European population that could not have existed on pre-Columbian crops. The Industrial Revolution was staffed by people whose existence depended on an American plant.",
+    "causeIds": [
+      "columbian-exchange-begins"
+    ],
+    "effectIds": [
+      "european-population-boom",
+      "price-revolution"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Potato_and_cross_section.jpg"
+  },
+  {
+    "id": "horses-transform-americas",
+    "title": "Horses Return to the Americas",
+    "wiki": "Horse_in_Native_American_culture",
+    "year": 1500,
+    "keyword": "shift",
+    "summary": "Horses had evolved in North America, migrated to Asia across the Bering land bridge, and become extinct in the Americas approximately 10,000 years ago. Spanish colonisers reintroduced them in the early 16th century. Within a few generations, escaped and traded horses had spread across the Great Plains, and Native nations that had never seen the animal transformed themselves into equestrian cultures of extraordinary military effectiveness. The Comanche became the dominant military power on the southern Plains; the Sioux and Lakota built horse-based civilisations of remarkable sophistication. The horse — a European import that was itself originally American — gave some indigenous peoples the means to resist European expansion for centuries longer than would otherwise have been possible.",
+    "causeIds": [
+      "columbian-exchange-begins"
+    ],
+    "effectIds": [
+      "indigenous-population-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Comanche_warrior_with_lance.jpg"
+  },
+  {
+    "id": "old-world-crops-transform-americas",
+    "title": "Old World Agriculture Reshapes the Americas",
+    "wiki": "Columbian_exchange#Livestock_and_disease",
+    "year": 1510,
+    "keyword": "shift",
+    "summary": "European colonisers transformed the American landscape by introducing sugar, coffee, cotton, rice, and cattle — crops designed for the plantation system and export to European markets. Sugar cultivation, which had been tested in the Atlantic island colonies, was transplanted to the Caribbean and Brazil on a massive scale. These crops required intensive labour that the decimated indigenous population could no longer provide, driving the expansion of the Atlantic slave trade to fill the vacuum. The landscape of the Americas — its cleared forests, its monoculture plantations, its introduced animal species — was redesigned by European agriculture to serve European markets, with consequences for both ecology and human bondage that lasted centuries.",
+    "causeIds": [
+      "columbian-exchange-begins"
+    ],
+    "effectIds": [
+      "atlantic-slave-trade-expands"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Sugar_cane_plantation.jpg"
+  },
+  {
+    "id": "silver-discovered-potosi",
+    "title": "Potosí — The Mountain That Ate Men",
+    "wiki": "Potosí",
+    "year": 1545,
+    "keyword": "turning-point",
+    "summary": "The silver mountain of Potosí in present-day Bolivia was discovered in 1545 and proved to be the largest silver deposit ever found. Over the following two centuries, an estimated 41,000 tonnes of silver were extracted — a significant fraction of global production during that period. The extraction was accomplished through the mita system, a form of forced labour that killed indigenous workers in the tens of thousands through mercury poisoning, cave-ins, and exhaustion. 'I am rich Potosí,' boasted the city's motto, 'treasurer of the world, king of mountains.' The silver funded Spain's European wars, its court, and its church-building — and ultimately destroyed its economy through inflation, as so much coin flowed through without generating productive industry.",
+    "causeIds": [
+      "aztec-empire-falls",
+      "inca-empire-falls"
+    ],
+    "effectIds": [
+      "price-revolution",
+      "manila-galleon-trade"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Potosi_1715.jpg"
+  },
+  {
+    "id": "encomienda-system",
+    "title": "The Encomienda System",
+    "wiki": "Encomienda",
+    "year": 1503,
+    "keyword": "pressure",
+    "summary": "The first royal authorisation for compelling indigenous labour in the Americas came by royal instruction in 1503; the encomienda system was formally codified in the Laws of Burgos in 1512. It granted Spanish colonists the right to the labour and tribute of specific indigenous communities — theoretically in exchange for Christian instruction and protection. In practice, it was a system of forced labour that drove indigenous people to work in silver mines and on plantations under conditions that killed enormous numbers. Bartolomé de las Casas, a Spanish priest who had himself held an encomienda, documented the atrocities in his Brief Account of the Destruction of the Indies (1542) — one of the earliest systematic accounts of colonial genocide. His testimony prompted the New Laws of 1542, which attempted but largely failed to limit the system's worst abuses.",
+    "causeIds": [
+      "columbus-reaches-americas"
+    ],
+    "effectIds": [
+      "atlantic-slave-trade-expands",
+      "indigenous-population-collapse"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Bartolome_de_las_Casas.jpg"
+  },
+  {
+    "id": "atlantic-slave-trade-expands",
+    "title": "The Atlantic Slave Trade",
+    "wiki": "Atlantic_slave_trade",
+    "year": 1510,
+    "keyword": "collapse",
+    "summary": "Portugal had been trading enslaved Africans since the 1440s, primarily to its Atlantic island plantations. The collapse of indigenous labour in the Americas created an enormous new demand. The first enslaved Africans arrived in Hispaniola in 1501; by 1510 the trade was well established. Over the following three centuries, an estimated 12.5 million enslaved people were transported from West and Central Africa to the Americas — with perhaps 1.5–2 million dying during the Middle Passage alone. The slave trade depopulated large regions of Africa, disrupted political structures, and created the economic foundation of the plantation economies of Brazil, the Caribbean, and the American South. It was the largest forced migration in human history and the economic engine of early modern European wealth.",
+    "causeIds": [
+      "old-world-crops-transform-americas",
+      "atlantic-islands-colonised",
+      "encomienda-system"
+    ],
+    "effectIds": [
+      "first-global-economy",
+      "africa-depopulated"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Slaveshipposter.jpg"
+  },
+  {
+    "id": "manila-galleon-trade",
+    "title": "The Manila Galleon — First Global Trade Route",
+    "wiki": "Manila_galleon",
+    "year": 1565,
+    "keyword": "shift",
+    "summary": "From 1565 to 1815, the Manila Galleon — a massive Spanish trading vessel — made an annual voyage between Acapulco in New Spain and Manila in the Philippines, connecting the Americas to Asia for the first time through direct commerce. American silver flowed westward to China, where it was the most desired commodity; Chinese silk, porcelain, and luxury goods flowed eastward to New Spain and onward to Europe. The Manila trade was the first genuinely global trade circuit, linking every major economic region of the world in a single commercial network. More than half of all the silver produced at Potosí eventually ended up in China, fundamentally reshaping the Chinese economy.",
+    "causeIds": [
+      "silver-discovered-potosi",
+      "magellan-circumnavigation"
+    ],
+    "effectIds": [
+      "first-global-economy"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Manila_Galleon.jpg"
+  },
+  {
+    "id": "price-revolution",
+    "title": "The Price Revolution",
+    "wiki": "Price_revolution",
+    "year": 1550,
+    "keyword": "consequence",
+    "summary": "The flood of American silver into the European economy from the 1540s onward caused the most prolonged inflationary episode in European history. Prices across Europe roughly tripled between 1500 and 1650 — a phenomenon economists call the Price Revolution. The effects were socially destabilising: landlords on fixed incomes were ruined; merchants and financiers who could adapt to changing prices prospered; wage earners found their purchasing power declining. The inflation also paradoxically weakened Spain itself — the country that owned the silver mines. So much silver flowed through Spain that it bid up the prices of everything without developing the productive industries that might have sustained long-term prosperity. Spain grew rich and then poor on the same metal.",
+    "causeIds": [
+      "silver-discovered-potosi",
+      "new-world-crops-transform-europe"
+    ],
+    "effectIds": [
+      "merchant-capitalism-rises"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Potosi-MountainSilver.jpg"
+  },
+  {
+    "id": "portuguese-spice-empire",
+    "title": "Portugal's Spice Empire",
+    "wiki": "Portuguese_Empire",
+    "year": 1500,
+    "keyword": "consequence",
+    "summary": "Portugal's Estado da India — the string of fortified trading posts established along the Indian Ocean coast from 1500 onward — achieved what Henry the Navigator had aimed at: direct access to the spice trade, bypassing Islamic and Venetian intermediaries. For roughly half a century, Portugal dominated the most profitable trade routes in the world. But the empire was always overextended: a small country of 1.5 million people was attempting to control 15,000 kilometres of coastline across four continents using perhaps 10,000 soldiers and sailors at any given time. By the late 16th century, the Dutch and English had begun to muscle in, using joint-stock companies — an organisational innovation that allowed private capital to bear the costs and risks of empire.",
+    "causeIds": [
+      "vasco-da-gama-reaches-india",
+      "treaty-of-tordesillas"
+    ],
+    "effectIds": [
+      "indian-ocean-trade-disrupted",
+      "first-global-economy",
+      "dutch-english-challenge"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Portuguese_empire.png"
+  },
+  {
+    "id": "indian-ocean-trade-disrupted",
+    "title": "The Indian Ocean Trade Is Disrupted",
+    "wiki": "Portuguese_India_Armadas",
+    "year": 1505,
+    "keyword": "consequence",
+    "summary": "For centuries before Portuguese arrival, the Indian Ocean had been a peaceful multilateral trading system dominated by Arab, Indian, Malay, and Swahili merchants — with no single power attempting military control. Portuguese cannon changed this entirely. Viceroy Francisco de Almeida and Governor Afonso de Albuquerque systematically attacked Arab trading networks, captured key ports (Goa in 1510, Malacca in 1511, Hormuz in 1515), and attempted to force all trade through Portuguese-controlled chokepoints. The Swahili city-states of East Africa — which had traded peacefully with Zheng He's fleet a century earlier — were bombarded and occupied. The maritime order that had connected the Old World for millennia was dismantled by European military force within a generation.",
+    "causeIds": [
+      "portuguese-spice-empire",
+      "vasco-da-gama-reaches-india"
+    ],
+    "effectIds": [
+      "first-global-economy"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Afonso_de_Albuquerque.jpg"
+  },
+  {
+    "id": "first-global-economy",
+    "title": "The First Global Economy",
+    "wiki": "Globalization#History",
+    "year": 1570,
+    "keyword": "consequence",
+    "summary": "By roughly 1570, for the first time in history, all major regions of the world were economically connected in a single network. American silver flowed to Spain and Portugal, then to China via Manila and India via Lisbon. African enslaved labour produced American plantation crops that fed European consumers and generated profits that funded European expansion. Indian textiles were exchanged for Chinese porcelain in Malacca. European manufactured goods moved outward in every direction. The world economy that exists today — with all its inequalities, its dependencies, and its interconnections — was assembled in this period, built on the foundations of conquest, ecological exchange, and the forced labour of millions of enslaved people.",
+    "causeIds": [
+      "manila-galleon-trade",
+      "portuguese-spice-empire",
+      "indian-ocean-trade-disrupted",
+      "atlantic-slave-trade-expands",
+      "magellan-circumnavigation"
+    ],
+    "effectIds": [
+      "merchant-capitalism-rises"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/World_1700.png"
+  },
+  {
+    "id": "european-population-boom",
+    "title": "Europe's Population Explodes",
+    "wiki": "Early_modern_period#Demography",
+    "year": 1600,
+    "keyword": "consequence",
+    "summary": "New World crops — principally the potato, maize, and cassava — enabled a dramatic increase in the caloric capacity of European agriculture. Land that had previously been marginal could now support dense populations; the poor, who could afford little else, could survive on potatoes alone. Europe's population, which had been constrained for centuries by periodic famine, grew from approximately 70 million in 1500 to 140 million by 1750 and 270 million by 1800. This demographic expansion provided the labour force for the Industrial Revolution, the armies for European imperial expansion, and the emigrants who would colonise the Americas and Oceania. The population boom of the modern world was fertilised, in a very literal sense, by American soil.",
+    "causeIds": [
+      "new-world-crops-transform-europe"
+    ],
+    "effectIds": [
+      "merchant-capitalism-rises"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/PotatoDiggers.jpg"
+  },
+  {
+    "id": "european-imagination-transformed",
+    "title": "Europe Discovers It Doesn't Know the World",
+    "wiki": "Age_of_Discovery#Impact_on_Europe",
+    "year": 1510,
+    "keyword": "shift",
+    "summary": "The discovery of two previously unknown continents containing hundreds of millions of people, thousands of unknown species, and civilisations of extraordinary complexity shattered the European intellectual framework. Aristotle had described a complete natural world; it turned out to be missing two continents. The Bible made no mention of the Americas or their peoples. Ancient geographers had mapped a world that proved to be radically incomplete. The intellectual response — the realisation that received authority was wrong about fundamental facts — fed directly into the questioning spirit of the Scientific Revolution. The world was larger, stranger, and more complicated than any book had said. If the books were wrong about this, what else were they wrong about? Waldseemüller's 1507 world map, the first to name 'America,' was itself an act of intellectual revolution: it showed that the known world had doubled overnight.",
+    "causeIds": [
+      "columbus-reaches-americas",
+      "columbian-exchange-begins"
+    ],
+    "effectIds": [
+      "merchant-capitalism-rises"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Waldseem%C3%BCller_map.jpg"
+  },
+  {
+    "id": "merchant-capitalism-rises",
+    "title": "The Rise of Merchant Capitalism",
+    "wiki": "Mercantile_capitalism",
+    "year": 1602,
+    "keyword": "consequence",
+    "summary": "The Age of Exploration created the material conditions for a new form of economic organisation. The scale of oceanic trade required capital beyond any individual merchant's resources; the joint-stock company — pioneered by the English East India Company (EIC, founded 1600) and the Dutch VOC (founded 1602) — pooled private investment, distributed risk, and separated ownership from management. Price Revolution inflation had destroyed the old feudal economy while enriching a new class of merchants, financiers, and manufacturers. Global trade created feedback loops that rewarded innovation, efficiency, and scale. The capitalism that would drive the Industrial Revolution — market-oriented, risk-taking, globally networked — had its origins in the financing of ships to find pepper.",
+    "causeIds": [
+      "price-revolution",
+      "first-global-economy",
+      "european-population-boom",
+      "european-imagination-transformed",
+      "dutch-english-challenge"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/VOC_Bond.jpg"
+  },
+  {
+    "id": "magellan-circumnavigation",
+    "title": "Magellan Circumnavigates the Globe",
+    "wiki": "Magellan%E2%80%93Elcano_expedition",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Magellan_Elcano_Circumnavigation.jpg",
+    "year": 1522,
+    "keyword": "turning-point",
+    "summary": "Ferdinand Magellan's fleet departed Spain in September 1519 with five ships and 270 men; eighteen men returned in September 1522 aboard a single vessel, having circumnavigated the Earth for the first time. Magellan himself was killed in the Philippines in April 1521. The expedition proved conclusively that the Americas were not Asia but a separate landmass in an ocean of enormous scale, and that all the world's oceans were connected. It also established that a westward route from Europe to Asia was possible — though so long and dangerous as to be barely viable. The Pacific, previously unknown to Europeans, was now on the map. The route Magellan pioneered became the highway for the Manila Galleon trade that would connect American silver to Chinese markets for 250 years.",
+    "causeIds": [
+      "columbus-reaches-americas",
+      "treaty-of-tordesillas"
+    ],
+    "effectIds": [
+      "manila-galleon-trade",
+      "first-global-economy"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "dutch-english-challenge",
+    "title": "The Dutch and English Break the Monopoly",
+    "wiki": "Dutch_East_India_Company",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/VOC_logo.svg",
+    "year": 1600,
+    "keyword": "shift",
+    "summary": "By the late 16th century, Portugal's Estado da India was visibly overstretched: a country of 1.5 million people could not indefinitely control 15,000 kilometres of coastline. The Dutch Republic and England, excluded from the Tordesillas settlement and motivated by both commercial ambition and Protestant hostility to Iberian Catholic empire, began muscling into the spice trade. They brought a crucial organisational innovation: the joint-stock company. The English East India Company (1600) and the Dutch VOC (1602) raised private capital from hundreds of investors, distributed risk, and applied ruthless commercial logic where the Iberian empires had applied royal monopoly. The Dutch seized most of Portugal's East Indian possessions by the 1640s. The age of Iberian monopoly gave way to the age of Northern European commercial empire — and the institutional architecture of modern capitalism was assembled in the process.",
+    "causeIds": [
+      "portuguese-spice-empire",
+      "treaty-of-tordesillas"
+    ],
+    "effectIds": [
+      "merchant-capitalism-rises"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "africa-depopulated",
+    "title": "West Africa Hollowed Out",
+    "wiki": "Atlantic_slave_trade#Impact_on_Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/African_Slave_Trade.jpg",
+    "year": 1600,
+    "keyword": "collapse",
+    "summary": "The Atlantic slave trade's most devastating consequences fell not on the Americas but on Africa itself. The removal of an estimated 12.5 million people — predominantly young adults of working age — over three centuries depopulated large regions of West and Central Africa at precisely the moment when population growth was driving development elsewhere in the world. African kingdoms that had been powerful trading states became increasingly dependent on selling captives to European traders, warping their political economies around slave raiding and away from productive agriculture and manufacture. The Dahomey, Ashanti, and other states that prospered did so by selling their neighbours. The internal African slave trade expanded to meet European demand. Centuries of demographic drain left sub-Saharan Africa economically weakened at the moment when European industrialisation would require colonial resources — a vulnerability that made 19th-century colonisation far easier than it might otherwise have been.",
+    "causeIds": [
+      "atlantic-slave-trade-expands"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]
