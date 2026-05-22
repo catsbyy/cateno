@@ -27,9 +27,11 @@ export function useGraph(scenario: CatenoScenario) {
       const node = nodeMap.get(nodeId);
       if (!node) return;
 
-      // Reveal all direct causes + effects, keep everything already visible
+      // Reveal the node itself + all direct causes + effects, keep everything already visible.
+      // Adding nodeId here is what allows URL-linked non-seed nodes to appear on load.
       setVisibleNodeIds((prev) => {
         const next = new Set(prev);
+        next.add(nodeId);
         [...node.causeIds, ...node.effectIds].forEach((id) => next.add(id));
         return next;
       });
