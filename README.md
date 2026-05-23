@@ -22,7 +22,7 @@ Twenty-six curated scenarios, each with a number of interconnected events:
 - **The Last Templars** (1096-1500)
 - **Mongol Conquests** (1100-1492)
 - **The Polynesian Expansion** (1500 BC-1976)
-- **The Voyages That Stopped** (960-500)
+- **The Voyages That Stopped** (960-1500)
 - **The Sale That Made America** (1697-1853)
 - **The Oil That Lit the World** (900-2005)
 - **How Napster Broke Music** (1877-2015)
@@ -38,6 +38,7 @@ Twenty-six curated scenarios, each with a number of interconnected events:
 - **How a Used Car Dealer Built a $6 Billion Empire** (1970-2017)
 - **The Weekend That Changed Everything** (1950-2022)
 - **The Great Emu War** (1918-1950)
+- **They Chose Us** — The History of Cats (10500 BC–2012)
 
 ---
 
@@ -64,51 +65,36 @@ Each scenario is a directed graph of historical events stored as a JSON file. Ev
 
 The graph loads with 6 seed nodes visible. Clicking any node reveals its connected events and opens a detail panel. The `+N` badge on each node shows how many hidden connections remain.
 
+Nodes you haven't opened yet have a bright border — once visited, they settle into a neutral state. Your exploration progress is saved locally so you pick up where you left off.
+
+---
+
+## Features
+
+- **Progressive exploration** — start at one pivotal moment, reveal causes and effects one click at a time
+- **Detail panel** — each node shows a summary, year, keyword type, Wikipedia image, and navigation chips to connected events
+- **Search** — `Cmd+K` / `Ctrl+K` searches across all scenarios and nodes
+- **Surprise me** — random entry point drops you into an unexpected node from a random scenario
+- **Shareable node URLs** — every focused node has its own URL (e.g. `cateno.app/wwi/assassination-franz-ferdinand`)
+- **Timeline bar** — shows the full temporal range of the scenario with event dots
+- **Onboarding hint** — a dismissible first-visit guide explains the core interactions; re-accessible any time via the ? button in the graph view
+- **Reveal all / Reset** — explore everything at once or start over
+- **Progress tracking** — landing page shows how many events you've explored per scenario
+- **Mobile-first** — full bottom sheet detail panel, tap-friendly node targets
+
 ---
 
 ## Tech stack
 
-| Layer      | Choice                    |
-| ---------- | ------------------------- |
-| Framework  | React + Vite + TypeScript |
-| Graph      | React Flow                |
-| Animations | Framer Motion             |
-| Styling    | Tailwind CSS              |
-| Data       | Static JSON — no backend  |
-| Analytics  | Vercel Analytics          |
-| Hosting    | Vercel                    |
-
----
-
-## Project structure
-
-```
-src/
-  components/
-    CatenoGraph.tsx      # React Flow canvas — node layout, edges, pan/zoom
-    CatenoNode.tsx       # Individual node card with badge and keyword colour
-    CatenoLogo.tsx       # Mark + wordmark SVG component
-    DetailPanel.tsx      # Right-side / bottom-sheet event detail panel
-    GraphView.tsx        # Graph + panel + timeline assembled
-    Legend.tsx           # Keyword colour legend overlay
-    ScenarioSelector.tsx # Landing page card grid
-    TimelineBar.tsx      # Horizontal year timeline at the bottom
-  hooks/
-    useGraph.ts          # Visibility, focus, and connection state
-    useIsMobile.ts       # Responsive breakpoint hook
-  data/
-    scenarios.ts         # SCENARIOS array — imports all JSON files
-    fall-of-rome.json
-    french-revolution.json
-    scientific-revolution.json
-    ...
-  App.tsx                # Root — scenario selection vs graph view
-  main.tsx               # Entry point + Analytics + SpeedInsights
-  types.ts               # CatenoNode, CatenoScenario interfaces
-  theme.tsx              # TYPE_COLORS, scenario gradients, SVG patterns
-  constants.ts           # Layout constants, animation values
-  index.css              # Global styles, font imports, React Flow overrides
-```
+| Layer      | Choice                            |
+| ---------- | --------------------------------- |
+| Framework  | React + Vite + TypeScript         |
+| Graph      | React Flow                        |
+| Animations | Framer Motion                     |
+| Styling    | Tailwind CSS                      |
+| Data       | Static JSON — no backend          |
+| Analytics  | Vercel Analytics + Speed Insights |
+| Hosting    | Vercel                            |
 
 ---
 
@@ -117,13 +103,15 @@ src/
 1. Create a JSON file in `src/data/` following the `CatenoNode` schema
 2. Add it to the `SCENARIOS` array in `src/data/scenarios.ts`
 3. Add a background colour and SVG pattern in `src/theme.tsx`
-
-Each node must have:
+   Each node must have:
 
 - A unique `id` (kebab-case)
 - `causeIds` and `effectIds` that reference other IDs in the same file
 - Exactly one node with `isAnchor: true`
 - Six nodes with `isSeed: true` (the anchor + 2–3 causes + 2–3 effects)
+  Optional fields:
+- `wiki` — Wikipedia article name, used to build a "Read more" link
+- `imageUrl` — direct image URL shown as the detail panel header
 
 ---
 

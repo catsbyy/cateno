@@ -1,6 +1,33 @@
 import { useState, useCallback, useMemo } from "react";
 import type { CatenoScenario } from "../types";
 
+// ─── Storage keys ─────────────────────────────────────────────────────────────
+
+const VISITED_KEY = (id: string) => `cateno_visited_${id}`;
+const VISIBLE_KEY = (id: string) => `cateno_visible_${id}`;
+
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+function loadSet(key: string): Set<string> | null {
+  try {
+    const raw = localStorage.getItem(key);
+    if (!raw) return null;
+    return new Set(JSON.parse(raw) as string[]);
+  } catch {
+    return null;
+  }
+}
+
+function saveSet(key: string, set: Set<string>): void {
+  try {
+    localStorage.setItem(key, JSON.stringify([...set]));
+  } catch {
+    // Silently swallow — localStorage may be unavailable (private browsing quota, etc.)
+  }
+}
+
+// ─── Hook ─────────────────────────────────────────────────────────────────────
+
 export function useGraph(scenario: CatenoScenario) {
   const nodeMap = useMemo(() => new Map(scenario.nodes.map((n) => [n.id, n])), [scenario]);
 
@@ -9,10 +36,17 @@ export function useGraph(scenario: CatenoScenario) {
     [scenario]
   );
 
-  const [visibleNodeIds, setVisibleNodeIds] = useState<Set<string>>(seedIds);
+  // Restore graph visibility from localStorage; fall back to seeds on first visit.
+  const [visibleNodeIds, setVisibleNodeIds] = useState<Set<string>>(() => {
+    return loadSet(VISIBLE_KEY(scenario.id)) ?? new Set(seedIds);
+  });
+
+  // Restore visited set from localStorage; empty on first visit.
+  const [visitedNodeIds, setVisitedNodeIds] = useState<Set<string>>(() => {
+    return loadSet(VISITED_KEY(scenario.id)) ?? new Set<string>();
+  });
+
   const [focusedNodeId, setFocusedNodeId] = useState<string | null>(null);
-  // Starts empty — only nodes the user has explicitly clicked are "visited".
-  const [visitedNodeIds, setVisitedNodeIds] = useState<Set<string>>(new Set());
 
   // IDs of the focused node + its direct causes + direct effects
   const connectedIds = useMemo((): Set<string> => {
@@ -27,12 +61,14 @@ export function useGraph(scenario: CatenoScenario) {
       const node = nodeMap.get(nodeId);
       if (!node) return;
 
-      // Reveal the node itself + all direct causes + effects, keep everything already visible.
-      // Adding nodeId here is what allows URL-linked non-seed nodes to appear on load.
+      // Reveal the clicked node + all its direct neighbours, persist immediately.
+      // Side effects inside setState updaters are safe here — localStorage writes
+      // are idempotent and this avoids needing a separate useEffect.
       setVisibleNodeIds((prev) => {
         const next = new Set(prev);
         next.add(nodeId);
         [...node.causeIds, ...node.effectIds].forEach((id) => next.add(id));
+        saveSet(VISIBLE_KEY(scenario.id), next);
         return next;
       });
 
@@ -40,29 +76,34 @@ export function useGraph(scenario: CatenoScenario) {
         if (prev.has(nodeId)) return prev;
         const next = new Set(prev);
         next.add(nodeId);
+        saveSet(VISITED_KEY(scenario.id), next);
         return next;
       });
 
       setFocusedNodeId(nodeId);
     },
-    [nodeMap]
+    [nodeMap, scenario.id]
   );
 
   const clearFocus = useCallback(() => {
     setFocusedNodeId(null);
   }, []);
 
-  // Reveal every node in the scenario at once.
+  // Reveal every node in the scenario at once and persist.
   const revealAll = useCallback(() => {
-    setVisibleNodeIds(new Set(scenario.nodes.map((n) => n.id)));
+    const next = new Set(scenario.nodes.map((n) => n.id));
+    saveSet(VISIBLE_KEY(scenario.id), next);
+    setVisibleNodeIds(next);
   }, [scenario]);
 
-  // Reset to the initial seed state — as if the scenario was just opened.
+  // Reset to seeds and wipe localStorage — the user's clean-slate escape hatch.
   const reset = useCallback(() => {
+    localStorage.removeItem(VISITED_KEY(scenario.id));
+    localStorage.removeItem(VISIBLE_KEY(scenario.id));
     setVisibleNodeIds(new Set(seedIds));
     setFocusedNodeId(null);
     setVisitedNodeIds(new Set());
-  }, [seedIds]);
+  }, [seedIds, scenario.id]);
 
   return { visibleNodeIds, visitedNodeIds, focusedNodeId, connectedIds, focusNode, clearFocus, revealAll, reset };
 }
