@@ -12,7 +12,7 @@ export interface ScenarioMeta {
   description: string;
   anchorId: string;
   anchorTitle: string; // precomputed so landing page doesn't need nodes
-  nodeCount: number;   // precomputed so progress bar needs no JSON
+  nodeCount: number; // precomputed so progress bar needs no JSON
 }
 
 export const SCENARIO_META: ScenarioMeta[] = [
@@ -37,6 +37,16 @@ export const SCENARIO_META: ScenarioMeta[] = [
     nodeCount: 32,
   },
   {
+    id: "cats",
+    title: "They Chose Us",
+    period: "10500 BC–2012",
+    description:
+      "Every domesticated animal was captured and bred by humans. Cats walked in on their own. They protected our grain, became gods in Egypt, got blamed for the Black Death, sailed on every ship, conquered every continent — and then the internet gave them back their temples.",
+    anchorId: "cats-self-domesticate",
+    anchorTitle: "Cats Choose Us",
+    nodeCount: 25,
+  },
+  {
     id: "tulip-mania",
     title: "The Flower That Invented Finance",
     period: "1500–1900",
@@ -57,16 +67,6 @@ export const SCENARIO_META: ScenarioMeta[] = [
     nodeCount: 36,
   },
   {
-    id: "invention-of-teenager",
-    title: "The Invention of the Teenager",
-    period: "1890–1982",
-    description:
-      "Before 1900, 'teenager' wasn't a concept. You were a child, then an adult. Compulsory schooling, child labour laws, and postwar prosperity created a new human category — and the first people to notice were not educators or parents, but marketers.",
-    anchorId: "teenager-word-coined",
-    anchorTitle: "The Word 'Teenager' Is Invented",
-    nodeCount: 24,
-  },
-  {
     id: "whales",
     title: "The Oil That Lit the World",
     period: "900–2005",
@@ -77,16 +77,6 @@ export const SCENARIO_META: ScenarioMeta[] = [
     nodeCount: 39,
   },
   {
-    id: "leaded-gasoline",
-    title: "The Poison They Chose",
-    period: "1900–2010",
-    description:
-      "In 1921, a chemist discovered that adding lead to gasoline eliminated engine knock. He knew it was toxic. A safe alternative existed. They sold it anyway for more than sixty years — and may have measurably lowered the intelligence and raised the violence of an entire generation.",
-    anchorId: "tetraethyl-lead-invented",
-    anchorTitle: "Midgley Discovers Tetraethyl Lead",
-    nodeCount: 26,
-  },
-  {
     id: "louisiana-purchase",
     title: "The Sale That Made America",
     period: "1697–1853",
@@ -95,6 +85,26 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "louisiana-purchase-signed",
     anchorTitle: "Louisiana Purchase Signed",
     nodeCount: 43,
+  },
+  {
+    id: "invention-of-teenager",
+    title: "The Invention of the Teenager",
+    period: "1890–1982",
+    description:
+      "Before 1900, 'teenager' wasn't a concept. You were a child, then an adult. Compulsory schooling, child labour laws, and postwar prosperity created a new human category — and the first people to notice were not educators or parents, but marketers.",
+    anchorId: "teenager-word-coined",
+    anchorTitle: "The Word 'Teenager' Is Invented",
+    nodeCount: 24,
+  },
+  {
+    id: "leaded-gasoline",
+    title: "The Poison They Chose",
+    period: "1900–2010",
+    description:
+      "In 1921, a chemist discovered that adding lead to gasoline eliminated engine knock. He knew it was toxic. A safe alternative existed. They sold it anyway for more than sixty years — and may have measurably lowered the intelligence and raised the violence of an entire generation.",
+    anchorId: "tetraethyl-lead-invented",
+    anchorTitle: "Midgley Discovers Tetraethyl Lead",
+    nodeCount: 26,
   },
   {
     id: "wright-brothers",
@@ -283,32 +293,33 @@ export const SCENARIO_META: ScenarioMeta[] = [
 // in the initial bundle. All 26 files load only when their scenario is opened.
 
 const NODE_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
-  "emu-war":                () => import("./emu-war.json"),
-  "year-without-a-summer":  () => import("./year-without-a-summer.json"),
-  "tulip-mania":            () => import("./tulip-mania.json"),
-  "napster":                () => import("./napster.json"),
-  "invention-of-teenager":  () => import("./invention-of-teenager.json"),
-  "whales":                 () => import("./whales.json"),
-  "leaded-gasoline":        () => import("./leaded-gasoline.json"),
-  "louisiana-purchase":     () => import("./louisiana-purchase.json"),
-  "wright-brothers":        () => import("./wright-brothers.json"),
-  "french-revolution":      () => import("./french-revolution.json"),
-  "fall-of-rome":           () => import("./fall-of-rome.json"),
-  "wwi":                    () => import("./wwi.json"),
-  "scientific-revolution":  () => import("./scientific-revolution.json"),
+  "emu-war": () => import("./emu-war.json"),
+  "year-without-a-summer": () => import("./year-without-a-summer.json"),
+  "tulip-mania": () => import("./tulip-mania.json"),
+  napster: () => import("./napster.json"),
+  "invention-of-teenager": () => import("./invention-of-teenager.json"),
+  whales: () => import("./whales.json"),
+  "leaded-gasoline": () => import("./leaded-gasoline.json"),
+  "louisiana-purchase": () => import("./louisiana-purchase.json"),
+  "wright-brothers": () => import("./wright-brothers.json"),
+  "french-revolution": () => import("./french-revolution.json"),
+  "fall-of-rome": () => import("./fall-of-rome.json"),
+  wwi: () => import("./wwi.json"),
+  "scientific-revolution": () => import("./scientific-revolution.json"),
   "black-plague-renaissance": () => import("./black-plague-renaissance.json"),
-  "age-of-exploration":     () => import("./age-of-exploration.json"),
-  "mongols":                () => import("./mongols.json"),
-  "zheng-he":               () => import("./zheng-he.json"),
-  "templars":               () => import("./templars.json"),
-  "polynesia":              () => import("./polynesia.json"),
+  "age-of-exploration": () => import("./age-of-exploration.json"),
+  mongols: () => import("./mongols.json"),
+  "zheng-he": () => import("./zheng-he.json"),
+  templars: () => import("./templars.json"),
+  polynesia: () => import("./polynesia.json"),
   "underwater-archaeology": () => import("./underwater-archaeology.json"),
-  "hollywood-birth":        () => import("./hollywood-birth.json"),
-  "hollywood-code":         () => import("./hollywood-code.json"),
-  "hollywood-blockbuster":  () => import("./hollywood-blockbuster.json"),
-  "f1-turbo-era":           () => import("./f1-turbo-era.json"),
-  "f1-bernie":              () => import("./f1-bernie.json"),
-  "f1-senna":               () => import("./f1-senna.json"),
+  "hollywood-birth": () => import("./hollywood-birth.json"),
+  "hollywood-code": () => import("./hollywood-code.json"),
+  "hollywood-blockbuster": () => import("./hollywood-blockbuster.json"),
+  "f1-turbo-era": () => import("./f1-turbo-era.json"),
+  "f1-bernie": () => import("./f1-bernie.json"),
+  "f1-senna": () => import("./f1-senna.json"),
+  cats: () => import("./cats.json"),
 };
 
 export async function loadScenarioNodes(id: string): Promise<CatenoNode[]> {
