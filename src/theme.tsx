@@ -32,6 +32,7 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "f1-turbo-era":           "#160a04",
   "f1-bernie":              "#0a0a0a",
   "f1-senna":               "#06100e",
+  "cats":                   "#12100a",
   "emu-war":                "#0e1206",
 };
 
@@ -61,6 +62,7 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "f1-turbo-era":           "radial-gradient(ellipse at center, #160a04 0%, #0D0D0D 70%)",
   "f1-bernie":              "radial-gradient(ellipse at center, #0a0a0a 0%, #0D0D0D 70%)",
   "f1-senna":               "radial-gradient(ellipse at center, #06100e 0%, #0D0D0D 70%)",
+  "cats":                   "radial-gradient(ellipse at center, #12100a 0%, #0D0D0D 70%)",
   "emu-war":                "radial-gradient(ellipse at center, #0e1206 0%, #0D0D0D 70%)",
 };
 
@@ -865,6 +867,57 @@ function F1SennaPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Cats — minimal cat face, instantly recognisable, quietly superior
+function CatsPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-cats" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
+          {/* Head */}
+          <circle cx="80" cy="88" r="32" fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Left ear */}
+          <path d="M54,64 L48,38 L72,56" fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Right ear */}
+          <path d="M106,64 L112,38 L88,56" fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Left inner ear */}
+          <path d="M56,62 L52,44 L68,57" fill="none" stroke="white" strokeWidth="0.4"/>
+          {/* Right inner ear */}
+          <path d="M104,62 L108,44 L92,57" fill="none" stroke="white" strokeWidth="0.4"/>
+          {/* Left eye — almond shape */}
+          <path d="M62,82 C65,77 75,77 78,82 C75,87 65,87 62,82 Z"
+                fill="none" stroke="white" strokeWidth="0.7"/>
+          {/* Right eye */}
+          <path d="M82,82 C85,77 95,77 98,82 C95,87 85,87 82,82 Z"
+                fill="none" stroke="white" strokeWidth="0.7"/>
+          {/* Pupils — vertical slits */}
+          <line x1="70" y1="78" x2="70" y2="86" stroke="white" strokeWidth="1.5"/>
+          <line x1="90" y1="78" x2="90" y2="86" stroke="white" strokeWidth="1.5"/>
+          {/* Nose */}
+          <path d="M77,95 L80,92 L83,95 L80,98 Z" fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Mouth */}
+          <path d="M80,98 C76,102 72,103 70,101" fill="none" stroke="white" strokeWidth="0.5"/>
+          <path d="M80,98 C84,102 88,103 90,101" fill="none" stroke="white" strokeWidth="0.5"/>
+          {/* Whiskers left */}
+          <line x1="46" y1="96"  x2="72" y2="97"  stroke="white" strokeWidth="0.4"/>
+          <line x1="44" y1="100" x2="72" y2="99"  stroke="white" strokeWidth="0.4"/>
+          <line x1="46" y1="104" x2="72" y2="101" stroke="white" strokeWidth="0.4"/>
+          {/* Whiskers right */}
+          <line x1="114" y1="96"  x2="88" y2="97"  stroke="white" strokeWidth="0.4"/>
+          <line x1="116" y1="100" x2="88" y2="99"  stroke="white" strokeWidth="0.4"/>
+          <line x1="114" y1="104" x2="88" y2="101" stroke="white" strokeWidth="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-cats)" />
+    </svg>
+  );
+}
+
 // Emu War — emu silhouette striding with quiet dignity
 function EmuWarPattern({ opacity }: { opacity: number }) {
   return (
@@ -942,6 +995,7 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
     case "f1-turbo-era":           return <F1TurboPattern opacity={opacity} />;
     case "f1-bernie":              return <F1BerniePattern opacity={opacity} />;
     case "f1-senna":               return <F1SennaPattern opacity={opacity} />;
+    case "cats":                   return <CatsPattern opacity={opacity} />;
     case "emu-war":                return <EmuWarPattern opacity={opacity} />;
     default:                       return null;
   }

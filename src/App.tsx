@@ -1,12 +1,21 @@
+import { lazy, Suspense, useState, useEffect } from "react";
 import { Routes, Route, useNavigate, useParams } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { ScenarioSelector } from "./components/ScenarioSelector";
-import { GraphView } from "./components/GraphView";
 import { NotFound } from "./components/NotFound";
-import { SCENARIOS } from "./data/scenarios";
+import { SCENARIO_META } from "./data/scenarios";
+import { loadScenarioNodes } from "./data/scenarios";
+import { getScenarioGradient } from "./theme";
 import type { CatenoScenario } from "./types";
+import type { ScenarioMeta } from "./data/scenarios";
+
+// GraphView (and everything it imports — React Flow, etc.) is code-split into
+// its own chunk and never loaded on the landing page.
+const GraphView = lazy(() =>
+  import("./components/GraphView").then((m) => ({ default: m.GraphView }))
+);
 
 // ─── Route wrappers ───────────────────────────────────────────────────────────
 
@@ -14,8 +23,36 @@ function ScenarioRoute() {
   const { scenarioId, nodeId } = useParams<{ scenarioId: string; nodeId?: string }>();
   const navigate = useNavigate();
 
-  const scenario = SCENARIOS.find((s) => s.id === scenarioId);
-  if (!scenario) return <NotFound />;
+  // Always call hooks unconditionally.
+  const [scenario, setScenario] = useState<CatenoScenario | null>(null);
+
+  const meta: ScenarioMeta | undefined = SCENARIO_META.find((s) => s.id === scenarioId);
+
+  useEffect(() => {
+    if (!meta) return;
+    setScenario(null); // clear previous scenario immediately on ID change
+    loadScenarioNodes(meta.id).then((nodes) => {
+      setScenario({ ...meta, nodes });
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [scenarioId]);
+
+  // Unknown scenario ID → 404.
+  if (!meta) return <NotFound />;
+
+  // Nodes still loading — show the scenario gradient immediately so the
+  // transition feels instant. This typically resolves in < 200 ms.
+  if (!scenario) {
+    return (
+      <div
+        style={{
+          width: "100%",
+          height: "100vh",
+          background: getScenarioGradient(meta.id),
+        }}
+      />
+    );
+  }
 
   return (
     <motion.div
@@ -26,13 +63,27 @@ function ScenarioRoute() {
       transition={{ duration: 0.2 }}
       className="w-full h-screen overflow-hidden"
     >
-      <GraphView
-        scenario={scenario}
-        initialNodeId={nodeId ?? null}
-        onBack={() => navigate("/")}
-        onNodeFocus={(nId) => navigate(`/${scenario.id}/${nId}`)}
-        onFocusClear={() => navigate(`/${scenario.id}`, { replace: true })}
-      />
+      {/* Suspense fallback shows the same gradient while GraphView JS chunk loads.
+          Both the JSON and the chunk download in parallel, so the wait is minimal. */}
+      <Suspense
+        fallback={
+          <div
+            style={{
+              width: "100%",
+              height: "100vh",
+              background: getScenarioGradient(scenario.id),
+            }}
+          />
+        }
+      >
+        <GraphView
+          scenario={scenario}
+          initialNodeId={nodeId ?? null}
+          onBack={() => navigate("/")}
+          onNodeFocus={(nId: string) => navigate(`/${scenario.id}/${nId}`)}
+          onFocusClear={() => navigate(`/${scenario.id}`, { replace: true })}
+        />
+      </Suspense>
     </motion.div>
   );
 }
@@ -47,7 +98,7 @@ function SelectorRoute() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.25 }}
     >
-      <ScenarioSelector onSelect={(s: CatenoScenario) => navigate(`/${s.id}`)} />
+      <ScenarioSelector onSelect={(s: ScenarioMeta) => navigate(`/${s.id}`)} />
     </motion.div>
   );
 }

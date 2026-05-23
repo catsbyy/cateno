@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import type { CatenoScenario } from "../types";
-import { SCENARIOS } from "../data/scenarios";
+import { SCENARIO_META } from "../data/scenarios";
+import type { ScenarioMeta } from "../data/scenarios";
 import { ScenarioPatternSvg, SCENARIO_CENTRE_COLORS } from "../theme";
 import { Footer } from "./Footer";
 
 interface ScenarioSelectorProps {
-  onSelect: (scenario: CatenoScenario) => void;
+  onSelect: (scenario: ScenarioMeta) => void;
 }
 
 // Split an array into consecutive chunks of `size`.
@@ -21,7 +21,7 @@ function chunkArray<T>(arr: T[], size: number): T[][] {
 const CARD_BASIS = "calc((100% - 48px) / 4)"; // width of one card in a full 4-column row
 
 export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
-  const rows = chunkArray(SCENARIOS, 4);
+  const rows = chunkArray(SCENARIO_META, 4);
 
   return (
     <div className="w-full min-h-screen bg-[#0D0D0D] flex flex-col items-center px-4 py-12 md:py-16 pb-0">
@@ -45,7 +45,6 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
           <div key={rowIdx} className="flex flex-col gap-4 md:flex-row md:justify-center md:items-stretch">
             {row.map((scenario, colIdx) => {
               const globalIdx = rowIdx * 4 + colIdx;
-              const anchor = scenario.nodes.find((n) => n.isAnchor);
               const centreColor = SCENARIO_CENTRE_COLORS[scenario.id] ?? "#111111";
 
               return (
@@ -80,7 +79,7 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
                       <p className="text-[#E8E3D5]/45 text-[10px] font-sans uppercase tracking-[0.15em] mb-1">
                         Anchor event
                       </p>
-                      <p className="text-[#E8E3D5]/75 text-[12px] font-sans">{anchor?.title ?? "—"}</p>
+                      <p className="text-[#E8E3D5]/75 text-[12px] font-sans">{scenario.anchorTitle}</p>
                     </div>
                     <div className="mt-4 min-h-[44px] md:min-h-0 flex items-center">
                       <span className="text-[11px] font-sans uppercase tracking-[0.15em] text-[#E8E3D5]/50 opacity-0 group-hover:opacity-100 transition-opacity duration-150 ease-out">
