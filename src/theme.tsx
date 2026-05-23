@@ -32,6 +32,7 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "f1-turbo-era":           "#160a04",
   "f1-bernie":              "#0a0a0a",
   "f1-senna":               "#06100e",
+  "emu-war":                "#0e1206",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -60,6 +61,7 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "f1-turbo-era":           "radial-gradient(ellipse at center, #160a04 0%, #0D0D0D 70%)",
   "f1-bernie":              "radial-gradient(ellipse at center, #0a0a0a 0%, #0D0D0D 70%)",
   "f1-senna":               "radial-gradient(ellipse at center, #06100e 0%, #0D0D0D 70%)",
+  "emu-war":                "radial-gradient(ellipse at center, #0e1206 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -863,6 +865,49 @@ function F1SennaPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Emu War — emu silhouette striding with quiet dignity
+function EmuWarPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute", inset: 0, width: "100%", height: "100%",
+        pointerEvents: "none", opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-emu-war" x="0" y="0" width="200" height="180" patternUnits="userSpaceOnUse">
+          {/* Body — large oval */}
+          <ellipse cx="95" cy="95" rx="28" ry="22" fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Neck */}
+          <path d="M95,73 C93,62 90,50 88,38" fill="none" stroke="white" strokeWidth="1.2"/>
+          {/* Head — small circle */}
+          <circle cx="87" cy="34" r="7" fill="none" stroke="white" strokeWidth="0.8"/>
+          {/* Beak */}
+          <path d="M80,33 L72,31 L80,36" fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Eye */}
+          <circle cx="85" cy="32" r="1.5" fill="white"/>
+          {/* Left leg */}
+          <path d="M85,117 L82,138 L78,155" fill="none" stroke="white" strokeWidth="1"/>
+          {/* Left foot */}
+          <path d="M78,155 L70,158 M78,155 L76,162 M78,155 L84,160"
+                fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Right leg */}
+          <path d="M100,117 L103,138 L107,152" fill="none" stroke="white" strokeWidth="1"/>
+          {/* Right foot */}
+          <path d="M107,152 L99,156 M107,152 L106,160 M107,152 L113,157"
+                fill="none" stroke="white" strokeWidth="0.6"/>
+          {/* Wing suggestion */}
+          <path d="M68,88 C72,82 80,80 95,82" fill="none" stroke="white" strokeWidth="0.5"/>
+          {/* Small feather detail */}
+          <path d="M68,88 C65,92 66,98 70,100" fill="none" stroke="white" strokeWidth="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-emu-war)" />
+    </svg>
+  );
+}
+
 // ─── Public export ─────────────────────────────────────────────────────────────
 
 interface ScenarioPatternSvgProps {
@@ -897,6 +942,7 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
     case "f1-turbo-era":           return <F1TurboPattern opacity={opacity} />;
     case "f1-bernie":              return <F1BerniePattern opacity={opacity} />;
     case "f1-senna":               return <F1SennaPattern opacity={opacity} />;
+    case "emu-war":                return <EmuWarPattern opacity={opacity} />;
     default:                       return null;
   }
 }
