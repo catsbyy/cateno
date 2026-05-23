@@ -5,6 +5,8 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { ScenarioSelector } from "./components/ScenarioSelector";
 import { NotFound } from "./components/NotFound";
+import { SearchOverlay } from "./components/SearchOverlay";
+import { SearchProvider } from "./contexts/SearchContext";
 import { SCENARIO_META } from "./data/scenarios";
 import { loadScenarioNodes } from "./data/scenarios";
 import { getScenarioGradient } from "./theme";
@@ -107,7 +109,7 @@ function SelectorRoute() {
 
 export default function App() {
   return (
-    <>
+    <SearchProvider>
       <AnimatePresence mode="wait">
         <Routes>
           <Route path="/" element={<SelectorRoute />} />
@@ -116,8 +118,9 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </AnimatePresence>
+      <SearchOverlay />
       <Analytics />
       <SpeedInsights />
-    </>
+    </SearchProvider>
   );
 }

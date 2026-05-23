@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+.cateno-search-input::placeholder {
+  color: rgba(232, 227, 213, 0.3);
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }

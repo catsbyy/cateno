@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { SCENARIO_META } from "../data/scenarios";
 import type { ScenarioMeta } from "../data/scenarios";
 import { ScenarioPatternSvg, SCENARIO_CENTRE_COLORS } from "../theme";
+import { SurpriseButton } from "./SurpriseButton";
+import { SearchButton } from "./SearchButton";
 import { Footer } from "./Footer";
 
 interface ScenarioSelectorProps {
@@ -95,6 +97,12 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
       </div>
 
       <Footer />
+
+      {/* Surprise Me + Search — fixed top-right */}
+      <div style={{ position: "fixed", top: 12, right: 12, zIndex: 10, display: "flex", alignItems: "center", gap: 4 }}>
+        <SurpriseButton />
+        <SearchButton />
+      </div>
     </div>
   );
 }

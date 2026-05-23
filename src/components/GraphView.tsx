@@ -7,6 +7,8 @@ import { TimelineBar } from "./TimelineBar";
 import { Legend } from "./Legend";
 import { OnboardingHint } from "./OnboardingHint";
 import { getScenarioGradient } from "../theme";
+import { SurpriseButton } from "./SurpriseButton";
+import { SearchButton } from "./SearchButton";
 import type { CatenoScenario, CatenoNode } from "../types";
 
 interface GraphViewProps {
@@ -122,6 +124,12 @@ export function GraphView({ scenario, initialNodeId, onBack, onNodeFocus, onFocu
           <p className="text-[#E8E3D5]/30 text-[11px] font-sans mt-0.5">
             {scenario.period}
           </p>
+        </div>
+
+        {/* Right side — surprise + search */}
+        <div className="ml-auto flex items-center gap-2 pr-1">
+          <SurpriseButton />
+          <SearchButton />
         </div>
       </header>
 
