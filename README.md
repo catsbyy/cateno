@@ -1,6 +1,6 @@
 # Cateno
 
-A cause-and-effect history explorer. Pick a scenario, start at the anchor event, and follow the chain — forward into consequences, backward into causes.
+A cause-and-effect history explorer. Pick a scenario, start at the anchor event, and follow the chain — exploring what led there and what came next.
 
 Built with React, TypeScript, React Flow, and Tailwind CSS.
 
