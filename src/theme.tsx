@@ -7,63 +7,63 @@
 
 // Centre colours exposed separately so selector cards can use them as flat base colours.
 export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
-  "fall-of-rome":           "#2a1a06",
-  "french-revolution":      "#0d1f0d",
-  "scientific-revolution":  "#060d1f",
-  "wwi":                    "#141a0a",
-  "year-without-a-summer":  "#12101a",
-  "wright-brothers":        "#0f1218",
+  "fall-of-rome": "#2a1a06",
+  "french-revolution": "#0d1f0d",
+  "scientific-revolution": "#060d1f",
+  wwi: "#141a0a",
+  "year-without-a-summer": "#12101a",
+  "wright-brothers": "#0f1218",
   "underwater-archaeology": "#071418",
-  "templars":               "#18100a",
-  "mongols":                "#1a0e06",
-  "polynesia":              "#051418",
-  "zheng-he":               "#061410",
-  "louisiana-purchase":     "#0e1a0a",
-  "whales":                 "#050e18",
-  "napster":                "#0a0a18",
-  "tulip-mania":            "#150e06",
-  "leaded-gasoline":        "#0e0e08",
-  "invention-of-teenager":  "#12080e",
+  templars: "#18100a",
+  mongols: "#1a0e06",
+  polynesia: "#051418",
+  "zheng-he": "#061410",
+  "louisiana-purchase": "#0e1a0a",
+  whales: "#050e18",
+  napster: "#0a0a18",
+  "tulip-mania": "#150e06",
+  "leaded-gasoline": "#0e0e08",
+  "invention-of-teenager": "#12080e",
   "black-plague-renaissance": "#12080a",
-  "age-of-exploration":     "#0a100e",
-  "hollywood-birth":        "#140e06",
-  "hollywood-code":         "#0e0a12",
-  "hollywood-blockbuster":  "#0a0808",
-  "f1-turbo-era":           "#160a04",
-  "f1-bernie":              "#0a0a0a",
-  "f1-senna":               "#06100e",
-  "cats":                   "#12100a",
-  "emu-war":                "#0e1206",
+  "age-of-exploration": "#0a100e",
+  "hollywood-birth": "#140e06",
+  "hollywood-code": "#0e0a12",
+  "hollywood-blockbuster": "#0a0808",
+  "f1-turbo-era": "#160a04",
+  "f1-bernie": "#0a0a0a",
+  "f1-senna": "#06100e",
+  cats: "#12100a",
+  "emu-war": "#0e1206",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
-  "fall-of-rome":           "radial-gradient(ellipse at center, #2a1a06 0%, #0D0D0D 70%)",
-  "french-revolution":      "radial-gradient(ellipse at center, #0d1f0d 0%, #0D0D0D 70%)",
-  "scientific-revolution":  "radial-gradient(ellipse at center, #060d1f 0%, #0D0D0D 70%)",
-  "wwi":                    "radial-gradient(ellipse at center, #141a0a 0%, #0D0D0D 70%)",
-  "year-without-a-summer":  "radial-gradient(ellipse at center, #12101a 0%, #0D0D0D 70%)",
-  "wright-brothers":        "radial-gradient(ellipse at center, #0f1218 0%, #0D0D0D 70%)",
+  "fall-of-rome": "radial-gradient(ellipse at center, #2a1a06 0%, #0D0D0D 70%)",
+  "french-revolution": "radial-gradient(ellipse at center, #0d1f0d 0%, #0D0D0D 70%)",
+  "scientific-revolution": "radial-gradient(ellipse at center, #060d1f 0%, #0D0D0D 70%)",
+  wwi: "radial-gradient(ellipse at center, #141a0a 0%, #0D0D0D 70%)",
+  "year-without-a-summer": "radial-gradient(ellipse at center, #12101a 0%, #0D0D0D 70%)",
+  "wright-brothers": "radial-gradient(ellipse at center, #0f1218 0%, #0D0D0D 70%)",
   "underwater-archaeology": "radial-gradient(ellipse at center, #071418 0%, #0D0D0D 70%)",
-  "templars":               "radial-gradient(ellipse at center, #18100a 0%, #0D0D0D 70%)",
-  "mongols":                "radial-gradient(ellipse at center, #1a0e06 0%, #0D0D0D 70%)",
-  "polynesia":              "radial-gradient(ellipse at center, #051418 0%, #0D0D0D 70%)",
-  "zheng-he":               "radial-gradient(ellipse at center, #061410 0%, #0D0D0D 70%)",
-  "louisiana-purchase":     "radial-gradient(ellipse at center, #0e1a0a 0%, #0D0D0D 70%)",
-  "whales":                 "radial-gradient(ellipse at center, #050e18 0%, #0D0D0D 70%)",
-  "napster":                "radial-gradient(ellipse at center, #0a0a18 0%, #0D0D0D 70%)",
-  "tulip-mania":            "radial-gradient(ellipse at center, #150e06 0%, #0D0D0D 70%)",
-  "leaded-gasoline":        "radial-gradient(ellipse at center, #0e0e08 0%, #0D0D0D 70%)",
-  "invention-of-teenager":  "radial-gradient(ellipse at center, #12080e 0%, #0D0D0D 70%)",
+  templars: "radial-gradient(ellipse at center, #18100a 0%, #0D0D0D 70%)",
+  mongols: "radial-gradient(ellipse at center, #1a0e06 0%, #0D0D0D 70%)",
+  polynesia: "radial-gradient(ellipse at center, #051418 0%, #0D0D0D 70%)",
+  "zheng-he": "radial-gradient(ellipse at center, #061410 0%, #0D0D0D 70%)",
+  "louisiana-purchase": "radial-gradient(ellipse at center, #0e1a0a 0%, #0D0D0D 70%)",
+  whales: "radial-gradient(ellipse at center, #050e18 0%, #0D0D0D 70%)",
+  napster: "radial-gradient(ellipse at center, #0a0a18 0%, #0D0D0D 70%)",
+  "tulip-mania": "radial-gradient(ellipse at center, #150e06 0%, #0D0D0D 70%)",
+  "leaded-gasoline": "radial-gradient(ellipse at center, #0e0e08 0%, #0D0D0D 70%)",
+  "invention-of-teenager": "radial-gradient(ellipse at center, #12080e 0%, #0D0D0D 70%)",
   "black-plague-renaissance": "radial-gradient(ellipse at center, #12080a 0%, #0D0D0D 70%)",
-  "age-of-exploration":     "radial-gradient(ellipse at center, #0a100e 0%, #0D0D0D 70%)",
-  "hollywood-birth":        "radial-gradient(ellipse at center, #140e06 0%, #0D0D0D 70%)",
-  "hollywood-code":         "radial-gradient(ellipse at center, #0e0a12 0%, #0D0D0D 70%)",
-  "hollywood-blockbuster":  "radial-gradient(ellipse at center, #0a0808 0%, #0D0D0D 70%)",
-  "f1-turbo-era":           "radial-gradient(ellipse at center, #160a04 0%, #0D0D0D 70%)",
-  "f1-bernie":              "radial-gradient(ellipse at center, #0a0a0a 0%, #0D0D0D 70%)",
-  "f1-senna":               "radial-gradient(ellipse at center, #06100e 0%, #0D0D0D 70%)",
-  "cats":                   "radial-gradient(ellipse at center, #12100a 0%, #0D0D0D 70%)",
-  "emu-war":                "radial-gradient(ellipse at center, #0e1206 0%, #0D0D0D 70%)",
+  "age-of-exploration": "radial-gradient(ellipse at center, #0a100e 0%, #0D0D0D 70%)",
+  "hollywood-birth": "radial-gradient(ellipse at center, #140e06 0%, #0D0D0D 70%)",
+  "hollywood-code": "radial-gradient(ellipse at center, #0e0a12 0%, #0D0D0D 70%)",
+  "hollywood-blockbuster": "radial-gradient(ellipse at center, #0a0808 0%, #0D0D0D 70%)",
+  "f1-turbo-era": "radial-gradient(ellipse at center, #160a04 0%, #0D0D0D 70%)",
+  "f1-bernie": "radial-gradient(ellipse at center, #0a0a0a 0%, #0D0D0D 70%)",
+  "f1-senna": "radial-gradient(ellipse at center, #06100e 0%, #0D0D0D 70%)",
+  cats: "radial-gradient(ellipse at center, #12100a 0%, #0D0D0D 70%)",
+  "emu-war": "radial-gradient(ellipse at center, #0e1206 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -78,8 +78,12 @@ function RomePattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
@@ -100,27 +104,37 @@ function FrancePattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-france" x="0" y="0" width="64" height="80" patternUnits="userSpaceOnUse">
+          {/* Central petal — teardrop */}
+          <path d="M32,14 C28,22 27,30 32,34 C37,30 36,22 32,14Z" fill="none" stroke="#E8E3D5" strokeWidth="1" />
+          {/* Left petal */}
           <path
-            d="M32 12 C32 12 28 20 28 28 C28 34 32 36 32 36 C32 36 36 34 36 28 C36 20 32 12 32 12Z"
-            fill="none" stroke="#E8E3D5" strokeWidth="1"
+            d="M32,34 C26,30 20,26 18,22 C16,17 20,13 24,16 C27,18 29,26 32,34Z"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="1"
           />
+          {/* Right petal */}
           <path
-            d="M32 36 C32 36 22 30 18 24 C16 20 20 16 24 20 C26 22 28 28 28 28"
-            fill="none" stroke="#E8E3D5" strokeWidth="1"
+            d="M32,34 C38,30 44,26 46,22 C48,17 44,13 40,16 C37,18 35,26 32,34Z"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="1"
           />
-          <path
-            d="M32 36 C32 36 42 30 46 24 C48 20 44 16 40 20 C38 22 36 28 36 28"
-            fill="none" stroke="#E8E3D5" strokeWidth="1"
-          />
-          <path d="M26 36 L38 36" stroke="#E8E3D5" strokeWidth="1" />
-          <path d="M28 38 L36 38" stroke="#E8E3D5" strokeWidth="1" />
-          <path d="M30 38 L30 44 M34 38 L34 44" stroke="#E8E3D5" strokeWidth="1" />
+          {/* Horizontal banding bar */}
+          <line x1="24" y1="36" x2="40" y2="36" stroke="#E8E3D5" strokeWidth="1" />
+          <line x1="26" y1="38" x2="38" y2="38" stroke="#E8E3D5" strokeWidth="0.7" />
+          {/* Base drop */}
+          <path d="M29,38 C29,42 30,46 32,48 C34,46 35,42 35,38" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-france)" />
@@ -133,36 +147,35 @@ function SciencePattern({ opacity }: { opacity: number }) {
   return (
     <svg
       aria-hidden
-      viewBox="0 0 400 400"
-      preserveAspectRatio="xMidYMid meet"
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
-      <circle cx="50%" cy="50%" r="5" fill="#E8E3D5" />
-      {[32, 60, 92, 128, 168, 210].map((r, i) => (
-        <circle key={i} cx="50%" cy="50%" r={r} fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
-      ))}
-      {([
-        [32,  10],
-        [60,  195],
-        [92,  330],
-        [128, 80],
-        [168, 250],
-        [210, 155],
-      ] as [number, number][]).map(([r, deg], i) => {
-        const rad = (deg * Math.PI) / 180;
-        return (
-          <circle
-            key={i}
-            cx={`calc(50% + ${(r * Math.cos(rad)).toFixed(1)}px)`}
-            cy={`calc(50% + ${(r * Math.sin(rad)).toFixed(1)}px)`}
-            r="3"
-            fill="#E8E3D5"
-          />
-        );
-      })}
+      <defs>
+        <pattern id="bg-science" x="0" y="0" width="240" height="240" patternUnits="userSpaceOnUse">
+          {/* Sun at tile centre */}
+          <circle cx="120" cy="120" r="5" fill="none" stroke="#E8E3D5" strokeWidth="1" />
+          <circle cx="120" cy="120" r="2" fill="#E8E3D5" />
+          {/* Orbits */}
+          <circle cx="120" cy="120" r="28" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+          <circle cx="120" cy="120" r="52" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+          <circle cx="120" cy="120" r="78" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <circle cx="120" cy="120" r="104" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          {/* Planets at fixed positions */}
+          <circle cx="148" cy="120" r="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="120" cy="68" r="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="76" cy="138" r="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="155" cy="168" r="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          {/* Outer planet */}
+          <circle cx="120" cy="16" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-science)" />
     </svg>
   );
 }
@@ -173,15 +186,30 @@ function WWIPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
-        <pattern id="bg-wwi" x="0" y="0" width="120" height="80" patternUnits="userSpaceOnUse">
-          <path d="M0 20 Q30 10 60 20 Q90 30 120 20" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
-          <path d="M0 40 Q30 28 60 40 Q90 52 120 40" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
-          <path d="M0 60 Q30 48 60 60 Q90 72 120 60" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+        <pattern id="bg-wwi" x="0" y="0" width="100" height="60" patternUnits="userSpaceOnUse">
+          {/*  Main wire strand */}
+          <path d="M0,30 Q25,22 50,30 Q75,38 100,30" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+          {/*  Barb clusters at intervals */}
+          <line x1="20" y1="25" x2="26" y2="20" stroke="#E8E3D5" strokeWidth="0.8" />
+          <line x1="20" y1="25" x2="26" y2="30" stroke="#E8E3D5" strokeWidth="0.8" />
+          <line x1="22" y1="33" x2="16" y2="28" stroke="#E8E3D5" strokeWidth="0.8" />
+          <line x1="22" y1="33" x2="16" y2="38" stroke="#E8E3D5" strokeWidth="0.8" />
+          <line x1="70" y1="35" x2="76" y2="30" stroke="#E8E3D5" strokeWidth="0.8" />
+          <line x1="70" y1="35" x2="76" y2="40" stroke="#E8E3D5" strokeWidth="0.8" />
+          <line x1="72" y1="27" x2="66" y2="22" stroke="#E8E3D5" strokeWidth="0.8" />
+          <line x1="72" y1="27" x2="66" y2="32" stroke="#E8E3D5" strokeWidth="0.8" />
+          {/*  Trench cross-section suggestion — horizontal earth line */}
+          <line x1="0" y1="50" x2="100" y2="50" stroke="#E8E3D5" strokeWidth="0.4" />
+          <line x1="0" y1="54" x2="100" y2="54" stroke="#E8E3D5" strokeWidth="0.3" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-wwi)" />
@@ -195,20 +223,40 @@ function SummerPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
-        <pattern id="bg-summer" x="0" y="0" width="72" height="72" patternUnits="userSpaceOnUse">
-          <circle cx="12" cy="18" r="1.2" fill="#E8E3D5" />
-          <circle cx="38" cy="8"  r="0.8" fill="#E8E3D5" />
-          <circle cx="58" cy="26" r="1.5" fill="#E8E3D5" />
-          <circle cx="22" cy="44" r="0.9" fill="#E8E3D5" />
-          <circle cx="50" cy="50" r="1.1" fill="#E8E3D5" />
-          <circle cx="6"  cy="62" r="0.7" fill="#E8E3D5" />
-          <circle cx="64" cy="66" r="1.3" fill="#E8E3D5" />
-          <circle cx="34" cy="62" r="0.6" fill="#E8E3D5" />
+        <pattern id="bg-summer" x="0" y="0" width="120" height="110" patternUnits="userSpaceOnUse">
+          <line x1="52" y1="100" x2="68" y2="100" stroke="#E8E3D5" stroke-width="1" />
+          <path
+            d="M52,100 C48,90 44,82 46,74 C48,66 54,62 60,62 C66,62 72,66 74,74 C76,82 72,90 68,100"
+            fill="none"
+            stroke="#E8E3D5"
+            stroke-width="0.9"
+          />
+          <path
+            d="M48,80 C42,70 36,58 40,46 C43,36 52,30 60,30 C68,30 77,36 80,46 C84,58 78,70 72,80"
+            fill="none"
+            stroke="#E8E3D5"
+            stroke-width="0.7"
+          />
+          <path
+            d="M43,60 C36,48 30,32 36,20 C41,10 52,5 60,5 C68,5 79,10 84,20 C90,32 84,48 77,60"
+            fill="none"
+            stroke="#E8E3D5"
+            stroke-width="0.5"
+          />
+          <line x1="20" y1="72" x2="16" y2="82" stroke="#E8E3D5" stroke-width="0.5" />
+          <line x1="96" y1="68" x2="100" y2="78" stroke="#E8E3D5" stroke-width="0.5" />
+          <line x1="10" y1="88" x2="7" y2="98" stroke="#E8E3D5" stroke-width="0.4" />
+          <line x1="108" y1="84" x2="111" y2="94" stroke="#E8E3D5" stroke-width="0.4" />
+          <line x1="0" y1="100" x2="120" y2="100" stroke="#E8E3D5" stroke-width="0.5" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-summer)" />
@@ -222,19 +270,50 @@ function TemplarsPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
-        <pattern id="bg-templars" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
-          {/* Cross pattée: translate to tile centre, scale from 1083×1083 source to ~40×40px */}
-          <g transform="translate(40, 40) scale(0.037)">
-            <path
-              d="M358.145 1070.42l370.414 0c-71.7183,-110.608 -132.927,-316.36 -132.927,-469.658 153.3,-0.00354223 359.051,61.2061 469.66,132.926l-0.00118074 -370.413c-132.87,76.4341 -341.723,125.971 -473.362,118.969 0,-153.298 61.2085,-359.049 132.927,-469.658l-370.414 0c71.7183,110.608 132.927,316.36 132.926,469.659 -153.298,0 -359.049,-61.2085 -469.658,-132.927l-0.00236148 370.414c132.874,-76.4341 341.726,-125.97 473.364,-118.97 0,153.298 -61.2085,359.049 -132.927,469.658z"
-              fill="white"
-            />
-          </g>
+        <pattern id="bg-templars" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+          {/* Top arm: narrow at base (x=44–56), wide at tip (x=36–64) */}
+          <path
+            d="M44,44 L36,18 L64,18 L56,44 Z"
+            fill="none"
+            stroke="#E8E3D5"
+            stroke-width="0.9"
+            stroke-linejoin="miter"
+          />
+          {/* Bottom arm */}
+          <path
+            d="M44,56 L36,82 L64,82 L56,56 Z"
+            fill="none"
+            stroke="#E8E3D5"
+            stroke-width="0.9"
+            stroke-linejoin="miter"
+          />
+          {/* Left arm: narrow at right (y=44–56), wide at tip (y=36–64) */}
+          <path
+            d="M44,44 L18,36 L18,64 L44,56 Z"
+            fill="none"
+            stroke="#E8E3D5"
+            stroke-width="0.9"
+            stroke-linejoin="miter"
+          />
+          {/* Right arm */}
+          <path
+            d="M56,44 L82,36 L82,64 L56,56 Z"
+            fill="none"
+            stroke="#E8E3D5"
+            stroke-width="0.9"
+            stroke-linejoin="miter"
+          />
+          {/* Centre square */}
+          <rect x="44" y="44" width="12" height="12" fill="none" stroke="#E8E3D5" stroke-width="0.7" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-templars)" />
@@ -248,17 +327,31 @@ function UnderwaterPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
-        <pattern id="bg-underwater" x="0" y="0" width="300" height="300" patternUnits="userSpaceOnUse">
-          <path d="M0,300 Q75,225 150,300"  fill="none" stroke="white" strokeWidth="0.7" />
-          <path d="M0,300 Q112,188 225,300" fill="none" stroke="white" strokeWidth="0.6" />
-          <path d="M0,300 Q150,150 300,300" fill="none" stroke="white" strokeWidth="0.5" />
-          <line x1="0" y1="100" x2="300" y2="100" stroke="white" strokeWidth="0.3" strokeDasharray="4 8" />
-          <line x1="0" y1="200" x2="300" y2="200" stroke="white" strokeWidth="0.3" strokeDasharray="4 8" />
+        <pattern id="bg-underwater" x="0" y="0" width="240" height="200" patternUnits="userSpaceOnUse">
+          {/* Sonar source at top centre */}
+          <circle cx="120" cy="20" r="3" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          {/* Expanding semicircular pings downward */}
+          <path d="M80,20 Q120,60 160,20" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <path d="M50,20 Q120,100 190,20" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+          <path d="M20,20 Q120,140 220,20" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <path d="M0,20  Q120,180 240,20" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+          {/* Depth ruler lines on left */}
+          <line x1="15" y1="60" x2="22" y2="60" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="15" y1="100" x2="22" y2="100" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="15" y1="140" x2="22" y2="140" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="15" y1="180" x2="22" y2="180" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="18" y1="20" x2="18" y2="190" stroke="#E8E3D5" strokeWidth="0.3" />
+          {/* Echo return dot */}
+          <circle cx="145" cy="130" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-underwater)" />
@@ -272,16 +365,18 @@ function WrightPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-wright" x="0" y="0" width="200" height="120" patternUnits="userSpaceOnUse">
-          <path d="M10,30 C40,20 120,18 180,28 C120,32 40,34 10,30 Z"
-                fill="none" stroke="white" strokeWidth="0.8" />
-          <path d="M10,55 C40,45 120,43 180,53 C120,57 40,59 10,55 Z"
-                fill="none" stroke="white" strokeWidth="0.8" />
+          <path d="M10,30 C40,20 120,18 180,28 C120,32 40,34 10,30 Z" fill="none" stroke="white" strokeWidth="0.8" />
+          <path d="M10,55 C40,45 120,43 180,53 C120,57 40,59 10,55 Z" fill="none" stroke="white" strokeWidth="0.8" />
           <line x1="60" y1="30" x2="60" y2="55" stroke="white" strokeWidth="0.6" />
           <line x1="120" y1="28" x2="120" y2="53" stroke="white" strokeWidth="0.6" />
           <line x1="180" y1="20" x2="180" y2="62" stroke="white" strokeWidth="0.8" />
@@ -299,17 +394,27 @@ function MongolsPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
-        <pattern id="bg-mongols" x="0" y="0" width="120" height="80" patternUnits="userSpaceOnUse">
-          <path d="M10,40 L40,15 L55,40 L40,65 Z"
-                fill="none" stroke="white" strokeWidth="0.8" />
-          <path d="M50,40 L80,15 L95,40 L80,65 Z"
-                fill="none" stroke="white" strokeWidth="0.8" />
-          <line x1="0" y1="40" x2="120" y2="40" stroke="white" strokeWidth="0.3" opacity="0.5" />
+        <pattern id="bg-mongols" x="0" y="0" width="160" height="110" patternUnits="userSpaceOnUse">
+          <path d="M70,12 C66,16 60,22 58,30" fill="none" stroke="#E8E3D5" stroke-width="0.9" />
+          <path d="M58,30 C56,42 56,54 60,55" fill="none" stroke="#E8E3D5" stroke-width="1.1" />
+          <path d="M60,55 C64,56 64,68 62,80" fill="none" stroke="#E8E3D5" stroke-width="1.1" />
+          <path d="M62,80 C60,88 64,96 70,98" fill="none" stroke="#E8E3D5" stroke-width="0.9" />
+          <line x1="70" y1="12" x2="70" y2="98" stroke="#E8E3D5" stroke-width="0.5" />
+          <line x1="70" y1="55" x2="15" y2="55" stroke="#E8E3D5" stroke-width="0.7" />
+          <path d="M15,55 L22,51 L20,55 L22,59 Z" fill="none" stroke="#E8E3D5" stroke-width="0.7" />
+          <path d="M65,55 L70,50 M65,55 L70,60" stroke="#E8E3D5" stroke-width="0.5" />
+          <line x1="56" y1="50" x2="60" y2="50" stroke="#E8E3D5" stroke-width="0.6" />
+          <line x1="56" y1="55" x2="60" y2="55" stroke="#E8E3D5" stroke-width="0.6" />
+          <line x1="56" y1="60" x2="60" y2="60" stroke="#E8E3D5" stroke-width="0.6" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-mongols)" />
@@ -323,31 +428,43 @@ function PolynesiaPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-polynesia" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
           {/* Cardinal points — longer */}
-          <line x1="100" y1="100" x2="100" y2="60"  stroke="white" strokeWidth="0.8" />
+          <line x1="100" y1="100" x2="100" y2="60" stroke="white" strokeWidth="0.8" />
           <line x1="100" y1="100" x2="100" y2="140" stroke="white" strokeWidth="0.8" />
-          <line x1="100" y1="100" x2="60"  y2="100" stroke="white" strokeWidth="0.8" />
+          <line x1="100" y1="100" x2="60" y2="100" stroke="white" strokeWidth="0.8" />
           <line x1="100" y1="100" x2="140" y2="100" stroke="white" strokeWidth="0.8" />
           {/* Intercardinal points — shorter */}
-          <line x1="100" y1="100" x2="128" y2="72"  stroke="white" strokeWidth="0.5" />
-          <line x1="100" y1="100" x2="72"  y2="72"  stroke="white" strokeWidth="0.5" />
+          <line x1="100" y1="100" x2="128" y2="72" stroke="white" strokeWidth="0.5" />
+          <line x1="100" y1="100" x2="72" y2="72" stroke="white" strokeWidth="0.5" />
           <line x1="100" y1="100" x2="128" y2="128" stroke="white" strokeWidth="0.5" />
-          <line x1="100" y1="100" x2="72"  y2="128" stroke="white" strokeWidth="0.5" />
+          <line x1="100" y1="100" x2="72" y2="128" stroke="white" strokeWidth="0.5" />
           {/* Centre dot */}
           <circle cx="100" cy="100" r="2" fill="white" />
           {/* Outer ring */}
           <circle cx="100" cy="100" r="38" fill="none" stroke="white" strokeWidth="0.4" />
           {/* Ocean waves */}
-          <path d="M20,170 Q50,162 80,170 Q110,178 140,170 Q170,162 200,170"
-                fill="none" stroke="white" strokeWidth="0.5" />
-          <path d="M20,182 Q50,174 80,182 Q110,190 140,182 Q170,174 200,182"
-                fill="none" stroke="white" strokeWidth="0.4" />
+          <path
+            d="M20,170 Q50,162 80,170 Q110,178 140,170 Q170,162 200,170"
+            fill="none"
+            stroke="white"
+            strokeWidth="0.5"
+          />
+          <path
+            d="M20,182 Q50,174 80,182 Q110,190 140,182 Q170,174 200,182"
+            fill="none"
+            stroke="white"
+            strokeWidth="0.4"
+          />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-polynesia)" />
@@ -361,31 +478,44 @@ function ZhengHePattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-zheng-he" x="0" y="0" width="180" height="180" patternUnits="userSpaceOnUse">
-          {/* Outer octagonal ring — ba gua / compass shape */}
+          {/* Outer octagon */}
           <polygon
-            points="90,52 118,62 128,90 118,118 90,128 62,118 52,90 62,62"
-            fill="none" stroke="white" strokeWidth="0.7"
+            points="90,42 122,58 134,90 122,122 90,138 58,122 46,90 58,58"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.8"
+          />
+          {/* Second concentric octagon — gives ba gua ring feel */}
+          <polygon
+            points="90,58 110,66 118,90 110,114 90,122 70,114 62,90 70,66"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.5"
           />
           {/* Inner circle */}
-          <circle cx="90" cy="90" r="18" fill="none" stroke="white" strokeWidth="0.6" />
+          <circle cx="90" cy="90" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
           {/* Centre dot */}
-          <circle cx="90" cy="90" r="2.5" fill="white" />
-          {/* Cardinal lines through centre */}
-          <line x1="90" y1="52"  x2="90"  y2="72"  stroke="white" strokeWidth="0.5" />
-          <line x1="90" y1="108" x2="90"  y2="128" stroke="white" strokeWidth="0.5" />
-          <line x1="52" y1="90"  x2="72"  y2="90"  stroke="white" strokeWidth="0.5" />
-          <line x1="108" y1="90" x2="128" y2="90"  stroke="white" strokeWidth="0.5" />
-          {/* Ocean waves */}
-          <path d="M0,158 Q22,150 45,158 Q68,166 90,158 Q112,150 135,158 Q158,166 180,158"
-                fill="none" stroke="white" strokeWidth="0.5" />
-          <path d="M0,168 Q22,160 45,168 Q68,176 90,168 Q112,160 135,168 Q158,176 180,168"
-                fill="none" stroke="white" strokeWidth="0.4" />
+          <circle cx="90" cy="90" r="2.5" fill="#E8E3D5" />
+          {/* Trigram hash marks on each octagon facet */}
+          <line x1="96" y1="44" x2="102" y2="47" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="96" y1="47" x2="102" y2="50" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="78" y1="44" x2="84" y2="47" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="78" y1="47" x2="84" y2="50" stroke="#E8E3D5" strokeWidth="0.5" />
+          {/* Cardinal radials (shorter — inside the octagon only) */}
+          <line x1="90" y1="58" x2="90" y2="74" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="90" y1="106" x2="90" y2="122" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="62" y1="90" x2="74" y2="90" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="106" y1="90" x2="118" y2="90" stroke="#E8E3D5" strokeWidth="0.5" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-zheng-he)" />
@@ -399,24 +529,34 @@ function WhalesPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-whales" x="0" y="0" width="200" height="160" patternUnits="userSpaceOnUse">
           {/* Left fluke */}
-          <path d="M100,100 C85,90 60,75 40,80 C25,84 20,95 30,100 C45,106 70,95 100,100"
-                fill="none" stroke="white" strokeWidth="0.8"/>
+          <path
+            d="M100,100 C85,90 60,75 40,80 C25,84 20,95 30,100 C45,106 70,95 100,100"
+            fill="none"
+            stroke="white"
+            strokeWidth="0.8"
+          />
           {/* Right fluke */}
-          <path d="M100,100 C115,90 140,75 160,80 C175,84 180,95 170,100 C155,106 130,95 100,100"
-                fill="none" stroke="white" strokeWidth="0.8"/>
+          <path
+            d="M100,100 C115,90 140,75 160,80 C175,84 180,95 170,100 C155,106 130,95 100,100"
+            fill="none"
+            stroke="white"
+            strokeWidth="0.8"
+          />
           {/* Body hint rising from centre */}
-          <path d="M100,100 C100,85 98,70 96,55"
-                fill="none" stroke="white" strokeWidth="0.6"/>
+          <path d="M100,100 C100,85 98,70 96,55" fill="none" stroke="white" strokeWidth="0.6" />
           {/* Water surface line */}
-          <path d="M0,115 Q50,108 100,115 Q150,122 200,115"
-                fill="none" stroke="white" strokeWidth="0.4"/>
+          <path d="M0,115 Q50,108 100,115 Q150,122 200,115" fill="none" stroke="white" strokeWidth="0.4" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-whales)" />
@@ -430,29 +570,26 @@ function LouisianaPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-louisiana-purchase" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
           {/* Main river channel */}
-          <path d="M100,0 C95,40 105,80 100,120 C95,160 105,180 100,200"
-                fill="none" stroke="white" strokeWidth="1"/>
+          <path d="M100,0 C95,40 105,80 100,120 C95,160 105,180 100,200" fill="none" stroke="white" strokeWidth="1" />
           {/* Left tributaries */}
-          <path d="M100,40 C80,50 60,45 40,55"
-                fill="none" stroke="white" strokeWidth="0.6"/>
-          <path d="M100,80 C75,85 55,80 30,90"
-                fill="none" stroke="white" strokeWidth="0.5"/>
-          <path d="M100,120 C80,125 65,120 45,130"
-                fill="none" stroke="white" strokeWidth="0.4"/>
+          <path d="M100,40 C80,50 60,45 40,55" fill="none" stroke="white" strokeWidth="0.6" />
+          <path d="M100,80 C75,85 55,80 30,90" fill="none" stroke="white" strokeWidth="0.5" />
+          <path d="M100,120 C80,125 65,120 45,130" fill="none" stroke="white" strokeWidth="0.4" />
           {/* Right tributaries */}
-          <path d="M100,50 C120,58 140,52 165,60"
-                fill="none" stroke="white" strokeWidth="0.6"/>
-          <path d="M100,90 C125,94 145,88 170,96"
-                fill="none" stroke="white" strokeWidth="0.5"/>
-          <path d="M100,130 C118,134 138,128 160,136"
-                fill="none" stroke="white" strokeWidth="0.4"/>
+          <path d="M100,50 C120,58 140,52 165,60" fill="none" stroke="white" strokeWidth="0.6" />
+          <path d="M100,90 C125,94 145,88 170,96" fill="none" stroke="white" strokeWidth="0.5" />
+          <path d="M100,130 C118,134 138,128 160,136" fill="none" stroke="white" strokeWidth="0.4" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-louisiana-purchase)" />
@@ -466,18 +603,40 @@ function NapsterPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
-        <pattern id="bg-napster" x="0" y="0" width="200" height="120" patternUnits="userSpaceOnUse">
-          {/* Audio waveform: alternating peaks and valleys */}
-          <path d="M0,60 L15,60 L20,30 L25,90 L30,20 L35,100 L40,35 L45,85 L50,45 L55,75 L60,50 L65,70 L70,55 L75,65 L80,60 L200,60"
-                fill="none" stroke="white" strokeWidth="0.7" strokeLinejoin="round"/>
-          {/* Mirror waveform below centre line for symmetry */}
-          <path d="M0,60 L15,60 L20,90 L25,30 L30,100 L35,20 L40,85 L45,35 L50,75 L55,45 L60,70 L65,50 L70,65 L75,55 L80,60 L200,60"
-                fill="none" stroke="white" strokeWidth="0.4" strokeLinejoin="round" opacity="0.5"/>
+        <pattern id="bg-napster" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
+          {/* Nodes — irregular constellation suggesting distributed network */}
+          <circle cx="80" cy="80" r="4" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+          <circle cx="30" cy="40" r="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="130" cy="35" r="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="25" cy="115" r="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="135" cy="120" r="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="80" cy="135" r="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="55" cy="60" r="1.8" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+          <circle cx="108" cy="65" r="1.8" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+          <circle cx="50" cy="108" r="1.8" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+          <circle cx="112" cy="105" r="1.8" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+          {/* Edges — many-to-many connections, no hierarchy */}
+          <line x1="80" y1="80" x2="30" y2="40" stroke="#E8E3D5" strokeWidth="0.4" />
+          <line x1="80" y1="80" x2="130" y2="35" stroke="#E8E3D5" strokeWidth="0.4" />
+          <line x1="80" y1="80" x2="25" y2="115" stroke="#E8E3D5" strokeWidth="0.4" />
+          <line x1="80" y1="80" x2="135" y2="120" stroke="#E8E3D5" strokeWidth="0.4" />
+          <line x1="80" y1="80" x2="80" y2="135" stroke="#E8E3D5" strokeWidth="0.4" />
+          <line x1="30" y1="40" x2="55" y2="60" stroke="#E8E3D5" strokeWidth="0.3" />
+          <line x1="130" y1="35" x2="108" y2="65" stroke="#E8E3D5" strokeWidth="0.3" />
+          <line x1="25" y1="115" x2="50" y2="108" stroke="#E8E3D5" strokeWidth="0.3" />
+          <line x1="135" y1="120" x2="112" y2="105" stroke="#E8E3D5" strokeWidth="0.3" />
+          <line x1="80" y1="135" x2="50" y2="108" stroke="#E8E3D5" strokeWidth="0.3" />
+          <line x1="80" y1="135" x2="112" y2="105" stroke="#E8E3D5" strokeWidth="0.3" />
+          <line x1="55" y1="60" x2="108" y2="65" stroke="#E8E3D5" strokeWidth="0.3" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-napster)" />
@@ -491,27 +650,26 @@ function TulipManiaPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-tulip-mania" x="0" y="0" width="140" height="180" patternUnits="userSpaceOnUse">
           {/* Stem */}
-          <line x1="70" y1="140" x2="70" y2="100" stroke="white" strokeWidth="0.8"/>
+          <line x1="70" y1="140" x2="70" y2="100" stroke="white" strokeWidth="0.8" />
           {/* Left leaf */}
-          <path d="M70,125 C55,115 45,105 50,95"
-                fill="none" stroke="white" strokeWidth="0.6"/>
+          <path d="M70,125 C55,115 45,105 50,95" fill="none" stroke="white" strokeWidth="0.6" />
           {/* Right leaf */}
-          <path d="M70,120 C85,110 92,100 87,90"
-                fill="none" stroke="white" strokeWidth="0.6"/>
+          <path d="M70,120 C85,110 92,100 87,90" fill="none" stroke="white" strokeWidth="0.6" />
           {/* Tulip head: three petals */}
-          <path d="M70,100 C62,92 58,80 62,68 C65,58 70,55 70,55"
-                fill="none" stroke="white" strokeWidth="0.8"/>
-          <path d="M70,100 C78,92 82,80 78,68 C75,58 70,55 70,55"
-                fill="none" stroke="white" strokeWidth="0.8"/>
-          <path d="M70,98 C70,88 70,72 70,55"
-                fill="none" stroke="white" strokeWidth="0.7"/>
+          <path d="M70,100 C62,92 58,80 62,68 C65,58 70,55 70,55" fill="none" stroke="white" strokeWidth="0.8" />
+          <path d="M70,100 C78,92 82,80 78,68 C75,58 70,55 70,55" fill="none" stroke="white" strokeWidth="0.8" />
+          <path d="M70,98 C70,88 70,72 70,55" fill="none" stroke="white" strokeWidth="0.7" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-tulip-mania)" />
@@ -525,29 +683,33 @@ function LeadedGasolinePattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-leaded-gasoline" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
           {/* Central atom */}
-          <circle cx="80" cy="80" r="5" fill="none" stroke="white" strokeWidth="0.8"/>
+          <circle cx="80" cy="80" r="5" fill="none" stroke="white" strokeWidth="0.8" />
           {/* Four bonds radiating outward — tetrahedral structure */}
-          <line x1="80" y1="80" x2="80" y2="44" stroke="white" strokeWidth="0.6"/>
-          <line x1="80" y1="80" x2="80" y2="116" stroke="white" strokeWidth="0.6"/>
-          <line x1="80" y1="80" x2="44" y2="80" stroke="white" strokeWidth="0.6"/>
-          <line x1="80" y1="80" x2="116" y2="80" stroke="white" strokeWidth="0.6"/>
+          <line x1="80" y1="80" x2="80" y2="44" stroke="white" strokeWidth="0.6" />
+          <line x1="80" y1="80" x2="80" y2="116" stroke="white" strokeWidth="0.6" />
+          <line x1="80" y1="80" x2="44" y2="80" stroke="white" strokeWidth="0.6" />
+          <line x1="80" y1="80" x2="116" y2="80" stroke="white" strokeWidth="0.6" />
           {/* Outer atoms */}
-          <circle cx="80" cy="40" r="3.5" fill="none" stroke="white" strokeWidth="0.7"/>
-          <circle cx="80" cy="120" r="3.5" fill="none" stroke="white" strokeWidth="0.7"/>
-          <circle cx="40" cy="80" r="3.5" fill="none" stroke="white" strokeWidth="0.7"/>
-          <circle cx="120" cy="80" r="3.5" fill="none" stroke="white" strokeWidth="0.7"/>
+          <circle cx="80" cy="40" r="3.5" fill="none" stroke="white" strokeWidth="0.7" />
+          <circle cx="80" cy="120" r="3.5" fill="none" stroke="white" strokeWidth="0.7" />
+          <circle cx="40" cy="80" r="3.5" fill="none" stroke="white" strokeWidth="0.7" />
+          <circle cx="120" cy="80" r="3.5" fill="none" stroke="white" strokeWidth="0.7" />
           {/* Diagonal bonds for ethyl groups */}
-          <line x1="80" y1="80" x2="108" y2="52" stroke="white" strokeWidth="0.4" opacity="0.5"/>
-          <line x1="80" y1="80" x2="52" y2="108" stroke="white" strokeWidth="0.4" opacity="0.5"/>
-          <circle cx="111" cy="49" r="2.5" fill="none" stroke="white" strokeWidth="0.6" opacity="0.5"/>
-          <circle cx="49" cy="111" r="2.5" fill="none" stroke="white" strokeWidth="0.6" opacity="0.5"/>
+          <line x1="80" y1="80" x2="108" y2="52" stroke="white" strokeWidth="0.4" opacity="0.5" />
+          <line x1="80" y1="80" x2="52" y2="108" stroke="white" strokeWidth="0.4" opacity="0.5" />
+          <circle cx="111" cy="49" r="2.5" fill="none" stroke="white" strokeWidth="0.6" opacity="0.5" />
+          <circle cx="49" cy="111" r="2.5" fill="none" stroke="white" strokeWidth="0.6" opacity="0.5" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-leaded-gasoline)" />
@@ -561,23 +723,27 @@ function InventionOfTeenagerPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-invention-of-teenager" x="0" y="0" width="180" height="180" patternUnits="userSpaceOnUse">
           {/* Outer edge of record */}
-          <circle cx="90" cy="90" r="72" fill="none" stroke="white" strokeWidth="0.8"/>
+          <circle cx="90" cy="90" r="72" fill="none" stroke="white" strokeWidth="0.8" />
           {/* Grooves — concentric circles suggesting vinyl */}
-          <circle cx="90" cy="90" r="62" fill="none" stroke="white" strokeWidth="0.4"/>
-          <circle cx="90" cy="90" r="52" fill="none" stroke="white" strokeWidth="0.4"/>
-          <circle cx="90" cy="90" r="42" fill="none" stroke="white" strokeWidth="0.4"/>
-          <circle cx="90" cy="90" r="32" fill="none" stroke="white" strokeWidth="0.4"/>
+          <circle cx="90" cy="90" r="62" fill="none" stroke="white" strokeWidth="0.4" />
+          <circle cx="90" cy="90" r="52" fill="none" stroke="white" strokeWidth="0.4" />
+          <circle cx="90" cy="90" r="42" fill="none" stroke="white" strokeWidth="0.4" />
+          <circle cx="90" cy="90" r="32" fill="none" stroke="white" strokeWidth="0.4" />
           {/* Label area */}
-          <circle cx="90" cy="90" r="22" fill="none" stroke="white" strokeWidth="0.7"/>
+          <circle cx="90" cy="90" r="22" fill="none" stroke="white" strokeWidth="0.7" />
           {/* Centre hole */}
-          <circle cx="90" cy="90" r="3" fill="white"/>
+          <circle cx="90" cy="90" r="3" fill="white" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-invention-of-teenager)" />
@@ -591,26 +757,34 @@ function BlackPlagueRenaissancePattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-black-plague-renaissance" x="0" y="0" width="160" height="200" patternUnits="userSpaceOnUse">
           {/* Renaissance arch */}
-          <path d="M40,180 L40,100 Q40,60 80,60 Q120,60 120,100 L120,180"
-                fill="none" stroke="white" strokeWidth="0.8"/>
+          <path
+            d="M40,180 L40,100 Q40,60 80,60 Q120,60 120,100 L120,180"
+            fill="none"
+            stroke="white"
+            strokeWidth="0.8"
+          />
           {/* Keystone at top of arch */}
-          <path d="M70,62 L80,50 L90,62" fill="none" stroke="white" strokeWidth="0.6"/>
+          <path d="M70,62 L80,50 L90,62" fill="none" stroke="white" strokeWidth="0.6" />
           {/* Simple skull inside arch */}
-          <circle cx="80" cy="118" r="14" fill="none" stroke="white" strokeWidth="0.6"/>
+          <circle cx="80" cy="118" r="14" fill="none" stroke="white" strokeWidth="0.6" />
           {/* Eye sockets */}
-          <ellipse cx="74" cy="116" rx="4" ry="3" fill="none" stroke="white" strokeWidth="0.5"/>
-          <ellipse cx="86" cy="116" rx="4" ry="3" fill="none" stroke="white" strokeWidth="0.5"/>
+          <ellipse cx="74" cy="116" rx="4" ry="3" fill="none" stroke="white" strokeWidth="0.5" />
+          <ellipse cx="86" cy="116" rx="4" ry="3" fill="none" stroke="white" strokeWidth="0.5" />
           {/* Nose */}
-          <path d="M78,122 L80,125 L82,122" fill="none" stroke="white" strokeWidth="0.4"/>
+          <path d="M78,122 L80,125 L82,122" fill="none" stroke="white" strokeWidth="0.4" />
           {/* Teeth suggestion */}
-          <line x1="74" y1="128" x2="86" y2="128" stroke="white" strokeWidth="0.4"/>
+          <line x1="74" y1="128" x2="86" y2="128" stroke="white" strokeWidth="0.4" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-black-plague-renaissance)" />
@@ -624,28 +798,30 @@ function AgeOfExplorationPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-age-of-exploration" x="0" y="0" width="180" height="180" patternUnits="userSpaceOnUse">
           {/* Outer circle */}
-          <circle cx="90" cy="90" r="60" fill="none" stroke="white" strokeWidth="0.5"/>
-          {/* Cardinal points — diamond shapes */}
-          <polygon points="90,30 94,86 90,90 86,86" fill="white" opacity="0.7"/>
-          <polygon points="90,150 94,94 90,90 86,94" fill="white" opacity="0.4"/>
-          <polygon points="30,90 86,86 90,90 86,94" fill="white" opacity="0.4"/>
-          <polygon points="150,90 94,86 90,90 94,94" fill="white" opacity="0.7"/>
-          {/* Intercardinal points — smaller diamonds */}
-          <polygon points="90,90 127,53 131,57 94,94" fill="none" stroke="white" strokeWidth="0.5"/>
-          <polygon points="90,90 53,53 57,57 86,86" fill="none" stroke="white" strokeWidth="0.5"/>
-          <polygon points="90,90 127,127 123,131 86,94" fill="none" stroke="white" strokeWidth="0.5"/>
-          <polygon points="90,90 53,127 57,131 94,94" fill="none" stroke="white" strokeWidth="0.5"/>
-          {/* Centre dot */}
-          <circle cx="90" cy="90" r="3" fill="white"/>
-          {/* Inner circle */}
-          <circle cx="90" cy="90" r="12" fill="none" stroke="white" strokeWidth="0.4"/>
+          <circle cx="90" cy="90" r="62" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <circle cx="90" cy="90" r="14" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          {/* Cardinal points — diamond outlines only (no fill) */}
+          <polygon points="90,28 93,86 90,90 87,86" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+          <polygon points="90,152 93,94 90,90 87,94" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+          <polygon points="28,90 86,87 90,90 86,93" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+          <polygon points="152,90 94,87 90,90 94,93" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+          {/* Intercardinal — smaller diamonds */}
+          <polygon points="90,90 132,48 135,51 93,93" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <polygon points="90,90 48,48 51,51 87,87" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <polygon points="90,90 132,132 129,135 87,93" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <polygon points="90,90 48,132 51,129 93,87" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <circle cx="90" cy="90" r="3" fill="#E8E3D5" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-age-of-exploration)" />
@@ -659,35 +835,39 @@ function HollywoodBirthPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-hollywood-birth" x="0" y="0" width="80" height="200" patternUnits="userSpaceOnUse">
           {/* Film strip edges */}
-          <rect x="8" y="0" width="64" height="200" fill="none" stroke="white" strokeWidth="0.6"/>
+          <rect x="8" y="0" width="64" height="200" fill="none" stroke="white" strokeWidth="0.6" />
           {/* Left sprocket holes */}
-          <rect x="12" y="10"  width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
-          <rect x="12" y="40"  width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
-          <rect x="12" y="70"  width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
-          <rect x="12" y="100" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
-          <rect x="12" y="130" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
-          <rect x="12" y="160" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          <rect x="12" y="10" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5" />
+          <rect x="12" y="40" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5" />
+          <rect x="12" y="70" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5" />
+          <rect x="12" y="100" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5" />
+          <rect x="12" y="130" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5" />
+          <rect x="12" y="160" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5" />
           {/* Right sprocket holes */}
-          <rect x="58" y="10"  width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
-          <rect x="58" y="40"  width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
-          <rect x="58" y="70"  width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
-          <rect x="58" y="100" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
-          <rect x="58" y="130" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
-          <rect x="58" y="160" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5"/>
+          <rect x="58" y="10" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5" />
+          <rect x="58" y="40" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5" />
+          <rect x="58" y="70" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5" />
+          <rect x="58" y="100" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5" />
+          <rect x="58" y="130" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5" />
+          <rect x="58" y="160" width="10" height="14" rx="2" fill="none" stroke="white" strokeWidth="0.5" />
           {/* Frame lines */}
-          <line x1="26" y1="30"  x2="54" y2="30"  stroke="white" strokeWidth="0.4"/>
-          <line x1="26" y1="60"  x2="54" y2="60"  stroke="white" strokeWidth="0.4"/>
-          <line x1="26" y1="90"  x2="54" y2="90"  stroke="white" strokeWidth="0.4"/>
-          <line x1="26" y1="120" x2="54" y2="120" stroke="white" strokeWidth="0.4"/>
-          <line x1="26" y1="150" x2="54" y2="150" stroke="white" strokeWidth="0.4"/>
-          <line x1="26" y1="180" x2="54" y2="180" stroke="white" strokeWidth="0.4"/>
+          <line x1="26" y1="30" x2="54" y2="30" stroke="white" strokeWidth="0.4" />
+          <line x1="26" y1="60" x2="54" y2="60" stroke="white" strokeWidth="0.4" />
+          <line x1="26" y1="90" x2="54" y2="90" stroke="white" strokeWidth="0.4" />
+          <line x1="26" y1="120" x2="54" y2="120" stroke="white" strokeWidth="0.4" />
+          <line x1="26" y1="150" x2="54" y2="150" stroke="white" strokeWidth="0.4" />
+          <line x1="26" y1="180" x2="54" y2="180" stroke="white" strokeWidth="0.4" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-hollywood-birth)" />
@@ -701,29 +881,29 @@ function HollywoodCodePattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
-        <pattern id="bg-hollywood-code" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
-          {/* Left blade */}
-          <path d="M80,80 L30,40" fill="none" stroke="white" strokeWidth="1"/>
-          <path d="M80,80 L25,50" fill="none" stroke="white" strokeWidth="0.5"/>
-          {/* Right blade */}
-          <path d="M80,80 L130,40" fill="none" stroke="white" strokeWidth="1"/>
-          <path d="M80,80 L135,50" fill="none" stroke="white" strokeWidth="0.5"/>
-          {/* Pivot/screw at centre */}
-          <circle cx="80" cy="80" r="4" fill="none" stroke="white" strokeWidth="0.8"/>
-          {/* Handle stems */}
-          <line x1="80" y1="80" x2="52"  y2="98" stroke="white" strokeWidth="1"/>
-          <line x1="80" y1="80" x2="108" y2="98" stroke="white" strokeWidth="1"/>
-          {/* Handles — left loop */}
-          <ellipse cx="44" cy="112" rx="14" ry="18" fill="none" stroke="white" strokeWidth="0.8"
-                   transform="rotate(-20 44 112)"/>
-          {/* Handles — right loop */}
-          <ellipse cx="116" cy="112" rx="14" ry="18" fill="none" stroke="white" strokeWidth="0.8"
-                   transform="rotate(20 116 112)"/>
+        <pattern id="bg-hollywood-code" x="0" y="0" width="120" height="140" patternUnits="userSpaceOnUse">
+          {/* Film frame outer */}
+          <rect x="20" y="15" width="80" height="55" rx="2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          {/* Censorship redaction bars — thick parallel lines across the frame */}
+          <line x1="20" y1="31" x2="100" y2="31" stroke="#E8E3D5" strokeWidth="2.5" />
+          <line x1="20" y1="47" x2="100" y2="47" stroke="#E8E3D5" strokeWidth="2.5" />
+          <line x1="20" y1="59" x2="100" y2="59" stroke="#E8E3D5" strokeWidth="1.5" />
+          {/* Second frame — partial, below */}
+          <rect x="20" y="85" width="80" height="55" rx="2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          {/* Redaction bars */}
+          <line x1="20" y1="101" x2="100" y2="101" stroke="#E8E3D5" strokeWidth="2.5" />
+          <line x1="20" y1="117" x2="100" y2="117" stroke="#E8E3D5" strokeWidth="2.5" />
+          {/* "APPROVED" stamp suggestion — rectangular outline with inner rectangle */}
+          <rect x="32" y="92" width="56" height="20" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-hollywood-code)" />
@@ -737,28 +917,32 @@ function HollywoodBlockbusterPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-hollywood-blockbuster" x="0" y="0" width="180" height="160" patternUnits="userSpaceOnUse">
           {/* Clapperboard body */}
-          <rect x="30" y="55" width="120" height="85" rx="3" fill="none" stroke="white" strokeWidth="0.8"/>
+          <rect x="30" y="55" width="120" height="85" rx="3" fill="none" stroke="white" strokeWidth="0.8" />
           {/* Clapper strip */}
-          <rect x="30" y="38" width="120" height="22" rx="3" fill="none" stroke="white" strokeWidth="0.8"/>
+          <rect x="30" y="38" width="120" height="22" rx="3" fill="none" stroke="white" strokeWidth="0.8" />
           {/* Diagonal stripes on clapper */}
-          <line x1="50"  y1="38" x2="40"  y2="60" stroke="white" strokeWidth="2.5"/>
-          <line x1="70"  y1="38" x2="60"  y2="60" stroke="white" strokeWidth="2.5"/>
-          <line x1="90"  y1="38" x2="80"  y2="60" stroke="white" strokeWidth="2.5"/>
-          <line x1="110" y1="38" x2="100" y2="60" stroke="white" strokeWidth="2.5"/>
-          <line x1="130" y1="38" x2="120" y2="60" stroke="white" strokeWidth="2.5"/>
+          <line x1="50" y1="38" x2="40" y2="60" stroke="white" strokeWidth="2.5" />
+          <line x1="70" y1="38" x2="60" y2="60" stroke="white" strokeWidth="2.5" />
+          <line x1="90" y1="38" x2="80" y2="60" stroke="white" strokeWidth="2.5" />
+          <line x1="110" y1="38" x2="100" y2="60" stroke="white" strokeWidth="2.5" />
+          <line x1="130" y1="38" x2="120" y2="60" stroke="white" strokeWidth="2.5" />
           {/* Hinge */}
-          <circle cx="38" cy="42" r="3" fill="none" stroke="white" strokeWidth="0.6"/>
+          <circle cx="38" cy="42" r="3" fill="none" stroke="white" strokeWidth="0.6" />
           {/* Text lines on board */}
-          <line x1="45" y1="80"  x2="135" y2="80"  stroke="white" strokeWidth="0.4"/>
-          <line x1="45" y1="95"  x2="135" y2="95"  stroke="white" strokeWidth="0.4"/>
-          <line x1="45" y1="110" x2="100" y2="110" stroke="white" strokeWidth="0.4"/>
+          <line x1="45" y1="80" x2="135" y2="80" stroke="white" strokeWidth="0.4" />
+          <line x1="45" y1="95" x2="135" y2="95" stroke="white" strokeWidth="0.4" />
+          <line x1="45" y1="110" x2="100" y2="110" stroke="white" strokeWidth="0.4" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-hollywood-blockbuster)" />
@@ -772,28 +956,32 @@ function F1TurboPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-f1-turbo-era" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
           {/* Outer housing circle */}
-          <circle cx="80" cy="80" r="55" fill="none" stroke="white" strokeWidth="0.6"/>
+          <circle cx="80" cy="80" r="55" fill="none" stroke="white" strokeWidth="0.6" />
           {/* Inner hub */}
-          <circle cx="80" cy="80" r="12" fill="none" stroke="white" strokeWidth="0.8"/>
+          <circle cx="80" cy="80" r="12" fill="none" stroke="white" strokeWidth="0.8" />
           {/* Centre point */}
-          <circle cx="80" cy="80" r="3" fill="white"/>
+          <circle cx="80" cy="80" r="3" fill="white" />
           {/* Turbine blades — 6 curved blades */}
-          <path d="M80,68 C85,65 90,60 88,52" fill="none" stroke="white" strokeWidth="1.2"/>
-          <path d="M92,74 C97,72 103,70 104,62" fill="none" stroke="white" strokeWidth="1.2"/>
-          <path d="M92,86 C95,91 96,98 90,102" fill="none" stroke="white" strokeWidth="1.2"/>
-          <path d="M80,92 C82,97 80,104 74,106" fill="none" stroke="white" strokeWidth="1.2"/>
-          <path d="M68,86 C63,89 57,90 54,84" fill="none" stroke="white" strokeWidth="1.2"/>
-          <path d="M68,74 C65,69 64,62 70,58" fill="none" stroke="white" strokeWidth="1.2"/>
+          <path d="M80,68 C85,65 90,60 88,52" fill="none" stroke="white" strokeWidth="1.2" />
+          <path d="M92,74 C97,72 103,70 104,62" fill="none" stroke="white" strokeWidth="1.2" />
+          <path d="M92,86 C95,91 96,98 90,102" fill="none" stroke="white" strokeWidth="1.2" />
+          <path d="M80,92 C82,97 80,104 74,106" fill="none" stroke="white" strokeWidth="1.2" />
+          <path d="M68,86 C63,89 57,90 54,84" fill="none" stroke="white" strokeWidth="1.2" />
+          <path d="M68,74 C65,69 64,62 70,58" fill="none" stroke="white" strokeWidth="1.2" />
           {/* Speed lines suggesting rotation */}
-          <path d="M80,25 Q85,52 80,68" fill="none" stroke="white" strokeWidth="0.3" opacity="0.4"/>
-          <path d="M120,50 Q100,65 92,74" fill="none" stroke="white" strokeWidth="0.3" opacity="0.4"/>
+          <path d="M80,25 Q85,52 80,68" fill="none" stroke="white" strokeWidth="0.3" opacity="0.4" />
+          <path d="M120,50 Q100,65 92,74" fill="none" stroke="white" strokeWidth="0.3" opacity="0.4" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-f1-turbo-era)" />
@@ -807,26 +995,32 @@ function F1BerniePattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
-        <pattern id="bg-f1-bernie" x="0" y="0" width="120" height="80" patternUnits="userSpaceOnUse">
-          {/* Banknote border rectangle */}
-          <rect x="10" y="10" width="100" height="60" rx="3" fill="none" stroke="white" strokeWidth="0.6"/>
-          {/* Inner double border */}
-          <rect x="15" y="15" width="90" height="50" rx="2" fill="none" stroke="white" strokeWidth="0.3"/>
-          {/* Horizontal ruling lines suggesting engraved currency */}
-          <line x1="20" y1="28" x2="100" y2="28" stroke="white" strokeWidth="0.3"/>
-          <line x1="20" y1="36" x2="100" y2="36" stroke="white" strokeWidth="0.3"/>
-          <line x1="20" y1="44" x2="100" y2="44" stroke="white" strokeWidth="0.3"/>
-          <line x1="20" y1="52" x2="100" y2="52" stroke="white" strokeWidth="0.3"/>
+        <pattern id="bg-f1-bernie" x="0" y="0" width="160" height="100" patternUnits="userSpaceOnUse">
+          {/* Outer border */}
+          <rect x="8" y="8" width="144" height="84" rx="4" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+          {/* Inner border */}
+          <rect x="13" y="13" width="134" height="74" rx="3" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          {/* Guilloche-style curved band across middle */}
+          <path d="M13,50 Q40,38 80,50 Q120,62 147,50" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <path d="M13,46 Q40,34 80,46 Q120,58 147,46" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <path d="M13,54 Q40,42 80,54 Q120,66 147,54" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          {/* Ruling lines (thicker than before) */}
+          <line x1="18" y1="28" x2="142" y2="28" stroke="#E8E3D5" strokeWidth="0.6" />
+          <line x1="18" y1="72" x2="142" y2="72" stroke="#E8E3D5" strokeWidth="0.6" />
           {/* Corner ornaments */}
-          <circle cx="22" cy="22" r="3" fill="none" stroke="white" strokeWidth="0.4"/>
-          <circle cx="98" cy="22" r="3" fill="none" stroke="white" strokeWidth="0.4"/>
-          <circle cx="22" cy="58" r="3" fill="none" stroke="white" strokeWidth="0.4"/>
-          <circle cx="98" cy="58" r="3" fill="none" stroke="white" strokeWidth="0.4"/>
+          <circle cx="22" cy="22" r="4" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+          <circle cx="138" cy="22" r="4" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+          <circle cx="22" cy="78" r="4" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+          <circle cx="138" cy="78" r="4" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-f1-bernie)" />
@@ -840,26 +1034,51 @@ function F1SennaPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
-        <pattern id="bg-f1-senna" x="0" y="0" width="180" height="160" patternUnits="userSpaceOnUse">
-          {/* Helmet outer shell */}
-          <path d="M40,120 C40,80 50,45 90,40 C130,45 140,80 140,120 L130,125 L50,125 Z"
-                fill="none" stroke="white" strokeWidth="0.8"/>
-          {/* Visor opening */}
-          <path d="M55,85 C55,72 65,65 90,64 C115,65 125,72 125,85 L122,95 L58,95 Z"
-                fill="none" stroke="white" strokeWidth="0.6"/>
-          {/* Chin piece */}
-          <path d="M58,118 C60,108 65,102 90,100 C115,102 120,108 122,118"
-                fill="none" stroke="white" strokeWidth="0.5"/>
-          {/* Air vent slots */}
-          <line x1="75" y1="112" x2="85" y2="112" stroke="white" strokeWidth="0.5"/>
-          <line x1="75" y1="116" x2="85" y2="116" stroke="white" strokeWidth="0.5"/>
-          <line x1="95" y1="112" x2="105" y2="112" stroke="white" strokeWidth="0.5"/>
-          <line x1="95" y1="116" x2="105" y2="116" stroke="white" strokeWidth="0.5"/>
+        <pattern id="bg-f1-senna" x="0" y="0" width="200" height="180" patternUnits="userSpaceOnUse">
+          {/* Interlagos circuit outline — simplified but recognisable S-curves */}
+          <path
+            d="M30,90
+           C30,60 50,40 80,38
+           C105,36 118,50 120,68
+           C122,82 112,92 100,90
+           C88,88 82,78 86,66
+           C90,54 104,50 114,58
+           C128,68 130,88 124,104
+           C118,120 104,130 88,132
+           C70,134 54,124 46,110
+           C38,96 38,80 30,90Z"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="1.2"
+          />
+          {/* Track width suggestion — inner boundary */}
+          <path
+            d="M38,90
+           C38,64 55,46 80,44
+           C102,42 112,56 114,70
+           C116,82 108,90 98,88
+           C88,86 84,78 88,68
+           C92,58 104,56 112,62
+           C122,70 124,88 118,102
+           C112,116 100,124 86,126
+           C70,128 56,118 50,106
+           C44,94 44,80 38,90Z"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.4"
+          />
+          {/* Start/finish straight indicator */}
+          <line x1="28" y1="88" x2="28" y2="92" stroke="#E8E3D5" strokeWidth="1.5" />
+          <line x1="25" y1="88" x2="25" y2="92" stroke="#E8E3D5" strokeWidth="0.5" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-f1-senna)" />
@@ -873,44 +1092,46 @@ function CatsPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-cats" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
           {/* Head */}
-          <circle cx="80" cy="88" r="32" fill="none" stroke="white" strokeWidth="0.8"/>
+          <circle cx="80" cy="88" r="32" fill="none" stroke="white" strokeWidth="0.8" />
           {/* Left ear */}
-          <path d="M54,64 L48,38 L72,56" fill="none" stroke="white" strokeWidth="0.8"/>
+          <path d="M54,64 L48,38 L72,56" fill="none" stroke="white" strokeWidth="0.8" />
           {/* Right ear */}
-          <path d="M106,64 L112,38 L88,56" fill="none" stroke="white" strokeWidth="0.8"/>
+          <path d="M106,64 L112,38 L88,56" fill="none" stroke="white" strokeWidth="0.8" />
           {/* Left inner ear */}
-          <path d="M56,62 L52,44 L68,57" fill="none" stroke="white" strokeWidth="0.4"/>
+          <path d="M56,62 L52,44 L68,57" fill="none" stroke="white" strokeWidth="0.4" />
           {/* Right inner ear */}
-          <path d="M104,62 L108,44 L92,57" fill="none" stroke="white" strokeWidth="0.4"/>
+          <path d="M104,62 L108,44 L92,57" fill="none" stroke="white" strokeWidth="0.4" />
           {/* Left eye — almond shape */}
-          <path d="M62,82 C65,77 75,77 78,82 C75,87 65,87 62,82 Z"
-                fill="none" stroke="white" strokeWidth="0.7"/>
+          <path d="M62,82 C65,77 75,77 78,82 C75,87 65,87 62,82 Z" fill="none" stroke="white" strokeWidth="0.7" />
           {/* Right eye */}
-          <path d="M82,82 C85,77 95,77 98,82 C95,87 85,87 82,82 Z"
-                fill="none" stroke="white" strokeWidth="0.7"/>
+          <path d="M82,82 C85,77 95,77 98,82 C95,87 85,87 82,82 Z" fill="none" stroke="white" strokeWidth="0.7" />
           {/* Pupils — vertical slits */}
-          <line x1="70" y1="78" x2="70" y2="86" stroke="white" strokeWidth="1.5"/>
-          <line x1="90" y1="78" x2="90" y2="86" stroke="white" strokeWidth="1.5"/>
+          <line x1="70" y1="78" x2="70" y2="86" stroke="white" strokeWidth="1.5" />
+          <line x1="90" y1="78" x2="90" y2="86" stroke="white" strokeWidth="1.5" />
           {/* Nose */}
-          <path d="M77,95 L80,92 L83,95 L80,98 Z" fill="none" stroke="white" strokeWidth="0.6"/>
+          <path d="M77,95 L80,92 L83,95 L80,98 Z" fill="none" stroke="white" strokeWidth="0.6" />
           {/* Mouth */}
-          <path d="M80,98 C76,102 72,103 70,101" fill="none" stroke="white" strokeWidth="0.5"/>
-          <path d="M80,98 C84,102 88,103 90,101" fill="none" stroke="white" strokeWidth="0.5"/>
+          <path d="M80,98 C76,102 72,103 70,101" fill="none" stroke="white" strokeWidth="0.5" />
+          <path d="M80,98 C84,102 88,103 90,101" fill="none" stroke="white" strokeWidth="0.5" />
           {/* Whiskers left */}
-          <line x1="46" y1="96"  x2="72" y2="97"  stroke="white" strokeWidth="0.4"/>
-          <line x1="44" y1="100" x2="72" y2="99"  stroke="white" strokeWidth="0.4"/>
-          <line x1="46" y1="104" x2="72" y2="101" stroke="white" strokeWidth="0.4"/>
+          <line x1="46" y1="96" x2="72" y2="97" stroke="white" strokeWidth="0.4" />
+          <line x1="44" y1="100" x2="72" y2="99" stroke="white" strokeWidth="0.4" />
+          <line x1="46" y1="104" x2="72" y2="101" stroke="white" strokeWidth="0.4" />
           {/* Whiskers right */}
-          <line x1="114" y1="96"  x2="88" y2="97"  stroke="white" strokeWidth="0.4"/>
-          <line x1="116" y1="100" x2="88" y2="99"  stroke="white" strokeWidth="0.4"/>
-          <line x1="114" y1="104" x2="88" y2="101" stroke="white" strokeWidth="0.4"/>
+          <line x1="114" y1="96" x2="88" y2="97" stroke="white" strokeWidth="0.4" />
+          <line x1="116" y1="100" x2="88" y2="99" stroke="white" strokeWidth="0.4" />
+          <line x1="114" y1="104" x2="88" y2="101" stroke="white" strokeWidth="0.4" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-cats)" />
@@ -924,36 +1145,38 @@ function EmuWarPattern({ opacity }: { opacity: number }) {
     <svg
       aria-hidden
       style={{
-        position: "absolute", inset: 0, width: "100%", height: "100%",
-        pointerEvents: "none", opacity,
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
       }}
     >
       <defs>
         <pattern id="bg-emu-war" x="0" y="0" width="200" height="180" patternUnits="userSpaceOnUse">
           {/* Body — large oval */}
-          <ellipse cx="95" cy="95" rx="28" ry="22" fill="none" stroke="white" strokeWidth="0.8"/>
+          <ellipse cx="95" cy="95" rx="28" ry="22" fill="none" stroke="white" strokeWidth="0.8" />
           {/* Neck */}
-          <path d="M95,73 C93,62 90,50 88,38" fill="none" stroke="white" strokeWidth="1.2"/>
+          <path d="M95,73 C93,62 90,50 88,38" fill="none" stroke="white" strokeWidth="1.2" />
           {/* Head — small circle */}
-          <circle cx="87" cy="34" r="7" fill="none" stroke="white" strokeWidth="0.8"/>
+          <circle cx="87" cy="34" r="7" fill="none" stroke="white" strokeWidth="0.8" />
           {/* Beak */}
-          <path d="M80,33 L72,31 L80,36" fill="none" stroke="white" strokeWidth="0.6"/>
+          <path d="M80,33 L72,31 L80,36" fill="none" stroke="white" strokeWidth="0.6" />
           {/* Eye */}
-          <circle cx="85" cy="32" r="1.5" fill="white"/>
+          <circle cx="85" cy="32" r="1.5" fill="white" />
           {/* Left leg */}
-          <path d="M85,117 L82,138 L78,155" fill="none" stroke="white" strokeWidth="1"/>
+          <path d="M85,117 L82,138 L78,155" fill="none" stroke="white" strokeWidth="1" />
           {/* Left foot */}
-          <path d="M78,155 L70,158 M78,155 L76,162 M78,155 L84,160"
-                fill="none" stroke="white" strokeWidth="0.6"/>
+          <path d="M78,155 L70,158 M78,155 L76,162 M78,155 L84,160" fill="none" stroke="white" strokeWidth="0.6" />
           {/* Right leg */}
-          <path d="M100,117 L103,138 L107,152" fill="none" stroke="white" strokeWidth="1"/>
+          <path d="M100,117 L103,138 L107,152" fill="none" stroke="white" strokeWidth="1" />
           {/* Right foot */}
-          <path d="M107,152 L99,156 M107,152 L106,160 M107,152 L113,157"
-                fill="none" stroke="white" strokeWidth="0.6"/>
+          <path d="M107,152 L99,156 M107,152 L106,160 M107,152 L113,157" fill="none" stroke="white" strokeWidth="0.6" />
           {/* Wing suggestion */}
-          <path d="M68,88 C72,82 80,80 95,82" fill="none" stroke="white" strokeWidth="0.5"/>
+          <path d="M68,88 C72,82 80,80 95,82" fill="none" stroke="white" strokeWidth="0.5" />
           {/* Small feather detail */}
-          <path d="M68,88 C65,92 66,98 70,100" fill="none" stroke="white" strokeWidth="0.5"/>
+          <path d="M68,88 C65,92 66,98 70,100" fill="none" stroke="white" strokeWidth="0.5" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-emu-war)" />
@@ -970,33 +1193,61 @@ interface ScenarioPatternSvgProps {
 
 export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgProps) {
   switch (scenarioId) {
-    case "fall-of-rome":           return <RomePattern opacity={opacity} />;
-    case "french-revolution":      return <FrancePattern opacity={opacity} />;
-    case "scientific-revolution":  return <SciencePattern opacity={opacity} />;
-    case "wwi":                    return <WWIPattern opacity={opacity} />;
-    case "year-without-a-summer":  return <SummerPattern opacity={opacity} />;
-    case "wright-brothers":        return <WrightPattern opacity={opacity} />;
-    case "underwater-archaeology": return <UnderwaterPattern opacity={opacity} />;
-    case "templars":               return <TemplarsPattern opacity={opacity} />;
-    case "mongols":                return <MongolsPattern opacity={opacity} />;
-    case "polynesia":              return <PolynesiaPattern opacity={opacity} />;
-    case "zheng-he":               return <ZhengHePattern opacity={opacity} />;
-    case "louisiana-purchase":     return <LouisianaPattern opacity={opacity} />;
-    case "whales":                 return <WhalesPattern opacity={opacity} />;
-    case "napster":                return <NapsterPattern opacity={opacity} />;
-    case "tulip-mania":            return <TulipManiaPattern opacity={opacity} />;
-    case "leaded-gasoline":        return <LeadedGasolinePattern opacity={opacity} />;
-    case "invention-of-teenager":  return <InventionOfTeenagerPattern opacity={opacity} />;
-    case "black-plague-renaissance": return <BlackPlagueRenaissancePattern opacity={opacity} />;
-    case "age-of-exploration":     return <AgeOfExplorationPattern opacity={opacity} />;
-    case "hollywood-birth":        return <HollywoodBirthPattern opacity={opacity} />;
-    case "hollywood-code":         return <HollywoodCodePattern opacity={opacity} />;
-    case "hollywood-blockbuster":  return <HollywoodBlockbusterPattern opacity={opacity} />;
-    case "f1-turbo-era":           return <F1TurboPattern opacity={opacity} />;
-    case "f1-bernie":              return <F1BerniePattern opacity={opacity} />;
-    case "f1-senna":               return <F1SennaPattern opacity={opacity} />;
-    case "cats":                   return <CatsPattern opacity={opacity} />;
-    case "emu-war":                return <EmuWarPattern opacity={opacity} />;
-    default:                       return null;
+    case "fall-of-rome":
+      return <RomePattern opacity={opacity} />;
+    case "french-revolution":
+      return <FrancePattern opacity={opacity} />;
+    case "scientific-revolution":
+      return <SciencePattern opacity={opacity} />;
+    case "wwi":
+      return <WWIPattern opacity={opacity} />;
+    case "year-without-a-summer":
+      return <SummerPattern opacity={opacity} />;
+    case "wright-brothers":
+      return <WrightPattern opacity={opacity} />;
+    case "underwater-archaeology":
+      return <UnderwaterPattern opacity={opacity} />;
+    case "templars":
+      return <TemplarsPattern opacity={opacity} />;
+    case "mongols":
+      return <MongolsPattern opacity={opacity} />;
+    case "polynesia":
+      return <PolynesiaPattern opacity={opacity} />;
+    case "zheng-he":
+      return <ZhengHePattern opacity={opacity} />;
+    case "louisiana-purchase":
+      return <LouisianaPattern opacity={opacity} />;
+    case "whales":
+      return <WhalesPattern opacity={opacity} />;
+    case "napster":
+      return <NapsterPattern opacity={opacity} />;
+    case "tulip-mania":
+      return <TulipManiaPattern opacity={opacity} />;
+    case "leaded-gasoline":
+      return <LeadedGasolinePattern opacity={opacity} />;
+    case "invention-of-teenager":
+      return <InventionOfTeenagerPattern opacity={opacity} />;
+    case "black-plague-renaissance":
+      return <BlackPlagueRenaissancePattern opacity={opacity} />;
+    case "age-of-exploration":
+      return <AgeOfExplorationPattern opacity={opacity} />;
+    case "hollywood-birth":
+      return <HollywoodBirthPattern opacity={opacity} />;
+    case "hollywood-code":
+      return <HollywoodCodePattern opacity={opacity} />;
+    case "hollywood-blockbuster":
+      return <HollywoodBlockbusterPattern opacity={opacity} />;
+    case "f1-turbo-era":
+      return <F1TurboPattern opacity={opacity} />;
+    case "f1-bernie":
+      return <F1BerniePattern opacity={opacity} />;
+    case "f1-senna":
+      return <F1SennaPattern opacity={opacity} />;
+    case "cats":
+      return <CatsPattern opacity={opacity} />;
+    case "emu-war":
+      return <EmuWarPattern opacity={opacity} />;
+    default:
+      return null;
   }
 }
