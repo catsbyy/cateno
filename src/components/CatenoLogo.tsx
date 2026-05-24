@@ -41,14 +41,10 @@ export function CatenoLogo({ showWordmark = true, height = 32, className }: Cate
         <circle cx="10" cy="16" r="10" fill="#E8E3D5" />
         {/* Edge */}
         <line x1="20" y1="16" x2="38" y2="16" stroke="#E8E3D5" strokeWidth="1.5" />
-        {/* Arrowhead */}
+        {/* Arrowhead — solid filled triangle, tip flush with circle stroke centre */}
         <path
-          d="M34,11 L42,16 L34,21"
-          fill="none"
-          stroke="#E8E3D5"
-          strokeWidth="1.5"
-          strokeLinejoin="round"
-          strokeLinecap="round"
+          d="M34,11 L41,16 L34,21 Z"
+          fill="#E8E3D5"
         />
         {/* Right node — outlined */}
         <circle cx="48" cy="16" r="7" fill="none" stroke="#E8E3D5" strokeWidth="1.5" />
