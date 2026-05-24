@@ -30,7 +30,7 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorTitle: "The Australian Army Goes to War With Birds",
     nodeCount: 23,
     anchorYear: 1932,
-    theme: "war",
+    theme: "nature",
   },
   {
     id: "year-without-a-summer",
@@ -198,7 +198,7 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorTitle: "Humanism — Man as the Measure",
     nodeCount: 31,
     anchorYear: 1360,
-    theme: "disaster",
+    theme: "culture",
   },
   {
     id: "age-of-exploration",
