@@ -3,8 +3,9 @@ import type { CatenoScenario } from "../types";
 
 // ─── Storage keys ─────────────────────────────────────────────────────────────
 
-const VISITED_KEY = (id: string) => `cateno_visited_${id}`;
-const VISIBLE_KEY = (id: string) => `cateno_visible_${id}`;
+const VISITED_KEY  = (id: string) => `cateno_visited_${id}`;
+const VISIBLE_KEY  = (id: string) => `cateno_visible_${id}`;
+const TIMESTAMP_KEY = (id: string) => `cateno_last_visited_${id}`;
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -77,6 +78,8 @@ export function useGraph(scenario: CatenoScenario) {
         const next = new Set(prev);
         next.add(nodeId);
         saveSet(VISITED_KEY(scenario.id), next);
+        // Record timestamp so the landing page can sort by "most recently visited"
+        try { localStorage.setItem(TIMESTAMP_KEY(scenario.id), Date.now().toString()); } catch { /* quota */ }
         return next;
       });
 
@@ -100,6 +103,7 @@ export function useGraph(scenario: CatenoScenario) {
   const reset = useCallback(() => {
     localStorage.removeItem(VISITED_KEY(scenario.id));
     localStorage.removeItem(VISIBLE_KEY(scenario.id));
+    localStorage.removeItem(TIMESTAMP_KEY(scenario.id));
     setVisibleNodeIds(new Set(seedIds));
     setFocusedNodeId(null);
     setVisitedNodeIds(new Set());

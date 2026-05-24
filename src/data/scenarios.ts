@@ -5,6 +5,8 @@ import type { CatenoNode } from "../types";
 // when a user selects a scenario, so scenario JSON never ships in the initial
 // bundle.
 
+export type ScenarioTheme = "war" | "science" | "nature" | "culture" | "finance" | "politics" | "disaster";
+
 export interface ScenarioMeta {
   id: string;
   title: string;
@@ -13,6 +15,8 @@ export interface ScenarioMeta {
   anchorId: string;
   anchorTitle: string; // precomputed so landing page doesn't need nodes
   nodeCount: number; // precomputed so progress bar needs no JSON
+  anchorYear: number; // precomputed for era grouping
+  theme: ScenarioTheme;
 }
 
 export const SCENARIO_META: ScenarioMeta[] = [
@@ -25,6 +29,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "emu-war-begins",
     anchorTitle: "The Australian Army Goes to War With Birds",
     nodeCount: 23,
+    anchorYear: 1932,
+    theme: "war",
   },
   {
     id: "year-without-a-summer",
@@ -35,6 +41,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "mount-tambora-eruption",
     anchorTitle: "Mount Tambora Erupts",
     nodeCount: 32,
+    anchorYear: 1815,
+    theme: "disaster",
   },
   {
     id: "cats",
@@ -45,6 +53,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "cats-self-domesticate",
     anchorTitle: "Cats Choose Us",
     nodeCount: 25,
+    anchorYear: -7500,
+    theme: "nature",
   },
   {
     id: "tulip-mania",
@@ -55,6 +65,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "tulip-futures-market",
     anchorTitle: "The Tavern Futures Market",
     nodeCount: 26,
+    anchorYear: 1636,
+    theme: "finance",
   },
   {
     id: "napster",
@@ -65,26 +77,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "napster-launches",
     anchorTitle: "Napster Launches",
     nodeCount: 36,
-  },
-  {
-    id: "whales",
-    title: "The Oil That Lit the World",
-    period: "900–2005",
-    description:
-      "For centuries, whales powered the Industrial Revolution — their oil lighting factories, lubricating machines, and fuelling the modern world. Their near-extinction forced humans to find an alternative. The alternative was petroleum. The industry that saved the whales from harpoons created a larger threat than the one it replaced.",
-    anchorId: "new-bedford-whaling-peak",
-    anchorTitle: "New Bedford — The Whaling Capital of the World",
-    nodeCount: 39,
-  },
-  {
-    id: "louisiana-purchase",
-    title: "The Sale That Made America",
-    period: "1697–1853",
-    description:
-      "Napoleon needed money for his European wars. Enslaved people in the Caribbean destroyed the army he sent to stop them. So he sold half a continent to the United States for three cents an acre — and accidentally built a superpower.",
-    anchorId: "louisiana-purchase-signed",
-    anchorTitle: "Louisiana Purchase Signed",
-    nodeCount: 43,
+    anchorYear: 1999,
+    theme: "culture",
   },
   {
     id: "invention-of-teenager",
@@ -95,6 +89,20 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "teenager-word-coined",
     anchorTitle: "The Word 'Teenager' Is Invented",
     nodeCount: 24,
+    anchorYear: 1944,
+    theme: "culture",
+  },
+  {
+    id: "whales",
+    title: "The Oil That Lit the World",
+    period: "900–2005",
+    description:
+      "For centuries, whales powered the Industrial Revolution — their oil lighting factories, lubricating machines, and fuelling the modern world. Their near-extinction forced humans to find an alternative. The alternative was petroleum. The industry that saved the whales from harpoons created a larger threat than the one it replaced.",
+    anchorId: "new-bedford-whaling-peak",
+    anchorTitle: "New Bedford — The Whaling Capital of the World",
+    nodeCount: 39,
+    anchorYear: 1850,
+    theme: "nature",
   },
   {
     id: "leaded-gasoline",
@@ -105,6 +113,20 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "tetraethyl-lead-invented",
     anchorTitle: "Midgley Discovers Tetraethyl Lead",
     nodeCount: 26,
+    anchorYear: 1921,
+    theme: "science",
+  },
+  {
+    id: "louisiana-purchase",
+    title: "The Sale That Made America",
+    period: "1697–1853",
+    description:
+      "Napoleon needed money for his European wars. Enslaved people in the Caribbean destroyed the army he sent to stop them. So he sold half a continent to the United States for three cents an acre — and accidentally built a superpower.",
+    anchorId: "louisiana-purchase-signed",
+    anchorTitle: "Louisiana Purchase Signed",
+    nodeCount: 43,
+    anchorYear: 1803,
+    theme: "politics",
   },
   {
     id: "wright-brothers",
@@ -115,6 +137,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "kitty-hawk-flight",
     anchorTitle: "First Flight at Kitty Hawk",
     nodeCount: 37,
+    anchorYear: 1903,
+    theme: "science",
   },
   {
     id: "french-revolution",
@@ -125,6 +149,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "storming-of-bastille",
     anchorTitle: "Storming of Bastille",
     nodeCount: 38,
+    anchorYear: 1789,
+    theme: "politics",
   },
   {
     id: "fall-of-rome",
@@ -135,6 +161,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "romulus-augustulus-deposed",
     anchorTitle: "Romulus Augustulus Deposed",
     nodeCount: 43,
+    anchorYear: 476,
+    theme: "war",
   },
   {
     id: "wwi",
@@ -145,6 +173,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "assassination-franz-ferdinand",
     anchorTitle: "Assassination of Franz Ferdinand",
     nodeCount: 58,
+    anchorYear: 1914,
+    theme: "war",
   },
   {
     id: "scientific-revolution",
@@ -155,6 +185,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "newton-principia",
     anchorTitle: "Newton's Principia Mathematica",
     nodeCount: 35,
+    anchorYear: 1687,
+    theme: "science",
   },
   {
     id: "black-plague-renaissance",
@@ -165,6 +197,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "humanist-philosophy-emerges",
     anchorTitle: "Humanism — Man as the Measure",
     nodeCount: 31,
+    anchorYear: 1360,
+    theme: "disaster",
   },
   {
     id: "age-of-exploration",
@@ -175,6 +209,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "columbus-reaches-americas",
     anchorTitle: "Columbus Reaches the Americas",
     nodeCount: 31,
+    anchorYear: 1492,
+    theme: "politics",
   },
   {
     id: "mongols",
@@ -185,6 +221,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "genghis-unifies-mongols",
     anchorTitle: "Genghis Khan Proclaimed",
     nodeCount: 45,
+    anchorYear: 1206,
+    theme: "war",
   },
   {
     id: "zheng-he",
@@ -195,6 +233,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "zheng-he-first-voyage",
     anchorTitle: "Zheng He Sets Sail",
     nodeCount: 31,
+    anchorYear: 1405,
+    theme: "politics",
   },
   {
     id: "templars",
@@ -205,6 +245,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "friday-13th-arrests",
     anchorTitle: "Friday the 13th — Mass Arrest",
     nodeCount: 32,
+    anchorYear: 1307,
+    theme: "finance",
   },
   {
     id: "polynesia",
@@ -215,6 +257,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "austronesian-reach-tonga-samoa",
     anchorTitle: "Polynesians Settle Tonga & Samoa",
     nodeCount: 30,
+    anchorYear: -900,
+    theme: "culture",
   },
   {
     id: "underwater-archaeology",
@@ -225,6 +269,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "vasa-raising",
     anchorTitle: "Raising of the Vasa",
     nodeCount: 31,
+    anchorYear: 1961,
+    theme: "science",
   },
   {
     id: "hollywood-birth",
@@ -235,6 +281,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "edison-trust-collapses",
     anchorTitle: "The Trust Is Broken",
     nodeCount: 16,
+    anchorYear: 1915,
+    theme: "culture",
   },
   {
     id: "hollywood-code",
@@ -245,6 +293,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "hays-code-adopted",
     anchorTitle: "The Production Code",
     nodeCount: 15,
+    anchorYear: 1934,
+    theme: "culture",
   },
   {
     id: "hollywood-blockbuster",
@@ -255,6 +305,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "jaws-changes-everything",
     anchorTitle: "Jaws — The First Blockbuster",
     nodeCount: 15,
+    anchorYear: 1975,
+    theme: "culture",
   },
   {
     id: "f1-turbo-era",
@@ -265,6 +317,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "renault-turbo-debuts",
     anchorTitle: "Renault's Yellow Teapot",
     nodeCount: 17,
+    anchorYear: 1977,
+    theme: "science",
   },
   {
     id: "f1-bernie",
@@ -275,6 +329,8 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "ecclestone-takes-foca",
     anchorTitle: "Bernie Ecclestone Takes Control",
     nodeCount: 14,
+    anchorYear: 1972,
+    theme: "finance",
   },
   {
     id: "f1-senna",
@@ -285,12 +341,14 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorId: "san-marino-gp-1994",
     anchorTitle: "The Weekend at Imola",
     nodeCount: 20,
+    anchorYear: 1994,
+    theme: "culture",
   },
 ];
 
 // ─── Dynamic node loaders ──────────────────────────────────────────────────────
 // Each import() becomes a separate Vite chunk — scenario JSON is never included
-// in the initial bundle. All 26 files load only when their scenario is opened.
+// in the initial bundle. All 27 files load only when their scenario is opened.
 
 const NODE_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
   "emu-war": () => import("./emu-war.json"),

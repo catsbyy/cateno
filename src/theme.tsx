@@ -1043,42 +1043,48 @@ function F1SennaPattern({ opacity }: { opacity: number }) {
       }}
     >
       <defs>
-        <pattern id="bg-f1-senna" x="0" y="0" width="200" height="180" patternUnits="userSpaceOnUse">
-          {/* Interlagos circuit outline — simplified but recognisable S-curves */}
+        <pattern id="bg-f1-senna" x="0" y="0" width="240" height="200" patternUnits="userSpaceOnUse">
+          {/* Interlagos outer boundary */}
           <path
-            d="M30,90
-           C30,60 50,40 80,38
-           C105,36 118,50 120,68
-           C122,82 112,92 100,90
-           C88,88 82,78 86,66
-           C90,54 104,50 114,58
-           C128,68 130,88 124,104
-           C118,120 104,130 88,132
-           C70,134 54,124 46,110
-           C38,96 38,80 30,90Z"
+            d="M40,160
+           C40,130 45,105 60,88
+           C72,74  88,68  100,70
+           C114,72 122,84 118,100
+           C114,114 102,120 90,116
+           C78,112 72,100 78,88
+           C84,76  98,72  108,78
+           C120,86 124,102 118,118
+           C112,134 98,148 82,158
+           C66,168 50,170 40,160
+           Z"
             fill="none"
             stroke="#E8E3D5"
-            strokeWidth="1.2"
+            stroke-width="1.2"
+            stroke-linejoin="round"
           />
-          {/* Track width suggestion — inner boundary */}
+          {/* Inner boundary (track width) */}
           <path
-            d="M38,90
-           C38,64 55,46 80,44
-           C102,42 112,56 114,70
-           C116,82 108,90 98,88
-           C88,86 84,78 88,68
-           C92,58 104,56 112,62
-           C122,70 124,88 118,102
-           C112,116 100,124 86,126
-           C70,128 56,118 50,106
-           C44,94 44,80 38,90Z"
+            d="M48,158
+           C48,132 52,110 65,95
+           C76,82  90,76  100,78
+           C112,80 118,90 114,104
+           C110,116 100,122 90,118
+           C80,114 76,104 82,94
+           C88,84  100,80  108,86
+           C118,94 120,110 114,124
+           C108,138 96,150 82,158
+           C68,166 54,168 48,158
+           Z"
             fill="none"
             stroke="#E8E3D5"
-            strokeWidth="0.4"
+            stroke-width="0.4"
           />
-          {/* Start/finish straight indicator */}
-          <line x1="28" y1="88" x2="28" y2="92" stroke="#E8E3D5" strokeWidth="1.5" />
-          <line x1="25" y1="88" x2="25" y2="92" stroke="#E8E3D5" strokeWidth="0.5" />
+          {/* Start/finish line */}
+          <line x1="36" y1="158" x2="52" y2="158" stroke="#E8E3D5" stroke-width="1.2" />
+          <line x1="36" y1="154" x2="52" y2="154" stroke="#E8E3D5" stroke-width="0.4" />
+          {/* Senna S chicane */}
+          <path d="M90,70 C84,64 80,58 86,52" fill="none" stroke="#E8E3D5" stroke-width="0.7" />
+          <path d="M86,52 C92,46 98,50 96,58" fill="none" stroke="#E8E3D5" stroke-width="0.7" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-f1-senna)" />
