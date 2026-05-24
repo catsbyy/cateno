@@ -135,6 +135,52 @@ function WikiLink({ wiki, mobile }: { wiki: string; mobile?: boolean }) {
   );
 }
 
+// ─── Suggest a correction ─────────────────────────────────────────────────────
+
+function SuggestCorrection({
+  scenarioTitle,
+  nodeTitle,
+  mobile,
+}: {
+  scenarioTitle: string;
+  nodeTitle: string;
+  mobile?: boolean;
+}) {
+  const handleClick = () => {
+    const url = `https://tally.so/r/QKOxJ8?Scenario=${encodeURIComponent(scenarioTitle)}&Node=${encodeURIComponent(nodeTitle)}`;
+    window.open(url, "_blank", "noopener noreferrer");
+  };
+
+  return (
+    <div style={{ borderTop: "1px solid #1e1e1e" }}>
+      <button
+        onClick={handleClick}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          width: "100%",
+          // Mobile: 44px tap target; desktop: comfortable padding
+          minHeight: mobile ? 44 : "auto",
+          padding: mobile ? "0 20px" : "12px 24px",
+          background: "none",
+          border: "none",
+          cursor: "pointer",
+          fontFamily: "DM Sans, sans-serif",
+          fontSize: 11,
+          color: "#E8E3D5",
+          opacity: 0.25,
+          textAlign: "left",
+          transition: "opacity 0.15s ease",
+        }}
+        onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.5")}
+        onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.25")}
+      >
+        ⚑ Suggest a correction
+      </button>
+    </div>
+  );
+}
+
 // ─── Chip ────────────────────────────────────────────────────────────────────
 
 function NodeChip({ node, onClick }: { node: CatenoNode; onClick: (id: string) => void }) {
@@ -162,11 +208,12 @@ interface DetailPanelProps {
   node: CatenoNode | null;
   causeNodes: CatenoNode[];
   effectNodes: CatenoNode[];
+  scenarioTitle: string;
   onChipClick: (id: string) => void;
   onClose: () => void;
 }
 
-export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClick }: DetailPanelProps) {
+export function DetailPanel({ node, causeNodes, effectNodes, scenarioTitle, onClose, onChipClick }: DetailPanelProps) {
   const isMobile = useIsMobile();
   const color = node ? TYPE_COLORS[node.keyword] : "#ffffff";
 
@@ -252,7 +299,7 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
                 )}
 
                 {effectNodes.length > 0 && (
-                  <div className="px-5 py-4" style={{ borderBottom: node.wiki ? "1px solid #1e1e1e" : "none" }}>
+                  <div className="px-5 py-4" style={{ borderBottom: "1px solid #1e1e1e" }}>
                     <p className="text-[#E8E3D5]/30 text-[11px] font-sans uppercase tracking-widest mb-3">Led to</p>
                     <div className="flex flex-col gap-2">
                       {effectNodes.map((n) => (
@@ -263,6 +310,7 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
                 )}
 
                 {node.wiki && <WikiLink wiki={node.wiki} mobile />}
+                <SuggestCorrection scenarioTitle={scenarioTitle} nodeTitle={node.title} mobile />
               </div>
             </motion.aside>
           </>
@@ -333,7 +381,7 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
             )}
 
             {effectNodes.length > 0 && (
-              <div className="px-6 py-5" style={{ borderBottom: node.wiki ? "1px solid #1e1e1e" : "none" }}>
+              <div className="px-6 py-5" style={{ borderBottom: "1px solid #1e1e1e" }}>
                 <p className="text-[#E8E3D5]/30 text-[11px] font-sans uppercase tracking-widest mb-3">Led to</p>
                 <div className="flex flex-wrap gap-2">
                   {effectNodes.map((n) => (
@@ -344,6 +392,7 @@ export function DetailPanel({ node, causeNodes, effectNodes, onClose, onChipClic
             )}
 
             {node.wiki && <WikiLink wiki={node.wiki} />}
+            <SuggestCorrection scenarioTitle={scenarioTitle} nodeTitle={node.title} />
           </div>
         </motion.aside>
       )}

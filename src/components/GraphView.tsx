@@ -181,6 +181,7 @@ export function GraphView({ scenario, initialNodeId, onBack, onNodeFocus, onFocu
           node={focusedNode}
           causeNodes={causeNodes}
           effectNodes={effectNodes}
+          scenarioTitle={scenario.title}
           onChipClick={handleNodeClick}
           onClose={handleClear}
         />
