@@ -10,7 +10,7 @@ Built with React, TypeScript, React Flow, and Tailwind CSS.
 
 ## Scenarios
 
-Twenty-six curated scenarios, each with a number of interconnected events:
+Twenty-seven curated scenarios, each with a number of interconnected events:
 
 - **Fall of Rome** (100-600)
 - **French Revolution** (1700-1803)
@@ -44,7 +44,9 @@ Twenty-six curated scenarios, each with a number of interconnected events:
 
 ## Screenshots
 
-![Cateno landing page — eight curated historical scenarios](screenshots/landing.png)
+![Cateno landing page](screenshots/landing.png)
+
+![Search overlay](screenshots/search.png)
 
 ![The Silent Archive — full graph view showing all revealed nodes](screenshots/graph-full.png)
 
@@ -71,8 +73,10 @@ Nodes you haven't opened yet have a bright border — once visited, they settle 
 
 ## Features
 
+- **Catalogue views** — browse scenarios by era, theme, or progress (Featured / By era / By theme / In progress)
 - **Progressive exploration** — start at one pivotal moment, reveal causes and effects one click at a time
 - **Detail panel** — each node shows a summary, year, keyword type, Wikipedia image, and navigation chips to connected events
+- **Cross-scenario links** — some nodes connect directly to related events in other scenarios
 - **Search** — `Cmd+K` / `Ctrl+K` searches across all scenarios and nodes
 - **Surprise me** — random entry point drops you into an unexpected node from a random scenario
 - **Shareable node URLs** — every focused node has its own URL (e.g. `cateno.app/wwi/assassination-franz-ferdinand`)
@@ -80,6 +84,7 @@ Nodes you haven't opened yet have a bright border — once visited, they settle 
 - **Onboarding hint** — a dismissible first-visit guide explains the core interactions; re-accessible any time via the ? button in the graph view
 - **Reveal all / Reset** — explore everything at once or start over
 - **Progress tracking** — landing page shows how many events you've explored per scenario
+- **Suggest a correction** — flag factual errors or missing connections directly from any node
 - **Mobile-first** — full bottom sheet detail panel, tap-friendly node targets
 
 ---
@@ -110,8 +115,10 @@ Nodes you haven't opened yet have a bright border — once visited, they settle 
 - Exactly one node with `isAnchor: true`
 - Six nodes with `isSeed: true` (the anchor + 2–3 causes + 2–3 effects)
   Optional fields:
+
 - `wiki` — Wikipedia article name, used to build a "Read more" link
 - `imageUrl` — direct image URL shown as the detail panel header
+- `relatedScenario` — links this node to a node in another scenario
 
 ---
 
