@@ -111,7 +111,12 @@
       "declaration-rights-man"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "relatedScenario": {
+      "scenarioId": "scientific-revolution",
+      "nodeId": "enlightenment-worldview",
+      "label": "Connects to Scientific Revolution"
+    }
   },
   {
     "id": "questioning-monarchy",
@@ -509,7 +514,12 @@
       "bread-crisis"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "year-without-a-summer",
+      "nodeId": "crop-failures-europe",
+      "label": "Connects to Year Without a Summer"
+    }
   },
   {
     "id": "womens-march-versailles",
@@ -635,7 +645,12 @@
       "napoleonic-wars"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "louisiana-purchase",
+      "nodeId": "napoleon-needs-funding",
+      "label": "Connects to The Sale That Made America"
+    }
   },
   {
     "id": "napoleonic-wars",
@@ -650,7 +665,12 @@
     ],
     "effectIds": [],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "wwi",
+      "nodeId": "european-power-rivalry",
+      "label": "Connects to World War I"
+    }
   },
   {
     "id": "european-revolutionary-spread",

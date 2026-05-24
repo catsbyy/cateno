@@ -10,6 +10,11 @@
     "effectIds": [
       "soldier-settler-scheme"
     ],
+    "relatedScenario": {
+      "scenarioId": "wwi",
+      "nodeId": "armistice-1918",
+      "label": "Connects to World War I"
+    },
     "isAnchor": false,
     "isSeed": true,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/WW1_Trench_Warfare.jpg"
@@ -325,6 +330,11 @@
     "effectIds": [
       "emus-still-in-western-australia"
     ],
+    "relatedScenario": {
+      "scenarioId": "leaded-gasoline",
+      "nodeId": "ethanol-alternative-suppressed",
+      "label": "Connects to The Poison They Chose"
+    },
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://imgsrv2.voi.id/8xVU0Yw3WlHU9yw7caC2W3aTqm0HSttDngcbrXezugA/auto/1280/853/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8zMjU2NTMvMjAyMzExMDIwNjU0LW1haW4uY3JvcHBlZF8xNjk4ODgyOTAwLmpwZWc.jpg"

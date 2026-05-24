@@ -84,7 +84,12 @@
       "north-atlantic-whales-depleted"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "age-of-exploration",
+      "nodeId": "columbus-reaches-americas",
+      "label": "Connects to The Voyage That Connected the World"
+    }
   },
   {
     "id": "dutch-english-enter-whaling",
@@ -216,7 +221,12 @@
       "pacific-whales-depleted"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "cats",
+      "nodeId": "age-of-sail-carries-cats",
+      "label": "Connects to They Chose Us"
+    }
   },
   {
     "id": "industrial-revolution-lighting",
@@ -329,7 +339,12 @@
       "petroleum-discovered"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "leaded-gasoline",
+      "nodeId": "ethanol-alternative-suppressed",
+      "label": "Connects to The Poison They Chose"
+    }
   },
   {
     "id": "petroleum-discovered",
@@ -347,7 +362,12 @@
       "oil-age-begins"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "relatedScenario": {
+      "scenarioId": "leaded-gasoline",
+      "nodeId": "automobile-age-begins",
+      "label": "Connects to The Poison They Chose"
+    }
   },
   {
     "id": "kerosene-replaces-whale-oil",

@@ -199,6 +199,11 @@
     "effectIds": [
       "turbo-ban-1989"
     ],
+    "relatedScenario": {
+      "scenarioId": "f1-senna",
+      "nodeId": "dangerous-by-design",
+      "label": "Connects to The Weekend That Changed Everything"
+    },
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://msmproduction.s3-eu-west-1.amazonaws.com/s3fs-public/content/1984%20Portuguese%20Grand%20Prix/portugal_84.jpg"
@@ -272,6 +277,11 @@
       "turbo-ban-1989",
       "costs-never-recover"
     ],
+    "relatedScenario": {
+      "scenarioId": "f1-bernie",
+      "nodeId": "manufacturer-power-returns",
+      "label": "Connects to How a Used Car Dealer Built a $6 Billion Empire"
+    },
     "effectIds": [],
     "isAnchor": false,
     "isSeed": false,

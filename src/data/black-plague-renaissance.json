@@ -105,6 +105,11 @@
       "florence-devastated",
       "black-death-recurrence"
     ],
+    "relatedScenario": {
+      "scenarioId": "cats",
+      "nodeId": "medieval-cat-persecution",
+      "label": "Connects to They Chose Us"
+    },
     "isAnchor": false,
     "isSeed": true,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Danse_macabre_by_Michael_Wolgemut.png"
@@ -397,6 +402,11 @@
       "patronage-system-emerges",
       "platonic-academy"
     ],
+    "relatedScenario": {
+      "scenarioId": "templars",
+      "nodeId": "medici-bank-founded",
+      "label": "Connects to The Last Templars"
+    },
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Benozzo_Gozzoli_-_Procession_of_the_Magi_%28detail%29_-_WGA10283.jpg"
@@ -475,6 +485,11 @@
     "effectIds": [
       "renaissance-spreads-europe"
     ],
+    "relatedScenario": {
+      "scenarioId": "scientific-revolution",
+      "nodeId": "printing-press-spreads-ideas",
+      "label": "Connects to Scientific Revolution"
+    },
     "isAnchor": false,
     "isSeed": true,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Buchdruck-15-jahrhundert_1.jpg"
@@ -563,6 +578,11 @@
     "effectIds": [
       "platonic-academy"
     ],
+    "relatedScenario": {
+      "scenarioId": "age-of-exploration",
+      "nodeId": "ottoman-blocks-spice-routes",
+      "label": "Connects to The Voyage That Connected the World"
+    },
     "isAnchor": false,
     "isSeed": true
   },

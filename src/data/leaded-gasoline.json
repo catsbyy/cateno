@@ -49,6 +49,11 @@
       "tetraethyl-lead-invented",
       "leaded-gas-approved"
     ],
+    "relatedScenario": {
+      "scenarioId": "whales",
+      "nodeId": "search-for-alternatives",
+      "label": "Connects to The Oil That Lit the World"
+    },
     "isAnchor": false,
     "isSeed": false
   },
@@ -365,6 +370,11 @@
     "effectIds": [
       "lead-crime-hypothesis"
     ],
+    "relatedScenario": {
+      "scenarioId": "invention-of-teenager",
+      "nodeId": "juvenile-delinquency-panic",
+      "label": "Connects to The Invention of the Teenager"
+    },
     "isAnchor": false,
     "isSeed": false
   },
@@ -468,6 +478,11 @@
     "effectIds": [
       "needleman-studies"
     ],
+    "relatedScenario": {
+      "scenarioId": "f1-senna",
+      "nodeId": "modern-safety-era",
+      "label": "Connects to The Weekend That Changed Everything"
+    },
     "isAnchor": false,
     "isSeed": false
   }

@@ -136,7 +136,12 @@
       "haiti-independence"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "relatedScenario": {
+      "scenarioId": "french-revolution",
+      "nodeId": "european-revolutionary-spread",
+      "label": "Connects to French Revolution"
+    }
   },
   {
     "id": "toussaint-louverture-leads",
@@ -358,7 +363,12 @@
       "oregon-trail-knowledge"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "relatedScenario": {
+      "scenarioId": "whales",
+      "nodeId": "global-whaling-grounds",
+      "label": "Connects to The Oil That Lit the World"
+    }
   },
   {
     "id": "slavery-question-reopened",
@@ -376,7 +386,12 @@
       "missouri-compromise"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "wwi",
+      "nodeId": "us-enters-war",
+      "label": "Connects to World War I"
+    }
   },
   {
     "id": "oregon-trail-knowledge",
@@ -399,7 +414,7 @@
     "id": "westward-pressure-on-tribes",
     "title": "Pressure on Native Nations Intensifies",
     "wiki": "Indian_removal",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Merida_-_Fresken_Pacheco_15_Diego_de_Landa.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/TrailofTears.jpg",
     "year": 1804,
     "keyword": "pressure",
     "summary": "The Louisiana Purchase placed the United States government as the sovereign authority over territory home to dozens of Native nations — the Osage, Sioux, Mandan, Arikara, and many others — who had received no notice and given no consent. American settlers, fur traders, and military expeditions immediately began moving into these territories. The federal government's new constitutional power to govern acquired territory meant it now had both the authority and the incentive to remove Native peoples from land that American settlers wanted. The Purchase didn't initiate this pressure but dramatically expanded its geographic scope.",

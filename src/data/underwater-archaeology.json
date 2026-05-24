@@ -249,7 +249,12 @@
       "vasa-raising"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "tulip-mania",
+      "nodeId": "dutch-golden-age",
+      "label": "Connects to The Flower That Invented Finance"
+    }
   },
   {
     "id": "vasa-forgotten",
@@ -379,7 +384,12 @@
       "bronze-age-globalisation-proven"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "age-of-exploration",
+      "nodeId": "european-spice-dependency",
+      "label": "Connects to The Voyage That Connected the World"
+    }
   },
   {
     "id": "bronze-age-globalisation-proven",
@@ -432,7 +442,12 @@
       "history-of-antiquity-rewritten"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "scientific-revolution",
+      "nodeId": "aristotelian-cosmology",
+      "label": "Connects to Scientific Revolution"
+    }
   },
   {
     "id": "black-sea-discoveries",

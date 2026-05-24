@@ -374,7 +374,12 @@
       "american-population-shift"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "louisiana-purchase",
+      "nodeId": "manifest-destiny",
+      "label": "Connects to The Sale That Made America"
+    }
   },
   {
     "id": "american-population-shift",
@@ -444,7 +449,12 @@
       "science-fiction-born"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "hollywood-birth",
+      "nodeId": "feature-film-emerges",
+      "label": "Connects to How a Patent Lawsuit Built Hollywood"
+    }
   },
   {
     "id": "vampire-story-written",
@@ -498,7 +508,12 @@
       "science-fiction-born"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "hollywood-code",
+      "nodeId": "pre-code-cinema",
+      "label": "Connects to The Postmaster Who Ran Hollywood"
+    }
   },
   {
     "id": "science-fiction-born",
@@ -547,6 +562,11 @@
     ],
     "effectIds": [],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "wright-brothers",
+      "nodeId": "wright-brothers-inspired",
+      "label": "Connects to First Flight"
+    }
   }
 ]

@@ -709,7 +709,12 @@
       "roman-knowledge-preserved"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "templars",
+      "nodeId": "first-crusade",
+      "label": "Connects to The Last Templars"
+    }
   },
   {
     "id": "feudalism-emerges",
@@ -726,7 +731,12 @@
     ],
     "effectIds": [],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "black-plague-renaissance",
+      "nodeId": "feudalism-collapses",
+      "label": "Connects to Death and the Birth of Humanism"
+    }
   },
   {
     "id": "roman-knowledge-preserved",
@@ -742,7 +752,12 @@
     ],
     "effectIds": [],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "scientific-revolution",
+      "nodeId": "medieval-scholasticism",
+      "label": "Connects to Scientific Revolution"
+    }
   },
   {
     "id": "dark-ages-begin",

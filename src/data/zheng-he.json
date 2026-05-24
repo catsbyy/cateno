@@ -80,7 +80,12 @@
       "anti-foreign-sentiment"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "mongols",
+      "nodeId": "kublai-founds-yuan",
+      "label": "Connects to Mongol Conquests"
+    }
   },
   {
     "id": "yongle-emperor",
@@ -442,7 +447,12 @@
       "china-turns-inward"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "f1-bernie",
+      "nodeId": "commercial-rights-secured",
+      "label": "Connects to How a Used Car Dealer Built a $6 Billion Empire"
+    }
   },
   {
     "id": "zheng-he-records-destroyed",
@@ -535,7 +545,12 @@
       "age-of-european-dominance"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "age-of-exploration",
+      "nodeId": "vasco-da-gama-reaches-india",
+      "label": "Connects to The Voyage That Connected the World"
+    }
   },
   {
     "id": "portugal-reaches-india",

@@ -60,7 +60,12 @@
       "maori-culture-develops"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "relatedScenario": {
+      "scenarioId": "age-of-exploration",
+      "nodeId": "columbus-reaches-americas",
+      "label": "Connects to The Voyage That Connected the World"
+    }
   },
   {
     "id": "austronesian-reach-tonga-samoa",
@@ -311,7 +316,12 @@
       "polynesian-triangle-complete"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "cats",
+      "nodeId": "cats-reach-australia",
+      "label": "Connects to They Chose Us"
+    }
   },
   {
     "id": "marae-temple-culture",
@@ -420,7 +430,12 @@
       "european-contact-shocked"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "age-of-exploration",
+      "nodeId": "indigenous-population-collapse",
+      "label": "Connects to The Voyage That Connected the World"
+    }
   },
   {
     "id": "moai-mystery",

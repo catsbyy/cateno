@@ -261,7 +261,12 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kubica_Canada_2007.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kubica_Canada_2007.jpg",
+    "relatedScenario": {
+      "scenarioId": "leaded-gasoline",
+      "nodeId": "leaded-gas-phaseout",
+      "label": "Connects to The Poison They Chose"
+    }
   },
   {
     "id": "halo-development",
@@ -346,7 +351,12 @@
       "safety-discourse-shifts"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "relatedScenario": {
+      "scenarioId": "emu-war",
+      "nodeId": "military-requests-rejected",
+      "label": "Connects to The Great Emu War"
+    }
   },
   {
     "id": "ratzenberger-death",

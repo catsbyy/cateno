@@ -70,7 +70,12 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/F1_TV_broadcast.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/F1_TV_broadcast.jpg",
+    "relatedScenario": {
+      "scenarioId": "napster",
+      "nodeId": "labels-control-distribution",
+      "label": "Connects to How Napster Broke Music"
+    }
   },
   {
     "id": "concorde-agreement",
@@ -215,7 +220,12 @@
       "liberty-media-takes-over"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "tulip-mania",
+      "nodeId": "modern-derivatives-template",
+      "label": "Connects to The Flower That Invented Finance"
+    }
   },
   {
     "id": "pay-tv-transition",

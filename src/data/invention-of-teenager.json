@@ -216,6 +216,11 @@
       "rock-and-roll-emerges",
       "teen-consumer-identity"
     ],
+    "relatedScenario": {
+      "scenarioId": "hollywood-code",
+      "nodeId": "post-war-hollywood-crisis",
+      "label": "Connects to The Postmaster Who Ran Hollywood"
+    },
     "isAnchor": false,
     "isSeed": false
   },
@@ -240,6 +245,11 @@
       "youth-counterculture",
       "transistor-radio"
     ],
+    "relatedScenario": {
+      "scenarioId": "napster",
+      "nodeId": "cd-catalog-windfall",
+      "label": "Connects to How Napster Broke Music"
+    },
     "isAnchor": false,
     "isSeed": true
   },
@@ -413,6 +423,11 @@
     "effectIds": [
       "global-youth-culture"
     ],
+    "relatedScenario": {
+      "scenarioId": "hollywood-blockbuster",
+      "nodeId": "franchise-era-begins",
+      "label": "Connects to The Two Films That Ended Good Cinema"
+    },
     "isAnchor": false,
     "isSeed": false
   },

@@ -46,6 +46,11 @@
       "amsterdam-exchange-bank",
       "futures-contracts-invented"
     ],
+    "relatedScenario": {
+      "scenarioId": "age-of-exploration",
+      "nodeId": "dutch-english-challenge",
+      "label": "Connects to The Voyage That Connected the World"
+    },
     "isAnchor": false,
     "isSeed": true
   },
@@ -355,6 +360,11 @@
       "south-sea-bubble",
       "modern-financial-markets"
     ],
+    "relatedScenario": {
+      "scenarioId": "f1-bernie",
+      "nodeId": "cvc-acquires-f1",
+      "label": "Connects to How a Used Car Dealer Built a $6 Billion Empire"
+    },
     "isAnchor": false,
     "isSeed": false
   },
@@ -373,6 +383,11 @@
       "crash-mythology-born",
       "modern-financial-markets"
     ],
+    "relatedScenario": {
+      "scenarioId": "louisiana-purchase",
+      "nodeId": "napoleon-needs-funding",
+      "label": "Connects to The Sale That Made America"
+    },
     "isAnchor": false,
     "isSeed": false
   },

@@ -102,7 +102,12 @@
       "military-balloon-use"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "relatedScenario": {
+      "scenarioId": "french-revolution",
+      "nodeId": "abolition-feudalism",
+      "label": "Connects to French Revolution"
+    }
   },
   {
     "id": "balloon-era",
@@ -394,7 +399,12 @@
       "wwi-air-warfare"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "wwi",
+      "nodeId": "ww1-outbreak",
+      "label": "Connects to World War I"
+    }
   },
   {
     "id": "military-funds-aviation",
@@ -434,7 +444,12 @@
       "dogfight-transforms-warfare"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "relatedScenario": {
+      "scenarioId": "wwi",
+      "nodeId": "ww1-outbreak",
+      "label": "Connects to World War I"
+    }
   },
   {
     "id": "dogfight-transforms-warfare",
@@ -646,7 +661,12 @@
     ],
     "effectIds": [],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "f1-senna",
+      "nodeId": "halo-development",
+      "label": "Connects to The Weekend That Changed Everything"
+    }
   },
   {
     "id": "aviation-pioneers-emerge",

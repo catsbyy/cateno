@@ -62,6 +62,11 @@
       "jaws-changes-everything",
       "new-hollywood-dismantled"
     ],
+    "relatedScenario": {
+      "scenarioId": "french-revolution",
+      "nodeId": "declaration-rights-man",
+      "label": "Connects to French Revolution"
+    },
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://image.tmdb.org/t/p/original/3Tf8vXykYhzHdT0BtsYTp570JGQ.jpg"
@@ -99,6 +104,11 @@
       "franchise-era-begins",
       "merchandise-changes-everything"
     ],
+    "relatedScenario": {
+      "scenarioId": "f1-bernie",
+      "nodeId": "television-rights-revolution",
+      "label": "Connects to How a Used Car Dealer Built a $6 Billion Empire"
+    },
     "isAnchor": false,
     "isSeed": true,
     "imageUrl": "https://i.pinimg.com/736x/77/ed/2c/77ed2c10364f53e8232d3fc1cb3d5727.jpg"

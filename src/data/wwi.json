@@ -583,7 +583,12 @@
       "trench-warfare-emerges"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "wright-brothers",
+      "nodeId": "wwi-air-warfare",
+      "label": "Connects to First Flight"
+    }
   },
   {
     "id": "globalization-of-war",
@@ -836,7 +841,12 @@
       "treaty-of-sevres"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "emu-war",
+      "nodeId": "soldier-settler-scheme",
+      "label": "Connects to The Great Emu War"
+    }
   },
   {
     "id": "treaty-of-versailles",
@@ -928,7 +938,12 @@
       "german-collapse"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "f1-turbo-era",
+      "nodeId": "arms-race-begins",
+      "label": "Connects to The Arms Race That Nearly Destroyed F1"
+    }
   },
   {
     "id": "italy-switches-sides",

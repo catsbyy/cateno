@@ -82,7 +82,12 @@
       "renaissance-humanism"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "black-plague-renaissance",
+      "nodeId": "black-death-arrives-europe",
+      "label": "Connects to Death and the Birth of Humanism"
+    }
   },
   {
     "id": "renaissance-humanism",
@@ -133,7 +138,12 @@
       "scientific-correspondence-networks"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "relatedScenario": {
+      "scenarioId": "napster",
+      "nodeId": "peer-to-peer-technology-spreads",
+      "label": "Connects to How Napster Broke Music"
+    }
   },
   {
     "id": "observation-over-authority",
@@ -431,7 +441,12 @@
       "newton-principia"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "wright-brothers",
+      "nodeId": "scientific-method-applied",
+      "label": "Connects to First Flight"
+    }
   },
   {
     "id": "science-moves-north",
@@ -629,6 +644,11 @@
     ],
     "effectIds": [],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "leaded-gasoline",
+      "nodeId": "automobile-age-begins",
+      "label": "Connects to The Poison They Chose"
+    }
   }
 ]

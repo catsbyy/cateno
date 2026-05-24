@@ -1,6 +1,7 @@
 // Slide-in panel showing full event details. Desktop: right sidebar. Mobile: bottom sheet.
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import type { CatenoNode } from "../types";
 import { TYPE_COLORS } from "../types";
 import { useIsMobile } from "../hooks/useIsMobile";
@@ -147,7 +148,9 @@ function SuggestCorrection({
   mobile?: boolean;
 }) {
   const handleClick = () => {
-    const url = `https://tally.so/r/QKOxJ8?Scenario=${encodeURIComponent(scenarioTitle)}&Node=${encodeURIComponent(nodeTitle)}`;
+    const url = `https://tally.so/r/QKOxJ8?scenario=${encodeURIComponent(scenarioTitle)}&node=${encodeURIComponent(
+      nodeTitle
+    )}`;
     window.open(url, "_blank", "noopener noreferrer");
   };
 
@@ -178,6 +181,36 @@ function SuggestCorrection({
         ⚑ Suggest a correction
       </button>
     </div>
+  );
+}
+
+// ─── Cross-scenario chip ──────────────────────────────────────────────────────
+
+function RelatedScenarioChip({ label, comingSoon, onClick }: { label: string; comingSoon?: boolean; onClick: () => void }) {
+  if (comingSoon) {
+    return (
+      <div
+        className="text-left rounded px-2.5 py-1 text-[12px] font-sans leading-snug border flex items-center gap-1.5 w-full md:w-auto"
+        style={{ borderColor: "rgba(232,227,213,0.15)", color: "rgba(232,227,213,0.35)" }}
+      >
+        <span className="flex-1">{label}</span>
+      </div>
+    );
+  }
+  return (
+    <button
+      onClick={onClick}
+      className="group text-left rounded px-2.5 py-1 text-[12px] font-sans leading-snug border transition-colors duration-150 hover:bg-white/5 cursor-pointer flex items-center gap-1.5 w-full md:w-auto min-h-[40px] md:min-h-0"
+      style={{ borderColor: "rgba(232,227,213,0.3)", color: "#E8E3D5CC" }}
+    >
+      <span className="flex-1">{label}</span>
+      <span
+        className="opacity-60 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-150 shrink-0"
+        style={{ color: "#E8E3D5", fontSize: 10 }}
+      >
+        →
+      </span>
+    </button>
   );
 }
 
@@ -215,7 +248,13 @@ interface DetailPanelProps {
 
 export function DetailPanel({ node, causeNodes, effectNodes, scenarioTitle, onClose, onChipClick }: DetailPanelProps) {
   const isMobile = useIsMobile();
+  const navigate = useNavigate();
   const color = node ? TYPE_COLORS[node.keyword] : "#ffffff";
+
+  function handleRelatedScenarioClick(scenarioId: string, nodeId: string) {
+    onClose();
+    navigate(`/${scenarioId}/${nodeId}`);
+  }
 
   if (isMobile) {
     return (
@@ -309,6 +348,17 @@ export function DetailPanel({ node, causeNodes, effectNodes, scenarioTitle, onCl
                   </div>
                 )}
 
+                {node.relatedScenario && (
+                  <div className="px-5 py-4" style={{ borderBottom: "1px solid #1e1e1e" }}>
+                    <p className="text-[#E8E3D5]/30 text-[11px] font-sans uppercase tracking-widest mb-3">Connects to</p>
+                    <RelatedScenarioChip
+                      label={node.relatedScenario.label}
+                      comingSoon={node.relatedScenario.comingSoon}
+                      onClick={() => handleRelatedScenarioClick(node.relatedScenario!.scenarioId, node.relatedScenario!.nodeId)}
+                    />
+                  </div>
+                )}
+
                 {node.wiki && <WikiLink wiki={node.wiki} mobile />}
                 <SuggestCorrection scenarioTitle={scenarioTitle} nodeTitle={node.title} mobile />
               </div>
@@ -388,6 +438,17 @@ export function DetailPanel({ node, causeNodes, effectNodes, scenarioTitle, onCl
                     <NodeChip key={n.id} node={n} onClick={onChipClick} />
                   ))}
                 </div>
+              </div>
+            )}
+
+            {node.relatedScenario && (
+              <div className="px-6 py-5" style={{ borderBottom: "1px solid #1e1e1e" }}>
+                <p className="text-[#E8E3D5]/30 text-[11px] font-sans uppercase tracking-widest mb-3">Connects to</p>
+                <RelatedScenarioChip
+                  label={node.relatedScenario.label}
+                  comingSoon={node.relatedScenario.comingSoon}
+                  onClick={() => handleRelatedScenarioClick(node.relatedScenario!.scenarioId, node.relatedScenario!.nodeId)}
+                />
               </div>
             )}
 

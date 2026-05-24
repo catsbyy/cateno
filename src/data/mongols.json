@@ -505,7 +505,12 @@
       "black-death-europe"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "cats",
+      "nodeId": "black-death-amplified",
+      "label": "Connects to They Chose Us"
+    }
   },
   {
     "id": "black-death-europe",
@@ -523,7 +528,12 @@
       "labour-shortage-europe"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "black-plague-renaissance",
+      "nodeId": "black-death-arrives-europe",
+      "label": "Connects to Death and the Birth of Humanism"
+    }
   },
   {
     "id": "kublai-founds-yuan",
@@ -575,7 +585,12 @@
       "european-gunpowder-weapons"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "wwi",
+      "nodeId": "new-weapons-technology",
+      "label": "Connects to World War I"
+    }
   },
   {
     "id": "east-west-knowledge-exchange",
@@ -804,6 +819,11 @@
     ],
     "effectIds": [],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "age-of-exploration",
+      "nodeId": "columbus-reaches-americas",
+      "label": "Connects to The Voyage That Connected the World"
+    }
   }
 ]

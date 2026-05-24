@@ -115,6 +115,11 @@
     "effectIds": [
       "auteur-movement-seeds"
     ],
+    "relatedScenario": {
+      "scenarioId": "year-without-a-summer",
+      "nodeId": "gothic-romanticism",
+      "label": "Connects to Year Without a Summer"
+    },
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/BigComboTrailer.jpg"

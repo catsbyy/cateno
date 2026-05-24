@@ -8,6 +8,13 @@ export type NodeType =
   | "shift"
   | "spark";
 
+export interface RelatedScenarioLink {
+  scenarioId: string;
+  nodeId: string;
+  label: string; // e.g. "Connects to Scientific Revolution"
+  comingSoon?: boolean;
+}
+
 export interface CatenoNode {
   id: string;
   title: string;
@@ -20,6 +27,7 @@ export interface CatenoNode {
   isSeed?: boolean;
   wiki?: string; // Wikipedia article name, e.g. "Storming_of_the_Bastille"
   imageUrl?: string; // Direct image URL, ready to use as src
+  relatedScenario?: RelatedScenarioLink;
 }
 
 export interface CatenoScenario {

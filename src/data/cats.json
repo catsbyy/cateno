@@ -192,6 +192,11 @@
     "effectIds": [
       "cat-reputation-partially-recovers"
     ],
+    "relatedScenario": {
+      "scenarioId": "black-plague-renaissance",
+      "nodeId": "black-death-arrives-europe",
+      "label": "Connects to Death and the Birth of Humanism"
+    },
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLWclyuS4SxkPQASfj-pF3LUMQ1APXujTON29Nlr7qyn6G0MmXNU9lkX52fCT0M4Nz1ddsBu_EbdIlpj4Lt6IkmE2lWa4AlLmAc4cPcJvIhd0K5GUKwHQhNHs2o5U4e7fMMMA8W1PiTzsQ/s1600/Michael+Wolgemut_Dance+Macabre+%25281493%2529.JPG"
@@ -229,6 +234,11 @@
       "cats-reach-americas",
       "cats-reach-australia"
     ],
+    "relatedScenario": {
+      "scenarioId": "age-of-exploration",
+      "nodeId": "magellan-circumnavigation",
+      "label": "Connects to The Voyage That Connected the World"
+    },
     "isAnchor": false,
     "isSeed": true,
     "imageUrl": "https://static.wixstatic.com/media/6c9f24_72605f3a819e4eebabc2fad737da278a~mv2.jpg/v1/fill/w_588,h_588,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6c9f24_72605f3a819e4eebabc2fad737da278a~mv2.jpg"
@@ -322,6 +332,11 @@
     "effectIds": [
       "internet-makes-cats-immortal"
     ],
+    "relatedScenario": {
+      "scenarioId": "hollywood-birth",
+      "nodeId": "edison-invents-motion-pictures",
+      "label": "Connects to How a Patent Lawsuit Built Hollywood"
+    },
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://i.imgur.com/XdZPP9Y.gif"
@@ -412,6 +427,11 @@
     "effectIds": [
       "internet-makes-cats-immortal"
     ],
+    "relatedScenario": {
+      "scenarioId": "scientific-revolution",
+      "nodeId": "newton-principia",
+      "label": "Connects to Scientific Revolution"
+    },
     "isAnchor": false,
     "isSeed": false
   },

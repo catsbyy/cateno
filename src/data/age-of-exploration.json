@@ -242,6 +242,11 @@
       "horses-transform-americas",
       "encomienda-system"
     ],
+    "relatedScenario": {
+      "scenarioId": "year-without-a-summer",
+      "nodeId": "malnutrition",
+      "label": "Connects to Year Without a Summer"
+    },
     "effectIds": [],
     "isAnchor": false,
     "isSeed": false,
@@ -264,6 +269,11 @@
       "old-world-crops-transform-americas",
       "european-imagination-transformed"
     ],
+    "relatedScenario": {
+      "scenarioId": "cats",
+      "nodeId": "cats-reach-americas",
+      "label": "Connects to They Chose Us"
+    },
     "isAnchor": false,
     "isSeed": true,
     "imageUrl": "https://marcolearning.com/wp-content/uploads/2021/09/columbian-exchange-map.jpg"
@@ -335,6 +345,11 @@
       "price-revolution",
       "manila-galleon-trade"
     ],
+    "relatedScenario": {
+      "scenarioId": "tulip-mania",
+      "nodeId": "dutch-golden-age",
+      "label": "Connects to The Flower That Invented Finance"
+    },
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://i.pinimg.com/736x/1b/08/ea/1b08ea3ced5b3cdc6df9dfc14b9c02f4.jpg"
@@ -373,6 +388,11 @@
       "first-global-economy",
       "africa-depopulated"
     ],
+     "relatedScenario": {
+      "scenarioId": "louisiana-purchase",
+      "nodeId": "slavery-sustains-empire",
+      "label": "Connects to The Sale That Made America"
+    },
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/190403090759-slave-ship-illustration-file.jpg?q=w_3000,h_2218,x_0,y_0,c_fill"

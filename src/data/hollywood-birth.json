@@ -100,6 +100,11 @@
       "studio-system-emerges",
       "feature-film-emerges"
     ],
+    "relatedScenario": {
+      "scenarioId": "napster",
+      "nodeId": "napster-shut-down",
+      "label": "Connects to How Napster Broke Music"
+    },
     "isAnchor": true,
     "isSeed": true,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/NestorStudios-Hollywood-1913.jpg"
@@ -153,6 +158,11 @@
       "united-artists-founded",
       "star-contracts-system"
     ],
+    "relatedScenario": {
+      "scenarioId": "invention-of-teenager",
+      "nodeId": "teen-consumer-identity",
+      "label": "Connects to The Invention of the Teenager"
+    },
     "isAnchor": false,
     "isSeed": true,
     "imageUrl": "https://silentology.wordpress.com/wp-content/uploads/2023/02/image-36.png"

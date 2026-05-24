@@ -415,7 +415,12 @@
     "isAnchor": false,
     "isSeed": false,
     "wiki": "Avignon_Papacy",
-    "imageUrl": "https://brewminate.com/wp-content/uploads/2018/10/102218-21-History-Medieval-Middle-Ages-Avignon-Papacy-Church.jpg"
+    "imageUrl": "https://brewminate.com/wp-content/uploads/2018/10/102218-21-History-Medieval-Middle-Ages-Avignon-Papacy-Church.jpg",
+    "relatedScenario": {
+      "scenarioId": "scientific-revolution",
+      "nodeId": "church-authority-weakens",
+      "label": "Connects to Scientific Revolution"
+    }
   },
   {
     "id": "templar-curse-legend",
@@ -449,7 +454,12 @@
     "isAnchor": false,
     "isSeed": false,
     "wiki": "Bardi_family",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D5612AQEnkZOjUo9H_g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1715214247567?e=2147483647&v=beta&t=udWGZRNFMnhR0f-41oUssGTwP2kbVX6HJPu87zsQWYM"
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D5612AQEnkZOjUo9H_g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1715214247567?e=2147483647&v=beta&t=udWGZRNFMnhR0f-41oUssGTwP2kbVX6HJPu87zsQWYM",
+    "relatedScenario": {
+      "scenarioId": "age-of-exploration",
+      "nodeId": "portuguese-navigation-program",
+      "label": "Connects to The Voyage That Connected the World"
+    }
   },
   {
     "id": "medici-bank-founded",
@@ -468,7 +478,12 @@
     "isAnchor": false,
     "isSeed": false,
     "wiki": "Medici_Bank",
-    "imageUrl": "https://gertitashkomd.com/wp-content/uploads/2025/05/Italian-Renaissance-Begins-c1350%E2%80%931550.jpg"
+    "imageUrl": "https://gertitashkomd.com/wp-content/uploads/2025/05/Italian-Renaissance-Begins-c1350%E2%80%931550.jpg",
+    "relatedScenario": {
+      "scenarioId": "black-plague-renaissance",
+      "nodeId": "medici-bank-rises",
+      "label": "Connects to Death and the Birth of Humanism"
+    }
   },
   {
     "id": "renaissance-funded",
@@ -503,7 +518,12 @@
     "isAnchor": false,
     "isSeed": false,
     "wiki": "History_of_banking",
-    "imageUrl": "https://i2.wp.com/www.lostkingdom.net/wp-content/uploads/2017/01/money_beauty04-26faf1c5c7a127bcb865d66d0232c3528dc18365-s900-c85.jpg?fit=900%2C663"
+    "imageUrl": "https://i2.wp.com/www.lostkingdom.net/wp-content/uploads/2017/01/money_beauty04-26faf1c5c7a127bcb865d66d0232c3528dc18365-s900-c85.jpg?fit=900%2C663",
+    "relatedScenario": {
+      "scenarioId": "tulip-mania",
+      "nodeId": "voc-trading-culture",
+      "label": "Connects to The Flower That Invented Finance"
+    }
   },
   {
     "id": "protestant-reformation-seeds",

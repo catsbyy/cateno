@@ -11,6 +11,11 @@
     "effectIds": [
       "recording-industry-born"
     ],
+    "relatedScenario": {
+      "scenarioId": "hollywood-birth",
+      "nodeId": "edison-invents-motion-pictures",
+      "label": "Connects to How a Patent Lawsuit Built Hollywood"
+    },
     "isAnchor": false,
     "isSeed": true
   },
@@ -332,6 +337,11 @@
       "youtube-changes-music",
       "myspace-music-era"
     ],
+    "relatedScenario": {
+      "scenarioId": "hollywood-blockbuster",
+      "nodeId": "studios-absorb-indie",
+      "label": "Connects to The Two Films That Ended Good Cinema"
+    },
     "isAnchor": false,
     "isSeed": false
   },
@@ -522,6 +532,11 @@
       "algorithm-decides-music",
       "labels-saved-by-streaming"
     ],
+    "relatedScenario": {
+      "scenarioId": "invention-of-teenager",
+      "nodeId": "global-youth-culture",
+      "label": "Connects to The Invention of the Teenager"
+    },
     "isAnchor": false,
     "isSeed": false
   },
