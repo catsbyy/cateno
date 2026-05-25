@@ -2,7 +2,7 @@
   {
     "id": "dangerous-by-design",
     "title": "F1 Was Built to Kill",
-    "wiki": "Formula_One#Safety",
+    "wiki": "Formula_One",
     "year": 1950,
     "keyword": "pressure",
     "summary": "Formula One's first World Championship season in 1950 was contested on circuits that were, by any modern standard, catastrophically dangerous. Hay bales lined some straights; spectators stood metres from the track; fire marshals were local volunteers; medical facilities were rudimentary. This was not negligence — it was the sport's governing assumption: motor racing was dangerous, drivers knew this, and death was an accepted occupational hazard. Between 1950 and 1994, more than 25 drivers died at Formula One championship race weekends — a figure that rises further if non-championship events and test sessions are included. The fatality rate was treated as an inherent property of the sport rather than a problem to be solved — until one weekend in May 1994 made that position untenable.",
@@ -16,12 +16,12 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/F1_1950_British_GP.jpg"
+    "imageUrl": "https://www.formulaonehistory.com/wp-content/uploads/2023/10/1950-British-Grand-Prix.webp"
   },
   {
     "id": "death-accepted-as-cost",
     "title": "Death as Part of the Sport",
-    "wiki": "Deaths_in_Formula_One",
+    "wiki": "List_of_Formula_One_fatalities",
     "year": 1960,
     "keyword": "pressure",
     "summary": "The cultural framework that governed Formula One throughout the 1960s, 1970s, and 1980s treated driver fatalities as tragic but inevitable — the price that racing extracted from those who chose to compete at its highest level. Drivers signed waivers, made wills, and accepted their mortality with a combination of fatalism and bravado that was inseparable from what it meant to race at the front of the grid. Jackie Stewart began campaigning for safety improvements after his own near-fatal accident at Spa in 1966; he was regarded by many contemporaries as a troublemaker undermining the sport's spirit. The culture that killed drivers also made their courage meaningful — and it would take an event of particular magnitude to break both simultaneously.",
@@ -36,12 +36,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Jackie_Stewart_1973.jpg"
+    "imageUrl": "https://stories.hemmings.com/wp-content/uploads/2024/08/origin-10843.jpg"
   },
   {
     "id": "recurring-driver-deaths",
     "title": "The Years of Regular Deaths",
-    "wiki": "Deaths_in_Formula_One",
+    "wiki": "List_of_Formula_One_fatalities",
     "year": 1968,
     "keyword": "collapse",
     "summary": "The scale of Formula One's fatality record in its first four decades defies modern comprehension. Jim Clark — considered by many the greatest driver in the sport's history — died at Hockenheim in 1968 in a Formula Two race. Jochen Rindt was killed at Monza in 1970, becoming the only posthumous World Champion. Roger Williamson died in a fire at Zandvoort in 1973 while David Purley risked his own life trying to save him. Tom Pryce was killed at the South African Grand Prix in 1977. Ronnie Peterson died at hospital from a fat embolism following surgery after a first-lap accident at Monza in 1978 — his leg injuries had seemed survivable, making the loss particularly shocking. Gilles Villeneuve was killed at Zolder in 1982. These were not obscure backmarkers but the sport's most celebrated and beloved competitors — and each death was processed, mourned, and then absorbed back into a culture that continued unchanged.",
@@ -55,7 +55,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Jim_Clark_1965.jpg"
+    "imageUrl": "https://www.goodwood.com/globalassets/.road--racing/event-coverage/revival/2025/04-april/goodwood-lap-record/jim-clark-goodwood-lap-record-main.jpg?rxy=0.5,0.5"
   },
   {
     "id": "lauda-nurburgring",
@@ -74,7 +74,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Niki_Lauda_1976_nurburgring.jpg"
+    "imageUrl": "https://media.gq-magazine.co.uk/photos/5e458562318f780008ca6988/16:9/w_2560%2Cc_limit/20200213-Niki-Lauda-03.jpg"
   },
   {
     "id": "sid-watkins-arrives",
@@ -92,12 +92,12 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sid_Watkins.jpg"
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/2048/cpsprodpb/0a3f/live/55f06410-0568-11ef-826e-21991cd890ac.jpg"
   },
   {
     "id": "safety-discourse-shifts",
     "title": "Safety Becomes a Serious Conversation",
-    "wiki": "Formula_One#Safety_evolution",
+    "wiki": "Formula_One",
     "year": 1982,
     "keyword": "shift",
     "summary": "Through the late 1970s and early 1980s, the discourse around Formula One safety was slowly shifting from individual fatalism toward institutional responsibility. Jackie Stewart's campaign had planted seeds; Lauda's survival and subsequent advocacy had demonstrated that drivers could be agents of change rather than passive acceptors of risk. The GPDA (Grand Prix Drivers' Association) became more organised; circuit safety requirements became more specific. But the pace of change remained slow — driven by argument and persuasion rather than crisis. The crashes and deaths continued; the sport absorbed them and continued. What was needed, it would prove, was something impossible to absorb.",
@@ -111,7 +111,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/GPDA_meeting.jpg"
+    "imageUrl": "https://64.media.tumblr.com/10eb410e1ce124c10fb2700216497e10/tumblr_mx95s7aYrs1slfnhho1_640.jpg"
   },
   {
     "id": "senna-era-begins",
@@ -127,7 +127,7 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ayrton_Senna_1991.jpg"
+    "imageUrl": "https://cdn.artphotolimited.com/images/59888232b0ba742a2efde168/1000x1000/ayrton-senna-en-1991.jpg"
   },
   {
     "id": "san-marino-gp-1994",
@@ -151,7 +151,7 @@
     ],
     "isAnchor": true,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Tamburello_corner_Imola.jpg"
+    "imageUrl": "https://sfcriga.com/images/others/sfcriga_imola-circuit-the-curves-of-the-legend_photo02.jpg"
   },
   {
     "id": "world-in-shock",
@@ -170,12 +170,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Senna_funeral_Sao_Paulo.jpg"
+    "imageUrl": "https://preview.redd.it/on-may-5-1994-some-3-000-000-people-took-the-streets-of-sao-v0-gjk3umw7oxw21.jpg?width=640&crop=smart&auto=webp&s=c17d9bc79af55e52b54750ee63ea6046452da8df"
   },
   {
     "id": "senna-investigation",
     "title": "The Criminal Investigation",
-    "wiki": "Death_of_Ayrton_Senna#Investigation",
+    "wiki": "Death_of_Ayrton_Senna#Investigation_and_trial",
     "year": 1994,
     "keyword": "consequence",
     "summary": "Italian authorities opened a criminal investigation into Senna's death, eventually charging Williams team principal Frank Williams, technical director Patrick Head, and designer Adrian Newey with manslaughter. The prosecution alleged that a modification to the steering column — made between qualifying and the race — had failed, causing Senna to lose control. The trial lasted six years; all defendants were ultimately acquitted when the convictions were overturned on appeal. The investigation established no definitive cause of the accident. But its existence forced Formula One to confront the fact that deaths could now produce criminal accountability — changing the institutional incentives around safety in ways that voluntary reform had never achieved.",
@@ -187,12 +187,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Williams_FW16.jpg"
+    "imageUrl": "https://www.snaplap.net/wp-content/uploads/2017/04/hill-senna-fw16.jpg"
   },
   {
     "id": "fia-emergency-measures",
     "title": "Immediate Safety Changes",
-    "wiki": "1994_Formula_One_World_Championship#Safety_measures",
+    "wiki": "Death_of_Ayrton_Senna#Safety_improvements",
     "year": 1994,
     "keyword": "turning-point",
     "summary": "The FIA implemented emergency safety measures at the Monaco Grand Prix, two weeks after Imola — the fastest regulatory response in the sport's history. Chicanes were added to reduce straight-line speeds; technical regulations were modified to reduce aerodynamic performance; pit lane speed limits were introduced. These were blunt instruments, imposed in haste, and not all of them were maintained permanently. But their speed demonstrated something important: when the political will existed, Formula One's regulatory apparatus could move with remarkable urgency. The question was why that will had been absent for the previous four decades.",
@@ -205,12 +205,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/F1_chicane_1994.jpg"
+    "imageUrl": "https://i.redd.it/gcqioatuhuj31.jpg"
   },
   {
     "id": "fia-safety-crackdown",
     "title": "The FIA's Safety Revolution",
-    "wiki": "Formula_One#Safety_improvements",
+    "wiki": "Death_of_Ayrton_Senna#Safety_improvements",
     "year": 1995,
     "keyword": "turning-point",
     "summary": "Beginning in 1995, the FIA implemented the most comprehensive safety overhaul in Formula One's history. Circuit safety barriers were redesigned using improved energy-absorbing materials; gravel traps — which could cause cars to barrel-roll — were progressively replaced with asphalt run-off areas; tyre barriers were positioned with new understanding of impact dynamics. Car cockpit design was strengthened; the headrest extended to provide more lateral head protection; fuel cell specifications were tightened. A new circuit homologation process required every track to meet specific safety standards before receiving an FIA Grade 1 licence. Max Mosley, the FIA president, drove the programme with extraordinary energy — in part, observers suggested, because his friendship with Senna made the obligation personal.",
@@ -226,12 +226,12 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/SAFER_barrier.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Milwaukee-Mile_Aug2009_wall.jpg"
   },
   {
     "id": "sid-watkins-medical-revolution",
     "title": "The Medical Infrastructure Transforms",
-    "wiki": "Sid_Watkins#Legacy",
+    "wiki": "Sid_Watkins#Death_and_legacy",
     "year": 1995,
     "keyword": "shift",
     "summary": "The post-Senna safety revolution extended to medical infrastructure with the same thoroughness applied to circuits and cars. Every circuit was required to have a fully equipped medical centre meeting specified standards; a medical helicopter was mandatory at all races; the medical car — driven by a former racing driver, carrying Sid Watkins or his designated replacement — was positioned at the start of every race. The extraction procedures for injured drivers were standardised and practised. The period between an accident and the arrival of definitive medical care — which had been measured in tens of minutes in Watkins's early years — was reduced to under two minutes. When Robert Kubica suffered a massive accident at Canada in 2007, the medical response was sufficiently rapid that he survived with a minor concussion.",
@@ -243,12 +243,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sid_Watkins.jpg"
+    "imageUrl": "https://motorsportmagazine.b-cdn.net/wp-content/uploads/2016/04/Watkins1.jpg"
   },
   {
     "id": "modern-safety-era",
     "title": "Zero Racing Deaths — 1994 to 2014",
-    "wiki": "Formula_One#Safety_record",
+    "wiki": "Safety_in_Formula_One",
     "year": 1995,
     "keyword": "consequence",
     "summary": "After Ayrton Senna's death on May 1, 1994, Formula One went twenty years without a driver fatality at a race weekend — an achievement that would have been considered impossible by anyone familiar with the sport's history before that date. Drivers survived accidents that would certainly have killed them in previous eras: Michael Schumacher's leg break at Silverstone in 1999; Robert Kubica's enormous impact at Canada in 2007; Felipe Massa's near-fatal head injury at Hungary in 2009, when a spring from another car struck his helmet at 250km/h. Each survival was a demonstration that the safety revolution had worked — and that Senna's death had not been in vain, in the specific sense that it had produced changes that were keeping other people alive.",
@@ -261,7 +261,7 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kubica_Canada_2007.jpg",
+    "imageUrl": "https://d2n9h2wits23hf.cloudfront.net/image/v1/static/6057949432001/729623d7-148a-4e50-89bf-bbb3fdfe99e1/5fb34575-1231-4c87-91e8-dce72f93e6a1/864x486/match/image.jpg",
     "relatedScenario": {
       "scenarioId": "leaded-gasoline",
       "nodeId": "leaded-gas-phaseout",
@@ -271,7 +271,7 @@
   {
     "id": "halo-development",
     "title": "Protecting the Head",
-    "wiki": "Halo_(motorsport)",
+    "wiki": "Halo_(safety_device)",
     "year": 2009,
     "keyword": "shift",
     "summary": "The one area that remained inadequately protected after 1994's safety revolution was the driver's head. The open cockpit — fundamental to Formula One's identity — left drivers exposed to flying debris, barriers, and other cars in ways that no amount of circuit redesign could fully mitigate. Felipe Massa's injury in 2009 and Henry Surtees's death in a Formula Two race the same year renewed attention to head protection. The FIA began developing the halo — a titanium structure mounted above the cockpit, designed to deflect debris and prevent intrusion — in 2009. Teams resisted it for years on aesthetic grounds. It was finally mandated for 2018.",
@@ -283,7 +283,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Halo_device_F1.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/2020_F1_Pre-Season_Testing_Catalonia_%2849629040498%29.jpg" 
   },
   {
     "id": "bianchi-exception",
@@ -300,12 +300,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Jules_Bianchi.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Jules_Bianchi_2012-1.JPG"
   },
   {
     "id": "halo-saves-grosjean",
     "title": "The Halo Saves a Life",
-    "wiki": "2020_Bahrain_Grand_Prix#Grosjean_crash",
+    "wiki": "2020_Bahrain_Grand_Prix#Race",
     "year": 2020,
     "keyword": "consequence",
     "summary": "On November 29, 2020, Romain Grosjean's Haas Formula One car split in half on the Armco barrier at the first corner of the Bahrain Grand Prix and burst into a ball of fire. Grosjean was trapped inside a conflagration that lasted 28 seconds. He escaped with burns to his hands and ankles. The survival was directly attributable to the halo: analysis showed that without it, a section of the barrier would have struck Grosjean's helmet at lethal force. The device that teams had resisted for years on aesthetic grounds had done exactly what it was designed to do, in exactly the circumstances its designers had envisaged. The man who escaped the fire later said: 'I was against the halo for a long time. I changed my mind.'",
@@ -318,12 +318,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Grosjean_Bahrain_2020.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Grosjean%27s_crash_wreckage.jpg"
   },
   {
     "id": "f1-safest-in-history",
     "title": "The Safest It Has Ever Been",
-    "wiki": "Formula_One#Safety_record",
+    "wiki": "Safety_in_Formula_One",
     "year": 2022,
     "keyword": "consequence",
     "summary": "Formula One in 2022 is, by every measurable standard, the safest it has ever been. Zhou Guanyu's car rolled and was launched into the barrier at Silverstone; he walked away. Kevin Magnussen had a serious crash at the same circuit; he walked away. The survival rate from accidents that would have killed drivers in previous eras is now close to absolute. This transformation — from a sport that accepted multiple fatalities per year as normal to one in which surviving previously unsurvivable accidents is routine — is the direct consequence of decisions made in the aftermath of one weekend at Imola in 1994. Jules Bianchi's death in 2015, from injuries sustained when his car struck a recovery vehicle at the 2014 Japanese Grand Prix, remains the one exception: a reminder that complacency is the enemy of safety, and that the systems require constant revision. In every other respect, the sport's safety culture was built on Senna's death — and it is keeping people alive.",
@@ -333,13 +333,13 @@
     "effectIds": [],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Zhou_Guanyu_Silverstone_2022.jpg"
+    "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHlPZu3tXk1g/v1/-1x-1.webp"
   },
   {
     "id": "stewart-safety-campaign",
     "title": "Jackie Stewart's Lonely Crusade",
-    "wiki": "Jackie_Stewart#Safety_campaigner",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Jackie_Stewart_1973.jpg",
+    "wiki": "Jackie_Stewart#Racing_safety_advocate",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jackie_Stewart_at_the_2014_WEC_Silverstone_round.jpg",
     "year": 1966,
     "keyword": "catalyst",
     "summary": "Jackie Stewart's safety campaign began after his own near-fatal accident at Spa in 1966, when he was trapped in his BRM for 25 minutes with fuel leaking around him, unable to free himself — he was eventually pulled from the car by Graham Hill and Bob Bondurant. He spent the next decade demanding circuit improvements, proper medical facilities, fire equipment, and Armco barriers — and was widely regarded by contemporaries as a troublemaker and a coward undermining the sport's spirit. Jochen Rindt called him 'a big mouth'; others were less polite. Stewart campaigned for the removal of the Nürburgring from the calendar years before Lauda's accident vindicated him. He retired from driving in 1973, winning three World Championships, and is credited by virtually every subsequent safety reformer as having laid the intellectual groundwork for everything that followed.",
@@ -351,18 +351,13 @@
       "safety-discourse-shifts"
     ],
     "isAnchor": false,
-    "isSeed": true,
-    "relatedScenario": {
-      "scenarioId": "emu-war",
-      "nodeId": "military-requests-rejected",
-      "label": "Connects to The Great Emu War"
-    }
+    "isSeed": true
   },
   {
     "id": "ratzenberger-death",
     "title": "Roland Ratzenberger — The Forgotten Death",
     "wiki": "Roland_Ratzenberger",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Roland_Ratzenberger.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Roland_Ratzenberger.jpg",
     "year": 1994,
     "keyword": "consequence",
     "summary": "Twenty-four hours before Senna died, Roland Ratzenberger was killed at the same circuit. His Simtek's front wing had broken on the previous lap; he returned to the pit lane, was waved back out, and the damaged wing failed completely at Villeneuve corner at over 300km/h. He died of a basal skull fracture. Ratzenberger was 33 years old and making only his second Formula One start — his first had been two weeks earlier at the Pacific Grand Prix in Japan, having failed to qualify at the season-opening Brazilian round. He had spent years working his way through junior formulas in Europe and Japan to reach this point. His death was overshadowed immediately and then almost entirely by Senna's the following day — a historical injustice that drivers and those close to him have noted repeatedly. Senna, who drove to the scene of Ratzenberger's accident in a medical car, was visibly shaken for the remainder of that Saturday. He reportedly told Sid Watkins he was considering retiring from the sport.",
