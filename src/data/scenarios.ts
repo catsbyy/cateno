@@ -344,6 +344,18 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorYear: 1994,
     theme: "culture",
   },
+  {
+    id: "library-of-alexandria",
+    title: "The Library That Burned Three Times",
+    period: "400 BC–2002",
+    description:
+      "It was the largest collection of human knowledge ever assembled. It held the proof that the Earth orbited the Sun — 1,800 years before Copernicus. It was lost not in a single fire, as the legend says, but in three slow centuries of neglect, riot, and ideological purging. We don't know what we lost.",
+    anchorId: "ptolemy-founds-library",
+    anchorTitle: "The Library Is Founded",
+    nodeCount: 34,
+    anchorYear: -300,
+    theme: "science",
+  },
 ];
 
 // ─── Dynamic node loaders ──────────────────────────────────────────────────────
@@ -378,6 +390,7 @@ const NODE_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
   "f1-bernie": () => import("./f1-bernie.json"),
   "f1-senna": () => import("./f1-senna.json"),
   cats: () => import("./cats.json"),
+  "library-of-alexandria": () => import("./library-of-alexandria.json"),
 };
 
 export async function loadScenarioNodes(id: string): Promise<CatenoNode[]> {

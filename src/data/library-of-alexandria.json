@@ -1,0 +1,631 @@
+[
+  {
+    "id": "greek-knowledge-tradition",
+    "title": "The Greek Tradition of Systematic Inquiry",
+    "wiki": "Ancient_Greek_philosophy",
+    "year": -400,
+    "keyword": "catalyst",
+    "summary": "By the 4th century BC, Greek thinkers had developed something unprecedented: a systematic tradition of inquiry into the nature of the world based on observation, argument, and the careful preservation of competing ideas. Plato's Academy and Aristotle's Lyceum were not merely schools but institutions that collected, organised, and transmitted knowledge across generations. Aristotle alone compiled works on biology, physics, logic, ethics, politics, poetry, and rhetoric — essentially attempting to catalogue everything known. This tradition of comprehensive intellectual ambition created both the model and the demand for what Ptolemy would build in Alexandria: a place where all of this knowledge could be gathered in one location.",
+    "causeIds": [],
+    "effectIds": [
+      "alexander-founds-alexandria"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Raphael_School_of_Athens.jpg"
+  },
+  {
+    "id": "alexander-founds-alexandria",
+    "title": "Alexander Builds a City for the World",
+    "wiki": "Alexandria",
+    "year": -331,
+    "keyword": "catalyst",
+    "summary": "Alexander the Great founded Alexandria in Egypt in 331 BC, selecting the site himself on the Mediterranean coast near the western branch of the Nile delta. The city was designed from the start as a cosmopolitan centre — planned on a grid, with a protected harbour, and intended to serve as the capital of a multicultural empire that stretched from Greece to Persia to Egypt. Alexander died before the city was complete, but his vision of a place where the knowledge of all conquered civilisations could be synthesised persisted. His successor in Egypt, Ptolemy I, inherited both the city and the ambition — and had the means and the interest to realise it.",
+    "causeIds": [
+      "greek-knowledge-tradition"
+    ],
+    "effectIds": [
+      "alexandria-as-knowledge-hub"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/AlexandriaLocator.svg"
+  },
+  {
+    "id": "alexandria-as-knowledge-hub",
+    "title": "Alexandria — The World's First Research City",
+    "wiki": "Alexandria#Intellectual_life",
+    "year": -310,
+    "keyword": "pressure",
+    "summary": "Under Ptolemy I, Alexandria became the intellectual capital of the Hellenistic world. The city's great harbour made it the busiest commercial port in the Mediterranean; its multicultural population of Greeks, Egyptians, Jews, and people from across the known world made it a meeting point of traditions. Ptolemy deliberately cultivated scholars, offering salaries, housing, and access to resources unavailable anywhere else. The Mouseion — the institution that housed the Library — was effectively the world's first research university: a community of scholars supported by royal patronage to pursue knowledge for its own sake. Nowhere else in the ancient world offered anything comparable.",
+    "causeIds": [
+      "alexander-founds-alexandria"
+    ],
+    "effectIds": [
+      "ptolemy-founds-library",
+      "septuagint-translation"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ancientlibraryalex.jpg"
+  },
+  {
+    "id": "ptolemy-founds-library",
+    "title": "The Library Is Founded",
+    "wiki": "Library_of_Alexandria",
+    "year": -295,
+    "keyword": "spark",
+    "summary": "Ptolemy I Soter founded the Library of Alexandria around 295 BC, reportedly on the advice of Demetrius of Phalerum — an Athenian statesman and student of Theophrastus, Aristotle's successor, who had fled Athens after a political reversal. The Library's founding ambition was breathtaking in its scope: to collect every book in the world. Not a selection, not a representative sample — every book. Ships entering Alexandria's harbour were searched, and any scrolls found were confiscated and copied; the copies were returned and the originals kept. Agents were sent across the Mediterranean to purchase manuscripts. The Library was not merely a collection but an act of intellectual imperialism — an attempt to concentrate all human knowledge in one place, under one administration, in one city.",
+    "causeIds": [
+      "alexandria-as-knowledge-hub"
+    ],
+    "effectIds": [
+      "ptolemy-steals-scrolls",
+      "mouseion-research-university",
+      "euclid-elements"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ancientlibraryalex.jpg"
+  },
+  {
+    "id": "ptolemy-steals-scrolls",
+    "title": "Ptolemy III Steals Athens' Greatest Books",
+    "wiki": "Library_of_Alexandria#Acquisitions",
+    "year": -246,
+    "keyword": "shift",
+    "summary": "Ptolemy III Euergetes borrowed the official Athenian state copies of the plays of Aeschylus, Sophocles, and Euripides — the most authoritative texts of the greatest Greek dramatists — under the pretense of making copies, paying a substantial deposit of fifteen talents of silver as guarantee of their return. He had the scrolls copied, returned the copies to Athens, and kept the originals. He forfeited the deposit without hesitation. Athens received fifteen talents of silver. Alexandria received the definitive texts of the masterworks of Greek tragedy. The transaction perfectly captures the Library's acquisition philosophy: the accumulation of knowledge was worth any cost, and the rules that governed ordinary commercial life did not apply.",
+    "causeIds": [
+      "ptolemy-founds-library"
+    ],
+    "effectIds": [
+      "knowledge-systematised"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ptolemy_III_Euergetes.jpg"
+  },
+  {
+    "id": "library-attracts-scholars",
+    "title": "The Greatest Minds of the Ancient World",
+    "wiki": "Library_of_Alexandria#Scholars",
+    "year": -280,
+    "keyword": "shift",
+    "summary": "The Library attracted a concentration of intellectual talent without historical parallel. Euclid almost certainly worked in Alexandria, producing the Elements — the most influential mathematics textbook ever written. Archimedes corresponded extensively with Alexandrian scholars, including Eratosthenes, and may have studied there before returning to Syracuse. Aristarchus of Samos proposed a heliocentric model of the solar system — that the Earth orbited the Sun — eighteen centuries before Copernicus. Eratosthenes calculated the circumference of the Earth to within a few percent using the angle of shadows in two cities. Herophilus performed the first systematic human anatomical dissections. These were not isolated geniuses: the Library created an intellectual ecosystem in which each thinker could read everything that preceded them and argue with everyone around them.",
+    "causeIds": [
+      "euclid-elements",
+      "mouseion-research-university"
+    ],
+    "effectIds": [
+      "aristarchus-heliocentric",
+      "eratosthenes-earth",
+      "knowledge-systematised",
+      "hero-of-alexandria",
+      "claudius-ptolemy-geography",
+      "alexandrian-medicine"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Eratosthenes.jpg"
+  },
+  {
+    "id": "aristarchus-heliocentric",
+    "title": "The Right Answer, Ignored for 1,800 Years",
+    "wiki": "Aristarchus_of_Samos",
+    "year": -270,
+    "keyword": "shift",
+    "summary": "Aristarchus of Samos, working in Alexandria around 270 BC, proposed that the Earth orbited the Sun — not the other way around. His reasoning was based on careful observation of lunar eclipses and the relative sizes of the Earth and Moon. He was correct. His contemporaries largely rejected the idea, finding it counterintuitive and theologically uncomfortable. His primary work on heliocentrism is lost — we know of it mainly through Archimedes' references to it. Copernicus, who proposed the heliocentric model in 1543 AD, was not discovering something new but rediscovering something the Library had already contained. Aristarchus's correct model was lost with the scrolls that recorded it, and humanity spent 1,800 years believing the wrong thing about the solar system.",
+    "causeIds": [
+      "library-attracts-scholars"
+    ],
+    "effectIds": [
+      "knowledge-systematised"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Heliocentric.jpg",
+    "relatedScenario": {
+      "scenarioId": "scientific-revolution",
+      "nodeId": "copernicus-publishes",
+      "label": "Connects to Scientific Revolution"
+    }
+  },
+  {
+    "id": "eratosthenes-earth",
+    "title": "Eratosthenes Measures the World",
+    "wiki": "Eratosthenes",
+    "year": -240,
+    "keyword": "shift",
+    "summary": "Eratosthenes, the Library's chief librarian around 240 BC, calculated the circumference of the Earth using the angle of the Sun's shadow at noon in Alexandria compared to the vertical at Syene (modern Aswan), where the Sun was directly overhead on the summer solstice. His calculation — approximately 39,375 kilometres — was within a few percent of the actual figure of 40,075 kilometres. He also calculated the tilt of the Earth's axis with remarkable accuracy and produced the most comprehensive map of the ancient world. These achievements were possible precisely because the Library gave him access to geographical reports and astronomical observations from across the known world. The Library didn't just store knowledge — it made new knowledge possible by putting everything in one place.",
+    "causeIds": [
+      "library-attracts-scholars"
+    ],
+    "effectIds": [
+      "knowledge-systematised"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Eratosthenes.jpg"
+  },
+  {
+    "id": "knowledge-systematised",
+    "title": "The First Catalogue of Human Knowledge",
+    "wiki": "Callimachus",
+    "year": -235,
+    "keyword": "shift",
+    "summary": "Callimachus, a poet and scholar working in Alexandria during the reigns of Ptolemy II and III (roughly 260–235 BC), compiled the Pinakes — a 120-volume catalogue of the Library's holdings, organising all Greek literature by genre and author with biographical notes. It was the first systematic bibliography in history and the foundation of all subsequent library science. The Pinakes itself is lost, but its existence tells us something important: the Library was not merely accumulating scrolls but organising them — creating the intellectual infrastructure to navigate knowledge rather than just possess it. The challenge of making the Library useful had produced a new discipline. Callimachus had invented the library catalogue, and through it, the concept of systematic access to recorded knowledge.",
+    "causeIds": [
+      "library-attracts-scholars",
+      "aristarchus-heliocentric",
+      "eratosthenes-earth",
+      "ptolemy-steals-scrolls"
+    ],
+    "effectIds": [
+      "roman-decline-begins",
+      "antikythera-creation"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Callimachus_-_Project_Gutenberg_eText_14994.jpg"
+  },
+  {
+    "id": "roman-decline-begins",
+    "title": "Roman Power Weakens the Ptolemies",
+    "wiki": "Ptolemaic_Kingdom#Decline",
+    "year": -100,
+    "keyword": "pressure",
+    "summary": "As Roman power expanded through the Mediterranean in the 2nd and 1st centuries BC, the Ptolemaic dynasty became increasingly dependent on Roman goodwill — and increasingly unable to maintain the lavish patronage that had made the Library exceptional. Royal funding for scholars declined; the Mouseion became more ceremonial than functional; the acquisition programme that had filled the Library's shelves was no longer pursued with the same urgency. The Library continued to exist and to be used, but the golden age of Alexandrian scholarship — the era of Eratosthenes and Aristarchus — had passed. The institution that had been the world's most dynamic intellectual centre was becoming a museum of its own former greatness.",
+    "causeIds": [
+      "knowledge-systematised"
+    ],
+    "effectIds": [
+      "caesar-fire-48bc",
+      "material-fragility"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/De_Agostini_Picture_Library_-_Ptolemaic_Egypt.jpg"
+  },
+  {
+    "id": "caesar-fire-48bc",
+    "title": "Caesar's Fire — The Myth and the Reality",
+    "wiki": "Burning_of_the_Library_of_Alexandria",
+    "year": -48,
+    "keyword": "collapse",
+    "summary": "During Julius Caesar's Alexandrian War in 48 BC, fires broke out in the harbour district. Ancient sources mention the burning of ships and warehouses near the docks. Some accounts suggest scrolls stored in warehouse facilities near the port were destroyed — possibly books awaiting export shipment. But the Library itself, located in the royal Brucheion district away from the harbour, almost certainly survived. Plutarch records — though with expressed doubt, noting he heard it from a hostile source — that Mark Antony later gave Cleopatra scrolls from the library at Pergamon to replace Caesar-era losses, which would only make sense if there was still a Library to add them to. The 'Caesar burned the Library' story is the most persistent myth in the history of knowledge.",
+    "causeIds": [
+      "roman-decline-begins",
+      "material-fragility"
+    ],
+    "effectIds": [
+      "mark-antony-restores"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Incendie_Alexandrie_Hulton.jpg"
+  },
+  {
+    "id": "mark-antony-restores",
+    "title": "Mark Antony Gives Cleopatra 200,000 Books",
+    "wiki": "Library_of_Alexandria#Mark_Antony",
+    "year": -37,
+    "keyword": "shift",
+    "summary": "Around 37 BC, Mark Antony gave Cleopatra VII the entire contents of the library at Pergamon — approximately 200,000 scrolls — as a gift, reportedly to compensate for books lost in Caesar's fire. Pergamon's library had been the only real rival to Alexandria's in the ancient world. The transfer demonstrated two things: first, that Alexandria's Library still existed and functioned a decade after Caesar's supposed destruction of it; second, that books had become a form of political currency between the most powerful people in the world. The collection of knowledge was understood to confer prestige, power, and legitimacy — which is why rulers sought it, and why its destruction would eventually be used as a political act.",
+    "causeIds": [
+      "caesar-fire-48bc"
+    ],
+    "effectIds": [
+      "aurelian-destroys-brucheion"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Mark_Antony_bust.jpg"
+  },
+  {
+    "id": "aurelian-destroys-brucheion",
+    "title": "Aurelian Destroys the Royal Quarter",
+    "wiki": "Aurelian#Alexandria",
+    "year": 272,
+    "keyword": "collapse",
+    "summary": "When the Roman Emperor Aurelian suppressed a revolt in Alexandria in 272 AD — defeating the Palmyrene Queen Zenobia who had seized Egypt — his forces destroyed much of the Brucheion, the royal quarter of the city that had housed the Mouseion and the Library since their founding six centuries earlier. This destruction is, in the assessment of many modern historians, probably the most significant physical blow to the Library's collections — more consequential than Caesar's harbour fire. The institution that had survived for five centuries, through the decline of the Ptolemies and the arrival of Roman rule, may have been critically damaged here. Ancient sources become vague about the Library's status after this point. When later writers mention the Mouseion, they seem to describe a shadow of its former self.",
+    "causeIds": [
+      "mark-antony-restores"
+    ],
+    "effectIds": [
+      "christian-era-suppression"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Aurelian_bust.jpg"
+  },
+  {
+    "id": "christian-era-suppression",
+    "title": "Pagan Knowledge Becomes Dangerous",
+    "wiki": "Destruction_of_the_Library_of_Alexandria#Christian_period",
+    "year": 300,
+    "keyword": "pressure",
+    "summary": "As Christianity became the dominant religion of the Roman Empire through the 4th century AD, the vast pagan intellectual heritage housed in Alexandria's libraries became increasingly suspect. Philosophy, astronomy, mathematics, and medicine were not simply neutral — they were associated with Greek paganism, mystery cults, and modes of understanding the world that competed with Christian revelation. The scholars who maintained and used the surviving collections increasingly had to navigate a religious environment that viewed their enterprise with suspicion, or worse. The social and institutional support that had sustained Alexandrian scholarship — royal patronage, civic prestige, a tradition of free inquiry — was systematically withdrawn or destroyed.",
+    "causeIds": [
+      "aurelian-destroys-brucheion",
+      "septuagint-translation"
+    ],
+    "effectIds": [
+      "theophilus-destroys-serapeum",
+      "hypatia-murdered",
+      "hypatia-mathematician"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Black_Death_and_Flagellants_-_Pierart_dou_Tielt.jpg"
+  },
+  {
+    "id": "theophilus-destroys-serapeum",
+    "title": "The Daughter Library Burns",
+    "wiki": "Serapeum_of_Alexandria",
+    "year": 391,
+    "keyword": "collapse",
+    "summary": "In 391 AD, Bishop Theophilus of Alexandria led or sanctioned a Christian mob that destroyed the Serapeum — the temple of Serapis that housed Alexandria's 'daughter library,' a significant secondary collection of scrolls. The historian Socrates Scholasticus described the destruction in detail. Whatever had survived of the original Library's collections in the Serapeum was lost. The event was not an accident or the incidental consequence of urban unrest — it was the deliberate destruction of pagan knowledge by religious authority. What remained of Alexandrian intellectual culture after the Serapeum's destruction was scattered among private collectors and individual scholars, no longer housed in any institutional framework.",
+    "causeIds": [
+      "christian-era-suppression"
+    ],
+    "effectIds": [
+      "hypatia-murdered"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Serapeum_of_Alexandria.jpg"
+  },
+  {
+    "id": "hypatia-murdered",
+    "title": "Hypatia — The Last Alexandrian Scholar",
+    "wiki": "Hypatia",
+    "year": 415,
+    "keyword": "collapse",
+    "summary": "Hypatia was a mathematician, astronomer, and philosopher — the head of the Neoplatonist school in Alexandria, a teacher of both pagans and Christians, and the most prominent intellectual in the city. In March 415 AD, she was seized by a Christian mob, stripped, and killed with roof tiles or pottery shards — the sources use the word ostraka, which can mean either — before her body was burned. She was not a librarian, and the Library had already been effectively destroyed before her death. But Hypatia's murder is the symbolic endpoint of Alexandrian intellectual culture: the city that had once paid scholars to think freely had become a place where the last prominent philosopher was killed for thinking at all. The tradition of free inquiry that had produced Eratosthenes and Aristarchus died with her.",
+    "causeIds": [
+      "theophilus-destroys-serapeum",
+      "christian-era-suppression",
+      "hypatia-mathematician"
+    ],
+    "effectIds": [
+      "arab-conquest-642"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Hypatia_portrait.png"
+  },
+  {
+    "id": "arab-conquest-642",
+    "title": "The Arab Conquest — and the Myth of the Final Burning",
+    "wiki": "Burning_of_the_Library_of_Alexandria#Arab_conquest",
+    "year": 642,
+    "keyword": "collapse",
+    "summary": "Arab forces under General Amr ibn al-As conquered Alexandria in 642 AD. A famous story, first recorded some six centuries later by the historian Bar Hebraeus, claims that Caliph Omar ordered the Library's books burned: 'If they agree with the Quran, they are superfluous; if they disagree, they are heretical.' Modern historians consider this account almost certainly apocryphal — the primary sources from the period make no mention of it, and the Library had effectively ceased to exist long before 642. What the Arab conquest ended was the last vestiges of Byzantine-era Alexandrian intellectual life. The city itself survived and eventually flourished under Arab rule, but the institutional tradition of the Library had been extinct for generations by the time the first Arab soldier entered the city.",
+    "causeIds": [
+      "hypatia-murdered"
+    ],
+    "effectIds": [
+      "knowledge-permanently-lost",
+      "arab-translation-movement",
+      "byzantine-scholars-preserve"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Islamic_Egypt.jpg"
+  },
+  {
+    "id": "knowledge-permanently-lost",
+    "title": "What We Will Never Know",
+    "wiki": "Library_of_Alexandria#Legacy",
+    "year": 700,
+    "keyword": "consequence",
+    "summary": "The most disturbing aspect of the Library's loss is not what we know was destroyed but what we cannot know. We have tantalising references in surviving texts to works that no longer exist: Aristarchus's heliocentric treatise, most of Aristotle's published dialogues (we have only his lecture notes), Hipparchus's complete star catalogue, the bulk of Greek lyric poetry, most of the pre-Socratic philosophers' original texts, Eratosthenes' complete geographical works. For each lost work we know about, there may be dozens we have no record of at all. The Library did not merely lose books — it lost the context that would have told us what to mourn. We are trying to inventory an absence.",
+    "causeIds": [
+      "arab-conquest-642",
+      "hero-of-alexandria",
+      "claudius-ptolemy-geography",
+      "alexandrian-medicine",
+      "antikythera-creation"
+    ],
+    "effectIds": [
+      "scientific-revolution-delayed",
+      "renaissance-recovery"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ancientlibraryalex.jpg",
+    "relatedScenario": {
+      "scenarioId": "underwater-archaeology",
+      "nodeId": "antikythera-decoded",
+      "label": "Connects to The Silent Archive"
+    }
+  },
+  {
+    "id": "scientific-revolution-delayed",
+    "title": "The 1,800-Year Delay",
+    "wiki": "History_of_science#Ancient_science",
+    "year": 1543,
+    "keyword": "consequence",
+    "summary": "When Nicolaus Copernicus published his heliocentric model in 1543 AD, he was not making a new discovery — he was rediscovering one. Aristarchus of Samos had proposed the same model in approximately 270 BC, working in the intellectual environment of Alexandria. His reasoning was primarily geometric — the relative sizes of the Sun and Earth — rather than dependent on observational archives, but the Library's concentration of astronomical data would have supported and extended his work. His primary heliocentric treatise is lost; we know of it mainly through Archimedes' references. The question of what else was in those scrolls — what other correct answers to questions humanity spent centuries getting wrong — is impossible to answer. The Library's destruction may have delayed the history of science by a millennium or more.",
+    "causeIds": [
+      "knowledge-permanently-lost",
+      "renaissance-recovery"
+    ],
+    "effectIds": [
+      "library-as-symbol"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Heliocentric.jpg"
+  },
+  {
+    "id": "library-as-symbol",
+    "title": "What the Library Means",
+    "wiki": "Library_of_Alexandria#Cultural_legacy",
+    "year": 1800,
+    "keyword": "consequence",
+    "summary": "The Library of Alexandria has become the defining symbol of knowledge lost — cited whenever a database is deleted, a language dies, a tradition is suppressed, or a hard drive fails. The symbol is powerful precisely because the Library's destruction was not a single dramatic event but a slow accumulation of neglect, political violence, religious suppression, and institutional failure. It warns against centralising knowledge in single vulnerable locations; against treating intellectual traditions as threats rather than assets; against the assumption that what has been written down is therefore permanent. Every institution that has ever tried to preserve human knowledge — the Vatican Library, the Library of Congress, the Internet Archive — has been built in the shadow of Alexandria's failure. The warning has been heard. It has not always been heeded.",
+    "causeIds": [
+      "scientific-revolution-delayed"
+    ],
+    "effectIds": [
+      "bibliotheca-alexandrina"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bibliotheque-alexandrine.jpg"
+  },
+  {
+    "id": "hero-of-alexandria",
+    "title": "Hero's Steam Engine — The Industrial Revolution That Wasn't",
+    "wiki": "Hero_of_Alexandria",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Steam_engine_of_Hero.jpg",
+    "year": 60,
+    "keyword": "consequence",
+    "summary": "Hero of Alexandria, working around 60 AD, described and built an aeolipile — a device in which steam from a boiling vessel rotated a sphere through reaction jets. It was, in principle, a steam engine. He also designed programmable automata, a coin-operated vending machine, a wind-powered organ, and a surveying instrument accurate enough for urban planning. Hero treated these as curiosities and mathematical demonstrations rather than industrial applications — he was not trying to replace human labour, because in a slave economy there was no incentive to do so. His works survived in fragments, transmitted through Arab translators, and were rediscovered in the Renaissance. James Watt's steam engine came 1,700 years after Hero's. The question of whether Hero's insight, developed and applied in a different social context, could have triggered an earlier Industrial Revolution is one of history's most tantalising counterfactuals.",
+    "causeIds": [
+      "library-attracts-scholars"
+    ],
+    "effectIds": [
+      "knowledge-permanently-lost"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "claudius-ptolemy-geography",
+    "title": "Ptolemy's Geography — The Map That Shaped the World",
+    "wiki": "Ptolemy#Geography",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/PtolemyWorldMap.jpg",
+    "year": 150,
+    "keyword": "consequence",
+    "summary": "Claudius Ptolemy, a mathematician and astronomer working in Alexandria around 150 AD, compiled the Almagest — the definitive synthesis of ancient astronomy — and the Geography, which mapped the known world with coordinate systems still recognisable today. His astronomical model, placing the Earth at the centre of the universe with planets moving in complex epicycles, was wrong — but was mathematically sophisticated enough to predict celestial positions accurately for centuries. It was Ptolemy's geocentric model that Copernicus and Galileo were dismantling in the Scientific Revolution. His Geography, transmitted through Arab translators, was used by Christopher Columbus — and its error in the Earth's circumference (underestimating it by about 25%) was one reason Columbus thought he could reach Asia by sailing west. The Library had produced both the correct answer (Aristarchus, Eratosthenes) and the influential wrong answer (Ptolemy) that dominated the next millennium.",
+    "causeIds": [
+      "library-attracts-scholars"
+    ],
+    "effectIds": [
+      "knowledge-permanently-lost"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "hypatia-mathematician",
+    "title": "Hypatia — The Mathematician Before the Martyr",
+    "wiki": "Hypatia#Works",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Hypatia_portrait.png",
+    "year": 400,
+    "keyword": "shift",
+    "summary": "Before she became a martyr, Hypatia was one of the most accomplished mathematicians and astronomers in the ancient world. She wrote commentaries on Diophantus's Arithmetica (a foundational text in what would become algebra) and on Apollonius's Conics, making these difficult texts accessible. She designed an astrolabe and a hydrometer with her father Theon. Her students included Synesius of Cyrene, a bishop who wrote to her regularly about astronomical instruments, treating her as an authority. She taught Neoplatonist philosophy to both pagans and Christians, representing the last generation of scholars who could treat the ancient intellectual tradition as simply the tradition — not as a threat to something else. Her commentaries on Diophantus, transmitted through later manuscripts, preserved material that would otherwise have been lost entirely. She was, in short, not a symbol awaiting her murder but a working mathematician whom history chose to remember primarily for how she died.",
+    "causeIds": [
+      "christian-era-suppression"
+    ],
+    "effectIds": [
+      "hypatia-murdered"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "scientific-revolution",
+      "nodeId": "church-controls-knowledge",
+      "label": "Connects to Scientific Revolution"
+    }
+  },
+  {
+    "id": "arab-translation-movement",
+    "title": "The Arabs Save Greek Knowledge",
+    "wiki": "Translation_movement",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/House_of_Wisdom_in_Baghdad.jpg",
+    "year": 830,
+    "keyword": "turning-point",
+    "summary": "The greatest act of preservation in the history of human knowledge was not performed by Greeks, Romans, or Europeans — it was performed by Arab scholars working under the Abbasid Caliphate in Baghdad from the 8th century onward. The caliph al-Mamun established the House of Wisdom and funded the systematic translation of Greek scientific and philosophical texts into Arabic. Hunayn ibn Ishaq translated Galen's complete medical works; al-Kindi translated Aristotle; Thabit ibn Qurra translated Archimedes and Apollonius. The Arab translators did not merely copy — they corrected errors, added commentaries, and extended the work. Most of the Greek scientific texts that survived to reach the European Renaissance did so in Arabic translation, often with centuries of Arab scholarly commentary attached. The scenario in which the Library's knowledge was simply lost is false: a substantial portion was preserved, transformed, and extended by the civilisation that succeeded Alexandria as the world's intellectual centre.",
+    "causeIds": [
+      "arab-conquest-642"
+    ],
+    "effectIds": [
+      "islamic-golden-age-preserves"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "mongols",
+      "nodeId": "islamic-golden-age-ends",
+      "label": "Connects to Mongol Conquests"
+    }
+  },
+  {
+    "id": "islamic-golden-age-preserves",
+    "title": "The Islamic Golden Age — Alexandria's Heir",
+    "wiki": "Islamic_Golden_Age",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Ibn_al-Haytham.png",
+    "year": 1000,
+    "keyword": "shift",
+    "summary": "The scholars of the Islamic Golden Age did not merely preserve Greek knowledge — they extended it substantially. Ibn al-Haytham (Alhazen) developed a theory of optics more sophisticated than anything in the Alexandrian tradition, conducting controlled experiments with light in ways that anticipate the Scientific Revolution's methodology. Ibn Sina (Avicenna) synthesised Greek medicine with original clinical observation into the Canon of Medicine, which dominated medical education in both the Islamic world and Europe for five centuries. Al-Khwarizmi developed algebra (the word itself comes from the title of his book) building on Diophantus's work preserved through Alexandria. Al-Biruni calculated the Earth's radius using trigonometry. The Library of Alexandria did not simply burn — it was inherited, extended, and transformed by a civilisation that treated the pursuit of knowledge as a religious duty. What was lost in Alexandria was not always lost to humanity.",
+    "causeIds": [
+      "arab-translation-movement"
+    ],
+    "effectIds": [
+      "renaissance-recovery"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "byzantine-scholars-preserve",
+    "title": "Byzantium Keeps the Greek Flame",
+    "wiki": "Byzantine_literature",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Fall_of_Constantinople_1453.jpg",
+    "year": 1100,
+    "keyword": "pressure",
+    "summary": "While Arab scholars preserved Greek science, Byzantine scholars in Constantinople preserved Greek literature and philosophy through continuous copying of manuscripts. The Byzantines maintained access to original Greek texts that the Arab translators had not yet reached — particularly in literature, history, and philosophy. When Constantinople fell to the Ottoman Turks in 1453, Greek scholars fled westward carrying manuscripts, overwhelming Italian humanists with authentic Greek texts. Scholars like George Gemistos Plethon arrived at the Council of Florence in 1439 and electrified Cosimo de' Medici with Platonic philosophy — triggering the founding of the Platonic Academy and directly enabling the Florentine Renaissance. The fall of Constantinople, which closed one chapter of Greek intellectual transmission, opened another: it seeded the Italian Renaissance with the surviving heritage of ancient Alexandria.",
+    "causeIds": [
+      "arab-conquest-642"
+    ],
+    "effectIds": [
+      "renaissance-recovery"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "renaissance-recovery",
+    "title": "The Renaissance Recovers Alexandria's Inheritance",
+    "wiki": "Recovery_of_Aristotle",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Cosimo_de_Medici_Pontormo.jpg",
+    "year": 1450,
+    "keyword": "turning-point",
+    "summary": "The European Renaissance was substantially a recovery of Alexandrian knowledge — transmitted through two channels the Library's destruction had not severed. Arab translations of Greek science arrived in Europe through the Toledo translation school from the 12th century onward: Aristotle's complete works in Latin via Arabic, Euclid's Elements via Arabic commentary, Ptolemy's Almagest. Byzantine manuscripts arrived more directly after 1453, when Greek scholars brought original texts to Italy. Petrarch and Poggio Bracciolini hunted for lost Latin manuscripts in monastery libraries. The humanists who drove the Renaissance were consciously performing an archaeological recovery of the ancient world — and what they were recovering was substantially Alexandrian. Copernicus read Aristarchus in a secondhand reference and proposed the heliocentric model; Vesalius built on Alexandrian anatomy. The Scientific Revolution was, in part, the Library of Alexandria finally bearing fruit — 1,500 years late.",
+    "causeIds": [
+      "islamic-golden-age-preserves",
+      "byzantine-scholars-preserve",
+      "knowledge-permanently-lost"
+    ],
+    "effectIds": [
+      "scientific-revolution-delayed"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "black-plague-renaissance",
+      "nodeId": "classical-texts-rediscovered",
+      "label": "Connects to Death and the Birth of Humanism"
+    }
+  },
+  {
+    "id": "bibliotheca-alexandrina",
+    "title": "The Library Rebuilt — 2,300 Years Later",
+    "wiki": "Bibliotheca_Alexandrina",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bibliotheca_Alexandrina_mosque_side.jpg",
+    "year": 2002,
+    "keyword": "consequence",
+    "summary": "In October 2002, the Bibliotheca Alexandrina opened on the shore of Alexandria, a few hundred metres from the probable site of the original Library. Designed by the Norwegian firm Snøhetta in a collaboration with an Egyptian architect, the building is a massive tilted disc, its facade carved with letters from 120 different scripts. It was funded by UNESCO, the Egyptian government, and donors from across the Arab world and Europe. The new Library holds approximately 8 million books, hosts research institutes, and has a mission explicitly modelled on the original: to be a centre of learning accessible to all. It is also a frank admission that the original's loss was not simply ancient history but an ongoing wound in the record of human knowledge. The Internet Archive, founded by Brewster Kahle in 1996, pursues the same project in digital form, explicitly invoking Alexandria as its predecessor and its cautionary tale. The ambition of collecting everything, preserving everything, and making everything accessible has not disappeared — it has simply found new vessels.",
+    "causeIds": [
+      "library-as-symbol"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "mouseion-research-university",
+    "title": "The First Research University",
+    "wiki": "Musaeum",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ancientlibraryalex.jpg",
+    "year": -285,
+    "keyword": "shift",
+    "summary": "The Library was part of a larger institution: the Mouseion — the 'Temple of the Muses' — which was effectively the world's first research university. Scholars in residence received free meals, housing, tax exemption, and a salary from the royal treasury. They were expected to pursue knowledge, not to teach or produce practical outcomes. The model was unprecedented: state resources devoted entirely to the accumulation and extension of knowledge for its own sake, with no requirement of immediate utility. Every modern research university — from Oxford to MIT to the Max Planck Institute — descends conceptually from the Mouseion's model, even when its founders had never heard of it. The Mouseion also hosted communal dining, walks, and debate — a physical and social infrastructure for intellectual exchange that recognised something the modern academic conference rediscovered: that knowledge advances fastest when the people who hold it can argue face to face.",
+    "causeIds": [
+      "ptolemy-founds-library"
+    ],
+    "effectIds": [
+      "library-attracts-scholars"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "euclid-elements",
+    "title": "The Book That Survived Everything",
+    "wiki": "Euclid%27s_Elements",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Euklid-von-Alexandria_1.jpg",
+    "year": -295,
+    "keyword": "consequence",
+    "summary": "Euclid compiled the Elements in Alexandria around 300 BC — at the very moment the Library was being founded — systematising all of Greek geometry into a deductive structure built from five axioms, proving 465 propositions with rigorous logical argument. It was used as a textbook for 2,000 years, from Alexandria to Renaissance Europe to 19th-century Cambridge. What makes the Elements remarkable in the context of the Library's loss is that it survived — it was copied so many times, in so many languages, across so many centuries, that no single catastrophe could destroy it. The Elements is the counterpoint to Aristarchus's heliocentric treatise: proof that knowledge distributed across many copies in many locations is effectively indestructible, while knowledge preserved in a single institution is always vulnerable. Euclid's work also demonstrated what the Library made possible — and drew further scholars to Alexandria to build on it.",
+    "causeIds": [
+      "ptolemy-founds-library"
+    ],
+    "effectIds": [
+      "library-attracts-scholars"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "alexandrian-medicine",
+    "title": "The Body Opened — Anatomy 1,500 Years Early",
+    "wiki": "Herophilos",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Vesalius_Fabrica_p395.jpg",
+    "year": -260,
+    "keyword": "shift",
+    "summary": "Herophilus of Chalcedon and Erasistratus of Ceos, working in Alexandria around 280–260 BC under Ptolemaic royal protection, performed the first systematic dissections of the human body in history — and, according to Roman sources including Celsus, possibly vivisection of condemned criminals. Whether the vivisection accounts are accurate or hostile propaganda is debated; the anatomical dissections are not. Herophilus correctly identified the brain rather than the heart as the seat of intelligence, distinguished between motor and sensory nerves, described the anatomy of the eye, and recognised the pulse as a diagnostic tool. Erasistratus described the heart valves and distinguished arteries from veins. Their work was approximately 1,500 years ahead of European medical understanding. Vesalius's anatomical revolution of 1543 — the one that actually changed Western medicine — rediscovered what Alexandria had already established. The work existed; it was lost; it had to be done again.",
+    "causeIds": [
+      "library-attracts-scholars"
+    ],
+    "effectIds": [
+      "knowledge-permanently-lost"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "septuagint-translation",
+    "title": "The Bible in Greek — Alexandria Shapes Western Religion",
+    "wiki": "Septuagint",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/PapyrusOxyrhynchus1166.jpg",
+    "year": -250,
+    "keyword": "shift",
+    "summary": "Around 250 BC, the Hebrew scriptures were translated into Greek in Alexandria — producing the Septuagint, so named from the legend of seventy-two Jewish scholars completing the translation in seventy-two days. The translation was commissioned either by Ptolemy II or by the Jewish community of Alexandria, which was one of the largest in the ancient world and increasingly Greek-speaking. The Septuagint was the Bible that most early Christians read — Paul's letters quote it, and the New Testament authors cited it. It was the medium through which Jewish scripture entered the Greek-reading world and eventually shaped Christianity. The Library's ambition to collect everything, combined with Alexandria's multicultural population, had produced one of the most consequential translation projects in human history. The same city that housed the proof that the Earth orbited the Sun also produced the text that would, centuries later, be used to condemn Galileo for saying so.",
+    "causeIds": [
+      "alexandria-as-knowledge-hub"
+    ],
+    "effectIds": [
+      "christian-era-suppression"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "antikythera-creation",
+    "title": "The Machine That Should Not Exist",
+    "wiki": "Antikythera_mechanism",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/NAMA_Antikythera_Mechanism.jpg",
+    "year": -100,
+    "keyword": "consequence",
+    "summary": "Around 100 BC, somewhere in the Greek world — most probably Rhodes or Alexandria — an unknown craftsman built the Antikythera Mechanism: a bronze geared device capable of predicting the positions of the Sun, Moon, and five known planets, tracking the Metonic cycle, predicting eclipses, and counting down to the Olympic Games. It required at minimum thirty interlocking bronze gears of extraordinary precision. Nothing remotely comparable would be built again for 1,400 years. The Mechanism sank in a shipwreck around 60 BC and lay on the seabed until 1900 — when sponge divers found it encrusted beyond recognition. It was decoded only in 2006 using X-ray tomography. The Antikythera Mechanism is proof of concept: the ancient world was capable of mechanical sophistication the Library's loss erased from the historical record so thoroughly that, when it was recovered, scholars initially refused to believe it was genuine. It was one device. We do not know how many others there were.",
+    "causeIds": [
+      "knowledge-systematised"
+    ],
+    "effectIds": [
+      "knowledge-permanently-lost"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "material-fragility",
+    "title": "The Library's Achilles Heel — Papyrus",
+    "wiki": "Papyrus",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Papyrus_plant.jpg",
+    "year": -90,
+    "keyword": "pressure",
+    "summary": "The Library's vulnerability was not only political — it was material. Papyrus, the primary writing medium of the ancient world, is fragile: it deteriorates in humidity, crumbles with age, and burns readily. Even without conquest or fire, a scroll could simply disintegrate after a few centuries without careful storage and regular recopying. When Egypt's Ptolemaic rulers attempted to cut off papyrus exports to their rival library at Pergamon in the 2nd century BC, Pergamon developed parchment as a substitute — a material far more durable than papyrus. Parchment became the medium on which medieval manuscripts survived millennia. Had the Library adopted parchment and distributed copies of its most important holdings to partner institutions, the loss would have been partial rather than catastrophic. Instead, the Library optimised for centralised access and never solved the problem of distributed survival. Centralisation of knowledge is efficient; it is also lethal.",
+    "causeIds": [
+      "roman-decline-begins"
+    ],
+    "effectIds": [
+      "caesar-fire-48bc"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]

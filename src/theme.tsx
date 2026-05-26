@@ -34,6 +34,7 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "f1-senna": "#06100e",
   cats: "#12100a",
   "emu-war": "#0e1206",
+  "library-of-alexandria": "#110D08",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -64,6 +65,7 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "f1-senna": "radial-gradient(ellipse at center, #06100e 0%, #0D0D0D 70%)",
   cats: "radial-gradient(ellipse at center, #12100a 0%, #0D0D0D 70%)",
   "emu-war": "radial-gradient(ellipse at center, #0e1206 0%, #0D0D0D 70%)",
+  "library-of-alexandria": "radial-gradient(ellipse at center, #110D08 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -1190,6 +1192,53 @@ function EmuWarPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Library of Alexandria — concentric scroll circles (papyrus rolls viewed end-on)
+function LibraryOfAlexandriaPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-library-of-alexandria" x="0" y="0" width="80" height="60" patternUnits="userSpaceOnUse">
+          {/* Scroll A */}
+          <circle cx="20" cy="20" r="11"  fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
+          <circle cx="20" cy="20" r="7.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <circle cx="20" cy="20" r="4.5" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <circle cx="20" cy="20" r="2"   fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="13" y1="20" x2="27" y2="20" stroke="#E8E3D5" strokeWidth="0.6"/>
+          <line x1="9"  y1="9"  x2="31" y2="9"  stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="9"  y1="31" x2="31" y2="31" stroke="#E8E3D5" strokeWidth="0.5"/>
+          {/* Scroll B */}
+          <circle cx="60" cy="20" r="11"  fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
+          <circle cx="60" cy="20" r="7.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <circle cx="60" cy="20" r="4.5" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <circle cx="60" cy="20" r="2"   fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="53" y1="20" x2="67" y2="20" stroke="#E8E3D5" strokeWidth="0.6"/>
+          <line x1="49" y1="9"  x2="71" y2="9"  stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="49" y1="31" x2="71" y2="31" stroke="#E8E3D5" strokeWidth="0.5"/>
+          {/* Scroll C — offset row */}
+          <circle cx="40" cy="50" r="11"  fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
+          <circle cx="40" cy="50" r="7.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <circle cx="40" cy="50" r="4.5" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <circle cx="40" cy="50" r="2"   fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="33" y1="50" x2="47" y2="50" stroke="#E8E3D5" strokeWidth="0.6"/>
+          <line x1="29" y1="39" x2="51" y2="39" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="29" y1="61" x2="51" y2="61" stroke="#E8E3D5" strokeWidth="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-library-of-alexandria)" />
+    </svg>
+  );
+}
+
 // ─── Public export ─────────────────────────────────────────────────────────────
 
 interface ScenarioPatternSvgProps {
@@ -1253,6 +1302,8 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
       return <CatsPattern opacity={opacity} />;
     case "emu-war":
       return <EmuWarPattern opacity={opacity} />;
+    case "library-of-alexandria":
+      return <LibraryOfAlexandriaPattern opacity={opacity} />;
     default:
       return null;
   }

@@ -10,7 +10,7 @@ Built with React, TypeScript, React Flow, and Tailwind CSS.
 
 ## Scenarios
 
-Twenty-seven curated scenarios, each with a number of interconnected events:
+Twenty-eight curated scenarios, each with a number of interconnected events:
 
 - **Fall of Rome** (100-600)
 - **French Revolution** (1700-1803)
@@ -39,6 +39,7 @@ Twenty-seven curated scenarios, each with a number of interconnected events:
 - **The Weekend That Changed Everything** (1950-2022)
 - **The Great Emu War** (1918-1950)
 - **They Chose Us** — The History of Cats (10500 BC–2012)
+- **The Library That Burned Three Times** (400 BC-2002)
 
 ---
 
@@ -64,6 +65,7 @@ Each scenario is a directed graph of historical events stored as a JSON file. Ev
 - A keyword type (`trigger`, `pressure`, `catalyst`, `turning-point`, `collapse`, `consequence`, `shift`, `spark`)
 - Arrays of cause IDs and effect IDs linking it to other nodes
 - Optional Wikipedia article name and image URL
+- Optional related scenarios
 
 The graph loads with 6 seed nodes visible. Clicking any node reveals its connected events and opens a detail panel. The `+N` badge on each node shows how many hidden connections remain.
 
