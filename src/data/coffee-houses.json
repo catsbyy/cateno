@@ -1,0 +1,462 @@
+[
+  {
+    "id": "coffee-origin-ethiopia",
+    "title": "Coffee's Ethiopian Origins",
+    "wiki": "History_of_coffee",
+    "year": 1400,
+    "keyword": "catalyst",
+    "summary": "Coffee's origins are traced to the highlands of Ethiopia, where the Coffea arabica plant grows wild. The most famous origin story — an ancient goat herder named Kaldi who noticed his animals dancing after eating red berries — is almost certainly apocryphal, first recorded centuries after the supposed event. What is documented is that Ethiopian communities were consuming coffee in some form, as a food paste or fermented drink, before it was cultivated commercially. By the 15th century, coffee cultivation had spread to Yemen, where it would acquire both its characteristic preparation method — roasting and brewing — and its first great institutional role.",
+    "causeIds": [],
+    "effectIds": [
+      "coffee-arrives-arabia"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG"
+  },
+  {
+    "id": "coffee-arrives-arabia",
+    "title": "Coffee Spreads Through the Islamic World",
+    "wiki": "History_of_coffee#Yemen",
+    "year": 1450,
+    "keyword": "shift",
+    "summary": "By the mid-15th century, coffee cultivation was established in Yemen, and the drink had spread through the Islamic world via trade routes and Sufi networks. The Sufi monasteries of Yemen and Egypt were among the earliest institutional users: coffee kept dervishes awake for the long night prayers and dhikr ceremonies that were central to Sufi practice. The religious context was crucial — coffee arrived in the Islamic world as an aid to devotion rather than a social pleasure, giving it an initial legitimacy that it would need when critics later argued it was an intoxicant comparable to alcohol and therefore forbidden by Islamic law. The theological argument about coffee's permissibility would be fought and refought across the Muslim world for over a century.",
+    "causeIds": [
+      "coffee-origin-ethiopia"
+    ],
+    "effectIds": [
+      "first-coffeehouse-mecca"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Coffeehouse_Yemeni.jpg"
+  },
+  {
+    "id": "first-coffeehouse-mecca",
+    "title": "The First Coffee House — and the First Ban",
+    "wiki": "Coffeehouse#History",
+    "year": 1511,
+    "keyword": "catalyst",
+    "summary": "The first coffee houses appeared in Mecca around 1511, immediately attracting both enthusiastic customers and alarmed authorities. The Governor of Mecca, Kha'ir Beg, ordered coffee houses closed, convening a council of jurists and physicians to rule on whether coffee was an intoxicant and therefore prohibited by Islamic law. The council ruled against coffee; the Governor ordered it banned. The Mamluk Sultan of Egypt, whose jurisdiction included Mecca, overruled the ban — he liked coffee and considered the Governor's fears exaggerated. The episode established a pattern that would repeat across the Islamic world and later across Europe: rulers banning coffee houses for fear of what happened when people gathered to drink a sober, stimulating beverage and talk about politics.",
+    "causeIds": [
+      "coffee-arrives-arabia"
+    ],
+    "effectIds": [
+      "first-ottoman-coffeehouse"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mecca_1850_Illustration.jpg"
+  },
+  {
+    "id": "first-ottoman-coffeehouse",
+    "title": "Constantinople's Coffee Houses",
+    "wiki": "Coffeehouse#Ottoman_Empire",
+    "year": 1554,
+    "keyword": "spark",
+    "summary": "The first coffee houses in Constantinople were opened in 1554 by two Syrian traders — Shams of Damascus and Hakem of Aleppo — in the Tahtakale district near the bazaar. They were an immediate sensation. Unlike taverns, which served alcohol and catered to specific social classes, coffee houses were open to anyone who could pay for a cup. Men of every profession and social rank sat together for hours — merchants and scholars, janissaries and poets, government officials and craftsmen — playing chess, listening to music, reciting poetry, exchanging news, and arguing about politics, theology, and everything else. The coffee house was the first genuinely public social space in the urban Islamic world: a place where strangers could meet, sit, and talk.",
+    "causeIds": [
+      "first-coffeehouse-mecca"
+    ],
+    "effectIds": [
+      "ottoman-coffeehouse-culture",
+      "coffee-houses-banned-feared"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Ottoman_coffee_house.jpg"
+  },
+  {
+    "id": "ottoman-coffeehouse-culture",
+    "title": "The School of the Wise",
+    "wiki": "Coffeehouse#Ottoman_Empire",
+    "year": 1560,
+    "keyword": "shift",
+    "summary": "Within a decade of their introduction, Ottoman coffee houses had developed a distinctive culture that their contemporaries called 'the school of the wise.' Coffee houses became the primary venue for the oral culture of the Ottoman city: storytellers performed there, poets recited new work, musicians played, and shadow puppeteers entertained crowds. More significantly, they became the principal venue for the exchange of information — political news, commercial intelligence, legal opinions, and theological debate all circulated through coffee house conversation. A shrewd merchant who spent his mornings at the right coffee house might learn more about the state of trade in a dozen cities than could be obtained from any other source. Ottoman intellectuals recognised what they had: the 16th-century equivalent of a networked information system.",
+    "causeIds": [
+      "first-ottoman-coffeehouse"
+    ],
+    "effectIds": [
+      "coffee-houses-banned-feared",
+      "coffee-reaches-europe"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Melling_-_Interior_of_a_Turkish_coffeehouse.jpg"
+  },
+  {
+    "id": "coffee-houses-banned-feared",
+    "title": "Sultans Fear the Coffee Houses",
+    "wiki": "Coffeehouse#Bans",
+    "year": 1633,
+    "keyword": "pressure",
+    "summary": "Ottoman Sultan Murad IV, who banned alcohol, tobacco, and coffee simultaneously in 1633, understood what coffee houses had become: infrastructure for dissent. His enforcers patrolled the city in disguise; later accounts describe severe punishments for violations — though the specific penalties cited in popular histories are not confirmed in Ottoman archival sources. The ban failed. Coffee houses reopened almost immediately; the prohibition was unenforceable against an institution so woven into daily urban life. The pattern was consistent across every culture that encountered the coffee house: authorities recognised that sober people gathering to read, argue, and share information was politically dangerous, attempted to ban the institution, and failed. The coffee house was banned in Mecca, Constantinople, Cairo, London, Paris, and Stockholm. It survived every ban.",
+    "causeIds": [
+      "first-ottoman-coffeehouse",
+      "ottoman-coffeehouse-culture"
+    ],
+    "effectIds": [
+      "penny-university"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Ottoman_coffee_house.jpg"
+  },
+  {
+    "id": "coffee-reaches-europe",
+    "title": "Coffee Crosses the Mediterranean",
+    "wiki": "History_of_coffee#Europe",
+    "year": 1600,
+    "keyword": "shift",
+    "summary": "Coffee reached Venice around 1600, brought by Levantine merchants trading through the Ottoman ports. Venetian physicians initially debated whether it was medicinal or harmful; Pope Clement VIII was reportedly asked to ban it as a Muslim drink and, according to tradition, responded by blessing it instead — though the specific anecdote is unverified. Coffee spread northward through Europe over the following decades — reaching England in the 1640s, France in the 1660s, and Vienna most dramatically of all. According to tradition, when the Ottoman siege of Vienna failed in 1683, the retreating army left behind sacks of coffee beans. Jerzy Franciszek Kulczycki, a Polish interpreter who had served as a Habsburg spy in Ottoman territory and therefore recognised the beans, opened the first Viennese coffee house — though some historians argue the coffee was brought by Armenian merchants rather than captured from the Ottomans. Either way, Vienna acquired its coffee house, and the rest is history.",
+    "causeIds": [
+      "ottoman-coffeehouse-culture"
+    ],
+    "effectIds": [
+      "english-coffee-house-1650",
+      "vienna-coffeehouse-culture"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cafe_Procope.jpg"
+  },
+  {
+    "id": "english-coffee-house-1650",
+    "title": "The English Coffee House",
+    "wiki": "English_coffeehouses_in_the_17th_and_18th_centuries",
+    "year": 1650,
+    "keyword": "shift",
+    "summary": "The first English coffee house opened in Oxford in 1650 — the proprietor is described in some sources as a Jewish man named Jacob, in others as a Lebanese Christian; the evidence is thin and the question is unresolved. London's first coffee house opened in 1652 in St Michael's Alley, Cornhill, run by a Greek named Pasqua Rosée. The English coffee house immediately replicated the Ottoman model: open to all men regardless of class, serving coffee and sometimes other beverages for a penny, and becoming the primary venue for the exchange of news and opinion. The penny admission — which included access to the newspapers, pamphlets, and conversation of the establishment — gave the English coffee house its most resonant description: the penny university.",
+    "causeIds": [
+      "coffee-reaches-europe"
+    ],
+    "effectIds": [
+      "london-coffee-houses-explode",
+      "newspapers-and-coffee-houses"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/English_coffeehouse_1668.jpg"
+  },
+  {
+    "id": "london-coffee-houses-explode",
+    "title": "Two Thousand Coffee Houses",
+    "wiki": "English_coffeehouses_in_the_17th_and_18th_centuries#Growth",
+    "year": 1663,
+    "keyword": "shift",
+    "summary": "By 1663, London had approximately 300 coffee houses; by 1700, estimates suggest there were over 2,000 in a city of perhaps 600,000 people — roughly one for every 300 inhabitants. They were not randomly distributed: specific coffee houses attracted specific professional communities. Lawyers gathered at the Grecian; merchants trading with specific regions gathered at houses that specialised in news from those areas; intellectuals gathered at Will's and Button's; shipping men gathered at Lloyd's. The coffee house had become a specialised information exchange — each establishment effectively a market for a particular kind of knowledge. A man who spent his mornings working the right coffee houses could conduct an entire professional life within walking distance of his regular table.",
+    "causeIds": [
+      "english-coffee-house-1650"
+    ],
+    "effectIds": [
+      "penny-university",
+      "charles-ii-fails-to-ban",
+      "lloyds-royal-society-born"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Coffeehouses_london_1700.jpg"
+  },
+  {
+    "id": "newspapers-and-coffee-houses",
+    "title": "The Coffee House Invents the News",
+    "wiki": "History_of_journalism#Coffee_houses",
+    "year": 1665,
+    "keyword": "shift",
+    "summary": "The first English newspapers — the Oxford Gazette (1665), which became the London Gazette — were read primarily in coffee houses, where a single copy might be read by dozens of people in sequence. Coffee houses collected newspapers and periodicals from across Europe; regulars would sit for hours working through the latest sheets. The demand for news that coffee house culture generated was itself a driver of newspaper development: publishers discovered that coffee house patrons would pay for regular information, creating a commercial model for journalism. The coffee house was simultaneously the distribution network, the reading room, and the commentary platform for early English print journalism — the first public venue where news was treated as a communal resource rather than private intelligence.",
+    "causeIds": [
+      "english-coffee-house-1650"
+    ],
+    "effectIds": [
+      "penny-university"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/London_Gazette_1666.jpg",
+    "relatedScenario": {
+      "scenarioId": "french-revolution",
+      "nodeId": "third-estate-assertion",
+      "label": "Connects to French Revolution"
+    }
+  },
+  {
+    "id": "penny-university",
+    "title": "The Penny University",
+    "wiki": "English_coffeehouses_in_the_17th_and_18th_centuries#Penny_university",
+    "year": 1670,
+    "keyword": "shift",
+    "summary": "A 1670s pamphlet described the English coffee house as a 'penny university' — for the price of a penny (the cost of admission and a cup of coffee), any man could sit all day and absorb the conversation of merchants, lawyers, physicians, scientists, politicians, and clergy. This was genuinely new: in a highly class-stratified society, the coffee house created a space where the content of conversation — the quality of an argument, the freshness of information, the wittiness of a remark — mattered more than the birth or wealth of the speaker. Women were largely excluded (a significant limitation), but across the male population, the coffee house was the most socially mixed environment that most men ever encountered. The radical social levelling of the coffee house made it the incubator for new ideas.",
+    "causeIds": [
+      "london-coffee-houses-explode",
+      "newspapers-and-coffee-houses",
+      "coffee-houses-banned-feared"
+    ],
+    "effectIds": [
+      "lloyds-royal-society-born",
+      "enlightenment-in-a-cup",
+      "women-excluded",
+      "coffee-house-to-gentlemens-club"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/English_coffeehouse_1668.jpg"
+  },
+  {
+    "id": "charles-ii-fails-to-ban",
+    "title": "The King Tries to Ban Coffee Houses — and Fails",
+    "wiki": "English_coffeehouses_in_the_17th_and_18th_centuries#Suppression_attempts",
+    "year": 1675,
+    "keyword": "shift",
+    "summary": "King Charles II issued a royal proclamation closing all coffee houses in December 1675, citing them as places 'where the disaffected met and spread scandalous reports concerning the conduct of His Majesty and his Ministers.' The public reaction was so fierce — from coffee house owners, their suppliers, their customers, and the general public — that the proclamation was withdrawn eleven days later, before it had even taken effect. Charles II had discovered what Ottoman sultans had already learned: the coffee house had become so integral to commercial and social life that banning it was politically impossible. The episode demonstrated something important about 17th-century England: the coffee house-going public had acquired enough collective power to reverse a royal decree.",
+    "causeIds": [
+      "london-coffee-houses-explode"
+    ],
+    "effectIds": [
+      "lloyds-royal-society-born"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/King_Charles_II_of_England.jpg"
+  },
+  {
+    "id": "lloyds-royal-society-born",
+    "title": "Lloyd's, the Stock Exchange, and the Royal Society",
+    "wiki": "Lloyd%27s_of_London#History",
+    "year": 1686,
+    "keyword": "turning-point",
+    "summary": "Three of the most consequential institutions in modern history were born in or nurtured by London coffee houses within a generation. Lloyd's Coffee House, established by Edward Lloyd around 1686 on Tower Street, became the gathering point for ship owners, merchants, and sailors exchanging intelligence about shipping routes, cargo, and risk — and then for underwriters willing to insure against those risks. Lloyd's of London, now the world's leading insurance market, traces its direct institutional ancestry to this coffee house. Jonathan's Coffee House in Exchange Alley became the venue for stock and commodity trading; in 1801 it formally became the London Stock Exchange. The Royal Society was founded in 1660 at Gresham College, but its members — Newton, Hooke, Wren, Halley — regularly conducted business and held informal meetings in coffee houses, where the permeable boundary between the scientific society and public conversation was a feature rather than a flaw. The coffee house did not merely house these institutions — it was the environment in which their characteristic culture of open, argumentative exchange was formed.",
+    "causeIds": [
+      "london-coffee-houses-explode",
+      "penny-university",
+      "charles-ii-fails-to-ban"
+    ],
+    "effectIds": [
+      "enlightenment-in-a-cup",
+      "coffee-house-becomes-institution",
+      "scientific-revolution-in-coffee"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lloyds_of_London_modern.jpg",
+    "relatedScenario": {
+      "scenarioId": "tulip-mania",
+      "nodeId": "modern-financial-markets",
+      "label": "Connects to The Flower That Invented Finance"
+    }
+  },
+  {
+    "id": "enlightenment-in-a-cup",
+    "title": "The Enlightenment Is Planned Over Coffee",
+    "wiki": "Café_de_Procope",
+    "year": 1700,
+    "keyword": "shift",
+    "summary": "The Café de Procope, opened in Paris in 1686 and still operating today, became the epicentre of French Enlightenment thought. Voltaire was a devoted regular — some sources claim he drank 40 to 50 cups daily, a figure most historians regard as embellishment, though his devotion to coffee was genuine. Rousseau was a regular; Diderot edited portions of the Encyclopédie at its tables. The French café developed a slightly different character from the English coffee house — more literary, more philosophical, more explicitly political — but the same basic dynamic applied: the coffee house provided the physical infrastructure for the exchange of ideas that constituted the Enlightenment. The radical political philosophy that would inform the American and French Revolutions was refined in conversation, over coffee, in public rooms where anyone could listen and anyone could argue.",
+    "causeIds": [
+      "penny-university",
+      "lloyds-royal-society-born",
+      "scientific-revolution-in-coffee"
+    ],
+    "effectIds": [
+      "french-revolution-in-cafes",
+      "public-sphere-born",
+      "boston-coffee-houses"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cafe_Procope.jpg",
+    "relatedScenario": {
+      "scenarioId": "french-revolution",
+      "nodeId": "enlightenment-ideas",
+      "label": "Connects to French Revolution"
+    }
+  },
+  {
+    "id": "public-sphere-born",
+    "title": "The Invention of Public Opinion",
+    "wiki": "Public_sphere#Coffee_houses",
+    "year": 1750,
+    "keyword": "turning-point",
+    "summary": "The philosopher Jürgen Habermas identified the 18th-century coffee house as the birthplace of the 'public sphere' — the space between private life and state power where citizens could form and express opinions about public affairs. Before the coffee house, political opinion was either private (held in the mind) or official (expressed through established institutions of church, court, and guild). The coffee house created a third space: public conversation among private individuals about matters of common concern, free from the constraints of either family loyalty or institutional hierarchy. This is the space in which modern democracy operates — and it was invented, Habermas argued, in the coffee houses of 17th and 18th-century Europe, which themselves were adaptations of an institution first developed in the Ottoman world.",
+    "causeIds": [
+      "enlightenment-in-a-cup",
+      "women-excluded"
+    ],
+    "effectIds": [
+      "french-revolution-in-cafes"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/English_coffeehouse_1668.jpg"
+  },
+  {
+    "id": "french-revolution-in-cafes",
+    "title": "The Revolution Begins in a Café",
+    "wiki": "French_Revolution#Origins",
+    "year": 1789,
+    "keyword": "catalyst",
+    "summary": "On July 12, 1789 — two days before the storming of the Bastille — the journalist Camille Desmoulins leapt onto a table at the Café de Foy in the Palais Royal and delivered an improvised speech calling on the people of Paris to take up arms. Later romanticised accounts, including Carlyle's, add a dramatic pistol; the primary sources describe simply a passionate street orator in a coffee house crowd. The crowd that responded formed the core of the insurrection that began the French Revolution. The Palais Royal's arcades were lined with cafés that had become, in the weeks of crisis preceding the Revolution, the primary venues for political agitation, pamphlet distribution, and the coordination of resistance to royal authority. The coffee house that had been invented as a place for merchants to exchange news had become the incubator for the most dramatic political transformation in modern European history.",
+    "causeIds": [
+      "enlightenment-in-a-cup",
+      "public-sphere-born"
+    ],
+    "effectIds": [
+      "coffee-house-becomes-institution"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Camille_desmoulins.jpg",
+    "relatedScenario": {
+      "scenarioId": "french-revolution",
+      "nodeId": "storming-of-bastille",
+      "label": "Connects to French Revolution"
+    }
+  },
+  {
+    "id": "coffee-house-becomes-institution",
+    "title": "The Coffee House Transforms Into Everything Else",
+    "wiki": "Coffeehouse#Legacy",
+    "year": 1800,
+    "keyword": "consequence",
+    "summary": "By 1800, the coffee house had accomplished something remarkable: it had made itself obsolete by giving birth to the institutions that replaced it. Lloyd's of London had become a formal institution with its own premises. Jonathan's Coffee House had become the London Stock Exchange. The learned societies that had met in coffee houses had acquired their own buildings. Political clubs that had begun as coffee house factions had become formal organisations. Newspapers that had been read in coffee houses now had their own offices and printing houses. The social function that the coffee house had pioneered — the public exchange of information among strangers in a commercial but non-transactional space — had been so successful that it had generated a dozen specialised institutions to carry it forward. The coffee house had invented the modern world and then quietly stepped aside.",
+    "causeIds": [
+      "lloyds-royal-society-born",
+      "french-revolution-in-cafes",
+      "boston-coffee-houses",
+      "coffee-house-to-gentlemens-club"
+    ],
+    "effectIds": [
+      "internet-as-coffeehouse"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lloyds_of_London_modern.jpg"
+  },
+  {
+    "id": "women-excluded",
+    "title": "The Women's Petition Against Coffee",
+    "wiki": "Women%27s_Petition_Against_Coffee",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Women%27s_Petition_Against_Coffee_1674.jpg",
+    "year": 1674,
+    "keyword": "consequence",
+    "summary": "In 1674, a pamphlet appeared titled 'The Women's Petition Against Coffee, Representing to Publick Consideration the Grand Inconveniencies accruing to their Sex from the Excessive Use of that Drying, Enfeebling Liquor.' The petition complained that coffee was making men impotent, keeping them away from home for hours, and rendering them useless as husbands. It was almost certainly written by a man as a satirical piece — but it captures something real: the coffee house was an exclusively male institution, and its success was partly built on excluding women. The public sphere that Habermas would later identify as the coffee house's great contribution to democracy was a public sphere of men only. Women ran coffee houses as proprietresses and served as 'coffee women' at the counter, but they could not sit as customers. The radical social levelling of the penny university was radically incomplete: it levelled rank among men while maintaining an absolute exclusion of half the population. This limitation shaped every institution the coffee house generated — the Royal Society, Lloyd's, the Stock Exchange, and the learned societies were all male-only organisations in their founding generations.",
+    "causeIds": [
+      "penny-university"
+    ],
+    "effectIds": [
+      "public-sphere-born"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "scientific-revolution-in-coffee",
+    "title": "The Principia Is Ordered in a Coffee House",
+    "wiki": "Grecian_Coffee_House",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Isaac_Newton_by_Sir_Godfrey_Kneller%2C_Bt.jpg",
+    "year": 1686,
+    "keyword": "catalyst",
+    "summary": "In January 1684, three members of the Royal Society — Edmund Halley, Christopher Wren, and Robert Hooke — met at a London coffee house and made a bet: could any of them prove mathematically that gravitational attraction following an inverse-square law would produce elliptical planetary orbits? Wren offered a book worth forty shillings to whoever could demonstrate it within two months. Neither Halley nor Hooke succeeded. In August, Halley visited Isaac Newton in Cambridge and posed the same question. Newton said he had already solved it — he had mislaid the paper, but he could redo the calculation. The result was the Principia Mathematica, published in 1687. The most important scientific work in history was directly commissioned by a coffee house wager. The Grecian Coffee House on the Strand was the Royal Society members' regular venue; scientists of the period treated it as an annex of formal scientific life. The culture of open, competitive intellectual exchange that coffee houses had established — strangers arguing, ideas tested publicly, wagers placed on answers — was exactly the culture that produced modern science.",
+    "causeIds": [
+      "lloyds-royal-society-born"
+    ],
+    "effectIds": [
+      "enlightenment-in-a-cup"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "scientific-revolution",
+      "nodeId": "newton-principia",
+      "label": "Connects to Scientific Revolution"
+    }
+  },
+  {
+    "id": "boston-coffee-houses",
+    "title": "The American Revolution Brews in Boston",
+    "wiki": "Green_Dragon_Tavern",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Green_Dragon_Tavern.jpg",
+    "year": 1765,
+    "keyword": "catalyst",
+    "summary": "The American Revolution was organised in Boston coffee houses and taverns serving the same social function. The Green Dragon Tavern — called 'the headquarters of the Revolution' by Daniel Webster — was where Paul Revere and the Sons of Liberty met regularly from the 1760s onward. The Boston Tea Party was planned there. The pattern was identical to Paris and London: men gathered in a public commercial space to drink a stimulating beverage, read newspapers, argue about politics, and eventually plan insurrection. The coffee house model that Ottoman merchants had invented in Constantinople in 1554 had, in two centuries, become the standard infrastructure for political revolution in the Western world. The Founders were aware of the institution's history: John Adams described coffee as the favoured drink of the patriot, having sworn off tea after the Boston Tea Party.",
+    "causeIds": [
+      "enlightenment-in-a-cup"
+    ],
+    "effectIds": [
+      "coffee-house-becomes-institution"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "french-revolution",
+      "nodeId": "american-revolution-support",
+      "label": "Connects to French Revolution"
+    }
+  },
+  {
+    "id": "vienna-coffeehouse-culture",
+    "title": "Vienna — The Coffee House as Home",
+    "wiki": "Viennese_coffeehouse",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Wien_Cafe_Central_2007.jpg",
+    "year": 1683,
+    "keyword": "shift",
+    "summary": "Vienna's coffee house tradition, begun with the beans left after the Ottoman siege of 1683, developed into something unlike any other café culture in the world. The Viennese Kaffeehaus was not a place to meet and leave — it was a place to inhabit. A customer who ordered a single coffee could sit all day, read any of dozens of newspapers provided by the house, write letters on house stationery, use the address for mail delivery, and be undisturbed by the proprietor. The Viennese café became the working space of the Viennese intellectual, and by the late 19th century it had produced the most concentrated burst of artistic and intellectual productivity in coffee house history. Freud, Klimt, Schnitzler, Herzl, Musil, and Kraus all had their regular tables at specific cafés. Theodor Herzl wrote and planned the early Zionist movement in Viennese cafés. Trotsky played chess at the Café Central while planning revolution. When the Austrian foreign minister was warned in 1913 that a certain Trotsky was a dangerous revolutionary, he reportedly dismissed the concern: 'Who is this Herr Trotsky? — just a coffee house habitué.'",
+    "causeIds": [
+      "coffee-reaches-europe"
+    ],
+    "effectIds": [
+      "viennese-cafe-last-stand"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "coffee-house-to-gentlemens-club",
+    "title": "The Coffee House Closes Its Doors",
+    "wiki": "Gentlemen%27s_club",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Whites_Club_exterior.jpg",
+    "year": 1750,
+    "keyword": "shift",
+    "summary": "The English coffee house's great virtue — open to any man who paid a penny — became, for its wealthy clientele, its great flaw. By the mid-18th century, the most fashionable London coffee houses had transformed themselves into subscription clubs: White's, Brooks's, Boodle's, and the Reform Club all began as coffee houses or were direct descendants of coffee house culture, but they acquired membership lists, subscription fees, blackball procedures, and the social exclusivity that made the original coffee house radical. The penny university had become the £100-a-year private club. The socially mixed conversation of 1670 had become the socially stratified conversation of 1770. The English coffee house's democratic moment was brief: about a generation after it achieved its peak, the wealthy men who had used it began building walls around it. The coffee house that had survived every royal ban was eventually closed from the inside by its own most successful customers.",
+    "causeIds": [
+      "penny-university"
+    ],
+    "effectIds": [
+      "coffee-house-becomes-institution"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "viennese-cafe-last-stand",
+    "title": "The Last Great Coffee House Era",
+    "wiki": "Vienna_Secession",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Wien_Cafe_Central_2007.jpg",
+    "year": 1900,
+    "keyword": "turning-point",
+    "summary": "In the half-century between 1880 and 1938, Vienna's cafés hosted an intellectual explosion without parallel in coffee house history. Sigmund Freud was a known regular at the Café Landtmann, directly across from his consulting rooms. The Café Griensteidl was the home of the Young Vienna literary movement — Schnitzler, Hofmannsthal, and Kraus debated there until the café was demolished in 1897 (prompting Kraus's famous satirical pamphlet about the literary scene's collapse). Gustav Klimt and Egon Schiele had their regular cafés. Members of the Vienna Circle — the logical positivists who shaped 20th-century analytic philosophy — met informally at the Café Reichsrat alongside their formal university sessions. Stefan Zweig described the Viennese café as 'a sort of democratic club to which admission is gained by the ordering of a single small cup of coffee.' The Anschluss of 1938 ended this world abruptly: Jewish intellectuals who had been the backbone of Viennese café culture were forced to emigrate or were murdered. The cafés remained, but the culture that had filled them was destroyed.",
+    "causeIds": [
+      "vienna-coffeehouse-culture"
+    ],
+    "effectIds": [
+      "internet-as-coffeehouse"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "internet-as-coffeehouse",
+    "title": "The Third Place — Again",
+    "wiki": "Third_place",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Starbucks_Coffee_-_London.jpg",
+    "year": 2004,
+    "keyword": "consequence",
+    "summary": "In 1989, sociologist Ray Oldenburg published 'The Great Good Place,' identifying the coffee house as history's paradigmatic 'third place' — neither home nor work, but the public social space where community forms. Starbucks explicitly built its expansion on this concept, positioning itself as the revival of the coffee house's social function for modern urban life. More directly, the internet café (peaking in the late 1990s and early 2000s) reproduced the Ottoman coffee house's essential logic: a commercial space where people gathered to access information and each other, paying for time rather than drink. Wi-Fi in coffee shops extended this into the 21st century. The academic blogosphere and the early social web were often literally written in coffee houses. Habermas's public sphere — formed in coffee houses in the 17th century, theorised in the 20th, mourned as lost — had found a new form online. The conversation that Shams of Damascus started at a table in Constantinople in 1554 had migrated to a screen, but the structure was identical: strangers exchanging information in a semi-public space, forming opinions about public affairs, changing the world by talking.",
+    "causeIds": [
+      "viennese-cafe-last-stand",
+      "coffee-house-becomes-institution"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]

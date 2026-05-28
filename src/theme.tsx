@@ -35,6 +35,7 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   cats: "#12100a",
   "emu-war": "#0e1206",
   "library-of-alexandria": "#110D08",
+  "coffee-houses": "#0E0A06",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -66,6 +67,7 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   cats: "radial-gradient(ellipse at center, #12100a 0%, #0D0D0D 70%)",
   "emu-war": "radial-gradient(ellipse at center, #0e1206 0%, #0D0D0D 70%)",
   "library-of-alexandria": "radial-gradient(ellipse at center, #110D08 0%, #0D0D0D 70%)",
+  "coffee-houses": "radial-gradient(ellipse at center, #0E0A06 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -1192,6 +1194,50 @@ function EmuWarPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Coffee Houses — top-down coffee cup with concentric rings + steam wisps + handle
+function CoffeeHousesPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-coffee-houses" x="0" y="0" width="90" height="80" patternUnits="userSpaceOnUse">
+          {/* Cup A (24,28) */}
+          <circle cx="24" cy="28" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <circle cx="24" cy="28" r="10" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
+          <circle cx="24" cy="28" r="7"  fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <path d="M34,24 C40,24 40,32 34,32" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
+          <path d="M20,12 C19,8 21,5 20,1"    fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <path d="M26,11 C27,7 25,4 26,0"    fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          {/* Cup B (69,28) */}
+          <circle cx="69" cy="28" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <circle cx="69" cy="28" r="10" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
+          <circle cx="69" cy="28" r="7"  fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <path d="M79,24 C85,24 85,32 79,32" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
+          <path d="M65,12 C64,8 66,5 65,1"    fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <path d="M71,11 C72,7 70,4 71,0"    fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          {/* Cup C — offset row (46,68) */}
+          <circle cx="46" cy="68" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <circle cx="46" cy="68" r="10" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
+          <circle cx="46" cy="68" r="7"  fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <path d="M56,64 C62,64 62,72 56,72" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
+          <path d="M42,52 C41,48 43,45 42,41" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <path d="M48,51 C49,47 47,44 48,40" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-coffee-houses)" />
+    </svg>
+  );
+}
+
 // Library of Alexandria — concentric scroll circles (papyrus rolls viewed end-on)
 function LibraryOfAlexandriaPattern({ opacity }: { opacity: number }) {
   return (
@@ -1304,6 +1350,8 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
       return <EmuWarPattern opacity={opacity} />;
     case "library-of-alexandria":
       return <LibraryOfAlexandriaPattern opacity={opacity} />;
+    case "coffee-houses":
+      return <CoffeeHousesPattern opacity={opacity} />;
     default:
       return null;
   }

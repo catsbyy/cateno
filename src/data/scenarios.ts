@@ -356,11 +356,23 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorYear: 1994,
     theme: "culture",
   },
+  {
+    id: "coffee-houses",
+    title: "The Drink That Invented Conversation",
+    period: "1450–2004",
+    description:
+      "Before coffee, Europe drank beer all day — even at breakfast. Then a sober, stimulating drink arrived. People started gathering in public rooms to read, argue, and exchange information. Lloyd's of London began as a coffee house. So did the London Stock Exchange. So did the French Revolution.",
+    anchorId: "first-ottoman-coffeehouse",
+    anchorTitle: "Constantinople's Coffee Houses",
+    nodeCount: 24,
+    anchorYear: 1554,
+    theme: "culture",
+  },
 ];
 
 // ─── Dynamic node loaders ──────────────────────────────────────────────────────
 // Each import() becomes a separate Vite chunk — scenario JSON is never included
-// in the initial bundle. All 27 files load only when their scenario is opened.
+// in the initial bundle. All 29 files load only when their scenario is opened.
 
 const NODE_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
   "emu-war": () => import("./emu-war.json"),
@@ -391,6 +403,7 @@ const NODE_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
   "f1-senna": () => import("./f1-senna.json"),
   cats: () => import("./cats.json"),
   "library-of-alexandria": () => import("./library-of-alexandria.json"),
+  "coffee-houses": () => import("./coffee-houses.json"),
 };
 
 export async function loadScenarioNodes(id: string): Promise<CatenoNode[]> {

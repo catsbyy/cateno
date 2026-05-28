@@ -40,6 +40,7 @@ Twenty-eight curated scenarios, each with a number of interconnected events:
 - **The Great Emu War** (1918-1950)
 - **They Chose Us** — The History of Cats (10500 BC–2012)
 - **The Library That Burned Three Times** (400 BC-2002)
+- **The Drink That Invented Conversation"** (1450-2004)
 
 ---
 
