@@ -7,67 +7,67 @@
 
 // Centre colours exposed separately so selector cards can use them as flat base colours.
 export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
-  "fall-of-rome": "#2a1a06",
-  "french-revolution": "#0d1f0d",
-  "scientific-revolution": "#060d1f",
-  wwi: "#141a0a",
-  "year-without-a-summer": "#12101a",
-  "wright-brothers": "#0f1218",
-  "underwater-archaeology": "#071418",
-  templars: "#18100a",
-  mongols: "#1a0e06",
-  polynesia: "#051418",
-  "zheng-he": "#061410",
-  "louisiana-purchase": "#0e1a0a",
-  whales: "#050e18",
-  napster: "#0a0a18",
-  "tulip-mania": "#150e06",
-  "leaded-gasoline": "#0e0e08",
-  "invention-of-teenager": "#12080e",
-  "black-plague-renaissance": "#12080a",
-  "age-of-exploration": "#0a100e",
-  "hollywood-birth": "#140e06",
-  "hollywood-code": "#0e0a12",
-  "hollywood-blockbuster": "#0a0808",
-  "f1-turbo-era": "#160a04",
-  "f1-bernie": "#0a0a0a",
-  "f1-senna": "#06100e",
-  cats: "#12100a",
-  "emu-war": "#0e1206",
-  "library-of-alexandria": "#110D08",
-  "coffee-houses": "#0E0A06",
+  "fall-of-rome": "#3a2408",
+  "french-revolution": "#0f2e0f",
+  "scientific-revolution": "#091739",
+  wwi: "#1f2a0f",
+  "year-without-a-summer": "#1d192e",
+  "wright-brothers": "#121c30",
+  "underwater-archaeology": "#0b252d",
+  templars: "#2e1d0f",
+  mongols: "#2f1809",
+  polynesia: "#09272f",
+  "zheng-he": "#0b2820",
+  "louisiana-purchase": "#152a0e",
+  whales: "#081b30",
+  napster: "#111131",
+  "tulip-mania": "#291b0a",
+  "leaded-gasoline": "#282815",
+  "invention-of-teenager": "#2d1022",
+  "black-plague-renaissance": "#2a0e14",
+  "age-of-exploration": "#14241f",
+  "hollywood-birth": "#2c1e0c",
+  "hollywood-code": "#1f132a",
+  "hollywood-blockbuster": "#221616",
+  "f1-turbo-era": "#361707",
+  "f1-bernie": "#1f1f1f",
+  "f1-senna": "#0c2721",
+  cats: "#262112",
+  "emu-war": "#212b0d",
+  "library-of-alexandria": "#241a08",
+  "coffee-houses": "#2a1508",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
-  "fall-of-rome": "radial-gradient(ellipse at center, #2a1a06 0%, #0D0D0D 70%)",
-  "french-revolution": "radial-gradient(ellipse at center, #0d1f0d 0%, #0D0D0D 70%)",
-  "scientific-revolution": "radial-gradient(ellipse at center, #060d1f 0%, #0D0D0D 70%)",
-  wwi: "radial-gradient(ellipse at center, #141a0a 0%, #0D0D0D 70%)",
-  "year-without-a-summer": "radial-gradient(ellipse at center, #12101a 0%, #0D0D0D 70%)",
-  "wright-brothers": "radial-gradient(ellipse at center, #0f1218 0%, #0D0D0D 70%)",
-  "underwater-archaeology": "radial-gradient(ellipse at center, #071418 0%, #0D0D0D 70%)",
-  templars: "radial-gradient(ellipse at center, #18100a 0%, #0D0D0D 70%)",
-  mongols: "radial-gradient(ellipse at center, #1a0e06 0%, #0D0D0D 70%)",
-  polynesia: "radial-gradient(ellipse at center, #051418 0%, #0D0D0D 70%)",
-  "zheng-he": "radial-gradient(ellipse at center, #061410 0%, #0D0D0D 70%)",
-  "louisiana-purchase": "radial-gradient(ellipse at center, #0e1a0a 0%, #0D0D0D 70%)",
-  whales: "radial-gradient(ellipse at center, #050e18 0%, #0D0D0D 70%)",
-  napster: "radial-gradient(ellipse at center, #0a0a18 0%, #0D0D0D 70%)",
-  "tulip-mania": "radial-gradient(ellipse at center, #150e06 0%, #0D0D0D 70%)",
-  "leaded-gasoline": "radial-gradient(ellipse at center, #0e0e08 0%, #0D0D0D 70%)",
-  "invention-of-teenager": "radial-gradient(ellipse at center, #12080e 0%, #0D0D0D 70%)",
-  "black-plague-renaissance": "radial-gradient(ellipse at center, #12080a 0%, #0D0D0D 70%)",
-  "age-of-exploration": "radial-gradient(ellipse at center, #0a100e 0%, #0D0D0D 70%)",
-  "hollywood-birth": "radial-gradient(ellipse at center, #140e06 0%, #0D0D0D 70%)",
-  "hollywood-code": "radial-gradient(ellipse at center, #0e0a12 0%, #0D0D0D 70%)",
-  "hollywood-blockbuster": "radial-gradient(ellipse at center, #0a0808 0%, #0D0D0D 70%)",
-  "f1-turbo-era": "radial-gradient(ellipse at center, #160a04 0%, #0D0D0D 70%)",
-  "f1-bernie": "radial-gradient(ellipse at center, #0a0a0a 0%, #0D0D0D 70%)",
-  "f1-senna": "radial-gradient(ellipse at center, #06100e 0%, #0D0D0D 70%)",
-  cats: "radial-gradient(ellipse at center, #12100a 0%, #0D0D0D 70%)",
-  "emu-war": "radial-gradient(ellipse at center, #0e1206 0%, #0D0D0D 70%)",
-  "library-of-alexandria": "radial-gradient(ellipse at center, #110D08 0%, #0D0D0D 70%)",
-  "coffee-houses": "radial-gradient(ellipse at center, #0E0A06 0%, #0D0D0D 70%)",
+  "fall-of-rome": "radial-gradient(ellipse at center, #3a2408 0%, #0D0D0D 70%)",
+  "french-revolution": "radial-gradient(ellipse at center, #0f2e0f 0%, #0D0D0D 70%)",
+  "scientific-revolution": "radial-gradient(ellipse at center, #091739 0%, #0D0D0D 70%)",
+  wwi: "radial-gradient(ellipse at center, #1f2a0f 0%, #0D0D0D 70%)",
+  "year-without-a-summer": "radial-gradient(ellipse at center, #1d192e 0%, #0D0D0D 70%)",
+  "wright-brothers": "radial-gradient(ellipse at center, #121c30 0%, #0D0D0D 70%)",
+  "underwater-archaeology": "radial-gradient(ellipse at center, #0b252d 0%, #0D0D0D 70%)",
+  templars: "radial-gradient(ellipse at center, #2e1d0f 0%, #0D0D0D 70%)",
+  mongols: "radial-gradient(ellipse at center, #2f1809 0%, #0D0D0D 70%)",
+  polynesia: "radial-gradient(ellipse at center, #09272f 0%, #0D0D0D 70%)",
+  "zheng-he": "radial-gradient(ellipse at center, #0b2820 0%, #0D0D0D 70%)",
+  "louisiana-purchase": "radial-gradient(ellipse at center, #152a0e 0%, #0D0D0D 70%)",
+  whales: "radial-gradient(ellipse at center, #081b30 0%, #0D0D0D 70%)",
+  napster: "radial-gradient(ellipse at center, #111131 0%, #0D0D0D 70%)",
+  "tulip-mania": "radial-gradient(ellipse at center, #291b0a 0%, #0D0D0D 70%)",
+  "leaded-gasoline": "radial-gradient(ellipse at center, #282815 0%, #0D0D0D 70%)",
+  "invention-of-teenager": "radial-gradient(ellipse at center, #2d1022 0%, #0D0D0D 70%)",
+  "black-plague-renaissance": "radial-gradient(ellipse at center, #2a0e14 0%, #0D0D0D 70%)",
+  "age-of-exploration": "radial-gradient(ellipse at center, #14241f 0%, #0D0D0D 70%)",
+  "hollywood-birth": "radial-gradient(ellipse at center, #2c1e0c 0%, #0D0D0D 70%)",
+  "hollywood-code": "radial-gradient(ellipse at center, #1f132a 0%, #0D0D0D 70%)",
+  "hollywood-blockbuster": "radial-gradient(ellipse at center, #221616 0%, #0D0D0D 70%)",
+  "f1-turbo-era": "radial-gradient(ellipse at center, #361707 0%, #0D0D0D 70%)",
+  "f1-bernie": "radial-gradient(ellipse at center, #1f1f1f 0%, #0D0D0D 70%)",
+  "f1-senna": "radial-gradient(ellipse at center, #0c2721 0%, #0D0D0D 70%)",
+  cats: "radial-gradient(ellipse at center, #262112 0%, #0D0D0D 70%)",
+  "emu-war": "radial-gradient(ellipse at center, #212b0d 0%, #0D0D0D 70%)",
+  "library-of-alexandria": "radial-gradient(ellipse at center, #241a08 0%, #0D0D0D 70%)",
+  "coffee-houses": "radial-gradient(ellipse at center, #2a1508 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {
@@ -1211,26 +1211,26 @@ function CoffeeHousesPattern({ opacity }: { opacity: number }) {
       <defs>
         <pattern id="bg-coffee-houses" x="0" y="0" width="90" height="80" patternUnits="userSpaceOnUse">
           {/* Cup A (24,28) */}
-          <circle cx="24" cy="28" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <circle cx="24" cy="28" r="10" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
-          <circle cx="24" cy="28" r="7"  fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <path d="M34,24 C40,24 40,32 34,32" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
-          <path d="M20,12 C19,8 21,5 20,1"    fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <path d="M26,11 C27,7 25,4 26,0"    fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <circle cx="24" cy="28" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <circle cx="24" cy="28" r="10" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <circle cx="24" cy="28" r="7" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+          <path d="M34,24 C40,24 40,32 34,32" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <path d="M20,12 C19,8 21,5 20,1" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <path d="M26,11 C27,7 25,4 26,0" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
           {/* Cup B (69,28) */}
-          <circle cx="69" cy="28" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <circle cx="69" cy="28" r="10" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
-          <circle cx="69" cy="28" r="7"  fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <path d="M79,24 C85,24 85,32 79,32" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
-          <path d="M65,12 C64,8 66,5 65,1"    fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <path d="M71,11 C72,7 70,4 71,0"    fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <circle cx="69" cy="28" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <circle cx="69" cy="28" r="10" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <circle cx="69" cy="28" r="7" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+          <path d="M79,24 C85,24 85,32 79,32" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <path d="M65,12 C64,8 66,5 65,1" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <path d="M71,11 C72,7 70,4 71,0" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
           {/* Cup C — offset row (46,68) */}
-          <circle cx="46" cy="68" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <circle cx="46" cy="68" r="10" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
-          <circle cx="46" cy="68" r="7"  fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <path d="M56,64 C62,64 62,72 56,72" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
-          <path d="M42,52 C41,48 43,45 42,41" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <path d="M48,51 C49,47 47,44 48,40" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <circle cx="46" cy="68" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <circle cx="46" cy="68" r="10" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <circle cx="46" cy="68" r="7" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+          <path d="M56,64 C62,64 62,72 56,72" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <path d="M42,52 C41,48 43,45 42,41" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <path d="M48,51 C49,47 47,44 48,40" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-coffee-houses)" />
@@ -1255,29 +1255,29 @@ function LibraryOfAlexandriaPattern({ opacity }: { opacity: number }) {
       <defs>
         <pattern id="bg-library-of-alexandria" x="0" y="0" width="80" height="60" patternUnits="userSpaceOnUse">
           {/* Scroll A */}
-          <circle cx="20" cy="20" r="11"  fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
-          <circle cx="20" cy="20" r="7.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <circle cx="20" cy="20" r="4.5" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <circle cx="20" cy="20" r="2"   fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="13" y1="20" x2="27" y2="20" stroke="#E8E3D5" strokeWidth="0.6"/>
-          <line x1="9"  y1="9"  x2="31" y2="9"  stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="9"  y1="31" x2="31" y2="31" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <circle cx="20" cy="20" r="11" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <circle cx="20" cy="20" r="7.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <circle cx="20" cy="20" r="4.5" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+          <circle cx="20" cy="20" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="13" y1="20" x2="27" y2="20" stroke="#E8E3D5" strokeWidth="0.6" />
+          <line x1="9" y1="9" x2="31" y2="9" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="9" y1="31" x2="31" y2="31" stroke="#E8E3D5" strokeWidth="0.5" />
           {/* Scroll B */}
-          <circle cx="60" cy="20" r="11"  fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
-          <circle cx="60" cy="20" r="7.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <circle cx="60" cy="20" r="4.5" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <circle cx="60" cy="20" r="2"   fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="53" y1="20" x2="67" y2="20" stroke="#E8E3D5" strokeWidth="0.6"/>
-          <line x1="49" y1="9"  x2="71" y2="9"  stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="49" y1="31" x2="71" y2="31" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <circle cx="60" cy="20" r="11" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <circle cx="60" cy="20" r="7.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <circle cx="60" cy="20" r="4.5" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+          <circle cx="60" cy="20" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="53" y1="20" x2="67" y2="20" stroke="#E8E3D5" strokeWidth="0.6" />
+          <line x1="49" y1="9" x2="71" y2="9" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="49" y1="31" x2="71" y2="31" stroke="#E8E3D5" strokeWidth="0.5" />
           {/* Scroll C — offset row */}
-          <circle cx="40" cy="50" r="11"  fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
-          <circle cx="40" cy="50" r="7.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <circle cx="40" cy="50" r="4.5" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <circle cx="40" cy="50" r="2"   fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="33" y1="50" x2="47" y2="50" stroke="#E8E3D5" strokeWidth="0.6"/>
-          <line x1="29" y1="39" x2="51" y2="39" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="29" y1="61" x2="51" y2="61" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <circle cx="40" cy="50" r="11" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <circle cx="40" cy="50" r="7.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <circle cx="40" cy="50" r="4.5" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+          <circle cx="40" cy="50" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="33" y1="50" x2="47" y2="50" stroke="#E8E3D5" strokeWidth="0.6" />
+          <line x1="29" y1="39" x2="51" y2="39" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="29" y1="61" x2="51" y2="61" stroke="#E8E3D5" strokeWidth="0.5" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-library-of-alexandria)" />
