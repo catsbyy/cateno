@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 export function Footer() {
+  const navigate = useNavigate();
+
   return (
     <footer className="w-full mt-12">
       <div
@@ -11,8 +15,26 @@ export function Footer() {
           fontSize: 12,
         }}
       >
-        <span style={{ fontFamily: "DM Sans, system-ui, sans-serif", color: "rgba(232,227,213,0.25)" }}>
-          Cateno © 2026
+        <span style={{ fontFamily: "DM Sans, system-ui, sans-serif", color: "rgba(232,227,213,0.25)", display: "flex", alignItems: "center", gap: 12 }}>
+          <span>Cateno © 2026</span>
+          <span style={{ opacity: 0.4 }}>·</span>
+          <button
+            onClick={() => navigate("/about")}
+            style={{
+              background: "none",
+              border: "none",
+              padding: 0,
+              fontFamily: "DM Sans, system-ui, sans-serif",
+              fontSize: 12,
+              color: "rgba(232,227,213,0.25)",
+              cursor: "pointer",
+              transition: "color 0.15s",
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.color = "rgba(232,227,213,0.65)")}
+            onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(232,227,213,0.25)")}
+          >
+            About
+          </button>
         </span>
         <a
           href="https://github.com/catsbyy/cateno"

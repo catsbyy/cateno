@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { ScenarioSelector } from "./components/ScenarioSelector";
 import { NotFound } from "./components/NotFound";
+import { About } from "./components/About";
 import { SearchOverlay } from "./components/SearchOverlay";
 import { SearchProvider } from "./contexts/SearchContext";
 import { SCENARIO_META } from "./data/scenarios";
@@ -113,6 +114,7 @@ export default function App() {
       <AnimatePresence mode="wait">
         <Routes>
           <Route path="/" element={<SelectorRoute />} />
+          <Route path="/about" element={<About />} />
           <Route path="/:scenarioId" element={<ScenarioRoute />} />
           <Route path="/:scenarioId/:nodeId" element={<ScenarioRoute />} />
           <Route path="*" element={<NotFound />} />
