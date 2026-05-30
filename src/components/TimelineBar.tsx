@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import type { CatenoScenario } from "../types";
-import { TYPE_COLORS } from "../types";
+import { TYPE_COLORS, formatYear } from "../types";
 import { useIsMobile } from "../hooks/useIsMobile";
 
 function parsePeriod(period: string): [number, number] {
@@ -13,10 +13,6 @@ function parsePeriod(period: string): [number, number] {
   };
   if (parts.length >= 2) return [parse(parts[0]), parse(parts[1])];
   return [0, 100];
-}
-
-function formatYear(year: number): string {
-  return year < 0 ? `${Math.abs(year)} BC` : `${year}`;
 }
 
 // Clamp a percentage to [0, 100]

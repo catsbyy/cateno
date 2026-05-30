@@ -3,18 +3,15 @@ import { memo } from "react";
 import { Handle, Position } from "@xyflow/react";
 import type { NodeProps } from "@xyflow/react";
 import { motion, AnimatePresence } from "framer-motion";
-import { TYPE_COLORS } from "../types";
+import { TYPE_COLORS, formatYear } from "../types";
 import type { NodeType } from "../types";
 import { NODE_W, NODE_H, W_FOCUS, H_FOCUS } from "../constants";
-
-const formatYear = (year: number) => (year < 0 ? `${Math.abs(year)} BC` : `${year}`);
 
 export interface CatenoNodeData {
   title: string;
   year: number;
   keyword: NodeType;
   isAnchor?: boolean;
-  isSeed?: boolean;
   isFocused?: boolean;
   isDimmed?: boolean;
   isUnvisited?: boolean;

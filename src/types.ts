@@ -39,6 +39,10 @@ export interface CatenoScenario {
   nodes: CatenoNode[];
 }
 
+export function formatYear(year: number): string {
+  return year < 0 ? `${Math.abs(year)} BC` : `${year}`;
+}
+
 export const TYPE_COLORS: Record<NodeType, string> = {
   trigger: "#E63946",
   pressure: "#E9A84C",

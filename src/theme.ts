@@ -1,0 +1,75 @@
+// ─── Per-scenario background personality ──────────────────────────────────────
+// Each scenario gets a radial gradient colour tint + a subtle SVG pattern layer.
+// Both are pointer-events: none so they never interfere with interaction.
+
+// ─── Gradient tints ────────────────────────────────────────────────────────────
+// Radial gradient from a warm/cool tint at center → #0D0D0D at ~70%
+
+// Centre colours exposed separately so selector cards can use them as flat base colours.
+export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
+  "fall-of-rome": "#3a2408",
+  "french-revolution": "#0f2e0f",
+  "scientific-revolution": "#091739",
+  wwi: "#1f2a0f",
+  "year-without-a-summer": "#1d192e",
+  "wright-brothers": "#121c30",
+  "underwater-archaeology": "#0b252d",
+  templars: "#2e1d0f",
+  mongols: "#2f1809",
+  polynesia: "#09272f",
+  "zheng-he": "#0b2820",
+  "louisiana-purchase": "#152a0e",
+  whales: "#081b30",
+  napster: "#111131",
+  "tulip-mania": "#291b0a",
+  "leaded-gasoline": "#282815",
+  "invention-of-teenager": "#2d1022",
+  "black-plague-renaissance": "#2a0e14",
+  "age-of-exploration": "#14241f",
+  "hollywood-birth": "#2c1e0c",
+  "hollywood-code": "#1f132a",
+  "hollywood-blockbuster": "#221616",
+  "f1-turbo-era": "#361707",
+  "f1-bernie": "#1f1f1f",
+  "f1-senna": "#0c2721",
+  cats: "#262112",
+  "emu-war": "#212b0d",
+  "library-of-alexandria": "#241a08",
+  "coffee-houses": "#2a1508",
+};
+
+const SCENARIO_GRADIENTS: Record<string, string> = {
+  "fall-of-rome": "radial-gradient(ellipse at center, #3a2408 0%, #0D0D0D 70%)",
+  "french-revolution": "radial-gradient(ellipse at center, #0f2e0f 0%, #0D0D0D 70%)",
+  "scientific-revolution": "radial-gradient(ellipse at center, #091739 0%, #0D0D0D 70%)",
+  wwi: "radial-gradient(ellipse at center, #1f2a0f 0%, #0D0D0D 70%)",
+  "year-without-a-summer": "radial-gradient(ellipse at center, #1d192e 0%, #0D0D0D 70%)",
+  "wright-brothers": "radial-gradient(ellipse at center, #121c30 0%, #0D0D0D 70%)",
+  "underwater-archaeology": "radial-gradient(ellipse at center, #0b252d 0%, #0D0D0D 70%)",
+  templars: "radial-gradient(ellipse at center, #2e1d0f 0%, #0D0D0D 70%)",
+  mongols: "radial-gradient(ellipse at center, #2f1809 0%, #0D0D0D 70%)",
+  polynesia: "radial-gradient(ellipse at center, #09272f 0%, #0D0D0D 70%)",
+  "zheng-he": "radial-gradient(ellipse at center, #0b2820 0%, #0D0D0D 70%)",
+  "louisiana-purchase": "radial-gradient(ellipse at center, #152a0e 0%, #0D0D0D 70%)",
+  whales: "radial-gradient(ellipse at center, #081b30 0%, #0D0D0D 70%)",
+  napster: "radial-gradient(ellipse at center, #111131 0%, #0D0D0D 70%)",
+  "tulip-mania": "radial-gradient(ellipse at center, #291b0a 0%, #0D0D0D 70%)",
+  "leaded-gasoline": "radial-gradient(ellipse at center, #282815 0%, #0D0D0D 70%)",
+  "invention-of-teenager": "radial-gradient(ellipse at center, #2d1022 0%, #0D0D0D 70%)",
+  "black-plague-renaissance": "radial-gradient(ellipse at center, #2a0e14 0%, #0D0D0D 70%)",
+  "age-of-exploration": "radial-gradient(ellipse at center, #14241f 0%, #0D0D0D 70%)",
+  "hollywood-birth": "radial-gradient(ellipse at center, #2c1e0c 0%, #0D0D0D 70%)",
+  "hollywood-code": "radial-gradient(ellipse at center, #1f132a 0%, #0D0D0D 70%)",
+  "hollywood-blockbuster": "radial-gradient(ellipse at center, #221616 0%, #0D0D0D 70%)",
+  "f1-turbo-era": "radial-gradient(ellipse at center, #361707 0%, #0D0D0D 70%)",
+  "f1-bernie": "radial-gradient(ellipse at center, #1f1f1f 0%, #0D0D0D 70%)",
+  "f1-senna": "radial-gradient(ellipse at center, #0c2721 0%, #0D0D0D 70%)",
+  cats: "radial-gradient(ellipse at center, #262112 0%, #0D0D0D 70%)",
+  "emu-war": "radial-gradient(ellipse at center, #212b0d 0%, #0D0D0D 70%)",
+  "library-of-alexandria": "radial-gradient(ellipse at center, #241a08 0%, #0D0D0D 70%)",
+  "coffee-houses": "radial-gradient(ellipse at center, #2a1508 0%, #0D0D0D 70%)",
+};
+
+export function getScenarioGradient(scenarioId: string): string {
+  return SCENARIO_GRADIENTS[scenarioId] ?? "#0D0D0D";
+}

@@ -194,7 +194,6 @@ export function CatenoGraph({
           year: n.year,
           keyword: n.keyword,
           isAnchor: n.isAnchor,
-          isSeed: n.isSeed,
           isFocused,
           isDimmed,
           isUnvisited,

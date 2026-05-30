@@ -1,80 +1,5 @@
-// ─── Per-scenario background personality ──────────────────────────────────────
-// Each scenario gets a radial gradient colour tint + a subtle SVG pattern layer.
-// Both are pointer-events: none so they never interfere with interaction.
-
-// ─── Gradient tints ────────────────────────────────────────────────────────────
-// Radial gradient from a warm/cool tint at center → #0D0D0D at ~70%
-
-// Centre colours exposed separately so selector cards can use them as flat base colours.
-export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
-  "fall-of-rome": "#3a2408",
-  "french-revolution": "#0f2e0f",
-  "scientific-revolution": "#091739",
-  wwi: "#1f2a0f",
-  "year-without-a-summer": "#1d192e",
-  "wright-brothers": "#121c30",
-  "underwater-archaeology": "#0b252d",
-  templars: "#2e1d0f",
-  mongols: "#2f1809",
-  polynesia: "#09272f",
-  "zheng-he": "#0b2820",
-  "louisiana-purchase": "#152a0e",
-  whales: "#081b30",
-  napster: "#111131",
-  "tulip-mania": "#291b0a",
-  "leaded-gasoline": "#282815",
-  "invention-of-teenager": "#2d1022",
-  "black-plague-renaissance": "#2a0e14",
-  "age-of-exploration": "#14241f",
-  "hollywood-birth": "#2c1e0c",
-  "hollywood-code": "#1f132a",
-  "hollywood-blockbuster": "#221616",
-  "f1-turbo-era": "#361707",
-  "f1-bernie": "#1f1f1f",
-  "f1-senna": "#0c2721",
-  cats: "#262112",
-  "emu-war": "#212b0d",
-  "library-of-alexandria": "#241a08",
-  "coffee-houses": "#2a1508",
-};
-
-const SCENARIO_GRADIENTS: Record<string, string> = {
-  "fall-of-rome": "radial-gradient(ellipse at center, #3a2408 0%, #0D0D0D 70%)",
-  "french-revolution": "radial-gradient(ellipse at center, #0f2e0f 0%, #0D0D0D 70%)",
-  "scientific-revolution": "radial-gradient(ellipse at center, #091739 0%, #0D0D0D 70%)",
-  wwi: "radial-gradient(ellipse at center, #1f2a0f 0%, #0D0D0D 70%)",
-  "year-without-a-summer": "radial-gradient(ellipse at center, #1d192e 0%, #0D0D0D 70%)",
-  "wright-brothers": "radial-gradient(ellipse at center, #121c30 0%, #0D0D0D 70%)",
-  "underwater-archaeology": "radial-gradient(ellipse at center, #0b252d 0%, #0D0D0D 70%)",
-  templars: "radial-gradient(ellipse at center, #2e1d0f 0%, #0D0D0D 70%)",
-  mongols: "radial-gradient(ellipse at center, #2f1809 0%, #0D0D0D 70%)",
-  polynesia: "radial-gradient(ellipse at center, #09272f 0%, #0D0D0D 70%)",
-  "zheng-he": "radial-gradient(ellipse at center, #0b2820 0%, #0D0D0D 70%)",
-  "louisiana-purchase": "radial-gradient(ellipse at center, #152a0e 0%, #0D0D0D 70%)",
-  whales: "radial-gradient(ellipse at center, #081b30 0%, #0D0D0D 70%)",
-  napster: "radial-gradient(ellipse at center, #111131 0%, #0D0D0D 70%)",
-  "tulip-mania": "radial-gradient(ellipse at center, #291b0a 0%, #0D0D0D 70%)",
-  "leaded-gasoline": "radial-gradient(ellipse at center, #282815 0%, #0D0D0D 70%)",
-  "invention-of-teenager": "radial-gradient(ellipse at center, #2d1022 0%, #0D0D0D 70%)",
-  "black-plague-renaissance": "radial-gradient(ellipse at center, #2a0e14 0%, #0D0D0D 70%)",
-  "age-of-exploration": "radial-gradient(ellipse at center, #14241f 0%, #0D0D0D 70%)",
-  "hollywood-birth": "radial-gradient(ellipse at center, #2c1e0c 0%, #0D0D0D 70%)",
-  "hollywood-code": "radial-gradient(ellipse at center, #1f132a 0%, #0D0D0D 70%)",
-  "hollywood-blockbuster": "radial-gradient(ellipse at center, #221616 0%, #0D0D0D 70%)",
-  "f1-turbo-era": "radial-gradient(ellipse at center, #361707 0%, #0D0D0D 70%)",
-  "f1-bernie": "radial-gradient(ellipse at center, #1f1f1f 0%, #0D0D0D 70%)",
-  "f1-senna": "radial-gradient(ellipse at center, #0c2721 0%, #0D0D0D 70%)",
-  cats: "radial-gradient(ellipse at center, #262112 0%, #0D0D0D 70%)",
-  "emu-war": "radial-gradient(ellipse at center, #212b0d 0%, #0D0D0D 70%)",
-  "library-of-alexandria": "radial-gradient(ellipse at center, #241a08 0%, #0D0D0D 70%)",
-  "coffee-houses": "radial-gradient(ellipse at center, #2a1508 0%, #0D0D0D 70%)",
-};
-
-export function getScenarioGradient(scenarioId: string): string {
-  return SCENARIO_GRADIENTS[scenarioId] ?? "#0D0D0D";
-}
-
-// ─── SVG pattern components ────────────────────────────────────────────────────
+// SVG background pattern components — one per scenario, rendered behind the graph.
+// All patterns are pointer-events: none and never affect interaction.
 
 // Fall of Rome — Roman arch repeat
 function RomePattern({ opacity }: { opacity: number }) {
@@ -184,7 +109,7 @@ function SciencePattern({ opacity }: { opacity: number }) {
   );
 }
 
-// WWI — topographic contour repeat
+// WWI — barbed wire + trench cross-section repeat
 function WWIPattern({ opacity }: { opacity: number }) {
   return (
     <svg
@@ -221,7 +146,7 @@ function WWIPattern({ opacity }: { opacity: number }) {
   );
 }
 
-// Year Without a Summer — ash particle dots repeat
+// Year Without a Summer — volcanic plume / eruption cross-section
 function SummerPattern({ opacity }: { opacity: number }) {
   return (
     <svg
@@ -237,30 +162,30 @@ function SummerPattern({ opacity }: { opacity: number }) {
     >
       <defs>
         <pattern id="bg-summer" x="0" y="0" width="120" height="110" patternUnits="userSpaceOnUse">
-          <line x1="52" y1="100" x2="68" y2="100" stroke="#E8E3D5" stroke-width="1" />
+          <line x1="52" y1="100" x2="68" y2="100" stroke="#E8E3D5" strokeWidth="1" />
           <path
             d="M52,100 C48,90 44,82 46,74 C48,66 54,62 60,62 C66,62 72,66 74,74 C76,82 72,90 68,100"
             fill="none"
             stroke="#E8E3D5"
-            stroke-width="0.9"
+            strokeWidth="0.9"
           />
           <path
             d="M48,80 C42,70 36,58 40,46 C43,36 52,30 60,30 C68,30 77,36 80,46 C84,58 78,70 72,80"
             fill="none"
             stroke="#E8E3D5"
-            stroke-width="0.7"
+            strokeWidth="0.7"
           />
           <path
             d="M43,60 C36,48 30,32 36,20 C41,10 52,5 60,5 C68,5 79,10 84,20 C90,32 84,48 77,60"
             fill="none"
             stroke="#E8E3D5"
-            stroke-width="0.5"
+            strokeWidth="0.5"
           />
-          <line x1="20" y1="72" x2="16" y2="82" stroke="#E8E3D5" stroke-width="0.5" />
-          <line x1="96" y1="68" x2="100" y2="78" stroke="#E8E3D5" stroke-width="0.5" />
-          <line x1="10" y1="88" x2="7" y2="98" stroke="#E8E3D5" stroke-width="0.4" />
-          <line x1="108" y1="84" x2="111" y2="94" stroke="#E8E3D5" stroke-width="0.4" />
-          <line x1="0" y1="100" x2="120" y2="100" stroke="#E8E3D5" stroke-width="0.5" />
+          <line x1="20" y1="72" x2="16" y2="82" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="96" y1="68" x2="100" y2="78" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="10" y1="88" x2="7" y2="98" stroke="#E8E3D5" strokeWidth="0.4" />
+          <line x1="108" y1="84" x2="111" y2="94" stroke="#E8E3D5" strokeWidth="0.4" />
+          <line x1="0" y1="100" x2="120" y2="100" stroke="#E8E3D5" strokeWidth="0.5" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-summer)" />
@@ -289,35 +214,35 @@ function TemplarsPattern({ opacity }: { opacity: number }) {
             d="M44,44 L36,18 L64,18 L56,44 Z"
             fill="none"
             stroke="#E8E3D5"
-            stroke-width="0.9"
-            stroke-linejoin="miter"
+            strokeWidth="0.9"
+            strokeLinejoin="miter"
           />
           {/* Bottom arm */}
           <path
             d="M44,56 L36,82 L64,82 L56,56 Z"
             fill="none"
             stroke="#E8E3D5"
-            stroke-width="0.9"
-            stroke-linejoin="miter"
+            strokeWidth="0.9"
+            strokeLinejoin="miter"
           />
           {/* Left arm: narrow at right (y=44–56), wide at tip (y=36–64) */}
           <path
             d="M44,44 L18,36 L18,64 L44,56 Z"
             fill="none"
             stroke="#E8E3D5"
-            stroke-width="0.9"
-            stroke-linejoin="miter"
+            strokeWidth="0.9"
+            strokeLinejoin="miter"
           />
           {/* Right arm */}
           <path
             d="M56,44 L82,36 L82,64 L56,56 Z"
             fill="none"
             stroke="#E8E3D5"
-            stroke-width="0.9"
-            stroke-linejoin="miter"
+            strokeWidth="0.9"
+            strokeLinejoin="miter"
           />
           {/* Centre square */}
-          <rect x="44" y="44" width="12" height="12" fill="none" stroke="#E8E3D5" stroke-width="0.7" />
+          <rect x="44" y="44" width="12" height="12" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-templars)" />
@@ -392,7 +317,7 @@ function WrightPattern({ opacity }: { opacity: number }) {
   );
 }
 
-// Mongol Conquests — diamond chevrons suggesting cavalry arrow formations + steppe horizon
+// Mongol Conquests — cavalry arrow formations + steppe horizon
 function MongolsPattern({ opacity }: { opacity: number }) {
   return (
     <svg
@@ -408,17 +333,17 @@ function MongolsPattern({ opacity }: { opacity: number }) {
     >
       <defs>
         <pattern id="bg-mongols" x="0" y="0" width="160" height="110" patternUnits="userSpaceOnUse">
-          <path d="M70,12 C66,16 60,22 58,30" fill="none" stroke="#E8E3D5" stroke-width="0.9" />
-          <path d="M58,30 C56,42 56,54 60,55" fill="none" stroke="#E8E3D5" stroke-width="1.1" />
-          <path d="M60,55 C64,56 64,68 62,80" fill="none" stroke="#E8E3D5" stroke-width="1.1" />
-          <path d="M62,80 C60,88 64,96 70,98" fill="none" stroke="#E8E3D5" stroke-width="0.9" />
-          <line x1="70" y1="12" x2="70" y2="98" stroke="#E8E3D5" stroke-width="0.5" />
-          <line x1="70" y1="55" x2="15" y2="55" stroke="#E8E3D5" stroke-width="0.7" />
-          <path d="M15,55 L22,51 L20,55 L22,59 Z" fill="none" stroke="#E8E3D5" stroke-width="0.7" />
-          <path d="M65,55 L70,50 M65,55 L70,60" stroke="#E8E3D5" stroke-width="0.5" />
-          <line x1="56" y1="50" x2="60" y2="50" stroke="#E8E3D5" stroke-width="0.6" />
-          <line x1="56" y1="55" x2="60" y2="55" stroke="#E8E3D5" stroke-width="0.6" />
-          <line x1="56" y1="60" x2="60" y2="60" stroke="#E8E3D5" stroke-width="0.6" />
+          <path d="M70,12 C66,16 60,22 58,30" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <path d="M58,30 C56,42 56,54 60,55" fill="none" stroke="#E8E3D5" strokeWidth="1.1" />
+          <path d="M60,55 C64,56 64,68 62,80" fill="none" stroke="#E8E3D5" strokeWidth="1.1" />
+          <path d="M62,80 C60,88 64,96 70,98" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+          <line x1="70" y1="12" x2="70" y2="98" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="70" y1="55" x2="15" y2="55" stroke="#E8E3D5" strokeWidth="0.7" />
+          <path d="M15,55 L22,51 L20,55 L22,59 Z" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <path d="M65,55 L70,50 M65,55 L70,60" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="56" y1="50" x2="60" y2="50" stroke="#E8E3D5" strokeWidth="0.6" />
+          <line x1="56" y1="55" x2="60" y2="55" stroke="#E8E3D5" strokeWidth="0.6" />
+          <line x1="56" y1="60" x2="60" y2="60" stroke="#E8E3D5" strokeWidth="0.6" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-mongols)" />
@@ -601,7 +526,7 @@ function LouisianaPattern({ opacity }: { opacity: number }) {
   );
 }
 
-// Napster — audio waveform suggesting music, signal, transmission
+// Napster — distributed peer-to-peer network topology
 function NapsterPattern({ opacity }: { opacity: number }) {
   return (
     <svg
@@ -879,7 +804,7 @@ function HollywoodBirthPattern({ opacity }: { opacity: number }) {
   );
 }
 
-// Hollywood Code — scissors, symbol of censorship and cutting
+// Hollywood Code — censored film frames suggesting the Hays Code
 function HollywoodCodePattern({ opacity }: { opacity: number }) {
   return (
     <svg
@@ -1032,7 +957,7 @@ function F1BerniePattern({ opacity }: { opacity: number }) {
   );
 }
 
-// F1 Senna — racing helmet side profile
+// F1 Senna — Interlagos circuit layout
 function F1SennaPattern({ opacity }: { opacity: number }) {
   return (
     <svg
@@ -1063,8 +988,8 @@ function F1SennaPattern({ opacity }: { opacity: number }) {
            Z"
             fill="none"
             stroke="#E8E3D5"
-            stroke-width="1.2"
-            stroke-linejoin="round"
+            strokeWidth="1.2"
+            strokeLinejoin="round"
           />
           {/* Inner boundary (track width) */}
           <path
@@ -1081,14 +1006,14 @@ function F1SennaPattern({ opacity }: { opacity: number }) {
            Z"
             fill="none"
             stroke="#E8E3D5"
-            stroke-width="0.4"
+            strokeWidth="0.4"
           />
           {/* Start/finish line */}
-          <line x1="36" y1="158" x2="52" y2="158" stroke="#E8E3D5" stroke-width="1.2" />
-          <line x1="36" y1="154" x2="52" y2="154" stroke="#E8E3D5" stroke-width="0.4" />
+          <line x1="36" y1="158" x2="52" y2="158" stroke="#E8E3D5" strokeWidth="1.2" />
+          <line x1="36" y1="154" x2="52" y2="154" stroke="#E8E3D5" strokeWidth="0.4" />
           {/* Senna S chicane */}
-          <path d="M90,70 C84,64 80,58 86,52" fill="none" stroke="#E8E3D5" stroke-width="0.7" />
-          <path d="M86,52 C92,46 98,50 96,58" fill="none" stroke="#E8E3D5" stroke-width="0.7" />
+          <path d="M90,70 C84,64 80,58 86,52" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <path d="M86,52 C92,46 98,50 96,58" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-f1-senna)" />
@@ -1285,7 +1210,7 @@ function LibraryOfAlexandriaPattern({ opacity }: { opacity: number }) {
   );
 }
 
-// ─── Public export ─────────────────────────────────────────────────────────────
+// ─── Public switcher ───────────────────────────────────────────────────────────
 
 interface ScenarioPatternSvgProps {
   scenarioId: string;

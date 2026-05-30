@@ -7,9 +7,10 @@ import { TimelineBar } from "./TimelineBar";
 import { Legend } from "./Legend";
 import { OnboardingHint } from "./OnboardingHint";
 import { getScenarioGradient } from "../theme";
-import { SurpriseButton } from "./SurpriseButton";
-import { SearchButton } from "./SearchButton";
+import { GraphHeader } from "./GraphHeader";
 import type { CatenoScenario, CatenoNode } from "../types";
+
+const HINT_KEY = "cateno_hint_seen";
 
 interface GraphViewProps {
   scenario: CatenoScenario;
@@ -25,7 +26,6 @@ export function GraphView({ scenario, initialNodeId, onBack, onNodeFocus, onFocu
     useGraph(scenario);
 
   // Hint overlay — auto-shows once on first visit, always triggerable via ? button.
-  const HINT_KEY = "cateno_hint_seen";
   const [hintOpen, setHintOpen] = useState(false);
   useEffect(() => {
     if (localStorage.getItem(HINT_KEY)) return;
@@ -99,39 +99,7 @@ export function GraphView({ scenario, initialNodeId, onBack, onNodeFocus, onFocu
       className="w-full h-screen flex flex-col overflow-hidden"
       style={{ background: getScenarioGradient(scenario.id) }}
     >
-      {/* Header */}
-      <header
-        className="shrink-0 flex items-center gap-4 px-6 py-3"
-        style={{ borderBottom: "1px solid #181818" }}
-      >
-        <button
-          onClick={onBack}
-          className="text-[#E8E3D5]/30 hover:text-[#E8E3D5]/70 transition-colors duration-150 text-[12px] font-sans uppercase tracking-[0.15em] cursor-pointer flex items-center gap-1.5"
-        >
-          <span>←</span>
-          <span>Scenarios</span>
-        </button>
-
-        <div
-          className="w-px h-4 self-center"
-          style={{ background: "#2a2a2a" }}
-        />
-
-        <div>
-          <h1 className="text-[#E8E3D5] text-[17px] font-serif leading-none">
-            {scenario.title}
-          </h1>
-          <p className="text-[#E8E3D5]/30 text-[11px] font-sans mt-0.5">
-            {scenario.period}
-          </p>
-        </div>
-
-        {/* Right side — surprise + search */}
-        <div className="ml-auto flex items-center gap-2 pr-1">
-          <SurpriseButton />
-          <SearchButton />
-        </div>
-      </header>
+      <GraphHeader title={scenario.title} period={scenario.period} onBack={onBack} />
 
       {/* Graph + panel — overflow:hidden prevents the sliding panel from causing page-level scrollbars */}
       <div className="flex-1 min-h-0 relative overflow-hidden">
