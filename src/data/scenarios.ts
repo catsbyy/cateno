@@ -368,6 +368,30 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorYear: 1554,
     theme: "culture",
   },
+  {
+    id: "kyiv",
+    title: "The City That Made the Slavic World",
+    period: "482–1991",
+    description:
+      "One of the oldest cities in Europe, destroyed and rebuilt more times than almost any other. Kyiv gave the Slavic world its religion, its alphabet, and its first legal code — then watched Moscow inherit its legacy. A city that has always been at the centre of something larger than itself.",
+    anchorId: "volodymyr-baptism-988",
+    anchorTitle: "The Baptism of Kyiv",
+    anchorYear: 988,
+    nodeCount: 31,
+    theme: "culture",
+  },
+  {
+    id: "kanye-west",
+    title: "The Most Cancelled Man in Music History",
+    period: "1990–2026",
+    description:
+      "He changed what hip-hop could be about, what pop music could sound like, and what a sneaker could cost. Then he lost everything in 48 hours. Then 118,000 people in Istanbul broke the world record to see him. The scenario is not about whether he deserves it. It's about what his story reveals about how influence actually works.",
+    anchorId: "college-dropout-released",
+    anchorTitle: "The College Dropout",
+    nodeCount: 26,
+    anchorYear: 2004,
+    theme: "culture",
+  },
 ];
 
 // ─── Dynamic node loaders ──────────────────────────────────────────────────────
@@ -404,6 +428,8 @@ const NODE_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
   cats: () => import("./cats.json"),
   "library-of-alexandria": () => import("./library-of-alexandria.json"),
   "coffee-houses": () => import("./coffee-houses.json"),
+  "kanye-west": () => import("./kanye-west.json"),
+  kyiv: () => import("./kyiv.json"),
 };
 
 export async function loadScenarioNodes(id: string): Promise<CatenoNode[]> {

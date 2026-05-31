@@ -1,0 +1,464 @@
+[
+  {
+    "id": "hip-hop-as-street-music",
+    "title": "Hip-Hop's Unwritten Rules",
+    "wiki": "Hip_hop_music#Culture",
+    "year": 1990,
+    "keyword": "pressure",
+    "summary": "By the early 1990s, hip-hop had established a set of unwritten rules about who could make it and what it could be about. Authentic hip-hop required demonstrable proximity to street life — poverty, crime, struggle, survival. Artists who couldn't credibly claim this experience were dismissed as soft, commercial, or fake. The genre that had started as a voice for communities excluded from mainstream culture had created its own exclusions: suburban kids, middle-class experiences, emotional vulnerability, and religious sincerity were all suspect. This framework produced extraordinary music and also enforced a rigid ceiling on what the art form could address. A producer from the south side of Chicago who wore polo shirts and rapped about his mother was about to make it his problem.",
+    "causeIds": [],
+    "effectIds": [
+      "kanye-as-producer-first"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://i.pinimg.com/736x/48/df/76/48df760cf5a7b4e149dec4fdb3b2ed2b.jpg"
+  },
+  {
+    "id": "kanye-as-producer-first",
+    "title": "The Producer Who Wanted to Rap",
+    "wiki": "Kanye_West#1996–2002:_Early_work_and_Roc-A-Fella",
+    "year": 2001,
+    "keyword": "pressure",
+    "summary": "Kanye West established himself as one of the most gifted producers in hip-hop before anyone took seriously his ambition to be a rapper. His soul-sample beats — flipping sped-up vocal samples into propulsive, emotionally warm instrumentals — gave Jay-Z's The Blueprint (2001) its defining sound. He was commercially valuable and artistically respected as a producer. When he wanted to rap, Roc-A-Fella Records resisted: his background was wrong, his image was wrong, his subject matter was wrong. He didn't come from the street; he came from the suburbs of Chicago. He wore Ralph Lauren polo shirts. He rapped about his insecurities and his faith. Every label that passed on him was applying the same logic — and every label that passed on him was wrong.",
+    "causeIds": [
+      "hip-hop-as-street-music"
+    ],
+    "effectIds": [
+      "through-the-wire",
+      "college-dropout-released"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-235948-kanye-1.jpg?w=800"
+  },
+  {
+    "id": "through-the-wire",
+    "title": "Through the Wire",
+    "wiki": "Through_the_Wire",
+    "year": 2002,
+    "keyword": "spark",
+    "summary": "In October 2002, Kanye West fell asleep at the wheel after a long recording session and shattered his jaw in three places. His jaw was wired shut for six weeks. Two weeks after the accident, still in bandages, he went into the studio and recorded 'Through the Wire' — rapping through his wired jaw about nearly dying, about his mother sitting by his hospital bed, about gratitude and survival. The song was literally recorded with his mouth unable to fully open. The vulnerability was not performed; it was structural. The physical constraint that should have made the song impossible became the emotional core that made it essential. Nothing in the subsequent argument about authenticity in hip-hop was the same after a man rapped about almost dying with his jaw wired shut.",
+    "causeIds": [
+      "kanye-as-producer-first"
+    ],
+    "effectIds": [
+      "college-dropout-released"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f8/Through_the_Wire_Polaroid_Snapshot.jpg"
+  },
+  {
+    "id": "college-dropout-released",
+    "title": "The College Dropout",
+    "wiki": "The_College_Dropout",
+    "year": 2004,
+    "keyword": "turning-point",
+    "summary": "The College Dropout, released February 10, 2004, was one of the most consequential debut albums in hip-hop history — not because it was the best ever made, but because it proved that the genre's unwritten rules were wrong. Kanye rapped about dropping out of college, about working at the Gap, about praying, about his mother, about insecurity and ambition and middle-class aspiration. He wore a backpack on the cover. He used sped-up soul samples that felt warm and human in a genre that had moved toward aggressive, cold production. He sold 441,000 copies in its first week. The door that had been held shut against hip-hop's suburbs, its church-going sons, its polo-shirt-wearing producers — was now open.",
+    "causeIds": [
+      "kanye-as-producer-first",
+      "through-the-wire"
+    ],
+    "effectIds": [
+      "hip-hop-class-politics-change",
+      "kanye-as-celebrity-phenomenon"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a3/Kanyewest_collegedropout.jpg"
+  },
+  {
+    "id": "hip-hop-class-politics-change",
+    "title": "Hip-Hop Discovers the Middle Class",
+    "wiki": "The_College_Dropout$Influence",
+    "year": 2005,
+    "keyword": "consequence",
+    "summary": "The College Dropout's commercial and critical success made a new kind of hip-hop commercially viable. Artists who had been told their experiences were too suburban, too soft, or too emotionally open now had a template and a proof of concept. Drake built his entire career on the emotional openness Kanye legitimised — introspective, relationship-focused, openly vulnerable in ways that would have been commercially fatal before 2004. Kid Cudi's anxiety and depression became art. J. Cole's college experience became subject matter. Chance the Rapper's faith and joy became a persona. The genre that had required proximity to the street now had room for the entire range of Black male experience — because one producer from Chicago had refused to pretend he was something he wasn't.",
+    "causeIds": [
+      "college-dropout-released"
+    ],
+    "effectIds": [
+      "808s-heartbreak"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Kanye_West_Portland_Vertigo_Tour_2005.jpg"
+  },
+  {
+    "id": "kanye-as-celebrity-phenomenon",
+    "title": "The First Rapper to Be Famous for Being Himself",
+    "wiki": "Kanye_West",
+    "year": 2005,
+    "keyword": "shift",
+    "summary": "Kanye West became famous not just for his music but for himself — for his opinions, his contradictions, his grandiosity, his insecurities, his fashion sense, his feuds. 'George Bush doesn't care about Black people,' delivered live on national television during the Hurricane Katrina relief concert in 2005, was the first indication that he was a different kind of celebrity: one who would say exactly what he thought regardless of the professional consequences. He was performing himself — visibly, deliberately, at maximum volume — in a way that anticipated the social media age by several years. The celebrity as content, the personal as professional, the opinion as brand: Kanye was doing this before the infrastructure for it existed.",
+    "causeIds": [
+      "college-dropout-released"
+    ],
+    "effectIds": [
+      "vma-taylor-swift",
+      "saint-pablo-breakdown"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTIzYmNmOGQtYjY5ZS00OWI0LWE3MDYtNGEyMzczOTk3Mzg4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": "donda-dies",
+    "title": "His Mother Dies",
+    "wiki": "Donda_West",
+    "year": 2007,
+    "keyword": "catalyst",
+    "summary": "Donda West — Kanye's mother, his first collaborator, the woman whose faith and ambition had shaped everything about him — died on November 10, 2007, from complications following cosmetic surgery. She was 58. Kanye had publicly credited her with everything; she appeared on his album covers, in his interviews, at his shows. Her death devastated him in ways he made no attempt to hide. He cancelled tour dates, retreated from public life, and eventually went into the studio and made something that sounded like nothing he had made before — or like nothing anyone had made before. The grief that produced 808s & Heartbreak was not processed privately. It was processed on record, at volume, for the whole world to hear.",
+    "causeIds": [],
+    "effectIds": [
+      "808s-heartbreak"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://imagenes.elpais.com/resizer/v2/GFRG5YDOSNDW3LPBVQQQCILKMQ.jpeg?auth=d5e46c6e9e19e2707562833440d2b12684840960d7cc81653f4b25a9df4d269d&width=1200"
+  },
+  {
+    "id": "808s-heartbreak",
+    "title": "808s & Heartbreak",
+    "wiki": "808s_%26_Heartbreak",
+    "year": 2008,
+    "keyword": "shift",
+    "summary": "808s & Heartbreak, released November 2008, used Auto-Tune not as a gimmick but as a grief instrument — Kanye singing rather than rapping, his voice electronically processed into something that sounded like crying made technological. The album was made in the immediate aftermath of his mother's death and a broken engagement. Critics were largely baffled; many called it a failure. It sold less than his previous albums. Then something happened: over the next five years, the emotional register of 808s quietly became the dominant sound of pop music. Drake's singing style, The Weeknd's atmospheric darkness, Travis Scott's melodic rap, the entire emotional vocabulary of 2010s mainstream music — all of it is audibly descended from an album that was panned on release as a misstep.",
+    "causeIds": [
+      "donda-dies",
+      "hip-hop-class-politics-change"
+    ],
+    "effectIds": [
+      "modern-pop-emotional-register",
+      "mbdtf-peak"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f1/808s_%26_Heartbreak.png"
+  },
+  {
+    "id": "modern-pop-emotional-register",
+    "title": "808s Becomes the Sound of a Generation",
+    "wiki": "808s_%26_Heartbreak#Legacy",
+    "year": 2010,
+    "keyword": "consequence",
+    "summary": "The influence of 808s & Heartbreak on subsequent popular music is one of the clearest cases of a critically underestimated album becoming a foundational text. Drake cited it as the primary influence on his singing style; The Weeknd's debut mixtapes are essentially 808s extended into darkness; Travis Scott's melodic approach to rap flows directly from it; Post Malone's entire career is unimaginable without the template. Beyond individual artists, the album normalised male emotional expression in hip-hop — vulnerability, heartbreak, longing — in ways that permanently changed what men were allowed to sound like in popular music. An album made in grief, over a drum machine, with Auto-Tune, in six weeks, became one of the most influential records of the 21st century.",
+    "causeIds": [
+      "808s-heartbreak"
+    ],
+    "effectIds": [
+      "drake-the-weeknd-lineage"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://hiphop-n-more.com/wp-content/uploads/2015/05/drake-juicy-j.jpg"
+  },
+  {
+    "id": "drake-the-weeknd-lineage",
+    "title": "The Artists He Made Possible",
+    "wiki": "Drake_(musician)#Musical_style",
+    "year": 2012,
+    "keyword": "consequence",
+    "summary": "The artists whose careers are most directly traceable to Kanye West's innovations collectively dominate mainstream music in ways that demonstrate the scale of his influence. Drake — the best-selling musical artist of the streaming era — built his persona on the emotional openness The College Dropout legitimised and the singing style 808s pioneered. The Weeknd's atmospheric R&B descends from the same source. Travis Scott's production aesthetic, his melodic rap, and his staging spectacle all trace back to Kanye's innovations. Kid Cudi, J. Cole, Chance the Rapper, Childish Gambino — the defining voices of a generation each represent a different facet of what Kanye made possible. The most commercially successful music of the 2010s and 2020s was largely made by people following a map he drew.",
+    "causeIds": [
+      "modern-pop-emotional-register"
+    ],
+    "effectIds": [
+      "kanye-as-cultural-architect"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://www.nme.com/wp-content/uploads/2016/09/2012DrakeEB250412-2-696x464.jpg"
+  },
+  {
+    "id": "vma-taylor-swift",
+    "title": "'I'll Let You Finish'",
+    "wiki": "2009_MTV_Video_Music_Awards#Kanye_West–Taylor_Swift_incident",
+    "year": 2009,
+    "keyword": "spark",
+    "summary": "At the 2009 MTV Video Music Awards, Taylor Swift accepted the award for Best Female Video. Kanye West walked on stage, took the microphone from her hand, and told the audience that Beyoncé had one of the best videos of all time. It was 30 seconds of television that generated more cultural commentary than most careers produce in a lifetime. Kanye became the villain of a story that Taylor Swift would spend the next decade and a half rewriting. More immediately, the incident demonstrated the pattern that would define his public life: the impulse to say exactly what he thought, regardless of context, regardless of consequences, at the worst possible moment. His response was to retreat, reflect, and make My Beautiful Dark Twisted Fantasy — the creative response to public humiliation becoming the best album of his career.",
+    "causeIds": [
+      "kanye-as-celebrity-phenomenon"
+    ],
+    "effectIds": [
+      "mbdtf-peak"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://ew.com/thmb/2FS55AlBFof2ssy4U9fTcO9kpUw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-90713093-2000-cb829b21e6ae42508b97b2c5aa54d8f3.jpg"
+  },
+  {
+    "id": "mbdtf-peak",
+    "title": "My Beautiful Dark Twisted Fantasy",
+    "wiki": "My_Beautiful_Dark_Twisted_Fantasy",
+    "year": 2010,
+    "keyword": "turning-point",
+    "summary": "My Beautiful Dark Twisted Fantasy, released November 2010, achieved what almost no album achieves: unanimous critical consensus that it was a masterpiece. Metacritic scored it 94 out of 100 — one of the highest ratings ever given to a hip-hop album. Maximalist where Yeezus would be minimalist, orchestral where 808s had been sparse, self-mythologising where The College Dropout had been self-deprecating, MBDTF was the summation of everything Kanye had developed — the soul samples, the grandiosity, the emotional honesty, the willingness to make rap music that sounded like nothing rap music had sounded like before. It was made in creative exile in Hawaii after the Taylor Swift incident, which may explain why it sounded like a man with nothing left to lose.",
+    "causeIds": [
+      "vma-taylor-swift",
+      "808s-heartbreak"
+    ],
+    "effectIds": [
+      "kanye-as-cultural-architect",
+      "yeezus-industrial"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f0/My_Beautiful_Dark_Twisted_Fantasy.jpg"
+  },
+  {
+    "id": "yeezus-industrial",
+    "title": "Yeezus — Burning Everything Down",
+    "wiki": "Yeezus",
+    "year": 2013,
+    "keyword": "shift",
+    "summary": "Yeezus (2013) was the deliberate inversion of everything that had made MBDTF successful. Where MBDTF was lush and maximalist, Yeezus was abrasive and minimal — industrial beats, distorted samples, songs that sounded like they were designed to be uncomfortable. It was the work of an artist who had achieved everything and decided to destroy the aesthetic that had achieved it. Critically divisive in ways MBDTF had not been, Yeezus nonetheless anticipated the direction that avant-garde rap would take in the following decade — the willingness to make music that was confrontational rather than pleasurable, that challenged rather than rewarded the listener. Death Grips, Travis Scott's harder productions, 21 Savage's minimalism — all exist in a space that Yeezus helped open.",
+    "causeIds": [
+      "mbdtf-peak"
+    ],
+    "effectIds": [
+      "kanye-as-cultural-architect"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Yeezus_album_cover.png"
+  },
+  {
+    "id": "kanye-as-cultural-architect",
+    "title": "The Most Influential Artist of His Generation",
+    "wiki": "Kanye_West#Musical_influence",
+    "year": 2013,
+    "keyword": "consequence",
+    "summary": "By 2013, Kanye West's position in the culture was without parallel among his contemporaries. He had made six studio albums, each commercially successful and each artistically distinct from the last. He had changed the emotional register of hip-hop, the production vocabulary of pop, and the relationship between Black music and high fashion. Every significant artist working in hip-hop was either directly influenced by him, explicitly reacting against him, or consciously positioned in relation to his aesthetic. Critics who had dismissed individual albums as failures were compelled to acknowledge the cumulative achievement. He was not merely a successful artist — he was the framework within which other artists had to define themselves.",
+    "causeIds": [
+      "mbdtf-peak",
+      "yeezus-industrial",
+      "drake-the-weeknd-lineage"
+    ],
+    "effectIds": [
+      "yeezy-sneaker-empire",
+      "saint-pablo-breakdown"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Yeezus_tour.jpg"
+  },
+  {
+    "id": "yeezy-sneaker-empire",
+    "title": "The Sneaker Becomes a Luxury Object",
+    "wiki": "Adidas_Yeezy",
+    "year": 2015,
+    "keyword": "turning-point",
+    "summary": "After earlier collaborations with Nike, Kanye signed with Adidas in 2013 and launched the Yeezy line — sneakers designed with the aesthetic sensibility of high fashion but the cultural reach of streetwear. At peak, Yeezy generated an estimated $1.5 billion in annual revenue for Adidas, making it the brand's most profitable line. More significantly, Yeezy industrialised the sneaker as a speculative asset: limited releases sold out in seconds, resale values multiplied immediately, and the secondary market for Yeezy products became a significant economic phenomenon. The idea of a sneaker as an investment object — to be purchased, held, and sold at profit — was not invented by Kanye, but the Yeezy line scaled it into a mainstream economic behaviour. He had turned footwear into a financial instrument.",
+    "causeIds": [
+      "kanye-as-cultural-architect"
+    ],
+    "effectIds": [
+      "billionaire-status",
+      "adidas-drops-kanye"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Adidas_Yeezy_Boost_%22Oxford_Tan%22.jpg"
+  },
+  {
+    "id": "billionaire-status",
+    "title": "The First Hip-Hop Billionaire",
+    "wiki": "Kanye_West#Personal_life",
+    "year": 2020,
+    "keyword": "consequence",
+    "summary": "By 2020, Kanye West had joined Jay-Z as one of the first hip-hop billionaires — his wealth derived primarily from the Yeezy brand with Adidas rather than from music. The achievement was remarkable not just in scale but in what it represented: a rapper had built a fortune comparable to the most successful athletes and entertainers in history, primarily through fashion rather than performance. Forbes confirmed the billionaire status that Kanye had been claiming for years. It was also the precise moment that established how much he had to lose. Two years later, it would all be gone.",
+    "causeIds": [
+      "yeezy-sneaker-empire"
+    ],
+    "effectIds": [
+      "antisemitic-statements"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://media.gq.com/photos/5e94dfddd695ee0009153e93/4:3/w_2999,h_2249,c_limit/kanye-west-gq-cover-may-2020-promo.jpg"
+  },
+  {
+    "id": "saint-pablo-breakdown",
+    "title": "The Breakdown",
+    "wiki": "Kanye_West#Mental_health",
+    "year": 2016,
+    "keyword": "collapse",
+    "summary": "On November 19, 2016, Kanye West stopped a Saint Pablo Tour concert after 30 minutes and delivered a rambling monologue before walking off stage. The tour was cancelled; he was hospitalised for psychiatric evaluation days later and kept for over a week. His diagnosis — bipolar disorder — became public knowledge. The hospitalisation was the most visible moment in a pattern that had been visible for years: the grandiosity, the impulsiveness, the midnight tweets, the sudden pivots in belief and allegiance, the statements that seemed calibrated to cause maximum controversy. Mental illness does not excuse the statements that followed, but it provides context for understanding why a man of extraordinary intelligence kept doing things that were against his own interests.",
+    "causeIds": [
+      "kanye-as-celebrity-phenomenon",
+      "kanye-as-cultural-architect"
+    ],
+    "effectIds": [
+      "trump-visit"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://preview.redd.it/saint-pablo-tour-was-something-else-v0-9oqn0t5lbpe41.jpg?width=640&crop=smart&auto=webp&s=a9cc6f3d1be1cca17931ac5036d4d4ced7594fec"
+  },
+  {
+    "id": "trump-visit",
+    "title": "The Trump Tower Meeting",
+    "wiki": "Kanye_West#Politics",
+    "year": 2016,
+    "keyword": "catalyst",
+    "summary": "Three weeks after his psychiatric hospitalisation, Kanye West visited Donald Trump at Trump Tower — emerging from the meeting to tell reporters that the two had discussed 'multicultural issues.' The visit fractured his audience along lines that would never fully heal. For many Black fans and collaborators, it was an unforgivable endorsement of a politician associated with white nationalism; for others, it was the action of a mentally ill man in a fragile state being used for a photo opportunity. In subsequent years, Kanye's political statements became increasingly extreme — he wore a MAGA hat on Saturday Night Live, he ran for president in 2020, he made statements about slavery being 'a choice.' Each provocation widened the fracture the Trump visit had opened.",
+    "causeIds": [
+      "saint-pablo-breakdown"
+    ],
+    "effectIds": [
+      "antisemitic-statements"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://static01.nyt.com/images/2016/12/13/us/14xp-kanye/14xp-kanye-superJumbo-v3.jpg"
+  },
+  {
+    "id": "antisemitic-statements",
+    "title": "The Statements That Ended Everything",
+    "wiki": "Kanye_West#Antisemitism",
+    "year": 2022,
+    "keyword": "collapse",
+    "summary": "In October 2022, Kanye West posted on Twitter: 'I'm a bit sleepy tonight but when I wake up I'm going death con 3 ON JEWISH PEOPLE.' The statement was the most explicit in a series of antisemitic remarks that had been escalating for months. It was followed by an interview in which he said he liked Hitler, and a appearance with conspiracy theorist Alex Jones in which he expressed admiration for Nazis. The statements were not ambiguous, not metaphorical, and not deniable. They were also made by a man who had been publicly hospitalised for psychiatric illness, whose diagnosis was known, and whose history of escalating public provocations had been visible for years. None of this made the statements acceptable; all of it made them comprehensible as part of a pattern.",
+    "causeIds": [
+      "trump-visit",
+      "billionaire-status"
+    ],
+    "effectIds": [
+      "adidas-drops-kanye"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://cdn.abcotvs.com/dip/images/12250504_092222-wls-n1-kanye-intv-pkg-vid.jpg"
+  },
+  {
+    "id": "adidas-drops-kanye",
+    "title": "Adidas Ends the Partnership",
+    "wiki": "Adidas_Yeezy#Termination_of_Adidas_partnership",
+    "year": 2022,
+    "keyword": "collapse",
+    "summary": "On October 25, 2022, Adidas terminated its partnership with Kanye West, ending the Yeezy line and costing Kanye an estimated $1.5 billion in annual revenue. He lost his billionaire status within days. The decision came after weeks of public pressure on Adidas to act, following Kanye's antisemitic statements. Gap, Balenciaga, his talent agency CAA, the documentary company MRC, and others followed within days. The speed and completeness of the corporate abandonment was extraordinary: a man who had been a billionaire with global brand partnerships was, within weeks, without any institutional support of any kind. It was the most complete cancellation of a commercially significant artist in the history of popular music.",
+    "causeIds": [
+      "antisemitic-statements",
+      "yeezy-sneaker-empire"
+    ],
+    "effectIds": [
+      "total-corporate-abandonment"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://static01.nyt.com/images/2022/10/25/multimedia/25adidas-kanye-1-db1a/25adidas-kanye-1-db1a-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+  },
+  {
+    "id": "total-corporate-abandonment",
+    "title": "The Most Complete Cancellation in Music History",
+    "wiki": "Kanye_West",
+    "year": 2022,
+    "keyword": "consequence",
+    "summary": "Within weeks of the Adidas termination, Kanye West had lost every significant corporate relationship he possessed: Gap ended its Yeezy Gap collaboration, Balenciaga severed its creative partnership, CAA dropped him as a client, MRC shelved a completed documentary, and multiple other companies distanced themselves. He had no label, no fashion partners, no talent representation, no streaming deals, and no corporate backing of any kind. He was also banned from several social media platforms. The infrastructure that had made him one of the most commercially powerful figures in entertainment had been entirely dismantled in a matter of weeks. What remained was the music — and the question of whether music alone was enough.",
+    "causeIds": [
+      "adidas-drops-kanye"
+    ],
+    "effectIds": [
+      "european-bans",
+      "artistic-survival-without-institutions"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://i.ytimg.com/vi/Ebi6iQJIm4w/maxresdefault.jpg"
+  },
+  {
+    "id": "artistic-survival-without-institutions",
+    "title": "Making Music Without the Machine",
+    "wiki": "Vultures_1",
+    "year": 2024,
+    "keyword": "shift",
+    "summary": "Vultures 1, released February 2024 in collaboration with Ty Dolla Sign, was Kanye's first major release after the corporate collapse — made without a major label, without Adidas, without the institutional infrastructure that had supported his previous work. It debuted at number one on the Billboard 200. The album demonstrated that his audience had not entirely disappeared, that the music could still find listeners without corporate promotion, and that the direct-to-fan distribution model he had been forced into by circumstances could work at scale. The collaboration with Travis Scott on 'FATHERi' in March 2026 — generating immediate commercial success — further demonstrated that the cancellation had not cancelled the cultural influence.",
+    "causeIds": [
+      "total-corporate-abandonment"
+    ],
+    "effectIds": [
+      "wsi-apology",
+      "istanbul-concert-2026"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b2/Kanye_West_and_Ty_Dolla_Sign_%28%C2%A5%24%29_%E2%80%93_Vultures.png"
+  },
+  {
+    "id": "european-bans",
+    "title": "Countries Start Closing Their Doors",
+    "wiki": "Kanye_West",
+    "year": 2025,
+    "keyword": "pressure",
+    "summary": "Through 2025 and into 2026, several European countries and venues refused to permit Kanye West to perform — citing his antisemitic statements as incompatible with public order or national laws against incitement. The United Kingdom, France, Poland, and Switzerland all either cancelled scheduled shows or blocked entry. The bans represented a new category of consequence: not corporate but governmental, not economic but civic. They also had an unintended effect: the countries where he could not perform became evidence of demand. Fans from France, Germany, the UK, and Poland — countries that had banned him or where shows had been cancelled — purchased tickets to Istanbul. The ban on his presence in their countries had not diminished their desire to see him.",
+    "causeIds": [
+      "total-corporate-abandonment"
+    ],
+    "effectIds": [
+      "wsi-apology",
+      "istanbul-concert-2026"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://people.com/thmb/0xVz3OuKDcy0qL4z_8udpQigc8A=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(761x478:763x480)/kanye-west-bianca-censori-grammy-awards-020425-1-2c2bfbd5d2f64642ad975985d77471dc.jpg"
+  },
+  {
+    "id": "wsi-apology",
+    "title": "The Wall Street Journal Apology",
+    "wiki": "Kanye_West#Antisemitism",
+    "year": 2026,
+    "keyword": "catalyst",
+    "summary": "In January 2026, Kanye West published a full-page apology in the Wall Street Journal, addressing his antisemitic statements and expressing remorse. The apology was received with varying degrees of scepticism — given the history of statements followed by partial retractions followed by further statements, many found it difficult to assess its sincerity. What it represented structurally was a recognition that the path back to the venues and markets where he wanted to perform required some public acknowledgement of what he had said. Whether the apology was genuine contrition or strategic rehabilitation, it was followed four months later by the largest ticketed stadium concert in history — suggesting that, for 118,000 people in Istanbul, it was sufficient.",
+    "causeIds": [
+      "european-bans",
+      "artistic-survival-without-institutions"
+    ],
+    "effectIds": [
+      "istanbul-concert-2026"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://www.rollingstone.com/wp-content/uploads/2026/05/kanye-netherlands-performance.jpg?w=1581&h=1054&crop=1"
+  },
+  {
+    "id": "istanbul-concert-2026",
+    "title": "Istanbul — 118,000",
+    "wiki": "Kanye_West",
+    "year": 2026,
+    "keyword": "turning-point",
+    "summary": "On May 30, 2026, Kanye West performed at Istanbul's Atatürk Olympic Stadium before 118,000 people — the largest ticketed stadium concert in history. The audience included fans who had travelled from France, the United Kingdom, Poland, Germany, and other countries where his concerts had been banned or cancelled. He opened with 'King' and, mid-show, told the audience: 'I just want to tell y'all, we just broke the record, 118,000, largest stadium performance of all time.' The concert was the opening night of his first European tour in eleven years. Three and a half years after the most complete corporate cancellation in the history of popular music, the most cancelled artist of his generation had assembled the largest concert audience ever recorded.",
+    "causeIds": [
+      "european-bans",
+      "wsi-apology",
+      "artistic-survival-without-institutions"
+    ],
+    "effectIds": [
+      "influence-without-institutions"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "hhttps://thesun.my/wp-content/uploads/2026/05/Kanye-West-AFP.webp"
+  },
+  {
+    "id": "influence-without-institutions",
+    "title": "What Istanbul Means",
+    "wiki": "Kanye_West",
+    "year": 2026,
+    "keyword": "consequence",
+    "summary": "The Istanbul concert poses a question that the scenario cannot answer but cannot avoid: what is the relationship between institutional power and cultural influence? Kanye West had been dropped by every corporate partner, banned by multiple governments, removed from social media platforms, and declared finished by the entertainment industry. He had also changed the emotional vocabulary of popular music, produced the most influential hip-hop albums of his generation, and demonstrated that an artist's hold on an audience can survive the complete withdrawal of institutional support. 118,000 people in Istanbul did not attend because Adidas told them to, or because a streaming algorithm promoted him, or because a talent agency booked the show. They attended because the music had mattered to them. The institution and the influence had separated — and the influence remained.",
+    "causeIds": [
+      "istanbul-concert-2026"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://image.hurimg.com/i/hurriyet/75/0x0/6a1c0452cd2f8ff319451c85.jpg",
+    "relatedScenario": {
+      "scenarioId": "napster",
+      "nodeId": "labels-saved-by-streaming",
+      "label": "Connects to How Napster Broke Music"
+    }
+  }
+]

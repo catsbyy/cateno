@@ -1210,6 +1210,113 @@ function LibraryOfAlexandriaPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Kanye West — mortarboard graduation figure repeat
+function KanyeWestPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-kanye-west" x="0" y="0" width="120" height="160" patternUnits="userSpaceOnUse">
+          <g transform="translate(60, 80)">
+            {/* Mortarboard */}
+            <rect x="-18" y="-62" width="36" height="6" rx="1"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
+            <line x1="0" y1="-56" x2="0" y2="-50" stroke="#E8E3D5" strokeWidth="0.85"/>
+            <line x1="18" y1="-59" x2="24" y2="-50" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="24" y1="-50" x2="24" y2="-40" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="21" y1="-40" x2="24" y2="-35" stroke="#E8E3D5" strokeWidth="0.5"/>
+            <line x1="24" y1="-40" x2="24" y2="-35" stroke="#E8E3D5" strokeWidth="0.5"/>
+            <line x1="27" y1="-40" x2="24" y2="-35" stroke="#E8E3D5" strokeWidth="0.5"/>
+            {/* Head */}
+            <circle cx="0" cy="-36" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
+            <circle cx="-13" cy="-50" r="5" fill="none" stroke="#E8E3D5" strokeWidth="0.8"/>
+            <circle cx="13" cy="-50" r="5" fill="none" stroke="#E8E3D5" strokeWidth="0.8"/>
+            {/* Face */}
+            <ellipse cx="0" cy="-31" rx="7" ry="5" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+            <ellipse cx="0" cy="-33" rx="2.5" ry="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <circle cx="-6" cy="-40" r="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <circle cx="6" cy="-40" r="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+            {/* Gown */}
+            <path d="M-6,-20 L-8,-14 L8,-14 L6,-20"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
+            <path d="M-14,-14 C-16,-8 -20,10 -22,32 L22,32 C20,10 16,-8 14,-14 Z"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinejoin="round"/>
+            <line x1="0" y1="-14" x2="0" y2="32" stroke="#E8E3D5" strokeWidth="0.4"/>
+            {/* Arms */}
+            <path d="M-14,0 C-22,-2 -28,4 -26,12"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round"/>
+            <circle cx="-26" cy="14" r="4" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <path d="M14,0 C22,-2 28,4 26,12"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round"/>
+            <circle cx="26" cy="14" r="4" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+            {/* Legs */}
+            <path d="M-10,32 C-12,38 -14,44 -12,50"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round"/>
+            <ellipse cx="-11" cy="53" rx="6" ry="3.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <path d="M10,32 C12,38 14,44 12,50"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round"/>
+            <ellipse cx="11" cy="53" rx="6" ry="3.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-kanye-west)" />
+    </svg>
+  );
+}
+
+// Kyiv — tryzub (Ukrainian trident) repeat
+function KyivPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-kyiv" x="0" y="0" width="100" height="130" patternUnits="userSpaceOnUse">
+          <g transform="translate(50, 65)">
+            {/* Centre prong */}
+            <path d="M-4,18 L-4,-8 L0,-26 L4,-8 L4,18 Z"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinejoin="round"/>
+            {/* Left prong */}
+            <path d="M-4,10 C-12,8 -22,4 -26,-4 C-29,-12 -26,-22 -20,-24
+                     C-15,-26 -12,-20 -14,-14 C-15,-10 -18,-8 -16,-4
+                     C-14,0 -8,4 -4,6"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round"/>
+            {/* Right prong */}
+            <path d="M4,10 C12,8 22,4 26,-4 C29,-12 26,-22 20,-24
+                     C15,-26 12,-20 14,-14 C15,-10 18,-8 16,-4
+                     C14,0 8,4 4,6"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round"/>
+            {/* Crossbar */}
+            <line x1="-28" y1="18" x2="28" y2="18" stroke="#E8E3D5" strokeWidth="0.85"/>
+            {/* Foot */}
+            <line x1="0" y1="18" x2="0" y2="28" stroke="#E8E3D5" strokeWidth="0.85"/>
+            {/* Foot serif */}
+            <line x1="-8" y1="28" x2="8" y2="28" stroke="#E8E3D5" strokeWidth="0.85"/>
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-kyiv)" />
+    </svg>
+  );
+}
+
 // ─── Public switcher ───────────────────────────────────────────────────────────
 
 interface ScenarioPatternSvgProps {
@@ -1277,6 +1384,10 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
       return <LibraryOfAlexandriaPattern opacity={opacity} />;
     case "coffee-houses":
       return <CoffeeHousesPattern opacity={opacity} />;
+    case "kanye-west":
+      return <KanyeWestPattern opacity={opacity} />;
+    case "kyiv":
+      return <KyivPattern opacity={opacity} />;
     default:
       return null;
   }

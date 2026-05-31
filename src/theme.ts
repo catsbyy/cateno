@@ -36,6 +36,8 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "emu-war": "#212b0d",
   "library-of-alexandria": "#241a08",
   "coffee-houses": "#2a1508",
+  "kanye-west": "#1a1008",
+  kyiv: "#0e1a2e",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -68,6 +70,8 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "emu-war": "radial-gradient(ellipse at center, #212b0d 0%, #0D0D0D 70%)",
   "library-of-alexandria": "radial-gradient(ellipse at center, #241a08 0%, #0D0D0D 70%)",
   "coffee-houses": "radial-gradient(ellipse at center, #2a1508 0%, #0D0D0D 70%)",
+  "kanye-west": "radial-gradient(ellipse at center, #1a1008 0%, #0D0D0D 70%)",
+  kyiv: "radial-gradient(ellipse at center, #0e1a2e 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {

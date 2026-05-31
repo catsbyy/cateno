@@ -1,0 +1,572 @@
+[
+  {
+    "id": "dnipro-trade-route",
+    "title": "The River That Made the City",
+    "wiki": "Dnieper",
+    "year": 800,
+    "keyword": "catalyst",
+    "summary": "The Dnipro River runs from the forests of northern Europe to the Black Sea — a natural highway connecting the Baltic world to the Byzantine civilisation of the south. Kyiv sits on a high bluff above the Dnipro at the precise point where the river becomes navigable from the north, where goods from different river systems converge, and where a defensible position overlooked the most productive section of the route. The city's existence before it was a city was a function of geography: this was where you had to stop, where you had to trade, where fortifications made sense. Every empire that held Kyiv held it because of the river. History gave Kyiv enormous importance. Geography made it inevitable.",
+    "causeIds": [
+      "kyiv-legendary-founding"
+    ],
+    "effectIds": [
+      "varangians-found-kyiv"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://ychef.files.bbci.co.uk/1280x720/p00vxr5t.jpg"
+  },
+  {
+    "id": "varangians-found-kyiv",
+    "title": "Norse Traders on the Dnipro",
+    "wiki": "Varangians",
+    "year": 860,
+    "keyword": "shift",
+    "summary": "The Varangians — Norse merchants and mercenaries who ranged far beyond Scandinavia — established the trade route they called the 'way from the Varangians to the Greeks': from the Baltic down through rivers and portages to the Dnipro, and down the Dnipro to Constantinople. Kyiv was the critical waypoint. The Varangians didn't build a city so much as recognise that one was inevitable at this location: a fortified trading post where goods could be accumulated, crews could rest, and tolls collected from everyone using the river. The Norse ruling dynasty they established — the Rurikids — would govern Kyiv and its successors for seven centuries. Their name became the name of the whole civilisation: Rus. A trading post on a bluff above a river was becoming the mother of cities.",
+    "causeIds": [
+      "dnipro-trade-route"
+    ],
+    "effectIds": [
+      "kyiv-becomes-slavic-capital"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/%D0%92%D0%B0%D1%80%D1%8F%D0%B3%D0%B8.jpg"
+  },
+  {
+    "id": "kyiv-becomes-slavic-capital",
+    "title": "The Mother of Rus Cities",
+    "wiki": "Kievan_Rus%27",
+    "year": 882,
+    "keyword": "shift",
+    "summary": "In 882, the Varangian prince Oleh of Novgorod captured Kyiv and declared it the capital of a unified Rus polity. 'Let this be the mother of Rus cities,' he reportedly said — and whether or not he said it, the phrase captures what Kyiv was: the political and commercial centre of the largest state in Europe by area, connecting Norse north to Byzantine south along the most important trade route in the medieval world. Over the following century, Kyiv grew from a fortified trading post into a genuine city — one that would, at its peak under Yaroslav the Wise, rival Paris and London in population and Constantinople in cultural ambition. For three centuries, every road in the Slavic world led to Kyiv.",
+    "causeIds": [
+      "varangians-found-kyiv"
+    ],
+    "effectIds": [
+      "kyiv-cosmopolitan-city",
+      "volodymyr-chooses-religion"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://destinations.ua/storage/images/Articles17/Blog17/KievanRus/1112.jpg"
+  },
+  {
+    "id": "kyiv-cosmopolitan-city",
+    "title": "The World Comes to Kyiv",
+    "wiki": "Kievan_Rus%27#Society",
+    "year": 950,
+    "keyword": "shift",
+    "summary": "At its height, 11th-century Kyiv was one of the most cosmopolitan cities on Earth. Norse Varangians served as the prince's bodyguard; Byzantine artists painted its churches; Jewish merchants from the Khazar world ran its markets (Kyiv had a substantial Jewish community centuries before most European cities); Armenian traders had their own quarter; Pecheneg and later Cuman nomads camped outside its walls as allies and rivals. The city spoke a dozen languages and practised several religions before the baptism of 988 formalised the Orthodox majority. This diversity was not incidental — it was the product of the trade route. When you sit at the junction of the Baltic, Byzantine, and steppe worlds, the world comes to you. Kyiv was international before the concept existed.",
+    "causeIds": [
+      "kyiv-becomes-slavic-capital"
+    ],
+    "effectIds": [
+      "volodymyr-chooses-religion",
+      "kyiv-peak-yaroslav"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Bilibin_justice.jpg"
+  },
+  {
+    "id": "volodymyr-chooses-religion",
+    "title": "Volodymyr Examines the World's Faiths",
+    "wiki": "Christianization_of_Kievan_Rus%27",
+    "year": 987,
+    "keyword": "catalyst",
+    "summary": "The Primary Chronicle — compiled by Kyivan monks roughly 130 years after the events — records that Volodymyr the Great sent envoys to examine the major faiths before choosing one for his people. Islam was rejected: 'Drinking is the joy of the Rus; we cannot exist without that pleasure.' Judaism was rejected because its adherents had lost Jerusalem. Western Christianity was found insufficiently impressive. But Volodymyr's envoys who witnessed the liturgy at Hagia Sophia in Constantinople reported: 'We knew not whether we were in heaven or on earth. For on earth there is no such splendour or such beauty.' The decision that would define a civilisation was shaped — in the telling that came down to us — by the aesthetics of a church service. Kyiv chose the most beautiful thing it had ever seen.",
+    "causeIds": [
+      "kyiv-becomes-slavic-capital",
+      "kyiv-cosmopolitan-city"
+    ],
+    "effectIds": [
+      "volodymyr-baptism-988"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://uploads8.wikiart.org/images/viktor-vasnetsov/baptism-of-prince-vladimir-fragment-of-the-vladimir-cathedral-in-kiev-1893.jpg!Large.jpg"
+  },
+  {
+    "id": "volodymyr-baptism-988",
+    "title": "The Baptism of Kyiv",
+    "wiki": "Christianization_of_Kievan_Rus%27",
+    "year": 988,
+    "keyword": "turning-point",
+    "summary": "In 988, Volodymyr the Great was baptised at Chersonesus in Crimea, married the Byzantine Princess Anna — sister of Emperor Basil II — and returned to Kyiv to baptise his people. The mass baptism in the Dnipro is one of the most consequential single events in Slavic history. In choosing Orthodox Christianity, Volodymyr aligned Kyiv — and through Kyiv, the entire Rus world — with Byzantine civilisation: with the Greek tradition, the Greek alphabet, Greek art and architecture, Greek legal thinking and political philosophy. This single decision shaped the religion, script, law, art, and political culture of Russia, Ukraine, Belarus, Bulgaria, and Serbia for a thousand years. The Orthodox Church that governs the spiritual life of approximately 220 million people today traces its institutional ancestry directly to this moment on the banks of the Dnipro.",
+    "causeIds": [
+      "volodymyr-chooses-religion"
+    ],
+    "effectIds": [
+      "byzantine-connection",
+      "cyrillic-alphabet",
+      "kyiv-as-religious-centre"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Lebedev_baptism.jpg"
+  },
+  {
+    "id": "cyrillic-alphabet",
+    "title": "The Alphabet That Came With the Faith",
+    "wiki": "Cyrillic_script#History",
+    "year": 989,
+    "keyword": "consequence",
+    "summary": "When Orthodox Christianity came to Kyiv, it brought with it the Cyrillic alphabet — developed by Saints Cyril and Methodius and their disciples to render Slavic languages in written form. The adoption of this script was not a neutral administrative decision: it connected the Kyivan world to Byzantine literary culture and separated it permanently from the Latin-alphabet world of Western Europe. Every Russian novel, every Ukrainian poem, every Bulgarian newspaper, every Serbian legal document written in Cyrillic for the next thousand years carries the trace of what Kyiv chose in 988. The monks of the Kyiv Pechersk Lavra — working in the caves beneath the city — were among the first to produce major literary works in this script, including the Primary Chronicle that is our main source for Kyivan history. The city that chose a religion also chose a way of writing, and through that choice shaped the literary cultures of half a continent.",
+    "causeIds": [
+      "volodymyr-baptism-988"
+    ],
+    "effectIds": [
+      "kyiv-as-religious-centre",
+      "russkaya-pravda"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Azbuka_1574_by_Ivan_Fyodorov_v3.png"
+  },
+  {
+    "id": "byzantine-connection",
+    "title": "Kyiv and Constantinople",
+    "wiki": "Kievan_Rus%27#Rus'–Byzantine%20relations",
+    "year": 990,
+    "keyword": "shift",
+    "summary": "Volodymyr's marriage to Princess Anna and Kyiv's adoption of Orthodoxy created a deep connection between Kyiv and Constantinople — the most sophisticated city in the Christian world. Byzantine architects came to build Kyiv's churches; Byzantine artists to paint its icons; Byzantine scholars to translate texts into the new Slavic script. The relationship was not one of provincial dependence but of genuine exchange. Yaroslav the Wise married a Swedish princess, gave his daughters to the kings of France, Norway, and Hungary, and appointed the first Kyivan-born metropolitan bishop — asserting Kyiv's ecclesiastical independence from Constantinople. The chronicler Adam of Bremen called Kyiv 'the rival of the sceptre of Constantinople.' For a century, that was not an exaggeration.",
+    "causeIds": [
+      "volodymyr-baptism-988"
+    ],
+    "effectIds": [
+      "kyiv-peak-yaroslav",
+      "saint-sophia-built"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://smarthistory.org/wp-content/uploads/2021/10/ConstantineJustinianMosaic.jpg",
+    "relatedScenario": {
+      "scenarioId": "black-plague-renaissance",
+      "nodeId": "fall-of-constantinople",
+      "label": "Connects to Death and the Birth of Humanism"
+    }
+  },
+  {
+    "id": "saint-sophia-built",
+    "title": "A Cathedral to Rival the World",
+    "wiki": "Saint_Sophia%27s_Cathedral%2C_Kyiv",
+    "year": 1037,
+    "keyword": "shift",
+    "summary": "Saint Sophia Cathedral, built by Yaroslav the Wise beginning in 1037 and still standing today, was the most ambitious building project in the Slavic world. Modelled deliberately on Hagia Sophia in Constantinople, it announced Kyiv's ambition to be not a provincial outpost of Byzantine civilisation but its equal. The interior was covered in mosaics and frescoes that survive in remarkable condition — gold and blue images of saints and evangelists that still glow in the Kiev autumn light after nine centuries. The cathedral became the site of coronations, the burial place of princes, and the spiritual centre of the city. It survived the Mongol destruction, four centuries of foreign rule, the Soviet period (when it was made a museum, which is the only reason it still exists), and the current war. Saint Sophia is the physical continuity of Kyiv across a thousand years: the same walls, the same mosaics, the same golden dome visible from the Dnipro.",
+    "causeIds": [
+      "byzantine-connection"
+    ],
+    "effectIds": [
+      "kyiv-peak-yaroslav"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://sites.tufts.edu/ukraine/files/2023/03/B-1024x678.jpeg"
+  },
+  {
+    "id": "russkaya-pravda",
+    "title": "The First Law of the Slavic World",
+    "wiki": "Russkaya_Pravda",
+    "year": 1016,
+    "keyword": "consequence",
+    "summary": "Yaroslav the Wise promulgated the Russkaya Pravda — 'Rus Justice' — in 1016, creating the first written legal code in the Slavic world. It was a sophisticated document: it distinguished between murder and manslaughter, set different penalties by social rank, regulated debt, inheritance, and the status of different categories of people from princes to slaves. Crucially, it replaced blood vengeance with monetary compensation — a civilisational shift from clan justice to state law. The Russkaya Pravda was expanded by Yaroslav's sons and remained the legal foundation of Kyivan Rus and its successor states for centuries. Russian, Ukrainian, and Belarusian legal traditions all descend from this document. A city that gave its world a religion, an alphabet, and a cathedral also gave it its first courts.",
+    "causeIds": [
+      "cyrillic-alphabet"
+    ],
+    "effectIds": [
+      "kyiv-peak-yaroslav"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/The_instance_Sinodal%60niy_of_Pravda_Ruskaya_page_1.jpg"
+  },
+  {
+    "id": "kyiv-as-religious-centre",
+    "title": "The Caves, the Monks, and the Books",
+    "wiki": "Kyiv-Pechersk_Lavra",
+    "year": 1051,
+    "keyword": "shift",
+    "summary": "The Kyiv Pechersk Lavra — the Monastery of the Caves, founded in 1051 beneath the hills overlooking the Dnipro — became the most important monastery in the Slavic Orthodox world. Its monks dug their cells and churches into the limestone bluffs; some of them never emerged. The preserved bodies of the saints in its underground labyrinths drew pilgrims from across the Slavic world for a thousand years — they still do. But the Lavra was also an intellectual institution: its scriptorium produced the Primary Chronicle and other foundational Kyivan texts; its abbots corresponded with Constantinople; its missionary monks carried Orthodoxy east and north into territories that had never heard of Kyiv. The caves beneath the city were simultaneously a cemetery, a library, a shrine, and a university. People have been lighting candles in them for nine centuries.",
+    "causeIds": [
+      "volodymyr-baptism-988",
+      "cyrillic-alphabet",
+      "kyiv-peak-yaroslav"
+    ],
+    "effectIds": [
+      "orthodox-christianity-spreads"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%D0%9B%D0%B0%D0%B2%D1%80%D0%B0.jpg"
+  },
+  {
+    "id": "kyiv-peak-yaroslav",
+    "title": "Kyiv at Its Greatest",
+    "wiki": "Yaroslav_the_Wise",
+    "year": 1037,
+    "keyword": "shift",
+    "summary": "Under Yaroslav the Wise (ruled 1019–1054), Kyiv reached a size and sophistication comparable to the greatest cities of medieval Europe. With a population estimated at 50,000–100,000, it was larger than London, Paris, or Rome at the time. The city had hundreds of churches, a Golden Gate modelled on Constantinople's, the new Saint Sophia Cathedral, and a literate administrative class producing legal codes and chronicles. Yaroslav married a Swedish princess, gave his daughters to the kings of France, Norway, and Hungary — his daughter Anna became Queen of France and signed documents after her husband because she was literate and he was not. A monk in Winchester and a monk in Baghdad had both heard of Kyiv. It was, by any measure, one of the great cities of the medieval world.",
+    "causeIds": [
+      "kyiv-cosmopolitan-city",
+      "byzantine-connection",
+      "saint-sophia-built",
+      "russkaya-pravda"
+    ],
+    "effectIds": [
+      "orthodox-christianity-spreads",
+      "mongols-destroy-kyiv",
+      "kyiv-as-religious-centre",
+      "rus-fragmentation"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://miro.medium.com/0*sAt1U9WhqR1XSBQo.jpg"
+  },
+  {
+    "id": "orthodox-christianity-spreads",
+    "title": "Kyiv Baptises a Continent",
+    "wiki": "Eastern_Orthodox_Church#History",
+    "year": 1060,
+    "keyword": "consequence",
+    "summary": "From Kyiv, Orthodox Christianity spread across the Slavic world — carried by missionaries trained in the Lavra's caves, using the Cyrillic alphabet the city had adopted, following the liturgical forms Kyiv had established. Bulgaria deepened its Orthodox identity through Kyivan influence; Serbia received its ecclesiastical tradition from Kyiv; the vast territories that would become Russia and Belarus were Christianised through Kyivan networks. The Russian Orthodox Church — which shaped Russian culture, literature, and political thought for a thousand years — descends directly from the Metropolitanate of Kyiv established in 988. Every onion-dome church in every Russian city, every icon in the Byzantine tradition, every Easter service in every Slavic village carries the inheritance of what happened on the banks of the Dnipro. No other city of comparable size has had such a disproportionate influence on the spiritual life of a continent.",
+    "causeIds": [
+      "kyiv-peak-yaroslav",
+      "kyiv-as-religious-centre"
+    ],
+    "effectIds": [
+      "mongols-destroy-kyiv",
+      "rus-fragmentation"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://newsukraine.rbc.ua/static/img/_/r/_rusi_ukrayini_kartina_petra_andrusiva_wikipedia_org_2b142ffcaa0e7d2457e6c7e06951d0e6_1300x820_a6a8799b4ffb60c9f06b15873fd87992_1300x820.jpg"
+  },
+  {
+    "id": "mongols-destroy-kyiv",
+    "title": "The Mongols Erase the City",
+    "wiki": "Mongol_invasion_of_Kievan_Rus%27",
+    "year": 1240,
+    "keyword": "collapse",
+    "summary": "On December 6, 1240, Batu Khan's Mongol forces breached Kyiv's walls and destroyed the city with a thoroughness that stunned observers of medieval warfare. The Italian friar Giovanni da Pian del Carpine passed through the ruins in 1246 and described 'countless skulls and bones of dead men lying upon the field' — a city of 50,000 or more reduced to a few hundred survivors. The Mongols did not simply defeat Kyiv; they effectively erased it. The churches were looted and burned, the population killed or enslaved, the physical infrastructure destroyed. Saint Sophia somehow survived — its walls were too thick to burn and too solid to quickly demolish. The city that Yaroslav had built as a rival to Constantinople lay in ruins for generations. It would not be the last time Kyiv was destroyed. It was never the last time Kyiv came back.",
+    "causeIds": [
+      "kyiv-peak-yaroslav",
+      "orthodox-christianity-spreads",
+      "rus-fragmentation"
+    ],
+    "effectIds": [
+      "kyiv-under-foreign-rule",
+      "kyiv-rebuilds"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://europebetweeneastandwest.wordpress.com/wp-content/uploads/2022/03/on-the-brink-kiev-under-siege-from-the-mongols-in-1240.jpg",
+    "relatedScenario": {
+      "scenarioId": "mongols",
+      "nodeId": "destruction-of-cities",
+      "label": "Connects to Mongol Conquests"
+    }
+  },
+  {
+    "id": "kyiv-under-foreign-rule",
+    "title": "Four Centuries Under Other Empires",
+    "wiki": "History_of_Kyiv",
+    "year": 1241,
+    "keyword": "pressure",
+    "summary": "After the Mongol destruction, Kyiv spent four and a half centuries under foreign rulers: Mongol suzerainty (1240s–1360s), the Grand Duchy of Lithuania (1362–1569), the Polish-Lithuanian Commonwealth (1569–1686). Through all of this, the city survived — smaller, less significant, periodically rebuilt — but never recovered the political centrality of the Rurikid era. What it retained was its sacred significance. Pilgrims continued to walk to the Lavra from across the Slavic world. The city's identity as the origin point of Slavic Orthodoxy could not be erased by any conqueror. Polish noblemen who owned Kyiv still commissioned its churches; Lithuanian princes who ruled it were drawn to its monasteries. The physical city shrank; its symbolic weight did not. Kyiv had discovered something important about itself: you could destroy the buildings, but you could not destroy what the buildings meant.",
+    "causeIds": [
+      "mongols-destroy-kyiv"
+    ],
+    "effectIds": [
+      "mohyla-academy-founded",
+      "kyiv-rebuilds",
+      "zaporozhian-cossacks"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Kiou1562.jpg/1920px-Kiou1562.jpg"
+  },
+  {
+    "id": "kyiv-rebuilds",
+    "title": "The City That Kept Coming Back",
+    "wiki": "History_of_Kyiv",
+    "year": 1400,
+    "keyword": "shift",
+    "summary": "Kyiv's history is a cycle: flourishing, destruction, slow reconstruction, flourishing again. After the Mongol erasure of 1240, the city was rebuilt over the following two centuries — not to its former size, but persistently, stubbornly. Churches went up on the ruins of older churches. The Lavra's monks never left. By the 15th century, Kyiv was a functioning city again under Lithuanian rule, its markets active, its pilgrimage routes travelled. This resilience was not passive: Kyiv was rebuilt each time by people who understood what it meant. The sacred geography of the city — the hills, the Dnipro, the caves, the golden domes visible from across the river — remained even when the buildings were rubble. You cannot fully destroy a city that people continue to consider worth rebuilding. Kyiv has been destroyed and rebuilt more times than almost any other city in Europe. It is still here.",
+    "causeIds": [
+      "mongols-destroy-kyiv",
+      "kyiv-under-foreign-rule",
+      "kyiv-under-lithuania"
+    ],
+    "effectIds": [
+      "mohyla-academy-founded"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Vesterfeld1.JPG"
+  },
+  {
+    "id": "mohyla-academy-founded",
+    "title": "The Kyiv-Mohyla Academy",
+    "wiki": "Kyiv-Mohyla_Academy",
+    "year": 1632,
+    "keyword": "catalyst",
+    "summary": "Petro Mohyla, the Metropolitan of Kyiv, founded the Kyiv-Mohyla Academy in 1632 — the first institution of higher learning in the Orthodox Slavic world modelled on Western university traditions, combining Orthodox theology with Latin scholarship, rhetoric, philosophy, and the humanities. In a century when Kyiv was politically subordinate and frequently fought over, the Academy made it an intellectual capital of the first order. Its graduates spread across the Orthodox world — to Russia, the Ottoman Empire, the Balkans — carrying a synthesis of Western scholarship and Eastern theology. When Peter the Great sought to modernise Russia's church and state, he turned to Kyivan scholars: Feofan Prokopovych and Stefan Yavorsky, both Academy graduates, became the intellectual architects of the Russian Imperial order. A city that had been politically marginal for four centuries was once again shaping the intellectual life of a continent — this time while technically belonging to someone else.",
+    "causeIds": [
+      "kyiv-rebuilds",
+      "kyiv-under-foreign-rule",
+      "kyiv-brotherhood"
+    ],
+    "effectIds": [
+      "ukrainian-baroque-spreads",
+      "kyivan-scholars-modernise-russia"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/66/e3/ef/screenshot-20200610-231705.jpg?w=900&h=500&s=1"
+  },
+  {
+    "id": "ukrainian-baroque-spreads",
+    "title": "Kyivan Baroque Reshapes Orthodox Architecture",
+    "wiki": "Ukrainian_Baroque",
+    "year": 1650,
+    "keyword": "shift",
+    "summary": "The Ukrainian Baroque — synthesising Western European Baroque with Orthodox visual traditions — developed in Kyiv in the 17th century and spread across the entire Orthodox world. Churches rebuilt in Kyiv and throughout Ukraine under Hetman Ivan Mazepa's patronage were among the most striking buildings in Eastern Europe; the style travelled with Kyivan clergy and artists to Russia, Moldova, and Romania. The elaborate facades, gilded interiors, and decorative programmes of Russian Orthodox churches built in the 18th century show clear Ukrainian Baroque influence — carried north by the same Kyiv-educated scholars who were simultaneously writing the intellectual foundations of the Russian Imperial state. The architecture of empire was, in significant part, a Kyivan export. A city under foreign political control was exporting its aesthetic sensibility to its ruler.",
+    "causeIds": [
+      "mohyla-academy-founded",
+      "zaporozhian-cossacks"
+    ],
+    "effectIds": [
+      "kyivan-scholars-modernise-russia"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/80-391-9007_Kyiv_St.Michael%27s_Golden-Domed_Monastery_RB_18_%28cropped%29.jpg"
+  },
+  {
+    "id": "kyivan-scholars-modernise-russia",
+    "title": "Kyiv Builds the Russian Empire",
+    "wiki": "Peter_the_Great#Reforms",
+    "year": 1700,
+    "keyword": "shift",
+    "summary": "When Peter the Great sought to modernise the Russian Orthodox Church, he imported scholars from Kyiv — the most intellectually sophisticated city in his domain. Feofan Prokopovych, a Kyiv-Mohyla Academy graduate, wrote the Ecclesiastical Regulation (1721) that made the Russian Church a department of the state, abolishing the Patriarchate and replacing it with a Holy Synod controlled by the tsar. Stefan Yavorsky, another Kyivan, served as the acting head of the Russian Church. The ideology justifying the Russian Empire's autocratic claims was substantially written by Ukrainian scholars from Kyiv. The pattern had repeated itself across centuries: Kyiv, politically subordinate, kept producing the ideas that shaped its rulers. The city that trained the missionaries who spread Christianity across Rus now trained the intellectuals who defined what Russia thought it was.",
+    "causeIds": [
+      "mohyla-academy-founded",
+      "ukrainian-baroque-spreads"
+    ],
+    "effectIds": [
+      "kyiv-19th-century",
+      "kyiv-imperial-capital"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Inconnu_d%27apr%C3%A8s_J.-M._Nattier%2C_Portrait_de_Pierre_Ier_%28mus%C3%A9e_de_l%E2%80%99Ermitage%29.jpg"
+  },
+  {
+    "id": "kyiv-19th-century",
+    "title": "The City Finds Its Voice Again",
+    "wiki": "History_of_Kyiv#Russian_Empire",
+    "year": 1840,
+    "keyword": "shift",
+    "summary": "In the 19th century, Kyiv grew rapidly as an industrial and administrative centre of the Russian Empire — and simultaneously became the focal point of the Ukrainian national awakening. Taras Shevchenko, born a serf and freed through a lottery, published his poetry collection Kobzar in 1840: verse in Ukrainian that treated the city and the river and the steppe as a landscape of dignity and loss, and that gave the Ukrainian language a literary voice that imperial suppression could not silence. The city's university, founded in 1834, became a centre of Ukrainian scholarship despite Russian restrictions on publishing in Ukrainian. The physical city was transforming too: Khreshchatyk — the great boulevard that would become the city's spine — was built up through the mid-19th century. The chestnut trees that still bloom there every spring were planted then. A city is also its trees.",
+    "causeIds": [
+      "kyivan-scholars-modernise-russia",
+      "kyiv-imperial-capital"
+    ],
+    "effectIds": [
+      "kyiv-wwii",
+      "kyiv-jewish-city"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://preview.redd.it/few-words-about-khreshchatyk-during-the-19-20th-century-v0-9uv10bobapz61.jpg?width=640&format=pjpg&auto=webp&s=80269efaaeacf4764d5558866d74fad1ae351143"
+  },
+  {
+    "id": "kyiv-wwii",
+    "title": "The City Destroyed Again",
+    "wiki": "Battle_of_Kyiv_%281941%29",
+    "year": 1941,
+    "keyword": "collapse",
+    "summary": "In September 1941, German forces completed the encirclement and capture of Kyiv in one of the largest battles of WWII — taking over 600,000 Soviet prisoners in what the Wehrmacht called its greatest victory. The city that followed was horrific: the German occupation lasted until November 1943, during which Babyn Yar became the site of mass murder, the city was systematically stripped and damaged, and retreating Soviet forces had already blown up much of the Khreshchatyk with remote-controlled mines. When Soviet forces returned, they found a city of ruins. The population had fallen from 930,000 to under 200,000. The reconstruction of Kyiv after 1943 created the city's current centre — the wide Stalinist boulevards, the monumental architecture — built on the rubble of the pre-war city. Kyiv's centre is an archaeological palimpsest: Soviet concrete over pre-war buildings over 19th-century foundations over medieval walls over Varangian fortifications.",
+    "causeIds": [
+      "kyiv-19th-century",
+      "kyiv-revolution-era"
+    ],
+    "effectIds": [
+      "babyn-yar",
+      "kyiv-today"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bundesarchiv_Bild_183-B12190%2C_Kiew%2C_Brand_in_der_Hauptstra%C3%9Fe.jpg"
+  },
+  {
+    "id": "babyn-yar",
+    "title": "Babyn Yar",
+    "wiki": "Babi_Yar",
+    "year": 1941,
+    "keyword": "collapse",
+    "summary": "On September 29–30, 1941, German Einsatzgruppen and their auxiliaries shot 33,771 Jewish men, women, and children at the Babyn Yar ravine on the outskirts of Kyiv — the largest single massacre of the Holocaust in two days. The killings continued at the site over the following years; total victims are estimated at 100,000–150,000. Under Soviet rule, the massacre was suppressed: the site was used as a rubbish dump and then a park; a monument was refused for decades; official memory denied both the specifically Jewish character of the victims and Ukrainian participation in the killings. Yevgeny Yevtushenko's poem 'Babi Yar' (1961) — 'There are no memorials at Babyn Yar' — made the suppression internationally known. A memorial now stands there. Every city carries its atrocities as well as its achievements; Kyiv carries both. The same city that gave the Slavic world its faith and its alphabet also has a ravine where a hundred thousand people were murdered and the state tried to pretend it had not happened.",
+    "causeIds": [
+      "kyiv-wwii",
+      "kyiv-jewish-city"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Babi_Yar-06-194.jpg"
+  },
+  {
+    "id": "kyiv-today",
+    "title": "The City That Is Still Here",
+    "wiki": "Kyiv",
+    "year": 1991,
+    "keyword": "consequence",
+    "summary": "Today Kyiv is a city of three million people — one of the largest in Europe. Its skyline is defined by the gold domes of Saint Sophia and the Lavra, visible from across the Dnipro, the same domes that have defined it for a thousand years. Khreshchatyk blooms with chestnut trees every May. The funicular still runs from the upper city to the river. The Lavra's caves still receive pilgrims. The Kyiv-Mohyla Academy is a functioning university again, re-established after independence in 1991. The city's streets have been renamed — Soviet names replaced with Ukrainian ones, Muscovite generals with Kyivan poets. Since February 24, 2022, Kyiv has been under attack again: missiles have struck its suburbs, its residents have spent nights in shelters, its men have left to defend its borders. The city is defending itself for approximately the twentieth time in its recorded history. It has, so far, always been there the following morning.",
+    "causeIds": [
+      "kyiv-wwii"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://lp-cms-production.imgix.net/2019-06/a6469f3993128cbcdde6e2b0a90aa1d3-kyiv.jpg?auto=format,compress&q=72&w=1920&fit=crop&crop=faces,edges"
+  },
+  {
+    "id": "rus-fragmentation",
+    "title": "The City Sacked by Its Own Children",
+    "wiki": "Sack_of_Kyiv_%281169%29",
+    "year": 1169,
+    "keyword": "collapse",
+    "summary": "After Yaroslav's death in 1054, his sons divided the realm through a rotation principle that produced almost continuous civil war. Kyiv remained the nominal prize — whoever held it claimed the title of Grand Prince — but the fighting progressively drained its resources. In 1169, Andrei Bogolyubsky of Vladimir-Suzdal sacked the city with a coalition of Rus princes. It was the first time Kyiv had been sacked by other Rus rulers rather than foreign enemies. Andrei's forces spent three days looting churches and monasteries — including Saint Sophia — then he declined to move to Kyiv, ruling instead from his northeastern city of Vladimir. This was the decisive signal: the political centre of gravity was shifting northeast. The Mongols in 1240 did not destroy a thriving metropolis; they erased a city already in long decline, sacked so many times by its own princes that much of its population had already left.",
+    "causeIds": [
+      "kyiv-peak-yaroslav",
+      "orthodox-christianity-spreads"
+    ],
+    "effectIds": [
+      "mongols-destroy-kyiv"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://i.pinimg.com/1200x/96/c6/3d/96c63d6a7ff97e3e52998d66f382f435.jpg"
+  },
+  {
+    "id": "kyiv-under-lithuania",
+    "title": "Kyiv Under the Grand Duchy",
+    "wiki": "Grand_Duchy_of_Lithuania",
+    "year": 1362,
+    "keyword": "shift",
+    "summary": "In 1362, Grand Duke Algirdas of Lithuania defeated Mongol forces at the Battle of Blue Waters and took Kyiv. The Lithuanian period — lasting until 1569 — was a time of relative tolerance and recovery. The Grand Duchy was genuinely multi-ethnic: Lithuanian ruling class, Ruthenian (Ukrainian/Belarusian) majority population. Crucially, the ruling language of the Grand Duchy's administration was Ruthenian — the ancestor of both Ukrainian and Belarusian. Kyiv's churches were rebuilt; the Lavra recovered; Grand Duke Vytautas in the early 15th century actively invested in the city. Kyiv under Lithuania was not a capital — Vilnius was — but it was a functioning city again, its sacred significance intact, its population slowly recovering. The identity of the city as the mother of Rus cities was remembered even when the political entity that name described had long ceased to exist.",
+    "causeIds": [],
+    "effectIds": [
+      "kyiv-brotherhood",
+      "kyiv-rebuilds"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Kiou1562.jpg"
+  },
+  {
+    "id": "zaporozhian-cossacks",
+    "title": "The Cossacks and Their City",
+    "wiki": "Zaporozhian_Cossacks",
+    "year": 1596,
+    "keyword": "shift",
+    "summary": "The Zaporozhian Cossacks — a military republic of escaped serfs, minor nobles, and adventurers organised in the sich below the Dnipro rapids — used Kyiv as their cultural and spiritual capital. The Pechersk Lavra was where their hetmans sought blessing before campaigns; the city's churches received their donations. Bohdan Khmelnytsky's 1648 uprising briefly created an independent Cossack Hetmanate with Kyiv at its heart — the first recognisably Ukrainian political entity. The Cossacks' patronage funded much of the Ukrainian Baroque architecture that still defines the city's skyline. Hetman Ivan Mazepa alone funded the rebuilding of eleven churches in Kyiv. The golden domes that visitors photograph today were partly paid for by Cossack warriors who understood that cultural patronage was a form of political statement — a claim on a city's identity that outlasts any military victory.",
+    "causeIds": [
+      "kyiv-under-foreign-rule"
+    ],
+    "effectIds": [
+      "ukrainian-baroque-spreads",
+      "kyiv-brotherhood"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Ilja_Jefimowitsch_Repin_-_Reply_of_the_Zaporozhian_Cossacks_-_Yorck.jpg"
+  },
+  {
+    "id": "kyiv-brotherhood",
+    "title": "The Brotherhood That Kept the Language Alive",
+    "wiki": "Brotherhood_Monastery",
+    "year": 1615,
+    "keyword": "catalyst",
+    "summary": "The Kyiv Brotherhood, founded in 1615 by Orthodox laypeople — merchants, craftsmen, minor nobility — established a school and printing press to defend Orthodox Christianity and the Ukrainian literary language against Polonisation. In the Polish-Lithuanian Commonwealth, the pressure to convert to Catholicism and adopt Polish culture was intense; the Brotherhood's school and press were the principal institutional resistance. When Petro Mohyla founded his Academy in 1632, he merged it with the Brotherhood school — the Academy was built on seventeen years of Brotherhood educational work. The Brotherhood also supported the printing of the Ostrog Bible (1581), the first complete Church Slavonic Bible. In a century when the Ukrainian language had no state support and its speakers were second-class citizens of someone else's empire, a group of Kyiv merchants kept the presses running. This is how languages survive: not through governments, but through stubborn people with printing presses.",
+    "causeIds": [
+      "kyiv-under-lithuania",
+      "zaporozhian-cossacks"
+    ],
+    "effectIds": [
+      "mohyla-academy-founded"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Kyiv-brats-monastyr.jpg"
+  },
+  {
+    "id": "kyiv-imperial-capital",
+    "title": "A Sacred City in a Secular Empire",
+    "wiki": "History_of_Kyiv#Russian_Empire",
+    "year": 1780,
+    "keyword": "shift",
+    "summary": "Under the Russian Empire, Kyiv occupied a peculiar position: too sacred to ignore, too Ukrainian to fully trust. The empire invested in the city's churches — the Lavra became a major pilgrimage site for all of Orthodox Russia — while suppressing the Ukrainian language in administration and education. The city grew as a commercial centre: the sugar trade made Kyiv wealthy; the annual Contract Fair in the Podil district was one of the great trading events of the empire, drawing merchants from across Eastern Europe. The physical city expanded steadily; the Podil district — the lower city near the river — developed as a thriving commercial neighbourhood. Kyiv was becoming a modern city while the empire simultaneously insisted it was merely a provincial Russian one — a tension that would define the city's entire 19th century and eventually prove unsustainable.",
+    "causeIds": [
+      "kyivan-scholars-modernise-russia"
+    ],
+    "effectIds": [
+      "kyiv-19th-century"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kiev_1890s.jpg"
+  },
+  {
+    "id": "kyiv-jewish-city",
+    "title": "The Jewish City on the Dnipro",
+    "wiki": "History_of_the_Jews_in_Kyiv",
+    "year": 1880,
+    "keyword": "shift",
+    "summary": "By the late 19th century, Kyiv had one of the largest Jewish communities in Europe — the product of the Pale of Settlement that confined Jewish residence to specific territories, within which Kyiv was a major centre. Jewish merchants, artisans, intellectuals, and professionals shaped the city's commercial and cultural life profoundly. The Brodsky family and other Jewish commercial dynasties were among the city's most prominent citizens. The writer Sholem Aleichem — whose stories became Fiddler on the Roof — lived in Kyiv for years. The city's conservatory, theatres, and literary circles drew heavily on Jewish talent. The 1911 Beilis affair — in which a Jewish factory manager was falsely accused of ritual murder in Kyiv in a trial that became an international scandal — showed the precarity beneath the prosperity. This Jewish Kyiv was among the most vibrant in the world. It was systematically destroyed: by pogroms in the 1880s and 1905, by revolutionary violence in 1919, and finally at Babyn Yar in 1941. The community that had shaped the city for centuries was erased in an autumn weekend.",
+    "causeIds": [
+      "kyiv-19th-century"
+    ],
+    "effectIds": [
+      "kyiv-revolution-era",
+      "babyn-yar",
+      "kyiv-revolution-era"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://huxley.media/wp-content/uploads/2024/09/1477px-kiev_downtown-kopija-e1726653720235.jpg"
+  },
+  {
+    "id": "kyiv-revolution-era",
+    "title": "Fourteen Changes of Power in Four Years",
+    "wiki": "History_of_Kyiv#Ukrainian_War_of_Independence",
+    "year": 1917,
+    "keyword": "collapse",
+    "summary": "Between 1917 and 1921, Kyiv changed hands approximately fourteen times — held in succession by the Provisional Government, the Ukrainian Central Rada, the Bolsheviks, the German occupiers, the Hetmanate, the Ukrainian Directory, the Bolsheviks again, Denikin's White Army, the Bolsheviks again, the Polish Army, and finally the Soviet Union. Each transfer involved fighting, looting, and atrocities. The Jewish community suffered under almost every administration. Mikhail Bulgakov lived through several of these transitions in his apartment on Andriivsky Uzviz and wrote The White Guard there — a novel about a family trying to survive in a city that kept changing its rulers. The street still exists. The building still stands. Bulgakov's staircase is covered in messages left by readers from around the world. Cities accumulate not only their history but their literature about their history: Kyiv is also Bulgakov's city, the place where a great Russian writer sat through revolution after revolution and wrote about what it meant to love a city that would not stay still.",
+    "causeIds": [
+      "kyiv-jewish-city"
+    ],
+    "effectIds": [
+      "kyiv-wwii"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://svidomi.in.ua/storage/posts/attaches/c10c21a51503686ecda29bd1b98d764a4dc6bae0.png"
+  },
+  {
+    "id": "kyiv-legendary-founding",
+    "title": "Kyi, Shchek, Khoryv, and Lybid",
+    "wiki": "History_of_Kyiv#Founding_legends",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/1a/09/8d/kyiv-founders-monument.jpg?w=900&h=500&s=1",
+    "year": 482,
+    "keyword": "spark",
+    "summary": "The Primary Chronicle records that three brothers — Kyi, Shchek, and Khoryv — and their sister Lybid founded a settlement on the high right bank of the Dnipro, naming it Kyiv after the eldest brother. How much of this is legend and how much history is impossible to say with certainty: the Chronicle was written six centuries after the events it describes, and founding myths tend toward the tidy. What the archaeology confirms is that there was genuine Slavic settlement on the Kyiv hills from at least the 5th–6th centuries — the legendary date of 482 AD is plausible as an approximation of when permanent habitation began. The city celebrated its 1,500th anniversary in 1982 — a date the Soviet authorities chose, which is itself revealing: both Russia and Ukraine have always had reasons to claim Kyiv's antiquity as their own inheritance. A monument to the four founders still stands at the river's edge, Lybid slightly apart from her brothers, all of them looking toward the Dnipro they chose for their city.",
+    "causeIds": [],
+    "effectIds": [
+      "dnipro-trade-route"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  }
+]
