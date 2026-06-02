@@ -2,7 +2,7 @@
   {
     "id": "stuart-monarchy-debt",
     "title": "William III Needs Money",
-    "wiki": "Window_tax#Background",
+    "wiki": "Window_tax",
     "year": 1690,
     "keyword": "pressure",
     "summary": "The Glorious Revolution of 1688 had placed William III on the English throne, but ruling was expensive — wars against France, a standing army, and the apparatus of state all required revenue. The existing tax system was archaic, inconsistent, and deeply unpopular. The government needed a new source of income that was visible, hard to evade, and broadly correlated with wealth. A Treasury official observed the obvious: houses with more windows tended to belong to wealthier people, windows were impossible to hide, and you could assess them from the street without entering private property. It was not a brilliant insight. It was the kind of idea that seems reasonable until people start bricking up their windows.",
@@ -12,7 +12,7 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/William_III_of_England_%28Kneller%2C_1680s%29.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/King_William_III_of_England%2C_%281650-1702%29.jpg"
   },
   {
     "id": "window-tax-introduced",
@@ -31,12 +31,12 @@
     ],
     "isAnchor": true,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Bricked-up_windows_at_Greenlaws%2C_Chathill.jpg"
+    "imageUrl": "https://preview.redd.it/during-the-window-tax-era-in-britain-many-people-bricked-up-v0-2md7tfwnq53g1.jpg?width=640&crop=smart&auto=webp&s=5d6e96f130f52f2c51f835f401ef4fd125b88223"
   },
   {
     "id": "windows-bricked-up",
     "title": "Britain Bricks Up Its Windows",
-    "wiki": "Window_tax#Effects",
+    "wiki": "Window_tax",
     "year": 1710,
     "keyword": "collapse",
     "summary": "The response to the Window Tax was immediate and rational: people bricked up their windows. A window that didn't exist couldn't be taxed. Across England and Scotland, homeowners reduced their window counts to fall below the threshold for higher taxation. Builders became expert at the precise geometry of avoidance — which windows to keep, which to eliminate, how to redesign a house to minimise tax liability while maintaining some light. The evidence is still visible today on thousands of Georgian and earlier buildings across Britain: rectangular outlines in brickwork where windows once were, blocked openings that preserve the ghost of the original design. The houses didn't change; the light did.",
@@ -49,12 +49,12 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Bricked-up_windows_at_Greenlaws%2C_Chathill.jpg"
+    "imageUrl": "https://miro.medium.com/v2/resize:fit:1087/1*AcxubfYMNKhuvV4eyJOlWg@2x.jpeg"
   },
   {
     "id": "tax-repeatedly-increased",
     "title": "The Government Keeps Raising It",
-    "wiki": "Window_tax#Increases",
+    "wiki": "Window_tax",
     "year": 1747,
     "keyword": "pressure",
     "summary": "As revenue from the Window Tax declined — because people kept blocking up windows — the government's response was to raise the rates. Major increases came in 1747, 1757, 1778, 1781, and 1797. Each increase produced the same response: more windows bricked up, more houses redesigned, more revenue lost, another increase. The pattern was a perfect demonstration of a tax policy fighting itself: every attempt to extract more money from an unwilling population produced behaviour that reduced the tax base, requiring further increases, producing further avoidance. By the end of the 18th century, the tax had been raised so many times that even modest houses were affected, and the social costs had become impossible to ignore.",
@@ -67,12 +67,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Bricked-up_windows_at_Greenlaws%2C_Chathill.jpg"
+    "imageUrl": "https://www.letusfurnish.co.uk/wp-content/uploads/2024/03/The-History-of-the-Window-Tax.jpg"
   },
   {
     "id": "architecture-adapts",
     "title": "Georgian Architecture Is Redesigned Around a Tax",
-    "wiki": "Window_tax#Architectural_effects",
+    "wiki": "Window_tax",
     "year": 1750,
     "keyword": "shift",
     "summary": "The Window Tax left a permanent mark on British architecture that is still visible in the design of buildings constructed during its 155-year lifespan. Builders and architects learned to design houses that minimised window count while maintaining proportional facades — using larger individual windows rather than multiple smaller ones, or reducing windows on upper floors where they were less necessary. The characteristic tall, narrow sash windows of Georgian townhouses are partly a response to the tax: one tall window counted the same as one small window, so maximising light per taxable unit was rational. Some buildings were designed with false window outlines — blank recesses in the brickwork that preserved the visual rhythm of a windowed facade while paying tax on fewer actual openings.",
@@ -86,12 +86,12 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Georgian_architecture_London.jpg"
+    "imageUrl": "https://media.londonmuseum.org.uk/images/Dulwich-Picture-Gal.b636e216.fill-2560x1440.format-webp.webp"
   },
   {
     "id": "daylight-robbery-coined",
     "title": "Daylight Robbery",
-    "wiki": "Window_tax#Cultural_impact",
+    "wiki": "Window_tax",
     "year": 1710,
     "keyword": "shift",
     "summary": "The phrase 'daylight robbery' — meaning an outrageous overcharge or blatant theft — is commonly attributed to the Window Tax, on the grounds that the government was literally taxing daylight. The etymology is disputed: some scholars argue the phrase predates the tax; the earliest documented written examples appear in the early 18th century, consistent with popular reaction to the 1696 tax, but not conclusive. What is certain is that the Window Tax generated genuine popular outrage — the idea of being taxed for the light entering your own home struck most people as a fundamental injustice. Whether or not the phrase originated with the tax, the concept it describes was exactly what millions of people felt every time an assessor counted their windows. The phrase and the policy reinforced each other in public memory, so thoroughly that the linguistic connection became established regardless of its strict historical accuracy.",
@@ -104,12 +104,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Bricked-up_windows_at_Greenlaws%2C_Chathill.jpg"
+    "imageUrl": "https://s.yimg.com/ny/api/res/1.2/e7eZ6JLW1_OH7oDRtjR84w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUw/https://media.zenfs.com/en/snappa.ukfinance/76ea7d2cafbb13cbafec241a5ee44aa8"
   },
   {
     "id": "dark-homes-poor",
     "title": "The Poor Live in Darkness",
-    "wiki": "Window_tax#Social_effects",
+    "wiki": "Window_tax",
     "year": 1750,
     "keyword": "collapse",
     "summary": "The Window Tax fell most heavily on the poor and the lower-middle classes — not because they paid the highest rates, but because they could least afford to maintain windows as a luxury item competing with food and rent. Tenements and working-class housing in cities had windows bricked up not to avoid tax directly, but because landlords reduced window counts to lower their assessable values and then passed none of the savings to tenants. The urban poor lived in buildings designed around tax avoidance, in rooms that received little natural light, in an era before artificial lighting was cheap or effective. Darkness was not merely inconvenient; it was a public health catastrophe in slow motion.",
@@ -123,12 +123,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Gustave_Dore_London.jpg"
+    "imageUrl": "https://i.guim.co.uk/img/media/7d9729e28da09279102656c83dfbf937ea3da237/49_110_1897_1137/master/1897.jpg?width=1200&quality=85&auto=format&fit=max&s=b8616d96d2f4e64bb13d91f93331d544"
   },
   {
     "id": "public-health-consequences",
     "title": "Darkness Makes People Sick",
-    "wiki": "Window_tax#Health_effects",
+    "wiki": "Window_tax",
     "year": 1800,
     "keyword": "collapse",
     "summary": "The medical consequences of living in poorly ventilated, underlit buildings accumulated through the late 18th and early 19th centuries. Tuberculosis — which spreads more easily in poorly ventilated spaces and whose progression is worsened by vitamin D deficiency from lack of sunlight — was rampant in urban working-class areas. Rickets, caused by vitamin D deficiency, was endemic among urban children. Depression and what we would now recognise as seasonal affective disorder were widespread. The connection between window taxation, architectural darkness, and public health was not immediately obvious to contemporaries, but it became increasingly hard to deny as reformers like Edwin Chadwick documented the conditions of urban working-class life in the 1840s.",
@@ -141,7 +141,7 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Gustave_Dore_London.jpg"
+    "imageUrl": "https://api.nga.gov/iiif/f82a9e82-abdb-4335-9bf3-735ba78b3f94/full/full/0/default.jpg?attachment_filename=london._a_pilgrimage_2007.98.1.jpg"
   },
   {
     "id": "chadwick-sanitary-report",
@@ -160,7 +160,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Edwin_Chadwick_by_George_Richmond.jpg",
+    "imageUrl": "hhttps://upload.wikimedia.org/wikipedia/commons/5/53/Sir_Edwin_Chadwick2.jpg",
     "relatedScenario": {
       "scenarioId": "leaded-gasoline",
       "nodeId": "industry-science-denial",
@@ -182,12 +182,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Crystal_Palace_interior.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Crystal_Palace_interior.jpg?utm_source=uk.wikipedia.org&utm_campaign=index&utm_content=original"
   },
   {
     "id": "window-tax-repealed",
     "title": "The Tax Is Repealed After 155 Years",
-    "wiki": "Window_tax#Repeal",
+    "wiki": "Window_tax",
     "year": 1851,
     "keyword": "consequence",
     "summary": "The Window Tax was repealed in 1851, after 155 years. The repeal came after sustained campaigning by public health reformers, economic liberals who argued it distorted the housing market, and popular journalists who had made it a symbol of government overreach. The Times called it 'a tax on light and air.' Parliament, under pressure from Chadwick's health reports and the growing sanitary movement, finally abolished it. The immediate practical effect was modest — bricked-up windows were not immediately reopened — but the psychological and architectural effect was significant. Within years, Victorian architecture began its characteristic enthusiasm for large windows, bay windows, and glass conservatories: the visible celebration of light that the previous century and a half had made impossible.",
@@ -201,12 +201,12 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Crystal_Palace_interior.jpg"
+    "imageUrl": "https://iiif.wellcomecollection.org/image/M0012506/full/800%2C/0/default.jpg"
   },
   {
     "id": "plate-glass-revolution",
     "title": "Cheap Glass Changes Everything",
-    "wiki": "Plate_glass#History",
+    "wiki": "Plate_glass",
     "year": 1851,
     "keyword": "consequence",
     "summary": "The repeal of both the Glass Tax (1845) and the Window Tax (1851) coincided with — and helped accelerate — a revolution in glass manufacturing. The Great Exhibition of 1851 was housed in the Crystal Palace: an enormous structure made almost entirely of glass and iron, built in Hyde Park. It would have been financially impossible under the old tax regime. Plate glass became cheap enough for shop fronts, which transformed retail architecture and the experience of urban shopping. The greenhouse and conservatory became attainable for the middle class. The plate glass window — the large, clear, uninterrupted view from inside to outside — became a feature of Victorian domestic architecture that signalled prosperity and modernity.",
@@ -218,7 +218,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Crystal_Palace_interior.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Pittsburgh_Sketches_--_Among_the_Glass-Workers.jpg"
   },
   {
     "id": "victorian-bay-windows",
@@ -236,12 +236,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Victorian_terraced_houses.jpg"
+    "imageUrl": "https://cdn.mos.cms.futurecdn.net/3veAcXh67fPWnSHvAzRrdM.jpg"
   },
   {
     "id": "language-legacy",
     "title": "The Tax That Entered the Language",
-    "wiki": "Window_tax#Legacy",
+    "wiki": "Window_tax",
     "year": 1900,
     "keyword": "consequence",
     "summary": "The Window Tax's most durable legacy may be linguistic. 'Daylight robbery' remains in common use in British English, meaning any transaction that feels outrageously overpriced or unfair — a phrase that, whether or not it originated with the tax, perfectly captures what it felt like to be charged for the light entering your own home. The bricked-up windows visible on thousands of British buildings are a physical record of 155 years of fiscal policy written in masonry. Every Georgian building with rectangular outlines in its brickwork is a document: evidence of a tax that shaped architecture, darkened homes, sickened the poor, and eventually forced its own repeal — and left its mark on the English language long after the last assessor put down his clipboard.",
@@ -252,6 +252,6 @@
     "effectIds": [],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Bricked-up_windows_at_Greenlaws%2C_Chathill.jpg"
+    "imageUrl": "https://www.ventrolla.co.uk/nitropack_static/dUDVjnxoskzrKxqpPPBdBfyBZhxAhCar/assets/images/optimized/rev-5122166/www.ventrolla.co.uk/wp-content/uploads/2024/01/iStock-485254554.jpg"
   }
 ]
