@@ -38,6 +38,9 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "coffee-houses": "#2a1508",
   "kanye-west": "#1a1008",
   kyiv: "#0e1a2e",
+  "window-tax": "#1e1508",
+  "daylight-saving-time": "#0a1520",
+  "safety-pin": "#1c1020",
 };
 
 const SCENARIO_GRADIENTS: Record<string, string> = {
@@ -72,6 +75,9 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "coffee-houses": "radial-gradient(ellipse at center, #2a1508 0%, #0D0D0D 70%)",
   "kanye-west": "radial-gradient(ellipse at center, #1a1008 0%, #0D0D0D 70%)",
   kyiv: "radial-gradient(ellipse at center, #0e1a2e 0%, #0D0D0D 70%)",
+  "window-tax": "radial-gradient(ellipse at center, #1e1508 0%, #0D0D0D 70%)",
+  "daylight-saving-time": "radial-gradient(ellipse at center, #0a1520 0%, #0D0D0D 70%)",
+  "safety-pin": "radial-gradient(ellipse at center, #1c1020 0%, #0D0D0D 70%)",
 };
 
 export function getScenarioGradient(scenarioId: string): string {

@@ -1,0 +1,246 @@
+[
+  {
+    "id": "victorian-fastening-problem",
+    "title": "The Pin Problem",
+    "wiki": "Pin_(fastener)#History",
+    "year": 1840,
+    "keyword": "pressure",
+    "summary": "Before the safety pin, fabric was fastened with straight pins — thin metal points with no protective mechanism at the sharp end. Straight pins were dangerous, unreliable, and uncomfortable: they worked loose, pierced skin, got lost in clothing and upholstery, and required considerable skill to use effectively. Dressmakers, mothers fastening diapers, and anyone assembling or repairing fabric faced the same daily problem. Various attempts had been made to create a pin with a protective cap or clasp, but nothing had achieved the combination of simplicity, security, and cheapness that would make it genuinely useful. The solution was already implicit in the physics of a bent piece of spring wire. It would take a man with a $15 debt and three hours to find it.",
+    "causeIds": [],
+    "effectIds": [
+      "hunt-debt-crisis"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Walter_Hunt_portrait.jpg"
+  },
+  {
+    "id": "hunt-debt-crisis",
+    "title": "Walter Hunt Owes $15",
+    "wiki": "Walter_Hunt_(inventor)",
+    "year": 1849,
+    "keyword": "pressure",
+    "summary": "Walter Hunt was a New York inventor of extraordinary productivity and terrible business judgment. By 1849 he had already invented a version of the sewing machine (which he chose not to patent — whether from concern about putting seamstresses out of work, as the traditional account holds, or from uncertainty about its commercial viability, is disputed), a repeating rifle mechanism, a street-sweeping machine, a nail-making machine, and various other devices — almost none of which he had successfully monetised. In early 1849 he owed $15 to a man named Richardson, a debt he was finding difficult to pay. Richardson suggested that if Hunt could invent something useful from a piece of wire, he could keep whatever money the invention made. Hunt agreed, picked up a piece of wire, and sat down to think.",
+    "causeIds": [
+      "victorian-fastening-problem"
+    ],
+    "effectIds": [
+      "hunt-invents-safety-pin"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Walter_Hunt_portrait.jpg"
+  },
+  {
+    "id": "coiled-spring-mechanics",
+    "title": "The Coiled Spring Insight",
+    "wiki": "Safety_pin#History",
+    "year": 1849,
+    "keyword": "catalyst",
+    "summary": "The insight behind the safety pin is simple enough to feel obvious in retrospect: if you take a piece of wire, coil it in the middle to create spring tension, and shape one end into a point and the other into a clasp, the spring tension holds the point securely in the clasp when closed. The pin is self-fastening, self-securing, and requires no separate cap or mechanism. The coil provides the tension; the clasp provides the protection; the whole device is a single piece of wire bent into the right shape. What makes Hunt's achievement remarkable is not the complexity of the solution but its simplicity — and the fact that it took millennia of pin-making for anyone to arrive at it.",
+    "causeIds": [],
+    "effectIds": [
+      "hunt-invents-safety-pin"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/SafetyPin.jpg"
+  },
+  {
+    "id": "hunt-invents-safety-pin",
+    "title": "Three Hours and a Piece of Wire",
+    "wiki": "Safety_pin#History",
+    "year": 1849,
+    "keyword": "spark",
+    "summary": "On April 10, 1849, Walter Hunt sat down with a piece of wire approximately eight inches long and, over the course of approximately three hours, twisted it into the first safety pin. The coiled spring in the middle provided tension; the clasp at one end protected the finger from the point; the device was simple, cheap to manufacture, and immediately obviously useful. Hunt filed for US Patent 6,281 on the same day. He then sold the patent to the man he owed money to — Richardson — for $400, cancelling his $15 debt and pocketing the remaining $385. Richardson sold the rights to a manufacturer. The manufacturer made a considerable fortune. Hunt, who had invented the device and filed the patent, received nothing further. It was entirely characteristic of his career.",
+    "causeIds": [
+      "hunt-debt-crisis",
+      "coiled-spring-mechanics"
+    ],
+    "effectIds": [
+      "hunt-sells-patent-cheap",
+      "hunt-forgotten-inventor"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/SafetyPin.jpg"
+  },
+  {
+    "id": "hunt-sells-patent-cheap",
+    "title": "The $400 Sale",
+    "wiki": "Walter_Hunt_(inventor)#Safety_pin",
+    "year": 1849,
+    "keyword": "collapse",
+    "summary": "Walter Hunt's sale of the safety pin patent for $400 is one of the most instructive transactions in the history of invention. He received enough to pay his debt and have some money left over. The buyer received the rights to a device that would be manufactured in billions of units annually for the next century and a half. Hunt's pattern — inventing things of genuine value and then selling the rights cheaply, either because he needed cash or because he underestimated what he had made — repeated itself throughout his career. He had done the same with his sewing machine design years earlier, refusing to patent it at all. The safety pin was his most commercially significant invention, and he benefited from it for exactly one afternoon.",
+    "causeIds": [
+      "hunt-invents-safety-pin"
+    ],
+    "effectIds": [
+      "mass-production-changes-everything"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Walter_Hunt_portrait.jpg"
+  },
+  {
+    "id": "hunt-forgotten-inventor",
+    "title": "The Most Underappreciated Inventor in History",
+    "wiki": "Walter_Hunt_(inventor)",
+    "year": 1859,
+    "keyword": "collapse",
+    "summary": "Walter Hunt died in 1859 — ten years after inventing the safety pin — having received no ongoing benefit from any of his major inventions. His sewing machine design predated Elias Howe's patented version, but Hunt had never filed a patent and received nothing. His repeating rifle mechanism contributed to the development of firearms that made fortunes for others. His safety pin had been sold for $400. He spent his final decade in financial difficulty, continuing to invent things and sell them cheaply. The man who had simplified the daily lives of millions of people — seamstresses, mothers, dressmakers, medical professionals — died with almost nothing to show for it. His name appears in patent records but rarely in history books.",
+    "causeIds": [
+      "hunt-invents-safety-pin"
+    ],
+    "effectIds": [
+      "mass-production-changes-everything"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Walter_Hunt_portrait.jpg"
+  },
+  {
+    "id": "mass-production-changes-everything",
+    "title": "A Billion Safety Pins",
+    "wiki": "Safety_pin#Use",
+    "year": 1870,
+    "keyword": "consequence",
+    "summary": "The safety pin's genius was its manufacturability: a single piece of wire, bent into a precise shape, required no assembly and minimal materials. Industrial pin-making machinery could produce them in enormous quantities at negligible cost. By the late 19th century, safety pins were ubiquitous household items — used for diapers, for clothing repairs, for medical dressings, for fastening everything that needed fastening quickly and safely. They were cheap enough to be disposable and reliable enough to be trusted. A device that had not existed before 1849 became, within a generation, one of the most commonly manufactured objects in the world — the kind of thing you find in every sewing box, every first aid kit, every drawer.",
+    "causeIds": [
+      "hunt-sells-patent-cheap",
+      "hunt-forgotten-inventor"
+    ],
+    "effectIds": [
+      "punk-adopts-safety-pin",
+      "safety-pin-in-medicine"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/SafetyPin.jpg"
+  },
+  {
+    "id": "punk-movement-emerges",
+    "title": "Punk — Against Everything",
+    "wiki": "Punk_subculture",
+    "year": 1976,
+    "keyword": "pressure",
+    "summary": "Punk emerged in Britain and America in 1976-1977 as a deliberate assault on the prevailing culture of rock music, fashion, and social expectation. It was characterised by noise, speed, anger, and an aesthetic of deliberate ugliness — ripped clothing, unconventional hairstyles, confrontational behaviour, and the rejection of professional finish in favour of raw immediacy. The DIY ethic was central: punk said that anyone could make music, that you didn't need to be technically accomplished or commercially approved. The aesthetic extended to clothing: where mainstream fashion was expensive and aspirational, punk fashion was cheap, torn, and assembled from whatever was available. The safety pin — cheap, industrial, literally holding things together — was the perfect punk object waiting to be discovered.",
+    "causeIds": [
+      "safety-pin-and-the-diaper"
+    ],
+    "effectIds": [
+      "punk-adopts-safety-pin"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sid_Vicious_1978.jpg"
+  },
+  {
+    "id": "punk-adopts-safety-pin",
+    "title": "The Safety Pin Goes Through the Cheek",
+    "wiki": "Safety_pin#Punk_fashion",
+    "year": 1977,
+    "keyword": "turning-point",
+    "summary": "The safety pin entered punk iconography in 1976-1977 in two related but distinct ways. First, as a practical fastener: torn clothing held together with safety pins was a statement of deliberate dishevelment, of contempt for conventional presentation. Second, as body decoration: safety pins pierced through ears, cheeks, and lips transformed a mundane household object into a symbol of transgression. The Sex Pistols, The Clash, and Richard Hell all incorporated safety pins into their visual identity. Vivienne Westwood sold safety-pin-adorned clothing from her Kings Road shop. The object Walter Hunt had made to hold a diaper together was now holding a subculture together — and simultaneously signalling its refusal to be held together by anything conventional.",
+    "causeIds": [
+      "mass-production-changes-everything",
+      "punk-movement-emerges"
+    ],
+    "effectIds": [
+      "high-fashion-adopts-safety-pin",
+      "safety-pin-as-symbol"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sid_Vicious_1978.jpg",
+    "relatedScenario": {
+      "scenarioId": "invention-of-teenager",
+      "nodeId": "rock-and-roll-emerges",
+      "label": "Connects to The Invention of the Teenager"
+    }
+  },
+  {
+    "id": "high-fashion-adopts-safety-pin",
+    "title": "From Punk to Versace",
+    "wiki": "Safety_pin_dress",
+    "year": 1994,
+    "keyword": "shift",
+    "summary": "In 1994, Elizabeth Hurley attended the premiere of Four Weddings and a Funeral wearing a black Versace dress held together by an array of gold safety pins running down the side — a dress that became one of the most photographed garments of the decade. The image completed a circuit that Walter Hunt could not have imagined: a household fastener, adopted by punk as a symbol of anti-establishment defiance, had been reinterpreted by one of the world's most expensive fashion houses as a luxury design element. Gianni Versace had taken the safety pin's punk associations and made them glamorous. The object that had meant 'I can't afford real clothes' now meant 'I can afford to treat industrial fasteners as jewellery.'",
+    "causeIds": [
+      "punk-adopts-safety-pin"
+    ],
+    "effectIds": [
+      "safety-pin-as-symbol"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Liz_Hurley_safety_pin_dress.jpg"
+  },
+  {
+    "id": "safety-pin-as-symbol",
+    "title": "The Safety Pin Becomes Political",
+    "wiki": "Safety_pin_(politics)",
+    "year": 2016,
+    "keyword": "consequence",
+    "summary": "After the Brexit referendum result in June 2016, British citizens who opposed the vote began wearing safety pins on their clothing as a visible signal of solidarity with immigrants and minorities who reported feeling threatened by the post-referendum atmosphere of emboldened nationalism. The gesture spread to the United States after the 2016 presidential election. The safety pin — which had meant household utility, then punk defiance, then luxury fashion — now meant: I am a safe person, you can stand next to me. The object Walter Hunt had made in three hours to pay a $15 debt had, in 167 years, accumulated a layered symbolic life that its inventor could not have anticipated: practical tool, subcultural icon, fashion statement, political declaration.",
+    "causeIds": [
+      "punk-adopts-safety-pin",
+      "high-fashion-adopts-safety-pin"
+    ],
+    "effectIds": [
+      "three-hours-to-symbol"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/SafetyPin.jpg"
+  },
+  {
+    "id": "three-hours-to-symbol",
+    "title": "From Debt to Symbol in 170 Years",
+    "wiki": "Safety_pin",
+    "year": 2020,
+    "keyword": "consequence",
+    "summary": "The safety pin's trajectory from Walter Hunt's wire-bending session in 1849 to political symbol in 2016 is a compressed history of how objects acquire meaning. Hunt made it to solve a practical problem and pay a debt; industrial manufacturers made it ubiquitous by making it cheap; punk made it meaningful by wearing it in transgressive ways; high fashion made it glamorous by making it expensive again; political movements made it a declaration by wearing it in solidarity. The object itself never changed — it is still the same bent piece of wire with a coiled spring and a clasp, unchanged since the patent drawing of 1849. Every meaning it has accumulated was applied from outside, by people Hunt never knew, in contexts he could not have imagined. He sold the rights for $400. He could not have sold the meanings.",
+    "causeIds": [
+      "safety-pin-as-symbol"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/SafetyPin.jpg"
+  },
+  {
+    "id": "safety-pin-in-medicine",
+    "title": "Florence Nightingale's Instrument",
+    "wiki": "Safety_pin#Medical_use",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg",
+    "year": 1880,
+    "keyword": "shift",
+    "summary": "The safety pin's adoption into medical and nursing practice from the 1860s onward transformed wound care and patient management in ways that are easy to underestimate from a distance of 150 years. Florence Nightingale's sanitary nursing reforms emphasised clean, secure wound dressings — and the safety pin was the ideal instrument for fastening them. Unlike straight pins, it could not work loose and pierce the patient; unlike knotted bandages, it could be removed with one hand; unlike buttons, it worked on fabric under tension. Military surgeons adopted it for field dressings; hospital matrons required it in nursing kits. The safety pin that Walter Hunt had conceived as a domestic fastener became a medical instrument within a generation of its invention — and remained the primary method of securing bandages and dressings for almost a century, until disposable adhesive dressings made it obsolete in clinical settings in the 1970s.",
+    "causeIds": [
+      "mass-production-changes-everything"
+    ],
+    "effectIds": [
+      "safety-pin-and-the-diaper"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "safety-pin-and-the-diaper",
+    "title": "A Century of Infant Care",
+    "wiki": "Diaper#History",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/SafetyPin.jpg",
+    "year": 1900,
+    "keyword": "consequence",
+    "summary": "For the better part of a century — from approximately the 1880s until the introduction of adhesive-tab disposable diapers in the early 1970s — the safety pin was the primary technology of infant care in the industrialised world. Every cloth diaper was fastened with safety pins; every parent learned to pin with one hand while holding a wriggling infant with the other; the safety pin's closure mechanism was specifically its suitability for this purpose — it could not open accidentally and pierce the baby. The safety pin was not merely a domestic convenience during this period; it was infrastructure for raising children. Pampers launched in 1961 and gradually displaced cloth diapers through the 1970s, taking the safety pin's most universal application with them. By the time punk adopted the safety pin as a symbol of transgression in 1976, the object had already been demoted from its century-long role as the indispensable instrument of infancy. Punk was, among other things, repurposing something the previous generation had used on their children.",
+    "causeIds": [
+      "safety-pin-in-medicine"
+    ],
+    "effectIds": [
+      "punk-movement-emerges"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]

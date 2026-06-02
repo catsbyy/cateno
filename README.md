@@ -10,7 +10,7 @@ Built with React, TypeScript, React Flow, and Tailwind CSS.
 
 ## Scenarios
 
-Twenty-eight curated scenarios, each with a number of interconnected events:
+Thirty-four curated scenarios, each with a number of interconnected events:
 
 - **Fall of Rome** (100-600)
 - **French Revolution** (1700-1803)
@@ -43,6 +43,9 @@ Twenty-eight curated scenarios, each with a number of interconnected events:
 - **The Drink That Invented Conversation** (1450-2004)
 - **The City That Made the Slavic World** (482-1991)
 - **The Most Cancelled Man in Music History** (1990–2026)
+- **Daylight Robbery** (1696–1900)
+- **The Policy Nobody Can Kill** (1784–2023)
+- **Three Hours, $15, and 170 Years** (1849–2020)
 
 ---
 

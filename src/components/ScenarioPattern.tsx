@@ -1317,6 +1317,136 @@ function KyivPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Window Tax — arched window with bricked-up interior
+function WindowTaxPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-window-tax" x="0" y="0" width="120" height="140" patternUnits="userSpaceOnUse">
+          <g transform="translate(60, 70)">
+            <line x1="-22" y1="44" x2="-22" y2="-14" stroke="#E8E3D5" strokeWidth="0.9" />
+            <line x1="22" y1="44" x2="22" y2="-14" stroke="#E8E3D5" strokeWidth="0.9" />
+            <line x1="-26" y1="44" x2="26" y2="44" stroke="#E8E3D5" strokeWidth="0.9" />
+            <path d="M-22,-14 A22,22 0 0,1 22,-14" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+            <rect x="-18" y="-10" width="16" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="2" y="-10" width="16" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="-20" y="-2" width="12" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="-6" y="-2" width="12" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="8" y="-2" width="12" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="-18" y="6" width="16" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="2" y="6" width="16" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="-20" y="14" width="12" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="-6" y="14" width="12" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="8" y="14" width="12" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="-18" y="22" width="16" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="2" y="22" width="16" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="-20" y="30" width="12" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="-6" y="30" width="12" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="8" y="30" width="12" height="6" rx="0.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-window-tax)" />
+    </svg>
+  );
+}
+
+// Daylight Saving Time — clock face at 1:58 with spring-forward arrow
+function DaylightSavingTimePattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-daylight-saving-time" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+          <g transform="translate(50, 50)">
+            <circle cx="0" cy="0" r="36" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+            <circle cx="0" cy="0" r="32" fill="none" stroke="#E8E3D5" strokeWidth="0.3" />
+            <line x1="0" y1="-32" x2="0" y2="-26" stroke="#E8E3D5" strokeWidth="0.8" />
+            <line x1="16" y1="-27.7" x2="13.9" y2="-24" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="27.7" y1="-16" x2="24" y2="-13.9" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="32" y1="0" x2="26" y2="0" stroke="#E8E3D5" strokeWidth="0.8" />
+            <line x1="27.7" y1="16" x2="24" y2="13.9" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="16" y1="27.7" x2="13.9" y2="24" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="0" y1="32" x2="0" y2="26" stroke="#E8E3D5" strokeWidth="0.8" />
+            <line x1="-16" y1="27.7" x2="-13.9" y2="24" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="-27.7" y1="16" x2="-24" y2="13.9" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="-32" y1="0" x2="-26" y2="0" stroke="#E8E3D5" strokeWidth="0.8" />
+            <line x1="-27.7" y1="-16" x2="-24" y2="-13.9" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="-16" y1="-27.7" x2="-13.9" y2="-24" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="0" y1="0" x2="13" y2="-18" stroke="#E8E3D5" strokeWidth="1.2" strokeLinecap="round" />
+            <line x1="0" y1="0" x2="-4" y2="-26" stroke="#E8E3D5" strokeWidth="0.8" strokeLinecap="round" />
+            <circle cx="0" cy="0" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+            <path d="M30,-20 A14,14 0 0,1 36,-6" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+            <path d="M36,-6 L32,-4 L38,-2" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-daylight-saving-time)" />
+    </svg>
+  );
+}
+
+// Safety Pin — side profile with coil, shaft, and clasp
+function SafetyPinPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-safety-pin" x="0" y="0" width="140" height="80" patternUnits="userSpaceOnUse">
+          <g transform="translate(70, 40)">
+            <path
+              d="M-44,-4 C-40,-8 -36,-8 -36,-4 C-36,0 -40,0 -40,4 C-40,8 -36,8 -36,4"
+              fill="none"
+              stroke="#E8E3D5"
+              strokeWidth="0.85"
+              strokeLinecap="round"
+            />
+            <line x1="-36" y1="-4" x2="38" y2="-4" stroke="#E8E3D5" strokeWidth="0.85" />
+            <path d="M38,-4 L44,0" fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round" />
+            <rect x="36" y="-1" width="10" height="8" rx="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+            <path
+              d="M36,7 C20,10 -10,10 -36,4"
+              fill="none"
+              stroke="#E8E3D5"
+              strokeWidth="0.85"
+              strokeLinecap="round"
+            />
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-safety-pin)" />
+    </svg>
+  );
+}
+
 // ─── Public switcher ───────────────────────────────────────────────────────────
 
 interface ScenarioPatternSvgProps {
@@ -1388,6 +1518,12 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
       return <KanyeWestPattern opacity={opacity} />;
     case "kyiv":
       return <KyivPattern opacity={opacity} />;
+    case "window-tax":
+      return <WindowTaxPattern opacity={opacity} />;
+    case "daylight-saving-time":
+      return <DaylightSavingTimePattern opacity={opacity} />;
+    case "safety-pin":
+      return <SafetyPinPattern opacity={opacity} />;
     default:
       return null;
   }

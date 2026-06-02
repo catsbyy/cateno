@@ -381,6 +381,42 @@ export const SCENARIO_META: ScenarioMeta[] = [
     theme: "culture",
   },
   {
+    id: "window-tax",
+    title: "Daylight Robbery",
+    period: "1696–1900",
+    description:
+      "In 1696, Britain taxed windows. People bricked them up. The government kept raising the tax. The poor lived in darkness. Tuberculosis spread. The phrase 'daylight robbery' entered the language. It took 155 years to repeal.",
+    anchorId: "window-tax-introduced",
+    anchorTitle: "Window Tax Introduced",
+    nodeCount: 14,
+    anchorYear: 1696,
+    theme: "politics",
+  },
+  {
+    id: "daylight-saving-time",
+    title: "The Policy Nobody Can Kill",
+    period: "1784–2023",
+    description:
+      "Benjamin Franklin joked about it in 1784. A British golfer campaigned for it in 1907. Germany adopted it in 1916 to save coal during WWI. It now kills more people annually than it saves energy. The EU voted to abolish it in 2019. It still exists.",
+    anchorId: "germany-introduces-dst",
+    anchorTitle: "Germany Introduces DST",
+    nodeCount: 16,
+    anchorYear: 1916,
+    theme: "politics",
+  },
+  {
+    id: "safety-pin",
+    title: "Three Hours, $15, and 170 Years",
+    period: "1849–2020",
+    description:
+      "Walter Hunt owed $15. He twisted a piece of wire for three hours and invented the safety pin. He sold the patent for $400. The buyer made a fortune. Hunt made nothing. 127 years later the safety pin went through someone's cheek at a Sex Pistols concert and became the symbol of an entire cultural movement.",
+    anchorId: "hunt-invents-safety-pin",
+    anchorTitle: "Hunt Invents the Safety Pin",
+    nodeCount: 14,
+    anchorYear: 1849,
+    theme: "culture",
+  },
+  {
     id: "kanye-west",
     title: "The Most Cancelled Man in Music History",
     period: "1990–2026",
@@ -430,6 +466,9 @@ const NODE_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
   "coffee-houses": () => import("./coffee-houses.json"),
   "kanye-west": () => import("./kanye-west.json"),
   kyiv: () => import("./kyiv.json"),
+  "window-tax": () => import("./window-tax.json"),
+  "daylight-saving-time": () => import("./daylight-saving-time.json"),
+  "safety-pin": () => import("./safety-pin.json"),
 };
 
 export async function loadScenarioNodes(id: string): Promise<CatenoNode[]> {
