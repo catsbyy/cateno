@@ -2,7 +2,7 @@
   {
     "id": "victorian-fastening-problem",
     "title": "The Pin Problem",
-    "wiki": "Pin_(fastener)#History",
+    "wiki": "Pin",
     "year": 1840,
     "keyword": "pressure",
     "summary": "Before the safety pin, fabric was fastened with straight pins — thin metal points with no protective mechanism at the sharp end. Straight pins were dangerous, unreliable, and uncomfortable: they worked loose, pierced skin, got lost in clothing and upholstery, and required considerable skill to use effectively. Dressmakers, mothers fastening diapers, and anyone assembling or repairing fabric faced the same daily problem. Various attempts had been made to create a pin with a protective cap or clasp, but nothing had achieved the combination of simplicity, security, and cheapness that would make it genuinely useful. The solution was already implicit in the physics of a bent piece of spring wire. It would take a man with a $15 debt and three hours to find it.",
@@ -12,7 +12,7 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Walter_Hunt_portrait.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Walter_Hunt_photograph.jpg"
   },
   {
     "id": "hunt-debt-crisis",
@@ -29,7 +29,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Walter_Hunt_portrait.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Walter_Hunt_photograph.jpg"
   },
   {
     "id": "coiled-spring-mechanics",
