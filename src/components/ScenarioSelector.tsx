@@ -57,28 +57,28 @@ function chunkArray<T>(arr: T[], size: number): T[][] {
 // ─── Era & theme definitions ──────────────────────────────────────────────────
 
 const ERAS = [
-  { id: "antiquity",    name: "Antiquity",    dateRange: "Before 500 AD", min: -Infinity, max: 500  },
-  { id: "middle-ages",  name: "Middle Ages",  dateRange: "500–1500",      min: 500,       max: 1500 },
-  { id: "early-modern", name: "Early Modern", dateRange: "1500–1800",     min: 1500,      max: 1800 },
-  { id: "modern",       name: "Modern",       dateRange: "1800–1950",     min: 1800,      max: 1950 },
-  { id: "contemporary", name: "Contemporary", dateRange: "1950–Present",  min: 1950,      max: Infinity },
+  { id: "antiquity", name: "Antiquity", dateRange: "Before 500 AD", min: -Infinity, max: 500 },
+  { id: "middle-ages", name: "Middle Ages", dateRange: "500–1500", min: 500, max: 1500 },
+  { id: "early-modern", name: "Early Modern", dateRange: "1500–1800", min: 1500, max: 1800 },
+  { id: "modern", name: "Modern", dateRange: "1800–1950", min: 1800, max: 1950 },
+  { id: "contemporary", name: "Contemporary", dateRange: "1950–Present", min: 1950, max: Infinity },
 ] as const;
 
 const THEMES: Array<{ ids: ScenarioTheme[]; label: string }> = [
-  { ids: ["war"],              label: "War & Conflict"   },
-  { ids: ["science"],          label: "Science & Ideas"  },
+  { ids: ["war"], label: "War & Conflict" },
+  { ids: ["science"], label: "Science & Ideas" },
   { ids: ["nature", "disaster"], label: "Nature & Disaster" },
-  { ids: ["culture"],          label: "Culture & Society" },
-  { ids: ["finance"],          label: "Finance & Power"  },
-  { ids: ["politics"],         label: "Politics"         },
+  { ids: ["culture"], label: "Culture & Society" },
+  { ids: ["finance"], label: "Finance & Power" },
+  { ids: ["politics"], label: "Politics" },
 ];
 
 // ─── Tab definitions ──────────────────────────────────────────────────────────
 
 const TABS = [
-  { id: "featured", label: "Featured"    },
-  { id: "era",      label: "By era"      },
-  { id: "theme",    label: "By theme"    },
+  { id: "featured", label: "Featured" },
+  { id: "era", label: "By era" },
+  { id: "theme", label: "By theme" },
   { id: "progress", label: "In progress" },
 ] as const;
 
@@ -120,20 +120,14 @@ function ScenarioCard({
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay: 0.08 + localIdx * 0.04, ease: "easeOut" }}
     >
-      <ScenarioPatternSvg scenarioId={scenario.id} opacity={0.06} />
+      <ScenarioPatternSvg scenarioId={scenario.id} opacity={0.1} />
 
       <div className="flex flex-col flex-1 relative" style={{ zIndex: 1 }}>
-        <p className="text-[#E8E3D5]/55 text-[10px] font-sans uppercase tracking-[0.2em] mb-3">
-          {scenario.period}
-        </p>
+        <p className="text-[#E8E3D5]/55 text-[10px] font-sans uppercase tracking-[0.2em] mb-3">{scenario.period}</p>
         <h2 className="text-[#E8E3D5] text-[22px] font-serif leading-snug mb-3">{scenario.title}</h2>
-        <p className="text-[#E8E3D5]/50 text-[13px] font-sans leading-relaxed mb-5">
-          {scenario.description}
-        </p>
+        <p className="text-[#E8E3D5]/50 text-[13px] font-sans leading-relaxed mb-5">{scenario.description}</p>
         <div className="pt-4 mb-auto" style={{ borderTop: "1px solid #1e1e1e" }}>
-          <p className="text-[#E8E3D5]/45 text-[10px] font-sans uppercase tracking-[0.15em] mb-1">
-            Anchor event
-          </p>
+          <p className="text-[#E8E3D5]/45 text-[10px] font-sans uppercase tracking-[0.15em] mb-1">Anchor event</p>
           <p className="text-[#E8E3D5]/75 text-[12px] font-sans">{scenario.anchorTitle}</p>
         </div>
         <div className="mt-4 min-h-[44px] md:min-h-0 flex items-center">
@@ -274,10 +268,7 @@ function TabNav({ active, onSelect }: { active: ViewId; onSelect: (v: ViewId) =>
             style={{
               background: "none",
               border: "none",
-              borderBottom:
-                active === tab.id
-                  ? "1px solid rgba(232, 227, 213, 0.4)"
-                  : "1px solid transparent",
+              borderBottom: active === tab.id ? "1px solid rgba(232, 227, 213, 0.4)" : "1px solid transparent",
               padding: "4px 0 3px",
               cursor: "pointer",
               fontFamily: "DM Sans, sans-serif",
@@ -326,9 +317,7 @@ function FeaturedView({
   progress: Record<string, ScenarioProgress>;
   onSelect: (s: ScenarioMeta) => void;
 }) {
-  return (
-    <ScenarioGrid scenarios={SCENARIO_META} onSelect={onSelect} progress={progress} />
-  );
+  return <ScenarioGrid scenarios={SCENARIO_META} onSelect={onSelect} progress={progress} />;
 }
 
 // ─── View 2 — By era ──────────────────────────────────────────────────────────
@@ -343,9 +332,9 @@ function EraView({
   const groups = useMemo(() => {
     let offset = 0;
     return ERAS.map((era) => {
-      const scenarios = SCENARIO_META.filter(
-        (s) => s.anchorYear >= era.min && s.anchorYear < era.max
-      ).sort((a, b) => parsePeriodStart(a.period) - parsePeriodStart(b.period));
+      const scenarios = SCENARIO_META.filter((s) => s.anchorYear >= era.min && s.anchorYear < era.max).sort(
+        (a, b) => parsePeriodStart(a.period) - parsePeriodStart(b.period)
+      );
       const baseIdx = offset;
       offset += scenarios.length;
       return { era, scenarios, baseIdx };
@@ -357,12 +346,7 @@ function EraView({
       {groups.map(({ era, scenarios, baseIdx }) => (
         <div key={era.id}>
           <SectionHeader title={era.name} subtitle={era.dateRange} />
-          <ScenarioGrid
-            scenarios={scenarios}
-            onSelect={onSelect}
-            progress={progress}
-            baseIdx={baseIdx}
-          />
+          <ScenarioGrid scenarios={scenarios} onSelect={onSelect} progress={progress} baseIdx={baseIdx} />
         </div>
       ))}
     </div>
@@ -381,9 +365,7 @@ function ThemeView({
   const groups = useMemo(() => {
     let offset = 0;
     return THEMES.map((theme) => {
-      const scenarios = SCENARIO_META.filter((s) =>
-        (theme.ids as readonly string[]).includes(s.theme)
-      );
+      const scenarios = SCENARIO_META.filter((s) => (theme.ids as readonly string[]).includes(s.theme));
       const baseIdx = offset;
       offset += scenarios.length;
       return { theme, scenarios, baseIdx };
@@ -395,12 +377,7 @@ function ThemeView({
       {groups.map(({ theme, scenarios, baseIdx }) => (
         <div key={theme.label}>
           <SectionHeader title={theme.label} />
-          <ScenarioGrid
-            scenarios={scenarios}
-            onSelect={onSelect}
-            progress={progress}
-            baseIdx={baseIdx}
-          />
+          <ScenarioGrid scenarios={scenarios} onSelect={onSelect} progress={progress} baseIdx={baseIdx} />
         </div>
       ))}
     </div>
@@ -424,12 +401,8 @@ function ProgressView({
       inProgress: SCENARIO_META.filter(
         (s) => progress[s.id]?.visitedCount > 0 && !progress[s.id]?.isFullyExplored
       ).sort(byLastVisited),
-      fullyExplored: SCENARIO_META.filter((s) => progress[s.id]?.isFullyExplored).sort(
-        byLastVisited
-      ),
-      notBegun: SCENARIO_META.filter(
-        (s) => !progress[s.id]?.visitedCount || progress[s.id]?.visitedCount === 0
-      ),
+      fullyExplored: SCENARIO_META.filter((s) => progress[s.id]?.isFullyExplored).sort(byLastVisited),
+      notBegun: SCENARIO_META.filter((s) => !progress[s.id]?.visitedCount || progress[s.id]?.visitedCount === 0),
     };
   }, [progress]);
 
@@ -454,8 +427,10 @@ function ProgressView({
   }
 
   let offset = 0;
-  const inProgressBase = offset; offset += inProgress.length;
-  const fullyBase = offset; offset += fullyExplored.length;
+  const inProgressBase = offset;
+  offset += inProgress.length;
+  const fullyBase = offset;
+  offset += fullyExplored.length;
   const notBegunBase = offset;
 
   return (
@@ -463,34 +438,19 @@ function ProgressView({
       {inProgress.length > 0 && (
         <div>
           <SectionHeader title="Continue exploring" />
-          <ScenarioGrid
-            scenarios={inProgress}
-            onSelect={onSelect}
-            progress={progress}
-            baseIdx={inProgressBase}
-          />
+          <ScenarioGrid scenarios={inProgress} onSelect={onSelect} progress={progress} baseIdx={inProgressBase} />
         </div>
       )}
       {fullyExplored.length > 0 && (
         <div>
           <SectionHeader title="Fully explored" />
-          <ScenarioGrid
-            scenarios={fullyExplored}
-            onSelect={onSelect}
-            progress={progress}
-            baseIdx={fullyBase}
-          />
+          <ScenarioGrid scenarios={fullyExplored} onSelect={onSelect} progress={progress} baseIdx={fullyBase} />
         </div>
       )}
       {notBegun.length > 0 && (
         <div>
           <SectionHeader title="Not yet begun" />
-          <ScenarioGrid
-            scenarios={notBegun}
-            onSelect={onSelect}
-            progress={progress}
-            baseIdx={notBegunBase}
-          />
+          <ScenarioGrid scenarios={notBegun} onSelect={onSelect} progress={progress} baseIdx={notBegunBase} />
         </div>
       )}
     </div>
@@ -507,9 +467,7 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
   const [searchParams, setSearchParams] = useSearchParams();
 
   const rawView = searchParams.get("view");
-  const activeView: ViewId = VIEW_IDS.includes(rawView as ViewId)
-    ? (rawView as ViewId)
-    : "featured";
+  const activeView: ViewId = VIEW_IDS.includes(rawView as ViewId) ? (rawView as ViewId) : "featured";
 
   const progress = useMemo(() => readAllProgress(), []);
 
@@ -549,18 +507,10 @@ export function ScenarioSelector({ onSelect }: ScenarioSelectorProps) {
 
       {/* View content */}
       <div className="w-full" style={{ maxWidth: 1200 }}>
-        {activeView === "featured" && (
-          <FeaturedView progress={progress} onSelect={onSelect} />
-        )}
-        {activeView === "era" && (
-          <EraView progress={progress} onSelect={onSelect} />
-        )}
-        {activeView === "theme" && (
-          <ThemeView progress={progress} onSelect={onSelect} />
-        )}
-        {activeView === "progress" && (
-          <ProgressView progress={progress} onSelect={onSelect} />
-        )}
+        {activeView === "featured" && <FeaturedView progress={progress} onSelect={onSelect} />}
+        {activeView === "era" && <EraView progress={progress} onSelect={onSelect} />}
+        {activeView === "theme" && <ThemeView progress={progress} onSelect={onSelect} />}
+        {activeView === "progress" && <ProgressView progress={progress} onSelect={onSelect} />}
       </div>
 
       <Footer />
