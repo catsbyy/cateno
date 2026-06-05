@@ -1,0 +1,520 @@
+[
+  {
+    "id": "medieval-understanding-of-madness",
+    "title": "Madness as Sin, Possession, and Imbalance",
+    "wiki": "History_of_mental_disorders#Middle_Ages",
+    "year": 1200,
+    "keyword": "pressure",
+    "summary": "Medieval European understanding of mental illness drew on three competing frameworks, none of which treated it as a medical condition in any modern sense. The theological framework understood madness as divine punishment for sin, demonic possession, or a trial sent by God — responses included prayer, exorcism, and pilgrimage. The humoral framework inherited from ancient medicine understood it as an imbalance of the four humours — blood, phlegm, black bile, and yellow bile — responses included purging, bloodletting, and dietary regimes. The social framework simply understood it as the loss of rational self-governance that made a person dangerous or incompetent — the response was containment. All three frameworks agreed on one thing: the mad person needed to be managed. None asked what the experience of madness felt like from the inside.",
+    "causeIds": [],
+    "effectIds": [
+      "bedlam-founded-1247"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Exorcism_of_the_Gerasene_demonic.jpg"
+  },
+  {
+    "id": "bedlam-founded-1247",
+    "title": "Bethlem Royal Hospital Is Founded",
+    "wiki": "Bethlem_Royal_Hospital#History",
+    "year": 1247,
+    "keyword": "spark",
+    "summary": "The Priory of the New Order of Our Lady of Bethlehem was founded in Bishopsgate, London, in 1247 — originally as a religious house collecting alms for the Crusades. By 1403, it had begun housing 'lunatics': an early visitation record mentions six men 'of disordered mind' being kept there. The transformation from priory to madhouse was gradual and pragmatic — the institution discovered that housing the mentally ill was a service for which London families would pay, and the church-run establishment found a new function. Bethlem would move premises three times over the following 750 years. It would be demolished, rebuilt, scandalized, reformed, and renamed. It still exists.",
+    "causeIds": [
+      "medieval-understanding-of-madness"
+    ],
+    "effectIds": [
+      "bedlam-as-containment"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bethlem_engraving.jpg"
+  },
+  {
+    "id": "bedlam-as-containment",
+    "title": "The Solution: Put Them Somewhere",
+    "wiki": "Bethlem_Royal_Hospital#Early_history",
+    "year": 1400,
+    "keyword": "shift",
+    "summary": "Bethlem's early function was essentially containment: families and parishes who could not or would not manage a mentally ill person could pay to have them housed, chained if necessary, and kept away from the general population. The institution asked few questions about diagnosis, prognosis, or treatment. Patients were restrained by whatever means seemed necessary — chains, manacles, straw beds in locked cells. The physical conditions were poor by any standard: cold, damp, inadequately fed, without meaningful occupation or social contact. This was not understood as cruelty — it was the prevailing response to a problem for which no better solution existed. Bethlem was doing what its society asked of it: making the problem invisible.",
+    "causeIds": [
+      "bedlam-founded-1247"
+    ],
+    "effectIds": [
+      "bedlam-moorfields-rebuild",
+      "bedlam-survives-reformation",
+      "madness-on-stage"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Bethlem_chains.jpg"
+  },
+  {
+    "id": "bedlam-as-tourist-attraction",
+    "title": "One Penny to Watch the Mad",
+    "wiki": "Bethlem_Royal_Hospital#Tourism",
+    "year": 1676,
+    "keyword": "shift",
+    "summary": "After Bethlem moved to its spectacular new building at Moorfields in 1676 — a palatial structure with elaborate stone façades that deliberately projected grandeur — it became one of London's most popular tourist attractions. For a penny admission, visitors could walk through the wards and observe the patients. Contemporary accounts describe crowds of Londoners watching patients who shouted, wept, spoke incomprehensibly, or sat in motionless silence. Estimates suggest up to 96,000 visitors annually in the early 18th century. The institution actively encouraged visits as a revenue source and, in a confused way, as a deterrent: the spectacle of madness was thought to reinforce the value of reason. The patients had no say in being exhibited. The line between the asylum and the theatre had not yet been clearly drawn.",
+    "causeIds": [
+      "bedlam-moorfields-rebuild",
+      "madness-on-stage"
+    ],
+    "effectIds": [
+      "hogarth-documents-bedlam",
+      "bedlam-enters-language",
+      "reformers-arrive"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Hogarth-rakes-progress-8.jpg"
+  },
+  {
+    "id": "bedlam-enters-language",
+    "title": "A Word for Chaos",
+    "wiki": "Bethlem_Royal_Hospital#Etymology",
+    "year": 1680,
+    "keyword": "consequence",
+    "summary": "The word 'bedlam' — meaning a scene of uproar and confusion — appears in English from at least the mid-17th century, derived from the popular pronunciation of 'Bethlem.' By the time Samuel Pepys recorded visiting the hospital in his diary, 'bedlam' was already in common use as a general term for any chaotic situation. The word's survival is significant: it outlasted every reform, every change of premises, every rebranding of the institution. Every subsequent attempt to treat mental illness more humanely — the moral treatment movement, the asylum system, deinstitutionalisation — produced an institution with a different name and a different philosophy. The chaos the word described proved more durable than any of the solutions.",
+    "causeIds": [
+      "bedlam-as-tourist-attraction"
+    ],
+    "effectIds": [
+      "scandal-forces-reform",
+      "cycle-continues",
+      "visiting-bedlam"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Hogarth-rakes-progress-8.jpg"
+  },
+  {
+    "id": "hogarth-documents-bedlam",
+    "title": "Hogarth Paints the Final Scene",
+    "wiki": "A_Rake%27s_Progress#Plate_8:_In_the_Madhouse",
+    "year": 1733,
+    "keyword": "catalyst",
+    "summary": "William Hogarth's series of paintings 'A Rake's Progress' (1733) ends its moral narrative in Bethlem: the rake who has wasted his fortune and his life ends his days chained on the floor of Bedlam, surrounded by other patients, while fashionable ladies visit as spectators. The image was both documentary and satirical — Hogarth knew the institution and its visitors, and his depiction captured both the suffering of the patients and the callousness of those who came to observe it as entertainment. The painting entered the cultural vocabulary of 18th-century London as the definitive image of where the pursuit of vice ended. It also made Bedlam's conditions visible to audiences who might never have visited — and made them harder to ignore.",
+    "causeIds": [
+      "bedlam-as-tourist-attraction",
+      "visiting-bedlam"
+    ],
+    "effectIds": [
+      "scandal-forces-reform",
+      "king-george-madness"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Hogarth-rakes-progress-8.jpg"
+  },
+  {
+    "id": "scandal-forces-reform",
+    "title": "The Scandal That Ended the Spectacle",
+    "wiki": "Bethlem_Royal_Hospital#Parliamentary_investigation",
+    "year": 1815,
+    "keyword": "turning-point",
+    "summary": "Public visits to Bedlam were banned in 1770 after growing criticism of the practice. But the more significant scandal came with the parliamentary inquiry of 1815-1816, which revealed conditions far worse than the public had imagined. Investigators found patients living in filth, inadequately clothed in winter, and subjected to treatment that amounted to systematic abuse. The case of James Norris — an American sailor who had been restrained for nine years in an iron harness that allowed him almost no movement, and who showed visitors his contraption with cheerful resignation — became a national cause. Norris died shortly after his release. The inquiry produced political pressure for legislation that would take another thirty years to arrive.",
+    "causeIds": [
+      "hogarth-documents-bedlam",
+      "bedlam-enters-language",
+      "king-george-madness"
+    ],
+    "effectIds": [
+      "james-norris-case",
+      "lunacy-act-1845"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/James_Norris_Bedlam.jpg"
+  },
+  {
+    "id": "reformers-arrive",
+    "title": "Moral Treatment — A New Philosophy",
+    "wiki": "Moral_treatment",
+    "year": 1793,
+    "keyword": "shift",
+    "summary": "Two reformers working independently on either side of the English Channel developed a new approach to mental illness in the 1790s. Philippe Pinel, appointed director of the Bicêtre asylum in Paris in 1793, is credited with ordering the removal of chains from patients — though the reforms had largely been implemented by his assistant Jean-Baptiste Pussin, who had been working toward them before Pinel arrived. Pinel gave them intellectual framework and professional legitimacy, calling the approach 'moral treatment': a therapeutic relationship based on kindness, routine, work, and the cultivation of self-control rather than punishment. In England, William Tuke — a Quaker merchant appalled by the death of a fellow Quaker in the York asylum — founded the York Retreat in 1796 on similar principles. Both institutions demonstrated that humane treatment produced better outcomes than restraint. The question was whether the lesson would be applied at scale.",
+    "causeIds": [
+      "bedlam-as-tourist-attraction",
+      "king-george-madness"
+    ],
+    "effectIds": [
+      "lunacy-act-1845"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Philippe_Pinel_a_la_Salpetriere.jpg",
+    "relatedScenario": {
+      "scenarioId": "black-plague-renaissance",
+      "nodeId": "individual-matters-more",
+      "label": "Connects to Death and the Birth of Humanism"
+    }
+  },
+  {
+    "id": "james-norris-case",
+    "title": "James Norris — Nine Years in Iron",
+    "wiki": "James_Norris_(Bedlam_patient)",
+    "year": 1815,
+    "keyword": "collapse",
+    "summary": "James Norris, an American sailor admitted to Bethlem around 1800, was found by parliamentary investigators in 1815 having spent approximately nine years in a custom-built iron restraint: a harness attached to a vertical iron bar that allowed him to move forward about a foot and to stand up, but little else. Norris had apparently been placed in this apparatus after injuring a member of staff. He appeared lucid to investigators, explained his situation calmly, and demonstrated the range of movement available to him. He was released following the inquiry and died shortly afterward. His case became the defining image of what Bedlam represented — not the extravagant public madness of the tourist era, but the quiet institutional violence of prolonged neglect — and the most powerful argument for the legislation that would follow.",
+    "causeIds": [
+      "scandal-forces-reform"
+    ],
+    "effectIds": [
+      "lunacy-act-1845"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/James_Norris_Bedlam.jpg"
+  },
+  {
+    "id": "lunacy-act-1845",
+    "title": "The Lunacy Act",
+    "wiki": "Lunacy_Act_1845",
+    "year": 1845,
+    "keyword": "turning-point",
+    "summary": "The Lunacy Act of 1845 was the most significant piece of mental health legislation in British history to that point. It made the provision of county asylums compulsory — every county in England and Wales was required to build and maintain a public asylum for its pauper lunatics. It established the Lunacy Commission, a permanent inspectorate with powers to oversee conditions in all asylums. Most fundamentally, it embedded in law the principle that mental illness was a medical condition requiring treatment rather than a moral failing requiring containment. The language of disease replaced the language of wickedness. It was a genuine moral advance. It was also the foundation of a system that would, within fifty years, be housing 100,000 people in conditions that the Lunacy Act's authors would not have recognised as progress.",
+    "causeIds": [
+      "reformers-arrive",
+      "james-norris-case",
+      "scandal-forces-reform"
+    ],
+    "effectIds": [
+      "asylum-era-begins",
+      "medicalization-of-madness"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Hanwell_Asylum.jpg"
+  },
+  {
+    "id": "medicalization-of-madness",
+    "title": "The Birth of Psychiatry",
+    "wiki": "History_of_psychiatry",
+    "year": 1845,
+    "keyword": "consequence",
+    "summary": "The Lunacy Act created institutional demand for a new medical speciality. 'Mad doctors' — the informal term for those who had managed asylums — became 'alienists,' and eventually psychiatrists. The Medico-Psychological Association (forerunner of the Royal College of Psychiatrists) was founded in 1841. A new professional class now had legal authority over the definition, diagnosis, and treatment of mental illness. This authority was genuine and in many respects beneficial — it brought scientific rigour to a field that had previously been governed by intuition and convenience. It also created a new kind of power: the power to define who was mentally ill and to detain them accordingly. The 20th century would demonstrate both the best and worst of what that power could do.",
+    "causeIds": [
+      "lunacy-act-1845"
+    ],
+    "effectIds": [
+      "asylum-era-begins",
+      "dangerous-treatments-era",
+      "eugenics-and-asylums"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Hanwell_Asylum.jpg",
+    "relatedScenario": {
+      "scenarioId": "scientific-revolution",
+      "nodeId": "church-controls-knowledge",
+      "label": "Connects to Scientific Revolution"
+    }
+  },
+  {
+    "id": "asylum-era-begins",
+    "title": "The Great Asylum Building Programme",
+    "wiki": "Psychiatric_hospital#History",
+    "year": 1845,
+    "keyword": "consequence",
+    "summary": "The Lunacy Act triggered an unprecedented programme of institutional construction. County asylums rose across Britain and, independently, across the United States and Europe. In 1845, approximately 7,000 people were confined in public asylums in England and Wales. By 1900, that number had grown to over 100,000. The asylums were initially built with genuine therapeutic ambition — set in countryside, designed with light and ventilation, offering occupational therapy and moral treatment. Several early institutions were models of progressive care. But the system's logic worked against itself: asylums built for cure attracted patients who couldn't be cured, grew overcrowded, received inadequate funding, and gradually transformed from therapeutic communities into custodial warehouses.",
+    "causeIds": [
+      "lunacy-act-1845",
+      "medicalization-of-madness"
+    ],
+    "effectIds": [
+      "asylum-overcrowding"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Hanwell_Asylum.jpg"
+  },
+  {
+    "id": "asylum-overcrowding",
+    "title": "The Warehouses",
+    "wiki": "Psychiatric_hospital#Decline",
+    "year": 1880,
+    "keyword": "pressure",
+    "summary": "Victorian and Edwardian asylums designed for 200 patients routinely housed 2,000 by the early 20th century. The patients who filled them were not primarily those with acute, treatable conditions — they were the chronically ill, the intellectually disabled, the socially inconvenient, and those whose families could not or would not support them. Discharge rates fell; admission rates rose; buildings deteriorated. Staff were underpaid and undertrained. The therapeutic ideology of the founding generation — fresh air, occupational therapy, moral treatment — survived in the official literature long after it had ceased to describe actual practice. The asylum had become what Bedlam had been before the reformers arrived: a place where the socially problematic were put so that everyone else could stop thinking about them.",
+    "causeIds": [
+      "asylum-era-begins"
+    ],
+    "effectIds": [
+      "dangerous-treatments-era",
+      "deinstitutionalisation-1960s"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Hanwell_Asylum.jpg"
+  },
+  {
+    "id": "dangerous-treatments-era",
+    "title": "The Treatments That Followed",
+    "wiki": "History_of_psychiatric_institutions#Treatments",
+    "year": 1935,
+    "keyword": "collapse",
+    "summary": "The 20th century produced a succession of somatic treatments for mental illness that were introduced with genuine therapeutic optimism and subsequently recognised as causing serious harm. Insulin coma therapy — inducing repeated hypoglycaemic comas — was widely used from the 1930s despite no reliable evidence of efficacy. Lobotomy, developed by António Egas Moniz and introduced to the United States by Walter Freeman, was performed on approximately 40,000 patients in the US alone; Freeman toured the country performing 'ice-pick' lobotomies through the eye socket in doctor's offices and state hospitals. Electroconvulsive therapy, introduced in 1938, was used coercively and without anaesthetic on patients who had no ability to consent. Some patients benefited from some treatments; many were permanently harmed. The history of psychiatric treatment is a history of well-intentioned interventions whose consequences were not adequately understood.",
+    "causeIds": [
+      "asylum-overcrowding",
+      "medicalization-of-madness",
+      "eugenics-and-asylums"
+    ],
+    "effectIds": [
+      "antipsychotics-arrive",
+      "anti-psychiatry-movement"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Insulin_coma_therapy.jpg",
+    "relatedScenario": {
+      "scenarioId": "leaded-gasoline",
+      "nodeId": "industry-science-denial",
+      "label": "Connects to The Poison They Chose"
+    }
+  },
+  {
+    "id": "antipsychotics-arrive",
+    "title": "The First Effective Medications",
+    "wiki": "Chlorpromazine#History",
+    "year": 1952,
+    "keyword": "catalyst",
+    "summary": "Chlorpromazine, synthesised in France in 1950 and first used therapeutically in 1952, was the first medication that demonstrably reduced the symptoms of psychosis. Its introduction transformed psychiatric practice: patients who had been continuously hospitalised for years became stable enough to live outside institutions. The discovery of effective antipsychotic medications was the most significant advance in psychiatry since the founding of the discipline — and it provided the medical justification for a policy that was already under consideration for economic reasons. If patients could be stabilised with medication, the argument for maintaining expensive institutions weakened considerably. The antipsychotics didn't cause deinstitutionalisation, but they made its advocates' arguments much easier to make.",
+    "causeIds": [
+      "dangerous-treatments-era"
+    ],
+    "effectIds": [
+      "deinstitutionalisation-1960s"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Chlorpromazine.svg"
+  },
+  {
+    "id": "goffman-critique",
+    "title": "Goffman's Asylums",
+    "wiki": "Erving_Goffman#Asylums",
+    "year": 1961,
+    "keyword": "pressure",
+    "summary": "Erving Goffman's 'Asylums' (1961), based on ethnographic research at St Elizabeths Hospital in Washington DC, argued that psychiatric institutions didn't merely house illness — they produced it. The 'total institution,' Goffman argued, systematically stripped patients of individual identity, enforced conformity, and created patterns of behaviour that were responses to institutional life rather than symptoms of mental illness. A person institutionalised long enough came to behave in ways that confirmed the institution's view of them — making discharge seem impossible, justifying continued confinement. Goffman's work gave intellectual legitimacy to a critique that had been building for decades. It arrived at exactly the moment when politicians were looking for justification to close expensive institutions.",
+    "causeIds": [],
+    "effectIds": [
+      "deinstitutionalisation-1960s"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Erving_Goffman.jpg"
+  },
+  {
+    "id": "deinstitutionalisation-1960s",
+    "title": "Close the Asylums",
+    "wiki": "Deinstitutionalisation",
+    "year": 1963,
+    "keyword": "turning-point",
+    "summary": "In 1961, Enoch Powell — then Britain's Minister of Health — delivered his 'Water Tower' speech, describing the Victorian county asylums as 'isolated, majestic, imperious, brooding, sprawling' and announcing plans to close them all and treat patients in the community. In the United States, President Kennedy signed the Community Mental Health Act in October 1963, establishing a network of community mental health centres as an alternative to hospitalisation. Both policies were motivated by a genuine reform impulse — the asylums were demonstrably inadequate — combined with the availability of antipsychotic medication and, not incidentally, the opportunity to save money. The psychiatric bed count in England fell from approximately 150,000 in 1955 to 26,000 by 1995. The community mental health infrastructure that was supposed to replace the hospitals was never adequately funded.",
+    "causeIds": [
+      "asylum-overcrowding",
+      "antipsychotics-arrive",
+      "goffman-critique",
+      "anti-psychiatry-movement"
+    ],
+    "effectIds": [
+      "care-in-community-fails"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Abandoned_asylum.jpg"
+  },
+  {
+    "id": "care-in-community-fails",
+    "title": "Care in the Community",
+    "wiki": "Care_in_the_community",
+    "year": 1980,
+    "keyword": "collapse",
+    "summary": "'Care in the community' was the policy term for what replaced the asylums. In theory, it meant a network of community mental health teams, supported housing, day centres, and outpatient services that would provide ongoing support for people with serious mental illness living in the community. In practice, the community services were chronically underfunded from the beginning, and the gap between the number of people discharged from hospitals and the capacity of community services to support them was never bridged. People with serious mental illness appeared in homeless shelters, in prisons, on the streets, and in accident and emergency departments. Some committed serious offences. Some died alone. The policy had been designed as a reform; it functioned as an abandonment.",
+    "causeIds": [
+      "deinstitutionalisation-1960s"
+    ],
+    "effectIds": [
+      "prisons-become-asylums",
+      "cycle-continues"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Homeless_in_San_Francisco.jpg"
+  },
+  {
+    "id": "prisons-become-asylums",
+    "title": "The Prison as the New Asylum",
+    "wiki": "Incarceration_of_people_with_mental_disorders",
+    "year": 1990,
+    "keyword": "consequence",
+    "summary": "As psychiatric bed numbers fell and community services failed to expand adequately, prison populations with serious mental illness grew dramatically. Studies consistently find that approximately 20% of people in US prisons and jails have a serious mental illness — compared to around 5% of the general population. The pattern is not coincidental: arrest and imprisonment became, for many people with untreated mental illness, the point at which the state intervened in their lives. The prison system was not designed to treat mental illness; it was designed to punish criminal behaviour. But in the absence of adequate mental health services, it became the largest provider of psychiatric care in the United States by default. The asylum had been replaced not by community care but by incarceration.",
+    "causeIds": [
+      "care-in-community-fails"
+    ],
+    "effectIds": [
+      "cycle-continues"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Prison_cell.jpg"
+  },
+  {
+    "id": "cycle-continues",
+    "title": "The Word Still Means What It Always Meant",
+    "wiki": "Bethlem_Royal_Hospital#Modern_era",
+    "year": 2000,
+    "keyword": "consequence",
+    "summary": "Bethlem Royal Hospital still exists — a modern psychiatric facility in Beckenham, South London, operating to contemporary standards of care. The institution founded in 1247 has been reformed so many times that almost nothing connects it materially to its medieval origins. And yet the word 'bedlam' still means chaos. The history of how society has treated mental illness is a history of genuine moral progress — each generation has been more humane than the last in important ways — and simultaneously a history of each generation's reforms creating the conditions for the next generation's scandal. The chains were replaced by asylums; the asylums were replaced by community care; community care was replaced by prisons and homelessness. The question that Bethlem's founders did not ask in 1247 — what does it feel like to be the person inside the institution? — has still not been adequately answered.",
+    "causeIds": [
+      "care-in-community-fails",
+      "prisons-become-asylums",
+      "bedlam-enters-language",
+      "psychiatric-survivor-movement"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Bethlem_Royal_Hospital.jpg"
+  },
+  {
+    "id": "bedlam-moorfields-rebuild",
+    "title": "The Palace of Madness",
+    "wiki": "Bethlem_Royal_Hospital#Moorfields",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bethlem_Moorfields.jpg",
+    "year": 1676,
+    "keyword": "catalyst",
+    "summary": "In 1676, Bethlem moved to a spectacular new building at Moorfields, designed by Robert Hooke — the same polymath who gave his name to the law of elasticity and assisted Wren on St Paul's Cathedral. The building was ostentatiously grand: a symmetrical two-storey range nearly 550 feet long, with ornate gates and stone façades that made it one of the most architecturally impressive buildings in London. The irony was immediate and sharp: a building of such palatial ambition concealed wards of appalling squalor. The grandeur faced outward; the suffering was hidden within. The building was also poorly constructed — it began to subside almost immediately, requiring structural repairs within decades, and was ultimately demolished. The Moorfields building set the template for asylum architecture across Europe: the imposing façade that promised order and reason, concealing whatever the institution actually did to those inside. Every Victorian county asylum would repeat this logic: impressive from the road, brutal in the wards.",
+    "causeIds": [
+      "bedlam-as-containment",
+      "bedlam-survives-reformation"
+    ],
+    "effectIds": [
+      "bedlam-as-tourist-attraction"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "eugenics-and-asylums",
+    "title": "The Asylum and the Eugenic State",
+    "wiki": "Eugenics#Institutionalisation",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Hanwell_Asylum.jpg",
+    "year": 1900,
+    "keyword": "collapse",
+    "summary": "Victorian and Edwardian psychiatry developed in close entanglement with the eugenics movement. The diagnostic categories of 'moral imbecility' and 'feeble-mindedness' — defined vaguely enough to encompass poverty, nonconformity, sexual irregularity, and disability — were used to justify the institutionalisation of people who were socially inconvenient rather than medically ill. The British Mental Deficiency Act of 1913 enabled the detention of 'moral imbeciles' — a category that was applied disproportionately to unmarried mothers, the poor, and people with disabilities. In the United States, 27 states passed compulsory sterilisation laws for the institutionalised; the Supreme Court upheld Virginia's law in Buck v. Bell (1927), Oliver Wendell Holmes writing that 'three generations of imbeciles are enough.' Germany's asylum system, the most scientifically advanced in the world in 1900, became the administrative infrastructure for the murder of approximately 200,000 psychiatric patients under the Nazi Aktion T4 programme. Psychiatric power — the authority to define, confine, and treat — had demonstrated exactly what it was capable of when turned toward the wrong ends.",
+    "causeIds": [
+      "medicalization-of-madness"
+    ],
+    "effectIds": [
+      "dangerous-treatments-era"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "anti-psychiatry-movement",
+    "title": "The Myth of Mental Illness",
+    "wiki": "Anti-psychiatry",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Erving_Goffman.jpg",
+    "year": 1960,
+    "keyword": "catalyst",
+    "summary": "In 1960 and 1961, two books appeared that challenged the foundations of psychiatric practice more fundamentally than any parliamentary inquiry. R.D. Laing's The Divided Self (1960) argued that schizophrenia was a sane and intelligible response to an intolerable family situation — that the patient's apparent madness made sense from within their own experience, if you bothered to understand that experience rather than suppress it. Thomas Szasz's The Myth of Mental Illness (1961) went further: mental illness was not a disease but a social construction, psychiatry not a medical discipline but a means of social control, and involuntary hospitalisation a form of imprisonment without trial. Neither argument was entirely correct; both contained enough truth to be devastating. The anti-psychiatry movement they inspired gave intellectual legitimacy to deinstitutionalisation, influenced a generation of social workers, and — crucially — gave psychiatric patients a vocabulary to describe their own experience of the system that had previously been available only to the professionals who ran it.",
+    "causeIds": [
+      "dangerous-treatments-era"
+    ],
+    "effectIds": [
+      "deinstitutionalisation-1960s",
+      "psychiatric-survivor-movement"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "psychiatric-survivor-movement",
+    "title": "The Patients Speak",
+    "wiki": "Psychiatric_survivors_movement",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Bethlem_Royal_Hospital.jpg",
+    "year": 1975,
+    "keyword": "shift",
+    "summary": "The psychiatric survivor and service-user movement — people who had been through the mental health system and organised to describe and change it — emerged in the 1970s as one of the most significant developments in the history of mental health care. Judi Chamberlin's On Our Own (1978) became the foundational text: a psychiatric patient's account of the system from the inside, and an argument for patient-controlled alternatives to professional psychiatric care. Organisations like the Mental Patients' Union (UK, 1973) and the Mental Patients' Liberation Front (US, 1971) demanded the right to refuse treatment, to control their own records, and to be heard as authorities on their own experience. The recovery model — which emphasises individual self-determination rather than professional control of the treatment process — emerged partly from survivor advocacy. For the first time in Bethlem's 750-year history, the people inside the institution were organising to describe what it felt like to be there — and to insist that their description mattered.",
+    "causeIds": [
+      "anti-psychiatry-movement"
+    ],
+    "effectIds": [
+      "cycle-continues"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "bedlam-survives-reformation",
+    "title": "The One Priory Henry VIII Didn't Close",
+    "wiki": "Bethlem_Royal_Hospital#Reformation",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Hans_Holbein%2C_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg",
+    "year": 1547,
+    "keyword": "turning-point",
+    "summary": "When Henry VIII dissolved the monasteries between 1536 and 1541, Bethlem should have been abolished like every other religious house in London. It survived because it had already done something no other priory had done: it had made itself useful to secular society in a way the Reformation could not easily replace. In 1547, the City of London petitioned the Crown to transfer Bethlem to civic control, arguing that the hospital was needed for the containment of 'distracted and lunatik persons.' The petition was granted. Bethlem became a civic institution — governed by the City, funded by charitable donation, answerable to no bishop or abbot. The religious foundation had discovered that housing the mad was more durable than any theology: it survived the Reformation not because of what it believed but because of what it did. The institution that would be reformed, scandalized, and rebuilt repeatedly over the following centuries had survived its first great test by being too useful to abolish.",
+    "causeIds": [
+      "bedlam-as-containment"
+    ],
+    "effectIds": [
+      "bedlam-moorfields-rebuild"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "madness-on-stage",
+    "title": "Shakespeare's Madhouse",
+    "wiki": "Shakespearean_madness",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Shakespeare_Lear.jpg",
+    "year": 1600,
+    "keyword": "consequence",
+    "summary": "The Elizabethan and Jacobean stage was obsessed with madness at exactly the moment Bedlam was becoming a public institution. King Lear (c.1606) turns on the spectacle of a man driven mad by the ingratitude of his children, stripped of everything, finding clarity only in the company of a man pretending to be mad. Hamlet feigns madness as a strategy; Ophelia's real madness ends in drowning. Twelfth Night includes a scene in which Malvolio — perfectly sane — is confined as a lunatic by enemies who find it convenient. These are not incidental plot devices: Shakespeare's theatre made madness a lens through which power, identity, and the fragility of reason could be examined. The same culture that paid a penny to watch Bedlam's patients also paid to watch Bedlam performed on stage. The theatrical Bedlam and the actual Bedlam informed each other — producing a cultural image of madness as spectacle, as moral lesson, and as the fate of those who challenged social order. Malvolio's wrongful confinement is perhaps the earliest depiction in English literature of what we would now call wrongful sectioning.",
+    "causeIds": [
+      "bedlam-as-containment"
+    ],
+    "effectIds": [
+      "bedlam-as-tourist-attraction"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "visiting-bedlam",
+    "title": "What the Visitors Wrote",
+    "wiki": "Bethlem_Royal_Hospital#Tourism",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Hogarth-rakes-progress-8.jpg",
+    "year": 1700,
+    "keyword": "pressure",
+    "summary": "The writers who visited Bedlam in the late 17th and early 18th centuries left records that tell us what the experience meant to their culture. Samuel Pepys recorded two visits in his diary — a curious tourist, unsettled but not horrified. John Evelyn described the patients with a mixture of pity and wonder. Ned Ward, whose satirical London Spy described the city's low life in vivid detail, wrote about Bedlam with barely suppressed laughter. Daniel Defoe used it as a symbol of reason overturned. Alexander Pope placed a dunce's ideal kingdom near its gates. Jonathan Swift's 'A Tale of a Tub' suggested that the difference between Bedlam's inhabitants and those who governed the country was mainly a matter of which side of the wall you were on. What these accounts share is the assumption that madness was something to be observed from a safe distance — a spectacle that confirmed the visitor's own sanity by contrast. None asked what it felt like to be observed. The question would not be asked for another 250 years.",
+    "causeIds": [
+      "bedlam-enters-language"
+    ],
+    "effectIds": [
+      "hogarth-documents-bedlam"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "king-george-madness",
+    "title": "The King Goes Mad",
+    "wiki": "Mental_illness_of_George_III",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/George_III_in_Coronation_Robes.jpg",
+    "year": 1788,
+    "keyword": "catalyst",
+    "summary": "In October 1788, King George III began to exhibit symptoms of acute mental disturbance: he talked without stopping for hours, became violent, and lost coherent contact with reality. The episode lasted several months and triggered a constitutional crisis — if the King was incapacitated, who governed? — as well as a medical debate about how best to treat him. The physicians who attended him disagreed profoundly; eventually Francis Willis, a clergyman-turned mad doctor with an institution in Lincolnshire, was brought in and applied methods of restraint and coercion that the King's own doctors found barbaric. George recovered and Willis claimed the credit. The episode had two important consequences. First, it made madness visible at the very centre of British power — the question of what mental illness was and how it should be treated was no longer confined to the margins of society. Second, it made 'mad doctors' briefly famous, bringing their methods into public scrutiny. The scrutiny was uncomfortable. When the parliamentary inquiry of 1815 revealed conditions at Bethlem, the public had already been primed to ask whether the treatments applied to the mad were treatments at all.",
+    "causeIds": [
+      "hogarth-documents-bedlam"
+    ],
+    "effectIds": [
+      "reformers-arrive",
+      "scandal-forces-reform"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]

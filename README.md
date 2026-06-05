@@ -10,7 +10,7 @@ Built with React, TypeScript, React Flow, and Tailwind CSS.
 
 ## Scenarios
 
-Thirty-four curated scenarios, each with a number of interconnected events:
+Thirty-five curated scenarios, each with a number of interconnected events:
 
 - **Fall of Rome** (100-600)
 - **French Revolution** (1700-1803)
@@ -46,6 +46,7 @@ Thirty-four curated scenarios, each with a number of interconnected events:
 - **Daylight Robbery** (1696–1900)
 - **The Policy Nobody Can Kill** (1784–2023)
 - **Three Hours, $15, and 170 Years** (1849–2020)
+- **The House of Madness** (1247–2000)
 
 ---
 

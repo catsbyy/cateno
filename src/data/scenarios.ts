@@ -417,6 +417,18 @@ export const SCENARIO_META: ScenarioMeta[] = [
     theme: "culture",
   },
   {
+    id: "bedlam",
+    title: "The House of Madness",
+    period: "1247–2000",
+    description:
+      "Bedlam is the oldest psychiatric institution in the world. For 500 years it was a tourist attraction — one penny to watch the patients. Then reformers arrived and built the asylum system. Then reformers closed the asylums and discharged patients onto the street. Every generation has been right about what came before it. The word 'bedlam' still means chaos.",
+    anchorId: "lunacy-act-1845",
+    anchorTitle: "The Lunacy Act",
+    nodeCount: 0,
+    anchorYear: 1845,
+    theme: "science",
+  },
+  {
     id: "kanye-west",
     title: "The Most Cancelled Man in Music History",
     period: "1990–2026",
@@ -466,6 +478,7 @@ const NODE_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
   "coffee-houses": () => import("./coffee-houses.json"),
   "kanye-west": () => import("./kanye-west.json"),
   kyiv: () => import("./kyiv.json"),
+  bedlam: () => import("./bedlam.json"),
   "window-tax": () => import("./window-tax.json"),
   "daylight-saving-time": () => import("./daylight-saving-time.json"),
   "safety-pin": () => import("./safety-pin.json"),

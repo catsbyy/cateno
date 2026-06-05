@@ -39,6 +39,7 @@ export const SCENARIO_CENTRE_COLORS: Record<string, string> = {
   "kanye-west": "#1a1008",
   kyiv: "#0e1a2e",
   "window-tax": "#1e1508",
+  bedlam: "#141018",
   "daylight-saving-time": "#0a1520",
   "safety-pin": "#1c1020",
 };
@@ -76,6 +77,7 @@ const SCENARIO_GRADIENTS: Record<string, string> = {
   "kanye-west": "radial-gradient(ellipse at center, #1a1008 0%, #0D0D0D 70%)",
   kyiv: "radial-gradient(ellipse at center, #0e1a2e 0%, #0D0D0D 70%)",
   "window-tax": "radial-gradient(ellipse at center, #1e1508 0%, #0D0D0D 70%)",
+  bedlam: "radial-gradient(ellipse at center, #141018 0%, #0D0D0D 70%)",
   "daylight-saving-time": "radial-gradient(ellipse at center, #0a1520 0%, #0D0D0D 70%)",
   "safety-pin": "radial-gradient(ellipse at center, #1c1020 0%, #0D0D0D 70%)",
 };

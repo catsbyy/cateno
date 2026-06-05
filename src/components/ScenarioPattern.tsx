@@ -1317,6 +1317,74 @@ function KyivPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Bedlam — neoclassical façade of Bethlem Royal Hospital
+function BedlamPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+        opacity,
+      }}
+    >
+      <defs>
+        <pattern id="bg-bedlam" x="0" y="0" width="240" height="180" patternUnits="userSpaceOnUse">
+          <g transform="translate(120,90)">
+            {/* Dome */}
+            <path d="M-32,6 A32,38 0 0,1 32,6" fill="none" stroke="#E8E3D5" strokeWidth="1" />
+            {/* Drum */}
+            <line x1="-32" y1="6"  x2="-32" y2="20" stroke="#E8E3D5" strokeWidth="0.8" />
+            <line x1="32"  y1="6"  x2="32"  y2="20" stroke="#E8E3D5" strokeWidth="0.8" />
+            <line x1="-36" y1="20" x2="36"  y2="20" stroke="#E8E3D5" strokeWidth="0.7" />
+            {/* Lantern */}
+            <line x1="0"  y1="-38" x2="0"  y2="-46" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="-5" y1="-38" x2="5"  y2="-38" stroke="#E8E3D5" strokeWidth="0.6" />
+            <line x1="-4" y1="-46" x2="4"  y2="-46" stroke="#E8E3D5" strokeWidth="0.6" />
+            <line x1="-4" y1="-38" x2="-4" y2="-46" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="4"  y1="-38" x2="4"  y2="-46" stroke="#E8E3D5" strokeWidth="0.5" />
+            {/* Pediment */}
+            <path d="M-52,20 L0,6 L52,20" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+            {/* Entablature */}
+            <line x1="-58" y1="20" x2="58" y2="20" stroke="#E8E3D5" strokeWidth="1.1" />
+            <line x1="-58" y1="26" x2="58" y2="26" stroke="#E8E3D5" strokeWidth="0.4" />
+            {/* Columns — 8 */}
+            <line x1="-48" y1="26" x2="-48" y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            <line x1="-34" y1="26" x2="-34" y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            <line x1="-21" y1="26" x2="-21" y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            <line x1="-7"  y1="26" x2="-7"  y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            <line x1="7"   y1="26" x2="7"   y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            <line x1="21"  y1="26" x2="21"  y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            <line x1="34"  y1="26" x2="34"  y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            <line x1="48"  y1="26" x2="48"  y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            {/* Stylobate */}
+            <line x1="-52" y1="76" x2="52"  y2="76" stroke="#E8E3D5" strokeWidth="0.7" />
+            {/* Steps */}
+            <line x1="-56" y1="80" x2="56"  y2="80" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="-60" y1="84" x2="60"  y2="84" stroke="#E8E3D5" strokeWidth="0.5" />
+            {/* Ground line */}
+            <line x1="-110" y1="88" x2="110" y2="88" stroke="#E8E3D5" strokeWidth="0.6" />
+            {/* Left wing */}
+            <rect x="-110" y="60" width="52" height="28" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="-104" y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+            <rect x="-92"  y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+            <rect x="-80"  y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+            {/* Right wing */}
+            <rect x="58"  y="60" width="52" height="28" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="64"  y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+            <rect x="78"  y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+            <rect x="92"  y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-bedlam)" />
+    </svg>
+  );
+}
+
 // Window Tax — arched window with bricked-up interior
 function WindowTaxPattern({ opacity }: { opacity: number }) {
   return (
@@ -1524,6 +1592,8 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
       return <DaylightSavingTimePattern opacity={opacity} />;
     case "safety-pin":
       return <SafetyPinPattern opacity={opacity} />;
+    case "bedlam":
+      return <BedlamPattern opacity={opacity} />;
     default:
       return null;
   }
