@@ -1,0 +1,369 @@
+[
+  {
+    "id": "miasma-theory-dominates",
+    "title": "Bad Air — The Wrong Theory That Was Almost Right",
+    "wiki": "Miasma_theory",
+    "year": 1800,
+    "keyword": "pressure",
+    "summary": "The miasma theory — the idea that disease was caused by 'bad air' arising from rotting organic matter, sewage, and filth — dominated medical thinking throughout the 18th and early 19th centuries. It was not a foolish theory: disease genuinely did correlate with poverty, overcrowding, poor ventilation, and proximity to sewage. The miasmatists were observing a real pattern. They were wrong only about the mechanism. The theory directed public health efforts toward improving ventilation, removing organic waste, and cleaning up the urban environment — all of which genuinely reduced disease, but for reasons the miasmatists didn't understand. Cholera, they were certain, spread through the air. This certainty would cost tens of thousands of lives.",
+    "causeIds": [],
+    "effectIds": [
+      "cholera-arrives-europe"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Punch_-_A_Court_for_King_Cholera.png"
+  },
+  {
+    "id": "cholera-arrives-europe",
+    "title": "Cholera Arrives",
+    "wiki": "1831–1832_cholera_pandemic",
+    "year": 1831,
+    "keyword": "pressure",
+    "summary": "Cholera — which had been endemic in the Indian subcontinent — reached Europe in a series of pandemic waves beginning in 1817. The second pandemic arrived in Britain in 1831, killing approximately 52,000 people. The disease was terrifying not just for its mortality rate but for its speed: a person could be healthy in the morning and dead by evening, their body evacuated and shrunken by the characteristic 'rice water' diarrhoea. It struck the poor in cities with particular ferocity, confirming in the minds of miasma theorists that bad urban air was the culprit. That the poor drank water from contaminated sources while the wealthy did not was an explanation that occurred to almost no one.",
+    "causeIds": [
+      "miasma-theory-dominates"
+    ],
+    "effectIds": [
+      "snow-observes-cholera"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Punch_-_A_Court_for_King_Cholera.png"
+  },
+  {
+    "id": "snow-observes-cholera",
+    "title": "A Young Doctor Watches and Wonders",
+    "wiki": "John_Snow#Early_life_and_career",
+    "year": 1832,
+    "keyword": "shift",
+    "summary": "John Snow was 18 years old and working as a medical apprentice in Newcastle-upon-Tyne when the 1831-1832 cholera epidemic arrived. He treated patients, observed the disease's progression, and noticed something that didn't fit the miasma explanation: cholera seemed to affect the digestive system specifically, not the respiratory system. If the disease entered through the air and affected the lungs, why did it produce diarrhoea and vomiting rather than coughing and fever? The question stayed with him. Snow became a physician, built a successful practice in London's Soho district, and continued collecting observations about cholera's patterns of spread — quietly building a case against the theory everyone else accepted.",
+    "causeIds": [
+      "cholera-arrives-europe"
+    ],
+    "effectIds": [
+      "snow-waterborne-hypothesis"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/John_Snow.jpg"
+  },
+  {
+    "id": "snow-waterborne-hypothesis",
+    "title": "Snow Publishes His Heretical Theory",
+    "wiki": "John_Snow#Cholera_research",
+    "year": 1849,
+    "keyword": "catalyst",
+    "summary": "In 1849, during Britain's third cholera pandemic, John Snow published 'On the Mode of Communication of Cholera' — a pamphlet arguing that cholera was transmitted through contaminated water, not through the air. He pointed to patterns in the epidemic that miasma theory couldn't explain: why did cholera affect people who lived near each other but used different water sources differently? Why did sailors on ships develop cholera without any exposure to urban miasma? The medical establishment was largely dismissive. The General Board of Health, dominated by Edwin Chadwick and committed to miasma theory, ignored his arguments. Snow continued gathering evidence. He would need more than a pamphlet.",
+    "causeIds": [
+      "snow-observes-cholera"
+    ],
+    "effectIds": [
+      "broad-street-outbreak"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/John_Snow.jpg"
+  },
+  {
+    "id": "broad-street-outbreak",
+    "title": "Soho, August 1854",
+    "wiki": "1854_Broad_Street_cholera_outbreak",
+    "year": 1854,
+    "keyword": "catalyst",
+    "summary": "On the night of August 31, 1854, cholera broke out with extraordinary violence in the Soho district of London. Within ten days, more than 500 people had died in a densely populated area of only a few streets. The speed and concentration of deaths was unlike anything Londoners had seen — entire families dying within hours, bodies accumulating faster than they could be removed. The neighbourhood emptied as residents fled. Snow, who lived nearby, recognised immediately that this was his opportunity to test his theory. He began interviewing survivors and the families of the dead, mapping every case, tracing every connection to water supply.",
+    "causeIds": [
+      "snow-waterborne-hypothesis"
+    ],
+    "effectIds": [
+      "snow-maps-broad-street"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/John_Snow.jpg"
+  },
+  {
+    "id": "snow-maps-broad-street",
+    "title": "The Map",
+    "wiki": "1854_Broad_Street_cholera_outbreak#Investigation",
+    "year": 1854,
+    "keyword": "spark",
+    "summary": "John Snow's map of the Broad Street outbreak is one of the most consequential documents in the history of medicine. He marked the location of every cholera death with a black bar and overlaid the positions of every water pump in the area. The pattern was unmistakable: the deaths clustered around the water pump on Broad Street. Streets using different pumps had far fewer deaths. Snow interviewed residents case by case, tracking apparent anomalies — the workers at the brewery nearby who hadn't died (they drank beer, not water), the widow in Hampstead who had died despite living miles away (she had a bottle of Broad Street water sent to her because she liked the taste). Each exception, investigated, confirmed rather than undermined the theory. The map made the argument that words could not.",
+    "causeIds": [
+      "broad-street-outbreak"
+    ],
+    "effectIds": [
+      "pump-handle-removed",
+      "miasma-defenders-resist"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Snow-cholera-map-1.jpg",
+    "relatedScenario": {
+      "scenarioId": "scientific-revolution",
+      "nodeId": "empirical-method-established",
+      "label": "Connects to Scientific Revolution"
+    }
+  },
+  {
+    "id": "miasma-defenders-resist",
+    "title": "The Establishment Doesn't Believe Him",
+    "wiki": "1854_Broad_Street_cholera_outbreak#Aftermath",
+    "year": 1854,
+    "keyword": "pressure",
+    "summary": "The medical establishment's response to Snow's map was scepticism rather than acceptance. The General Board of Health's official report on the Broad Street outbreak acknowledged the investigation but attributed the epidemic to miasmatic causes — specifically, the opening of a sewer near the pump. Reverend Henry Whitehead, the local curate who knew every resident in the area and was deeply committed to miasma theory, initially set out to disprove Snow's findings through his own investigation. The statistical and epidemiological argument Snow had made was simply not the kind of evidence that 1854 medicine was equipped to accept — it required thinking about populations rather than individual patients, and patterns rather than mechanisms.",
+    "causeIds": [
+      "snow-maps-broad-street"
+    ],
+    "effectIds": [
+      "pump-handle-removed"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/John_Snow.jpg",
+    "relatedScenario": {
+      "scenarioId": "leaded-gasoline",
+      "nodeId": "industry-science-denial",
+      "label": "Connects to The Poison They Chose"
+    }
+  },
+  {
+    "id": "pump-handle-removed",
+    "title": "The Pump Handle",
+    "wiki": "1854_Broad_Street_cholera_outbreak#Pump_handle_removal",
+    "year": 1854,
+    "keyword": "turning-point",
+    "summary": "On September 8, 1854, the Vestry of St James — the local council — agreed to remove the handle from the Broad Street pump, making it inoperable. Snow had presented his map and his evidence; the vestry, though not fully convinced by his theory, accepted that the pump was at minimum suspect. The epidemic was already declining by this point — many residents had fled, and the worst was over — which made it impossible to prove definitively that removing the handle stopped the outbreak. This caveat is important: Snow's evidence was compelling but not conclusive. What he had demonstrated was not proof beyond doubt but a pattern so striking that ignoring it was no longer defensible. The pump handle's removal was the first public health decision made on the basis of epidemiological evidence.",
+    "causeIds": [
+      "snow-maps-broad-street",
+      "miasma-defenders-resist"
+    ],
+    "effectIds": [
+      "snow-vindicated-slowly",
+      "epidemiology-born"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Snow-cholera-map-1.jpg"
+  },
+  {
+    "id": "snow-vindicated-slowly",
+    "title": "Whitehead Becomes a Convert",
+    "wiki": "Henry_Whitehead_(priest)",
+    "year": 1855,
+    "keyword": "shift",
+    "summary": "Reverend Henry Whitehead had set out to disprove Snow's theory and ended up confirming it. His intimate knowledge of the neighbourhood allowed him to identify the index case — a baby at 40 Broad Street whose soiled nappies had been disposed of in a cesspit that, investigation revealed, was within three feet of the water pipe feeding the Broad Street pump and was leaking. The infant's diarrhoeal illness had contaminated the water supply; everything else followed. Whitehead published his findings in collaboration with Snow in 1855. The combined evidence — Snow's spatial analysis and Whitehead's case investigation — made the waterborne theory as strong as the available evidence could make it. Snow published an expanded edition of his study with new maps and new data. The medical establishment remained unconvinced.",
+    "causeIds": [
+      "pump-handle-removed"
+    ],
+    "effectIds": [
+      "epidemiology-born",
+      "snow-dies-unrecognised",
+      "germ-theory-confirmed"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Henry_Whitehead.jpg"
+  },
+  {
+    "id": "snow-dies-unrecognised",
+    "title": "Snow Dies Before Vindication",
+    "wiki": "John_Snow#Death_and_legacy",
+    "year": 1858,
+    "keyword": "consequence",
+    "summary": "John Snow died on June 16, 1858, aged 45, from a stroke — four years after the Broad Street outbreak and twenty-five years before his theory was definitively confirmed by microbiology. At the time of his death, the waterborne theory of cholera transmission was still contested. The obituary in the Lancet, the leading British medical journal, made no mention of his cholera work. He was remembered primarily as an anaesthesiologist — he had pioneered the use of chloroform and administered it to Queen Victoria during childbirth — and his most consequential scientific contribution was not recognised as such by his contemporaries. The pump handle on Broad Street was reportedly reinstated after the outbreak, though some accounts dispute this. The work that would eventually transform public health continued without its author.",
+    "causeIds": [
+      "snow-vindicated-slowly"
+    ],
+    "effectIds": [
+      "epidemiology-born",
+      "germ-theory-confirmed"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/John_Snow.jpg"
+  },
+  {
+    "id": "nightingale-rose-diagrams",
+    "title": "Nightingale's Rose Diagrams",
+    "wiki": "Florence_Nightingale#Statistics_and_sanitary_reform",
+    "year": 1858,
+    "keyword": "catalyst",
+    "summary": "Florence Nightingale — who had initially accepted miasma theory — returned from the Crimean War in 1856 with data showing that far more British soldiers died from preventable disease than from combat wounds. To persuade the government to reform military hospitals, she developed what she called 'coxcomb' charts — circular diagrams showing deaths by cause across months, making the relative scale of disease mortality visually undeniable to politicians and administrators who would never have absorbed the same information in tabular form. The diagrams worked: the government reformed military hospitals, and mortality rates fell dramatically. Nightingale had independently discovered what Snow had demonstrated with his map — that spatial and visual representation of data could compel decisions that raw numbers could not.",
+    "causeIds": [],
+    "effectIds": [
+      "visualisation-saves-lives"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Nightingale-mortality.jpg"
+  },
+  {
+    "id": "germ-theory-confirmed",
+    "title": "Koch Identifies the Cholera Bacterium",
+    "wiki": "Robert_Koch#Discovery_of_the_cholera_bacterium",
+    "year": 1883,
+    "keyword": "consequence",
+    "summary": "Robert Koch identified Vibrio cholerae — the bacterium that causes cholera — in 1883, working in Egypt and India during the fifth cholera pandemic. This was not, strictly, the first identification: Filippo Pacini had identified the cholera bacillus in Florence in 1854 — the same year Snow drew his map — but his finding had been ignored by the scientific establishment, a second demonstration of the scenario's central theme. Koch's 1883 work was more rigorous, more publicised, and received the credit. The discovery provided the mechanism that Snow's epidemiological argument had lacked: not just a pattern showing that contaminated water caused cholera, but the specific organism that made it so. Snow had been right for thirty years before anyone could prove why he was right. Epidemiology had arrived at truth before microbiology had the tools to explain it.",
+    "causeIds": [
+      "snow-vindicated-slowly",
+      "snow-dies-unrecognised"
+    ],
+    "effectIds": [
+      "public-health-revolution"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Robert_Koch.jpg"
+  },
+  {
+    "id": "epidemiology-born",
+    "title": "The Birth of Epidemiology",
+    "wiki": "Epidemiology#History",
+    "year": 1860,
+    "keyword": "consequence",
+    "summary": "The discipline that John Snow's Broad Street investigation exemplified — epidemiology, the study of disease distribution across populations — became a formal field of medicine in the second half of the 19th century. Its core method was Snow's method: map the cases, identify the pattern, trace the source, remove it. This approach — treating disease as a population phenomenon rather than an individual misfortune — transformed public health. Vaccination programmes, water treatment systems, food safety regulation, quarantine procedures: all rest on epidemiological thinking. The COVID-19 pandemic response of 2020 — contact tracing, cluster identification, superspreader event analysis — was John Snow's method applied with modern technology. The pump handle is still being removed.",
+    "causeIds": [
+      "pump-handle-removed",
+      "snow-vindicated-slowly",
+      "snow-dies-unrecognised"
+    ],
+    "effectIds": [
+      "public-health-revolution",
+      "cholera-eliminated-uk",
+      "smoking-and-cancer"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Snow-cholera-map-1.jpg"
+  },
+  {
+    "id": "cholera-eliminated-uk",
+    "title": "The Last Cholera Epidemic in Britain",
+    "wiki": "1866_cholera_outbreak_in_England",
+    "year": 1866,
+    "keyword": "consequence",
+    "summary": "The 1866 cholera outbreak in the East End of London was the last major epidemic in Britain — and it confirmed Snow's theory in the clearest possible way. William Farr, the statistician at the General Register Office who had been one of Snow's most persistent critics, analysed the outbreak and found that it was entirely confined to the service area of a single water company that had failed to filter its supply. The epidemic followed the water supply map with a precision that even Farr could not explain away. He published a letter acknowledging that Snow had been right. Clean water ended cholera in Britain. The connection between what went into the water supply and who died of disease was no longer deniable.",
+    "causeIds": [
+      "epidemiology-born"
+    ],
+    "effectIds": [
+      "public-health-revolution"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Punch_-_A_Court_for_King_Cholera.png"
+  },
+  {
+    "id": "public-health-revolution",
+    "title": "Clean Water Changes Everything",
+    "wiki": "Public_health#History",
+    "year": 1890,
+    "keyword": "consequence",
+    "summary": "The epidemiological understanding of disease transmission that Snow's work exemplified drove the most significant improvement in human life expectancy in history. Municipal water treatment, sewage systems separated from drinking water supplies, food safety inspection, vaccination programmes — all were implemented on the basis of understanding disease as a population phenomenon with identifiable causes that could be removed. Life expectancy in Britain rose from approximately 40 years in 1840 to 50 by 1900 and 70 by 1960. The majority of this gain came not from medical treatment of individual patients but from public health interventions targeting populations — the approach Snow had pioneered by drawing a map of deaths around a water pump.",
+    "causeIds": [
+      "epidemiology-born",
+      "cholera-eliminated-uk",
+      "germ-theory-confirmed"
+    ],
+    "effectIds": [
+      "visualisation-saves-lives",
+      "1918-flu-limits"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/London_sewer_system.jpg"
+  },
+  {
+    "id": "visualisation-saves-lives",
+    "title": "The Principle: Make the Pattern Visible",
+    "wiki": "Data_visualization#History",
+    "year": 1955,
+    "keyword": "shift",
+    "summary": "The principle that John Snow's map and Florence Nightingale's rose diagrams demonstrated — that visual representation of data can reveal patterns invisible in tables and numbers, and that making those patterns visible changes decisions — was formalised as a concept in information design and statistical thinking through the mid-20th century. Snow's map appeared in every epidemiology textbook. Nightingale's diagrams were recognised as pioneering works of statistical graphics. The 1950 Doll-Hill smoking study was reported and visualised in ways Snow would have recognised. John Tukey's work on exploratory data analysis in the 1950s–1970s created a formal toolkit for visual statistical thinking. The broader principle — that the form in which information is presented determines what decisions get made — would be tested in the most dramatic possible way in 1986, when engineers trying to prevent a disaster found that their data was true, their charts were accurate, and their visualisation was fatally inadequate.",
+    "causeIds": [
+      "public-health-revolution",
+      "nightingale-rose-diagrams",
+      "smoking-and-cancer"
+    ],
+    "effectIds": [
+      "challenger-disaster"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Snow-cholera-map-1.jpg"
+  },
+  {
+    "id": "challenger-disaster",
+    "title": "Challenger — When Visualisation Fails",
+    "wiki": "Space_Shuttle_Challenger_disaster#O-ring_concerns",
+    "year": 1986,
+    "keyword": "collapse",
+    "summary": "On January 28, 1986, the Space Shuttle Challenger broke apart 73 seconds after launch, killing all seven crew members. The cause was the failure of O-ring seals in the right solid rocket booster, which had become brittle in the cold temperatures of launch morning. Engineers at Morton Thiokol had known the O-rings were temperature-sensitive and had tried to halt the launch. They had data showing that O-ring damage correlated with lower temperatures across previous launches. But the charts they used to make their case did not show this pattern clearly — the data was organised by launch date rather than temperature, and the cases with no damage were excluded from the chart. NASA managers, looking at charts that didn't show the pattern, approved the launch. Edward Tufte later argued that a simple scatter plot of temperature against O-ring damage would have made the relationship undeniable.",
+    "causeIds": [
+      "visualisation-saves-lives"
+    ],
+    "effectIds": [
+      "tufte-analysis"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Challenger_explosion.jpg",
+    "relatedScenario": {
+      "scenarioId": "wright-brothers",
+      "nodeId": "wwii-air-power",
+      "label": "Connects to First Flight"
+    }
+  },
+  {
+    "id": "tufte-analysis",
+    "title": "Tufte and the Ghost of John Snow",
+    "wiki": "Edward_Tufte#Challenger_disaster",
+    "year": 1997,
+    "keyword": "consequence",
+    "summary": "In his 1997 book 'Visual Explanations,' Edward Tufte analysed the Challenger disaster through the lens of information design — arguing that the engineers' failure to visualise their data effectively was a contributing cause of the disaster. He reconstructed what a well-designed chart of the temperature-O-ring data would have looked like, showing that the relationship between cold temperatures and O-ring damage was clear and compelling when the data was presented correctly. Tufte explicitly invoked John Snow's map as the standard against which the Challenger charts should be measured: Snow had made the pattern visible; the Challenger engineers had hidden it. The same principle that had saved thousands of lives in Victorian London — make the data show what it knows — when violated in a Florida winter, had cost seven lives and set the American space programme back years. The lesson Snow demonstrated in 1854 is still being learned.",
+    "causeIds": [
+      "challenger-disaster"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Challenger_explosion.jpg"
+  },
+  {
+    "id": "1918-flu-limits",
+    "title": "The Pandemic That Epidemiology Couldn't Stop",
+    "wiki": "Spanish_flu#Epidemiology",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/1918_flu_in_Oakland.jpg",
+    "year": 1918,
+    "keyword": "pressure",
+    "summary": "The influenza pandemic of 1918–1919 killed an estimated 50 to 100 million people — more than the entire First World War — and exposed the limits of the epidemiological tools that Snow's work had pioneered. Epidemiologists could map the spread; they could identify risk factors; they could recommend isolation and mask-wearing. What they could not do was identify the pathogen (viral disease was poorly understood in 1918), develop a vaccine in time, or persuade governments at war to prioritise public health over military information management. The pandemic demonstrated two things simultaneously: that epidemiological thinking was essential for understanding what was happening, and that understanding alone was not sufficient to stop it. The data visualisation principle Snow had established — make the pattern visible — was being applied. The pattern was visible. It was also unstoppable with the tools available. The gap between knowing and being able to act on what you know is as important as the gap between ignorance and knowledge.",
+    "causeIds": [
+      "public-health-revolution"
+    ],
+    "effectIds": [
+      "smoking-and-cancer",
+      "smoking-and-cancer"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "smoking-and-cancer",
+    "title": "The Pattern That Took Twenty Years to Admit",
+    "wiki": "Richard_Doll#Smoking_and_cancer",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Austin_Bradford_Hill.jpg",
+    "year": 1950,
+    "keyword": "catalyst",
+    "summary": "In 1950, Austin Bradford Hill and Richard Doll published a study demonstrating a statistical association between cigarette smoking and lung cancer — using exactly the epidemiological method Snow had pioneered: population-level pattern analysis, identifying correlation before the biological mechanism was fully understood. Their evidence was compelling from the first study; it became overwhelming within a decade. The tobacco industry's response was a precise replay of the miasma defenders resisting Snow: the data showed correlation, not causation; there might be a confounding variable; more research was needed; the statistics were contested. For twenty years, while millions of people continued smoking, the industry funded alternative research, planted doubt in the scientific literature, and successfully delayed regulatory action. The principle was identical to the Broad Street story: a pattern made visible, an establishment resisting it, deaths accumulating while the resistance continued. Snow's vindication had taken thirty years. Doll and Hill's took twenty — and the delay cost approximately three million lives in Britain alone.",
+    "causeIds": [
+      "1918-flu-limits",
+      "epidemiology-born"
+    ],
+    "effectIds": [
+      "visualisation-saves-lives"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]

@@ -1385,6 +1385,121 @@ function BedlamPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Cholera Map — John Snow's dot cluster, pump at centre
+function CholeraMapPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none", opacity }}
+    >
+      <defs>
+        <pattern id="bg-cholera-map" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
+          {/* Pump marker */}
+          <line x1="77" y1="80" x2="83" y2="80" stroke="#E8E3D5" strokeWidth="0.9"/>
+          <line x1="80" y1="77" x2="80" y2="83" stroke="#E8E3D5" strokeWidth="0.9"/>
+          <circle cx="80" cy="80" r="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
+          {/* Ring 1 — dense */}
+          <circle cx="80" cy="68" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="87" cy="70" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="91" cy="76" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="90" cy="84" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="86" cy="91" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="79" cy="94" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="72" cy="91" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="68" cy="84" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="69" cy="76" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="73" cy="69" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="84" cy="66" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="76" cy="65" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="93" cy="80" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="66" cy="80" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          {/* Ring 2 — medium */}
+          <circle cx="80" cy="56" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="89" cy="58" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="97" cy="63" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="102" cy="72" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="103" cy="82" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="100" cy="92" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="94" cy="100" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="84" cy="105" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="74" cy="104" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="65" cy="99" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="59" cy="91" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="57" cy="81" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="59" cy="71" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="65" cy="62" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="73" cy="57" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="94" cy="67" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="96" cy="88" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="63" cy="88" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="62" cy="68" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          {/* Ring 3 — sparse */}
+          <circle cx="80" cy="42" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="95" cy="46" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="108" cy="56" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="116" cy="70" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="117" cy="86" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="111" cy="100" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="100" cy="112" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="84" cy="118" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="68" cy="116" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="54" cy="107" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="45" cy="94" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="44" cy="78" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="49" cy="62" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="60" cy="50" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="72" cy="43" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="110" cy="62" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="113" cy="78" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="50" cy="72" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="47" cy="88" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="92" cy="114" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="72" cy="118" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-cholera-map)" />
+    </svg>
+  );
+}
+
+// Opium Empire — botanical poppy illustration
+function OpiumEmpirePattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none", opacity }}
+    >
+      <defs>
+        <pattern id="bg-opium-empire" x="0" y="0" width="120" height="200" patternUnits="userSpaceOnUse">
+          {/* Poppy A — full plant */}
+          <path d="M30,190 C28,160 32,130 30,100" fill="none" stroke="#E8E3D5" strokeWidth="0.9" strokeLinecap="round"/>
+          <path d="M30,150 C22,144 16,136 20,128 C24,122 30,128 30,138" fill="none" stroke="#E8E3D5" strokeWidth="0.6" strokeLinecap="round"/>
+          <path d="M30,142 C38,136 44,128 40,120 C36,114 30,120 30,130" fill="none" stroke="#E8E3D5" strokeWidth="0.6" strokeLinecap="round"/>
+          <line x1="30" y1="100" x2="30" y2="90" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <ellipse cx="30" cy="78" rx="11" ry="13" fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
+          <ellipse cx="30" cy="65" rx="7" ry="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="30" y1="65" x2="30" y2="62" stroke="#E8E3D5" strokeWidth="0.6"/>
+          <line x1="24" y1="67" x2="22" y2="65" stroke="#E8E3D5" strokeWidth="0.6"/>
+          <line x1="36" y1="67" x2="38" y2="65" stroke="#E8E3D5" strokeWidth="0.6"/>
+          <line x1="21" y1="72" x2="18" y2="71" stroke="#E8E3D5" strokeWidth="0.6"/>
+          <line x1="39" y1="72" x2="42" y2="71" stroke="#E8E3D5" strokeWidth="0.6"/>
+          <path d="M23,66 C14,56 12,44 20,40 C26,37 30,44 28,54" fill="none" stroke="#E8E3D5" strokeWidth="0.7" strokeLinecap="round"/>
+          <path d="M37,66 C46,56 48,44 40,40 C34,37 30,44 32,54" fill="none" stroke="#E8E3D5" strokeWidth="0.7" strokeLinecap="round"/>
+          <path d="M20,72 C10,68 6,58 12,52 C16,48 22,54 24,62" fill="none" stroke="#E8E3D5" strokeWidth="0.6" strokeLinecap="round"/>
+          <path d="M40,72 C50,68 54,58 48,52 C44,48 38,54 36,62" fill="none" stroke="#E8E3D5" strokeWidth="0.6" strokeLinecap="round"/>
+          {/* Poppy B — drooping bud */}
+          <path d="M90,200 C88,175 92,150 90,125 C89,115 84,108 82,100" fill="none" stroke="#E8E3D5" strokeWidth="0.9" strokeLinecap="round"/>
+          <path d="M90,160 C98,154 104,144 100,136 C96,130 90,136 90,146" fill="none" stroke="#E8E3D5" strokeWidth="0.6" strokeLinecap="round"/>
+          <ellipse cx="82" cy="94" rx="7" ry="10" fill="none" stroke="#E8E3D5" strokeWidth="0.8" transform="rotate(-20 82 94)"/>
+          <path d="M76,88 C78,84 82,83 86,86" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <path d="M78,90 C79,85 83,82 87,84" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-opium-empire)" />
+    </svg>
+  );
+}
+
 // Window Tax — arched window with bricked-up interior
 function WindowTaxPattern({ opacity }: { opacity: number }) {
   return (
@@ -1586,6 +1701,10 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
       return <KanyeWestPattern opacity={opacity} />;
     case "kyiv":
       return <KyivPattern opacity={opacity} />;
+    case "cholera-map":
+      return <CholeraMapPattern opacity={opacity} />;
+    case "opium-empire":
+      return <OpiumEmpirePattern opacity={opacity} />;
     case "window-tax":
       return <WindowTaxPattern opacity={opacity} />;
     case "daylight-saving-time":

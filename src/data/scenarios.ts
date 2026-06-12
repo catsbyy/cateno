@@ -440,6 +440,31 @@ export const SCENARIO_META: ScenarioMeta[] = [
     anchorYear: 2004,
     theme: "culture",
   },
+  {
+    id: "cholera-map",
+    title: "The Map That Saved a Million Lives",
+    period: "1800–1997",
+    description:
+      "In 1854, a London doctor drew a map of cholera deaths around a water pump. Nobody believed him. He convinced the council to remove the pump handle anyway. He died four years later, still not believed. The principle he demonstrated — make the data show what it knows — was proved again when a statistician showed cigarette smoking caused cancer, and again when engineers failed to show a shuttle couldn't survive the cold. The pattern was visible. It was whether anyone looked.",
+    anchorId: "snow-maps-broad-street",
+    anchorTitle: "The Map",
+    anchorYear: 1854,
+    nodeCount: 20,
+    theme: "science",
+  },
+
+  {
+    id: "opium-empire",
+    title: "The Drug That Built an Empire and Destroyed Another",
+    period: "1700–1997",
+    description:
+      "Britain abolished slavery in 1807. In the same decades, it was running the largest drug trafficking operation in history — growing opium in Bengal, forcing it on China at gunpoint, twice. The addiction, the unequal treaties, and the burning of the Summer Palace shaped Chinese foreign policy for the next 250 years. The Century of Humiliation is not a historical grievance. It is an active framework.",
+    anchorId: "east-india-company-opium-monopoly",
+    anchorTitle: "The Opium Monopoly",
+    anchorYear: 1773,
+    nodeCount: 25,
+    theme: "politics",
+  },
 ];
 
 // ─── Dynamic node loaders ──────────────────────────────────────────────────────
@@ -482,6 +507,8 @@ const NODE_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
   "window-tax": () => import("./window-tax.json"),
   "daylight-saving-time": () => import("./daylight-saving-time.json"),
   "safety-pin": () => import("./safety-pin.json"),
+  "cholera-map": () => import("./cholera-map.json"),
+  "opium-empire": () => import("./opium-empire.json"),
 };
 
 export async function loadScenarioNodes(id: string): Promise<CatenoNode[]> {
