@@ -12,7 +12,7 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Howqua-2.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Canton_c1850.jpg"
   },
   {
     "id": "east-india-company-bengal",
@@ -29,7 +29,7 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Robert_Clive.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg",
     "relatedScenario": {
       "scenarioId": "age-of-exploration",
       "nodeId": "atlantic-slave-trade-expands",
@@ -39,7 +39,7 @@
   {
     "id": "east-india-company-opium-monopoly",
     "title": "The Opium Monopoly",
-    "wiki": "East_India_Company#Opium_trade",
+    "wiki": "East_India_Company#China",
     "year": 1773,
     "keyword": "spark",
     "summary": "Warren Hastings, the first Governor-General of Bengal, formalised the East India Company's opium monopoly in 1773. The system was elegant in its commercial logic: the Company controlled all opium production in Bengal, purchasing the crop from farmers at fixed prices and auctioning it to licensed merchants who then shipped it to China. The Company maintained plausible deniability — it did not technically sell opium directly to China, where it was prohibited — while receiving the full economic benefit of the trade. Opium revenue became essential to the Company's finances and, through them, to the British administration of India. The drug trade did not merely accompany empire; it funded it. By the early 19th century, opium accounted for roughly 15–20% of British India's total revenue.",
@@ -52,12 +52,12 @@
     ],
     "isAnchor": true,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Warren_Hastings.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Warren_Hastings_by_Sir_Joshua_Reynolds.jpg"
   },
   {
     "id": "opium-trade-scales",
     "title": "The Flood of Opium",
-    "wiki": "Opium_trade#Scale",
+    "wiki": "History_of_opium_in_China#Growth_of_the_opium_trade",
     "year": 1800,
     "keyword": "shift",
     "summary": "The scale of the opium trade's growth was extraordinary. In 1729, perhaps 200 chests of opium entered China annually. By 1800, the figure was approximately 4,000 chests. By 1838, it had reached 40,000 chests — roughly 2,400 tonnes of opium per year. Estimates of Chinese addiction at the peak of the trade range from 2 million people in the 1830s to 12 million by 1838, in a population of around 400 million. The trade solved Britain's silver problem completely: silver now flowed from China to Britain rather than the reverse, as Chinese consumers paid for a product that destroyed them. The East India Company's trade deficit had been transformed into a surplus through the systematic addiction of a foreign population.",
@@ -71,12 +71,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Opium_smoking_1880.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/William_John_Huggins_-_The_opium_ships_at_Lintin%2C_China%2C_1824.jpg"
   },
   {
     "id": "chinese-society-damaged",
     "title": "Addiction Across Chinese Society",
-    "wiki": "Opium_in_China#Social_effects",
+    "wiki": "History_of_opium_in_China#Growth_of_the_opium_trade",
     "year": 1820,
     "keyword": "collapse",
     "summary": "Opium addiction in China was not confined to the poor or the marginal — it spread across all social classes, reaching government officials, soldiers, and members of the imperial court. The silver drain that accompanied the trade was economically devastating: as Chinese consumers paid silver for opium, the money supply contracted, deflating the economy and making it increasingly difficult for peasants to pay taxes assessed in silver. Corruption spread as officials dependent on opium sought bribes to fund their habit. Military readiness declined as soldiers fell into addiction. The Qing dynasty, which had ruled China for two centuries, was being hollowed out not by foreign invasion but by a foreign drug, delivered by foreign merchants, protected by foreign warships.",
@@ -89,7 +89,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Opium_smoking_1880.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/%E4%B8%AD%E5%9C%8B%E4%BA%BA%E6%9C%8D%E9%A3%9F%E9%B4%89%E7%89%87%E5%9C%96.PNG"
   },
   {
     "id": "china-bans-opium",
@@ -107,12 +107,12 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Lin_Zexu_portrait.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Portrait_of_Lin_Zexu.jpeg"
   },
   {
     "id": "first-opium-war",
     "title": "The First Opium War",
-    "wiki": "First_Opium_War",
+    "wiki": "History_of_opium_in_China#First_Opium_War",
     "year": 1839,
     "keyword": "turning-point",
     "summary": "The First Opium War (1839–1842) was, stripped of diplomatic language, a war fought by the British Empire to force China to accept imports of an addictive drug that China had banned. British naval and military technology — steam-powered gunboats, accurate artillery, disciplined infantry — was overwhelmingly superior to anything China could field. The Nemesis, an iron-hulled steam warship, could navigate rivers the Chinese had believed impassable and destroy junks from ranges at which Chinese guns couldn't respond. The war was brief and one-sided. It was also, as the Whig politician William Gladstone said in Parliament at the time, 'a war more unjust in its origin, a war more calculated in its progress to cover this country with permanent disgrace, than I can remember.'",
@@ -126,7 +126,7 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Nemesis_destroying_Chinese_war_junks.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Destroying_Chinese_war_junks%2C_by_E._Duncan_%281843%29.jpg"
   },
   {
     "id": "treaty-of-nanking",
@@ -145,12 +145,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Treaty_of_Nanking.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/The_Signing_of_the_Treaty_of_Nanking.jpg"
   },
   {
     "id": "second-opium-war",
     "title": "The Second Opium War",
-    "wiki": "Second_Opium_War",
+    "wiki": "History_of_opium_in_China#Second_Opium_War",
     "year": 1856,
     "keyword": "collapse",
     "summary": "The Second Opium War (1856–1860), fought by Britain and France jointly, began over disputes about treaty enforcement and the right to station ambassadors in Beijing. It ended with China signing the Treaties of Tientsin and the Convention of Peking — which legalised the opium trade, opened more treaty ports, permitted Christian missionaries throughout China, and required China to pay further indemnities. The symbolic nadir came in October 1860, when British and French forces looted and burned the Old Summer Palace — Yuanmingyuan — a complex of palaces and gardens that represented the pinnacle of Chinese imperial culture. Victor Hugo, writing about it from exile, called it a crime against world heritage. The ashes of Yuanmingyuan remain a national wound in Chinese memory.",
@@ -163,12 +163,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Attack_on_Canton.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/British_ships_in_Canton.jpg"
   },
   {
     "id": "opium-trade-legalised",
     "title": "China Forced to Legalise the Drug Trade",
-    "wiki": "Treaties_of_Tientsin",
+    "wiki": "Treaty_of_Tientsin",
     "year": 1860,
     "keyword": "collapse",
     "summary": "The Treaties of Tientsin (1858) and the Convention of Peking (1860) required China to legalise the import of opium — a provision inserted at British insistence. A country that had gone to war to enforce its own drug prohibition was now required by international treaty to permit the trade. The legalisation produced a further expansion: Chinese domestic opium cultivation was also legalised, eventually reducing the British India trade but spreading addiction even more widely. By the late 19th century, an estimated 20–30 million Chinese people were addicted to opium. The Qing government, which had tried to suppress the trade, was now constitutionally required to facilitate it.",
@@ -180,7 +180,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Opium_smoking_1880.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Signing_the_Treaty_of_Tientsin.jpg"
   },
   {
     "id": "summer-palace-burned",
@@ -197,7 +197,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ruins_of_yuanmingyuan.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/20090731_Remains_of_the_Old_Summer_Palace_02.jpg",
     "relatedScenario": {
       "scenarioId": "library-of-alexandria",
       "nodeId": "knowledge-permanently-lost",
@@ -207,7 +207,7 @@
   {
     "id": "qing-dynasty-humiliated",
     "title": "The Unequal Treaties",
-    "wiki": "Unequal_treaty",
+    "wiki": "Unequal_treaty#China",
     "year": 1842,
     "keyword": "collapse",
     "summary": "The series of treaties China was forced to sign between 1842 and 1901 created what Chinese historians call the 'unequal treaty system' — a structure of extraterritoriality, indemnities, and territorial concessions that reduced China from the world's largest economy to a semi-colonial state. In the treaty ports — Shanghai, Canton, Tianjin, and dozens of others — foreign nationals lived under their own laws, governed by their own courts, in enclaves where Chinese sovereignty did not apply. The most famous of these, the Shanghai International Settlement, had a park with a sign that Chinese accounts claim read 'No dogs or Chinese' — the sign's exact wording is disputed, but the reality of Chinese exclusion from their own city's most desirable spaces is not. The humiliation was both material and symbolic.",
@@ -223,7 +223,7 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Treaty_of_Nanking.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/HMS_Cornwallis_and_Squadron_in_Nanking.jpg"
   },
   {
     "id": "taiping-rebellion",
@@ -240,12 +240,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Taiping_Heavenly_Kingdom.jpg"
+    "imageUrl": "https://miro.medium.com/v2/resize:fit:4686/1*GXreu4jUJTJtCdYcI9Npkg.jpeg"
   },
   {
     "id": "qing-dynasty-weakens",
     "title": "The Slow Collapse",
-    "wiki": "Qing_dynasty#Decline",
+    "wiki": "Qing_dynasty",
     "year": 1880,
     "keyword": "shift",
     "summary": "By the 1880s, the Qing dynasty was visibly failing across every dimension. Military defeats against France (1885) and Japan (1895) — a country China had long regarded as a cultural tributary — demonstrated that the modernisation efforts of the Self-Strengthening Movement had been inadequate. The opium trade had drained silver, spread addiction through the military and civil service, and corrupted the administrative apparatus. Peasant rebellions continued. The court was dominated by the Empress Dowager Cixi, whose conservatism blocked the reforms that might have saved the dynasty. China, which had been the world's largest economy for most of recorded history, was being dismembered by powers that had barely existed when the Qing dynasty was founded.",
@@ -262,7 +262,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Empress_Dowager_Cixi.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Empress-Dowager-Cixi1.jpg"
   },
   {
     "id": "boxer-rebellion",
@@ -280,7 +280,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Boxer_Rebellion_Beijing_1900.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Foreign_armies_in_Beijing_during_Boxer_Rebellion.jpg"
   },
   {
     "id": "qing-dynasty-falls",
@@ -300,7 +300,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Puyi1.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Opstanden%2C_revolutie%2C_SFA022823302.jpg/1280px-Opstanden%2C_revolutie%2C_SFA022823302.jpg"
   },
   {
     "id": "century-of-humiliation",
@@ -320,7 +320,7 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ruins_of_yuanmingyuan.jpg",
+    "imageUrl": "https://images.chinahighlights.com/allpicture/2014/08/383b7a05faf44523936788c4_cut_800x500_117.jpg",
     "relatedScenario": {
       "scenarioId": "mongols",
       "nodeId": "pax-mongolica",
@@ -342,12 +342,12 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Mao_Zedong_1959.jpg"
+    "imageUrl": "https://cdn.britannica.com/10/75510-050-F0C859E6/Mao-Zedong.jpg"
   },
   {
     "id": "mao-ends-opium",
     "title": "Mao Eliminates Opium in Three Years",
-    "wiki": "Opium_in_China#Communist_era",
+    "wiki": "Opium_trade_in_the_Yan%27an_Soviet",
     "year": 1950,
     "keyword": "turning-point",
     "summary": "One of the first acts of the People's Republic of China was a systematic campaign to eliminate opium addiction. The campaign ran from 1950 to 1953 and employed methods that no democratic government could have used: public trials of dealers and traffickers, many of whom were executed; compulsory registration of addicts; mandatory treatment programmes; and the social pressure of a totalitarian state mobilised against a single target. An estimated 20 million addicts were treated or compelled into abstinence. The trade that had devastated China for a century was effectively eliminated in three years. The efficiency of the campaign was inseparable from its brutality — but its success was real. Mao had ended, through terror, what the Qing dynasty, the Republic, and the warlords had failed to end through a hundred years of prohibition.",
@@ -361,7 +361,7 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Mao_Zedong_1959.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/1942nanniwan.jpg"
   },
   {
     "id": "china-today",
@@ -379,13 +379,13 @@
     "effectIds": [],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hongkong_Handover_1997.jpg"
+    "imageUrl": "https://cdn.i-scmp.com/sites/default/files/images/methode/2018/05/02/20dd0938-4d4d-11e8-9150-83bd875cc143_image_hires_162415.JPG"
   },
   {
     "id": "bengal-opium-farmers",
     "title": "The Farmers Who Had No Choice",
-    "wiki": "East_India_Company#Opium_trade",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Opium_factory_Patna.jpg",
+    "wiki": "East_India_Company",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/A_busy_stacking_room_in_the_opium_factory_at_Patna%2C_India._L_Wellcome_V0019154.jpg/1280px-A_busy_stacking_room_in_the_opium_factory_at_Patna%2C_India._L_Wellcome_V0019154.jpg",
     "year": 1793,
     "keyword": "pressure",
     "summary": "The opium that devastated China was grown by Bengali farmers in Bihar under a system of compulsory cultivation that the East India Company introduced from the 1790s onward. Farmers received advances from Company agents that tied them contractually to growing opium rather than food crops; the purchase price was set by the Company at levels that left farmers little margin; and attempts to sell opium to anyone other than the Company were punishable by law. When global opium prices fell, the Company absorbed none of the loss — that fell to the farmers. When prices rose, the Company captured the profit. The Patna opium factory, where Company agents processed the harvest into the spherical balls that were then auctioned to merchants, processed hundreds of tonnes annually under conditions that contemporary observers found disturbing. The trade that Britain described as commerce and China described as poison had a third dimension that neither narrative captured: the Bengali farmers who grew it under compulsion, profited almost nothing from it, and whose agricultural economy was distorted by it for generations. The opium trade had victims on both ends of its supply chain.",
@@ -401,8 +401,8 @@
   {
     "id": "parliamentary-opium-debate",
     "title": "The Vote That Nearly Stopped the War",
-    "wiki": "First_Opium_War#Parliamentary_debate",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/William_Ewart_Gladstone_by_George_Frederic_Watts.jpg",
+    "wiki": "First_Opium_War",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/William_Ewart_Gladstone%2C_1892_%28cropped%29.jpg/960px-William_Ewart_Gladstone%2C_1892_%28cropped%29.jpg",
     "year": 1840,
     "keyword": "pressure",
     "summary": "On April 7–9, 1840, the House of Commons debated the government's conduct toward China. The motion of censure — that the war was unjustified — was defeated by 271 votes to 262: a margin of nine. Nine votes, and the First Opium War might never have been fought. The debate produced some of the most morally lucid speeches in Victorian parliamentary history. William Gladstone, then a young Conservative MP, said the war was 'a war more unjust in its origin, a war more calculated in its progress to cover this country with permanent disgrace, than I can remember.' Richard Cobden argued that forcing opium on China was incompatible with any claim to Christian civilisation. The government's defenders invoked free trade: British merchants had a right to sell legal goods, and Chinese customs enforcement was the aggression. The nine-vote margin was not a moral victory — the war went ahead — but it demonstrated that the trade's defenders could not claim the unanimous support of British opinion. The empire that waged the Opium Wars was not morally unanimous. It was morally contested and chose to proceed anyway.",
@@ -419,7 +419,7 @@
     "id": "self-strengthening-movement",
     "title": "China Tries to Catch Up",
     "wiki": "Self-Strengthening_Movement",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Jiangnan_Arsenal.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Gun_transportation_at_Jiangnan_Arsenal.jpg",
     "year": 1870,
     "keyword": "catalyst",
     "summary": "The Qing response to the humiliation of the Opium Wars was the Self-Strengthening Movement (洋務運動) — a programme of military and industrial modernisation running from roughly 1861 to 1895. Chinese reformers built arsenals, shipyards, and telegraph lines; established military academies on Western models; sent students abroad; and created the Beiyang Fleet, which became the largest navy in Asia by the 1880s. The movement had the right diagnosis — China needed modern technology and military capacity — but the wrong theory of change. The reformers believed Western methods could be grafted onto Confucian institutions without structural political reform. When Japan — which had undertaken total modernisation of its political and social structures — destroyed the Beiyang Fleet in the First Sino-Japanese War of 1894–1895, the verdict was delivered. China had built the ships and bought the guns but had not reformed the system that operated them. The Self-Strengthening Movement's failure made the Qing dynasty's collapse a matter of time, not circumstance.",
@@ -436,7 +436,7 @@
     "id": "hong-kong-leased",
     "title": "The 99-Year Clock Starts",
     "wiki": "Convention_for_the_Extension_of_Hong_Kong_Territory",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hongkong_Handover_1997.jpg",
+    "imageUrl": "https://cdn.britannica.com/13/61213-050-50500925/Fireworks-return-sovereignty-Chinese-Hong-Kong-July-1-1997.jpg",
     "year": 1898,
     "keyword": "consequence",
     "summary": "Hong Kong island had been ceded to Britain in perpetuity by the Treaty of Nanking in 1842. Kowloon peninsula was added by the Convention of Peking in 1860. But in 1898, China was forced to lease the New Territories — the large mainland area north of Kowloon — to Britain for 99 years. The lease, signed June 9, 1898, under duress during the 'scramble for concessions' that followed China's defeat by Japan, set a specific clock running. In 1984, Margaret Thatcher's government concluded that Hong Kong island and Kowloon, though ceded in perpetuity, were not economically viable without the New Territories, whose lease expired in 1997. The Joint Declaration was negotiated, and the handover agreed. The reason the Century of Humiliation ended in 1997 rather than some other year is a 99-year lease signed by a weakened Qing dynasty in 1898 — another transaction concluded under duress, setting terms that would unfold long after those who signed it were dead.",
@@ -453,7 +453,7 @@
     "id": "china-rises",
     "title": "The Country That Got Strong Enough to Negotiate",
     "wiki": "Deng_Xiaoping#Reforms",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Deng_Xiaoping_and_Jimmy_Carter_1979.jpg",
+    "imageUrl": "https://cartercentee50c07c05.blob.core.windows.net/blobcartercentee50c07c05/wp-content/uploads/2019/01/resources-images-features-china-24-1035a-1600x900.gif",
     "year": 1980,
     "keyword": "shift",
     "summary": "The handover of Hong Kong in 1997 was not another humiliation. It was a negotiation — conducted between a Britain that recognised it could not hold what it had, and a China that had become strong enough to insist. The difference was Deng Xiaoping. After Mao's death in 1976, Deng Xiaoping launched the economic reforms that transformed China from an isolated revolutionary state into the world's largest economy in the making: agricultural decollectivisation, special economic zones, the opening to foreign investment, the four modernisations. Between 1979 and 1997, China's GDP grew by a factor of approximately seven. The country that Lin Zexu had tried to protect by destroying a drug shipment — and that Britain had defeated with a steam-powered gunboat — was now a nuclear-armed state with a seat on the UN Security Council and the fastest-growing economy on Earth. The Century of Humiliation ended not because Britain chose to return Hong Kong but because China had become impossible to refuse.",
