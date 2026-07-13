@@ -1385,6 +1385,162 @@ function BedlamPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Mediterranean Summer — parasol seen from above
+function MediterraneanSummerPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none", opacity }}
+    >
+      <defs>
+        <pattern id="bg-mediterranean-summer" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+          {/* Parasol A (30,30) */}
+          <g transform="translate(30,30)">
+            <line x1="0" y1="0" x2="0"     y2="-22"   stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="15.6"  y2="-15.6" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="22"    y2="0"     stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="15.6"  y2="15.6"  stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="0"     y2="22"    stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="-15.6" y2="15.6"  stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="-22"   y2="0"     stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="-15.6" y2="-15.6" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <path d="M0,-22 A6,6 0 0,1 15.6,-15.6 A6,6 0 0,1 22,0 A6,6 0 0,1 15.6,15.6 A6,6 0 0,1 0,22 A6,6 0 0,1 -15.6,15.6 A6,6 0 0,1 -22,0 A6,6 0 0,1 -15.6,-15.6 A6,6 0 0,1 0,-22 Z"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
+            <circle cx="0" cy="0" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <line x1="0" y1="0" x2="0" y2="8"  stroke="#E8E3D5" strokeWidth="0.6"/>
+            <line x1="-2" y1="8" x2="2" y2="8" stroke="#E8E3D5" strokeWidth="0.5"/>
+          </g>
+          {/* Parasol B (90,90) */}
+          <g transform="translate(90,90)">
+            <line x1="0" y1="0" x2="0"     y2="-22"   stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="15.6"  y2="-15.6" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="22"    y2="0"     stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="15.6"  y2="15.6"  stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="0"     y2="22"    stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="-15.6" y2="15.6"  stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="-22"   y2="0"     stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="0" x2="-15.6" y2="-15.6" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <path d="M0,-22 A6,6 0 0,1 15.6,-15.6 A6,6 0 0,1 22,0 A6,6 0 0,1 15.6,15.6 A6,6 0 0,1 0,22 A6,6 0 0,1 -15.6,15.6 A6,6 0 0,1 -22,0 A6,6 0 0,1 -15.6,-15.6 A6,6 0 0,1 0,-22 Z"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
+            <circle cx="0" cy="0" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <line x1="0" y1="0" x2="0" y2="8"  stroke="#E8E3D5" strokeWidth="0.6"/>
+            <line x1="-2" y1="8" x2="2" y2="8" stroke="#E8E3D5" strokeWidth="0.5"/>
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-mediterranean-summer)" />
+    </svg>
+  );
+}
+
+// Suez Canal — cross-section engineering drawing
+function SuezCanalPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none", opacity }}
+    >
+      <defs>
+        <pattern id="bg-suez-canal" x="0" y="0" width="160" height="140" patternUnits="userSpaceOnUse">
+          {/* Desert surface */}
+          <line x1="0"   y1="48" x2="32"  y2="48" stroke="#E8E3D5" strokeWidth="0.8"/>
+          <line x1="128" y1="48" x2="160" y2="48" stroke="#E8E3D5" strokeWidth="0.8"/>
+          {/* Canal walls */}
+          <line x1="32"  y1="48" x2="52"  y2="96" stroke="#E8E3D5" strokeWidth="0.8"/>
+          <line x1="128" y1="48" x2="108" y2="96" stroke="#E8E3D5" strokeWidth="0.8"/>
+          <line x1="52"  y1="96" x2="108" y2="96" stroke="#E8E3D5" strokeWidth="0.8"/>
+          {/* Water surface */}
+          <line x1="32"  y1="48" x2="128" y2="48" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="44"  y1="54" x2="116" y2="54" stroke="#E8E3D5" strokeWidth="0.25"/>
+          <line x1="48"  y1="60" x2="112" y2="60" stroke="#E8E3D5" strokeWidth="0.25"/>
+          {/* Ship hull */}
+          <line x1="58"  y1="48" x2="58"  y2="80" stroke="#E8E3D5" strokeWidth="0.85"/>
+          <line x1="102" y1="48" x2="102" y2="80" stroke="#E8E3D5" strokeWidth="0.85"/>
+          <path d="M58,80 Q58,86 64,88 L96,88 Q102,86 102,80" fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
+          <line x1="54"  y1="48" x2="106" y2="48" stroke="#E8E3D5" strokeWidth="0.7"/>
+          {/* Superstructure */}
+          <rect x="68" y="28" width="24" height="20" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <line x1="72" y1="34" x2="88" y2="34" stroke="#E8E3D5" strokeWidth="0.35"/>
+          <line x1="72" y1="38" x2="88" y2="38" stroke="#E8E3D5" strokeWidth="0.35"/>
+          <rect x="78" y="18" width="8" height="12" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
+          <path d="M80,18 C79,14 81,11 80,8" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <path d="M84,18 C85,14 83,11 84,8" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+          {/* Depth markers */}
+          <line x1="30" y1="64" x2="36" y2="66" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <line x1="28" y1="78" x2="34" y2="80" stroke="#E8E3D5" strokeWidth="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-suez-canal)" />
+    </svg>
+  );
+}
+
+// Swimming Leisure — bathing machine side profile
+function SwimmingLeisurePattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none", opacity }}
+    >
+      <defs>
+        <pattern id="bg-swimming-leisure" x="0" y="0" width="200" height="160" patternUnits="userSpaceOnUse">
+          <g transform="translate(100, 80)">
+            {/* Waterline */}
+            <line x1="-100" y1="22" x2="100" y2="22" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <line x1="-100" y1="28" x2="100" y2="28" stroke="#E8E3D5" strokeWidth="0.25"/>
+            <line x1="-100" y1="34" x2="100" y2="34" stroke="#E8E3D5" strokeWidth="0.2"/>
+            {/* Left wheel */}
+            <circle cx="-46" cy="22" r="18" fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
+            <line x1="-46" y1="4"  x2="-46" y2="40" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="-28" y1="22" x2="-64" y2="22" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="-33" y1="9"  x2="-59" y2="35" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="-33" y1="35" x2="-59" y2="9"  stroke="#E8E3D5" strokeWidth="0.4"/>
+            <circle cx="-46" cy="22" r="3" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+            {/* Right wheel */}
+            <circle cx="46" cy="22" r="18" fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
+            <line x1="46" y1="4"  x2="46" y2="40" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="28" y1="22" x2="64" y2="22" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="33" y1="9"  x2="59" y2="35" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="33" y1="35" x2="59" y2="9"  stroke="#E8E3D5" strokeWidth="0.4"/>
+            <circle cx="46" cy="22" r="3" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+            {/* Axle */}
+            <line x1="-46" y1="22" x2="46" y2="22" stroke="#E8E3D5" strokeWidth="0.5"/>
+            {/* Body */}
+            <rect x="-48" y="-52" width="96" height="56" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
+            <line x1="-48" y1="-38" x2="48" y2="-38" stroke="#E8E3D5" strokeWidth="0.3"/>
+            <line x1="-48" y1="-24" x2="48" y2="-24" stroke="#E8E3D5" strokeWidth="0.3"/>
+            <line x1="-48" y1="-10" x2="48" y2="-10" stroke="#E8E3D5" strokeWidth="0.3"/>
+            {/* Roof */}
+            <path d="M-52,-52 L0,-68 L52,-52" fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
+            <line x1="-8" y1="-67" x2="8" y2="-67" stroke="#E8E3D5" strokeWidth="0.6"/>
+            {/* Window */}
+            <rect x="-38" y="-46" width="14" height="12" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <line x1="-31" y1="-46" x2="-31" y2="-34" stroke="#E8E3D5" strokeWidth="0.3"/>
+            <line x1="-38" y1="-40" x2="-24" y2="-40" stroke="#E8E3D5" strokeWidth="0.3"/>
+            {/* Door */}
+            <rect x="26" y="-48" width="18" height="44" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+            <circle cx="28" cy="-26" r="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+            {/* Steps */}
+            <line x1="44" y1="4"  x2="58" y2="4"  stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="44" y1="10" x2="62" y2="10" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="44" y1="16" x2="66" y2="16" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="58" y1="4"  x2="62" y2="10" stroke="#E8E3D5" strokeWidth="0.5"/>
+            <line x1="62" y1="10" x2="66" y2="16" stroke="#E8E3D5" strokeWidth="0.5"/>
+            {/* Modesty hood */}
+            <path d="M44,-48 C52,-40 64,-20 70,22" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <path d="M44,4 C52,6 62,12 70,22"      fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <path d="M44,-28 C54,-20 64,-4 68,14"  fill="none" stroke="#E8E3D5" strokeWidth="0.3"/>
+            {/* Horse tow bar */}
+            <line x1="-48" y1="10" x2="-72" y2="16" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <line x1="-72" y1="12" x2="-72" y2="20" stroke="#E8E3D5" strokeWidth="0.5"/>
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-swimming-leisure)" />
+    </svg>
+  );
+}
+
 // Cholera Map — John Snow's dot cluster, pump at centre
 function CholeraMapPattern({ opacity }: { opacity: number }) {
   return (
@@ -1701,6 +1857,12 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
       return <KanyeWestPattern opacity={opacity} />;
     case "kyiv":
       return <KyivPattern opacity={opacity} />;
+    case "mediterranean-summer":
+      return <MediterraneanSummerPattern opacity={opacity} />;
+    case "suez-canal":
+      return <SuezCanalPattern opacity={opacity} />;
+    case "swimming-leisure":
+      return <SwimmingLeisurePattern opacity={opacity} />;
     case "cholera-map":
       return <CholeraMapPattern opacity={opacity} />;
     case "opium-empire":

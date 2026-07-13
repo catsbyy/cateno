@@ -452,7 +452,6 @@ export const SCENARIO_META: ScenarioMeta[] = [
     nodeCount: 20,
     theme: "science",
   },
-
   {
     id: "opium-empire",
     title: "The Drug That Built an Empire and Destroyed Another",
@@ -465,11 +464,47 @@ export const SCENARIO_META: ScenarioMeta[] = [
     nodeCount: 25,
     theme: "politics",
   },
+  {
+    id: "mediterranean-summer",
+    title: "How the Rich Learned to Worship the Sun",
+    period: "1700–1975",
+    description:
+      "For centuries, tan skin meant you worked outdoors. Pale skin meant you could afford to stay inside. The wealthy fled the sun. Then in 1923, Coco Chanel stepped off a yacht with a tan — and the logic that had governed European society for 500 years reversed in a single season. By the end of the century, science discovered the reversal was killing people. The logic keeps reversing.",
+    anchorId: "chanel-invents-the-tan",
+    anchorTitle: "Chanel Steps Off a Yacht",
+    nodeCount: 16,
+    anchorYear: 1923,
+    theme: "culture",
+  },
+  {
+    id: "suez-canal",
+    title: "The Ditch That Ran the World",
+    period: "600 BC–1957",
+    description:
+      "Napoleon dreamed of it but got the maths wrong. A French diplomat spent ten years convincing everyone it was possible. The canal opened in 1869, cut 4,500 miles off the voyage from London to Bombay, ended the age of sail, and made Britain so desperate to control it that they occupied Egypt for 74 years. By 1956, Britain no longer owned India. The canal led nowhere that mattered. They invaded anyway.",
+    anchorId: "suez-canal-opens",
+    anchorTitle: "The Canal Opens",
+    nodeCount: 19,
+    anchorYear: 1869,
+    theme: "politics",
+  },
+  {
+    id: "swimming-leisure",
+    title: "The Beach Was Not Always a Holiday",
+    period: "1700–1975",
+    description:
+      "Sailors didn't learn to swim — they thought it prolonged drowning. Nobody went to the beach for fun. Then a doctor told wealthy Londoners that seawater cured disease. The railway made the coast reachable. A woman was arrested for her swimsuit in 1907. Two world wars changed what people wore. And somehow all of this produced the summer holiday.",
+    anchorId: "sea-bathing-declared-medicinal",
+    anchorTitle: "The Doctor Says Go in the Sea",
+    nodeCount: 13,
+    anchorYear: 1750,
+    theme: "culture",
+  },
 ];
 
 // ─── Dynamic node loaders ──────────────────────────────────────────────────────
 // Each import() becomes a separate Vite chunk — scenario JSON is never included
-// in the initial bundle. All 29 files load only when their scenario is opened.
+// in the initial bundle. All files load only when their scenario is opened.
 
 const NODE_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
   "emu-war": () => import("./emu-war.json"),
@@ -507,6 +542,9 @@ const NODE_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
   "window-tax": () => import("./window-tax.json"),
   "daylight-saving-time": () => import("./daylight-saving-time.json"),
   "safety-pin": () => import("./safety-pin.json"),
+  "mediterranean-summer": () => import("./mediterranean-summer.json"),
+  "suez-canal": () => import("./suez-canal.json"),
+  "swimming-leisure": () => import("./swimming-leisure.json"),
   "cholera-map": () => import("./cholera-map.json"),
   "opium-empire": () => import("./opium-empire.json"),
 };

@@ -1,0 +1,355 @@
+[
+  {
+    "id": "ancient-canal-dreams",
+    "title": "The Ancient Canal",
+    "wiki": "Canal_of_the_Pharaohs",
+    "year": -600,
+    "keyword": "pressure",
+    "summary": "The idea of connecting the Mediterranean to the Red Sea through Egypt is ancient. Pharaoh Necho II began a canal around 600 BC linking the Nile to the Red Sea; Darius the Great of Persia completed it; it was used intermittently for centuries and eventually silted up. The dream of a direct water route between Europe and Asia — cutting out the long overland journey through the Middle East — persisted through the classical world and the Islamic caliphates. The geography was obvious: the Isthmus of Suez, the narrow strip of land separating the two seas, was less than 200 kilometres wide. The engineering challenge was substantial but not impossible. What had been lacking, across two millennia, was the combination of capital, political will, and technical capacity to do it at modern scale.",
+    "causeIds": [],
+    "effectIds": [
+      "napoleon-egypt-expedition",
+      "cape-route-established"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Darius_Suez_inscription.jpg"
+  },
+  {
+    "id": "napoleon-egypt-expedition",
+    "title": "Napoleon Considers a Canal — and Gets the Maths Wrong",
+    "wiki": "French_campaign_in_Egypt_and_Syria",
+    "year": 1799,
+    "keyword": "catalyst",
+    "summary": "Napoleon Bonaparte's expedition to Egypt in 1798-1799 included a team of scientists and engineers tasked with surveying the country's potential. Among the projects they examined was a canal across the Isthmus of Suez. Napoleon was enthusiastic. His chief engineer, Jacques-Marie Le Père, conducted a survey and concluded — incorrectly — that the Red Sea was approximately ten metres higher than the Mediterranean, which would make a direct canal impossible without a complex system of locks. The project was abandoned on the basis of this error. When Ferdinand de Lesseps re-examined the project half a century later, more accurate surveys showed that the two seas were at virtually the same level. Napoleon had abandoned a feasible project because of a measurement mistake.",
+    "causeIds": [
+      "ancient-canal-dreams",
+      "cape-route-established"
+    ],
+    "effectIds": [
+      "de-lesseps-vision"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg"
+  },
+  {
+    "id": "de-lesseps-vision",
+    "title": "De Lesseps Gets a Concession",
+    "wiki": "Ferdinand_de_Lesseps",
+    "year": 1854,
+    "keyword": "catalyst",
+    "summary": "Ferdinand de Lesseps was a French diplomat who had served in Egypt and developed both a detailed knowledge of the country and a personal friendship with Said Pasha, the heir to the Egyptian throne. When Said became Khedive of Egypt in 1854, de Lesseps obtained a concession to form a company and dig a canal. He had no engineering background and no capital. What he had was extraordinary personal persuasiveness, a talent for publicity, and a correct reading of the commercial case: a canal through Suez would save ships 4,500 miles on the voyage between Britain and India, and whoever controlled it would control the most important shipping lane in the world. He spent years travelling Europe raising money and support. Britain, whose shipping would benefit most, was paradoxically his most determined opponent — preferring the status quo and fearing French influence in Egypt.",
+    "causeIds": [
+      "napoleon-egypt-expedition"
+    ],
+    "effectIds": [
+      "canal-construction"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ferdinand_de_Lesseps.jpg"
+  },
+  {
+    "id": "canal-construction",
+    "title": "Ten Years, a Million Workers, 120,000 Deaths",
+    "wiki": "Suez_Canal#Construction",
+    "year": 1859,
+    "keyword": "shift",
+    "summary": "Construction of the Suez Canal began on April 25, 1859 and took ten years. The scale was unprecedented: an estimated 1.5 million workers were employed sequentially over the course of the project, most initially recruited as Egyptian forced labourers under the corvée system. The death toll is disputed — contemporary estimates ranged widely, and more recent scholarship suggests deaths in the tens of thousands from cholera, dysentery, and the brutal physical conditions of digging through desert, though some older sources cite higher figures. The project required removing 74 million cubic metres of earth and creating two artificial lakes from existing salt marshes. Mechanisation replaced forced labour as international pressure mounted against the conscription system; the costs escalated far beyond initial estimates. De Lesseps's company nearly went bankrupt twice. The canal opened on November 17, 1869 — on time, astonishingly — to a ceremony attended by Empress Eugénie of France and Emperor Franz Joseph of Austria.",
+    "causeIds": [
+      "de-lesseps-vision"
+    ],
+    "effectIds": [
+      "suez-canal-opens"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Suez_canal_1869.jpg"
+  },
+  {
+    "id": "suez-canal-opens",
+    "title": "The Canal Opens",
+    "wiki": "Suez_Canal#Opening",
+    "year": 1869,
+    "keyword": "spark",
+    "summary": "The Suez Canal opened on November 17, 1869 with a ceremony of extraordinary spectacle. Empress Eugénie of France led the inaugural fleet through the new waterway; Emperor Franz Joseph of Austria attended; Ismail Pasha of Egypt hosted banquets for dignitaries across the country. Giuseppe Verdi had been commissioned to write an opera for the occasion — Aida — but it was not completed in time, and the opening proceeded without it. (Aida premiered in Cairo in December 1871.) The canal was 193 kilometres long, 8 metres deep, and 22 metres wide at the bottom. The voyage from London to Bombay had been approximately 10,800 miles via the Cape of Good Hope. Via Suez, it was approximately 6,300 miles. The canal had cut 4,500 miles — more than a month of sailing — from the most commercially important shipping route in the world.",
+    "causeIds": [
+      "canal-construction"
+    ],
+    "effectIds": [
+      "age-of-sail-ends",
+      "distance-transformed",
+      "britain-desperate-to-control"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Suez_canal_1869.jpg"
+  },
+  {
+    "id": "age-of-sail-ends",
+    "title": "The Canal Kills the Sailing Ship",
+    "wiki": "Age_of_Sail#Decline",
+    "year": 1870,
+    "keyword": "collapse",
+    "summary": "The Suez Canal did not merely shorten the route from Europe to Asia — it fundamentally altered which type of vessel could use it. The canal was a narrow channel with no wind; sailing ships could not manoeuvre through it under sail and had to be towed, making the passage slow and expensive. Steam-powered ships, which could travel at constant speed regardless of wind direction, were perfectly suited to the canal and gained an enormous advantage over sail on all routes through it. Within twenty years of the canal's opening, steam had replaced sail as the dominant technology for long-distance commercial shipping. The great age of sail — which had shaped global trade for four centuries — was over. The canal hadn't just changed a route; it had made the technology that built the route obsolete.",
+    "causeIds": [
+      "suez-canal-opens"
+    ],
+    "effectIds": [
+      "britain-buys-shares",
+      "britain-desperate-to-control"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Cutty_Sark_2009.jpg",
+    "relatedScenario": {
+      "scenarioId": "whales",
+      "nodeId": "petroleum-discovered",
+      "label": "Connects to The Oil That Lit the World"
+    }
+  },
+  {
+    "id": "distance-transformed",
+    "title": "The World Shrinks",
+    "wiki": "Suez_Canal#Economic_impact",
+    "year": 1870,
+    "keyword": "consequence",
+    "summary": "The Suez Canal's effect on global trade was immediate and transformative. The voyage from London to Bombay fell from over 10,000 miles to just over 6,000; the time fell proportionally. India, which had been weeks away, was now within reach in days. The economic consequences rippled through every industry that depended on goods moving between Europe and Asia: cotton from India reached British mills faster and cheaper; tea from Ceylon reached London with less deterioration; manufactured goods from Britain reached Indian markets more competitively. The canal also created a new strategic geography: whoever controlled the 193 kilometres of Egyptian desert through which it ran controlled the fastest route between Europe and Asia. This was a fact that Britain, whose empire depended on rapid communication with India, could not afford to ignore.",
+    "causeIds": [
+      "suez-canal-opens"
+    ],
+    "effectIds": [
+      "britain-desperate-to-control"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Suez_canal_1869.jpg"
+  },
+  {
+    "id": "britain-desperate-to-control",
+    "title": "Britain Wants the Canal",
+    "wiki": "Suez_Canal Company",
+    "year": 1872,
+    "keyword": "pressure",
+    "summary": "Britain had opposed the canal's construction and refused to invest in it. By the time it opened, British ships were its primary users — 80% of canal traffic in early years was British. This created a strategic paradox: a canal that Britain had tried to prevent, financed by France and Egypt, was now essential to the British Empire's communications with India. The Khedive of Egypt, Ismail Pasha, was chronically in debt and had borrowed against Egypt's future revenues and canal income. When his finances collapsed in 1875, British Prime Minister Disraeli saw the opportunity. He borrowed £4 million from the Rothschild banking family — without time to consult Parliament — and purchased the Khedive's 44% shareholding in the canal company. Britain had gone from opposing the canal to owning nearly half of it in six years.",
+    "causeIds": [
+      "suez-canal-opens",
+      "age-of-sail-ends",
+      "distance-transformed"
+    ],
+    "effectIds": [
+      "egyptian-debt-crisis"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Benjamin_Disraeli.jpg"
+  },
+  {
+    "id": "britain-buys-shares",
+    "title": "Disraeli Buys the Canal",
+    "wiki": "Suez_Canal Company#British_acquisition",
+    "year": 1875,
+    "keyword": "turning-point",
+    "summary": "In November 1875, Benjamin Disraeli learned that the Khedive of Egypt was desperate to sell his shares in the Suez Canal Company. He needed £4 million within days — there was no time to convene Parliament for approval. Disraeli sent a message to the Rothschild banking family: could they lend the British government £4 million immediately? The reply came back: 'When?' Britain purchased 176,602 shares — approximately 44% of the company — in the fastest and most consequential financial transaction in the history of the British Empire. Queen Victoria wrote that she was 'very glad' and hoped 'it may be considered by posterity as one of the most important things that have been done.' The canal now had a British anchor; within seven years, Egypt would have a British occupation.",
+    "causeIds": [
+      "age-of-sail-ends",
+      "egyptian-debt-crisis"
+    ],
+    "effectIds": [
+      "britain-occupies-egypt"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Benjamin_Disraeli.jpg"
+  },
+  {
+    "id": "britain-occupies-egypt",
+    "title": "Britain Occupies Egypt",
+    "wiki": "British_occupation_of_Egypt",
+    "year": 1882,
+    "keyword": "collapse",
+    "summary": "In 1882, a nationalist revolt against foreign influence in Egypt — led by Colonel Ahmed Urabi — threatened the stability of the country and, with it, the security of the Suez Canal. Britain sent a naval bombardment against Alexandria and landed troops, nominally to restore order. The military presence became permanent. Britain occupied Egypt for 74 years, governing it as a de facto colony while maintaining the legal fiction of Ottoman sovereignty and Egyptian self-government. The Canal Zone — the strip of territory on either side of the canal — became a British military base of enormous strategic importance. Britain had gone from opposing the canal to buying a stake in it to occupying the country it ran through in the space of thirteen years.",
+    "causeIds": [
+      "britain-buys-shares"
+    ],
+    "effectIds": [
+      "canal-as-imperial-artery"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Battle_of_Tel_El_Kebir.jpg"
+  },
+  {
+    "id": "canal-as-imperial-artery",
+    "title": "The Lifeline of the British Empire",
+    "wiki": "Suez_Canal#Strategic_importance",
+    "year": 1900,
+    "keyword": "consequence",
+    "summary": "The Suez Canal became the central artery of the British Empire — the route through which troops, supplies, administrators, and communications flowed between Britain and its Asian and African possessions. Controlling it was not merely commercially advantageous; it was strategically existential. In both World Wars, control of the canal was a primary military objective: in World War I, Ottoman and German forces attempted to seize it; in World War II, the North African campaign was fundamentally about preventing Axis forces from reaching it. The canal's strategic importance meant that any threat to British control was treated as a threat to the empire itself — a calculation that would prove catastrophic in 1956.",
+    "causeIds": [
+      "britain-occupies-egypt"
+    ],
+    "effectIds": [
+      "egypt-independence",
+      "canal-nationalised-1956",
+      "two-world-wars-canal"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Suez_canal_1869.jpg"
+  },
+  {
+    "id": "egypt-independence",
+    "title": "Egypt Demands the Canal Back",
+    "wiki": "Egyptian_Revolution_of_1952",
+    "year": 1952,
+    "keyword": "shift",
+    "summary": "The Egyptian Revolution of 1952 brought Gamal Abdel Nasser and the Free Officers Movement to power, ending the monarchy and beginning Egypt's transformation into an Arab nationalist state. Nasser's vision for Egypt — modernisation, independence from Western influence, leadership of the Arab world — required both the removal of British troops from the Canal Zone and control of the canal's revenues. He negotiated a British withdrawal from the Canal Zone, completed in 1954. The canal itself remained in the hands of the Suez Canal Company, majority-owned by British and French shareholders. The revenues from the canal — which had helped finance European shareholders since 1869 — were what Nasser needed to fund the Aswan High Dam, his signature modernisation project.",
+    "causeIds": [
+      "canal-as-imperial-artery",
+      "india-independence-changes-equation"
+    ],
+    "effectIds": [
+      "canal-nationalised-1956"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Gamal_Abdel_Nasser.jpg",
+    "relatedScenario": {
+      "scenarioId": "wwi",
+      "nodeId": "ottoman-collapse",
+      "label": "Connects to World War I"
+    }
+  },
+  {
+    "id": "canal-nationalised-1956",
+    "title": "Nasser Nationalises the Canal",
+    "wiki": "Suez_Crisis#Nationalisation",
+    "year": 1956,
+    "keyword": "turning-point",
+    "summary": "On July 26, 1956 — the fourth anniversary of the Egyptian Revolution — Gamal Abdel Nasser delivered a speech in Alexandria announcing the nationalisation of the Suez Canal Company. The canal's revenues would fund the Aswan Dam. As he spoke, Egyptian forces took control of the canal's offices and installations. The reaction in Britain was fury: Prime Minister Anthony Eden compared Nasser to Hitler and immediately began planning military action. France, which had its own grievances against Nasser over his support for Algerian independence, joined the planning. Israel, which had been denied use of the canal, also joined. The three powers developed a secret plan: Israel would invade Sinai, Britain and France would intervene as 'peacekeepers' and seize the canal.",
+    "causeIds": [
+      "canal-as-imperial-artery",
+      "egypt-independence",
+      "india-independence-changes-equation"
+    ],
+    "effectIds": [
+      "suez-crisis"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Gamal_Abdel_Nasser.jpg"
+  },
+  {
+    "id": "suez-crisis",
+    "title": "The Crisis That Ended the British Empire",
+    "wiki": "Suez_Crisis",
+    "year": 1956,
+    "keyword": "collapse",
+    "summary": "The Suez Crisis of October-November 1956 was the most humiliating episode in modern British history. Israel invaded Sinai on October 29; Britain and France issued an ultimatum and began bombing Egypt on October 31. The military operation was succeeding when it was stopped — not by Egyptian resistance but by the United States. President Eisenhower, furious at being kept uninformed, threatened economic sanctions against Britain and refused to support the pound sterling in currency markets. The pound began to collapse. Within days, Britain had no choice but to accept a ceasefire and withdraw. The episode demonstrated that Britain could no longer act as an imperial power without American approval. Anthony Eden resigned, broken. The British Empire — which had been sustained in part by control of the canal — was effectively over.",
+    "causeIds": [
+      "canal-nationalised-1956"
+    ],
+    "effectIds": [
+      "end-of-british-empire"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Suez_crisis.jpg"
+  },
+  {
+    "id": "end-of-british-empire",
+    "title": "The Canal and the End of Empire",
+    "wiki": "Suez_Crisis#Aftermath",
+    "year": 1957,
+    "keyword": "consequence",
+    "summary": "The Suez Crisis accelerated the dissolution of the British Empire in ways that might otherwise have taken another generation. British colonies across Africa and Asia drew the lesson that Britain could be defied successfully if American support was withheld, and that the United States had no interest in maintaining British imperialism. The decolonisation of Africa accelerated dramatically in the years following Suez: Ghana in 1957, Nigeria in 1960, Tanzania in 1961, Uganda in 1962, Kenya in 1963. The canal that had been essential to the empire's functioning had, in its nationalisation and the crisis it produced, become the instrument of that empire's end. The ditch that Napoleon had dreamed of, de Lesseps had built, Disraeli had bought, and Britain had occupied for 74 years had outlasted the empire that had been so desperate to control it.",
+    "causeIds": [
+      "suez-crisis"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Suez_Crisis_Map.jpg",
+    "relatedScenario": {
+      "scenarioId": "opium-empire",
+      "nodeId": "century-of-humiliation",
+      "label": "Connects to The Drug That Built an Empire and Destroyed Another"
+    }
+  },
+  {
+    "id": "cape-route-established",
+    "title": "The Long Way Round",
+    "wiki": "Cape_of_Good_Hope#European_exploration",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Vasco_da_Gama_-_Biblioteca_Nacional_de_Portugal.jpg",
+    "year": 1600,
+    "keyword": "pressure",
+    "summary": "Vasco da Gama's rounding of the Cape of Good Hope in 1497-1498 established the sea route from Europe to Asia that would define global trade for the next three and a half centuries. The route was brutal — the voyage took months, scurvy was endemic, and the Cape's storms were notorious — but it cut out the Ottoman middlemen who controlled the overland Silk Road and allowed European powers to trade directly with India, China, and the Spice Islands. By 1600, the Cape route was dominated by the Dutch East India Company and then increasingly by the British East India Company. The port of Cape Town existed solely as a resupply station for ships making the voyage. Britain's enormous investment in this infrastructure — the ships, the ports, the naval bases, the trade relationships built around the Cape route — made it deeply resistant to any disruption, including a canal that would make the whole apparatus obsolete. The longer the Cape route dominated, the more Britain had to lose from a Suez canal, and the more fiercely it opposed one.",
+    "causeIds": [
+      "ancient-canal-dreams"
+    ],
+    "effectIds": [
+      "napoleon-egypt-expedition"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "age-of-exploration",
+      "nodeId": "vasco-da-gama-reaches-india",
+      "label": "Connects to The Voyage That Connected the World"
+    }
+  },
+  {
+    "id": "egyptian-debt-crisis",
+    "title": "The Khedive's Bankruptcy",
+    "wiki": "Egyptian_debt_crisis_(1876)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Suez_canal_1869.jpg",
+    "year": 1875,
+    "keyword": "collapse",
+    "summary": "Ismail Pasha, Khedive of Egypt, had borrowed recklessly to modernise Egypt and fund a grandiose court. By 1875, Egypt's debt had reached approximately £100 million — at interest rates that consumed most of the country's revenues. The canal shares were the Khedive's most liquid asset. When Disraeli's agent Frederick Greenwood alerted the Prime Minister to the Khedive's desperate need to sell, the British government moved with unusual speed. The Khedive received £4 million — a fraction of the shares' eventual value — and spent it within months. He was deposed by European creditors in 1879 and died in exile in 1895. The Egyptian financial collapse that transferred canal shares to Britain was not an accident: it was the direct result of the terms on which European banks had lent to Egypt, at interest rates that made default almost inevitable. Egypt built the canal; Egypt was forced to sell it; Egypt was then occupied by the country that bought it. The financial mechanisms that stripped Egypt of its own infrastructure were as consequential as any military campaign.",
+    "causeIds": [
+      "britain-desperate-to-control"
+    ],
+    "effectIds": [
+      "britain-buys-shares"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "two-world-wars-canal",
+    "title": "The Canal in Two World Wars",
+    "wiki": "Suez_Canal#World_War_I",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Battle_of_El_Alamein.jpg",
+    "year": 1915,
+    "keyword": "pressure",
+    "summary": "The Suez Canal's strategic importance was validated and amplified by two world wars. In World War I, Ottoman and German forces launched multiple attempts to seize the canal in 1915 and 1916, recognising that cutting Britain's supply line to India would be strategically decisive. The defence of the canal became one of the primary missions of the British imperial forces in Egypt, drawing hundreds of thousands of troops. In World War II, the equation was even starker: the entire North African campaign of 1940-1943 — El Alamein, Tobruk, Montgomery and Rommel — was fundamentally a battle for the canal. Had Rommel reached it, Germany would have controlled the route to the oil fields of the Middle East and the supply lines to British India. Britain committed forces it could barely spare to holding a strip of Egyptian desert. By 1945, an entire generation of British military commanders had built their careers around the canal's defence. Their professional and emotional investment in the canal's security made the Suez Crisis of 1956 psychologically comprehensible even when it was strategically incoherent.",
+    "causeIds": [
+      "canal-as-imperial-artery"
+    ],
+    "effectIds": [
+      "india-independence-changes-equation"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "india-independence-changes-equation",
+    "title": "India Leaves — But Britain Doesn't Let Go",
+    "wiki": "Indian_independence_movement",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Jawaharlal_Nehru_1948.jpg",
+    "year": 1947,
+    "keyword": "shift",
+    "summary": "India gained independence on August 15, 1947 — and in doing so removed the primary strategic rationale for British control of the Suez Canal. The canal had been essential to the British Empire because it was the fastest route to India. Without India, it was the fastest route to what, exactly? Britain's remaining possessions in Asia and Africa were smaller, less valuable, and less strategically critical than the subcontinent had been. The Canal Zone could be justified as a base for Middle Eastern operations — Britain had significant oil interests in Iran and Iraq — but the existential argument ('lose the canal, lose India') had ceased to apply. Yet British political culture, and specifically Anthony Eden's generation of politicians formed in the 1930s and 1940s, could not fully process this change. When Nasser nationalised the canal in 1956, Eden responded as if India still existed, as if the canal were still the lifeline it had been in 1900. The Suez Crisis was partly a failure to adapt to a strategic reality that had changed nine years earlier.",
+    "causeIds": [
+      "two-world-wars-canal"
+    ],
+    "effectIds": [
+      "egypt-independence",
+      "canal-nationalised-1956"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]

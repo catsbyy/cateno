@@ -10,7 +10,7 @@ Built with React, TypeScript, React Flow, and Tailwind CSS.
 
 ## Scenarios
 
-Thirty-seven curated scenarios, each with a number of interconnected events:
+Fourty curated scenarios, each with a number of interconnected events:
 
 - **Fall of Rome** (100-600)
 - **French Revolution** (1700-1803)
@@ -49,6 +49,9 @@ Thirty-seven curated scenarios, each with a number of interconnected events:
 - **The House of Madness** (1247–2000)
 - **The Map That Saved a Million Lives** (1800–1997)
 - **The Drug That Built an Empire and Destroyed Another** (1700–1997)
+- **How the Rich Learned to Worship the Sun** (1700–1975)
+- **The Ditch That Ran the World** (600 BC–1957)
+- **The Beach Was Not Always a Holiday** (1700–1975)
 
 ---
 
