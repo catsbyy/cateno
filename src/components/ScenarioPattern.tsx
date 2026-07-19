@@ -1385,6 +1385,83 @@ function BedlamPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Trial of Socrates — hemlock kylix (Greek drinking cup)
+function TrialOfSocratesPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none", opacity }}
+    >
+      <defs>
+        <pattern id="bg-trial-of-socrates" x="0" y="0" width="120" height="100" patternUnits="userSpaceOnUse">
+          {/* Kylix A (30,38) */}
+          <g transform="translate(30,38)">
+            <path d="M-28,0 Q-28,12 0,14 Q28,12 28,0" fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
+            <line x1="-28" y1="0" x2="28" y2="0" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="14" x2="0" y2="22" stroke="#E8E3D5" strokeWidth="0.8"/>
+            <path d="M-12,22 Q-10,26 0,27 Q10,26 12,22" fill="none" stroke="#E8E3D5" strokeWidth="0.8"/>
+            <line x1="-12" y1="22" x2="12" y2="22" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <path d="M-28,0 C-34,-2 -36,6 -30,8 C-28,8 -28,4 -28,2" fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
+            <path d="M28,0 C34,-2 36,6 30,8 C28,8 28,4 28,2" fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
+          </g>
+          {/* Kylix B (90,72) */}
+          <g transform="translate(90,72)">
+            <path d="M-28,0 Q-28,12 0,14 Q28,12 28,0" fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
+            <line x1="-28" y1="0" x2="28" y2="0" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <line x1="0" y1="14" x2="0" y2="22" stroke="#E8E3D5" strokeWidth="0.8"/>
+            <path d="M-12,22 Q-10,26 0,27 Q10,26 12,22" fill="none" stroke="#E8E3D5" strokeWidth="0.8"/>
+            <line x1="-12" y1="22" x2="12" y2="22" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <path d="M-28,0 C-34,-2 -36,6 -30,8 C-28,8 -28,4 -28,2" fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
+            <path d="M28,0 C34,-2 36,6 30,8 C28,8 28,4 28,2" fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-trial-of-socrates)" />
+    </svg>
+  );
+}
+
+// Homer — ancient lyre (lyra)
+function HomerPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none", opacity }}
+    >
+      <defs>
+        <pattern id="bg-homer" x="0" y="0" width="100" height="140" patternUnits="userSpaceOnUse">
+          <g transform="translate(50, 70)">
+            {/* Body */}
+            <ellipse cx="0" cy="36" rx="18" ry="14" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
+            <ellipse cx="0" cy="36" rx="8" ry="5" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+            {/* Left arm */}
+            <path d="M-16,28 C-22,16 -26,-4 -20,-28 C-16,-40 -8,-46 0,-46"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.9" strokeLinecap="round"/>
+            {/* Right arm */}
+            <path d="M16,28 C22,16 26,-4 20,-28 C16,-40 8,-46 0,-46"
+                  fill="none" stroke="#E8E3D5" strokeWidth="0.9" strokeLinecap="round"/>
+            {/* Crossbar */}
+            <line x1="-20" y1="-46" x2="20" y2="-46" stroke="#E8E3D5" strokeWidth="0.9"/>
+            <circle cx="-20" cy="-46" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <circle cx="20"  cy="-46" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
+            {/* Strings — 7 */}
+            <line x1="-14" y1="-46" x2="-12" y2="22" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="-9"  y1="-46" x2="-8"  y2="24" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="-4"  y1="-46" x2="-4"  y2="26" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="0"   y1="-46" x2="0"   y2="27" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="4"   y1="-46" x2="4"   y2="26" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="9"   y1="-46" x2="8"   y2="24" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="14"  y1="-46" x2="12"  y2="22" stroke="#E8E3D5" strokeWidth="0.4"/>
+            {/* Tailpiece */}
+            <line x1="-12" y1="22" x2="12" y2="22" stroke="#E8E3D5" strokeWidth="0.6"/>
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-homer)" />
+    </svg>
+  );
+}
+
 // Mediterranean Summer — parasol seen from above
 function MediterraneanSummerPattern({ opacity }: { opacity: number }) {
   return (
@@ -1857,6 +1934,10 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
       return <KanyeWestPattern opacity={opacity} />;
     case "kyiv":
       return <KyivPattern opacity={opacity} />;
+    case "trial-of-socrates":
+      return <TrialOfSocratesPattern opacity={opacity} />;
+    case "homer":
+      return <HomerPattern opacity={opacity} />;
     case "mediterranean-summer":
       return <MediterraneanSummerPattern opacity={opacity} />;
     case "suez-canal":

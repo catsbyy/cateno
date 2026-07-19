@@ -52,6 +52,8 @@ Fourty curated scenarios, each with a number of interconnected events:
 - **How the Rich Learned to Worship the Sun** (1700–1975)
 - **The Ditch That Ran the World** (600 BC–1957)
 - **The Beach Was Not Always a Holiday** (1700–1975)
+- **The Death That Produced More Philosophy Than Any Life** (450 BC–1872)
+- **The Blind Poet Who Never Existed** (1200 BC–1960)
 
 ---
 
