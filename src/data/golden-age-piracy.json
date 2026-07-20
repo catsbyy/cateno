@@ -1,0 +1,546 @@
+[
+  {
+    "id": "letters-of-marque-invented",
+    "title": "The Letter That Made Pirates Legal",
+    "wiki": "Letter_of_marque",
+    "year": 1243,
+    "keyword": "pressure",
+    "summary": "A Letter of Marque was a government licence authorising a private ship to attack enemy vessels and keep the proceeds. First formalised in England in 1243, the instrument solved a practical problem for states that couldn't afford large permanent navies: private entrepreneurs would arm ships and attack enemy shipping at their own expense, keeping the loot in exchange for the service. The legal distinction this created was razor-thin: a privateer with a Letter of Marque was a legitimate combatant; the same person on the same ship doing the same things without the letter was a pirate subject to hanging. Generations of maritime raiders learned the most important lesson in their profession — the difference between heroism and crime was paperwork.",
+    "causeIds": [],
+    "effectIds": [
+      "privateers-as-state-weapon"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Letter_of_marque.jpg"
+  },
+  {
+    "id": "spanish-silver-creates-target",
+    "title": "The Richest Shipping Lanes in History",
+    "wiki": "Spanish_treasure_fleet",
+    "year": 1520,
+    "keyword": "pressure",
+    "summary": "From the 1520s onward, Spain operated the most lucrative maritime trade routes in history: the treasure fleets carrying silver from Potosí in Bolivia and Zacatecas in Mexico across the Atlantic, and the Manila Galleons carrying silver from Acapulco to Manila and Chinese goods back. At peak, these routes carried more wealth than the entire GDP of most European nations. England, France, and the Netherlands — shut out of this bonanza by the Treaty of Tordesillas — watched Spanish ships carrying enough silver to build empires sail through waters they could not legally exploit. The solution was the privateer: a privately funded raider who could attack Spanish shipping without constituting an act of war by the licensing state. Spain was too rich not to rob.",
+    "causeIds": [],
+    "effectIds": [
+      "privateers-as-state-weapon",
+      "buccaneers-of-tortuga"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Spanish_treasure_fleet.jpg",
+    "relatedScenario": {
+      "scenarioId": "age-of-exploration",
+      "nodeId": "silver-discovered-potosi",
+      "label": "Connects to The Voyage That Connected the World"
+    }
+  },
+  {
+    "id": "privateers-as-state-weapon",
+    "title": "The Cheapest Navy Ever Invented",
+    "wiki": "Privateer",
+    "year": 1560,
+    "keyword": "shift",
+    "summary": "By the mid-16th century, England, France, and the Netherlands had all embraced the privateer as a cost-effective instrument of maritime warfare. The logic was elegant: the state paid nothing, risked nothing, and received a share of whatever the privateer captured. The privateer bore all the costs and risks in exchange for the legal protection of the Letter of Marque and the right to keep most of what they seized. Elizabeth I of England was the system's most enthusiastic patron — her privateers, operating from English ports with her blessing and occasional investment, extracted enormous wealth from Spanish shipping while giving her diplomatic deniability. The Spanish complained; Elizabeth expressed polite concern; the privateers sailed again. It was the 16th century's version of plausible deniability.",
+    "causeIds": [
+      "letters-of-marque-invented",
+      "spanish-silver-creates-target"
+    ],
+    "effectIds": [
+      "drake-model",
+      "henry-every-mughal-treasure",
+      "prize-money-and-royal-navy"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Elizabeth_I_Armada_Portrait.jpg"
+  },
+  {
+    "id": "drake-model",
+    "title": "Drake — Pirate, Hero, Knight",
+    "wiki": "Francis_Drake",
+    "year": 1577,
+    "keyword": "catalyst",
+    "summary": "Francis Drake's circumnavigation of the globe (1577-1580) was the most consequential privateer voyage in history. He raided Spanish ports and ships throughout — capturing enough silver and gold to pay off the entire national debt of England and still leave a profit. On his return, Queen Elizabeth I boarded the Golden Hind in Deptford and knighted him on the deck. Spain demanded his extradition as a pirate. Elizabeth responded by displaying the treasure he had brought home. Drake became Sir Francis Drake, Vice Admiral of the English fleet. The episode established the template: the same actions were piracy or heroism depending entirely on who held power. The man Spain called 'El Draque' — with a bounty of 20,000 ducats on his head — was England's greatest naval hero. Both descriptions were accurate.",
+    "causeIds": [
+      "privateers-as-state-weapon"
+    ],
+    "effectIds": [
+      "henry-morgan-paradox"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Sir_Francis_Drake_by_Marcus_Gheeraerts_the_Younger.jpg"
+  },
+  {
+    "id": "henry-morgan-paradox",
+    "title": "Morgan — Arrested, Knighted, Governor",
+    "wiki": "Henry_Morgan",
+    "year": 1671,
+    "keyword": "turning-point",
+    "summary": "Henry Morgan's sack of Panama in January 1671 was the largest and most destructive privateer raid in Caribbean history — and it was also, arguably, illegal. The Treaty of Madrid (1670) had ended hostilities between England and Spain, but Morgan had sailed before news of the treaty reached Jamaica. He destroyed the city of Panama, extracted enormous wealth, and returned to Jamaica a hero. Spain demanded his arrest; England, wanting to maintain the peace treaty, complied. Morgan was sent to London under arrest in 1672. He arrived, was received at court, was consulted on Caribbean affairs — and was knighted in 1674 and appointed Lieutenant Governor of Jamaica in 1675. He returned to the Caribbean to suppress the very pirates he had once been accused of being. The Morgan episode made the essential Cateno argument visible before anyone had articulated it: the privateer system created men whose legal status depended entirely on the current political weather.",
+    "causeIds": [
+      "drake-model",
+      "buccaneers-of-tortuga",
+      "port-royal-wickedest-city"
+    ],
+    "effectIds": [
+      "treaty-of-utrecht-1713",
+      "exquemelin-buccaneers-book"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Henry_Morgan.jpg"
+  },
+  {
+    "id": "treaty-of-utrecht-1713",
+    "title": "The Peace That Created Pirates",
+    "wiki": "Treaty_of_Utrecht",
+    "year": 1713,
+    "keyword": "spark",
+    "summary": "The Treaty of Utrecht, signed in April 1713, ended the War of the Spanish Succession — twelve years of European conflict that had employed tens of thousands of privateers on all sides. With a stroke of diplomatic pens, every Letter of Marque became void. An estimated 30,000 to 50,000 men who had spent years raiding enemy shipping with government sanction were suddenly unemployed — and their skills were peculiarly non-transferable. They knew how to navigate, fight at sea, take prizes, and intimidate enemy crews. The peacetime economy had limited demand for these competencies. They had no savings, no pensions, and no alternative employer. The most entrepreneurial among them identified the obvious solution: continue doing exactly what they had been doing, simply without the paperwork.",
+    "causeIds": [
+      "henry-morgan-paradox"
+    ],
+    "effectIds": [
+      "privateers-become-pirates",
+      "republic-of-pirates"
+    ],
+    "isAnchor": true,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Treaty_of_Utrecht.jpg"
+  },
+  {
+    "id": "privateers-become-pirates",
+    "title": "The Weapon Turns on Its Creators",
+    "wiki": "Golden_Age_of_Piracy",
+    "year": 1716,
+    "keyword": "collapse",
+    "summary": "The transition from privateer to pirate required nothing more than ceasing to restrict one's targets to a specific nation's shipping. Where a privateer attacked only enemy ships, a pirate attacked everyone. The same ship, the same crew, the same captain, the same skills — but now operating against all nations simultaneously. The European states that had created and trained these maritime raiders found themselves under attack by their own weapons. English ships were taken by men who had sailed under English letters; Spanish ships were taken by former Spanish privateers; French merchants were robbed by men who had raided for France. The Golden Age of Piracy was not a rebellion against authority — it was a labour market response to redundancy. The states had eliminated the job but not the workers.",
+    "causeIds": [
+      "treaty-of-utrecht-1713"
+    ],
+    "effectIds": [
+      "golden-age-of-piracy",
+      "republic-of-pirates"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Pirate_flag.jpg"
+  },
+  {
+    "id": "republic-of-pirates",
+    "title": "Nassau — The Pirate Republic",
+    "wiki": "Republic_of_Pirates",
+    "year": 1716,
+    "keyword": "shift",
+    "summary": "Nassau in the Bahamas became, from roughly 1706 onward, the closest thing to a self-governing pirate community that history records. The islands had been largely abandoned by English colonial authority, leaving a natural harbour with no effective government — an ideal base for men who wanted access to Atlantic shipping lanes without interference from any nation's law. Benjamin Hornigold, Charles Vane, and eventually Edward Teach (Blackbeard) all operated from Nassau. At its peak, the Republic of Pirates may have hosted 1,000 to 2,000 pirates. It had no formal government but operated through a rough consensus of the most powerful captains. It was destroyed in 1718 when Woodes Rogers arrived as the first Royal Governor of the Bahamas with a pardon in one hand and a noose in the other.",
+    "causeIds": [
+      "treaty-of-utrecht-1713",
+      "privateers-become-pirates"
+    ],
+    "effectIds": [
+      "pirate-democracy",
+      "golden-age-of-piracy"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Nassau_Bahamas_old.jpg"
+  },
+  {
+    "id": "pirate-democracy",
+    "title": "The Most Democratic Ships Afloat",
+    "wiki": "Piracy#Pirate_codes",
+    "year": 1716,
+    "keyword": "shift",
+    "summary": "Pirate ships of the Golden Age were, in several respects, more democratically organised than almost any institution in the contemporary world. Most operated under written articles — contracts agreed to by the entire crew before sailing — that specified the division of loot (equal shares for ordinary sailors, slightly more for the captain and officers), the rules of conduct, and the procedures for resolving disputes. Captains were elected and could be voted out; major decisions required a majority vote. Crews were racially mixed — escaped slaves and free Black sailors sailed as equal members, a radical departure from the norms of the plantation societies surrounding them. The pirate ship was not a utopia, but it offered to the marginalised men who sailed on it a degree of agency, equality, and fair dealing that the legitimate maritime economy conspicuously did not.",
+    "causeIds": [
+      "republic-of-pirates"
+    ],
+    "effectIds": [
+      "golden-age-of-piracy",
+      "anne-bonny-mary-read",
+      "slave-trade-connection"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Pirate_flag.jpg"
+  },
+  {
+    "id": "golden-age-of-piracy",
+    "title": "Blackbeard, Black Sam, Black Bart",
+    "wiki": "Golden_Age_of_Piracy",
+    "year": 1716,
+    "keyword": "consequence",
+    "summary": "The Golden Age of Piracy (approximately 1716-1726) was brief, violent, and geographically concentrated — primarily the Caribbean and the West African coast — but produced the figures who define the popular mythology of piracy. Edward Teach ('Blackbeard') terrorised the American colonial coast until his death in battle in November 1718. Samuel Bellamy ('Black Sam'), the richest pirate in history, sank with his ship the Whydah Gally in April 1717 — its wreck, found in 1984, is the only authenticated pirate shipwreck ever discovered. Bartholomew Roberts ('Black Bart') captured an estimated 470 ships before his death in battle in 1722, making him the most successful pirate in recorded history. Calico Jack Rackham was hanged in 1720 with two women — Anne Bonny and Mary Read — among his crew. All of them were, in most cases, former or would-be privateers who had been made redundant by peace.",
+    "causeIds": [
+      "privateers-become-pirates",
+      "republic-of-pirates",
+      "pirate-democracy",
+      "slave-trade-connection"
+    ],
+    "effectIds": [
+      "suppression-campaign",
+      "jolly-roger-invented",
+      "anne-bonny-mary-read"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Blackbeard.jpg"
+  },
+  {
+    "id": "suppression-campaign",
+    "title": "Hang First, Try Later",
+    "wiki": "Woodes_Rogers",
+    "year": 1718,
+    "keyword": "collapse",
+    "summary": "The European powers' response to the piracy crisis was systematic and brutal. Woodes Rogers, appointed Royal Governor of the Bahamas in 1718, arrived at Nassau with a fleet, a general pardon for pirates who surrendered, and instructions to hang those who didn't. Eight pirates were hanged within weeks of his arrival. The Royal Navy established anti-piracy patrols across the Caribbean and West African coast. Prize money was offered for pirate captures. The legal framework was reformed to make piracy trials faster and convictions easier. Between 1718 and 1726, hundreds of pirates were hanged, often in mass executions at port cities where their bodies were left displayed in gibbet cages as warnings. The Golden Age was ending not with negotiation but with rope.",
+    "causeIds": [
+      "golden-age-of-piracy",
+      "colonial-governors-complicity",
+      "hostis-humani-generis"
+    ],
+    "effectIds": [
+      "golden-age-ends",
+      "defoe-invents-romance"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Nassau_Bahamas_old.jpg"
+  },
+  {
+    "id": "golden-age-ends",
+    "title": "The Last Pirates",
+    "wiki": "Golden_Age_of_Piracy#End",
+    "year": 1726,
+    "keyword": "collapse",
+    "summary": "The Golden Age of Piracy effectively ended by the mid-1720s. Bartholomew Roberts, the last great pirate of the era, was killed in battle with HMS Swallow off the West African coast in February 1722. His crew of 272 men were taken to Cape Coast Castle, tried, and 54 were hanged. The Caribbean had been largely cleared of pirates by aggressive naval patrolling. The Republic of Nassau was a functioning British colony. The pardons offered by Woodes Rogers had taken many pirates out of the trade. What remained was a diffuse, increasingly desperate scattering of small-scale raiding that bore little resemblance to the organised enterprise of the Golden Age's peak years. The era that Defoe was simultaneously immortalising in print was dying in the water.",
+    "causeIds": [
+      "suppression-campaign"
+    ],
+    "effectIds": [
+      "zheng-yi-sao-red-flag-fleet"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Blackbeard.jpg"
+  },
+  {
+    "id": "defoe-invents-romance",
+    "title": "Defoe Writes the Myth",
+    "wiki": "A_General_History_of_the_Pyrates",
+    "year": 1724,
+    "keyword": "catalyst",
+    "summary": "'A General History of the Robberies and Murders of the most notorious Pyrates,' published in 1724 under the name Captain Charles Johnson — almost certainly a pseudonym — is the source of virtually everything the popular imagination believes about pirates. For much of the 20th century, scholars attributed the book to Daniel Defoe, who had published Robinson Crusoe five years earlier. That attribution is now doubted by most specialists: detailed stylistic and bibliographic work since the 1980s has undermined the case for Defoe, and the publisher Nathaniel Mist — who had his own connections to piracy and print — is now considered a stronger candidate by some scholars, though the true author remains formally unknown. Whoever wrote it took court records, trial transcripts, newspaper accounts, and sailors' tales and transformed them into vivid narrative biography. Blackbeard's habit of weaving lit slow-match fuses into his beard to surround himself with smoke during battle — his most famous characteristic — appears first in this book and may be pure invention. The democratic pirate codes, the colourful personalities, the speeches from the gallows — all filtered through one unidentified writer's creative intelligence. The men who were being hanged as criminals became, through this book, the most romantic outlaws in literary history — and we still do not reliably know who wrote it.",
+    "causeIds": [
+      "suppression-campaign",
+      "exquemelin-buccaneers-book",
+      "jolly-roger-invented",
+      "anne-bonny-mary-read"
+    ],
+    "effectIds": [
+      "treasure-island-peter-pan"
+    ],
+    "isAnchor": false,
+    "isSeed": true,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Daniel_Defoe_Kneller_Style.jpg"
+  },
+  {
+    "id": "treasure-island-peter-pan",
+    "title": "Long John Silver and Captain Hook",
+    "wiki": "Treasure_Island",
+    "year": 1883,
+    "keyword": "consequence",
+    "summary": "Robert Louis Stevenson's Treasure Island (1883) drew directly on Defoe's mythology to create Long John Silver — the most influential fictional pirate in English literature. Stevenson had read Defoe; his pirates speak, behave, and think in patterns Defoe had established. J.M. Barrie's Captain Hook in Peter Pan (1904) drew on the same tradition: the flamboyant, theatrical pirate villain whose menace is inseparable from his charisma. Both characters are recognisably descended from the figures Defoe had constructed from court records. The Jolly Roger, buried treasure, walking the plank, 'X marks the spot' — almost none of these are documented features of actual Golden Age piracy. They are the accumulated mythology that Defoe's book set in motion, amplified and embellished through 150 years of literary tradition.",
+    "causeIds": [
+      "defoe-invents-romance"
+    ],
+    "effectIds": [
+      "piracy-as-cultural-myth"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Treasure_Island_1911.jpg"
+  },
+  {
+    "id": "piracy-as-cultural-myth",
+    "title": "The Most Romanticised Criminals in History",
+    "wiki": "Pirates_in_popular_culture",
+    "year": 2003,
+    "keyword": "consequence",
+    "summary": "Pirates of the Caribbean (2003) grossed over $650 million worldwide and launched one of the most successful film franchises in history. The pirate — the state-created weapon that European governments hanged by the hundreds in the 1720s — had become the defining image of romantic freedom in popular culture. The process that produced this transformation ran from the Treaty of Utrecht through Defoe's journalism through Stevenson and Barrie to theme park rides and Halloween costumes. What was lost in the transformation was what the actual pirates were: former employees of European states, rendered redundant by peace treaties, who continued doing what they had been trained to do until their employers hanged them for it. The mythology replaced the history so completely that 'pirate' now means swashbuckling adventurer. The paperwork that made the difference — the Letter of Marque — has been entirely forgotten.",
+    "causeIds": [
+      "treasure-island-peter-pan",
+      "declaration-of-paris-1856"
+    ],
+    "effectIds": [
+      "somali-piracy-modern"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Pirate_flag.jpg"
+  },
+  {
+    "id": "barbary-corsairs-mirror",
+    "title": "The Pirates Europe Called Someone Else's Problem",
+    "wiki": "Barbary_pirates",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Barbary_pirates.jpg",
+    "year": 1631,
+    "keyword": "pressure",
+    "summary": "While England knighted its privateers, the Ottoman regencies of Algiers, Tunis, and Tripoli — and independent Morocco — ran a structurally identical system that European history remembers only as villainy. Barbary corsairs, operating with state sanction from North African ports, raided Mediterranean and Atlantic shipping and coastal towns for captives to enslave, ransom, or sell. In June 1631, corsairs under the Dutch renegade Murat Reis raided the Irish village of Baltimore and carried off more than a hundred residents into slavery in Algiers; most were never seen again. Historian Robert Davis has estimated that over a million Europeans were enslaved by Barbary corsairs between 1530 and 1780, though the figure is contested and probably too high as a precise count. The moral framing was entirely a matter of perspective: an Ottoman-licensed raider taking European captives was a pirate and a slaver; an English-licensed raider taking Spanish silver was a hero on his way to a knighthood. Both were doing exactly what their sovereign had authorised.",
+    "causeIds": [],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "buccaneers-of-tortuga",
+    "title": "The Meat-Smokers Who Became Raiders",
+    "wiki": "Buccaneer",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Henry_Morgan.jpg",
+    "year": 1630,
+    "keyword": "shift",
+    "summary": "The word 'buccaneer' comes from boucan, the wooden frame that French and English hunters on Hispaniola used to smoke wild cattle and pig meat for sale to passing ships. From the 1620s and 1630s, Spanish authorities — trying to enforce their claimed monopoly over the Caribbean — attacked these informal hunting communities, driving many of them to the nearby island of Tortuga and toward the obvious alternative income: raiding the ships and settlements of the empire that had just tried to exterminate them. The buccaneers organised into a loose confederation known as the Brethren of the Coast, sharing supplies, targets, and a code of conduct that would directly prefigure the pirate articles of the Golden Age half a century later. Spain had created its own raiders by trying to enforce an unenforceable monopoly against men who had nowhere else to go.",
+    "causeIds": [
+      "spanish-silver-creates-target"
+    ],
+    "effectIds": [
+      "port-royal-wickedest-city",
+      "henry-morgan-paradox",
+      "exquemelin-buccaneers-book"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "port-royal-wickedest-city",
+    "title": "The Wickedest City on Earth",
+    "wiki": "Port_Royal",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Henry_Morgan.jpg",
+    "year": 1665,
+    "keyword": "shift",
+    "summary": "Port Royal, Jamaica, became the buccaneers' commercial capital after England seized the island from Spain in 1655. English colonial governors openly licensed and sheltered buccaneers because their plunder — sold cheaply through Port Royal's merchants and taverns — was the fastest way to build a struggling colony's economy. The town earned its reputation as 'the wickedest city on Earth': a dense concentration of taverns, brothels, and warehouses built almost entirely on stolen Spanish wealth. On June 7, 1692, a massive earthquake and tsunami sank roughly two-thirds of the town into Kingston Harbour within minutes, killing an estimated 2,000 people — widely interpreted at the time, by those inclined to moralise, as divine punishment delivered with unusual promptness. The city that legitimate colonial commerce had built on piracy's proceeds was destroyed in the time it took the ground to open.",
+    "causeIds": [
+      "buccaneers-of-tortuga"
+    ],
+    "effectIds": [
+      "henry-morgan-paradox"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "exquemelin-buccaneers-book",
+    "title": "The Book Before Defoe's Book",
+    "wiki": "Alexandre_Exquemelin",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Daniel_Defoe_Kneller_Style.jpg",
+    "year": 1678,
+    "keyword": "catalyst",
+    "summary": "Forty-six years before Defoe's General History, a former buccaneer surgeon named Alexandre Exquemelin — who had sailed with Henry Morgan and witnessed the sack of Panama firsthand — published 'De Americaensche Zee-Roovers' in Amsterdam in 1678. Translated into Spanish, English, and German within a decade, the book was an international sensation and the direct ancestor of everything that followed: it gave Europe its first vivid, book-length account of buccaneer life, complete with graphic descriptions of Morgan's violence that Morgan himself found so damaging to his reputation that he sued the English publisher for libel — and won. The popular pirate mythology did not begin with one journalist inventing it from nothing in 1724; it began with a ship's surgeon who had actually been there, writing an account so successful that it established the market Defoe's book would later dominate.",
+    "causeIds": [
+      "buccaneers-of-tortuga",
+      "henry-morgan-paradox"
+    ],
+    "effectIds": [
+      "defoe-invents-romance"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "henry-every-mughal-treasure",
+    "title": "The Raid That Nearly Ended the East India Company",
+    "wiki": "Henry_Every",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Pirate_flag.jpg",
+    "year": 1695,
+    "keyword": "spark",
+    "summary": "In September 1695, the English pirate Henry Every captured the Ganj-i-Sawai, a Grand Mughal treasure ship returning from Mecca, in what became probably the most lucrative single pirate raid in history — the haul is estimated at several hundred thousand pounds in gold, silver, and jewels, an almost incomprehensible sum for the period. The diplomatic consequences were severe: Emperor Aurangzeb, outraged at the attack on a pilgrim ship, threatened to expel the East India Company from India entirely and briefly imprisoned its officials at Bombay and Surat. The English government, desperate to protect its most valuable trading relationship, launched one of history's first large-scale international manhunts, placing an enormous bounty on Every's head. He was never caught. He simply vanished from the historical record — the most successful pirate in history got away with it completely, which is part of why his name is less famous than men who were caught and hanged.",
+    "causeIds": [
+      "privateers-as-state-weapon"
+    ],
+    "effectIds": [
+      "colonial-governors-complicity",
+      "captain-kidd-trial",
+      "colonial-governors-complicity",
+      "captain-kidd-trial"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "opium-empire",
+      "nodeId": "east-india-company-bengal",
+      "label": "Connects to The Drug That Built an Empire and Destroyed Another"
+    }
+  },
+  {
+    "id": "colonial-governors-complicity",
+    "title": "The Governors Who Took the Bribes",
+    "wiki": "Piracy#Colonial_complicity",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Nassau_Bahamas_old.jpg",
+    "year": 1696,
+    "keyword": "pressure",
+    "summary": "Several of Every's crew, scattering after the Ganj-i-Sawai raid, found willing hosts in North American colonial ports — most notoriously New York under Governor Benjamin Fletcher, who accepted bribes to allow pirates to land, spend their gold in the local economy, and go unmolested. The pattern was widespread rather than exceptional: colonial governors across the Americas depended on pirate spending to fund cash-starved local economies and routinely looked the other way, or actively profited, in exchange for a cut. The suppression of piracy was never simply a matter of law enforcement meeting criminality — it required first suppressing the colonial officials who found piracy more profitable to tolerate than to prosecute. The London government's eventual crackdown targeted corrupt governors nearly as hard as it targeted pirates themselves.",
+    "causeIds": [
+      "henry-every-mughal-treasure"
+    ],
+    "effectIds": [
+      "suppression-campaign"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "captain-kidd-trial",
+    "title": "Hired to Hunt Pirates, Hanged as One",
+    "wiki": "William_Kidd",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Pirate_flag.jpg",
+    "year": 1701,
+    "keyword": "turning-point",
+    "summary": "William Kidd was commissioned in 1696 by a syndicate of powerful English lords specifically to hunt pirates in the Indian Ocean — the anti-piracy mission itself licensed by exactly the same legal instrument, the Letter of Marque, that had authorised generations of privateers. The voyage went badly; short of prizes, Kidd eventually captured the Quedagh Merchant in 1698, a ship flying a French pass that made the seizure arguably legal — but by then his patrons had become a political liability amid a change of government in London, and Kidd was sacrificed to the shifting politics that had created him. Arrested in Boston in 1699, tried in London in 1701, and convicted of piracy and the murder of his own gunner, Kidd was hanged at Execution Dock — the rope broke on the first attempt, and he was hanged again. His body was left in a gibbet cage over the Thames for years, a warning that applied with equal force to the men who had commissioned him.",
+    "causeIds": [
+      "henry-every-mughal-treasure"
+    ],
+    "effectIds": [
+      "hostis-humani-generis",
+      "hostis-humani-generis"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "hostis-humani-generis",
+    "title": "The Enemy of All Mankind",
+    "wiki": "Hostis_humani_generis",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Treaty_of_Utrecht.jpg",
+    "year": 1701,
+    "keyword": "consequence",
+    "summary": "Pirate trials like Kidd's reinforced a legal doctrine with roots stretching back to Roman law: hostis humani generis, 'the enemy of all mankind.' The concept held that piracy was uniquely a crime against every nation simultaneously, not merely against whichever ship or flag was attacked — which meant any state, not only the pirate's own sovereign or victim's sovereign, had the legal authority to capture, try, and execute a pirate. This was a genuinely unusual feature of international law: almost no other crime carried universal jurisdiction. The doctrine gave European navies the legal cover to hunt pirates anywhere, regardless of whose ships they had actually attacked, and it has survived into the 21st century as the direct legal ancestor of the jurisdiction international courts now claim over war crimes and crimes against humanity. The concept that made it possible to hang a pirate for robbing a ship of any nationality is the same concept now invoked to try war criminals for crimes against victims of any nationality.",
+    "causeIds": [
+      "captain-kidd-trial"
+    ],
+    "effectIds": [
+      "suppression-campaign"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "jolly-roger-invented",
+    "title": "The Flag That Was Marketing",
+    "wiki": "Jolly_Roger",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Pirate_flag.jpg",
+    "year": 1717,
+    "keyword": "catalyst",
+    "summary": "The black flag with a skull, crossed bones, or skeletal imagery — first documented in use by the French pirate Emanuel Wynn around 1700 and widely adopted by Golden Age captains from 1716 onward — functioned as psychological warfare and as branding simultaneously. A ship that struck its colours and surrendered immediately when a pirate flag was raised usually avoided violence; a ship that resisted often faced a red flag signalling no quarter would be given. Blackbeard's specific flag design — a horned skeleton spearing a bleeding heart while toasting the devil — is widely reproduced today, though the historical evidence for exactly what his flag looked like is thinner than the popular image suggests. The flag was, in effect, an early and highly effective terror brand: a visual identity so frightening that many crews surrendered without a fight, saving pirates the cost and risk of actually having to win the battles their reputation was doing the work of.",
+    "causeIds": [
+      "golden-age-of-piracy"
+    ],
+    "effectIds": [
+      "defoe-invents-romance"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "anne-bonny-mary-read",
+    "title": "The Women in Rackham's Crew",
+    "wiki": "Anne_Bonny",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Blackbeard.jpg",
+    "year": 1720,
+    "keyword": "shift",
+    "summary": "Anne Bonny and Mary Read both dressed as men and served as full fighting members of Calico Jack Rackham's crew, and by contemporary accounts fought more fiercely than the male crew members when their ship was finally taken in October 1720. At their trial in Jamaica, both were convicted alongside Rackham and sentenced to hang — and both 'pleaded their bellies,' successfully claiming pregnancy to win a stay of execution. Read reportedly died in prison of a fever before or shortly after giving birth. What happened to Bonny afterward is genuinely unknown: no confirmed historical record survives past her trial, and the popular story that her wealthy father ransomed her to live out a long life under a new identity is unverified legend, not documented fact. Their presence in the historical record at all — women fighting as equals on a pirate deck in an era when women had almost no legal standing anywhere else — became one of the most seized-upon details in everything written about the Golden Age ever since.",
+    "causeIds": [
+      "pirate-democracy",
+      "golden-age-of-piracy"
+    ],
+    "effectIds": [
+      "defoe-invents-romance"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "slave-trade-connection",
+    "title": "The Ships They Took Apart",
+    "wiki": "Piracy_and_the_Atlantic_slave_trade",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Blackbeard.jpg",
+    "year": 1716,
+    "keyword": "pressure",
+    "summary": "Golden Age pirate crews had a genuinely mixed relationship with the Atlantic slave trade, and the record resists a simple moral verdict. Some crews captured slave ships and freed the enslaved people aboard, incorporating them into the crew as full members entitled to equal shares under the same articles that governed everyone else — Black sailors, including formerly enslaved men, served as pirates, gunners, and occasionally as officers, a level of practical equality almost nowhere else available to them in the Atlantic world. Other pirate crews, including some of the most famous, continued to sell captured enslaved people as cargo when it was profitable to do so. Blackbeard's own flagship, Queen Anne's Revenge, had originally been a French slave ship that he captured and repurposed. The pirate ship's egalitarianism, real as it was for the men who sailed on it, did not extend into a coherent politics about the trade that many of the pirates' own vessels had originally been built to serve.",
+    "causeIds": [
+      "pirate-democracy"
+    ],
+    "effectIds": [
+      "golden-age-of-piracy"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "prize-money-and-royal-navy",
+    "title": "The State Keeps the Incentive, Loses the Middleman",
+    "wiki": "Prize_money",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Elizabeth_I_Armada_Portrait.jpg",
+    "year": 1708,
+    "keyword": "turning-point",
+    "summary": "Even as private licensing of raiders was being wound down, the profit motive that had made privateering attractive never disappeared from naval warfare — it was absorbed directly into state navies. The Prize Act of 1708, passed during the same war that would end at Utrecht, formalised the Royal Navy's own system of prize money: captured enemy ships and cargo were sold, and the proceeds distributed among the capturing crew by rank, from a substantial cut for the captain down to a smaller but still meaningful share for ordinary sailors. This was, in essence, a domesticated version of the privateer's incentive structure — now salaried, uniformed, and answerable to the Admiralty rather than operating independently under a licence. The system proved remarkably durable: Royal Navy prize money was not formally abolished until 1948. The state had solved its privateer problem not by eliminating the incentive to plunder but by nationalising it.",
+    "causeIds": [
+      "privateers-as-state-weapon"
+    ],
+    "effectIds": [
+      "declaration-of-paris-1856"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "declaration-of-paris-1856",
+    "title": "The Letter of Marque Is Finally Abolished",
+    "wiki": "Declaration_of_Paris_1856",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Treaty_of_Utrecht.jpg",
+    "year": 1856,
+    "keyword": "turning-point",
+    "summary": "The Declaration of Paris, signed after the Crimean War in 1856 by Britain, France, Russia, Austria, Prussia, Sardinia, and the Ottoman Empire, formally abolished privateering among the signatory powers — 613 years after English letters of marque were first formalised in 1243. The instrument that had built the Elizabethan navy, made Drake a knight, made Morgan a governor, and then made tens of thousands of men unemployed in 1713 was, at last, simply outlawed. The United States conspicuously declined to sign, wanting to preserve the option of privateering as a cheap naval force for a country without a large standing navy, though in practice it never again relied on the tool at scale. The declaration became close to universal customary international law over the following decades. The paperwork that had decided, for six centuries, whether a man with a ship and a gun was a hero or a criminal was finally taken off the table entirely — a state could no longer create the distinction, because the licence itself no longer existed.",
+    "causeIds": [
+      "prize-money-and-royal-navy"
+    ],
+    "effectIds": [
+      "piracy-as-cultural-myth"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "zheng-yi-sao-red-flag-fleet",
+    "title": "The Most Successful Pirate in History Retired Rich",
+    "wiki": "Zheng_Yi_Sao",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Pirate_flag.jpg",
+    "year": 1807,
+    "keyword": "catalyst",
+    "summary": "While Europe was busy mythologising a piracy it had crushed eighty years earlier, the largest pirate confederation in recorded history was operating off the coast of China. Zheng Yi Sao — a former sex worker who married the pirate commander Zheng Yi and took control of his Red Flag Fleet after his death in 1807 — commanded a confederation that some estimates put as high as 1,800 ships and 70,000–80,000 pirates, though the true figures are debated. She imposed a strict legal code on her fleet, effectively outnegotiated the Qing imperial navy for years, and in 1810 achieved what almost no pirate leader in history managed: she negotiated a mass amnesty for her entire fleet, retired with her wealth intact, and lived until 1844, running a gambling house in Canton and dying peacefully in her sixties. Every famous Atlantic pirate of the Golden Age died in battle, was hanged, or vanished. The single most successful pirate commander in recorded history negotiated her own retirement and died in bed.",
+    "causeIds": [
+      "golden-age-ends"
+    ],
+    "effectIds": [
+      "somali-piracy-modern"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "somali-piracy-modern",
+    "title": "The Story Repeats Itself, Uncostumed",
+    "wiki": "Piracy_off_the_coast_of_Somalia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Pirate_flag.jpg",
+    "year": 2008,
+    "keyword": "consequence",
+    "summary": "In the same decade that Pirates of the Caribbean turned piracy into a billion-dollar franchise, piracy became a live global security crisis off the coast of Somalia. The mechanism was almost exactly the one that started this entire scenario: economic collapse creating trained, armed, unemployed men with maritime skills and no legitimate alternative. When Somalia's central government collapsed in 1991, foreign trawlers began illegally stripping Somali fishing waters and dumping toxic waste along its unpatrolled coast; Somali fishermen, watching their livelihood destroyed by vessels no state would stop, began seizing ships and demanding ransom. Attacks peaked around 2011, with hundreds of millions of dollars paid in ransoms before international naval patrols and armed private security brought the numbers down. Nobody wrote articles for these pirates to sign; nobody knighted them; no journalist romanticised them into folk heroes. They were simply what happens, reliably and repeatedly across seven centuries, when a state fails to employ men who know how to take a ship by force. The letters of marque are gone. The underlying arithmetic never left.",
+    "causeIds": [
+      "piracy-as-cultural-myth",
+      "zheng-yi-sao-red-flag-fleet"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  }
+]

@@ -1385,6 +1385,68 @@ function BedlamPattern({ opacity }: { opacity: number }) {
   );
 }
 
+// Golden Age of Piracy — maritime signal flag chart
+function GoldenAgePiracyPattern({ opacity }: { opacity: number }) {
+  return (
+    <svg
+      aria-hidden
+      style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none", opacity }}
+    >
+      <defs>
+        <pattern id="bg-golden-age-piracy" x="0" y="0" width="160" height="120" patternUnits="userSpaceOnUse">
+          {/* Row 1 */}
+          <rect x="10" y="18" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <line x1="10" y1="18" x2="38" y2="38" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="38" y1="18" x2="10" y2="38" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="24" y1="10" x2="24" y2="18" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <rect x="50" y="18" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <line x1="50" y1="28" x2="78" y2="28" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="64" y1="10" x2="64" y2="18" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <rect x="90" y="18" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <line x1="104" y1="18" x2="104" y2="38" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="104" y1="10" x2="104" y2="18" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <rect x="130" y="18" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <line x1="144" y1="18" x2="144" y2="38" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="130" y1="28" x2="158" y2="28" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="144" y1="10" x2="144" y2="18" stroke="#E8E3D5" strokeWidth="0.4"/>
+          {/* Row 2 */}
+          <rect x="10" y="52" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <path d="M10,52 L24,62 L10,72" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="24" y1="44" x2="24" y2="52" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <rect x="50" y="52" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <line x1="50" y1="52" x2="78" y2="72" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="64" y1="44" x2="64" y2="52" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <rect x="90" y="52" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="104" cy="62" r="6" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="104" y1="44" x2="104" y2="52" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <rect x="130" y="52" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <line x1="130" y1="52" x2="158" y2="62" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="130" y1="72" x2="158" y2="62" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="144" y1="44" x2="144" y2="52" stroke="#E8E3D5" strokeWidth="0.4"/>
+          {/* Row 3 */}
+          <rect x="10" y="86" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <line x1="10" y1="93" x2="38" y2="93" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="10" y1="99" x2="38" y2="99" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="24" y1="78" x2="24" y2="86" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <rect x="50" y="86" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <rect x="53" y="89" width="22" height="14" fill="none" stroke="#E8E3D5" strokeWidth="0.3"/>
+          <line x1="64" y1="78" x2="64" y2="86" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <rect x="90" y="86" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <line x1="90" y1="86" x2="118" y2="106" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <line x1="118" y1="86" x2="90" y2="106" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <line x1="104" y1="86" x2="104" y2="106" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="90" y1="96" x2="118" y2="96" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="104" y1="78" x2="104" y2="86" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <rect x="130" y="86" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <path d="M144,88 L155,96 L144,104 L133,96 Z" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+          <line x1="144" y1="78" x2="144" y2="86" stroke="#E8E3D5" strokeWidth="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-golden-age-piracy)" />
+    </svg>
+  );
+}
+
 // Trial of Socrates — hemlock kylix (Greek drinking cup)
 function TrialOfSocratesPattern({ opacity }: { opacity: number }) {
   return (
@@ -1934,6 +1996,8 @@ export function ScenarioPatternSvg({ scenarioId, opacity }: ScenarioPatternSvgPr
       return <KanyeWestPattern opacity={opacity} />;
     case "kyiv":
       return <KyivPattern opacity={opacity} />;
+    case "golden-age-piracy":
+      return <GoldenAgePiracyPattern opacity={opacity} />;
     case "trial-of-socrates":
       return <TrialOfSocratesPattern opacity={opacity} />;
     case "homer":

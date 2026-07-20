@@ -505,7 +505,7 @@ export const SCENARIO_META: ScenarioMeta[] = [
     title: "The Death That Produced More Philosophy Than Any Life",
     period: "450 BC–1872",
     description:
-      "Athens executed its most famous philosopher in 399 BC by a vote of 280 to 220. He could have escaped — his friends bribed the guards — but chose death to prove a point. His student Plato spent the rest of his life writing dialogues to preserve his voice — dialogues that then nearly vanished for eight centuries until a Medici banker paid to have them translated back into Latin. Plato's student Aristotle tutored Alexander the Great. Two thousand years later, Nietzsche decided Socrates had been a catastrophe. The entire intellectual tradition of Western civilisation turns on that vote — and the argument about whether it was worth it has never actually ended.",
+      "Athens executed its most famous philosopher in 399 BC by a vote of 280 to 220. He could have escaped — his friends bribed the guards — but chose death to prove a point. His student Plato spent the rest of his life writing dialogues to preserve his voice. Plato's student Aristotle tutored Alexander the Great. Two thousand years later, Nietzsche decided the whole thing had been a catastrophe. The entire intellectual tradition of Western civilisation turns on that one vote.",
     anchorId: "trial-of-socrates",
     anchorTitle: "The Trial",
     nodeCount: 19,
@@ -517,12 +517,24 @@ export const SCENARIO_META: ScenarioMeta[] = [
     title: "The Blind Poet Who Never Existed",
     period: "1200 BC–1960",
     description:
-      "The Iliad and Odyssey are the oldest and most influential poems in Western literature. They were not written — they were composed orally, over centuries, by generations of travelling bards. Homer may never have existed. For eight hundred years, medieval Europe couldn't even read him — they told the story of Troy using Latin forgeries written by men who claimed, falsely, to have fought there. In 1871, an obsessive German businessman found the real Troy and destroyed half of it doing so. In 1930, a Harvard scholar went to Yugoslavia and found living bards still composing in exactly the same way. The poems are more extraordinary for it.",
+      "The Iliad and Odyssey are the oldest and most influential poems in Western literature. They were not written — they were composed orally, over centuries, by generations of travelling bards. Homer may never have existed. In 1871, an obsessive German businessman found the real Troy and destroyed half of it doing so. In 1930, a Harvard scholar went to Yugoslavia and found living bards still composing in exactly the same way. The poems are more extraordinary for it.",
     anchorId: "iliad-odyssey-written-down",
     anchorTitle: "Homer Puts Down the Lyre",
     nodeCount: 19,
     anchorYear: -750,
     theme: "culture",
+  },
+  {
+    id: "golden-age-piracy",
+    title: "The Criminals Europe Created",
+    period: "1243–2008",
+    description:
+      "For 200 years, European states licensed private raiders to attack their enemies' ships. Then they signed peace treaties. Tens of thousands of trained maritime raiders were suddenly unemployed, with no pension and one marketable skill. They went freelance. When the states hanged them for it, a writer long credited to Daniel Defoe — though scholars now doubt it — turned the court records into adventure stories. Nearly every pirate story since is that book's invention.",
+    anchorId: "treaty-of-utrecht-1713",
+    anchorTitle: "The Peace That Created Pirates",
+    nodeCount: 30,
+    anchorYear: 1713,
+    theme: "war",
   },
 ];
 
@@ -566,6 +578,7 @@ const NODE_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
   "window-tax": () => import("./window-tax.json"),
   "daylight-saving-time": () => import("./daylight-saving-time.json"),
   "safety-pin": () => import("./safety-pin.json"),
+  "golden-age-piracy": () => import("./golden-age-piracy.json"),
   "trial-of-socrates": () => import("./trial-of-socrates.json"),
   homer: () => import("./homer.json"),
   "mediterranean-summer": () => import("./mediterranean-summer.json"),
