@@ -1228,43 +1228,54 @@ function KanyeWestPattern({ opacity }: { opacity: number }) {
         <pattern id="bg-kanye-west" x="0" y="0" width="120" height="160" patternUnits="userSpaceOnUse">
           <g transform="translate(60, 80)">
             {/* Mortarboard */}
-            <rect x="-18" y="-62" width="36" height="6" rx="1"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
-            <line x1="0" y1="-56" x2="0" y2="-50" stroke="#E8E3D5" strokeWidth="0.85"/>
-            <line x1="18" y1="-59" x2="24" y2="-50" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="24" y1="-50" x2="24" y2="-40" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="21" y1="-40" x2="24" y2="-35" stroke="#E8E3D5" strokeWidth="0.5"/>
-            <line x1="24" y1="-40" x2="24" y2="-35" stroke="#E8E3D5" strokeWidth="0.5"/>
-            <line x1="27" y1="-40" x2="24" y2="-35" stroke="#E8E3D5" strokeWidth="0.5"/>
+            <rect x="-18" y="-62" width="36" height="6" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.85" />
+            <line x1="0" y1="-56" x2="0" y2="-50" stroke="#E8E3D5" strokeWidth="0.85" />
+            <line x1="18" y1="-59" x2="24" y2="-50" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="24" y1="-50" x2="24" y2="-40" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="21" y1="-40" x2="24" y2="-35" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="24" y1="-40" x2="24" y2="-35" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="27" y1="-40" x2="24" y2="-35" stroke="#E8E3D5" strokeWidth="0.5" />
             {/* Head */}
-            <circle cx="0" cy="-36" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
-            <circle cx="-13" cy="-50" r="5" fill="none" stroke="#E8E3D5" strokeWidth="0.8"/>
-            <circle cx="13" cy="-50" r="5" fill="none" stroke="#E8E3D5" strokeWidth="0.8"/>
+            <circle cx="0" cy="-36" r="16" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+            <circle cx="-13" cy="-50" r="5" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+            <circle cx="13" cy="-50" r="5" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
             {/* Face */}
-            <ellipse cx="0" cy="-31" rx="7" ry="5" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-            <ellipse cx="0" cy="-33" rx="2.5" ry="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
-            <circle cx="-6" cy="-40" r="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <circle cx="6" cy="-40" r="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <ellipse cx="0" cy="-31" rx="7" ry="5" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+            <ellipse cx="0" cy="-33" rx="2.5" ry="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+            <circle cx="-6" cy="-40" r="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+            <circle cx="6" cy="-40" r="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
             {/* Gown */}
-            <path d="M-6,-20 L-8,-14 L8,-14 L6,-20"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
-            <path d="M-14,-14 C-16,-8 -20,10 -22,32 L22,32 C20,10 16,-8 14,-14 Z"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinejoin="round"/>
-            <line x1="0" y1="-14" x2="0" y2="32" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <path d="M-6,-20 L-8,-14 L8,-14 L6,-20" fill="none" stroke="#E8E3D5" strokeWidth="0.75" />
+            <path
+              d="M-14,-14 C-16,-8 -20,10 -22,32 L22,32 C20,10 16,-8 14,-14 Z"
+              fill="none"
+              stroke="#E8E3D5"
+              strokeWidth="0.85"
+              strokeLinejoin="round"
+            />
+            <line x1="0" y1="-14" x2="0" y2="32" stroke="#E8E3D5" strokeWidth="0.4" />
             {/* Arms */}
-            <path d="M-14,0 C-22,-2 -28,4 -26,12"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round"/>
-            <circle cx="-26" cy="14" r="4" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <path d="M14,0 C22,-2 28,4 26,12"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round"/>
-            <circle cx="26" cy="14" r="4" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <path
+              d="M-14,0 C-22,-2 -28,4 -26,12"
+              fill="none"
+              stroke="#E8E3D5"
+              strokeWidth="0.85"
+              strokeLinecap="round"
+            />
+            <circle cx="-26" cy="14" r="4" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+            <path d="M14,0 C22,-2 28,4 26,12" fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round" />
+            <circle cx="26" cy="14" r="4" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
             {/* Legs */}
-            <path d="M-10,32 C-12,38 -14,44 -12,50"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round"/>
-            <ellipse cx="-11" cy="53" rx="6" ry="3.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <path d="M10,32 C12,38 14,44 12,50"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round"/>
-            <ellipse cx="11" cy="53" rx="6" ry="3.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+            <path
+              d="M-10,32 C-12,38 -14,44 -12,50"
+              fill="none"
+              stroke="#E8E3D5"
+              strokeWidth="0.85"
+              strokeLinecap="round"
+            />
+            <ellipse cx="-11" cy="53" rx="6" ry="3.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+            <path d="M10,32 C12,38 14,44 12,50" fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round" />
+            <ellipse cx="11" cy="53" rx="6" ry="3.5" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
           </g>
         </pattern>
       </defs>
@@ -1291,24 +1302,39 @@ function KyivPattern({ opacity }: { opacity: number }) {
         <pattern id="bg-kyiv" x="0" y="0" width="100" height="130" patternUnits="userSpaceOnUse">
           <g transform="translate(50, 65)">
             {/* Centre prong */}
-            <path d="M-4,18 L-4,-8 L0,-26 L4,-8 L4,18 Z"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinejoin="round"/>
+            <path
+              d="M-4,18 L-4,-8 L0,-26 L4,-8 L4,18 Z"
+              fill="none"
+              stroke="#E8E3D5"
+              strokeWidth="0.85"
+              strokeLinejoin="round"
+            />
             {/* Left prong */}
-            <path d="M-4,10 C-12,8 -22,4 -26,-4 C-29,-12 -26,-22 -20,-24
+            <path
+              d="M-4,10 C-12,8 -22,4 -26,-4 C-29,-12 -26,-22 -20,-24
                      C-15,-26 -12,-20 -14,-14 C-15,-10 -18,-8 -16,-4
                      C-14,0 -8,4 -4,6"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round"/>
+              fill="none"
+              stroke="#E8E3D5"
+              strokeWidth="0.85"
+              strokeLinecap="round"
+            />
             {/* Right prong */}
-            <path d="M4,10 C12,8 22,4 26,-4 C29,-12 26,-22 20,-24
+            <path
+              d="M4,10 C12,8 22,4 26,-4 C29,-12 26,-22 20,-24
                      C15,-26 12,-20 14,-14 C15,-10 18,-8 16,-4
                      C14,0 8,4 4,6"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round"/>
+              fill="none"
+              stroke="#E8E3D5"
+              strokeWidth="0.85"
+              strokeLinecap="round"
+            />
             {/* Crossbar */}
-            <line x1="-28" y1="18" x2="28" y2="18" stroke="#E8E3D5" strokeWidth="0.85"/>
+            <line x1="-28" y1="18" x2="28" y2="18" stroke="#E8E3D5" strokeWidth="0.85" />
             {/* Foot */}
-            <line x1="0" y1="18" x2="0" y2="28" stroke="#E8E3D5" strokeWidth="0.85"/>
+            <line x1="0" y1="18" x2="0" y2="28" stroke="#E8E3D5" strokeWidth="0.85" />
             {/* Foot serif */}
-            <line x1="-8" y1="28" x2="8" y2="28" stroke="#E8E3D5" strokeWidth="0.85"/>
+            <line x1="-8" y1="28" x2="8" y2="28" stroke="#E8E3D5" strokeWidth="0.85" />
           </g>
         </pattern>
       </defs>
@@ -1337,15 +1363,15 @@ function BedlamPattern({ opacity }: { opacity: number }) {
             {/* Dome */}
             <path d="M-32,6 A32,38 0 0,1 32,6" fill="none" stroke="#E8E3D5" strokeWidth="1" />
             {/* Drum */}
-            <line x1="-32" y1="6"  x2="-32" y2="20" stroke="#E8E3D5" strokeWidth="0.8" />
-            <line x1="32"  y1="6"  x2="32"  y2="20" stroke="#E8E3D5" strokeWidth="0.8" />
-            <line x1="-36" y1="20" x2="36"  y2="20" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="-32" y1="6" x2="-32" y2="20" stroke="#E8E3D5" strokeWidth="0.8" />
+            <line x1="32" y1="6" x2="32" y2="20" stroke="#E8E3D5" strokeWidth="0.8" />
+            <line x1="-36" y1="20" x2="36" y2="20" stroke="#E8E3D5" strokeWidth="0.7" />
             {/* Lantern */}
-            <line x1="0"  y1="-38" x2="0"  y2="-46" stroke="#E8E3D5" strokeWidth="0.7" />
-            <line x1="-5" y1="-38" x2="5"  y2="-38" stroke="#E8E3D5" strokeWidth="0.6" />
-            <line x1="-4" y1="-46" x2="4"  y2="-46" stroke="#E8E3D5" strokeWidth="0.6" />
+            <line x1="0" y1="-38" x2="0" y2="-46" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="-5" y1="-38" x2="5" y2="-38" stroke="#E8E3D5" strokeWidth="0.6" />
+            <line x1="-4" y1="-46" x2="4" y2="-46" stroke="#E8E3D5" strokeWidth="0.6" />
             <line x1="-4" y1="-38" x2="-4" y2="-46" stroke="#E8E3D5" strokeWidth="0.5" />
-            <line x1="4"  y1="-38" x2="4"  y2="-46" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="4" y1="-38" x2="4" y2="-46" stroke="#E8E3D5" strokeWidth="0.5" />
             {/* Pediment */}
             <path d="M-52,20 L0,6 L52,20" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
             {/* Entablature */}
@@ -1355,28 +1381,28 @@ function BedlamPattern({ opacity }: { opacity: number }) {
             <line x1="-48" y1="26" x2="-48" y2="76" stroke="#E8E3D5" strokeWidth="1" />
             <line x1="-34" y1="26" x2="-34" y2="76" stroke="#E8E3D5" strokeWidth="1" />
             <line x1="-21" y1="26" x2="-21" y2="76" stroke="#E8E3D5" strokeWidth="1" />
-            <line x1="-7"  y1="26" x2="-7"  y2="76" stroke="#E8E3D5" strokeWidth="1" />
-            <line x1="7"   y1="26" x2="7"   y2="76" stroke="#E8E3D5" strokeWidth="1" />
-            <line x1="21"  y1="26" x2="21"  y2="76" stroke="#E8E3D5" strokeWidth="1" />
-            <line x1="34"  y1="26" x2="34"  y2="76" stroke="#E8E3D5" strokeWidth="1" />
-            <line x1="48"  y1="26" x2="48"  y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            <line x1="-7" y1="26" x2="-7" y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            <line x1="7" y1="26" x2="7" y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            <line x1="21" y1="26" x2="21" y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            <line x1="34" y1="26" x2="34" y2="76" stroke="#E8E3D5" strokeWidth="1" />
+            <line x1="48" y1="26" x2="48" y2="76" stroke="#E8E3D5" strokeWidth="1" />
             {/* Stylobate */}
-            <line x1="-52" y1="76" x2="52"  y2="76" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="-52" y1="76" x2="52" y2="76" stroke="#E8E3D5" strokeWidth="0.7" />
             {/* Steps */}
-            <line x1="-56" y1="80" x2="56"  y2="80" stroke="#E8E3D5" strokeWidth="0.5" />
-            <line x1="-60" y1="84" x2="60"  y2="84" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="-56" y1="80" x2="56" y2="80" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="-60" y1="84" x2="60" y2="84" stroke="#E8E3D5" strokeWidth="0.5" />
             {/* Ground line */}
             <line x1="-110" y1="88" x2="110" y2="88" stroke="#E8E3D5" strokeWidth="0.6" />
             {/* Left wing */}
             <rect x="-110" y="60" width="52" height="28" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
             <rect x="-104" y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
-            <rect x="-92"  y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
-            <rect x="-80"  y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+            <rect x="-92" y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+            <rect x="-80" y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
             {/* Right wing */}
-            <rect x="58"  y="60" width="52" height="28" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
-            <rect x="64"  y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
-            <rect x="78"  y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
-            <rect x="92"  y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+            <rect x="58" y="60" width="52" height="28" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+            <rect x="64" y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+            <rect x="78" y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+            <rect x="92" y="65" width="9" height="14" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
           </g>
         </pattern>
       </defs>
@@ -1393,53 +1419,245 @@ function GoldenAgePiracyPattern({ opacity }: { opacity: number }) {
       style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none", opacity }}
     >
       <defs>
-        <pattern id="bg-golden-age-piracy" x="0" y="0" width="160" height="120" patternUnits="userSpaceOnUse">
-          {/* Row 1 */}
-          <rect x="10" y="18" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <line x1="10" y1="18" x2="38" y2="38" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="38" y1="18" x2="10" y2="38" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="24" y1="10" x2="24" y2="18" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <rect x="50" y="18" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <line x1="50" y1="28" x2="78" y2="28" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="64" y1="10" x2="64" y2="18" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <rect x="90" y="18" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <line x1="104" y1="18" x2="104" y2="38" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="104" y1="10" x2="104" y2="18" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <rect x="130" y="18" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <line x1="144" y1="18" x2="144" y2="38" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="130" y1="28" x2="158" y2="28" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="144" y1="10" x2="144" y2="18" stroke="#E8E3D5" strokeWidth="0.4"/>
-          {/* Row 2 */}
-          <rect x="10" y="52" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <path d="M10,52 L24,62 L10,72" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="24" y1="44" x2="24" y2="52" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <rect x="50" y="52" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <line x1="50" y1="52" x2="78" y2="72" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="64" y1="44" x2="64" y2="52" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <rect x="90" y="52" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="104" cy="62" r="6" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="104" y1="44" x2="104" y2="52" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <rect x="130" y="52" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <line x1="130" y1="52" x2="158" y2="62" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="130" y1="72" x2="158" y2="62" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="144" y1="44" x2="144" y2="52" stroke="#E8E3D5" strokeWidth="0.4"/>
-          {/* Row 3 */}
-          <rect x="10" y="86" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <line x1="10" y1="93" x2="38" y2="93" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="10" y1="99" x2="38" y2="99" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="24" y1="78" x2="24" y2="86" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <rect x="50" y="86" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <rect x="53" y="89" width="22" height="14" fill="none" stroke="#E8E3D5" strokeWidth="0.3"/>
-          <line x1="64" y1="78" x2="64" y2="86" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <rect x="90" y="86" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <line x1="90" y1="86" x2="118" y2="106" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <line x1="118" y1="86" x2="90" y2="106" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <line x1="104" y1="86" x2="104" y2="106" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="90" y1="96" x2="118" y2="96" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="104" y1="78" x2="104" y2="86" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <rect x="130" y="86" width="28" height="20" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <path d="M144,88 L155,96 L144,104 L133,96 Z" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="144" y1="78" x2="144" y2="86" stroke="#E8E3D5" strokeWidth="0.4"/>
+        <pattern id="bg-golden-age-piracy" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+          {/* ══ CUTLASS (50,50) ══ */}
+          <g transform="translate(50,50)">
+            {/* Blade — long curved sweep, tip points lower-right */}
+            <path
+              d="M-26,-18 C-18,-22 0,-18 14,-8 C24,0 30,10 28,18"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="1.1"
+              stroke-linecap="round"
+            />
+            {/* Blade back edge (slightly curved, thicker near guard) */}
+            <path
+              d="M-24,-14 C-14,-10 8,-4 20,8 C24,12 26,16 28,18"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.5"
+              stroke-linecap="round"
+            />
+            {/* Guard / crossguard */}
+            <path
+              d="M-24,-14 C-28,-10 -28,-6 -24,-2"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="1.1"
+              stroke-linecap="round"
+            />
+            {/* Handle / grip — curved, wraps upward */}
+            <path
+              d="M-26,-18 C-30,-22 -28,-30 -22,-32 C-16,-34 -12,-28 -16,-24 C-20,-20 -26,-18 -24,-14"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="1"
+            />
+            {/* Grip wrapping lines */}
+            <path d="M-26,-26 C-24,-26 -20,-24 -20,-22" stroke="#E8E3D5" stroke-width="0.4" fill="none" />
+            <path d="M-25,-22 C-23,-22 -20,-21 -20,-19" stroke="#E8E3D5" stroke-width="0.4" fill="none" />
+            {/* Sparkle / glint near tip */}
+            <line x1="18" y1="4" x2="18" y2="10" stroke="#E8E3D5" stroke-width="0.7" />
+            <line x1="15" y1="7" x2="21" y2="7" stroke="#E8E3D5" stroke-width="0.7" />
+          </g>
+
+          {/* ══ ANCHOR (150,50) ══ */}
+          <g transform="translate(150,50)">
+            {/* Ring at top */}
+            <circle cx="0" cy="-26" r="8" fill="none" stroke="#E8E3D5" stroke-width="1" />
+            {/* Shank — vertical bar */}
+            <line x1="0" y1="-18" x2="0" y2="18" stroke="#E8E3D5" stroke-width="1.1" />
+            {/* Stock — horizontal bar across top of shank */}
+            <line x1="-16" y1="-14" x2="16" y2="-14" stroke="#E8E3D5" stroke-width="1" />
+            {/* Stock end knobs */}
+            <circle cx="-16" cy="-14" r="2.5" fill="none" stroke="#E8E3D5" stroke-width="0.8" />
+            <circle cx="16" cy="-14" r="2.5" fill="none" stroke="#E8E3D5" stroke-width="0.8" />
+            {/* Crown — arc at bottom of shank */}
+            <path d="M-14,14 A14,10 0 0,0 14,14" fill="none" stroke="#E8E3D5" stroke-width="1" />
+            {/* Left fluke */}
+            <path
+              d="M-14,14 C-18,18 -22,20 -22,16 C-22,12 -16,10 -14,14"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.9"
+            />
+            {/* Right fluke */}
+            <path d="M14,14 C18,18 22,20 22,16 C22,12 16,10 14,14" fill="none" stroke="#E8E3D5" stroke-width="0.9" />
+            {/* Fluke tips — small barbs */}
+            <path
+              d="M-22,16 L-26,18 M-22,16 L-20,20"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.7"
+              stroke-linecap="round"
+            />
+            <path
+              d="M22,16 L26,18 M22,16 L20,20"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.7"
+              stroke-linecap="round"
+            />
+            {/* Chain link suggestion at ring */}
+            <path d="M-4,-34 C-4,-38 4,-38 4,-34" fill="none" stroke="#E8E3D5" stroke-width="0.7" />
+          </g>
+
+          {/* ══ HOOK (50,150) ══ */}
+          <g transform="translate(50,150)">
+            {/* Hook curve — large J-curve, point faces right */}
+            <path
+              d="M-4,-28 C-4,-10 -4,2 2,12 C8,22 20,26 24,20 C28,14 22,6 14,8"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="1.2"
+              stroke-linecap="round"
+            />
+            {/* Point sharpening — the tip narrows to a point */}
+            <path d="M14,8 C12,6 10,4 12,2" fill="none" stroke="#E8E3D5" stroke-width="0.8" stroke-linecap="round" />
+            {/* Wrist cap / bell at top — small dome */}
+            <path
+              d="M-10,-28 C-10,-36 10,-36 10,-28 L8,-28 C8,-34 -8,-34 -8,-28 Z"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.9"
+            />
+            {/* Cap base ring */}
+            <line x1="-10" y1="-28" x2="10" y2="-28" stroke="#E8E3D5" stroke-width="0.9" />
+            {/* Shank from cap to hook body */}
+            <line x1="-4" y1="-28" x2="-4" y2="-18" stroke="#E8E3D5" stroke-width="1.1" />
+            {/* Bell rim detail */}
+            <path d="M-12,-30 C-10,-28 10,-28 12,-30" fill="none" stroke="#E8E3D5" stroke-width="0.5" />
+          </g>
+
+          {/* ══ TROPICAL ISLAND (150,150) ══ */}
+          <g transform="translate(150,150)">
+            {/* Sand bar / island base — low oval */}
+            <path
+              d="M-28,20 C-28,14 -16,10 0,10 C16,10 28,14 28,20 C28,26 16,28 0,28 C-16,28 -28,26 -28,20 Z"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.9"
+            />
+            {/* Water line around island base */}
+            <path d="M-32,22 Q-36,18 -32,14 M32,22 Q36,18 32,14" fill="none" stroke="#E8E3D5" stroke-width="0.4" />
+
+            {/* LEFT PALM — trunk curves left, fronds spread left-upward */}
+            {/* Trunk */}
+            <path
+              d="M-6,10 C-10,-2 -16,-14 -18,-24"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="1"
+              stroke-linecap="round"
+            />
+            {/* Left palm fronds — 5 frond lines radiating from top of trunk */}
+            <path
+              d="M-18,-24 C-26,-28 -34,-24 -36,-18"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.7"
+              stroke-linecap="round"
+            />
+            <path
+              d="M-18,-24 C-22,-32 -18,-38 -12,-36"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.7"
+              stroke-linecap="round"
+            />
+            <path
+              d="M-18,-24 C-12,-30 -6,-28 -4,-22"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.7"
+              stroke-linecap="round"
+            />
+            <path
+              d="M-18,-24 C-24,-20 -26,-14 -22,-10"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.6"
+              stroke-linecap="round"
+            />
+            <path
+              d="M-18,-24 C-10,-22 -8,-16 -12,-12"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.6"
+              stroke-linecap="round"
+            />
+
+            {/* RIGHT PALM — trunk curves right */}
+            {/* Trunk */}
+            <path d="M6,10 C10,-2 16,-12 20,-22" fill="none" stroke="#E8E3D5" stroke-width="1" stroke-linecap="round" />
+            {/* Right palm fronds */}
+            <path
+              d="M20,-22 C28,-26 36,-22 38,-16"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.7"
+              stroke-linecap="round"
+            />
+            <path
+              d="M20,-22 C24,-30 20,-36 14,-34"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.7"
+              stroke-linecap="round"
+            />
+            <path
+              d="M20,-22 C14,-28 8,-26 6,-20"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.7"
+              stroke-linecap="round"
+            />
+            <path
+              d="M20,-22 C26,-18 28,-12 24,-8"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.6"
+              stroke-linecap="round"
+            />
+            <path
+              d="M20,-22 C12,-20 10,-14 14,-10"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.6"
+              stroke-linecap="round"
+            />
+
+            {/* CENTRE PALM — shorter, grows straight up between the two */}
+            <path d="M0,10 C0,-4 2,-14 2,-20" fill="none" stroke="#E8E3D5" stroke-width="0.9" stroke-linecap="round" />
+            <path
+              d="M2,-20 C-4,-26 -10,-24 -10,-18"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.6"
+              stroke-linecap="round"
+            />
+            <path
+              d="M2,-20 C8,-26 12,-22 10,-16"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.6"
+              stroke-linecap="round"
+            />
+            <path
+              d="M2,-20 C2,-28 6,-30 10,-26"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.6"
+              stroke-linecap="round"
+            />
+            <path
+              d="M2,-20 C2,-28 -2,-30 -6,-26"
+              fill="none"
+              stroke="#E8E3D5"
+              stroke-width="0.6"
+              stroke-linecap="round"
+            />
+          </g>
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-golden-age-piracy)" />
@@ -1458,23 +1676,23 @@ function TrialOfSocratesPattern({ opacity }: { opacity: number }) {
         <pattern id="bg-trial-of-socrates" x="0" y="0" width="120" height="100" patternUnits="userSpaceOnUse">
           {/* Kylix A (30,38) */}
           <g transform="translate(30,38)">
-            <path d="M-28,0 Q-28,12 0,14 Q28,12 28,0" fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
-            <line x1="-28" y1="0" x2="28" y2="0" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="14" x2="0" y2="22" stroke="#E8E3D5" strokeWidth="0.8"/>
-            <path d="M-12,22 Q-10,26 0,27 Q10,26 12,22" fill="none" stroke="#E8E3D5" strokeWidth="0.8"/>
-            <line x1="-12" y1="22" x2="12" y2="22" stroke="#E8E3D5" strokeWidth="0.6"/>
-            <path d="M-28,0 C-34,-2 -36,6 -30,8 C-28,8 -28,4 -28,2" fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
-            <path d="M28,0 C34,-2 36,6 30,8 C28,8 28,4 28,2" fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
+            <path d="M-28,0 Q-28,12 0,14 Q28,12 28,0" fill="none" stroke="#E8E3D5" strokeWidth="0.85" />
+            <line x1="-28" y1="0" x2="28" y2="0" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="14" x2="0" y2="22" stroke="#E8E3D5" strokeWidth="0.8" />
+            <path d="M-12,22 Q-10,26 0,27 Q10,26 12,22" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+            <line x1="-12" y1="22" x2="12" y2="22" stroke="#E8E3D5" strokeWidth="0.6" />
+            <path d="M-28,0 C-34,-2 -36,6 -30,8 C-28,8 -28,4 -28,2" fill="none" stroke="#E8E3D5" strokeWidth="0.75" />
+            <path d="M28,0 C34,-2 36,6 30,8 C28,8 28,4 28,2" fill="none" stroke="#E8E3D5" strokeWidth="0.75" />
           </g>
           {/* Kylix B (90,72) */}
           <g transform="translate(90,72)">
-            <path d="M-28,0 Q-28,12 0,14 Q28,12 28,0" fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
-            <line x1="-28" y1="0" x2="28" y2="0" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="14" x2="0" y2="22" stroke="#E8E3D5" strokeWidth="0.8"/>
-            <path d="M-12,22 Q-10,26 0,27 Q10,26 12,22" fill="none" stroke="#E8E3D5" strokeWidth="0.8"/>
-            <line x1="-12" y1="22" x2="12" y2="22" stroke="#E8E3D5" strokeWidth="0.6"/>
-            <path d="M-28,0 C-34,-2 -36,6 -30,8 C-28,8 -28,4 -28,2" fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
-            <path d="M28,0 C34,-2 36,6 30,8 C28,8 28,4 28,2" fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
+            <path d="M-28,0 Q-28,12 0,14 Q28,12 28,0" fill="none" stroke="#E8E3D5" strokeWidth="0.85" />
+            <line x1="-28" y1="0" x2="28" y2="0" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="14" x2="0" y2="22" stroke="#E8E3D5" strokeWidth="0.8" />
+            <path d="M-12,22 Q-10,26 0,27 Q10,26 12,22" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
+            <line x1="-12" y1="22" x2="12" y2="22" stroke="#E8E3D5" strokeWidth="0.6" />
+            <path d="M-28,0 C-34,-2 -36,6 -30,8 C-28,8 -28,4 -28,2" fill="none" stroke="#E8E3D5" strokeWidth="0.75" />
+            <path d="M28,0 C34,-2 36,6 30,8 C28,8 28,4 28,2" fill="none" stroke="#E8E3D5" strokeWidth="0.75" />
           </g>
         </pattern>
       </defs>
@@ -1494,28 +1712,38 @@ function HomerPattern({ opacity }: { opacity: number }) {
         <pattern id="bg-homer" x="0" y="0" width="100" height="140" patternUnits="userSpaceOnUse">
           <g transform="translate(50, 70)">
             {/* Body */}
-            <ellipse cx="0" cy="36" rx="18" ry="14" fill="none" stroke="#E8E3D5" strokeWidth="0.9"/>
-            <ellipse cx="0" cy="36" rx="8" ry="5" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <ellipse cx="0" cy="36" rx="18" ry="14" fill="none" stroke="#E8E3D5" strokeWidth="0.9" />
+            <ellipse cx="0" cy="36" rx="8" ry="5" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
             {/* Left arm */}
-            <path d="M-16,28 C-22,16 -26,-4 -20,-28 C-16,-40 -8,-46 0,-46"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.9" strokeLinecap="round"/>
+            <path
+              d="M-16,28 C-22,16 -26,-4 -20,-28 C-16,-40 -8,-46 0,-46"
+              fill="none"
+              stroke="#E8E3D5"
+              strokeWidth="0.9"
+              strokeLinecap="round"
+            />
             {/* Right arm */}
-            <path d="M16,28 C22,16 26,-4 20,-28 C16,-40 8,-46 0,-46"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.9" strokeLinecap="round"/>
+            <path
+              d="M16,28 C22,16 26,-4 20,-28 C16,-40 8,-46 0,-46"
+              fill="none"
+              stroke="#E8E3D5"
+              strokeWidth="0.9"
+              strokeLinecap="round"
+            />
             {/* Crossbar */}
-            <line x1="-20" y1="-46" x2="20" y2="-46" stroke="#E8E3D5" strokeWidth="0.9"/>
-            <circle cx="-20" cy="-46" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
-            <circle cx="20"  cy="-46" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <line x1="-20" y1="-46" x2="20" y2="-46" stroke="#E8E3D5" strokeWidth="0.9" />
+            <circle cx="-20" cy="-46" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+            <circle cx="20" cy="-46" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
             {/* Strings — 7 */}
-            <line x1="-14" y1="-46" x2="-12" y2="22" stroke="#E8E3D5" strokeWidth="0.4"/>
-            <line x1="-9"  y1="-46" x2="-8"  y2="24" stroke="#E8E3D5" strokeWidth="0.4"/>
-            <line x1="-4"  y1="-46" x2="-4"  y2="26" stroke="#E8E3D5" strokeWidth="0.4"/>
-            <line x1="0"   y1="-46" x2="0"   y2="27" stroke="#E8E3D5" strokeWidth="0.4"/>
-            <line x1="4"   y1="-46" x2="4"   y2="26" stroke="#E8E3D5" strokeWidth="0.4"/>
-            <line x1="9"   y1="-46" x2="8"   y2="24" stroke="#E8E3D5" strokeWidth="0.4"/>
-            <line x1="14"  y1="-46" x2="12"  y2="22" stroke="#E8E3D5" strokeWidth="0.4"/>
+            <line x1="-14" y1="-46" x2="-12" y2="22" stroke="#E8E3D5" strokeWidth="0.4" />
+            <line x1="-9" y1="-46" x2="-8" y2="24" stroke="#E8E3D5" strokeWidth="0.4" />
+            <line x1="-4" y1="-46" x2="-4" y2="26" stroke="#E8E3D5" strokeWidth="0.4" />
+            <line x1="0" y1="-46" x2="0" y2="27" stroke="#E8E3D5" strokeWidth="0.4" />
+            <line x1="4" y1="-46" x2="4" y2="26" stroke="#E8E3D5" strokeWidth="0.4" />
+            <line x1="9" y1="-46" x2="8" y2="24" stroke="#E8E3D5" strokeWidth="0.4" />
+            <line x1="14" y1="-46" x2="12" y2="22" stroke="#E8E3D5" strokeWidth="0.4" />
             {/* Tailpiece */}
-            <line x1="-12" y1="22" x2="12" y2="22" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <line x1="-12" y1="22" x2="12" y2="22" stroke="#E8E3D5" strokeWidth="0.6" />
           </g>
         </pattern>
       </defs>
@@ -1535,35 +1763,43 @@ function MediterraneanSummerPattern({ opacity }: { opacity: number }) {
         <pattern id="bg-mediterranean-summer" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
           {/* Parasol A (30,30) */}
           <g transform="translate(30,30)">
-            <line x1="0" y1="0" x2="0"     y2="-22"   stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="15.6"  y2="-15.6" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="22"    y2="0"     stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="15.6"  y2="15.6"  stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="0"     y2="22"    stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="-15.6" y2="15.6"  stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="-22"   y2="0"     stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="-15.6" y2="-15.6" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <path d="M0,-22 A6,6 0 0,1 15.6,-15.6 A6,6 0 0,1 22,0 A6,6 0 0,1 15.6,15.6 A6,6 0 0,1 0,22 A6,6 0 0,1 -15.6,15.6 A6,6 0 0,1 -22,0 A6,6 0 0,1 -15.6,-15.6 A6,6 0 0,1 0,-22 Z"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
-            <circle cx="0" cy="0" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
-            <line x1="0" y1="0" x2="0" y2="8"  stroke="#E8E3D5" strokeWidth="0.6"/>
-            <line x1="-2" y1="8" x2="2" y2="8" stroke="#E8E3D5" strokeWidth="0.5"/>
+            <line x1="0" y1="0" x2="0" y2="-22" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="15.6" y2="-15.6" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="22" y2="0" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="15.6" y2="15.6" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="0" y2="22" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="-15.6" y2="15.6" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="-22" y2="0" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="-15.6" y2="-15.6" stroke="#E8E3D5" strokeWidth="0.7" />
+            <path
+              d="M0,-22 A6,6 0 0,1 15.6,-15.6 A6,6 0 0,1 22,0 A6,6 0 0,1 15.6,15.6 A6,6 0 0,1 0,22 A6,6 0 0,1 -15.6,15.6 A6,6 0 0,1 -22,0 A6,6 0 0,1 -15.6,-15.6 A6,6 0 0,1 0,-22 Z"
+              fill="none"
+              stroke="#E8E3D5"
+              strokeWidth="0.85"
+            />
+            <circle cx="0" cy="0" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+            <line x1="0" y1="0" x2="0" y2="8" stroke="#E8E3D5" strokeWidth="0.6" />
+            <line x1="-2" y1="8" x2="2" y2="8" stroke="#E8E3D5" strokeWidth="0.5" />
           </g>
           {/* Parasol B (90,90) */}
           <g transform="translate(90,90)">
-            <line x1="0" y1="0" x2="0"     y2="-22"   stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="15.6"  y2="-15.6" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="22"    y2="0"     stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="15.6"  y2="15.6"  stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="0"     y2="22"    stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="-15.6" y2="15.6"  stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="-22"   y2="0"     stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="0" y1="0" x2="-15.6" y2="-15.6" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <path d="M0,-22 A6,6 0 0,1 15.6,-15.6 A6,6 0 0,1 22,0 A6,6 0 0,1 15.6,15.6 A6,6 0 0,1 0,22 A6,6 0 0,1 -15.6,15.6 A6,6 0 0,1 -22,0 A6,6 0 0,1 -15.6,-15.6 A6,6 0 0,1 0,-22 Z"
-                  fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
-            <circle cx="0" cy="0" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
-            <line x1="0" y1="0" x2="0" y2="8"  stroke="#E8E3D5" strokeWidth="0.6"/>
-            <line x1="-2" y1="8" x2="2" y2="8" stroke="#E8E3D5" strokeWidth="0.5"/>
+            <line x1="0" y1="0" x2="0" y2="-22" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="15.6" y2="-15.6" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="22" y2="0" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="15.6" y2="15.6" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="0" y2="22" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="-15.6" y2="15.6" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="-22" y2="0" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="0" y1="0" x2="-15.6" y2="-15.6" stroke="#E8E3D5" strokeWidth="0.7" />
+            <path
+              d="M0,-22 A6,6 0 0,1 15.6,-15.6 A6,6 0 0,1 22,0 A6,6 0 0,1 15.6,15.6 A6,6 0 0,1 0,22 A6,6 0 0,1 -15.6,15.6 A6,6 0 0,1 -22,0 A6,6 0 0,1 -15.6,-15.6 A6,6 0 0,1 0,-22 Z"
+              fill="none"
+              stroke="#E8E3D5"
+              strokeWidth="0.85"
+            />
+            <circle cx="0" cy="0" r="2" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+            <line x1="0" y1="0" x2="0" y2="8" stroke="#E8E3D5" strokeWidth="0.6" />
+            <line x1="-2" y1="8" x2="2" y2="8" stroke="#E8E3D5" strokeWidth="0.5" />
           </g>
         </pattern>
       </defs>
@@ -1582,31 +1818,31 @@ function SuezCanalPattern({ opacity }: { opacity: number }) {
       <defs>
         <pattern id="bg-suez-canal" x="0" y="0" width="160" height="140" patternUnits="userSpaceOnUse">
           {/* Desert surface */}
-          <line x1="0"   y1="48" x2="32"  y2="48" stroke="#E8E3D5" strokeWidth="0.8"/>
-          <line x1="128" y1="48" x2="160" y2="48" stroke="#E8E3D5" strokeWidth="0.8"/>
+          <line x1="0" y1="48" x2="32" y2="48" stroke="#E8E3D5" strokeWidth="0.8" />
+          <line x1="128" y1="48" x2="160" y2="48" stroke="#E8E3D5" strokeWidth="0.8" />
           {/* Canal walls */}
-          <line x1="32"  y1="48" x2="52"  y2="96" stroke="#E8E3D5" strokeWidth="0.8"/>
-          <line x1="128" y1="48" x2="108" y2="96" stroke="#E8E3D5" strokeWidth="0.8"/>
-          <line x1="52"  y1="96" x2="108" y2="96" stroke="#E8E3D5" strokeWidth="0.8"/>
+          <line x1="32" y1="48" x2="52" y2="96" stroke="#E8E3D5" strokeWidth="0.8" />
+          <line x1="128" y1="48" x2="108" y2="96" stroke="#E8E3D5" strokeWidth="0.8" />
+          <line x1="52" y1="96" x2="108" y2="96" stroke="#E8E3D5" strokeWidth="0.8" />
           {/* Water surface */}
-          <line x1="32"  y1="48" x2="128" y2="48" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="44"  y1="54" x2="116" y2="54" stroke="#E8E3D5" strokeWidth="0.25"/>
-          <line x1="48"  y1="60" x2="112" y2="60" stroke="#E8E3D5" strokeWidth="0.25"/>
+          <line x1="32" y1="48" x2="128" y2="48" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="44" y1="54" x2="116" y2="54" stroke="#E8E3D5" strokeWidth="0.25" />
+          <line x1="48" y1="60" x2="112" y2="60" stroke="#E8E3D5" strokeWidth="0.25" />
           {/* Ship hull */}
-          <line x1="58"  y1="48" x2="58"  y2="80" stroke="#E8E3D5" strokeWidth="0.85"/>
-          <line x1="102" y1="48" x2="102" y2="80" stroke="#E8E3D5" strokeWidth="0.85"/>
-          <path d="M58,80 Q58,86 64,88 L96,88 Q102,86 102,80" fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
-          <line x1="54"  y1="48" x2="106" y2="48" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <line x1="58" y1="48" x2="58" y2="80" stroke="#E8E3D5" strokeWidth="0.85" />
+          <line x1="102" y1="48" x2="102" y2="80" stroke="#E8E3D5" strokeWidth="0.85" />
+          <path d="M58,80 Q58,86 64,88 L96,88 Q102,86 102,80" fill="none" stroke="#E8E3D5" strokeWidth="0.85" />
+          <line x1="54" y1="48" x2="106" y2="48" stroke="#E8E3D5" strokeWidth="0.7" />
           {/* Superstructure */}
-          <rect x="68" y="28" width="24" height="20" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <line x1="72" y1="34" x2="88" y2="34" stroke="#E8E3D5" strokeWidth="0.35"/>
-          <line x1="72" y1="38" x2="88" y2="38" stroke="#E8E3D5" strokeWidth="0.35"/>
-          <rect x="78" y="18" width="8" height="12" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
-          <path d="M80,18 C79,14 81,11 80,8" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <path d="M84,18 C85,14 83,11 84,8" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <rect x="68" y="28" width="24" height="20" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <line x1="72" y1="34" x2="88" y2="34" stroke="#E8E3D5" strokeWidth="0.35" />
+          <line x1="72" y1="38" x2="88" y2="38" stroke="#E8E3D5" strokeWidth="0.35" />
+          <rect x="78" y="18" width="8" height="12" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+          <path d="M80,18 C79,14 81,11 80,8" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
+          <path d="M84,18 C85,14 83,11 84,8" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
           {/* Depth markers */}
-          <line x1="30" y1="64" x2="36" y2="66" stroke="#E8E3D5" strokeWidth="0.4"/>
-          <line x1="28" y1="78" x2="34" y2="80" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <line x1="30" y1="64" x2="36" y2="66" stroke="#E8E3D5" strokeWidth="0.4" />
+          <line x1="28" y1="78" x2="34" y2="80" stroke="#E8E3D5" strokeWidth="0.4" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-suez-canal)" />
@@ -1625,53 +1861,53 @@ function SwimmingLeisurePattern({ opacity }: { opacity: number }) {
         <pattern id="bg-swimming-leisure" x="0" y="0" width="200" height="160" patternUnits="userSpaceOnUse">
           <g transform="translate(100, 80)">
             {/* Waterline */}
-            <line x1="-100" y1="22" x2="100" y2="22" stroke="#E8E3D5" strokeWidth="0.6"/>
-            <line x1="-100" y1="28" x2="100" y2="28" stroke="#E8E3D5" strokeWidth="0.25"/>
-            <line x1="-100" y1="34" x2="100" y2="34" stroke="#E8E3D5" strokeWidth="0.2"/>
+            <line x1="-100" y1="22" x2="100" y2="22" stroke="#E8E3D5" strokeWidth="0.6" />
+            <line x1="-100" y1="28" x2="100" y2="28" stroke="#E8E3D5" strokeWidth="0.25" />
+            <line x1="-100" y1="34" x2="100" y2="34" stroke="#E8E3D5" strokeWidth="0.2" />
             {/* Left wheel */}
-            <circle cx="-46" cy="22" r="18" fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
-            <line x1="-46" y1="4"  x2="-46" y2="40" stroke="#E8E3D5" strokeWidth="0.4"/>
-            <line x1="-28" y1="22" x2="-64" y2="22" stroke="#E8E3D5" strokeWidth="0.4"/>
-            <line x1="-33" y1="9"  x2="-59" y2="35" stroke="#E8E3D5" strokeWidth="0.4"/>
-            <line x1="-33" y1="35" x2="-59" y2="9"  stroke="#E8E3D5" strokeWidth="0.4"/>
-            <circle cx="-46" cy="22" r="3" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+            <circle cx="-46" cy="22" r="18" fill="none" stroke="#E8E3D5" strokeWidth="0.75" />
+            <line x1="-46" y1="4" x2="-46" y2="40" stroke="#E8E3D5" strokeWidth="0.4" />
+            <line x1="-28" y1="22" x2="-64" y2="22" stroke="#E8E3D5" strokeWidth="0.4" />
+            <line x1="-33" y1="9" x2="-59" y2="35" stroke="#E8E3D5" strokeWidth="0.4" />
+            <line x1="-33" y1="35" x2="-59" y2="9" stroke="#E8E3D5" strokeWidth="0.4" />
+            <circle cx="-46" cy="22" r="3" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
             {/* Right wheel */}
-            <circle cx="46" cy="22" r="18" fill="none" stroke="#E8E3D5" strokeWidth="0.75"/>
-            <line x1="46" y1="4"  x2="46" y2="40" stroke="#E8E3D5" strokeWidth="0.4"/>
-            <line x1="28" y1="22" x2="64" y2="22" stroke="#E8E3D5" strokeWidth="0.4"/>
-            <line x1="33" y1="9"  x2="59" y2="35" stroke="#E8E3D5" strokeWidth="0.4"/>
-            <line x1="33" y1="35" x2="59" y2="9"  stroke="#E8E3D5" strokeWidth="0.4"/>
-            <circle cx="46" cy="22" r="3" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+            <circle cx="46" cy="22" r="18" fill="none" stroke="#E8E3D5" strokeWidth="0.75" />
+            <line x1="46" y1="4" x2="46" y2="40" stroke="#E8E3D5" strokeWidth="0.4" />
+            <line x1="28" y1="22" x2="64" y2="22" stroke="#E8E3D5" strokeWidth="0.4" />
+            <line x1="33" y1="9" x2="59" y2="35" stroke="#E8E3D5" strokeWidth="0.4" />
+            <line x1="33" y1="35" x2="59" y2="9" stroke="#E8E3D5" strokeWidth="0.4" />
+            <circle cx="46" cy="22" r="3" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
             {/* Axle */}
-            <line x1="-46" y1="22" x2="46" y2="22" stroke="#E8E3D5" strokeWidth="0.5"/>
+            <line x1="-46" y1="22" x2="46" y2="22" stroke="#E8E3D5" strokeWidth="0.5" />
             {/* Body */}
-            <rect x="-48" y="-52" width="96" height="56" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
-            <line x1="-48" y1="-38" x2="48" y2="-38" stroke="#E8E3D5" strokeWidth="0.3"/>
-            <line x1="-48" y1="-24" x2="48" y2="-24" stroke="#E8E3D5" strokeWidth="0.3"/>
-            <line x1="-48" y1="-10" x2="48" y2="-10" stroke="#E8E3D5" strokeWidth="0.3"/>
+            <rect x="-48" y="-52" width="96" height="56" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.85" />
+            <line x1="-48" y1="-38" x2="48" y2="-38" stroke="#E8E3D5" strokeWidth="0.3" />
+            <line x1="-48" y1="-24" x2="48" y2="-24" stroke="#E8E3D5" strokeWidth="0.3" />
+            <line x1="-48" y1="-10" x2="48" y2="-10" stroke="#E8E3D5" strokeWidth="0.3" />
             {/* Roof */}
-            <path d="M-52,-52 L0,-68 L52,-52" fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
-            <line x1="-8" y1="-67" x2="8" y2="-67" stroke="#E8E3D5" strokeWidth="0.6"/>
+            <path d="M-52,-52 L0,-68 L52,-52" fill="none" stroke="#E8E3D5" strokeWidth="0.85" />
+            <line x1="-8" y1="-67" x2="8" y2="-67" stroke="#E8E3D5" strokeWidth="0.6" />
             {/* Window */}
-            <rect x="-38" y="-46" width="14" height="12" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
-            <line x1="-31" y1="-46" x2="-31" y2="-34" stroke="#E8E3D5" strokeWidth="0.3"/>
-            <line x1="-38" y1="-40" x2="-24" y2="-40" stroke="#E8E3D5" strokeWidth="0.3"/>
+            <rect x="-38" y="-46" width="14" height="12" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+            <line x1="-31" y1="-46" x2="-31" y2="-34" stroke="#E8E3D5" strokeWidth="0.3" />
+            <line x1="-38" y1="-40" x2="-24" y2="-40" stroke="#E8E3D5" strokeWidth="0.3" />
             {/* Door */}
-            <rect x="26" y="-48" width="18" height="44" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-            <circle cx="28" cy="-26" r="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
+            <rect x="26" y="-48" width="18" height="44" rx="1" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+            <circle cx="28" cy="-26" r="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
             {/* Steps */}
-            <line x1="44" y1="4"  x2="58" y2="4"  stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="44" y1="10" x2="62" y2="10" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="44" y1="16" x2="66" y2="16" stroke="#E8E3D5" strokeWidth="0.7"/>
-            <line x1="58" y1="4"  x2="62" y2="10" stroke="#E8E3D5" strokeWidth="0.5"/>
-            <line x1="62" y1="10" x2="66" y2="16" stroke="#E8E3D5" strokeWidth="0.5"/>
+            <line x1="44" y1="4" x2="58" y2="4" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="44" y1="10" x2="62" y2="10" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="44" y1="16" x2="66" y2="16" stroke="#E8E3D5" strokeWidth="0.7" />
+            <line x1="58" y1="4" x2="62" y2="10" stroke="#E8E3D5" strokeWidth="0.5" />
+            <line x1="62" y1="10" x2="66" y2="16" stroke="#E8E3D5" strokeWidth="0.5" />
             {/* Modesty hood */}
-            <path d="M44,-48 C52,-40 64,-20 70,22" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
-            <path d="M44,4 C52,6 62,12 70,22"      fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
-            <path d="M44,-28 C54,-20 64,-4 68,14"  fill="none" stroke="#E8E3D5" strokeWidth="0.3"/>
+            <path d="M44,-48 C52,-40 64,-20 70,22" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+            <path d="M44,4 C52,6 62,12 70,22" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
+            <path d="M44,-28 C54,-20 64,-4 68,14" fill="none" stroke="#E8E3D5" strokeWidth="0.3" />
             {/* Horse tow bar */}
-            <line x1="-48" y1="10" x2="-72" y2="16" stroke="#E8E3D5" strokeWidth="0.6"/>
-            <line x1="-72" y1="12" x2="-72" y2="20" stroke="#E8E3D5" strokeWidth="0.5"/>
+            <line x1="-48" y1="10" x2="-72" y2="16" stroke="#E8E3D5" strokeWidth="0.6" />
+            <line x1="-72" y1="12" x2="-72" y2="20" stroke="#E8E3D5" strokeWidth="0.5" />
           </g>
         </pattern>
       </defs>
@@ -1690,66 +1926,66 @@ function CholeraMapPattern({ opacity }: { opacity: number }) {
       <defs>
         <pattern id="bg-cholera-map" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
           {/* Pump marker */}
-          <line x1="77" y1="80" x2="83" y2="80" stroke="#E8E3D5" strokeWidth="0.9"/>
-          <line x1="80" y1="77" x2="80" y2="83" stroke="#E8E3D5" strokeWidth="0.9"/>
-          <circle cx="80" cy="80" r="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.6"/>
+          <line x1="77" y1="80" x2="83" y2="80" stroke="#E8E3D5" strokeWidth="0.9" />
+          <line x1="80" y1="77" x2="80" y2="83" stroke="#E8E3D5" strokeWidth="0.9" />
+          <circle cx="80" cy="80" r="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.6" />
           {/* Ring 1 — dense */}
-          <circle cx="80" cy="68" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="87" cy="70" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="91" cy="76" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="90" cy="84" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="86" cy="91" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="79" cy="94" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="72" cy="91" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="68" cy="84" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="69" cy="76" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="73" cy="69" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="84" cy="66" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="76" cy="65" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="93" cy="80" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <circle cx="66" cy="80" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7"/>
+          <circle cx="80" cy="68" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="87" cy="70" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="91" cy="76" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="90" cy="84" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="86" cy="91" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="79" cy="94" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="72" cy="91" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="68" cy="84" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="69" cy="76" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="73" cy="69" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="84" cy="66" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="76" cy="65" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="93" cy="80" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
+          <circle cx="66" cy="80" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.7" />
           {/* Ring 2 — medium */}
-          <circle cx="80" cy="56" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="89" cy="58" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="97" cy="63" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="102" cy="72" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="103" cy="82" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="100" cy="92" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="94" cy="100" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="84" cy="105" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="74" cy="104" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="65" cy="99" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="59" cy="91" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="57" cy="81" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="59" cy="71" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="65" cy="62" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="73" cy="57" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="94" cy="67" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="96" cy="88" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="63" cy="88" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
-          <circle cx="62" cy="68" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65"/>
+          <circle cx="80" cy="56" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="89" cy="58" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="97" cy="63" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="102" cy="72" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="103" cy="82" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="100" cy="92" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="94" cy="100" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="84" cy="105" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="74" cy="104" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="65" cy="99" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="59" cy="91" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="57" cy="81" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="59" cy="71" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="65" cy="62" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="73" cy="57" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="94" cy="67" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="96" cy="88" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="63" cy="88" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
+          <circle cx="62" cy="68" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.65" />
           {/* Ring 3 — sparse */}
-          <circle cx="80" cy="42" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="95" cy="46" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="108" cy="56" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="116" cy="70" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="117" cy="86" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="111" cy="100" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="100" cy="112" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="84" cy="118" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="68" cy="116" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="54" cy="107" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="45" cy="94" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="44" cy="78" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="49" cy="62" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="60" cy="50" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="72" cy="43" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="110" cy="62" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="113" cy="78" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="50" cy="72" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="47" cy="88" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="92" cy="114" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
-          <circle cx="72" cy="118" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55"/>
+          <circle cx="80" cy="42" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="95" cy="46" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="108" cy="56" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="116" cy="70" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="117" cy="86" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="111" cy="100" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="100" cy="112" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="84" cy="118" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="68" cy="116" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="54" cy="107" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="45" cy="94" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="44" cy="78" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="49" cy="62" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="60" cy="50" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="72" cy="43" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="110" cy="62" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="113" cy="78" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="50" cy="72" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="47" cy="88" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="92" cy="114" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
+          <circle cx="72" cy="118" r="1.2" fill="none" stroke="#E8E3D5" strokeWidth="0.55" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-cholera-map)" />
@@ -1767,27 +2003,90 @@ function OpiumEmpirePattern({ opacity }: { opacity: number }) {
       <defs>
         <pattern id="bg-opium-empire" x="0" y="0" width="120" height="200" patternUnits="userSpaceOnUse">
           {/* Poppy A — full plant */}
-          <path d="M30,190 C28,160 32,130 30,100" fill="none" stroke="#E8E3D5" strokeWidth="0.9" strokeLinecap="round"/>
-          <path d="M30,150 C22,144 16,136 20,128 C24,122 30,128 30,138" fill="none" stroke="#E8E3D5" strokeWidth="0.6" strokeLinecap="round"/>
-          <path d="M30,142 C38,136 44,128 40,120 C36,114 30,120 30,130" fill="none" stroke="#E8E3D5" strokeWidth="0.6" strokeLinecap="round"/>
-          <line x1="30" y1="100" x2="30" y2="90" stroke="#E8E3D5" strokeWidth="0.7"/>
-          <ellipse cx="30" cy="78" rx="11" ry="13" fill="none" stroke="#E8E3D5" strokeWidth="0.85"/>
-          <ellipse cx="30" cy="65" rx="7" ry="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <line x1="30" y1="65" x2="30" y2="62" stroke="#E8E3D5" strokeWidth="0.6"/>
-          <line x1="24" y1="67" x2="22" y2="65" stroke="#E8E3D5" strokeWidth="0.6"/>
-          <line x1="36" y1="67" x2="38" y2="65" stroke="#E8E3D5" strokeWidth="0.6"/>
-          <line x1="21" y1="72" x2="18" y2="71" stroke="#E8E3D5" strokeWidth="0.6"/>
-          <line x1="39" y1="72" x2="42" y2="71" stroke="#E8E3D5" strokeWidth="0.6"/>
-          <path d="M23,66 C14,56 12,44 20,40 C26,37 30,44 28,54" fill="none" stroke="#E8E3D5" strokeWidth="0.7" strokeLinecap="round"/>
-          <path d="M37,66 C46,56 48,44 40,40 C34,37 30,44 32,54" fill="none" stroke="#E8E3D5" strokeWidth="0.7" strokeLinecap="round"/>
-          <path d="M20,72 C10,68 6,58 12,52 C16,48 22,54 24,62" fill="none" stroke="#E8E3D5" strokeWidth="0.6" strokeLinecap="round"/>
-          <path d="M40,72 C50,68 54,58 48,52 C44,48 38,54 36,62" fill="none" stroke="#E8E3D5" strokeWidth="0.6" strokeLinecap="round"/>
+          <path
+            d="M30,190 C28,160 32,130 30,100"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.9"
+            strokeLinecap="round"
+          />
+          <path
+            d="M30,150 C22,144 16,136 20,128 C24,122 30,128 30,138"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.6"
+            strokeLinecap="round"
+          />
+          <path
+            d="M30,142 C38,136 44,128 40,120 C36,114 30,120 30,130"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.6"
+            strokeLinecap="round"
+          />
+          <line x1="30" y1="100" x2="30" y2="90" stroke="#E8E3D5" strokeWidth="0.7" />
+          <ellipse cx="30" cy="78" rx="11" ry="13" fill="none" stroke="#E8E3D5" strokeWidth="0.85" />
+          <ellipse cx="30" cy="65" rx="7" ry="2.5" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <line x1="30" y1="65" x2="30" y2="62" stroke="#E8E3D5" strokeWidth="0.6" />
+          <line x1="24" y1="67" x2="22" y2="65" stroke="#E8E3D5" strokeWidth="0.6" />
+          <line x1="36" y1="67" x2="38" y2="65" stroke="#E8E3D5" strokeWidth="0.6" />
+          <line x1="21" y1="72" x2="18" y2="71" stroke="#E8E3D5" strokeWidth="0.6" />
+          <line x1="39" y1="72" x2="42" y2="71" stroke="#E8E3D5" strokeWidth="0.6" />
+          <path
+            d="M23,66 C14,56 12,44 20,40 C26,37 30,44 28,54"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.7"
+            strokeLinecap="round"
+          />
+          <path
+            d="M37,66 C46,56 48,44 40,40 C34,37 30,44 32,54"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.7"
+            strokeLinecap="round"
+          />
+          <path
+            d="M20,72 C10,68 6,58 12,52 C16,48 22,54 24,62"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.6"
+            strokeLinecap="round"
+          />
+          <path
+            d="M40,72 C50,68 54,58 48,52 C44,48 38,54 36,62"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.6"
+            strokeLinecap="round"
+          />
           {/* Poppy B — drooping bud */}
-          <path d="M90,200 C88,175 92,150 90,125 C89,115 84,108 82,100" fill="none" stroke="#E8E3D5" strokeWidth="0.9" strokeLinecap="round"/>
-          <path d="M90,160 C98,154 104,144 100,136 C96,130 90,136 90,146" fill="none" stroke="#E8E3D5" strokeWidth="0.6" strokeLinecap="round"/>
-          <ellipse cx="82" cy="94" rx="7" ry="10" fill="none" stroke="#E8E3D5" strokeWidth="0.8" transform="rotate(-20 82 94)"/>
-          <path d="M76,88 C78,84 82,83 86,86" fill="none" stroke="#E8E3D5" strokeWidth="0.5"/>
-          <path d="M78,90 C79,85 83,82 87,84" fill="none" stroke="#E8E3D5" strokeWidth="0.4"/>
+          <path
+            d="M90,200 C88,175 92,150 90,125 C89,115 84,108 82,100"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.9"
+            strokeLinecap="round"
+          />
+          <path
+            d="M90,160 C98,154 104,144 100,136 C96,130 90,136 90,146"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.6"
+            strokeLinecap="round"
+          />
+          <ellipse
+            cx="82"
+            cy="94"
+            rx="7"
+            ry="10"
+            fill="none"
+            stroke="#E8E3D5"
+            strokeWidth="0.8"
+            transform="rotate(-20 82 94)"
+          />
+          <path d="M76,88 C78,84 82,83 86,86" fill="none" stroke="#E8E3D5" strokeWidth="0.5" />
+          <path d="M78,90 C79,85 83,82 87,84" fill="none" stroke="#E8E3D5" strokeWidth="0.4" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#bg-opium-empire)" />
@@ -1910,13 +2209,7 @@ function SafetyPinPattern({ opacity }: { opacity: number }) {
             <line x1="-36" y1="-4" x2="38" y2="-4" stroke="#E8E3D5" strokeWidth="0.85" />
             <path d="M38,-4 L44,0" fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round" />
             <rect x="36" y="-1" width="10" height="8" rx="1.5" fill="none" stroke="#E8E3D5" strokeWidth="0.8" />
-            <path
-              d="M36,7 C20,10 -10,10 -36,4"
-              fill="none"
-              stroke="#E8E3D5"
-              strokeWidth="0.85"
-              strokeLinecap="round"
-            />
+            <path d="M36,7 C20,10 -10,10 -36,4" fill="none" stroke="#E8E3D5" strokeWidth="0.85" strokeLinecap="round" />
           </g>
         </pattern>
       </defs>
