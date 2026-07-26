@@ -1,46 +1,42 @@
 [
   {
     "id": "medieval-feudal-order",
-    "title": "The Medieval Feudal Order",
+    "title": "The Medieval Social Order",
     "wiki": "Feudalism",
     "year": 1100,
     "keyword": "pressure",
-    "summary": "Medieval European society was organised around a rigid hierarchy in which almost everyone knew their place from birth and had no realistic prospect of changing it. Serfs were legally bound to their lord's land; lords owed military service to kings; the Church presided over all. Social mobility was virtually nonexistent; collective identity — parish, guild, manor — superseded individual aspiration. This was not merely a political arrangement but a cosmological one: the social order was God's order, immutable and divinely sanctioned. The plague would not just disrupt this system economically. It would destroy the theological justification that made people accept it.",
+    "summary": "Medieval Europe contained overlapping systems of lordship, tenancy, urban privilege, guild membership, and ecclesiastical authority rather than one uniform feudal pyramid. Many peasants faced hereditary obligations and limited mobility, but conditions varied sharply by region and changed before 1347. The plague would intensify pressures on these arrangements without erasing them everywhere.",
     "causeIds": [],
     "effectIds": [
-      "labour-shortage-crisis",
-      "church-monopoly-on-meaning"
+      "labour-shortage-crisis"
     ],
     "isAnchor": false,
-    "isSeed": false,
+    "isSeed": true,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Cleric%2C_Knight%2C_and_Workman_representing_the_Three_Classes.jpg"
   },
   {
     "id": "church-monopoly-on-meaning",
-    "title": "The Church's Monopoly on Knowledge and Meaning",
+    "title": "The Church and Learned Culture",
     "wiki": "Church_and_state_in_medieval_Europe",
     "year": 1200,
     "keyword": "pressure",
-    "summary": "The medieval Catholic Church did not merely govern spiritual life — it controlled the entire intellectual infrastructure of European civilisation. It ran the universities, preserved and copied manuscripts, trained the literate elite, and determined which ancient texts were acceptable to study. Thomas Aquinas had synthesised Aristotle with Christian theology so completely that to question Aristotle was to question the Church itself. The Church explained suffering as God's will, death as the gateway to judgement, and earthly life as a preparation for eternity. This framework had served European society for five centuries. The plague would test it to destruction.",
-    "causeIds": [
-      "medieval-feudal-order"
-    ],
+    "summary": "The Latin Church was Europe’s most powerful religious institution and a major organiser of education, literacy, charity, and manuscript culture. Yet medieval intellectual life was not a single clerical monopoly: courts, towns, universities, Jewish communities, and lay readers also produced and transmitted knowledge. The plague tested pastoral capacity and theological explanation, but did not simply destroy Christian belief.",
+    "causeIds": [],
     "effectIds": [
       "church-fails-to-explain",
-      "intellectual-vacuum",
       "petrarch-seeds-humanism"
     ],
     "isAnchor": false,
-    "isSeed": false,
+    "isSeed": true,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/St-thomas-aquinasFXD.jpg"
   },
   {
     "id": "pre-plague-italy-urbanised",
-    "title": "Italy's Commercial Cities",
+    "title": "Italy’s Commercial Cities",
     "wiki": "Italian_city-states",
     "year": 1300,
     "keyword": "pressure",
-    "summary": "By 1300, northern and central Italy had developed the most sophisticated urban commercial civilisation in Europe. Florence, Venice, Genoa, and Milan were thriving city-states with literate merchant classes, international banking networks, and levels of per-capita wealth far exceeding anything north of the Alps. The Bardi and Peruzzi banking families had clients across Europe. Florentine merchants kept double-entry accounts and corresponded in the vernacular rather than Latin. This existing commercial sophistication meant that when the plague struck, there was an educated, wealthy, literate class positioned to inherit its economic consequences — and the cultural ambitions to do something remarkable with them.",
+    "summary": "By 1300, cities such as Florence, Venice, Genoa, and Milan supported dense networks of trade, credit, manufacturing, civic government, and literate administration. Banking families including the Bardi and Peruzzi operated across Europe, while vernacular writing and classical study were already expanding. These pre-plague institutions—not demographic catastrophe alone—helped make later Renaissance culture possible.",
     "causeIds": [],
     "effectIds": [
       "black-death-arrives-europe",
@@ -48,7 +44,7 @@
       "petrarch-seeds-humanism"
     ],
     "isAnchor": false,
-    "isSeed": false,
+    "isSeed": true,
     "imageUrl": "https://rockyruggiero.com/wp-content/uploads/2017/10/FLORENCE-CHAIN-MAP.jpg"
   },
   {
@@ -57,26 +53,23 @@
     "wiki": "Great_Famine_of_1315–1317",
     "year": 1315,
     "keyword": "pressure",
-    "summary": "Between 1315 and 1322, a series of catastrophic harvests produced the worst famine in European history. Millions died; livestock populations collapsed; populations were weakened by years of malnutrition. The Great Famine reduced Europe's population by an estimated 10–15% before the plague arrived and left survivors with compromised immune systems and diminished physical reserves. It also shook confidence in the feudal system's ability to provide security and in the Church's promises of divine protection — if God protected the faithful, why were the faithful starving? The plague arrived into a Europe already physically and psychologically weakened.",
+    "summary": "Persistent rain and harvest failure produced severe famine across much of northern Europe from 1315 to 1317, with effects continuing into the early 1320s. Mortality was heavy, livestock losses were severe, and recovery was uneven, but estimates for Europe-wide population loss remain uncertain. The crisis forms part of the century’s broader demographic stress rather than a proven direct cause of the Black Death three decades later.",
     "causeIds": [],
-    "effectIds": [
-      "black-death-arrives-europe",
-      "church-fails-to-explain"
-    ],
+    "effectIds": [],
     "isAnchor": false,
-    "isSeed": false,
+    "isSeed": true,
     "imageUrl": "https://britishfoodhistory.com/wp-content/uploads/2020/09/the-great-famine-1315-1317.jpg"
   },
   {
     "id": "petrarch-seeds-humanism",
-    "title": "Petrarch — The First Modern Man",
+    "title": "Petrarch and the Humanist Turn",
     "wiki": "Petrarch",
     "year": 1340,
     "keyword": "catalyst",
-    "summary": "Francesco Petrarch — poet, scholar, and tireless collector of ancient manuscripts — had begun articulating a new vision of human experience before the plague arrived. He wrote poetry in Italian rather than Latin, celebrated earthly love rather than only spiritual devotion, and argued that the ancient Romans had achieved something worth recovering rather than condemning as pagan. He called the centuries since Rome's fall the 'Dark Ages' — a phrase that reframed all of medieval history as a period of loss rather than progress. Petrarch survived the plague of 1348, which according to tradition killed the woman he immortalised as Laura — though her identity and the circumstances of her death remain uncertain. His framework for understanding antiquity as a source of human wisdom, not just theological material, became the seed from which Renaissance humanism grew.",
+    "summary": "Francesco Petrarch collected manuscripts, cultivated classical Latin, and framed antiquity as a source of moral and literary renewal. He also wrote influential Italian poetry, although his humanism remained deeply Christian rather than a rejection of religion. His work began before 1348, which is important evidence against treating Renaissance humanism as a simple product of plague.",
     "causeIds": [
-      "pre-plague-italy-urbanised",
-      "church-monopoly-on-meaning"
+      "church-monopoly-on-meaning",
+      "pre-plague-italy-urbanised"
     ],
     "effectIds": [
       "boccaccio-writes-decameron",
@@ -88,14 +81,13 @@
   },
   {
     "id": "black-death-arrives-europe",
-    "title": "The Black Death Arrives",
+    "title": "The Black Death Reaches Europe",
     "wiki": "Black_Death",
     "year": 1347,
     "keyword": "spark",
-    "summary": "In October 1347, Genoese merchant ships docked at the Sicilian port of Messina carrying sailors already dying of a strange illness — swollen black lymph nodes, fever, bleeding from the skin. Within weeks the disease had reached the mainland. The Black Death moved through Europe at a speed that defied any medieval capacity for response, killing between 30 and 60% of the total population in four years — somewhere between 25 and 50 million people. Florence, the most commercially sophisticated city in Europe, lost approximately 60% of its population. The scale of death was so far beyond any previous experience that it shattered every existing framework for understanding suffering: medical, theological, and social.",
+    "summary": "Plague reached Mediterranean ports in 1347 and spread rapidly through Europe, North Africa, and western Asia. Estimates vary by place and source, but Europe probably lost roughly one-third to one-half of its population during the first wave, with further losses in later recurrences. The pandemic caused extraordinary demographic, economic, devotional, and political disruption, but its consequences differed sharply across regions.",
     "causeIds": [
-      "pre-plague-italy-urbanised",
-      "great-famine-weakens-europe"
+      "pre-plague-italy-urbanised"
     ],
     "effectIds": [
       "labour-shortage-crisis",
@@ -105,22 +97,17 @@
       "florence-devastated",
       "black-death-recurrence"
     ],
-    "relatedScenario": {
-      "scenarioId": "cats",
-      "nodeId": "medieval-cat-persecution",
-      "label": "Connects to They Chose Us"
-    },
     "isAnchor": false,
     "isSeed": true,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Danse_macabre_by_Michael_Wolgemut.png"
   },
   {
     "id": "florence-devastated",
-    "title": "Florence Loses Half Its People",
+    "title": "Florence Is Devastated",
     "wiki": "Black_Death_in_Italy",
     "year": 1348,
     "keyword": "collapse",
-    "summary": "Florence was among the hardest-hit cities in Europe. Of a pre-plague population of approximately 100,000 people, an estimated 60,000 died between 1348 and 1350. The wool merchants, bankers, and artisans who had built one of the most sophisticated commercial cities in the world were dying faster than they could be buried. Giovanni Boccaccio watched the plague consume his city and wrote: 'such was the multitude of corpses brought to the churches every day that the hallowed ground did not suffice.' The city that would produce Brunelleschi, Donatello, Botticelli, and Leonardo was, at this moment, half-empty and traumatised. The connection between this devastation and the cultural explosion that followed is the central mystery of the Renaissance.",
+    "summary": "The epidemic of 1348 killed a very large share of Florence’s inhabitants; contemporary and later estimates commonly range around forty to sixty percent, but exact totals are impossible to recover. Boccaccio’s famous opening to the Decameron conveys social breakdown, fear, and mass burial, though it is also crafted literature. Florence’s later cultural prominence grew from institutions that survived and adapted, not from devastation alone.",
     "causeIds": [
       "black-death-arrives-europe"
     ],
@@ -134,11 +121,11 @@
   },
   {
     "id": "psychological-trauma-collective",
-    "title": "Collective Psychological Trauma",
+    "title": "Trauma, Devotion, and Scapegoating",
     "wiki": "Black_Death",
     "year": 1349,
     "keyword": "shift",
-    "summary": "The psychological impact of mass death on the survivors was profound and lasting. Death had been intimate and universal, striking with no logic: the pious died alongside the sinful, the young alongside the old, priests alongside peasants. The flagellant movement — groups of men publicly whipping themselves in atonement — spread across Europe, seeking to appease divine wrath through visible suffering. Jewish communities were massacred across Germany and France, scapegoated for the plague. The danse macabre — Death as a figure who leads all people, regardless of rank, in a final dance — entered European art as a persistent motif. Survivors had to make sense of a world in which death was arbitrary, God's intentions were opaque, and the old explanations had failed.",
+    "summary": "Plague generated fear, penitential movements, new commemorative practices, and recurring artistic attention to mortality. Flagellant processions spread in parts of Europe, while Jewish communities were falsely accused of poisoning wells and massacred despite papal condemnations. Responses were diverse: many people intensified conventional devotion rather than abandoning it.",
     "causeIds": [
       "black-death-arrives-europe"
     ],
@@ -152,41 +139,37 @@
   },
   {
     "id": "church-fails-to-explain",
-    "title": "The Church Cannot Explain or Stop the Plague",
+    "title": "Pastoral Authority Is Tested",
     "wiki": "Black_Death#Consequences",
     "year": 1349,
     "keyword": "collapse",
-    "summary": "The Black Death was the greatest test the medieval Church had ever faced — and it failed completely. Priests fled their parishes rather than administer last rites to the dying; monasteries closed their doors; bishops issued contradictory instructions. Prayer demonstrably did not prevent death. The clergy died at the same rate as everyone else, removing the idea that righteousness conferred immunity. Most devastatingly, the Church offered no explanation that made theological sense: if God was punishing humanity for sin, why were the innocent dying alongside the guilty? The institution that had claimed for five centuries to mediate between God and humanity had been unable to provide either protection or meaning in the greatest crisis of the medieval world. The authority it lost in 1348 it never fully recovered.",
+    "summary": "Clergy died in large numbers, parish structures were disrupted, and some communities struggled to obtain sacraments and burial. Criticism of clerical conduct and institutional wealth grew in some settings, but the Church did not simply ‘fail completely’: religious giving, confraternities, pilgrimage, and devotional practice often increased after the plague. The crisis weakened some forms of authority while reinforcing others.",
     "causeIds": [
-      "black-death-arrives-europe",
       "church-monopoly-on-meaning",
-      "psychological-trauma-collective",
-      "great-famine-weakens-europe"
+      "black-death-arrives-europe",
+      "psychological-trauma-collective"
     ],
     "effectIds": [
-      "intellectual-vacuum",
-      "humanist-philosophy-emerges",
-      "protestant-reformation-seeds"
+      "intellectual-vacuum"
     ],
     "isAnchor": false,
-    "isSeed": true,
+    "isSeed": false,
     "imageUrl": "https://wp-media.patheos.com/blogs/sites/168/2020/03/Plague-of-Boils-Wittenberg-Bible.jpg"
   },
   {
     "id": "labour-shortage-crisis",
-    "title": "Labour Becomes Scarce and Valuable",
+    "title": "Labour Becomes Scarce",
     "wiki": "Black_Death#Consequences",
     "year": 1350,
     "keyword": "shift",
-    "summary": "With a third to a half of Europe's agricultural workforce dead, the fundamental economics of feudalism inverted overnight. Lords who had previously dictated the terms of serfdom — binding workers to the land at subsistence wages — suddenly had more land than workers to farm it. Surviving serfs could negotiate, demand payment, or simply walk away to a neighbouring estate offering better terms. Wages for agricultural labourers rose dramatically across Europe in the decades following the plague. The legal and economic basis of serfdom — the surplus of desperate workers — had been destroyed by the disease. Feudalism did not die immediately, but the plague had removed the economic foundation that made it work.",
+    "summary": "Mass mortality reduced the supply of workers and tenants, raising wages and bargaining power in many parts of western Europe. Rulers and landlords attempted to restrain mobility and pay, as in England’s Ordinance and Statute of Labourers. Outcomes were regional: labour scarcity helped erode servile obligations in some areas, while elites intensified coercion elsewhere.",
     "causeIds": [
-      "black-death-arrives-europe",
-      "medieval-feudal-order"
+      "medieval-feudal-order",
+      "black-death-arrives-europe"
     ],
     "effectIds": [
       "feudalism-collapses",
-      "peasant-power-rises",
-      "merchant-class-rises"
+      "peasant-power-rises"
     ],
     "isAnchor": false,
     "isSeed": false,
@@ -194,37 +177,34 @@
   },
   {
     "id": "concentrated-wealth-survivors",
-    "title": "Survivors Inherit Concentrated Wealth",
+    "title": "Inheritance and Wealth Are Reallocated",
     "wiki": "Black_Death#Consequences",
     "year": 1352,
     "keyword": "pressure",
-    "summary": "The plague's demographic devastation had an unexpected economic consequence: survivors frequently inherited from multiple deceased relatives simultaneously, concentrating wealth in ways that took generations to accumulate under normal conditions. In Florence, merchant families that survived intact found themselves controlling the assets of partners, relatives, and associates who had died without heirs. This concentration of wealth in the hands of a relatively small commercial class — combined with the disruption of the old aristocratic order — created a new economic elite with both the resources and the social ambition to invest in something entirely new: the systematic patronage of art, architecture, and scholarship as expressions of civic and personal glory.",
+    "summary": "High mortality transferred land, houses, tools, and financial claims to survivors, sometimes through several inheritances in quick succession. Per-capita wealth and consumption rose for parts of the surviving population, but gains were uneven and institutions shaped who benefited. This redistribution could support demand for skilled work and display, yet it did not automatically create Renaissance patronage.",
     "causeIds": [
       "black-death-arrives-europe",
       "florence-devastated"
     ],
     "effectIds": [
-      "medici-bank-rises",
       "patronage-system-emerges"
     ],
     "isAnchor": false,
-    "isSeed": true,
+    "isSeed": false,
     "imageUrl": "https://res.cloudinary.com/aenetworks/image/upload/v1737386302/medicifamily.jpg"
   },
   {
     "id": "feudalism-collapses",
-    "title": "Feudalism Begins to Collapse",
+    "title": "Serfdom Retreats Unevenly",
     "wiki": "Feudalism",
     "year": 1363,
     "keyword": "collapse",
-    "summary": "The labour shortage created by the plague — and sustained by recurring outbreaks through the 1360s and beyond — made the legal enforcement of serfdom practically impossible across much of Europe. In England, the Statute of Labourers (1351) attempted to freeze wages at pre-plague levels; it failed completely, generating the resentment that fuelled the Peasants' Revolt of 1381. In France, the Jacquerie peasant uprising of 1358 terrified the nobility. In Italy, where serfdom was already weaker, the commercial city-states adapted by developing wage labour and apprenticeship systems that rewarded individual skill. The rigid social immobility that had characterised medieval Europe — the assumption that a person's station was fixed by birth — began to loosen, creating the social conditions in which individual achievement could be imagined and rewarded.",
+    "summary": "In much of western Europe, labour scarcity, migration, bargaining, and changing land use contributed to a long retreat of serfdom. The process was neither immediate nor universal: legal servility persisted for generations, and parts of central and eastern Europe later experienced stronger labour coercion. The Black Death was a major shock within this divergence, not the single moment when ‘feudalism collapsed.’",
     "causeIds": [
       "labour-shortage-crisis",
       "black-death-recurrence"
     ],
     "effectIds": [
-      "merchant-class-rises",
-      "individual-matters-more",
       "peasant-power-rises"
     ],
     "isAnchor": false,
@@ -233,18 +213,18 @@
   },
   {
     "id": "peasant-power-rises",
-    "title": "Peasants Assert New Power",
+    "title": "Workers and Tenants Gain Leverage",
     "wiki": "Peasants'_Revolt",
     "year": 1370,
     "keyword": "shift",
-    "summary": "The plague-era labour shortage gave peasants and urban workers a political leverage they had never previously possessed. The Ciompi revolt in Florence (1378) — in which wool-workers demanded political representation — was the first significant urban labour uprising in European history. The English Peasants' Revolt of 1381 marched on London demanding the abolition of serfdom. Both uprisings were suppressed, but neither could fully restore the pre-plague economic relationship between lord and worker. The idea that ordinary people had interests worth fighting for — and power worth exercising — entered European political consciousness for the first time, laying groundwork for the later concept of individual rights.",
+    "summary": "Surviving labourers in many regions demanded higher wages, moved between employers, and negotiated rents and obligations. Governments and landlords resisted, producing statutes, prosecutions, and occasional revolt; the English rising of 1381 had causes beyond wages alone. The post-plague balance of power shifted in some places, but peasants did not become uniformly free or prosperous.",
     "causeIds": [
       "labour-shortage-crisis",
-      "feudalism-collapses",
-      "black-death-recurrence"
+      "black-death-recurrence",
+      "feudalism-collapses"
     ],
     "effectIds": [
-      "individual-matters-more"
+      "merchant-class-rises"
     ],
     "isAnchor": false,
     "isSeed": false,
@@ -252,15 +232,14 @@
   },
   {
     "id": "merchant-class-rises",
-    "title": "The Merchant Class Fills the Power Vacuum",
+    "title": "Urban Elites Expand Their Influence",
     "wiki": "Bourgeoisie",
     "year": 1370,
     "keyword": "shift",
-    "summary": "As the old feudal aristocracy was weakened by plague mortality and economic disruption, the commercial merchant class of the Italian city-states expanded to fill the political and cultural vacuum. These were people whose wealth came from trade, banking, and manufacturing rather than from land and military service — and their values reflected their origins. They were literate, numerate, internationally connected, and had no particular reverence for inherited tradition. They competed fiercely with each other for status and reputation — not through military prowess but through the patronage of architects, artists, and scholars. The cultural ambition of the Renaissance was, in this sense, the cultural ambition of a new class asserting its legitimacy.",
+    "summary": "Merchants, artisans, notaries, and financiers had already become politically important in many Italian communes before the plague. Demographic change and inheritance reshaped urban fortunes, but established oligarchies often retained or strengthened control. Renaissance patronage emerged from competition among merchant families, guilds, governments, courts, and religious institutions—not from one newly created class.",
     "causeIds": [
-      "labour-shortage-crisis",
-      "feudalism-collapses",
-      "pre-plague-italy-urbanised"
+      "pre-plague-italy-urbanised",
+      "peasant-power-rises"
     ],
     "effectIds": [
       "medici-bank-rises",
@@ -272,18 +251,16 @@
   },
   {
     "id": "intellectual-vacuum",
-    "title": "An Intellectual Vacuum Opens",
+    "title": "Competing Explanations Multiply",
     "wiki": "Renaissance_humanism#History",
     "year": 1360,
     "keyword": "pressure",
-    "summary": "The Church's catastrophic failure to explain or prevent the plague left a vacuum in the European intellectual landscape. If God's will could not explain what had happened — and the theological explanations on offer satisfied almost no one — what could? The ancient world suddenly seemed relevant again: the Romans and Greeks had built flourishing civilisations without Christian theology, had written about human experience with extraordinary insight, and had developed philosophical frameworks that addressed earthly life directly. The rediscovery and close reading of ancient texts was not merely scholarly nostalgia — it was an urgent search for alternative frameworks of meaning in a world whose existing framework had visibly failed.",
+    "summary": "The plague exposed the limits of contemporary medicine and generated debate over contagion, environment, morality, and public order. It did not leave an intellectual vacuum: university physicians, theologians, civic officials, and popular movements all produced explanations and responses. The long-term significance lay in institutional adaptation and argument rather than the disappearance of meaning.",
     "causeIds": [
-      "church-fails-to-explain",
-      "church-monopoly-on-meaning"
+      "church-fails-to-explain"
     ],
     "effectIds": [
-      "humanist-philosophy-emerges",
-      "classical-texts-rediscovered"
+      "humanist-philosophy-emerges"
     ],
     "isAnchor": false,
     "isSeed": false,
@@ -291,20 +268,19 @@
   },
   {
     "id": "individual-confronts-mortality",
-    "title": "Death Makes the Individual Real",
+    "title": "Mortality Becomes More Visible",
     "wiki": "Memento_mori",
     "year": 1355,
     "keyword": "shift",
-    "summary": "When death is abstract and distant, it is easy to live for a collective identity — parish, guild, family name — and defer personal fulfilment to an afterlife. When death is immediate, random, and could arrive by next Tuesday, the present life acquires an urgency it previously lacked. Plague survivors across Europe reported a heightened awareness of their own individual existence — what Boccaccio described as the desire to 'live well while we may.' This was not hedonism so much as a fundamental shift in the centre of gravity: from the collective and the afterlife to the individual and the present. The question 'what will I be remembered for?' became meaningful in a way it had never been when social roles were fixed by birth and the only life that truly mattered was the one after death. In forcing that question on an entire generation, the plague invented the modern self.",
+    "summary": "Wills, memorial foundations, funerary art, sermons, and literature reveal intensified attention to death in the later Middle Ages. Yet concern with salvation, reputation, family, and earthly life long predated the plague, and no evidence shows that one epidemic ‘invented the modern self.’ Plague experience added urgency to existing devotional and literary traditions.",
     "causeIds": [
       "psychological-trauma-collective"
     ],
     "effectIds": [
-      "humanist-philosophy-emerges",
       "individual-matters-more"
     ],
     "isAnchor": false,
-    "isSeed": true,
+    "isSeed": false,
     "imageUrl": "https://histoiresdelombre.fr/wp-content/uploads/2021/01/800px-Triumph_death_clusone.jpeg"
   },
   {
@@ -313,10 +289,10 @@
     "wiki": "Decameron",
     "year": 1353,
     "keyword": "catalyst",
-    "summary": "Giovanni Boccaccio wrote the Decameron between approximately 1348 and 1353, directly in response to the plague — framed as a collection of stories told by ten young Florentines who have fled the city to wait out the pestilence. The book is revolutionary in almost every dimension: written in Italian rather than Latin, its subject is entirely human and earthly — love, wit, desire, ambition, folly — with no theological framework organising the material. Priests are objects of satire; merchants and women are heroes; individual ingenuity is celebrated over inherited virtue. It is the first major work of European literature to treat human experience on its own terms. Petrarch called it a book written for the masses; posterity recognised it as one of the founding texts of modern European literature.",
+    "summary": "Giovanni Boccaccio composed the Decameron in the years after 1348, framing one hundred stories around ten young Florentines who leave the plague-stricken city. Its vernacular prose, social range, humour, eroticism, and satire made it a landmark of European literature. The work is not secular in a simple modern sense, but it gives extraordinary attention to practical intelligence, fortune, desire, and social performance.",
     "causeIds": [
-      "florence-devastated",
-      "petrarch-seeds-humanism"
+      "petrarch-seeds-humanism",
+      "florence-devastated"
     ],
     "effectIds": [
       "humanist-philosophy-emerges",
@@ -328,21 +304,19 @@
   },
   {
     "id": "humanist-philosophy-emerges",
-    "title": "Humanism — Man as the Measure",
+    "title": "Renaissance Humanism Takes Shape",
     "wiki": "Renaissance_humanism",
     "year": 1360,
     "keyword": "shift",
-    "summary": "Renaissance humanism was the intellectual response to a civilisational crisis. The plague had killed half of Florence, shattered the Church's authority to explain suffering, and stripped away the feudal certainties that told people who they were and where they stood. What emerged in the wreckage was a new way of thinking about what it meant to be human. Scholars like Coluccio Salutati and Leonardo Bruni argued that human beings had inherent dignity, that earthly achievement was worth celebrating, that ancient texts contained wisdom applicable to present life, and that individual character and accomplishment were worthy subjects of serious attention. They called it the 'active life' — civic engagement, political participation, artistic creation — as morally valid alternatives to the contemplative religious existence that medieval Christianity had held up as the ideal. It was not anti-Christian; it was this-worldly in a way medieval thought had never permitted itself to be. The individual, rather than the collective or the institution, became the unit of meaning. This was the philosophical operating system of everything that followed — the art, the science, the politics, the sense of self that we still inhabit today.",
+    "summary": "Renaissance humanism developed from the study and imitation of classical language, rhetoric, history, poetry, and moral philosophy. Petrarch, Boccaccio, Salutati, Bruni, and others built on medieval schools, urban institutions, manuscript collecting, and civic politics. Plague changed the society in which humanism spread, but humanism was neither a direct response to epidemic trauma nor an anti-Christian creed.",
     "causeIds": [
+      "petrarch-seeds-humanism",
       "intellectual-vacuum",
-      "individual-confronts-mortality",
-      "church-fails-to-explain",
-      "boccaccio-writes-decameron",
-      "petrarch-seeds-humanism"
+      "boccaccio-writes-decameron"
     ],
     "effectIds": [
-      "classical-texts-rediscovered",
       "individual-matters-more",
+      "classical-texts-rediscovered",
       "patronage-system-emerges"
     ],
     "isAnchor": true,
@@ -351,14 +325,12 @@
   },
   {
     "id": "individual-matters-more",
-    "title": "The Individual Emerges",
+    "title": "Portraiture and Biography Flourish",
     "wiki": "Individualism",
     "year": 1370,
     "keyword": "turning-point",
-    "summary": "The Renaissance was, above all, the discovery of the individual as a category worth taking seriously. The medieval world had organised itself around types — the knight, the priest, the peasant, the merchant — but Renaissance culture became fascinated with specific people: their faces, their biographies, their inner lives, their contradictions. The portrait as an art form exploded in the 15th century. Biography as a literary genre was invented. Autobiography — the idea that one's own life was worth narrating — appeared for the first time. Alberti wrote: 'Men can do all things if they will.' This was a genuinely new idea, enabled by the plague's destruction of the collective frameworks — feudal, religious, social — within which individual aspiration had previously been contained.",
+    "summary": "Renaissance culture gave new prominence to named artists, patrons, rulers, scholars, and citizens through portraits, biographies, letters, medals, and autobiographical writing. This was an intensification rather than the first appearance of individuality in Europe; medieval people also expressed personal identity and ambition. Urban competition, courts, humanist rhetoric, and new artistic markets all contributed.",
     "causeIds": [
-      "feudalism-collapses",
-      "peasant-power-rises",
       "individual-confronts-mortality",
       "humanist-philosophy-emerges"
     ],
@@ -372,11 +344,11 @@
   },
   {
     "id": "vernacular-literature",
-    "title": "Literature in the Language of the People",
+    "title": "Vernacular Literature Expands",
     "wiki": "Vernacular_literature",
     "year": 1360,
     "keyword": "shift",
-    "summary": "The Decameron's use of Italian rather than Latin was not merely a stylistic choice — it was a statement about who literature was for. Latin was the language of the Church, the universities, and the learned elite; Italian was the language of merchants, craftsmen, and women. Writing in the vernacular democratised access to ideas and stories in ways that Latin composition never could. Dante had made Italian a literary language with the Divine Comedy; Petrarch and Boccaccio established it as capable of expressing the full range of human experience. When Gutenberg's printing press arrived a century later, it was vernacular texts — accessible to the literate middle class rather than only the clerical elite — that it spread most powerfully.",
+    "summary": "Dante, Petrarch, and Boccaccio helped establish Tuscan as a prestigious literary language, while other European vernacular traditions were already flourishing. Writing outside Latin broadened potential audiences but did not automatically democratise reading, since literacy and books remained limited. Printing later amplified vernacular circulation alongside a still-vigorous Latin culture.",
     "causeIds": [
       "boccaccio-writes-decameron"
     ],
@@ -393,34 +365,27 @@
     "wiki": "Medici_Bank",
     "year": 1397,
     "keyword": "turning-point",
-    "summary": "Giovanni di Bicci de' Medici founded the Medici Bank in Florence in 1397, building on the concentrated merchant wealth of the post-plague period. The bank expanded rapidly under his son Cosimo, establishing branches across Europe and becoming the primary financial institution of the papacy itself. The Medici were not merely wealthy — they were politically dominant in Florence while maintaining the fiction of being private citizens in a republic. Their cultural patronage was both genuine and strategic: commissioning great art served their civic ambitions, their international reputation, and their deep personal interest in ideas. Without the Medici Bank, the institutional patronage that funded Brunelleschi, Donatello, and Botticelli would not have existed in the form it did; Michelangelo received early patronage under Lorenzo before the bank's collapse in 1494.",
+    "summary": "Giovanni di Bicci de’ Medici founded the Medici Bank in 1397, building on older Florentine banking traditions rather than on plague inheritances alone. Its branches, papal business, and political networks helped the family accumulate influence, though the bank later declined and closed in 1494. Medici patronage mattered greatly, but Florence’s cultural production depended on many patrons and institutions.",
     "causeIds": [
-      "concentrated-wealth-survivors",
       "merchant-class-rises"
     ],
     "effectIds": [
       "patronage-system-emerges",
       "platonic-academy"
     ],
-    "relatedScenario": {
-      "scenarioId": "templars",
-      "nodeId": "medici-bank-founded",
-      "label": "Connects to The Last Templars"
-    },
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Benozzo_Gozzoli_-_Procession_of_the_Magi_%28detail%29_-_WGA10283.jpg"
   },
   {
     "id": "classical-texts-rediscovered",
-    "title": "Ancient Texts Return to Europe",
+    "title": "Greek Learning Expands in Italy",
     "wiki": "Greek_scholars_in_the_Renaissance",
     "year": 1439,
     "keyword": "shift",
-    "summary": "The humanist hunger for ancient texts was met from an unexpected direction: Byzantine scholars fleeing the advancing Ottoman Turks brought Greek manuscripts to Italy that Western Europe had not seen for centuries. The works of Plato, Homer, Archimedes, and countless others arrived in Florence, Venice, and Rome through the late 14th and 15th centuries. This was not entirely new — Latin texts had been recovered throughout the medieval period — but the Greek texts, previously inaccessible to scholars who read only Latin, opened entirely new intellectual vistas. When Cosimo de' Medici met the Byzantine philosopher Gemistus Plethon at the Council of Florence in 1439 and heard him lecture on Plato, the Platonic Academy was conceived.",
+    "summary": "Greek texts and teachers reached Italy through centuries of contact with Byzantium, with movement accelerating before and after 1453. Humanists sought manuscripts, learned Greek, produced translations, and compared texts, while medieval Latin Europe had never lost all classical learning. The Council of Florence and émigré scholars strengthened an existing revival rather than suddenly restoring a forgotten antiquity.",
     "causeIds": [
-      "humanist-philosophy-emerges",
-      "intellectual-vacuum"
+      "humanist-philosophy-emerges"
     ],
     "effectIds": [
       "platonic-academy",
@@ -432,21 +397,21 @@
   },
   {
     "id": "patronage-system-emerges",
-    "title": "Patronage — Wealth Funding Genius",
+    "title": "Patronage Organises Cultural Production",
     "wiki": "Patronage",
     "year": 1400,
     "keyword": "shift",
-    "summary": "The Renaissance patronage system — in which wealthy merchants, civic governments, and religious institutions funded artists, architects, and scholars — was a genuinely new social institution. It provided the economic infrastructure for professional artistic and intellectual work independent of the Church's institutional framework. Patrons competed with each other to commission the most impressive works, turning artistic excellence into a form of civic competition. The relationship between patron and artist was complex — part employer and employee, part collaborator, part mutual exploiter — but it created conditions in which artistic genius could be identified, developed, and deployed at a scale that individual commissions or Church employment alone could never have achieved.",
+    "summary": "Merchants, guilds, confraternities, courts, communes, and churches commissioned art, architecture, music, and scholarship. Patronage was not a new Renaissance invention, but growing wealth, political rivalry, and specialised workshops expanded its scale and visibility. Artists remained dependent on institutions and clients even as some acquired unusual fame and bargaining power.",
     "causeIds": [
       "concentrated-wealth-survivors",
       "merchant-class-rises",
+      "humanist-philosophy-emerges",
       "individual-matters-more",
-      "medici-bank-rises",
-      "humanist-philosophy-emerges"
+      "medici-bank-rises"
     ],
     "effectIds": [
-      "renaissance-art-emerges",
-      "platonic-academy"
+      "platonic-academy",
+      "renaissance-art-emerges"
     ],
     "isAnchor": false,
     "isSeed": false,
@@ -454,16 +419,15 @@
   },
   {
     "id": "platonic-academy",
-    "title": "The Platonic Academy",
+    "title": "Ficino’s Platonic Circle",
     "wiki": "Platonic_Academy_(Florence)",
     "year": 1462,
     "keyword": "catalyst",
-    "summary": "Cosimo de' Medici established the Platonic Academy at his villa at Careggi around 1462, funding Marsilio Ficino to translate the complete works of Plato into Latin for the first time. The Academy was not a formal institution but a gathering of scholars, artists, and thinkers who met to discuss Platonic and Neoplatonic philosophy. Ficino's translation made Plato directly accessible to the Latin-reading world for the first time in a millennium — with transformative effects on European thought. The Neoplatonic idea that beauty was an earthly reflection of divine truth gave Renaissance artists a theological justification for celebrating physical beauty and sensory experience. The Academy continued under Lorenzo de' Medici after Cosimo's death in 1464. Botticelli's Primavera and Birth of Venus are painted Neoplatonism.",
+    "summary": "Cosimo de’ Medici supported Marsilio Ficino’s study and translation of Plato, and Ficino’s circle at Careggi became an important centre of Florentine Platonism. Historians generally avoid treating it as a formal academy with continuous membership or rules. Ficino’s complete Latin Plato, printed in 1484, influenced philosophy, theology, literature, and art, though specific paintings cannot always be reduced to a single Neoplatonic programme.",
     "causeIds": [
       "medici-bank-rises",
       "classical-texts-rediscovered",
-      "patronage-system-emerges",
-      "fall-of-constantinople"
+      "patronage-system-emerges"
     ],
     "effectIds": [
       "renaissance-art-emerges"
@@ -474,11 +438,11 @@
   },
   {
     "id": "printing-press-enables-spread",
-    "title": "Gutenberg's Press Spreads Renaissance Ideas",
+    "title": "Print Accelerates Circulation",
     "wiki": "Printing_press",
     "year": 1450,
     "keyword": "shift",
-    "summary": "Johannes Gutenberg's printing press, developed around 1440–1450, transformed the economics of knowledge transmission. A manuscript that required months of skilled labour to copy could now be reproduced in hundreds of identical copies in days. The first major beneficiaries were humanist texts and vernacular literature — precisely the material that Boccaccio, Petrarch, and their successors had produced in accessible Italian rather than clerical Latin. Renaissance ideas that might otherwise have circulated among a small Florentine elite were now available in print to readers across Europe. The press did not cause the Renaissance, but it was the mechanism by which a specifically Italian cultural movement became a European civilisational transformation.",
+    "summary": "Movable-type printing spread through Europe after Gutenberg’s work in the mid-fifteenth century, sharply lowering the cost of producing many copies. Printers issued religious, legal, classical, humanist, scientific, and vernacular works; Latin remained central to the market. Print accelerated and stabilised communication, but it did not turn a purely Florentine Renaissance into a European one by itself.",
     "causeIds": [
       "vernacular-literature"
     ],
@@ -491,21 +455,21 @@
       "label": "Connects to Scientific Revolution"
     },
     "isAnchor": false,
-    "isSeed": true,
+    "isSeed": false,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Buchdruck-15-jahrhundert_1.jpg"
   },
   {
     "id": "renaissance-art-emerges",
-    "title": "Renaissance Art — The Human Form Reborn",
+    "title": "Renaissance Art Develops",
     "wiki": "Renaissance_art",
     "year": 1465,
     "keyword": "catalyst",
-    "summary": "The visual art of the Renaissance represented a rupture with everything that preceded it. Brunelleschi's dome for Florence Cathedral (begun 1420) applied mathematical principles of perspective and engineering to architecture. Donatello's bronze David (c. 1440–1460, exact date debated) was the first free-standing nude sculpture since antiquity — a celebration of the human body as beautiful in itself. Botticelli's mythological paintings brought pagan subject matter into mainstream art. Leonardo da Vinci's anatomical studies made the human body a subject of rigorous scientific inquiry. What united them was the conviction — derived from humanism, Neoplatonism, and the post-plague elevation of individual achievement — that the human form and human experience were worthy of the most serious artistic attention.",
+    "summary": "Fifteenth-century Italian artists and architects transformed perspective, naturalism, classical reference, workshop practice, and the social status of artistic labour. Brunelleschi, Donatello, Masaccio, Botticelli, Leonardo, and many others worked within civic, religious, courtly, and commercial settings. Their innovations grew from medieval precedents as well as humanism, mathematics, antiquarian study, and patronage.",
     "causeIds": [
-      "patronage-system-emerges",
-      "platonic-academy",
+      "individual-matters-more",
       "classical-texts-rediscovered",
-      "individual-matters-more"
+      "patronage-system-emerges",
+      "platonic-academy"
     ],
     "effectIds": [
       "renaissance-spreads-europe",
@@ -517,14 +481,15 @@
   },
   {
     "id": "renaissance-spreads-europe",
-    "title": "The Renaissance Goes North",
+    "title": "Renaissance Practices Travel and Change",
     "wiki": "Northern_Renaissance",
     "year": 1490,
     "keyword": "consequence",
-    "summary": "Italian Renaissance ideas spread north through a combination of Gutenberg's press, the movement of scholars, and the patronage of northern rulers who wanted the cultural prestige that Italian models represented. Albrecht Dürer travelled to Italy twice and brought mathematical perspective and classical proportion back to German painting. Erasmus of Rotterdam synthesised humanist scholarship with Christian reform, applying to theology the same critical textual methods that Italian humanists had applied to classical texts. Thomas More's Utopia imagined an ideal society built on reason rather than tradition. The Northern Renaissance was not merely an imitation of Italy — it adapted humanist methods to its own materials, producing some of the most consequential intellectual work of the 16th century.",
+    "summary": "Humanist scholarship and Italian artistic practices circulated through print, diplomacy, universities, courts, trade, migration, and war. Northern European writers and artists adapted them to local devotional, political, and visual traditions rather than merely copying Italy. Erasmus, Dürer, More, and others demonstrate a connected but diverse European movement.",
     "causeIds": [
+      "printing-press-enables-spread",
       "renaissance-art-emerges",
-      "printing-press-enables-spread"
+      "fall-of-constantinople"
     ],
     "effectIds": [
       "scientific-revolution-seeds",
@@ -536,30 +501,34 @@
   },
   {
     "id": "scientific-revolution-seeds",
-    "title": "Seeds of the Scientific Revolution",
+    "title": "Humanism Reshapes Learned Practice",
     "wiki": "Scientific_Revolution",
     "year": 1500,
     "keyword": "consequence",
-    "summary": "The Renaissance's intellectual habits — direct observation over inherited authority, mathematical analysis of the physical world, individual inquiry rather than collective tradition — were precisely the methods that would produce the Scientific Revolution a century later. Leonardo da Vinci's anatomical drawings anticipated Vesalius; Brunelleschi's geometry anticipated Galileo's physics; the humanist practice of going back to original sources rather than accepting medieval commentaries anticipated Copernicus reading Aristarchus. The causal connection is not direct — the Scientific Revolution had its own specific triggers — but the Renaissance had already dismantled the intellectual framework that would have made it impossible.",
+    "summary": "Humanist philology encouraged scholars to compare manuscripts, recover ancient works, study languages, and challenge corrupt textual traditions. Artists, engineers, physicians, instrument makers, universities, and courts also developed practices of observation and calculation. These changes contributed to early modern science, but the Scientific Revolution cannot be derived directly from Renaissance art or plague.",
     "causeIds": [
-      "renaissance-spreads-europe",
-      "renaissance-art-emerges"
+      "renaissance-art-emerges",
+      "renaissance-spreads-europe"
     ],
     "effectIds": [],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg",
+    "relatedScenario": {
+      "scenarioId": "scientific-revolution",
+      "nodeId": "black-death-disruption",
+      "label": "Connects to The Scientific Revolution"
+    }
   },
   {
     "id": "protestant-reformation-seeds",
-    "title": "Seeds of the Protestant Reformation",
+    "title": "Humanism Meets Church Reform",
     "wiki": "Protestant_Reformation",
     "year": 1500,
     "keyword": "consequence",
-    "summary": "The Protestant Reformation of 1517 was not caused by the plague — but the plague had done the essential preparatory work. It had shattered the Church's moral authority by demonstrating its inability to protect or explain. It had elevated individual conscience over institutional mediation. It had created Erasmus, whose humanist biblical scholarship exposed the gap between the Church's claims and the text of scripture. And when Gutenberg's press — an independent invention of the following century — arrived, it found a Europe already primed by plague and humanism to receive Luther's challenge. When Luther nailed his theses to the Wittenberg church door in 1517, he was completing a process of institutional delegitimisation that the plague had begun 170 years earlier.",
+    "summary": "Christian humanists applied linguistic and historical criticism to scripture and church texts, helping shape later reform debates. Printing, ecclesiastical politics, indulgence controversies, princely power, pastoral reform, and theology were all crucial to the Reformation. The Black Death belongs to a long history of criticism and institutional change, not a direct 170-year causal chain to Luther.",
     "causeIds": [
-      "renaissance-spreads-europe",
-      "church-fails-to-explain"
+      "renaissance-spreads-europe"
     ],
     "effectIds": [],
     "isAnchor": false,
@@ -568,15 +537,15 @@
   },
   {
     "id": "fall-of-constantinople",
-    "title": "Fall of Constantinople",
+    "title": "Constantinople Falls",
     "wiki": "Fall_of_Constantinople",
     "imageUrl": "https://warfarehistorynetwork.com/wp-content/uploads/2018/12/M-Constantine-LEAD-4C-Mar18-scaled.jpg",
     "year": 1453,
     "keyword": "catalyst",
-    "summary": "On May 29, 1453, Ottoman forces under Sultan Mehmed II breached the walls of Constantinople after a 53-day siege, ending the Byzantine Empire and the last direct institutional continuity with ancient Rome. Byzantine scholars carrying Greek manuscripts that Western Europe had not seen for centuries flooded into Italy — Plato, Homer, Archimedes, and Thucydides arriving in Florentine and Venetian collections. The timing was decisive: Cosimo de' Medici had already been primed by the philosopher Gemistus Plethon's visit to the 1439 Council of Florence to understand the depth of what Greek thought contained. The manuscripts that arrived after 1453 gave Marsilio Ficino the material he needed to translate the complete works of Plato — the founding act of the Platonic Academy. The fall of one civilisation directly fertilised the birth of another.",
+    "summary": "Ottoman forces captured Constantinople in 1453, ending the Byzantine Empire but not Greek learning or Orthodox culture. Greek-speaking scholars and manuscripts had already been moving into Italy, and exchanges continued under Ottoman rule. The conquest accelerated some migration and collecting, but the claim that one civilisation died to ‘fertilise’ another oversimplifies both Byzantine continuity and the Renaissance.",
     "causeIds": [],
     "effectIds": [
-      "platonic-academy"
+      "renaissance-spreads-europe"
     ],
     "relatedScenario": {
       "scenarioId": "age-of-exploration",
@@ -588,12 +557,12 @@
   },
   {
     "id": "black-death-recurrence",
-    "title": "The Plague Returns",
+    "title": "Plague Becomes Recurrent",
     "wiki": "Black_Death#Recurrences",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28coloured_version%29.png",
     "year": 1361,
     "keyword": "pressure",
-    "summary": "The Black Death was not a single event but a recurring catastrophe. Major return outbreaks struck Europe in 1361 (sometimes called the 'pestis secunda' or children's plague, which killed a disproportionate number of those born after 1347 who lacked acquired immunity), 1369, 1374–1375, and repeatedly through the 15th century. This sustained demographic pressure kept the economic logic of feudalism broken for decades: every time population began to recover, another wave removed workers and renewed upward pressure on wages. The recurrences also prevented any psychological restoration of the pre-plague worldview — each return reminded survivors that death remained arbitrary, that the Church's explanations remained inadequate, and that the old certainties were permanently gone. The Renaissance did not grow from a single catastrophe but from a generation that lived its entire life in the shadow of recurring plague.",
+    "summary": "Plague returned repeatedly after 1348, including major outbreaks in 1361 and later decades, slowing demographic recovery and renewing social and economic disruption. The label ‘children’s plague’ for 1361 reflects some contemporary observations but does not prove acquired immunity as the sole explanation for its age pattern. Recurrence made plague a continuing condition of late medieval life rather than a single four-year shock.",
     "causeIds": [
       "black-death-arrives-europe"
     ],

@@ -1,26 +1,28 @@
 [
   {
     "id": "sea-as-death-place",
-    "title": "The Sea Was Not a Holiday",
-    "wiki": "History_of_swimming",
+    "title": "The European Coast Is Mostly Work, Not Resort",
+    "wiki": "Sea_bathing",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ships_in_a_Storm_on_a_Rocky_Coast_by_Jan_Porcellis.jpg",
     "year": 1700,
     "keyword": "pressure",
-    "summary": "For most of European history, the sea was a place of work and death, not leisure. Fishing communities depended on it; navies fought on it; merchants crossed it. Inland populations rarely encountered it and feared it when they did. The superstition that sailors shouldn't learn to swim was widespread — the reasoning being that swimming prolonged the suffering of drowning rather than preventing it, and that fate was better met quickly. Beaches were sites of smuggling, fish-gutting, and boat repair. The concept of visiting the coast for recreation, or entering the water voluntarily for pleasure, had no cultural precedent. The beach was a workplace, not a resort.",
+    "summary": "For many early-modern Europeans the shore was primarily a workplace, transport edge, military frontier, and source of danger rather than a holiday landscape. Swimming ability varied among sailors and coastal peoples, so claims that sailors universally refused to learn are too broad. The important shift was cultural: elite British and northern European society had not yet built a large resort industry around recreational sea bathing.",
     "causeIds": [],
     "effectIds": [
-      "sea-bathing-declared-medicinal"
+      "sea-bathing-declared-medicinal",
+      "bathing-machines-invented"
     ],
     "isAnchor": false,
-    "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ships_in_a_Storm_on_a_Rocky_Coast_by_Jan_Porcellis.jpg"
+    "isSeed": true
   },
   {
     "id": "sea-bathing-declared-medicinal",
-    "title": "The Doctor Says Go in the Sea",
-    "wiki": "Richard_Russell_(physician)",
+    "title": "The Doctor Prescribes the Sea",
+    "wiki": "Richard_Russell_(doctor)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Brighton_beach_1820s.jpg",
     "year": 1750,
-    "keyword": "spark",
-    "summary": "In 1750, Dr Richard Russell published 'A Dissertation Concerning the Use of Sea Water in the Diseases of the Glands' — a medical treatise recommending sea bathing and even the drinking of seawater as treatments for glandular diseases, scurvy, and various other conditions. Russell set up practice in Brighthelmstone (Brighton), bringing wealthy patients from London to take the cure. His recommendations were not obviously correct — seawater is toxic to drink and cold immersion carries its own risks — but they arrived at a moment when the fashionable world was receptive to new health theories, and his timing was perfect. The wealthy followed his prescriptions not primarily because they believed in the medicine but because the doctor had given them permission to do something new: go to the sea.",
+    "keyword": "catalyst",
+    "summary": "Physician Richard Russell published a Latin treatise in 1750 and an English edition in 1752 promoting seawater—both bathing in it and drinking it—for disorders of the glands and related complaints. His medical theory was dubious by modern standards, but it gave affluent patients a respectable reason to travel to the coast. Health, fashion, sociability, and status then reinforced one another.",
     "causeIds": [
       "sea-as-death-place"
     ],
@@ -29,38 +31,34 @@
       "brighton-becomes-fashionable"
     ],
     "isAnchor": true,
-    "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Brighton_beach_1820s.jpg",
-    "relatedScenario": {
-      "scenarioId": "cholera-map",
-      "nodeId": "public-health-revolution",
-      "label": "Connects to The Map That Saved a Million Lives"
-    }
+    "isSeed": true
   },
   {
     "id": "bathing-machines-invented",
-    "title": "The Bathing Machine",
+    "title": "Privacy Is Engineered on Wheels",
     "wiki": "Bathing_machine",
-    "year": 1760,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Bathing_machines_at_Scarborough.jpg",
+    "year": 1750,
     "keyword": "shift",
-    "summary": "The bathing machine — a wheeled wooden hut that could be drawn by a horse into the sea, allowing bathers to descend into the water from a private enclosure — was invented in the 1750s-60s as a solution to the obvious problem: how do you enter the sea in an era that required women to be covered from neck to ankle and men to be separated from women at all times? The bathing machine made sea bathing possible for the respectable classes by preserving modesty throughout. A bather would change inside the hut while the horse drew it into the sea; a canvas awning at the water's end provided additional privacy. The machines were simultaneously absurd and essential — technology built entirely to manage the social anxiety of a new activity.",
+    "summary": "Bathing machines were in use at Brighton by about 1750, allowing bathers to change in private and enter the water while screened from shore. Designs and rules differed by resort; women often wore heavy bathing gowns, while men at some beaches bathed naked until regulation increased. The machine did not invent sea bathing, but it made elite participation compatible with contemporary expectations of modesty.",
     "causeIds": [
+      "sea-as-death-place",
       "sea-bathing-declared-medicinal"
     ],
     "effectIds": [
       "brighton-becomes-fashionable"
     ],
     "isAnchor": false,
-    "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Bathing_machines_at_Scarborough.jpg"
+    "isSeed": true
   },
   {
     "id": "brighton-becomes-fashionable",
-    "title": "The Prince Makes Brighton Fashionable",
-    "wiki": "Brighton#History",
+    "title": "Royal Attention Accelerates Brighton",
+    "wiki": "Brighton",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Royal-pavilion-brighton.jpg",
     "year": 1783,
-    "keyword": "catalyst",
-    "summary": "The Prince of Wales — the future George IV — began visiting Brighton in 1783, drawn by both Dr Russell's medical recommendations and the pleasures of a town sufficiently distant from his father's court to allow some independence. His presence transformed Brighton from a modest fishing town into the most fashionable resort in England. He built the Royal Pavilion — an extraordinary building in Indian and Mughal style — and made the Brighton season an essential fixture of aristocratic social life. King George III made sea bathing at Weymouth royal by entering the water to the sound of a band playing 'God Save the King.' Royal endorsement had done for sea bathing what it had done for coffee houses and the Riviera: made something new acceptable by making it aristocratic.",
+    "keyword": "turning-point",
+    "summary": "Brighton was already developing as a health and pleasure resort when the Prince of Wales first visited in 1783. His repeated stays and the later Royal Pavilion magnified its celebrity, while doctors, lodging houses, assembly rooms, and transport links had already laid the groundwork. Royal patronage was an accelerator, not the sole cause of the resort's rise.",
     "causeIds": [
       "sea-bathing-declared-medicinal",
       "bathing-machines-invented"
@@ -69,26 +67,25 @@
       "railway-brings-masses-to-coast"
     ],
     "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Royal-pavilion-brighton.jpg"
+    "isSeed": true
   },
   {
     "id": "railway-brings-masses-to-coast",
-    "title": "The Railway Democratises the Beach",
-    "wiki": "Brighton_Main_Line",
+    "title": "The Railway Makes a Day at the Sea Possible",
+    "wiki": "History_of_rail_transport_in_Great_Britain",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Brighton_beach_1890s.jpg",
     "year": 1841,
-    "keyword": "turning-point",
-    "summary": "The railway reached Brighton in 1841, cutting the journey from London from five hours by coach to ninety minutes by train. On Easter Monday 1844, an estimated 80,000 people visited Brighton — a number that would have been impossible to transport before the railway. The beach that had been a fashionable preserve of the aristocracy was now accessible to the middle classes for day trips, and eventually to the working classes for Bank Holiday excursions. Blackpool, served by railway from 1846, became the archetypal working-class seaside resort — a beach culture with pleasure piers, candy floss, and donkey rides that had no precedent in the aristocratic bathing machine tradition. The railway hadn't just brought people to the coast; it had created a new form of mass leisure.",
+    "keyword": "catalyst",
+    "summary": "The London–Brighton railway opened in 1841, sharply reducing the time and cost of reaching the coast. Excursion traffic helped turn Brighton and other resorts from elite seasonal enclaves into destinations for a broader public, though access still depended on income and free time. Railways created mass capacity; they did not by themselves create paid leisure.",
     "causeIds": [
       "brighton-becomes-fashionable"
     ],
     "effectIds": [
-      "bank-holidays-created",
-      "victorian-modesty-regulations"
+      "victorian-modesty-regulations",
+      "bank-holidays-created"
     ],
     "isAnchor": false,
-    "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Brighton_beach_1890s.jpg",
+    "isSeed": false,
     "relatedScenario": {
       "scenarioId": "mediterranean-summer",
       "nodeId": "british-seaside-discovered",
@@ -96,83 +93,142 @@
     }
   },
   {
-    "id": "bank-holidays-created",
-    "title": "The Bank Holidays Act Creates Leisure Time",
-    "wiki": "Bank_holiday#History",
-    "year": 1871,
-    "keyword": "shift",
-    "summary": "The Bank Holidays Act of 1871 created four official public holidays in England — Easter Monday, Whit Monday, the first Monday in August, and Boxing Day — giving the working population guaranteed leisure days for the first time. The August Bank Holiday immediately became associated with the seaside: trains to Brighton, Blackpool, Southend, and Margate were packed. The new leisure time required somewhere to go, and the railway-accessible coast was the answer. The combination of the railway (making the coast reachable) and the Bank Holidays Act (creating the time to go) produced the British seaside holiday as a mass institution. A million working-class Londoners spent their August Bank Holiday at the seaside by the 1880s.",
+    "id": "victorian-modesty-regulations",
+    "title": "Resorts Regulate Bodies and Space",
+    "wiki": "Bathing_machine#Regulation",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Bathing_machines_at_Scarborough.jpg",
+    "year": 1860,
+    "keyword": "pressure",
+    "summary": "As resort crowds grew, local authorities and proprietors experimented with segregated bathing areas, costume rules, machines, and bathing hours. Regulations varied widely and changed over time; there was no single national 'neck-to-knee' code applied everywhere. The rules reveal anxiety about class mixing, gender, and public exposure more than a uniform Victorian beach system.",
     "causeIds": [
       "railway-brings-masses-to-coast"
     ],
     "effectIds": [
       "kellermann-arrested",
-      "competitive-swimming-emerges"
+      "wwi-changes-clothing"
     ],
     "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Brighton_beach_1890s.jpg"
+    "isSeed": true
   },
   {
-    "id": "victorian-modesty-regulations",
-    "title": "The Regulations Get Stricter as More People Arrive",
-    "wiki": "Bathing_machine#Regulation",
-    "year": 1860,
-    "keyword": "pressure",
-    "summary": "As the beach became a mass leisure destination, the regulatory apparatus governing it became more elaborate rather than less. Victorian local authorities issued detailed bylaws specifying the minimum distance between male and female bathing areas, the required coverage of bathing costumes (neck to knee for women, chest to thigh for men), and the hours during which bathing was permitted. Some resorts required men and women to use separate sections of beach entirely. The bathing machine remained compulsory in many places into the 1890s. The more people visited the beach, the more anxious the authorities became about the social mixing and bodily exposure that proximity to the sea seemed to encourage. The regulations were a rearguard action against something that was already changing.",
+    "id": "bank-holidays-created",
+    "title": "Bank Holidays Create Shared Dates, Not a Universal Day Off",
+    "wiki": "Bank_holiday#History",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Brighton_beach_1890s.jpg",
+    "year": 1871,
+    "keyword": "shift",
+    "summary": "The Bank Holidays Act 1871 closed banks and regularised several public holidays, but it did not grant every worker a statutory right to paid leave or even to stop work. Over time, employers, transport operators, and custom turned these dates into major leisure occasions. Packed excursion trains helped make the seaside holiday a mass ritual without making leisure equally available.",
     "causeIds": [
       "railway-brings-masses-to-coast"
     ],
     "effectIds": [
-      "kellermann-arrested"
+      "competitive-swimming-emerges",
+      "paid-holidays-expand"
     ],
     "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Bathing_machines_at_Scarborough.jpg"
+    "isSeed": false
+  },
+  {
+    "id": "competitive-swimming-emerges",
+    "title": "Swimming Becomes an International Sport",
+    "wiki": "Swimming_at_the_1896_Summer_Olympics",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixgSUAt7Eb5sG94W7KXLQWQGfAXvceEWu5dHfG3Iv4muFrCvSBW5oSseUruKbZpSF_2BRj0j-2UAOH-P4pOBYC6RA_5LXkZ5NARoamjmv29NHzxc0wDqCRP4EyAVf0tXXw0cNMWKLrPl0/s400/1896_Athens_swimming.jpg",
+    "year": 1896,
+    "keyword": "catalyst",
+    "summary": "Men's swimming appeared at the first modern Olympic Games in 1896, with races held in open water near Piraeus. Competitive swimming rewarded efficient strokes, training, and clothing that did not fill with water. The crawl developed through several swimmers and traditions, including the Cavill family, rather than being invented or popularised by Annette Kellermann alone.",
+    "causeIds": [
+      "bank-holidays-created"
+    ],
+    "effectIds": [
+      "kellermann-arrested",
+      "wwi-changes-clothing"
+    ],
+    "isAnchor": false,
+    "isSeed": true
   },
   {
     "id": "kellermann-arrested",
-    "title": "Annette Kellermann Is Arrested for Her Swimsuit",
+    "title": "The Famous Arrest Story Lacks Evidence",
     "wiki": "Annette_Kellermann",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Annette_Kellermann_portrait.jpg",
     "year": 1907,
-    "keyword": "catalyst",
-    "summary": "Annette Kellermann, an Australian professional swimmer and performer, was arrested on Revere Beach in Boston in 1907 for wearing a one-piece bathing suit that left her arms and legs bare. She had developed the suit for practical reasons — the standard women's bathing costume of the era, with its long skirt, stockings, and layers of fabric, was genuinely dangerous for swimming, creating drag that could drown a bather. Kellermann argued her case publicly and with considerable skill, attracting enormous press attention. She did not win her immediate legal argument, but the publicity around her arrest began a sustained public debate about whether women's bathing regulations served any purpose beyond maintaining a decorum that was increasingly at odds with what people actually wanted to do at the beach.",
+    "keyword": "turning-point",
+    "summary": "Annette Kellermann did champion practical one-piece swimwear and became an internationally famous swimmer and performer. The oft-repeated story that police arrested her at Boston's Revere Beach in 1907 is not supported by contemporary evidence and appears in later retellings. Her real influence does not require the arrest: she publicly demonstrated that women could swim athletically in clothing designed for movement.",
     "causeIds": [
       "victorian-modesty-regulations",
-      "bank-holidays-created",
       "competitive-swimming-emerges"
     ],
     "effectIds": [
       "wwi-changes-clothing"
     ],
     "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Annette_Kellermann_portrait.jpg"
+    "isSeed": false
   },
   {
     "id": "wwi-changes-clothing",
-    "title": "The War Changes What Women Wear",
-    "wiki": "Fashion_in_the_1920s#Swimwear",
-    "year": 1918,
+    "title": "Sport, War, and New Fabrics Change Swimwear",
+    "wiki": "History_of_swimwear",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/1920s_swimwear.jpg",
+    "year": 1920,
     "keyword": "shift",
-    "summary": "The First World War changed women's clothing across every context — and the beach was no exception. Women who had entered the workforce in unprecedented numbers, who had driven ambulances and operated machinery, who had made every practical accommodation to the demands of wartime, were not going to return to bathing costumes that required stockings and covered their ankles. The 1920s saw a dramatic reduction in the coverage required by swimwear: hemlines rose, sleeves disappeared, stockings were abandoned. The bathing machine was gone. Mixed bathing became the norm. The costume that had caused Annette Kellermann's arrest in 1907 was, by 1920, considered modest by the standards of what fashionable women were wearing on the beach.",
+    "summary": "Women's clothing became less restrictive through interacting changes in sport, work, fashion, textile technology, and the social disruption of World War I. During the 1920s swimsuits exposed more arm and leg and increasingly prioritised movement, though rules and acceptance varied by beach. It is too simple to say wartime service alone abolished the old costume overnight.",
     "causeIds": [
+      "victorian-modesty-regulations",
+      "competitive-swimming-emerges",
       "kellermann-arrested"
     ],
     "effectIds": [
-      "modesty-regulations-collapse"
+      "modesty-regulations-collapse",
+      "bikini-debuts"
     ],
     "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/1920s_swimwear.jpg"
+    "isSeed": false
   },
   {
     "id": "modesty-regulations-collapse",
-    "title": "The Regulations Give Up",
+    "title": "The Bathing Machine Loses Its Social Function",
     "wiki": "History_of_swimwear",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/1920s_swimwear.jpg",
     "year": 1930,
     "keyword": "collapse",
-    "summary": "By the 1930s, the elaborate regulatory framework that Victorian and Edwardian authorities had built around beach behaviour had largely collapsed under the weight of changed social norms. Mixed bathing was universal. Bathing machines had disappeared. Swimwear had shrunk to forms that would have been unimaginable fifty years earlier. The beach had become a space of bodily display rather than bodily concealment — and nobody who visited it wanted the concealments back. The regulations hadn't been repealed so much as ignored until they became unenforceable. The beach had been transformed from a medically supervised, heavily regulated, fully clothed experience into something recognisably modern: a place where people went to be warm, to swim, and to be seen.",
+    "summary": "By the interwar years, mixed bathing and streamlined swimwear were increasingly normal at many resorts, while bathing machines declined or became stationary huts. The transition was uneven rather than universal: local rules, class expectations, and gender policing persisted. What collapsed was the older system's ability to define sea bathing primarily through concealment and supervised immersion.",
+    "causeIds": [
+      "wwi-changes-clothing"
+    ],
+    "effectIds": [
+      "swimming-as-modern-leisure",
+      "paid-holidays-expand"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "paid-holidays-expand",
+    "title": "Paid Leave Makes Longer Holidays Possible",
+    "wiki": "Holidays_with_Pay_Act_1938",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Holiday%20%281930%29%20poster.jpg",
+    "year": 1938,
+    "keyword": "turning-point",
+    "summary": "The Holidays with Pay Act 1938 allowed wage-regulating authorities to provide paid holidays and supported voluntary industrial schemes; it did not instantly create a universal entitlement. By late 1938 paid-holiday arrangements already covered millions of workers through law and collective agreements. More predictable paid time off made multi-day trips possible for families who could not live on unpaid leisure.",
+    "causeIds": [
+      "bank-holidays-created",
+      "modesty-regulations-collapse"
+    ],
+    "effectIds": [
+      "package-holidays-expand",
+      "swimming-as-modern-leisure"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "bikini-debuts",
+    "title": "The Bikini Makes Minimal Swimwear a Global Story",
+    "wiki": "Bikini",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Oriental%20Beach%2C%20Wellington%20c.1947%20%2818939848098%29.jpg",
+    "year": 1946,
+    "keyword": "spark",
+    "summary": "French designers Jacques Heim and Louis Réard both promoted very small two-piece swimsuits in 1946; Réard's design, shown by Micheline Bernardini in Paris on 5 July, supplied the enduring name 'bikini.' Adoption was neither immediate nor universal, and two-piece suits had precedents. The launch nevertheless made the shrinking swimsuit a media event tied to postwar celebrity and consumer culture.",
     "causeIds": [
       "wwi-changes-clothing"
     ],
@@ -180,25 +236,29 @@
       "swimming-as-modern-leisure"
     ],
     "isAnchor": false,
-    "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/1920s_swimwear.jpg"
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "mediterranean-summer",
+      "nodeId": "bikini-changes-beach",
+      "label": "Connects to How the Rich Learned to Worship the Sun"
+    }
   },
   {
-    "id": "swimming-as-modern-leisure",
-    "title": "The Beach Becomes the Modern Holiday",
-    "wiki": "Beach#Recreation",
-    "year": 1945,
-    "keyword": "consequence",
-    "summary": "By the post-war period, the beach had completed its transformation from a workplace and medical facility into the defining space of modern leisure. The bikini appeared in 1946; Mediterranean package holidays in the 1950s; surfing culture in the 1960s. The annual summer holiday to the coast — which barely existed as a concept before Dr Russell sent his wealthy patients to Brighton in 1750 — had become the most anticipated event in the year for most of the Western population. The journey from 'the sea is a dangerous place that sailors avoid' to 'two weeks in Spain is the highlight of the year' had taken approximately two centuries, driven by medical fashion, royal endorsement, railway technology, world war, and the gradual social exhaustion of trying to make people cover themselves up on a hot day.",
+    "id": "package-holidays-expand",
+    "title": "Package Holidays Move the Beach Abroad",
+    "wiki": "Package_tour",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Poster%20for%20%27Holiday%20Ahoy%27%20%283032208732%29.jpg",
+    "year": 1960,
+    "keyword": "catalyst",
+    "summary": "In the 1950s and especially the 1960s, charter aviation and travel agents made bundled transport and accommodation increasingly accessible to British holidaymakers. Domestic seaside resorts remained important, but package tours redirected growing numbers toward Mediterranean sun and beaches. The new industry depended on paid leave, rising incomes, aircraft capacity, and organised mass marketing.",
     "causeIds": [
-      "modesty-regulations-collapse"
+      "paid-holidays-expand"
     ],
     "effectIds": [
-      "jaws-reversal"
+      "swimming-as-modern-leisure"
     ],
     "isAnchor": false,
-    "isSeed": true,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Bikini_Bardot.jpg",
+    "isSeed": false,
     "relatedScenario": {
       "scenarioId": "mediterranean-summer",
       "nodeId": "mass-tourism-arrives",
@@ -206,35 +266,43 @@
     }
   },
   {
+    "id": "swimming-as-modern-leisure",
+    "title": "The Beach Becomes a Mass Leisure System",
+    "wiki": "Beach#Recreation",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach-holiday-vacation-people%20%2824243831561%29.jpg",
+    "year": 1965,
+    "keyword": "consequence",
+    "summary": "By the postwar decades, beach leisure combined swimming, sunbathing, fashion, paid leave, rail and air transport, resorts, and mass advertising. This was not a universal human conversion—the beach remained work, home, sacred space, or inaccessible territory for many communities—but it became a dominant commercial ideal in Europe and North America. Medicine had opened one route to the sea; labour rights and tourism infrastructure made repeated holidays possible.",
+    "causeIds": [
+      "modesty-regulations-collapse",
+      "paid-holidays-expand",
+      "bikini-debuts",
+      "package-holidays-expand"
+    ],
+    "effectIds": [
+      "jaws-reversal"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
     "id": "jaws-reversal",
-    "title": "Jaws Makes the Sea Frightening Again",
+    "title": "Jaws Changes How Audiences Imagine Sharks",
     "wiki": "Jaws_(film)#Cultural_impact",
+    "imageUrl": "https://cdng.europosters.eu/pod_public/1300/262718.jpg",
     "year": 1975,
     "keyword": "consequence",
-    "summary": "Steven Spielberg's Jaws (1975) accomplished something that two centuries of moralising Victorian regulators had failed to do: it made millions of people afraid to go into the sea. The film's opening scene — a swimmer killed by an unseen predator in dark water — tapped into something ancient and deep, a fear of the sea that the bathing machine era had tried to manage and the beach holiday era had suppressed. Anecdotal reports and some surveys suggested a decline in beach attendance in the summer of 1975; shark sightings were reported more frequently, presumably because people were looking more carefully. The film also caused a significant decline in shark populations, as the fear it generated led to increased shark hunting. The sea that Dr Russell had sent his patients into as medicine, and that two centuries of leisure development had made inviting, had briefly become threatening again — because of a film.",
+    "summary": "Steven Spielberg's Jaws turned an already popular beach culture into the setting for a new kind of blockbuster fear. The film strongly influenced public perceptions of sharks and is often associated with trophy hunting and exaggerated risk, but industrial fishing and bycatch—not one movie—are the primary drivers of long-term shark population decline. Its clearest causal legacy is cultural: millions learned to imagine unseen danger beneath recreational water.",
     "causeIds": [
       "swimming-as-modern-leisure"
     ],
     "effectIds": [],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Jaws_1975_poster.jpg"
-  },
-  {
-    "id": "competitive-swimming-emerges",
-    "title": "The Crawl Stroke and the Sport of Swimming",
-    "wiki": "Swimming_at_the_1896_Summer_Olympics",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Athens_1896_swimming.jpg",
-    "year": 1896,
-    "keyword": "catalyst",
-    "summary": "The first Olympic swimming events, held in the open sea off the Piraeus coast of Athens in 1896, established swimming as a competitive sport — and in doing so, began to change what the water was for. Where sea bathing had been about cautious immersion and health, competitive swimming was about efficient movement through water. The Australian crawl stroke, popularised around 1900 by swimmers including Annette Kellermann, replaced breaststroke as the fastest technique and required a horizontal body position that made the elaborate Victorian bathing costume entirely impossible. Kellermann — who would later be arrested for her swimsuit — was simultaneously a competitive swimmer, an exhibition diver, and the most prominent advocate for practical swimwear precisely because she understood from experience what the standard costume did to a swimmer in the water. Competitive swimming provided the practical argument that purely aesthetic opposition to Victorian modesty regulations could not: you cannot swim in a skirt that fills with water. The sport gave the reformers an unanswerable case.",
-    "causeIds": [
-      "bank-holidays-created"
-    ],
-    "effectIds": [
-      "kellermann-arrested"
-    ],
-    "isAnchor": false,
-    "isSeed": false
+    "relatedScenario": {
+      "scenarioId": "hollywood-blockbuster",
+      "nodeId": "jaws-changes-everything",
+      "label": "Connects to The Blockbuster Machine"
+    }
   }
 ]

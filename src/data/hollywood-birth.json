@@ -5,7 +5,7 @@
     "wiki": "History_of_film",
     "year": 1891,
     "keyword": "spark",
-    "summary": "Thomas Edison's laboratory developed the Kinetoscope in 1891 — a peephole viewer that allowed one person at a time to watch a short film loop. In 1896, Edison commercialised the Vitascope projector, which could project films for an audience, though the key projection technology had been developed by inventors Thomas Armat and C. Francis Jenkins before Edison acquired and rebranded it. Edison's instinct was immediately commercial and immediately monopolistic: he filed patents on everything related to film production and projection, intending to control the entire industry as he had tried to control the electrical industry. What he failed to anticipate was that other inventors were working on similar devices simultaneously in France, Britain, and Germany, and that the technology was too simple and too useful to be controlled by any single patent holder.",
+    "summary": "At Thomas Edison's laboratory, William K. L. Dickson and colleagues developed the Kinetoscope system in the early 1890s, while inventors in Europe and the United States pursued other motion-picture devices. Edison later marketed the Vitascope projector after Thomas Armat's projection design was brought to his company. Patents became a powerful commercial weapon, but no single laboratory invented cinema alone: cameras, film stock, projection, and exhibition emerged through overlapping experiments across several countries.",
     "causeIds": [],
     "effectIds": [
       "nickelodeon-explosion",
@@ -27,7 +27,8 @@
     ],
     "effectIds": [
       "motion-picture-patents-company",
-      "star-system-born"
+      "star-system-born",
+      "florence-lawrence-publicity"
     ],
     "isAnchor": false,
     "isSeed": true,
@@ -39,7 +40,7 @@
     "wiki": "Motion_Picture_Patents_Company",
     "year": 1908,
     "keyword": "pressure",
-    "summary": "In 1908, Edison brought together nine competing film companies — including Biograph, Vitagraph, and Pathé — into the Motion Picture Patents Company, a cartel that pooled their patents and attempted to control every aspect of film production and distribution. The Trust licensed cameras, film stock, and projectors only to approved producers and distributors; unlicensed operators faced legal action and, allegedly, physical intimidation by Trust enforcers. The strategy was straightforward: use intellectual property law to create a monopoly. What the Trust's lawyers couldn't do was stop determined independents from moving their operations somewhere the enforcers couldn't follow.",
+    "summary": "In 1908, Edison and other leading firms formed the Motion Picture Patents Company, pooling key patents and licensing cameras, projectors, and film stock through an industry cartel. Independents faced lawsuits and restrictions on access to licensed equipment and Eastman film. Stories of organised gunmen and dramatic raids are difficult to document consistently, so the Trust's power is better understood through litigation, licensing, and distribution control than through later gangster folklore.",
     "causeIds": [
       "edison-invents-motion-pictures",
       "nickelodeon-explosion"
@@ -57,7 +58,7 @@
     "wiki": "Hollywood,_California#Motion_picture_industry",
     "year": 1910,
     "keyword": "turning-point",
-    "summary": "Unlicensed filmmakers facing patent litigation from Edison's Trust discovered a practical solution: move 3,000 miles away. California offered more than just distance — it offered year-round sunshine for outdoor shooting (indoor sets required expensive artificial lighting), varied landscapes from desert to mountains to ocean, cheap undeveloped land on the outskirts of a small town called Hollywood, and proximity to the Mexican border for rapid escape if Trust lawyers arrived with court orders. The independents who fled west included the founders of what would become Universal, Paramount, and Warner Bros. Edison had tried to prevent competition and instead created the conditions for the world's most powerful entertainment industry.",
+    "summary": "Film production moved toward Southern California for several reasons: reliable sunlight, varied nearby landscapes, inexpensive land, an expanding local labour force, and distance from the industry's New York centre. Patent conflict helped some independent producers seek room outside the Trust's network, but the familiar tale that filmmakers chose Hollywood chiefly so they could flee across the Mexican border from Edison agents is largely legend. Los Angeles became dominant through a cumulative migration rather than one coordinated escape.",
     "causeIds": [
       "motion-picture-patents-company"
     ],
@@ -92,7 +93,7 @@
     "wiki": "Motion_Picture_Patents_Company",
     "year": 1915,
     "keyword": "turning-point",
-    "summary": "Federal courts ruled the Motion Picture Patents Company an illegal monopoly in 1915, dismantling Edison's attempt to control the film industry. By this point it hardly mattered legally — the independents in California had already built viable studios beyond the Trust's practical reach. But the ruling was symbolically important: it confirmed that film was an industry where legal monopoly would not be permitted, and that the companies that had defied Edison had been right to do so. The founders of Universal (Carl Laemmle), Paramount (Adolph Zukor), and Warner Bros — most of them Jewish immigrants from Eastern Europe whom Edison's patrician Trust had treated as unwelcome outsiders — were now the industry. Their studios would dominate for the next four decades.",
+    "summary": "The Motion Picture Patents Company lost power through independent competition, adverse court decisions, and changes in production and distribution. In 1915 a federal court found the combination violated antitrust law, and later litigation further weakened its patent claims. The ruling mattered, but it did not single-handedly create Hollywood: production had already been moving west and independent firms had already built alternative networks.",
     "causeIds": [
       "independents-flee-west"
     ],
@@ -115,7 +116,7 @@
     "wiki": "Feature_film#History",
     "year": 1915,
     "keyword": "shift",
-    "summary": "D.W. Griffith's Birth of a Nation (1915) — three hours long, a genuine narrative epic — proved that audiences would pay more and sit longer for a substantial cinematic experience. The film was enormously commercially successful and deeply racist, celebrating the Ku Klux Klan and prompting some of the first organised protests against a film in American history. Its artistic and commercial achievement, however, established the feature film as the industry's primary product. Studios that had been producing dozens of short films per week pivoted to producing fewer, more expensive, longer features — which required more capital, more planning, and more industrial organisation. The feature film made the studio system necessary.",
+    "summary": "Feature-length films were already gaining ground internationally and in the United States before 1915. D. W. Griffith's The Birth of a Nation became an enormous commercial success and demonstrated the scale of audience and revenue available to a heavily promoted American feature, while also spreading a racist Lost Cause narrative and provoking organised protest. It accelerated the industry's commitment to longer, more capital-intensive productions rather than inventing the feature film by itself.",
     "causeIds": [
       "edison-trust-collapses"
     ],
@@ -134,7 +135,8 @@
     "keyword": "shift",
     "summary": "Early film studios deliberately kept their actors anonymous, fearing that named performers would demand higher salaries. The audience ignored this policy: fans wrote letters to studios asking for the names of their favourite performers, and fan publications began naming them anyway. Studios quickly recognised that named stars drew audiences regardless of the film's quality — that people would pay to see Mary Pickford in anything. The star became the product. Studios then moved to own the star completely: signing actors to exclusive long-term contracts that controlled not just their screen work but their off-screen image, personal relationships, and public statements. The star system created the first modern celebrity culture.",
     "causeIds": [
-      "nickelodeon-explosion"
+      "nickelodeon-explosion",
+      "florence-lawrence-publicity"
     ],
     "effectIds": [
       "silent-film-stars-born",
@@ -190,7 +192,7 @@
     "wiki": "Studio_system",
     "year": 1920,
     "keyword": "turning-point",
-    "summary": "By the early 1920s, the structure of the Hollywood studio system had crystallised: five major studios — MGM, Paramount, Warner Bros, RKO, and Fox — controlled production, distribution, and exhibition (they owned the theatres too) in a vertically integrated oligopoly. Each studio had a distinctive style: MGM made glossy prestige pictures with lavish production values; Paramount specialised in sophisticated comedies and European talent; Warner Bros made grittier urban dramas. Stars, directors, writers, and craftspeople were under exclusive contract, working on whatever the studio assigned them. The system was efficient, profitable, and creatively constraining — a factory for dreams, organised like any other factory.",
+    "summary": "During the 1920s the major-company system consolidated around firms that combined production, distribution, and—especially for the largest companies—ownership or control of theatre chains. The familiar 'Big Five' structure fully matured later in the decade and into the 1930s, not at a single moment in 1920. Long-term contracts and centralised production made filmmaking highly efficient while concentrating power over workers, theatres, and screen culture.",
     "causeIds": [
       "edison-trust-collapses",
       "hollywood-geography",
@@ -277,7 +279,12 @@
     "effectIds": [],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://uspresidentialhistory.com/wp-content/uploads/2018/12/William-H.-Hays12.16.18-1024x708-1.jpg"
+    "imageUrl": "https://uspresidentialhistory.com/wp-content/uploads/2018/12/William-H.-Hays12.16.18-1024x708-1.jpg",
+    "relatedScenario": {
+      "scenarioId": "hollywood-code",
+      "nodeId": "hays-office-created",
+      "label": "Connects to The Postmaster Who Ran Hollywood"
+    }
   },
   {
     "id": "studio-system-peaks",
@@ -295,5 +302,27 @@
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Clark_Gable_and_Vivien_Leigh_-_Wind.jpg"
+  },
+  {
+    "id": "florence-lawrence-publicity",
+    "title": "Florence Lawrence Becomes a Named Star",
+    "wiki": "Florence_Lawrence",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Florence_Lawrence_1908.jpg",
+    "year": 1910,
+    "keyword": "catalyst",
+    "summary": "Carl Laemmle's Independent Moving Pictures publicly promoted Florence Lawrence after she left Biograph, helping overturn the industry's habit of keeping screen performers anonymous. The episode did not create celebrity from nothing—audiences already recognised favourite actors—but it showed producers that a performer's name could sell films. Publicity, fan magazines, and salary competition rapidly turned acting identities into marketable assets.",
+    "causeIds": [
+      "nickelodeon-explosion"
+    ],
+    "effectIds": [
+      "star-system-born"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "hollywood-code",
+      "nodeId": "hollywood-scandals-1920s",
+      "label": "Connects to The Postmaster Who Ran Hollywood"
+    }
   }
 ]

@@ -1,28 +1,27 @@
 [
   {
     "id": "song-dynasty-commerce",
-    "title": "Song Dynasty Commercial Revolution",
+    "title": "Song Maritime Commercial Expansion",
     "wiki": "Song_dynasty#Economy",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Song-Palace1.jpg",
     "year": 960,
     "keyword": "pressure",
-    "summary": "The Song dynasty (960–1279) produced the most sophisticated commercial economy in the medieval world. Paper money circulated widely, joint-stock companies existed, and a professional merchant class accumulated wealth on a scale with no parallel in Europe or the Islamic world. Chinese ports handled more tonnage than all Mediterranean trade combined. This commercial culture built the institutional knowledge, the shipbuilding industry, and the navigational expertise that made Zheng He's voyages technically possible three centuries later.",
+    "summary": "From the tenth to the thirteenth century, Song China experienced major commercialization, monetization, urban growth, and maritime expansion. Paper currency, dense markets, specialized production, customs offices, and revenue from overseas trade made the coast an important part of state finance. These developments did not create Zheng He's expeditions by themselves, but they helped sustain the shipyards, merchant networks, nautical expertise, and ports inherited by later dynasties.",
     "causeIds": [],
     "effectIds": [
-      "chinese-naval-technology",
-      "tributary-system"
+      "chinese-naval-technology"
     ],
     "isAnchor": false,
     "isSeed": true
   },
   {
     "id": "chinese-naval-technology",
-    "title": "Chinese Naval Technology",
+    "title": "Chinese Shipbuilding and Navigation",
     "wiki": "Chinese_naval_history",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/La_expedici%C3%B3n_de_Xu_Fu%2C_por_Utagawa_Kuniyoshi.jpg",
     "year": 1100,
     "keyword": "shift",
-    "summary": "By the 12th century, Chinese shipbuilders had developed technologies that wouldn't reach Europe for centuries: watertight compartments, stern-post rudders, magnetic compasses, and multi-masted ships capable of carrying hundreds of tonnes. The Song navy was the first permanent professional navy in Chinese history, built to defend coastal trade against pirates and rival states. This technological lead accumulated over three centuries gave Ming China the capability to build a fleet that dwarfed anything else on the ocean.",
+    "summary": "Chinese mariners used sternpost rudders, magnetic compasses, multiple masts, watertight bulkheads, and large seagoing junks before the Ming voyages. Many techniques developed gradually and also circulated through exchange with Southeast Asian, Indian Ocean, and Muslim sailors; they were not a sealed national invention. The early Ming state could therefore mobilize an established maritime tradition rather than invent an ocean-going fleet from nothing.",
     "causeIds": [
       "song-dynasty-commerce"
     ],
@@ -31,16 +30,16 @@
       "zheng-he-first-voyage"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "confucian-bureaucracy",
-    "title": "Confucian Bureaucratic Order",
+    "title": "Scholar-Official Government",
     "wiki": "Confucianism#Governance",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ming_Dynasty_Activities_of_Minister_of_War_Wang_Qiong.jpg",
     "year": 1000,
     "keyword": "pressure",
-    "summary": "China's imperial government was administered by a class of scholar-officials selected through rigorous examinations in Confucian classics. This system produced highly educated, deeply conservative administrators who regarded merchants as socially inferior, overseas trade as undignified, and foreign contact as either a tribute relationship or a threat. The same bureaucracy that made China governable over vast distances was structurally hostile to the commercial and outward-looking impulses that Zheng He's voyages represented.",
+    "summary": "The Ming state was administered in large part by civil officials trained through classical education and examinations, alongside military institutions, hereditary offices, princes, and palace eunuchs. Scholar-officials were not uniformly hostile to merchants or foreign contact. Their later opposition to the treasure voyages reflected fiscal control, administrative authority, strategic priorities, and distrust of eunuch power as much as abstract Confucian doctrine.",
     "causeIds": [],
     "effectIds": [
       "scholar-eunuch-rivalry"
@@ -50,15 +49,13 @@
   },
   {
     "id": "tributary-system",
-    "title": "Chinese Tributary System",
+    "title": "Tribute Diplomacy and Trade",
     "wiki": "Tributary_system_of_China",
     "imageUrl": "https://cdn.britannica.com/43/241743-050-230DAD4C/Emperor-Qianlong-takes-horse-as-tribute-painting-by-Castiglione.jpg",
-    "year": 1300,
+    "year": 1368,
     "keyword": "pressure",
-    "summary": "China's foreign relations operated through a tributary system: foreign rulers acknowledged the Chinese emperor as the supreme sovereign of the world, sent periodic missions bearing gifts, and received in return imperial recognition, trading rights, and often gifts of greater value than what they had brought. This was not merely ceremonial — it was China's framework for understanding its place in the world. Zheng He's voyages were partly designed to extend this system to Southeast Asia, India, Arabia, and Africa, drawing more rulers into the Chinese world order.",
-    "causeIds": [
-      "song-dynasty-commerce"
-    ],
+    "summary": "Ming diplomacy used court ritual, investiture, gifts, embassies, and regulated trade to place foreign relations within a China-centered political language. Participation did not always mean that foreign rulers accepted literal Chinese sovereignty: missions could seek commerce, protection, legitimacy, or favorable relations while interpreting the ritual differently. Zheng He's expeditions expanded this flexible system across maritime Asia and into the western Indian Ocean.",
+    "causeIds": [],
     "effectIds": [
       "zheng-he-first-voyage",
       "tributary-missions-return"
@@ -68,19 +65,18 @@
   },
   {
     "id": "mongol-disruption",
-    "title": "Mongol Conquest and Yuan Dynasty",
+    "title": "Yuan Connections and Ming Reaction",
     "wiki": "Yuan_dynasty",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Pursuit_by_Mongol_Warriors_%28Diez_Albums%29.jpg",
     "year": 1279,
     "keyword": "shift",
-    "summary": "The Mongol conquest of China (completed 1279) and the subsequent Yuan dynasty (1271–1368) left a complex legacy. The Mongols had disrupted Chinese institutions, humiliated the scholar class, and ruled through foreign administrators — an experience that left the Ming founders deeply suspicious of foreign influence. Yet the Yuan had also expanded Chinese geographical knowledge through Mongol-era trade networks and maintained maritime contact with Southeast Asia and the Indian Ocean. The Ming inherited both the knowledge and the resentment.",
+    "summary": "The Yuan dynasty connected China to broad Eurasian networks and supported extensive overland and maritime exchange. The Ming founders overthrew Mongol rule and promoted dynastic restoration, yet inherited ports, geographic knowledge, officials, merchants, and transregional connections from the Yuan world. Early Ming maritime policy combined continuity with reaction rather than simple rejection of everything foreign.",
     "causeIds": [],
     "effectIds": [
-      "ming-dynasty-founded",
-      "anti-foreign-sentiment"
+      "ming-dynasty-founded"
     ],
     "isAnchor": false,
-    "isSeed": false,
+    "isSeed": true,
     "relatedScenario": {
       "scenarioId": "mongols",
       "nodeId": "kublai-founds-yuan",
@@ -89,50 +85,51 @@
   },
   {
     "id": "yongle-emperor",
-    "title": "The Yongle Emperor",
+    "title": "Yongle Emperor Seizes the Throne",
     "wiki": "Yongle_Emperor",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Portrait_assis_de_l%27empereur_Ming_Chengzu.jpg",
     "year": 1402,
     "keyword": "catalyst",
-    "summary": "The Yongle Emperor — born Zhu Di — seized the throne in 1402 by overthrowing his nephew in a civil war, making him a usurper by the standards of Confucian legitimacy. Scholars have proposed several motivations for the voyages: projecting imperial power to silence domestic critics; establishing tributary networks that legitimised his rule through foreign endorsements; commercial and strategic interest in the Indian Ocean world; and Zheng He's personal ability to navigate Muslim diplomatic networks. All these motivations likely operated simultaneously. Without this specific emperor's specific combination of insecurity, ambition, and capable admiral, the voyages almost certainly would not have happened.",
+    "summary": "Zhu Di seized the throne from his nephew in the 1399–1402 civil war and ruled as the Yongle Emperor. The voyages projected his authority, reactivated tribute and trade, carried envoys, displayed military power, and supported a wider programme of ambitious imperial projects. Scholars debate how much legitimacy, commerce, strategic intelligence, the search for the deposed Jianwen emperor, and personal patronage each mattered; no single motive explains all seven expeditions.",
     "causeIds": [
       "ming-dynasty-founded"
     ],
     "effectIds": [
-      "zheng-he-first-voyage",
       "treasure-fleet-design",
+      "zheng-he-first-voyage",
+      "scholar-eunuch-rivalry",
       "yongle-emperor-dies"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "ming-dynasty-founded",
-    "title": "Ming Dynasty Founded",
+    "title": "Ming Dynasty Replaces the Yuan",
     "wiki": "Ming_dynasty",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Detail_of_The_Emperor%27s_Approach%2C_Xuande_period.jpg",
     "year": 1368,
     "keyword": "turning-point",
-    "summary": "Zhu Yuanzhang — a peasant who had been a Buddhist monk and a bandit before leading a successful rebellion — founded the Ming dynasty in 1368 after expelling the Mongols. He established a deliberately conservative, agrarian, and inward-looking state: foreign trade was restricted, the merchant class was suppressed, and Confucian orthodoxy was restored as the governing ideology. His successors inherited both his institutional framework and, eventually, his policies' contradictions.",
+    "summary": "Zhu Yuanzhang founded the Ming dynasty in 1368 after years of rebellion and warfare that displaced the Yuan court. His government rebuilt taxation and civil administration, promoted agriculture, restricted unsanctioned private overseas activity, and tightly controlled foreign trade through official channels. It was austere and security-minded, but not simply isolated: official diplomacy and maritime exchange continued under state supervision.",
     "causeIds": [
       "mongol-disruption"
     ],
     "effectIds": [
       "yongle-emperor",
-      "anti-foreign-sentiment",
-      "confucian-restoration"
+      "confucian-restoration",
+      "anti-foreign-sentiment"
     ],
     "isAnchor": false,
     "isSeed": false
   },
   {
     "id": "confucian-restoration",
-    "title": "Confucian Orthodoxy Restored",
+    "title": "Civil Government Rebuilt",
     "wiki": "Neo-Confucianism",
     "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikf2lI7wNkXnETTaIP-e2hUREOIG9GsYKW0YPDzCNs_k_0GKQ5gkN8JJuBnm3aznAR39VFDgunHH1St6TY-zXCencfbPcMDDHb0i1C9O1pKDU7-QON0ad4utbl0PZrCeD9PZgO7Ue5p8EO/s1600/neo-confucianism.jpg",
     "year": 1370,
     "keyword": "pressure",
-    "summary": "The Ming founders deliberately restored Confucian orthodoxy as a reaction against the Mongol period, reinstating the examination system, rebuilding the temple networks, and reasserting the scholar-official class as the empire's administrators. This restoration gave the bureaucracy both institutional legitimacy and ideological ammunition: Confucian texts emphasised agricultural self-sufficiency, social hierarchy, and suspicion of commerce and foreign contact. When the voyages came to be judged by later emperors, this was the framework their advisors used.",
+    "summary": "The early Ming restored civil examinations, classical education, ritual institutions, and a large scholar-official administration after the upheavals of the late Yuan. This strengthened officials who expected public revenue to be recorded and governed through bureaucratic procedures. Their disputes with palace eunuchs and emperors were institutional and fiscal contests, not proof that Confucian thought inherently rejected all trade or navigation.",
     "causeIds": [
       "ming-dynasty-founded"
     ],
@@ -144,14 +141,13 @@
   },
   {
     "id": "anti-foreign-sentiment",
-    "title": "Anti-Foreign Sentiment",
+    "title": "Hongwu Restricts Private Maritime Trade",
     "wiki": "Haijin",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/WakouAttack.jpg",
-    "year": 1368,
+    "year": 1371,
     "keyword": "pressure",
-    "summary": "A century of Mongol rule had left Chinese society with a deep suspicion of foreign influence and a renewed pride in Chinese cultural superiority. The Ming founder's ideology explicitly framed his dynasty as a restoration of Chinese civilisation against barbarian corruption. This sentiment did not prevent the Yongle Emperor's voyages — his personal agenda overrode it — but it provided the ideological fuel for the conservative reaction that followed. When the voyages ended, anti-foreign sentiment made the maritime ban feel like a return to right order rather than a retreat.",
+    "summary": "The Hongwu Emperor imposed maritime restrictions from the 1370s, requiring much foreign commerce to pass through licensed tribute missions and limiting private voyages. The policy aimed to control coastal populations, suppress piracy and smuggling, regulate diplomacy, and protect dynastic security. Enforcement varied, and coastal trade never disappeared; these early restrictions predated Zheng He's expeditions and cannot be explained simply as a later backlash against them.",
     "causeIds": [
-      "mongol-disruption",
       "ming-dynasty-founded"
     ],
     "effectIds": [
@@ -162,12 +158,12 @@
   },
   {
     "id": "treasure-fleet-design",
-    "title": "The Treasure Ships",
+    "title": "The Treasure Fleet",
     "wiki": "Treasure_voyages",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/ZhengHeShips.gif",
     "year": 1403,
     "keyword": "shift",
-    "summary": "The largest ships in Zheng He's fleet — the 'treasure ships' (baochuan) — are described in Chinese records as exceeding 120 metres in length, though most maritime historians consider this figure implausible for wooden vessels and estimate the realistic maximum at 60–75 metres — still far larger than anything else afloat. Each fleet comprised dozens of ships of different types: treasure ships, horse ships carrying tribute animals, supply ships, troop transports, and water tankers. The first fleet numbered 317 vessels carrying nearly 28,000 men. When Vasco da Gama reached India in 1498 with four ships and 170 men, he was operating at a fraction of the scale China had managed 90 years earlier.",
+    "summary": "The expeditions combined several vessel types, including large treasure ships, troop transports, supply ships, horse ships, and water carriers. Ming records report 317 vessels and more than 27,000 personnel for the first voyage, although the composition and size varied between expeditions. Traditional dimensions of roughly 120–140 metres for the largest ships are heavily disputed because the evidence is late and archaeology is limited; modern estimates differ widely, so no precise reconstructed maximum is secure.",
     "causeIds": [
       "chinese-naval-technology",
       "yongle-emperor"
@@ -186,7 +182,7 @@
     "imageUrl": "https://thechinaproject.com/wp-content/uploads/2022/01/Zheng-He-and-his-fleet-Alex-Santafe-scaled.jpg",
     "year": 1405,
     "keyword": "spark",
-    "summary": "In the summer of 1405, Admiral Zheng He departed Nanjing with the largest fleet ever assembled — 317 ships, nearly 28,000 men — and sailed southwest toward Southeast Asia, India, and beyond. Zheng He himself was a Muslim eunuch from Yunnan province, taken captive as a child and raised in the imperial household. He was an unlikely figure to lead the most ambitious programme of maritime exploration in history. Over the next 28 years, he would complete seven voyages, visiting 37 countries and reaching as far as the East African coast — and his voyages would leave almost no lasting trace.",
+    "summary": "In 1405 the Ming court dispatched Zheng He and a vast state fleet toward Southeast Asia and the Indian Ocean. Born Ma He into a Muslim family in Yunnan, captured by Ming forces as a boy, and made a palace eunuch, Zheng became a trusted military commander of the Yongle Emperor. The expedition carried envoys, troops, interpreters, goods, and gifts; it inaugurated seven voyages rather than a European-style search for unknown continents.",
     "causeIds": [
       "yongle-emperor",
       "chinese-naval-technology",
@@ -194,20 +190,20 @@
       "treasure-fleet-design"
     ],
     "effectIds": [
-      "seven-voyages",
-      "scale-of-fleet-unprecedented"
+      "scale-of-fleet-unprecedented",
+      "seven-voyages"
     ],
     "isAnchor": true,
     "isSeed": true
   },
   {
     "id": "scale-of-fleet-unprecedented",
-    "title": "Scale Without Precedent",
+    "title": "A Fleet Built to Impress and Coerce",
     "wiki": "Treasure_voyages#Fleet_size",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/%E3%80%8A%E9%84%AD%E5%92%8C%E6%AD%B8%E4%BE%86%E3%80%8B%E3%80%82_%E8%97%9D%E8%A1%93%E5%AE%B6%E5%BC%97%E6%8B%89%E5%9F%BA%E7%B1%B3%E7%88%BE%C2%B7%E7%A7%91%E7%B4%A2%E5%A4%AB_2018.jpg",
     "year": 1405,
     "keyword": "shift",
-    "summary": "The scale of Zheng He's fleet had no parallel in the medieval world and would not be matched until the 20th century. The largest treasure ships were longer than a football pitch; the fleet as a whole carried more men than the entire population of most European cities. This was not exploration in the European sense — it was a state demonstration of Chinese power, a floating embassy designed to overwhelm foreign rulers with the sheer magnificence of Ming civilisation. It worked: rulers from Java to Arabia sent tribute missions to Beijing in its wake.",
+    "summary": "Zheng He's armadas were among the largest state-organized maritime expeditions of the premodern world. Their size advertised Ming resources, transported diplomatic gifts and commercial goods, and enabled the fleet to compel as well as persuade. Comparisons with later European voyages illustrate different state capacities, but claims that the fleet was unmatched until the twentieth century or that every treasure ship exceeded a football field rely on disputed figures.",
     "causeIds": [
       "treasure-fleet-design",
       "zheng-he-first-voyage"
@@ -225,16 +221,17 @@
     "imageUrl": "https://i.pinimg.com/1200x/c4/06/9b/c4069bf71a303b4102790b7a07957d43.jpg",
     "year": 1407,
     "keyword": "turning-point",
-    "summary": "Between 1405 and 1433, Zheng He completed seven voyages covering the South China Sea, the Indian Ocean, the Persian Gulf, the Red Sea, and the East African coast. Each voyage was larger than anything Europe would attempt for decades. The seventh voyage in 1430–1433 — ordered by the Xuande Emperor as a final farewell to the programme — reached Hormuz and the African coast one last time before returning. Zheng He died during or shortly after the return voyage, around 1433; the exact circumstances of his death and burial are uncertain, though a symbolic tomb was later constructed in Nanjing. No Chinese fleet of comparable scale would sail again.",
+    "summary": "Seven court-sponsored expeditions sailed between 1405 and 1433. Their routes linked China with Southeast Asian ports, Sri Lanka, India, Hormuz, the Arabian Peninsula, and East Africa, often using established monsoon routes and local pilots. The sixth voyage returned many foreign envoys; after a long pause, the Xuande Emperor ordered a seventh voyage that departed in 1431. Zheng He probably died during or soon after that final expedition, but the details remain uncertain.",
     "causeIds": [
       "zheng-he-first-voyage"
     ],
     "effectIds": [
       "treasure-fleet-reaches-africa",
       "islamic-world-contact",
+      "ming-fleet-uses-force",
       "giraffe-arrives-beijing",
-      "zheng-he-dies",
-      "tributary-missions-return"
+      "tributary-missions-return",
+      "zheng-he-dies"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -246,7 +243,7 @@
     "imageUrl": "https://www.whatchina.cn/wp-content/uploads/2026/04/Zheng-Hes-Voyages.jpeg",
     "year": 1413,
     "keyword": "turning-point",
-    "summary": "On the fourth voyage (1413–1415) and subsequent expeditions, Zheng He's fleet reached the East African coast — modern Kenya and Tanzania — trading for ivory, gold, and exotic animals. Chinese porcelain from this period has been found in archaeological sites across East Africa. Chinese coins have been found on the Kenyan island of Manda. In 2010, a small bronze coin bearing the Yongle era mark was unearthed near the Kenyan coast — physical proof of contact. The Swahili city-states of East Africa were fully integrated into the Indian Ocean trading world that China was projecting power across.",
+    "summary": "Later expeditions reached Swahili ports including Mogadishu and Brava and established contact with East African rulers and merchants. Texts, embassies, animals, and traded objects demonstrate participation in an Indian Ocean network that long predated the Ming fleet. Porcelain and coins found in East Africa show wider commerce but cannot, by themselves, prove that a particular object arrived aboard Zheng He's own ships.",
     "causeIds": [
       "seven-voyages"
     ],
@@ -259,18 +256,34 @@
   },
   {
     "id": "islamic-world-contact",
-    "title": "Contact with the Islamic World",
+    "title": "Indian Ocean Muslim Networks",
     "wiki": "Zheng_He#Religious_identity",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/2016_Malakka%2C_Stadhuys_%2809%29.jpg",
     "year": 1407,
     "keyword": "shift",
-    "summary": "Zheng He's fleets visited Calicut, Hormuz, Aden, and Jeddah — the heart of the Indian Ocean trading world, dominated by Muslim merchants. Zheng He himself was Muslim, and he made the hajj to Mecca on at least one voyage. The voyages established Chinese diplomatic contact with the Mamluk Sultanate of Egypt, the Sultanate of Malacca, and dozens of smaller Muslim polities. This network of contacts could have made China the dominant power in the most commercially significant ocean on Earth — had the voyages continued.",
+    "summary": "The fleets operated through commercial and diplomatic networks in which Muslim merchants, pilots, interpreters, and rulers were prominent. They visited ports such as Calicut, Hormuz, Aden, and Jeddah, and a detached mission reached Mecca from the final expedition. Zheng came from a Muslim family and honored Islamic as well as Buddhist and Chinese cults, but surviving evidence does not establish that he personally performed the hajj.",
     "causeIds": [
       "seven-voyages"
     ],
     "effectIds": [
-      "tributary-missions-return",
       "china-knows-the-world"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "ming-fleet-uses-force",
+    "title": "The Fleet Uses Force",
+    "wiki": "Treasure_voyages#Military_affairs",
+    "imageUrl": "https://www.worldhistory.org/img/r/p/1500x1500/10023.jpg",
+    "year": 1411,
+    "keyword": "catalyst",
+    "summary": "The voyages combined diplomacy and trade with coercive power. Ming forces defeated the pirate leader Chen Zuyi near Palembang in 1407, fought and captured the Sri Lankan ruler Alakeshvara in 1411, and intervened in a succession conflict at Samudera. These campaigns did not create permanent colonies, but they show that the fleet enforced Ming preferences and protected strategic routes rather than operating as a purely peaceful goodwill mission.",
+    "causeIds": [
+      "seven-voyages"
+    ],
+    "effectIds": [
+      "tributary-missions-return"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -282,7 +295,7 @@
     "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/uKE8u5gWijjLdzmHtJ81cxh4zvc=/1072x720/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/ab/7a/ab7a9202-f69f-45fe-a17e-0354db249e33/giraffe.jpg",
     "year": 1414,
     "keyword": "shift",
-    "summary": "In 1414, the ruler of Malindi in East Africa sent a giraffe to the Yongle Emperor as a tribute gift. The giraffe was identified by the court as a qilin — a mythical creature of Chinese legend that appeared only to signal the arrival of a perfect ruler. The entire imperial court celebrated; paintings were commissioned; the Yongle Emperor modestly declined to accept the omen but was clearly delighted. A single giraffe had accomplished what years of diplomatic argument could not: it gave the usurper emperor divine endorsement, demonstrating the political value of the voyages in terms the Confucian court understood perfectly.",
+    "summary": "In 1414 the ruler of Bengal presented the Yongle court with a giraffe that had originated in Malindi, East Africa; a later mission from Malindi brought another. Court interpreters associated the animal with the auspicious qilin, and paintings celebrated its arrival. The episode connected Indian Ocean exchange to Ming political symbolism, although it was Bengal—not directly Malindi—that presented the first giraffe to the emperor.",
     "causeIds": [
       "treasure-fleet-reaches-africa",
       "seven-voyages"
@@ -295,18 +308,18 @@
   },
   {
     "id": "tributary-missions-return",
-    "title": "Tributary Missions Flood Beijing",
+    "title": "Diplomatic Missions Reach Beijing",
     "wiki": "Tributary_system_of_China#Ming_dynasty",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Li_Xian%27s_tomb%2C_ambassadors.jpg",
     "year": 1415,
     "keyword": "consequence",
-    "summary": "The voyages achieved their primary political purpose: rulers from across Southeast Asia, India, Arabia, and Africa sent tributary missions to Beijing, acknowledging the Ming Emperor as the universal sovereign. At one point, seventeen foreign missions arrived simultaneously. This was Yongle's proof of legitimacy made visible — the world's rulers coming voluntarily to pay court. But the bureaucracy noticed something else: the voyages cost enormous sums, and the tribute received was worth far less than the gifts China sent in return. The expeditions were a diplomatic triumph and a commercial loss.",
+    "summary": "The expeditions escorted foreign envoys to and from the Ming court and increased the number and geographic reach of maritime missions. Rulers used these exchanges for recognition, protection, trade, and diplomacy, while Ming ritual described them as tribute to the emperor. The exchanges could be costly because the court supplied transport and generous gifts, yet their value was political and strategic as well as commercial and cannot be reduced to a simple profit-and-loss balance.",
     "causeIds": [
       "seven-voyages",
-      "islamic-world-contact",
-      "giraffe-arrives-beijing",
       "scale-of-fleet-unprecedented",
-      "tributary-system"
+      "tributary-system",
+      "ming-fleet-uses-force",
+      "giraffe-arrives-beijing"
     ],
     "effectIds": [
       "china-knows-the-world"
@@ -316,38 +329,36 @@
   },
   {
     "id": "china-knows-the-world",
-    "title": "China Maps the World",
+    "title": "Charts of the Indian Ocean",
     "wiki": "Mao_Kun_map",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/WuBeiZhi.jpg",
     "year": 1420,
     "keyword": "shift",
-    "summary": "By the 1420s, China possessed more accurate geographical knowledge of the Indian Ocean world than any other civilisation. Zheng He's navigators had charted coastlines from Java to Arabia to East Africa; the Mao Kun map, derived from voyage records, depicted the Indian Ocean with remarkable accuracy. Chinese astronomers had observed the southern sky. Chinese interpreters spoke Arabic, Swahili, Hindi, and Malay. The empire possessed, in accumulated knowledge and institutional capability, everything needed to dominate global maritime trade. Within twenty years, it would choose to destroy most of this knowledge deliberately.",
+    "summary": "Voyage-era sailors compiled practical knowledge of compass bearings, monsoon timing, star observations, coastlines, shoals, and ports. The Mao Kun chart, published in the seventeenth-century Wubei Zhi but derived substantially from earlier sailing directions, preserves routes from China to Arabia and East Africa. It was a navigational strip map shaped by accumulated Asian knowledge, not proof that China possessed a uniquely complete world map or an inevitable capacity to dominate global trade.",
     "causeIds": [
-      "tributary-missions-return",
       "treasure-fleet-reaches-africa",
-      "islamic-world-contact"
+      "islamic-world-contact",
+      "tributary-missions-return"
     ],
-    "effectIds": [
-      "decision-to-stop"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
   {
     "id": "scholar-eunuch-rivalry",
-    "title": "Scholar-Officials vs Eunuchs",
+    "title": "Court Conflict over Money and Power",
     "wiki": "Eunuchs_in_China",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Prince_Zhanghuai%27s_tomb%2C_eunuchs.JPG",
     "year": 1420,
     "keyword": "pressure",
-    "summary": "The Ming court was split between two power centres: the Confucian scholar-officials who administered the empire through the examination system, and the eunuchs who served the emperor personally and often controlled access to him. Zheng He was a eunuch; the voyages were a eunuch project, funded by the emperor's personal treasury rather than the regular bureaucracy. The scholar-officials resented both the expense and the political prestige the eunuchs gained from the voyages' success. When Yongle died, they moved immediately to reclaim control — and cancelling the voyages was both a practical measure and a symbolic victory.",
+    "summary": "The voyages were closely associated with palace eunuchs and imperial authority, while civil officials carried much of the burden of raising and accounting for resources. Recent scholarship emphasizes fiscal competition: emperors controlled many commercial returns, while bureaucratic offices were expected to finance ships, manufactures, and missions. Ideology mattered, but the struggle concerned money, jurisdiction, patronage, and control of the state as much as merchants' social status.",
     "causeIds": [
       "confucian-bureaucracy",
-      "confucian-restoration"
+      "confucian-restoration",
+      "yongle-emperor"
     ],
     "effectIds": [
-      "confucian-bureaucracy-reasserts",
-      "haijin-maritime-ban"
+      "confucian-bureaucracy-reasserts"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -359,7 +370,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Ming_Tombs_-_panoramio.jpg",
     "year": 1424,
     "keyword": "catalyst",
-    "summary": "The Yongle Emperor died in 1424, while on a military campaign in Mongolia — a death that removed the sole political force capable of sustaining the voyages against bureaucratic opposition. His son Hongxi immediately suspended the expeditions, recalled the fleets, and redirected resources to the northern frontier. Hongxi died within a year, and his son Xuande ordered one final seventh voyage (1430–1433) as a diplomatic gesture — then ended the programme permanently. Three successive emperors progressively dismantled what Yongle had built, each constrained by the Confucian bureaucracy that had outlasted its patron.",
+    "summary": "The Yongle Emperor died on campaign in 1424. His successor, the Hongxi Emperor, immediately suspended expensive overseas and military projects and redirected attention to domestic administration and the northern frontier. Hongxi died in 1425; the Xuande Emperor later revived the maritime programme for one final expedition. The pause therefore reflected a change in court priorities, not an instantaneous and irreversible national rejection of the sea.",
     "causeIds": [
       "yongle-emperor"
     ],
@@ -372,19 +383,18 @@
   },
   {
     "id": "confucian-bureaucracy-reasserts",
-    "title": "Bureaucracy Reasserts Control",
+    "title": "Officials Resist Imperial Expeditions",
     "wiki": "Haijin#Ming_dynasty",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Wokou.jpg",
     "year": 1424,
     "keyword": "turning-point",
-    "summary": "With Yongle dead, the scholar-officials moved decisively. They argued that the voyages were wasteful, undignified, and contrary to Confucian principles of self-sufficient agrarian order. The expeditions had cost enormous sums; the tribute received was ceremonial rather than commercial; the eunuchs who ran them had accumulated too much power. These arguments were not wrong — they were simply incomplete. The bureaucracy correctly identified the costs and completely ignored the strategic value of what China was giving up. Their victory was total and, in retrospect, catastrophic.",
+    "summary": "Civil officials repeatedly opposed the fiscal methods and institutional power behind the expeditions. After Yongle's death they gained greater influence, especially under the child Zhengtong Emperor after 1435, and dismantled offices, production arrangements, and naval formations associated with large state voyages. Their victory was a political and budgetary settlement inside the Ming state, not a self-evidently irrational choice made by a monolithic anti-commercial class.",
     "causeIds": [
-      "yongle-emperor-dies",
-      "scholar-eunuch-rivalry"
+      "scholar-eunuch-rivalry",
+      "yongle-emperor-dies"
     ],
     "effectIds": [
       "voyages-suspended",
-      "zheng-he-records-destroyed",
       "decision-to-stop"
     ],
     "isAnchor": false,
@@ -392,19 +402,18 @@
   },
   {
     "id": "voyages-suspended",
-    "title": "Voyages Suspended",
+    "title": "Voyages Paused and Revived",
     "wiki": "Treasure_voyages#Aftermath",
     "imageUrl": "https://miro.medium.com/0*MJ5uiIolyw6GtJZP.png",
     "year": 1424,
     "keyword": "shift",
-    "summary": "Emperor Hongxi suspended the voyages immediately on taking the throne in 1424, cancelling ships already being provisioned and ordering the overseas trading missions recalled. His son Xuande allowed one final seventh voyage (1430–1433) as a gesture of continuity, but signalled clearly it would be the last. The institutional momentum of the programme — the shipyards, the trained navigators, the diplomatic networks, the geographical knowledge — began to decay the moment funding stopped. Within a generation, the capability to mount such voyages had largely been lost.",
+    "summary": "Hongxi cancelled planned expeditions in 1424, but Xuande authorized a seventh voyage in 1430; the fleet departed in 1431 and returned in 1433. After Xuande's death in 1435, the bureaucracy ended the institutional machinery for further expeditions. Official oceanic capacity contracted, yet private Chinese sailing and regional commerce expanded rather than vanishing with the treasure fleet.",
     "causeIds": [
-      "confucian-bureaucracy-reasserts",
-      "yongle-emperor-dies"
+      "yongle-emperor-dies",
+      "confucian-bureaucracy-reasserts"
     ],
     "effectIds": [
-      "decision-to-stop",
-      "zheng-he-dies"
+      "decision-to-stop"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -416,9 +425,8 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Zhenghemu03.jpg",
     "year": 1433,
     "keyword": "shift",
-    "summary": "Zheng He died in 1433, during or shortly after the return of the seventh voyage — the last Chinese fleet to venture into the Indian Ocean for over a century. He was buried at sea, though a symbolic tomb was later constructed in Nanjing. With his death, the voyages lost their most capable and committed advocate. No successor of comparable ability, vision, or imperial favour emerged. The programme he had dedicated 28 years to building was allowed to lapse, and the institutional knowledge embodied in his navigators, interpreters, and cartographers began to dissipate.",
+    "summary": "Zheng He probably died in 1433 during the final voyage or shortly after its return. Sources do not securely establish the place of death or whether his body was buried at sea; his Nanjing tomb may be commemorative. His death removed a celebrated commander, but the programme ended because court sponsorship and institutions changed, not because one indispensable navigator took all maritime knowledge with him.",
     "causeIds": [
-      "voyages-suspended",
       "seven-voyages"
     ],
     "effectIds": [
@@ -429,120 +437,117 @@
   },
   {
     "id": "decision-to-stop",
-    "title": "China Chooses to Stop",
+    "title": "State Voyages End",
     "wiki": "Haijin",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/WakouAttack.jpg",
-    "year": 1433,
+    "year": 1435,
     "keyword": "turning-point",
-    "summary": "The decision to end the voyages was not made in a single moment but accumulated across three reigns: suspension under Hongxi (1424), one revival under Xuande (1430–1433), then permanent cancellation. No emperor after Xuande ever seriously considered resuming them. The decision reflected the Confucian bureaucracy's values — self-sufficiency over trade, continental over maritime, hierarchy over commerce — but also a structural fact: the voyages had served Yongle's personal political purposes, and once he was gone, no comparable institutional interest existed to sustain them. China was not incapable of maritime expansion. It chose, deliberately and repeatedly, not to pursue it.",
+    "summary": "The cessation unfolded across several reigns: Hongxi suspended the voyages, Xuande revived them once, and officials dismantled the programme after 1435. Fiscal conflict, frontier defense, the movement of the capital and grain supply toward Beijing, changing imperial priorities, and the voyages' dependence on exceptional court patronage all contributed. Later emperors considered renewed expeditions, but no comparable state fleet returned. This was the end of one costly imperial programme—not China's permanent withdrawal from the world.",
     "causeIds": [
       "voyages-suspended",
-      "zheng-he-dies",
       "confucian-bureaucracy-reasserts",
-      "china-knows-the-world"
+      "zheng-he-dies"
     ],
     "effectIds": [
-      "haijin-maritime-ban",
-      "zheng-he-records-destroyed",
+      "knowledge-lost",
       "china-turns-inward"
-    ],
-    "isAnchor": false,
-    "isSeed": false,
-    "relatedScenario": {
-      "scenarioId": "f1-bernie",
-      "nodeId": "commercial-rights-secured",
-      "label": "Connects to How a Used Car Dealer Built a $6 Billion Empire"
-    }
-  },
-  {
-    "id": "zheng-he-records-destroyed",
-    "title": "Voyage Records Destroyed",
-    "wiki": "Zheng_He#Legacy",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Chen_Zhang%27s_painting_of_a_giraffe_and_its_attendant.jpg",
-    "year": 1477,
-    "keyword": "collapse",
-    "summary": "In 1477, when a later emperor briefly considered reviving the maritime programme, the official records of Zheng He's voyages were suppressed — charts, logs, and geographical descriptions. The court official Liu Daxia is traditionally credited (or blamed) with hiding or burning the documents, arguing that the voyages had been a wasteful extravagance; some historians dispute the extent of deliberate destruction versus natural dispersal of records over decades, but the outcome was the same. Whatever knowledge China had accumulated about the Indian Ocean world was effectively lost, and the voyages became a matter of legend rather than institutional memory.",
-    "causeIds": [
-      "decision-to-stop",
-      "confucian-bureaucracy-reasserts"
-    ],
-    "effectIds": [
-      "knowledge-lost"
     ],
     "isAnchor": false,
     "isSeed": false
   },
   {
+    "id": "zheng-he-records-destroyed",
+    "title": "Voyage Records Disperse",
+    "wiki": "Zheng_He#Legacy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Chen_Zhang%27s_painting_of_a_giraffe_and_its_attendant.jpg",
+    "year": 1477,
+    "keyword": "collapse",
+    "summary": "A famous story says that in 1477 the official Liu Daxia hid or destroyed the voyage archives when the Chenghua Emperor considered another expedition. The episode is difficult to verify in detail, and losses may also reflect routine archival dispersal and later destruction. Important evidence survived in inscriptions, official chronicles, the writings of Ma Huan and Fei Xin, and the Mao Kun chart, so the voyages did not disappear into mere legend.",
+    "causeIds": [
+      "knowledge-lost"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
     "id": "haijin-maritime-ban",
-    "title": "Maritime Prohibition (Haijin)",
+    "title": "Maritime Exclusion and Smuggling",
     "wiki": "Haijin",
     "imageUrl": "https://mingdynastyhistory.com/wp-content/uploads/2025/12/ming_smugglers_night_landing_haijin_era.webp",
     "year": 1433,
     "keyword": "collapse",
-    "summary": "The haijin — maritime prohibition — had roots in the Hongwu Emperor's restrictions from the 1370s, but progressively tightened after the voyages ended in 1433, with the strictest enforcement codified after 1449. Chinese were forbidden to build oceangoing vessels, sail abroad, or trade with foreigners. The policy was justified on Confucian grounds as protecting social order and preventing the accumulation of private merchant wealth that might challenge imperial authority. In practice it drove maritime commerce underground, enriched smugglers, and handed the Indian Ocean trade networks to Arab, Indian, Malay, and eventually Portuguese merchants.",
+    "summary": "Ming maritime exclusion policies restricted unauthorized foreign trade but changed repeatedly across regions and reigns. They did not simply begin after 1433, nor did they erase oceangoing ships: coastal shipping, fishing, tribute trade, licensed exchange, smuggling, and overseas Chinese networks continued. Local officials often tolerated or encouraged commerce, and private trade grew markedly after the state voyages ceased before legal overseas trade was formally widened in 1567.",
     "causeIds": [
-      "decision-to-stop",
-      "anti-foreign-sentiment",
-      "scholar-eunuch-rivalry"
+      "anti-foreign-sentiment"
     ],
     "effectIds": [
-      "china-turns-inward",
-      "knowledge-lost"
+      "china-turns-inward"
     ],
     "isAnchor": false,
     "isSeed": false
   },
   {
     "id": "knowledge-lost",
-    "title": "Maritime Knowledge Lost",
+    "title": "Official Maritime Capacity Declines",
     "wiki": "Zheng_He#Legacy",
     "imageUrl": "https://cdn.britannica.com/35/205235-050-8E08D431/Zheng-He-fleet-postage-stamp-Chinese.jpg",
-    "year": 1477,
+    "year": 1435,
     "keyword": "collapse",
-    "summary": "The combination of the haijin ban and the deliberate destruction of the voyage records erased most of what China had learned about the wider world. The trained navigators retired or died without passing on their knowledge institutionally. The shipyards that had built the treasure fleets were repurposed or allowed to decay. By 1500, China's practical knowledge of the Indian Ocean — the star paths, the monsoon patterns, the port charts — had largely been lost. A civilisation that had known more about the world than any other had chosen, within a single generation, to forget it.",
+    "summary": "After 1435 the court dissolved or reassigned units associated with long-distance expeditions, reduced manufacture for official export, and relied more heavily on the Grand Canal and coastal defense. The state lost the organization and fiscal arrangements needed to send another armada of Zheng He's scale. That institutional decline was real, but sailors, merchants, shipbuilders, coastal communities, charts, and practical knowledge persisted outside the discontinued programme.",
     "causeIds": [
-      "zheng-he-records-destroyed",
-      "haijin-maritime-ban"
+      "decision-to-stop"
     ],
     "effectIds": [
-      "europe-fills-vacuum"
+      "zheng-he-records-destroyed"
     ],
     "isAnchor": false,
     "isSeed": false
   },
   {
     "id": "china-turns-inward",
-    "title": "China Turns Inward",
+    "title": "Private Maritime Trade Continues",
     "wiki": "Ming_dynasty#Isolationism",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Ch%27iu_Ying_001.jpg",
     "year": 1450,
     "keyword": "consequence",
-    "summary": "From the mid-15th century, China deliberately reoriented away from maritime engagement. The Great Wall was extended and reinforced — resources that might have funded fleets went to northern land defences instead. The economy turned back toward agricultural self-sufficiency. The merchant class remained legally inferior. When Portuguese ships began arriving on the South China coast in the early 16th century, the Ming court treated them as a minor nuisance rather than recognising what their presence represented: that the ocean China had abandoned was now being claimed by others.",
+    "summary": "The end of the treasure voyages did not make Ming China economically self-contained. Private merchants increasingly filled the space left by official fleets, often through legal loopholes or smuggling, and Chinese goods and migrants remained central to Asian maritime exchange. Sixteenth-century China became deeply connected to global silver flows. The better distinction is between declining state expeditions and continuing commercial maritime activity—not an open China suddenly turning inward.",
     "causeIds": [
-      "haijin-maritime-ban",
-      "decision-to-stop"
+      "decision-to-stop",
+      "haijin-maritime-ban"
     ],
-    "effectIds": [
-      "europe-fills-vacuum"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
   {
+    "id": "portuguese-atlantic-expansion",
+    "title": "Portugal Expands down the Atlantic Coast",
+    "wiki": "Portuguese_discoveries",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Cantino_planisphere_%281502%29.jpg/500px-Cantino_planisphere_%281502%29.jpg",
+    "year": 1415,
+    "keyword": "pressure",
+    "summary": "Portugal's oceanic expansion developed from its own Atlantic setting. After the conquest of Ceuta in 1415, royal expeditions, merchants, navigators, and settlers explored Atlantic islands and the West African coast in search of trade, gold, captives, Christian allies, and strategic advantage. Improvements in ships, charts, finance, and knowledge accumulated over decades before Bartolomeu Dias rounded the Cape in 1488. This independent chain—not a Chinese withdrawal—made da Gama's voyage possible.",
+    "causeIds": [],
+    "effectIds": [
+      "europe-fills-vacuum"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
     "id": "europe-fills-vacuum",
-    "title": "Europe Fills the Vacuum",
+    "title": "Portuguese Enter an Existing Ocean System",
     "wiki": "Age_of_Discovery",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kolumbus-Santa-Maria.jpg",
     "year": 1488,
     "keyword": "consequence",
-    "summary": "While China was dismantling its maritime capability, Portugal was independently building one through its own strategic logic — Prince Henry the Navigator had sponsored coastal exploration since the 1420s, the same years China was suspending its voyages. Portugal did not know China had been in the Indian Ocean; it pursued its own agenda of breaking the Arab and Venetian monopoly on Asian trade. Bartholomeu Dias rounded the Cape of Good Hope in 1488; Vasco da Gama reached India in 1498. The Indian Ocean trade network that Zheng He's fleet had demonstrated and then abandoned was claimed by Portuguese cannon within a decade of their arrival. The question historians still debate is not whether China could have dominated global trade — it clearly could — but whether it would have wanted to.",
+    "summary": "Portuguese mariners entered the Indian Ocean after decades of independent Atlantic and African exploration, seeking gold, Christian allies, and direct access to Asian trade. They did not enter an empty vacuum left by China: they encountered dense Muslim, Gujarati, Arab, Persian, African, Malay, and other commercial networks. Portugal used fortified bases, naval artillery, passes, and coercion to gain leverage, but never replaced the entire existing trading system.",
     "causeIds": [
-      "china-turns-inward",
-      "knowledge-lost"
+      "portuguese-atlantic-expansion"
     ],
     "effectIds": [
-      "portugal-reaches-india",
-      "age-of-european-dominance"
+      "portugal-reaches-india"
     ],
     "isAnchor": false,
     "isSeed": false,
@@ -554,12 +559,12 @@
   },
   {
     "id": "portugal-reaches-india",
-    "title": "Portugal Reaches India",
+    "title": "Portugal Reaches Calicut",
     "wiki": "Vasco_da_Gama",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/A_partida_de_Vasco_da_Gama_para_a_%C3%8Dndia_em_1497.jpg",
     "year": 1498,
     "keyword": "consequence",
-    "summary": "Vasco da Gama reached Calicut on the Malabar Coast of India in May 1498 — the same port Zheng He had visited 85 years earlier with 300 ships and 28,000 men. Da Gama arrived with four ships and 170 men, and immediately demanded trading rights at gunpoint. The contrast captures the historical hinge perfectly: where China had displayed overwhelming power and then withdrawn, Portugal arrived with almost nothing and stayed forever. The spice trade that had made Venice and the Arab world rich was redirected around Africa to Lisbon within a decade, reshaping the global economy.",
+    "summary": "Vasco da Gama reached Calicut in May 1498 with four vessels after rounding the Cape of Good Hope. He arrived at a major port already integrated into prosperous Indian Ocean networks and initially had little merchandise attractive to local merchants. Later Portuguese fleets used diplomacy and violence to establish fortified positions and redirect part of the spice trade, but they did not instantly monopolize commerce or remain in India 'forever' without interruption.",
     "causeIds": [
       "europe-fills-vacuum"
     ],
@@ -571,14 +576,13 @@
   },
   {
     "id": "age-of-european-dominance",
-    "title": "Age of European Maritime Dominance",
+    "title": "European Armed Trading Empires Expand",
     "wiki": "European_colonialism",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg",
     "year": 1500,
     "keyword": "consequence",
-    "summary": "The 16th century opened with Portugal controlling the Indian Ocean spice trade, Spain claiming the Americas, and European powers beginning the colonial expansion that would define the next four centuries. None of this was geographically or technologically inevitable — China had possessed superior ships, superior navigational knowledge, and superior resources at exactly the moment when the ocean was there to be claimed. The age of European dominance was not the product of European superiority. It was, in part, the product of a Chinese bureaucratic decision made in a palace in Beijing in the 1420s.",
+    "summary": "During the sixteenth century, Portugal and Spain established armed maritime empires, followed later by Dutch, English, and French expansion. European dominance emerged unevenly through Atlantic colonization, gunpowder warfare, state finance, epidemic catastrophe in the Americas, commercial companies, and competition within existing Asian systems. The end of Zheng He's voyages forms a revealing contrast, but it did not cause European expansion or prove that China had surrendered a preordained global empire.",
     "causeIds": [
-      "europe-fills-vacuum",
       "portugal-reaches-india"
     ],
     "effectIds": [],

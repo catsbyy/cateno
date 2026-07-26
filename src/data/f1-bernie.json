@@ -5,7 +5,7 @@
     "wiki": "Formula_One#History",
     "year": 1970,
     "keyword": "pressure",
-    "summary": "Formula One in the early 1970s was run with almost no commercial structure. Teams negotiated individual appearance fees with circuit promoters, often accepting whatever they could get. Television rights were sold — when they were sold at all — by individual circuits to individual broadcasters, generating minimal revenue for the teams. Prize money was distributed inconsistently and inadequately. Teams survived race to race on a combination of sponsorship, personal wealth, and optimism. There was no collective organisation, no unified commercial strategy, no standardised prize fund. The sport was enormously popular but commercially primitive — a situation that one man, over thirty years, would transform entirely.",
+    "summary": "Formula One entered the 1970s as a prestigious championship but a fragmented business. Promoters negotiated separately with teams, television coverage varied by country and event, and independent constructors depended heavily on sponsorship, start money, and prize funds. FOCA already existed, but it had not yet become the disciplined bargaining organisation it would become under Bernie Ecclestone. The mismatch between the sport's popularity and its weak collective commercial structure created the opening he exploited.",
     "causeIds": [],
     "effectIds": [
       "ecclestone-takes-foca"
@@ -20,7 +20,7 @@
     "wiki": "Bernie_Ecclestone",
     "year": 1972,
     "keyword": "spark",
-    "summary": "Bernie Ecclestone — a used car dealer who had made money in motorcycle racing and property — acquired the Brabham Formula One team in late 1971 from Ron Tauranac and immediately began reorganising the commercial landscape around him. He began leading FOCA negotiations on behalf of the constructor teams from 1974, becoming the association's effective CEO by 1978. Ecclestone's genius was recognising what everyone else had missed: Formula One's television audience was enormous and growing, but the sport was giving its most valuable asset — broadcast rights — away for almost nothing. He set about correcting this with a methodical determination that would take three decades to complete.",
+    "summary": "Bernie Ecclestone bought Brabham from Ron Tauranac at the end of 1971 and became increasingly influential within the Formula One Constructors' Association. By the mid-1970s he was negotiating on behalf of the mainly British independent teams, while Max Mosley handled much of FOCA's legal and political work. Ecclestone's importance lay less in a single revelation than in bundling the teams, races, and television product into something promoters and broadcasters could buy centrally. That strategy gradually shifted power away from individual circuits and toward a permanent commercial organisation.",
     "causeIds": [
       "f1-as-amateur-chaos"
     ],
@@ -40,7 +40,7 @@
     "wiki": "Formula_One_Constructors%27_Association",
     "year": 1974,
     "keyword": "shift",
-    "summary": "Under Ecclestone, the Formula One Constructors' Association transformed from an informal group of team principals who occasionally met for lunch into a disciplined collective bargaining unit. Ecclestone persuaded the teams that their individual negotiating power with promoters was minimal but their collective power was substantial — no promoter could run a Formula One race if the constructors refused to appear. He standardised contracts, established minimum appearance fees, and began negotiating with circuits and television companies as a single entity rather than a collection of individuals. The teams discovered they were worth far more than they had been charging.",
+    "summary": "Under Ecclestone's leadership, FOCA became a much stronger collective representative of the constructor teams. Coordinated entry commitments and negotiations gave the teams leverage over promoters who needed a credible Formula One field, while standard contracts and pooled bargaining improved payments and predictability. The organisation did not erase conflict among teams, but it made collective withdrawal and collective negotiation plausible weapons. This commercial solidarity later became inseparable from FOCA's political struggle with FISA.",
     "causeIds": [
       "ecclestone-takes-foca"
     ],
@@ -55,11 +55,11 @@
   },
   {
     "id": "television-rights-revolution",
-    "title": "Ecclestone Sells Formula One to Television",
+    "title": "Television Rights Become Centralised",
     "wiki": "Bernie_Ecclestone#Formula_One_executive",
     "year": 1978,
     "keyword": "turning-point",
-    "summary": "Ecclestone began negotiating centralised television deals in the late 1970s, recognising that Formula One's audience — global, affluent, demographically attractive — was the sport's primary commercial asset, being systematically undersold. The first substantial centralised agreement with the European Broadcasting Union was reached in 1982, but the groundwork — taking rights control from individual circuits — was laid from 1978 onward. The revenue transformation was profound: television fees that had been almost nonexistent became the largest single source of income in the sport. Ecclestone also insisted on controlling broadcast production — the cameras, the graphics, the presentation — ensuring that Formula One looked like a premium global product regardless of which circuit was hosting. He had invented the modern sports television rights deal, and every major sport that followed did so using his template.",
+    "summary": "Ecclestone progressively centralised Formula One television and promotional arrangements during the late 1970s and early 1980s. The first Concorde settlement gave FOCA a recognised role in exploiting television rights, and Ecclestone's companies later professionalised international distribution and the television presentation of races. Broadcast income grew from a secondary and inconsistent stream into a central pillar of the championship's business. Formula One was an important example of centralised sports-rights packaging, though it did not single-handedly invent the model used by every later sport.",
     "causeIds": [
       "ecclestone-takes-foca",
       "foca-bargaining-power"
@@ -83,7 +83,7 @@
     "wiki": "Concorde_Agreement",
     "year": 1981,
     "keyword": "shift",
-    "summary": "The Concorde Agreement of 1981 — named for the Place de la Concorde, the Paris square where the FIA's offices were located — established the legal and commercial framework that governed Formula One for the next two decades. It distributed television and race fee revenues between the FIA, the teams, and Ecclestone's commercial organisation; established the teams' right to participate in the sport; and defined the balance of power between the sporting authority and the commercial rights holder. It also contained the seed of Ecclestone's future dominance: the commercial rights were assigned to his organisation for a period that would eventually be extended and consolidated into a 100-year arrangement. The Concorde Agreement built the cage; Ecclestone owned the key.",
+    "summary": "The first Concorde Agreement in 1981 ended the most destructive phase of the FISA-FOCA conflict. It confirmed the FIA/FISA's authority over sporting and technical rules, committed teams to participate, and gave FOCA a commercial role, including television exploitation. Its precise terms were confidential and later agreements repeatedly changed the balance among the governing body, teams, and Ecclestone's companies. The 100-year commercial-rights lease was a much later transaction, not a clause simply embedded in the 1981 settlement.",
     "causeIds": [
       "ecclestone-takes-foca",
       "television-rights-revolution",
@@ -103,7 +103,7 @@
     "wiki": "Formula_One#Big_business",
     "year": 1981,
     "keyword": "shift",
-    "summary": "Ecclestone systematically expanded Formula One's geographical footprint, taking the sport to markets that had never hosted a Grand Prix. The Brazilian Grand Prix, which had run at Interlagos in 1972–1977, returned in 1978 at Jacarepaguá under Ecclestone's new commercial framework; races returned to North America; Japan was added. Through the 1980s and 1990s, Ecclestone brought F1 to Hungary, Australia, and then Asia — Malaysia in 1999, China in 2004, Bahrain in 2004. Each new market generated race hosting fees, increased television revenues, and expanded the sport's sponsor base. Ecclestone's criterion for a new race was simple: the promoter had to pay the hosting fee Ecclestone demanded. The sport's geography was determined entirely by commercial calculation.",
+    "summary": "Formula One was already international before Ecclestone, but his commercial system accelerated its expansion and changed the economics of hosting. New and returning races in Australia, Hungary, Japan, Malaysia, Bahrain, China, and elsewhere broadened the calendar, often with government or promoter support. Hosting fees, television reach, sponsor markets, logistics, and political relationships all shaped the choices. The result was a championship less dependent on its traditional Western European base, but also increasingly willing to replace historic venues with higher-paying hosts.",
     "causeIds": [
       "foca-bargaining-power"
     ],
@@ -116,17 +116,16 @@
   },
   {
     "id": "bernie-controls-calendar",
-    "title": "Bernie Controls the Calendar",
+    "title": "The Calendar Becomes a Commercial Lever",
     "wiki": "Formula_One",
     "year": 1985,
     "keyword": "pressure",
-    "summary": "Control of the Formula One calendar — which races appear on it, in what order, at what fee — became one of Ecclestone's most powerful commercial instruments. Circuits that couldn't pay the hosting fee were dropped; circuits that could were added regardless of their historical significance to the sport. Brands, governments, and promoters competed for calendar positions, paying premiums that rose steadily as F1's global audience grew. The hosting fee for a street circuit in a glamorous location — Monaco, Monaco, Monaco — was effectively negotiated against the prestige value of being associated with Formula One's glamorous image. Ecclestone had turned the right to host a Formula One race into a luxury product.",
+    "summary": "As Formula One's commercial organisation became stronger, calendar access became a valuable bargaining instrument. Promoters competed for limited dates and paid escalating fees, while the FIA formally approved the championship calendar and Ecclestone negotiated much of the commercial framework. Historic importance did not guarantee survival, and public subsidies increasingly helped new venues meet the price. Calendar control was therefore powerful but not literally Ecclestone's alone: governing-body approval, contracts, teams, broadcasters, and host governments all constrained it.",
     "causeIds": [
       "concorde-agreement"
     ],
     "effectIds": [
-      "f1-becomes-global-brand",
-      "commercial-rights-secured"
+      "f1-becomes-global-brand"
     ],
     "isAnchor": false,
     "isSeed": false,
@@ -149,11 +148,11 @@
   },
   {
     "id": "f1-becomes-global-brand",
-    "title": "F1 as a $6 Billion Property",
+    "title": "Formula One Becomes a Global Media Property",
     "wiki": "Formula_One#Revenue_and_profits",
     "year": 1995,
     "keyword": "consequence",
-    "summary": "By the mid-1990s, Formula One had been transformed from a loose collection of racing teams into one of the world's most valuable sporting properties. Global television audiences exceeded 350 million viewers per race; hosting fees ran to $30–50 million per circuit; sponsorship rates reflected an affluent, global, male demographic that advertisers paid premium rates to reach. The sport that had been running on appearance fees and goodwill in 1972 was now generating revenues exceeding $1 billion per year. Ecclestone's personal wealth was measured in billions; the teams that had given him commercial authority now found themselves subject to agreements that distributed the sport's revenues in ways that generated significant tension.",
+    "summary": "By the 1990s Formula One had become a highly recognisable global sports and media property, built on regular worldwide broadcasting, multinational sponsorship, and a controlled championship calendar. Its value cannot be reduced to one stable '$6 billion' figure: ownership structures, debt, rights agreements, and market conditions produced very different valuations at different moments. What was durable was the new business model—centralised rights, contractual team participation, and premium hosting fees. That model created far more revenue than the fragmented system of the early 1970s, while also concentrating decision-making power.",
     "causeIds": [
       "television-rights-revolution",
       "concorde-agreement",
@@ -161,7 +160,8 @@
       "bernie-controls-calendar"
     ],
     "effectIds": [
-      "commercial-rights-secured"
+      "commercial-rights-secured",
+      "eu-competition-scrutiny"
     ],
     "isAnchor": false,
     "isSeed": false,
@@ -169,15 +169,15 @@
   },
   {
     "id": "commercial-rights-secured",
-    "title": "The 100-Year Deal",
+    "title": "The Long Commercial-Rights Lease",
     "wiki": "Formula_One_Group#Group_companies",
     "year": 2001,
     "keyword": "consequence",
-    "summary": "Between 1995 and 2001, Ecclestone secured the Formula One commercial rights from the FIA in a series of agreements that gave his organisation — Formula One Management — control of the sport's commercial exploitation for a period effectively running to 2110. The deal was controversial and subsequently examined by the European Commission for anti-competitive implications. Max Mosley, the FIA president who negotiated the arrangement with Ecclestone, later acknowledged that the terms were extremely favourable to Ecclestone's interests. The 100-year deal represented the completion of the project Ecclestone had begun when he bought Brabham as a hobby: he had turned a sport into a privately controlled commercial empire, and the agreement ensured it would remain one long after he was gone.",
+    "summary": "The FIA first granted Ecclestone-linked companies a shorter-term commercial-rights arrangement in the 1990s. In 2001, after regulatory scrutiny and internal negotiations, the FIA agreed a 100-year lease of Formula One's commercial rights beginning in 2011, reportedly for about $313.6 million. The deal sharply increased the saleable value of the Formula One business, but it remained distinct from ownership of the FIA championship itself. Its terms and the close Ecclestone-Mosley relationship have remained controversial, especially among teams that believed earlier collective rights had migrated into Ecclestone-controlled companies.",
     "causeIds": [
       "f1-becomes-global-brand",
-      "bernie-controls-calendar",
-      "manufacturer-power-returns"
+      "manufacturer-power-returns",
+      "eu-competition-scrutiny"
     ],
     "effectIds": [
       "cvc-acquires-f1"
@@ -211,7 +211,7 @@
     "imageUrl": "https://www.f1-fansite.com/wp-content/uploads/2021/07/35514_060038bah.jpg",
     "year": 2006,
     "keyword": "shift",
-    "summary": "In 2006, CVC Capital Partners acquired a controlling stake in the Formula One commercial rights from a German bank that had taken them as security on a loan. Ecclestone remained as CEO, but for the first time the sport's commercial rights were owned by a pure financial investor whose interest was extracting maximum return on investment. CVC applied standard private equity logic: minimise costs, maximise distributions, prepare for exit. The sport's debt load increased; investment in digital and online distribution was limited; the free-to-air television model began giving way to pay-TV deals that generated more revenue but reduced audience reach. CVC would hold its investment for eleven years, eventually selling to Liberty Media in 2017 for a reported $8 billion — a return that vindicated the investment and transformed F1 into a fully financialised sporting product.",
+    "summary": "CVC Capital Partners assembled a controlling interest in the Formula One business during 2005–06, buying stakes held through the Bambino trust and the creditor banks that had gained control after the collapse of Kirch. Ecclestone remained chief executive and a minority stakeholder, preserving operational continuity while private equity controlled the asset. Under CVC, Formula One generated large distributions and debt-funded returns, while critics argued that too little was reinvested and that smaller teams received an inequitable share. The period demonstrated how completely the championship's commercial rights had become a financial asset separable from day-to-day racing.",
     "causeIds": [
       "commercial-rights-secured"
     ],
@@ -223,7 +223,7 @@
     "isSeed": false,
     "relatedScenario": {
       "scenarioId": "tulip-mania",
-      "nodeId": "modern-derivatives-template",
+      "nodeId": "amsterdam-exchange-bank",
       "label": "Connects to The Flower That Invented Finance"
     }
   },
@@ -251,12 +251,29 @@
     "imageUrl": "https://corp.formula1.com/wp-content/uploads/2023/03/LVGP-Paddock-and-East-Harmon-Zone-Aerial-scaled.jpg",
     "year": 2017,
     "keyword": "turning-point",
-    "summary": "In January 2017, Liberty Media — an American entertainment conglomerate — completed the acquisition of the Formula One Group for approximately $8 billion. Bernie Ecclestone, 86, was removed as CEO after more than 40 years. Chase Carey became chairman; Ross Brawn was appointed sporting director. Liberty's approach was the inverse of Ecclestone's: they invested in digital infrastructure, launched F1 TV, embraced social media, commissioned the Netflix series Drive to Survive (2019), and actively pursued younger audiences in the United States. The commercial empire Ecclestone had built was intact; the strategy for exploiting it had been comprehensively reversed. The sport that Ecclestone had run as a personal fiefdom became a corporate entertainment property — perhaps the only outcome possible given the $8 billion price tag required to justify the investment.",
+    "summary": "Liberty Media completed its acquisition of Formula One in January 2017 in a transaction that valued the business at roughly $8 billion including debt, with an equity value commonly reported around $4.4 billion. Ecclestone was removed from executive control and Chase Carey became chairman and chief executive. Liberty retained the long-term rights structure but invested more heavily in digital media, direct fan engagement, event presentation, and expansion in the United States. The takeover changed management style and growth strategy rather than dismantling the commercial architecture Ecclestone had built.",
     "causeIds": [
       "cvc-acquires-f1",
       "pay-tv-transition"
     ],
     "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "eu-competition-scrutiny",
+    "title": "European Competition Scrutiny",
+    "wiki": "European_Commission_competition_law",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz8r6cznQxQXOksaIkBcfBVVSf50CVlf1S0Hj9VmtYUQ&s=10",
+    "year": 1999,
+    "keyword": "pressure",
+    "summary": "The European Commission investigated the FIA and Formula One's commercial arrangements in the late 1990s, focusing on conflicts between regulation and commercial exploitation and on restrictions affecting broadcasters and promoters. A 2001 settlement required clearer separation between the FIA's regulatory role and the commercial rights business, while allowing the long-term rights arrangements to proceed. The intervention did not dismantle Ecclestone's system, but it forced legal restructuring and helped define the form in which the 100-year lease operated.",
+    "causeIds": [
+      "f1-becomes-global-brand"
+    ],
+    "effectIds": [
+      "commercial-rights-secured"
+    ],
     "isAnchor": false,
     "isSeed": false
   }

@@ -1,11 +1,11 @@
 [
   {
     "id": "dangerous-by-design",
-    "title": "F1 Was Built to Kill",
+    "title": "Early Formula One Accepted Extreme Risk",
     "wiki": "Formula_One",
     "year": 1950,
     "keyword": "pressure",
-    "summary": "Formula One's first World Championship season in 1950 was contested on circuits that were, by any modern standard, catastrophically dangerous. Hay bales lined some straights; spectators stood metres from the track; fire marshals were local volunteers; medical facilities were rudimentary. This was not negligence — it was the sport's governing assumption: motor racing was dangerous, drivers knew this, and death was an accepted occupational hazard. Between 1950 and 1994, more than 25 drivers died at Formula One championship race weekends — a figure that rises further if non-championship events and test sessions are included. The fatality rate was treated as an inherent property of the sport rather than a problem to be solved — until one weekend in May 1994 made that position untenable.",
+    "summary": "The first decades of the Formula One World Championship combined fast cars with circuits, barriers, medical provision, and rescue systems that varied enormously in quality. Trees, buildings, ditches, spectators, and weak barriers often stood close to the racing line, while fire protection and rapid specialist treatment were inconsistent. These conditions reflected both contemporary technology and a culture that tolerated risks now considered unacceptable. They were not literally designed to kill, but safety was routinely subordinated to speed, tradition, cost, and spectacle.",
     "causeIds": [],
     "effectIds": [
       "death-accepted-as-cost",
@@ -24,7 +24,7 @@
     "wiki": "List_of_Formula_One_fatalities",
     "year": 1960,
     "keyword": "pressure",
-    "summary": "The cultural framework that governed Formula One throughout the 1960s, 1970s, and 1980s treated driver fatalities as tragic but inevitable — the price that racing extracted from those who chose to compete at its highest level. Drivers signed waivers, made wills, and accepted their mortality with a combination of fatalism and bravado that was inseparable from what it meant to race at the front of the grid. Jackie Stewart began campaigning for safety improvements after his own near-fatal accident at Spa in 1966; he was regarded by many contemporaries as a troublemaker undermining the sport's spirit. The culture that killed drivers also made their courage meaningful — and it would take an event of particular magnitude to break both simultaneously.",
+    "summary": "Through much of the 1960s and 1970s, fatal accidents were frequent enough that many participants treated them as an unavoidable cost of Grand Prix racing. That fatalism was never universal: drivers, doctors, engineers, journalists, and organisers argued repeatedly about circuits, barriers, fire, and medical response. Yet reforms were often piecemeal and resisted as expensive or as threats to the character of the sport. The tension between acceptance and protest is essential to understanding why safety advanced slowly before becoming institutionalised.",
     "causeIds": [
       "dangerous-by-design"
     ],
@@ -40,11 +40,11 @@
   },
   {
     "id": "recurring-driver-deaths",
-    "title": "The Years of Regular Deaths",
+    "title": "Fatalities Drive Repeated Reckonings",
     "wiki": "List_of_Formula_One_fatalities",
     "year": 1968,
     "keyword": "collapse",
-    "summary": "The scale of Formula One's fatality record in its first four decades defies modern comprehension. Jim Clark — considered by many the greatest driver in the sport's history — died at Hockenheim in 1968 in a Formula Two race. Jochen Rindt was killed at Monza in 1970, becoming the only posthumous World Champion. Roger Williamson died in a fire at Zandvoort in 1973 while David Purley risked his own life trying to save him. Tom Pryce was killed at the South African Grand Prix in 1977. Ronnie Peterson died at hospital from a fat embolism following surgery after a first-lap accident at Monza in 1978 — his leg injuries had seemed survivable, making the loss particularly shocking. Gilles Villeneuve was killed at Zolder in 1982. These were not obscure backmarkers but the sport's most celebrated and beloved competitors — and each death was processed, mourned, and then absorbed back into a culture that continued unchanged.",
+    "summary": "A succession of deaths—including Jim Clark in Formula Two, Jochen Rindt in qualifying at Monza, François Cevert at Watkins Glen, and Ronnie Peterson after the 1978 Italian Grand Prix start—made the cost of elite motor racing impossible to ignore. Not all occurred in Formula One championship races, and each accident had different technical and medical circumstances. Together they sustained pressure for better barriers, fire response, cockpit protection, circuit standards, and emergency care. Progress came in waves rather than through one continuous safety programme.",
     "causeIds": [
       "dangerous-by-design",
       "death-accepted-as-cost"
@@ -63,7 +63,7 @@
     "wiki": "1976_German_Grand_Prix",
     "year": 1976,
     "keyword": "catalyst",
-    "summary": "On August 1, 1976, Niki Lauda's Ferrari crashed at the Nürburgring and burst into flames. He was trapped in the burning car for nearly a minute before other drivers stopped to pull him free — Brett Lunger, Arturo Merzario, Guy Edwards, and Harald Ertl risking their own lives in the attempt. Lauda survived with severe burns to his face and lungs, and was given last rites in hospital. He returned to racing six weeks later. The incident transformed Lauda from a calculating technical driver into a figure of almost mythological resilience, and his subsequent campaign to have the Nürburgring removed from the calendar — the circuit was too long and too dangerous to be properly marshalled — began shifting the discourse around safety from individual acceptance to institutional responsibility.",
+    "summary": "On 1 August 1976 Niki Lauda crashed at the Nürburgring, where his Ferrari struck barriers and caught fire. Fellow drivers helped extract him before organised rescue could fully respond; he suffered severe burns and lung damage but returned to racing only six weeks later. The accident strengthened criticism of the long, remote Nordschleife and exposed the difficulty of providing rapid medical and fire coverage around such a circuit. Formula One did not return there for a World Championship Grand Prix, though the decision reflected a longer safety dispute as well as Lauda's crash.",
     "causeIds": [
       "dangerous-by-design",
       "death-accepted-as-cost",
@@ -88,7 +88,8 @@
     ],
     "effectIds": [
       "safety-discourse-shifts",
-      "san-marino-gp-1994"
+      "san-marino-gp-1994",
+      "carbon-monocoque-arrives"
     ],
     "isAnchor": false,
     "isSeed": true,
@@ -119,7 +120,7 @@
     "wiki": "Ayrton_Senna",
     "year": 1984,
     "keyword": "pressure",
-    "summary": "Ayrton Senna made his Formula One debut in 1984 and immediately demonstrated a level of talent that the sport had not seen since Jim Clark. By 1988 he was World Champion; by 1991 he had three titles. But what made Senna different from other great champions was his cultural significance: in Brazil, he was a national figure of quasi-religious importance — a symbol of excellence, pride, and possibility for a country that desperately needed such symbols. Globally, his combination of supernatural speed, intense personality, and visible spirituality made him compelling beyond the usual boundaries of sporting celebrity. Formula One has produced great champions; it has produced only one Senna. His death would resonate in ways that the deaths of equally great drivers had not.",
+    "summary": "Ayrton Senna entered Formula One with Toleman in 1984 and quickly became known for exceptional qualifying speed, wet-weather performance, and intensity. His rise through Lotus and McLaren made him one of the defining drivers of the late 1980s and early 1990s, but comparisons such as 'the greatest since Jim Clark' are judgments rather than verifiable facts. Senna also became increasingly attentive to safety and medical response, particularly after serious accidents involving other drivers. His fame meant that his death would carry an impact far beyond motorsport.",
     "causeIds": [],
     "effectIds": [
       "san-marino-gp-1994",
@@ -135,7 +136,7 @@
     "wiki": "1994_San_Marino_Grand_Prix",
     "year": 1994,
     "keyword": "spark",
-    "summary": "The 1994 San Marino Grand Prix weekend at Imola was the most catastrophic in Formula One's history. On Friday, Rubens Barrichello was seriously injured in a crash. On Saturday, Roland Ratzenberger — an Austrian driver making only his second Grand Prix start — was killed when his front wing failed at Villeneuve corner, leaving him with no steering at over 300km/h. On Sunday, Ayrton Senna led the race until lap 7, when his Williams FW16 went straight on at the Tamburello corner and struck the concrete retaining wall. He was extracted from the car with fatal head injuries; he died at the Maggiore hospital in Bologna at 6:40pm. In three days, Formula One had experienced what it had collectively agreed could no longer be experienced. Everything that followed was changed by this weekend.",
+    "summary": "The 1994 San Marino Grand Prix weekend at Imola brought a sequence of severe accidents: Rubens Barrichello was badly injured on Friday, Roland Ratzenberger was killed in qualifying on Saturday, and Ayrton Senna died after crashing at Tamburello during Sunday's race. Other incidents injured spectators and mechanics. It was Formula One's darkest modern race weekend and the first championship event with driver deaths since 1982. The tragedy exposed unresolved questions about car behaviour, circuit design, procedures, and the sport's assumption that its recent fatality-free period signified adequate safety.",
     "causeIds": [
       "dangerous-by-design",
       "death-accepted-as-cost",
@@ -195,7 +196,7 @@
     "wiki": "Death_of_Ayrton_Senna#Safety_improvements",
     "year": 1994,
     "keyword": "turning-point",
-    "summary": "The FIA implemented emergency safety measures at the Monaco Grand Prix, two weeks after Imola — the fastest regulatory response in the sport's history. Chicanes were added to reduce straight-line speeds; technical regulations were modified to reduce aerodynamic performance; pit lane speed limits were introduced. These were blunt instruments, imposed in haste, and not all of them were maintained permanently. But their speed demonstrated something important: when the political will existed, Formula One's regulatory apparatus could move with remarkable urgency. The question was why that will had been absent for the previous four decades.",
+    "summary": "The FIA introduced emergency measures during the races immediately following Imola, including pit-lane speed limits, temporary circuit changes, and performance-reduction measures. Some changes were improvised and contested, and the technical package evolved rapidly through the 1994 season. The governing body also used computer analysis to identify high-risk corners and accelerated barrier and circuit modifications. This was not the beginning of Formula One safety, but it marked a new intensity and centralisation of regulation.",
     "causeIds": [
       "san-marino-gp-1994",
       "ratzenberger-death"
@@ -209,20 +210,22 @@
   },
   {
     "id": "fia-safety-crackdown",
-    "title": "The FIA's Safety Revolution",
+    "title": "Safety Regulation Becomes Systematic",
     "wiki": "Death_of_Ayrton_Senna#Safety_improvements",
     "year": 1995,
     "keyword": "turning-point",
-    "summary": "Beginning in 1995, the FIA implemented the most comprehensive safety overhaul in Formula One's history. Circuit safety barriers were redesigned using improved energy-absorbing materials; gravel traps — which could cause cars to barrel-roll — were progressively replaced with asphalt run-off areas; tyre barriers were positioned with new understanding of impact dynamics. Car cockpit design was strengthened; the headrest extended to provide more lateral head protection; fuel cell specifications were tightened. A new circuit homologation process required every track to meet specific safety standards before receiving an FIA Grade 1 licence. Max Mosley, the FIA president, drove the programme with extraordinary energy — in part, observers suggested, because his friendship with Senna made the obligation personal.",
+    "summary": "From 1994 onward the FIA expanded crash testing, cockpit protection, circuit assessment, barrier standards, wheel retention, accident data collection, and medical requirements. Many measures built on work already under way in the 1980s and early 1990s, but Imola transformed their urgency and political support. Higher cockpit sides, stronger survival cells, improved tyre barriers, extractable seats, and later head-and-neck protection were introduced through successive rule cycles. The result was an institutional safety system based increasingly on testing and accident analysis rather than reaction alone.",
     "causeIds": [
       "world-in-shock",
       "fia-emergency-measures",
-      "senna-investigation"
+      "senna-investigation",
+      "carbon-monocoque-arrives"
     ],
     "effectIds": [
       "modern-safety-era",
       "halo-development",
-      "sid-watkins-medical-revolution"
+      "sid-watkins-medical-revolution",
+      "hans-mandated"
     ],
     "isAnchor": false,
     "isSeed": true,
@@ -239,7 +242,8 @@
       "fia-safety-crackdown"
     ],
     "effectIds": [
-      "modern-safety-era"
+      "modern-safety-era",
+      "hans-mandated"
     ],
     "isAnchor": false,
     "isSeed": false,
@@ -247,14 +251,15 @@
   },
   {
     "id": "modern-safety-era",
-    "title": "Zero Racing Deaths — 1994 to 2014",
+    "title": "Two Decades Without a Grand Prix Weekend Fatality",
     "wiki": "Safety_in_Formula_One",
-    "year": 1995,
+    "year": 2014,
     "keyword": "consequence",
-    "summary": "After Ayrton Senna's death on May 1, 1994, Formula One went twenty years without a driver fatality at a race weekend — an achievement that would have been considered impossible by anyone familiar with the sport's history before that date. Drivers survived accidents that would certainly have killed them in previous eras: Michael Schumacher's leg break at Silverstone in 1999; Robert Kubica's enormous impact at Canada in 2007; Felipe Massa's near-fatal head injury at Hungary in 2009, when a spring from another car struck his helmet at 250km/h. Each survival was a demonstration that the safety revolution had worked — and that Senna's death had not been in vain, in the specific sense that it had produced changes that were keeping other people alive.",
+    "summary": "After Senna and Ratzenberger, Formula One completed roughly two decades without another driver dying from injuries sustained during a Grand Prix weekend. That record reflected safer survival cells, circuits, barriers, medical systems, and operating procedures, but it did not mean serious accidents disappeared or that every reform originated in 1994. María de Villota suffered fatal long-term consequences after a 2012 test accident outside a Grand Prix weekend, and numerous drivers survived impacts that could previously have been lethal. Jules Bianchi's 2014 crash ended any sense that the problem had been solved.",
     "causeIds": [
       "fia-safety-crackdown",
-      "sid-watkins-medical-revolution"
+      "sid-watkins-medical-revolution",
+      "hans-mandated"
     ],
     "effectIds": [
       "bianchi-exception"
@@ -276,14 +281,15 @@
     "keyword": "shift",
     "summary": "The one area that remained inadequately protected after 1994's safety revolution was the driver's head. The open cockpit — fundamental to Formula One's identity — left drivers exposed to flying debris, barriers, and other cars in ways that no amount of circuit redesign could fully mitigate. Felipe Massa's injury in 2009 and Henry Surtees's death in a Formula Two race the same year renewed attention to head protection. The FIA began developing the halo — a titanium structure mounted above the cockpit, designed to deflect debris and prevent intrusion — in 2009. Teams resisted it for years on aesthetic grounds. It was finally mandated for 2018.",
     "causeIds": [
-      "fia-safety-crackdown"
+      "fia-safety-crackdown",
+      "hans-mandated"
     ],
     "effectIds": [
       "halo-saves-grosjean"
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/2020_F1_Pre-Season_Testing_Catalonia_%2849629040498%29.jpg" 
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/2020_F1_Pre-Season_Testing_Catalonia_%2849629040498%29.jpg"
   },
   {
     "id": "bianchi-exception",
@@ -291,7 +297,7 @@
     "wiki": "Jules_Bianchi",
     "year": 2014,
     "keyword": "collapse",
-    "summary": "On October 5, 2014, Jules Bianchi's Marussia car struck a recovery vehicle at the Japanese Grand Prix, suffering a severe brain injury. He died on July 17, 2015 — the first Formula One driver fatality since Senna. The accident occurred when Bianchi failed to slow sufficiently under double waved yellow flags while a recovery tractor attended to another car that had crashed moments earlier. The FIA's investigation found that the accident was survivable had Bianchi reduced speed as required; it also identified systemic failures in the process by which double yellows were communicated and enforced. The response was immediate: the virtual safety car system — which mandates a specific minimum lap time under yellow flag conditions — was introduced for 2015. And the long-delayed halo development was accelerated.",
+    "summary": "At the rain-affected 2014 Japanese Grand Prix, Jules Bianchi lost control under double yellow flags and struck a recovery vehicle attending Adrian Sutil's crashed car. He suffered a diffuse axonal brain injury and died in July 2015. The FIA panel concluded that several circumstances combined, including speed that was too high for the conditions and flag sector, while rejecting a single simple mechanical explanation. The response included the Virtual Safety Car and renewed scrutiny of recovery operations, cockpit exposure, wet-weather procedures, and race control.",
     "causeIds": [
       "modern-safety-era"
     ],
@@ -322,11 +328,11 @@
   },
   {
     "id": "f1-safest-in-history",
-    "title": "The Safest It Has Ever Been",
+    "title": "Safety Improves Without Becoming Absolute",
     "wiki": "Safety_in_Formula_One",
     "year": 2022,
     "keyword": "consequence",
-    "summary": "Formula One in 2022 is, by every measurable standard, the safest it has ever been. Zhou Guanyu's car rolled and was launched into the barrier at Silverstone; he walked away. Kevin Magnussen had a serious crash at the same circuit; he walked away. The survival rate from accidents that would have killed drivers in previous eras is now close to absolute. This transformation — from a sport that accepted multiple fatalities per year as normal to one in which surviving previously unsurvivable accidents is routine — is the direct consequence of decisions made in the aftermath of one weekend at Imola in 1994. Jules Bianchi's death in 2015, from injuries sustained when his car struck a recovery vehicle at the 2014 Japanese Grand Prix, remains the one exception: a reminder that complacency is the enemy of safety, and that the systems require constant revision. In every other respect, the sport's safety culture was built on Senna's death — and it is keeping people alive.",
+    "summary": "Modern Formula One combines exceptionally strong survival cells, the halo, HANS, advanced helmets, wheel tethers, accident data systems, specialised medical teams, and heavily regulated circuits. Zhou Guanyu's 2022 British Grand Prix crash illustrated both the value of the halo and the need to strengthen roll-hoop tests after his primary structure failed. Calling any season simply 'the safest ever by every measurable standard' overstates what can be measured across eras. The stronger conclusion is that systematic engineering and investigation have made many formerly unsurvivable accidents survivable while new failure modes continue to demand reform.",
     "causeIds": [
       "halo-saves-grosjean"
     ],
@@ -360,13 +366,49 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Roland_Ratzenberger.jpg",
     "year": 1994,
     "keyword": "consequence",
-    "summary": "Twenty-four hours before Senna died, Roland Ratzenberger was killed at the same circuit. His Simtek's front wing had broken on the previous lap; he returned to the pit lane, was waved back out, and the damaged wing failed completely at Villeneuve corner at over 300km/h. He died of a basal skull fracture. Ratzenberger was 33 years old and making only his second Formula One start — his first had been two weeks earlier at the Pacific Grand Prix in Japan, having failed to qualify at the season-opening Brazilian round. He had spent years working his way through junior formulas in Europe and Japan to reach this point. His death was overshadowed immediately and then almost entirely by Senna's the following day — a historical injustice that drivers and those close to him have noted repeatedly. Senna, who drove to the scene of Ratzenberger's accident in a medical car, was visibly shaken for the remainder of that Saturday. He reportedly told Sid Watkins he was considering retiring from the sport.",
+    "summary": "Roland Ratzenberger was killed during qualifying on 30 April 1994 when his Simtek left the circuit at the Villeneuve corner after front-wing failure. Evidence indicated that the wing had probably been damaged during an earlier off-track excursion before detaching at speed. His death was the first at a Formula One Grand Prix weekend since Riccardo Paletti in 1982. Ratzenberger's loss was partly overshadowed internationally by Senna's death the following day, but both deaths shaped the emergency response and the subsequent safety programme.",
     "causeIds": [
       "san-marino-gp-1994"
     ],
     "effectIds": [
       "world-in-shock",
       "fia-emergency-measures"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "carbon-monocoque-arrives",
+    "title": "The Carbon-Fibre Survival Cell",
+    "wiki": "McLaren_MP4/1",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/McLaren_MP4_at_Silverstone_Classic_2011_%281%29.jpg",
+    "year": 1981,
+    "keyword": "shift",
+    "summary": "McLaren's MP4/1 introduced a carbon-fibre composite monocoque to Formula One racing in 1981. The material offered high stiffness and strength at low weight, and John Watson's heavy Monza crash helped demonstrate the survival cell's potential. Carbon construction spread through the field and became the foundation for increasingly demanding crash tests. This technical change preceded Imola and shows that the modern safety revolution had important engineering roots before 1994.",
+    "causeIds": [
+      "sid-watkins-arrives"
+    ],
+    "effectIds": [
+      "fia-safety-crackdown"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "hans-mandated",
+    "title": "HANS Becomes Mandatory",
+    "wiki": "HANS_device",
+    "imageUrl": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/12q1/435356/the-physics-of-how-the-hans-device-saves-lives-feature-car-and-driver-photo-435435-s-original.jpg",
+    "year": 2003,
+    "keyword": "shift",
+    "summary": "The FIA made the Head and Neck Support device mandatory in Formula One for 2003 after years of research, testing, and resistance from some drivers. By limiting relative movement between the helmet and torso, HANS reduces the risk of catastrophic head and neck injury during rapid deceleration. Its adoption linked medical knowledge, crash data, and enforceable equipment standards. The device became one of the clearest examples of safety regulation spreading from elite racing across FIA-sanctioned motorsport.",
+    "causeIds": [
+      "fia-safety-crackdown",
+      "sid-watkins-medical-revolution"
+    ],
+    "effectIds": [
+      "modern-safety-era",
+      "halo-development"
     ],
     "isAnchor": false,
     "isSeed": false

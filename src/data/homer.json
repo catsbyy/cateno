@@ -5,7 +5,7 @@
     "wiki": "Historicity_of_the_Trojan_War",
     "year": -1180,
     "keyword": "pressure",
-    "summary": "Whether the Trojan War happened is one of the most debated questions in ancient history. Hittite texts from the 13th century BC mention 'Wilusa' — almost certainly Ilios, the Greek name for Troy — and record a military dispute involving the city. Heinrich Schliemann excavated Hisarlik in northwestern Turkey from 1871, finding a city destroyed by fire in the right era that he identified as Troy. Modern archaeologists have confirmed that a significant settlement called Troy VIIa was indeed destroyed around 1180-1150 BC, at the right time and in the right circumstances for it to be the historical kernel of the legend. The scale of the events that Homer describes is certainly mythologised — but the memory of a Greek military expedition to the Anatolian coast almost certainly preserves something real.",
+    "summary": "Hittite texts from the thirteenth century BC refer to Wilusa, widely identified with Ilios/Troy, and to disputes involving western Anatolia. Excavations at Hisarlik reveal several destruction levels, including Troy VIIa around the end of the Bronze Age, but archaeology cannot identify Homer's war or prove that one Greek expedition generated the epics. The poems may preserve distant memories of conflict, geography, and elite culture, heavily reshaped by centuries of performance.",
     "causeIds": [],
     "effectIds": [
       "oral-tradition-centuries",
@@ -21,7 +21,7 @@
     "wiki": "Late_Bronze_Age_collapse",
     "year": -1200,
     "keyword": "collapse",
-    "summary": "Around 1200 BC, the Bronze Age civilisations of the eastern Mediterranean collapsed with extraordinary rapidity. The Mycenaean palaces of Greece were burned and abandoned; the Hittite Empire disintegrated; the Egyptian New Kingdom struggled to survive; the great trading cities of the Syrian coast were destroyed. The agents of this collapse — conventionally called the 'Sea Peoples' — are still debated. Within a generation, the Linear B script that Mycenaean Greeks had used for administrative records disappeared entirely: there was no longer any palace bureaucracy to use it, no scribes to learn it, and no cultural continuity to preserve it. Greece entered a four-century Dark Age. The only vessel in which the memory of the Mycenaean world survived was the oral tradition — the songs the bards sang at aristocratic feasts.",
+    "summary": "Around 1200 BC, palace systems across the eastern Mediterranean fractured through a still-debated combination of warfare, migration, political instability, environmental stress, and disrupted trade. Mycenaean administration disappeared and Linear B ceased to be used, but Greek-speaking communities and cultural practices continued; the period was not a total civilisational blank. Heroic traditions could have carried selected memories forward, although no continuous chain from palace records to Homer can be demonstrated.",
     "causeIds": [],
     "effectIds": [
       "oral-tradition-centuries"
@@ -41,7 +41,7 @@
     "wiki": "Oral_tradition#Ancient_Greece",
     "year": -1100,
     "keyword": "pressure",
-    "summary": "For four centuries after the Bronze Age collapse, Greek culture had no writing. The memory of the Mycenaean world — its heroes, its wars, its gods, its lost palaces — survived entirely in oral performance. Travelling bards called aoidoi performed at aristocratic feasts, singing of Achilles and Odysseus and the war at Troy for audiences who had never seen Linear B and could not have read it if they had. The oral tradition was not the same as memorisation: bards did not recite fixed texts from memory but composed afresh in performance, using a repertoire of formulaic phrases — 'wine-dark sea,' 'swift-footed Achilles,' 'rosy-fingered Dawn' — that could be combined in metrical lines. Each performance was unique; the stories were stable. The poems we call Homer's were being assembled, line by line, for centuries before anyone thought to write them down.",
+    "summary": "The Iliad and Odyssey emerged from a long tradition of performed hexameter poetry. Singers used formulas, type-scenes, and inherited story patterns to compose in performance rather than reciting a single immutable script. The tradition preserved old elements while continually adapting them to later audiences, so the epics combine memories from different periods rather than functioning as straightforward Bronze Age testimony.",
     "causeIds": [
       "bronze-age-collapse",
       "bronze-age-troy"
@@ -50,7 +50,7 @@
       "greek-alphabet-arrives"
     ],
     "isAnchor": false,
-    "isSeed": true,
+    "isSeed": false,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Blind_Homer.jpg"
   },
   {
@@ -59,7 +59,7 @@
     "wiki": "Greek_alphabet#History",
     "year": -800,
     "keyword": "catalyst",
-    "summary": "Around 800 BC, the Greeks adapted the Phoenician alphabet — adding vowels that Semitic scripts lacked — to create the first fully phonetic writing system in human history. Every sound in spoken Greek could now be represented in writing; every written Greek text could be read aloud by anyone who knew the alphabet. The new script spread rapidly across the Greek world. For the first time since the Bronze Age collapse, thoughts could be preserved outside human memory. The oral tradition that had kept Greek culture alive through four centuries of illiteracy now faced a transformative choice: its greatest achievements could be written down. Someone — or many someones — decided to write down the poems about Troy.",
+    "summary": "During the eighth century BC, Greek communities adapted a Phoenician consonantal script and used letters for vowels, producing an alphabet well suited to recording Greek speech. Early inscriptions show that writing and hexameter verse developed in close proximity, but scholars disagree about when and why the Homeric poems became texts. The alphabet enabled textualisation; it did not by itself create a single moment when oral poetry became fixed literature.",
     "causeIds": [
       "oral-tradition-centuries"
     ],
@@ -76,7 +76,7 @@
     "wiki": "Homer",
     "year": -750,
     "keyword": "spark",
-    "summary": "Around 750-700 BC, the poems we know as the Iliad and the Odyssey were written down for the first time. The Iliad — 15,693 lines of verse describing 51 days in the final year of the Trojan War — and the Odyssey — 12,109 lines following Odysseus' ten-year journey home — together constitute the oldest and most influential works of Western literature. Who wrote them down, and in what circumstances, is unknown. 'Homer' is the name attached to both poems by ancient tradition, but ancient authorities already disagreed about who he was: whether he was one person or two, whether he was blind, which city he came from. Seven cities claimed to be his birthplace. The poems themselves contain no autobiographical information. The most celebrated author in Western literature may be a name attached to a tradition rather than a description of a person.",
+    "summary": "The Iliad and Odyssey reached forms recognisable to later audiences during the late eighth or seventh century BC, although their composition, dictation, performance, and textualisation may have unfolded over generations. Ancient tradition attached both poems to Homer, but the poems provide no biography and modern scholarship cannot securely identify one author, two authors, or a precise act of writing. Their surviving scale and coherence reflect both exceptional poetic shaping and a much older oral tradition.",
     "causeIds": [
       "greek-alphabet-arrives"
     ],
@@ -95,13 +95,12 @@
     "wiki": "Homeric_question",
     "year": -600,
     "keyword": "shift",
-    "summary": "The 'Homeric Question' — who wrote the Iliad and Odyssey, and were they the work of one poet or many — is one of the longest-running debates in literary scholarship. Ancient commentators already noticed inconsistencies between the two poems and within them; some argued for two different Homers, others for one. In the 18th century, the German scholar Friedrich Wolf published Prolegomena ad Homerum (1795), arguing systematically that the poems could not be the work of a single author and must have been assembled from multiple shorter poems. The debate intensified through the 19th and 20th centuries. It was not resolved by argument but by fieldwork — a Harvard scholar who went to Yugoslavia and listened to living bards.",
+    "summary": "Debate over the poems' authorship, unity, and transmission began in antiquity and became the modern 'Homeric Question.' Friedrich August Wolf's Prolegomena ad Homerum (1795) argued that long oral development and later editing had to be considered, though his specific reconstruction did not settle the issue. Scholarship now asks multiple questions—about oral composition, textual growth, performance, and editorial transmission—rather than choosing simply between one genius and a committee.",
     "causeIds": [
       "iliad-odyssey-written-down"
     ],
     "effectIds": [
-      "milman-parry-discovery",
-      "schliemann-excavates-troy"
+      "milman-parry-discovery"
     ],
     "isAnchor": false,
     "isSeed": true,
@@ -113,7 +112,7 @@
     "wiki": "Peisistratos#Cultural_contributions",
     "year": -550,
     "keyword": "turning-point",
-    "summary": "Ancient tradition — reported by Cicero and later sources, though not by any contemporary 6th-century witness — holds that the Athenian tyrant Peisistratos ordered the Homeric poems collected and performed at the Panathenaic festival in a fixed order and from a standardised text. Modern scholars treat this 'Peisistratean recension' with real skepticism: the story may exaggerate or invent a more dramatic single moment of standardisation than what was probably a gradual process across many decades and rhapsodes. What is not in serious doubt is the outcome, whoever was responsible for it: by the mid-6th century BC, a broadly standard version of the poems existed and was performed publicly in Athens, suppressing whatever variant regional versions had existed. The standardisation was politically convenient for Athens either way — it let the city claim to present the definitive Homer — and it was historically consequential: by fixing the text, someone preserved it.",
+    "summary": "Later sources connected Peisistratus or his son Hipparchus with regulated Homeric performance at the Panathenaia. Athenian festival rules probably influenced the poems' performance and textual history, but the famous story that Peisistratus collected scattered lays into a definitive edition is late and widely treated as invention or exaggeration. Standardisation was gradual, with rhapsodes, schools, local texts, and later editors all contributing.",
     "causeIds": [
       "iliad-odyssey-written-down"
     ],
@@ -130,7 +129,7 @@
     "wiki": "Ancient_Greek_education",
     "year": -500,
     "keyword": "consequence",
-    "summary": "Homer became the foundation of Greek education in the classical period. Children learned to read using Homer; students memorised long passages; teachers used the poems as the source of examples in grammar, rhetoric, ethics, and theology. The Athenian comic playwright Aristophanes could assume his audience knew large sections of Homer by heart; philosophers referenced him constantly — whether to use his authority or argue against it. When Plato, in the Republic, proposed banning poets from his ideal city, he was primarily arguing against Homer, whose portrayal of the gods he considered morally dangerous. The poems were so central to Greek culture that attacking poetry meant attacking Homer. Alexander the Great, educated by Aristotle, slept with an annotated copy of the Iliad under his pillow.",
+    "summary": "By the classical period Homer occupied a central place in Greek education, performance, and argument. Pupils encountered Homer in literacy and rhetorical training, while historians, playwrights, and philosophers quoted, reinterpreted, and criticised the poems. Plato's attacks on poetry show Homer's authority, but anecdotes such as Alexander sleeping with an Iliad should be treated as later literary traditions rather than classroom documentation.",
     "causeIds": [
       "iliad-odyssey-written-down",
       "peisistratos-standardises"
@@ -150,13 +149,12 @@
     "wiki": "Library_of_Alexandria#Homer",
     "year": -300,
     "keyword": "shift",
-    "summary": "The Library of Alexandria made Homer one of its primary scholarly projects. The librarians Zenodotus, Aristophanes of Byzantium, and Aristarchus of Samothrace collected every manuscript of the Iliad and Odyssey they could find, compared variant readings, and produced critical editions that attempted to establish the most authoritative text. Aristarchus' commentary on Homer — which occupied multiple volumes — was the most sophisticated piece of literary scholarship produced in the ancient world. The Alexandrian text became the standard version; later manuscripts descend from it. Without Alexandria, the textual tradition would have fragmented into incompatible versions. The library that preserved Euclid and Archimedes also preserved the poems that had taught Greeks to read for five centuries.",
+    "summary": "Hellenistic scholars at Alexandria, especially Zenodotus, Aristophanes of Byzantium, and Aristarchus, compared manuscripts, marked disputed lines, and wrote extensive commentary on Homer. Their work strongly influenced the text and scholia transmitted later, but it did not erase all variation or create the poems from chaos. The surviving tradition reflects earlier performance and copying, Alexandrian criticism, Roman-era transmission, papyri, and medieval manuscripts together.",
     "causeIds": [
       "texts-enter-greek-education"
     ],
     "effectIds": [
-      "homer-survives-antiquity",
-      "medieval-troy-without-homer"
+      "homer-survives-antiquity"
     ],
     "isAnchor": false,
     "isSeed": false,
@@ -173,7 +171,7 @@
     "wiki": "Alexander_the_Great#Homer_and_Achilles",
     "year": -334,
     "keyword": "catalyst",
-    "summary": "Alexander the Great carried an annotated copy of the Iliad — prepared by his teacher Aristotle — on all his campaigns. He considered Achilles his personal hero and role model: when he reached the Troad at the beginning of his Asian campaign, he visited the tomb traditionally identified as Achilles' and laid a wreath on it, declaring himself fortunate to have Homer as the herald of his virtue. The identification was not merely sentimental: Alexander's conquests spread the Greek language and Homeric culture across an arc from Egypt to the borders of India, creating the Hellenistic world in which Homer was studied from Alexandria to Bactria. The poems that had shaped Alexander had, through Alexander, shaped the world that preserved them.",
+    "summary": "Ancient biographies portray Alexander as deeply engaged with Achilles and the Iliad, and report that he honoured heroic sites at Troy. Plutarch, citing earlier tradition, says Alexander carried an edition associated with Aristotle, while the famous dagger-and-pillow detail is difficult to take literally for a long poem written on scrolls. His conquests nevertheless expanded Greek institutions and education across the Hellenistic world, increasing the geographical reach of Homeric culture.",
     "causeIds": [
       "texts-enter-greek-education"
     ],
@@ -190,7 +188,7 @@
     "wiki": "Aeneid",
     "year": -29,
     "keyword": "catalyst",
-    "summary": "Virgil's Aeneid (written 29-19 BC, published posthumously) was the most deliberate act of literary response in antiquity: a Roman epic built on the structural model of both Homeric poems, following Aeneas from the fall of Troy to the founding of Rome, and establishing for Roman culture the same foundational mythological role that Homer served for Greek culture. The Aeneid begins in the middle of the action (like the Odyssey), moves to a war narrative (like the Iliad), and deliberately echoes Homeric formulas in Latin. Educated Romans read Homer in Greek from childhood; educated Romans' children read Virgil. Through Virgil, the Homeric structure became the template for epic poetry in Latin — and through Latin, for the entire European literary tradition.",
+    "summary": "Virgil's Aeneid, composed in the late first century BC, deliberately engages with both Homeric epics: its wandering first half recalls the Odyssey, while its Italian war recalls the Iliad. Virgil transformed rather than copied Homer, redirecting heroic narrative toward Roman origins, empire, loss, and duty. The Aeneid became a central mediator through which later Latin and European readers encountered Homeric forms.",
     "causeIds": [
       "texts-enter-greek-education"
     ],
@@ -207,14 +205,15 @@
     "wiki": "Byzantine_literature#Classical_heritage",
     "year": 500,
     "keyword": "pressure",
-    "summary": "The survival of Homer through the collapse of the Western Roman Empire is largely the achievement of Byzantine scholarship. While Latin literacy declined in Western Europe, Greek continued to be read in Constantinople, and the Byzantine educational system kept Homer at its centre: students continued to memorise passages from the Iliad and Odyssey, commentators continued to write on the poems, and copyists produced new manuscripts across a thousand years of Byzantine history. When Italian humanists of the 14th and 15th centuries began recovering Greek texts, Byzantine scholars were their primary teachers and sources. Without Byzantine preservation, the Homeric poems might have survived only in fragments, as so much ancient literature did. Every medieval manuscript of the Iliad and Odyssey that survives today — hundreds of them, along with even more fragmentary papyri from antiquity — descends from the Byzantine copying tradition.",
+    "summary": "Greek-speaking scholars, teachers, and copyists in the eastern Roman and Byzantine worlds kept Homer in education and repeatedly recopied the poems. Most complete medieval witnesses are Byzantine, while ancient papyri preserve earlier and sometimes variant readings. Western humanists later learned Greek from Byzantine teachers and obtained Greek manuscripts, but survival resulted from a broad copying culture rather than one uninterrupted institutional chain.",
     "causeIds": [
       "texts-preserved-through-alexandria",
       "alexander-carries-iliad"
     ],
     "effectIds": [
       "dante-encounters-homer",
-      "western-literary-tradition"
+      "western-literary-tradition",
+      "medieval-troy-without-homer"
     ],
     "isAnchor": false,
     "isSeed": false,
@@ -226,7 +225,7 @@
     "wiki": "Homer_in_the_Divine_Comedy",
     "year": 1320,
     "keyword": "consequence",
-    "summary": "Dante Alighieri, writing the Divine Comedy around 1308-1320, placed Homer first among the great poets in Limbo — the dwelling place of virtuous pagans who died before Christianity. 'That is Homer, sovereign poet,' Virgil tells Dante, who bows in respect. The irony is that Dante almost certainly could not read Greek and had never read Homer directly. He knew the Trojan story through Latin summaries and Virgil's Aeneid. Homer was, for Dante, a name and a reputation rather than a text — the founding figure of a tradition he knew only through intermediaries. The scene in the Inferno captures perfectly how Homer had survived: not always read, but always present, the invisible origin of everything that came after.",
+    "summary": "Dante places Homer at the head of the pagan poets in the Divine Comedy, although he almost certainly could not read the Greek epics directly. His Troy and Homer came largely through Latin authors, summaries, and medieval retellings, especially Virgil. The episode shows how Homer's authority could remain powerful in western Europe even when access to the Greek text was limited.",
     "causeIds": [
       "homer-survives-antiquity",
       "medieval-troy-without-homer"
@@ -249,15 +248,14 @@
     "wiki": "Western_canon#Ancient_Greek_literature",
     "year": 1700,
     "keyword": "consequence",
-    "summary": "The Iliad and Odyssey stand at the origin of Western literature not merely chronologically but structurally: the hero's journey, the homecoming, the catalogue of the dead, the descent into the underworld, the test of identity, the loyal spouse, the clever villain — these narrative templates were established in Homer and have been repeated, varied, and subverted in every subsequent literary tradition. Milton wrote Paradise Lost in conscious dialogue with Homer. Alexander Pope's translations made Homer available to 18th-century England; Keats wrote a sonnet on first reading Chapman's Homer. The structure of the Odyssey underlies Joyce's Ulysses, Walcott's Omeros, Atwood's Penelopiad. The poems were composed without writing, by an unknown figure, from the fragments of a Bronze Age war. They have generated more literature than any other texts in human history.",
+    "summary": "The Iliad and Odyssey became exceptionally influential models for epic, homecoming, war narrative, recognition, and heroic identity. Their reception passed through many intermediaries—Greek education, Virgil, medieval Troy traditions, translation, colonial education, and modern rewriting—and was never confined to a single continuous 'Western' line. Works from Pope and Keats to Joyce, Walcott, and Atwood demonstrate repeated adaptation, while similar narrative patterns also arise independently in other traditions.",
     "causeIds": [
       "virgil-responds-to-homer",
       "homer-survives-antiquity",
       "dante-encounters-homer"
     ],
     "effectIds": [
-      "joyce-ulysses",
-      "milman-parry-discovery"
+      "joyce-ulysses"
     ],
     "isAnchor": false,
     "isSeed": false,
@@ -269,13 +267,11 @@
     "wiki": "Ulysses_(novel)",
     "year": 1922,
     "keyword": "consequence",
-    "summary": "James Joyce's Ulysses, published on February 2, 1922 — Joyce's fortieth birthday — is structured as a chapter-by-chapter parallel to the Odyssey, following Leopold Bloom through a single day in Dublin on June 16, 1904. Bloom is Odysseus; his wife Molly is Penelope; Stephen Dedalus is Telemachus. The correspondence is detailed, ironic, and sometimes deliberately hidden — Joyce gave each chapter a Homeric title that he then suppressed from the published text. The novel is widely considered one of the greatest works of fiction in the English language. That the Odyssey — composed orally in archaic Greek, written down in the 8th century BC, preserved through Alexandrian scholarship and Byzantine copying — could generate, three thousand years later, a novel set in a Dublin pub in 1904, is perhaps the most eloquent testimony to what oral tradition can produce when it finally finds paper.",
+    "summary": "James Joyce's Ulysses, published on 2 February 1922 and set during one day in Dublin, uses the Odyssey as an elaborate but often ironic framework. Leopold Bloom, Molly Bloom, and Stephen Dedalus are not simple modern equivalents of Odysseus, Penelope, and Telemachus; the parallels organise experiments in style, urban life, sexuality, and identity. Joyce's suppressed episode titles helped readers recognise how an ancient epic could be dismantled and rebuilt inside a modern novel.",
     "causeIds": [
       "western-literary-tradition"
     ],
-    "effectIds": [
-      "oral-tradition-vindicated"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/James_Joyce_by_Alex_Ehrenzweig%2C_1915_cropped.jpg"
@@ -286,11 +282,9 @@
     "wiki": "Milman_Parry",
     "year": 1930,
     "keyword": "turning-point",
-    "summary": "Milman Parry was a Harvard classicist who, in the late 1920s, developed the theory that the Iliad and Odyssey had been composed through an oral-formulaic technique — that the repeated phrases ('wine-dark sea,' 'swift-footed Achilles') were not decorative but structural, serving as building blocks that allowed a bard to compose thousands of lines of metrically perfect verse in live performance. To test this theory, he went to Yugoslavia in 1933-35 with a recording machine and documented the guslari — South Slavic oral epic singers who still composed in the same way. He found that living illiterate bards could produce and perform poems of Homeric length and complexity, composed fresh at each performance using the same formulaic techniques. Homer had not been a singular genius but a tradition. Parry died in 1935 aged 33, in circumstances suggesting either suicide or accident. His student Albert Lord published The Singer of Tales in 1960, completing the argument.",
+    "summary": "Milman Parry developed an account of Homeric formulaic language and travelled to Yugoslavia in 1933–35 to study living South Slavic oral epic. His team recorded thousands of texts and performances, demonstrating that highly skilled singers could compose long songs through inherited formulas and themes. The comparison transformed Homeric studies, though South Slavic practice is evidence by analogy rather than proof of every stage of archaic Greek composition; Parry died in a firearm accident in 1935, and Albert Lord extended the work.",
     "causeIds": [
-      "homer-question",
-      "western-literary-tradition",
-      "schliemann-excavates-troy"
+      "homer-question"
     ],
     "effectIds": [
       "oral-tradition-vindicated"
@@ -304,10 +298,9 @@
     "title": "The Poems Are More Extraordinary Than We Thought",
     "wiki": "Oral-formulaic_composition",
     "year": 1960,
-    "keyword": "consequence",
-    "summary": "Milman Parry and Albert Lord's oral-formulaic theory, confirmed through fieldwork among Yugoslav guslars and accepted by the scholarly community from the 1960s onward, transformed the understanding of what the Iliad and Odyssey are. They are not the work of a single blind genius sitting down to write — they are the crystallisation of four centuries of oral tradition, the accumulated work of generations of bards who sang about the Trojan War at aristocratic feasts through the Greek Dark Ages. Homer, if he existed, was the last great singer who happened to be recorded — the point at which a living tradition became a frozen text. The poems are not diminished by this understanding; they are enlarged by it. What survives is not one man's imagination but an entire civilisation's memory, shaped by four hundred years of performance into the most influential poems in the history of human literature.",
+    "keyword": "shift",
+    "summary": "Parry and Lord established oral-formulaic composition as indispensable to understanding Homer, but scholarship has not concluded that the poems are merely anonymous communal products or that a final shaping poet did not exist. The Iliad and Odyssey can be both traditional and artistically distinctive, with oral performance, textualisation, and later editing interacting in ways that remain debated. The result is a more complex achievement: inherited language and stories organised into monumental poems whose exact route into text cannot be reconstructed.",
     "causeIds": [
-      "joyce-ulysses",
       "milman-parry-discovery"
     ],
     "effectIds": [],
@@ -322,9 +315,9 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Dante_Domenico_di_Michelino.jpg",
     "year": 1150,
     "keyword": "shift",
-    "summary": "For roughly eight centuries, almost no one in Western Europe could read Homer. Greek literacy had nearly vanished after the fall of Rome, and the actual text of the Iliad and Odyssey was effectively inaccessible to Latin readers. Yet the story of Troy remained one of the most popular narratives in medieval literature — transmitted through two short Latin prose texts, 'De Excidio Troiae' attributed to 'Dares Phrygius' and 'Ephemeris Belli Troiani' attributed to 'Dictys Cretensis,' both probably composed in the 4th–6th centuries AD and claiming, falsely, to be eyewitness accounts more reliable than Homer's supposedly fanciful epic. Medieval writers overwhelmingly preferred these forgeries to Homer precisely because Homer was unavailable and unreadable — and because the pseudo-eyewitness framing suited an audience uninterested in poetic invention. Benoît de Sainte-Maure's 'Roman de Troie' (c. 1165) and Guido delle Colonne's 'Historia Destructionis Troiae' (1287), both based on Dares and Dictys rather than Homer, were the source for Chaucer's Troilus and Criseyde and, ultimately, for Shakespeare's Troilus and Cressida. Europe told the story of Troy for eight hundred years using texts that were not just inferior to Homer but invented to replace him.",
+    "summary": "For much of the Latin Middle Ages, direct access to the Greek Iliad and Odyssey was limited, but Troy remained a major literary subject. Latin works attributed to Dares and Dictys claimed eyewitness authority and fed influential retellings by Benoît de Sainte-Maure and Guido delle Colonne, which in turn shaped Chaucer and other writers. These traditions did not simply replace an absent Homer; they created a distinct medieval Troy centred on genealogy, chivalry, romance, and moral history.",
     "causeIds": [
-      "texts-preserved-through-alexandria"
+      "homer-survives-antiquity"
     ],
     "effectIds": [
       "dante-encounters-homer"
@@ -339,14 +332,11 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Schliemann_Troy_excavation.jpg",
     "year": 1871,
     "keyword": "turning-point",
-    "summary": "Heinrich Schliemann, a self-made German businessman with no formal archaeological training and an unshakeable literal faith in the Iliad, began excavating the mound of Hisarlik in northwestern Turkey in 1871, convinced it concealed Homer's Troy. He was largely right about the location — but his methods were catastrophic. Digging a vast trench straight through the mound in search of what he assumed would be the grandest layer, Schliemann's crews demolished significant portions of Troy VIIa, the layer now considered the strongest candidate for the historical Troy of the Trojan War, in their haste to reach the more dramatic Bronze Age fortifications beneath it. In 1873 he uncovered a hoard of gold jewellery and artefacts he called 'Priam's Treasure,' smuggled it out of Ottoman territory, and photographed his wife Sophia wearing the jewels — a publicity coup that made Schliemann internationally famous and archaeology internationally scandalous. The treasure was seized by the Red Army from Berlin in 1945 and vanished for nearly fifty years before resurfacing in Moscow's Pushkin Museum in 1993. Schliemann had proved that Homer's Troy was, in some sense, real — while destroying irreplaceable evidence about exactly what that reality had been.",
+    "summary": "Heinrich Schliemann began excavating Hisarlik in the 1870s, helping establish the mound's importance while using methods that destroyed substantial archaeological context. The hoard he called 'Priam's Treasure' came from a level much earlier than the conventional date of the Trojan War, and his staging and removal of it from Ottoman territory remain controversial. Later excavations—not Schliemann alone—showed that Hisarlik contained a long sequence of substantial settlements compatible with ancient Troy, without proving Homer's narrative.",
     "causeIds": [
-      "bronze-age-troy",
-      "homer-question"
+      "bronze-age-troy"
     ],
-    "effectIds": [
-      "milman-parry-discovery"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": true
   }

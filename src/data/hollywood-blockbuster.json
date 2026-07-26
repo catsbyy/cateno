@@ -12,7 +12,12 @@
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMWE0NWU4ZGEtY2E1NS00MzA0LWEyOWMtZGFiMjEzNjVkMDAxXkEyXkFqcGc@._V1_.jpg"
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMWE0NWU4ZGEtY2E1NS00MzA0LWEyOWMtZGFiMjEzNjVkMDAxXkEyXkFqcGc@._V1_.jpg",
+    "relatedScenario": {
+      "scenarioId": "hollywood-code",
+      "nodeId": "rating-system-replaces-code",
+      "label": "Connects to The Postmaster Who Ran Hollywood"
+    }
   },
   {
     "id": "bonnie-and-clyde-moment",
@@ -77,7 +82,7 @@
     "wiki": "Jaws_(film)",
     "year": 1975,
     "keyword": "spark",
-    "summary": "Steven Spielberg's Jaws opened on June 20, 1975, in 409 theatres across the United States — a wide simultaneous national release that was, at the time, unusually broad. Backed by a massive television advertising campaign, it earned $260 million at the North American box office against a $9 million budget, becoming the highest-grossing film in history at that point. The summer blockbuster — a film engineered for maximum audience and marketed as an event rather than an experience — had been invented. What was not immediately apparent was the price: Jaws demonstrated that a single film could generate more profit than a studio's entire slate of thoughtful adult dramas. The financial logic of this discovery would reshape every decision the studios made for decades.",
+    "summary": "Jaws opened in June 1975 in hundreds of theatres with an unusually large national television campaign and became the highest-grossing film of its time. It was not literally the first blockbuster—the term and event pictures predated it—but it helped establish the modern summer event-release model. Its success showed studios how wide booking, television advertising, and a simple high-concept premise could produce rapid national demand.",
     "causeIds": [
       "new-hollywood-directors",
       "auteur-golden-decade"
@@ -96,7 +101,7 @@
     "wiki": "Star_Wars_(film)",
     "year": 1977,
     "keyword": "turning-point",
-    "summary": "George Lucas's Star Wars (1977) earned $775 million worldwide against a $11 million budget and transformed the economics of Hollywood in ways that Jaws had merely suggested. Lucas had negotiated to retain the merchandising rights — considered worthless by 20th Century Fox — and the resulting toy, clothing, and licensing revenue exceeded the film's theatrical income. Star Wars proved that a film was not just a film: it was an intellectual property that could generate revenue across multiple streams for decades. Lucas became a billionaire. Every studio executive understood immediately: the business was no longer about making films that audiences wanted to see. It was about creating franchises that audiences wanted to own.",
+    "summary": "Star Wars became a worldwide phenomenon and greatly expanded the commercial importance of sequels, licensing, and merchandise. George Lucas retained sequel and merchandising interests that proved extraordinarily valuable, though the exact contract story is more complicated than the legend that Fox considered all merchandise worthless. The film demonstrated that a screen world could sustain toys, publishing, television, rereleases, and later instalments across generations.",
     "causeIds": [
       "jaws-changes-everything"
     ],
@@ -119,7 +124,7 @@
     "wiki": "Wide_release",
     "year": 1976,
     "keyword": "shift",
-    "summary": "The simultaneous wide national release, combined with saturation television advertising, replaced the older model of platform releasing — opening in a few cities, building critical word of mouth, then expanding. The new model front-loaded revenue in the opening weekend, which required enormous marketing spend but allowed studios to recoup investment quickly and reduced their dependence on sustained critical support. The opening weekend as the primary metric of a film's success — a number reported in every newspaper every Monday — was invented by Jaws and institutionalised by Star Wars. A film that opened well but faded was now considered a disappointment regardless of its total earnings; a film that opened huge was a success regardless of whether anyone thought it was any good.",
+    "summary": "Wide release and saturation advertising expanded during the 1970s through films including The Godfather, The Exorcist, Jaws, and Star Wars. Jaws became the most influential early example, but it did not invent opening-weekend measurement or replace platform releasing by itself. The model increasingly concentrated marketing and revenue near release, reducing the time available for weakly reviewed films to build or lose audiences gradually.",
     "causeIds": [
       "jaws-changes-everything"
     ],
@@ -137,7 +142,7 @@
     "wiki": "Merchandising",
     "year": 1977,
     "keyword": "shift",
-    "summary": "Star Wars merchandise — action figures, lunch boxes, bedsheets, clothing — generated more revenue than the film itself. This was not a coincidence but a model: Lucas had designed the film with its toy potential in mind, creating clearly distinct characters, memorable vehicles, and a mythology that could be endlessly extended. Studios recognised immediately that intellectual property — the characters, settings, and worlds that a successful film established — was potentially worth more than any individual film. The film became the advertisement for the franchise. This insight would take two decades to fully manifest as the Marvel Cinematic Universe, but its logic was established in a trailer park in Tatooine in 1977.",
+    "summary": "Star Wars licensing and merchandise became a commercial phenomenon, especially after demand initially exceeded the supply of action figures. Lucas had built a visually distinctive universe well suited to toys and extensions, but claims that the film was designed principally as a toy advertisement overstate the evidence. Its success nevertheless taught studios that characters and worlds could generate durable revenue beyond theatrical tickets.",
     "causeIds": [
       "star-wars-completes-shift"
     ],
@@ -154,7 +159,7 @@
     "wiki": "Heaven%27s_Gate_(film)",
     "year": 1980,
     "keyword": "collapse",
-    "summary": "Michael Cimino's Heaven's Gate (1980) — budgeted at $11 million, completed at $44 million after the director refused any interference with his vision, and earning approximately $3.5 million in its initial North American release — became the most notorious commercial disaster in Hollywood history and the symbolic end of director-driven cinema. United Artists, which had funded the film, was sold by its parent company Transamerica to MGM in 1981 in the aftermath. Studio executives who had given directors creative control throughout the 1970s used Heaven's Gate as the definitive argument for reasserting authority: this was what happened when you trusted artists. The lesson was not entirely honest — the New Hollywood had produced far more commercial successes than failures — but it was expedient and final.",
+    "summary": "Heaven's Gate became a famous production crisis and commercial failure, damaging United Artists and symbolising the end of the period's most permissive director-centred financing. Yet no single film ended New Hollywood: rising budgets, corporate ownership, changing audience strategies, earlier failures, and the success of event pictures had already altered studio incentives. Transamerica sold United Artists to MGM in 1981, but the sale reflected a wider corporate retreat as well as Cimino's film.",
     "causeIds": [
       "blockbuster-release-model",
       "auteur-golden-decade"
@@ -173,7 +178,7 @@
     "wiki": "Final_cut_privilege",
     "year": 1981,
     "keyword": "collapse",
-    "summary": "The contractual right to final cut — the director's ability to deliver a film without studio interference — had been the defining privilege of the New Hollywood generation. After Heaven's Gate, studios systematically stopped granting it. Test screenings, notes from marketing departments, and studio-mandated reshoots became standard practice. Directors who had been treated as visionary artists became expensive contractors whose instincts were subordinate to audience research. The exceptions — Spielberg, Scorsese, and a handful of others who had demonstrated their ability to reconcile personal vision with commercial performance — were treated as exceptions. The idea that the director's creative autonomy was an asset worth protecting had been quietly buried alongside United Artists.",
+    "summary": "After the late 1970s, studios became more cautious about granting broad creative autonomy, especially on expensive productions. Final-cut rights had never belonged to all New Hollywood directors, and they did not disappear uniformly after Heaven's Gate. Test screenings, completion bonds, producer oversight, and contractual controls became more prominent, while commercially powerful filmmakers continued to negotiate substantial authority.",
     "causeIds": [
       "new-hollywood-dismantled"
     ],
@@ -190,7 +195,7 @@
     "wiki": "Film_franchise",
     "year": 1982,
     "keyword": "turning-point",
-    "summary": "By the early 1980s, the studio strategy had crystallised: invest in a small number of large-budget films designed to launch franchises — sequels, merchandise, spin-offs — rather than a diverse slate of medium-budget films. E.T. (1982), Indiana Jones (1981–), Star Trek (1979–), and Superman (1978–) demonstrated that the right intellectual property could generate revenue indefinitely. The commercial logic was sound but had a cultural cost: franchises required broad audience appeal, which discouraged the kind of specific, risky, adult content that had defined the New Hollywood. The industry had optimised for what made the most money, which turned out to be films that the largest possible number of people would enjoy rather than films that anyone would love with particular intensity.",
+    "summary": "During the late 1970s and 1980s, sequels, recognisable properties, merchandising, and high-concept event films became increasingly important to studio strategy. This did not immediately replace medium-budget adult filmmaking; studios continued to release a mixed slate for decades. The shift was gradual, but the potential returns from repeatable intellectual property increasingly influenced budgets, marketing, and corporate planning.",
     "causeIds": [
       "star-wars-completes-shift",
       "merchandise-changes-everything",
@@ -200,7 +205,8 @@
     ],
     "effectIds": [
       "indie-film-rises",
-      "new-hollywood-last-gasp"
+      "new-hollywood-last-gasp",
+      "home-video-revenue"
     ],
     "isAnchor": false,
     "isSeed": true,
@@ -214,7 +220,8 @@
     "keyword": "shift",
     "summary": "Robert Redford founded the Sundance Institute in 1981 as a workshop and support organisation for independent filmmakers; in 1985, the Institute took over the existing Utah/US Film Festival (founded 1978), renaming and expanding it into the Sundance Film Festival — the primary venue for American independent cinema. Films made outside the studio system — with low budgets, personal subjects, and creative freedom — found audiences through the festival circuit and art-house distribution. Jim Jarmusch's Stranger Than Paradise (1984), Spike Lee's She's Gotta Have It (1986), and Steven Soderbergh's sex, lies, and videotape (1989) demonstrated that films made for hundreds of thousands of dollars could reach audiences the studios' franchise machinery couldn't serve. Independent film was not a commercial alternative to Hollywood — it was a cultural one, keeping alive the tradition of personal filmmaking the blockbuster era had made economically impossible inside the studios.",
     "causeIds": [
-      "franchise-era-begins"
+      "franchise-era-begins",
+      "home-video-revenue"
     ],
     "effectIds": [
       "new-hollywood-last-gasp",
@@ -248,7 +255,7 @@
     "wiki": "Pulp_Fiction",
     "year": 1994,
     "keyword": "turning-point",
-    "summary": "Quentin Tarantino's Pulp Fiction premiered at Cannes in May 1994, won the Palme d'Or, and earned $213 million against an $8 million budget — proving that a profoundly personal, formally experimental film made entirely outside the studio system could outperform most franchise sequels. It seemed to vindicate everything the New Hollywood generation had believed: that personal vision and commercial success were compatible, that audiences were smarter than studios gave them credit for, that independent cinema could win. The victory was real but the lesson was misread: Pulp Fiction's success attracted studio money into 'independent' film, which was absorbed, commodified, and eventually turned into just another category of franchise content. Miramax, which distributed it, was acquired by Disney. The film that seemed to prove the system wrong was the beginning of the system's final victory.",
+    "summary": "Pulp Fiction won the Palme d'Or and became an exceptional commercial success for a relatively low-budget, formally unconventional film. It demonstrated the market for independent and specialty cinema, but it was not made wholly outside the studio economy: Miramax distributed it while owned by Disney. Its success helped attract more corporate investment into specialty labels, expanding opportunities while also blurring the boundary between independent and major-studio film.",
     "causeIds": [
       "new-hollywood-last-gasp",
       "indie-film-rises"
@@ -267,12 +274,36 @@
     "imageUrl": "https://i.discogs.com/IqAepQXb8ubFtvEg8_rgTTErqZrOWuVJhzSW7fjZAVE/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI4MTA2/MS0xMzk5MDcyODAy/LTQyODUuanBlZw.jpeg",
     "year": 1995,
     "keyword": "collapse",
-    "summary": "Pulp Fiction's $213 million global gross on an $8 million budget was the wrong kind of lesson for the studios: they concluded not that personal cinema could compete with franchises, but that independent film was an undervalued asset class. Disney had acquired Miramax — Pulp Fiction's distributor — in 1993, just before the film's release. Warner Bros launched Warner Independent; Sony created Sony Pictures Classics; Fox Searchlight was established in 1994. The specialty division — a studio-owned subsidiary that could claim the prestige and awards-season benefits of independent film while applying studio distribution muscle — became the industry's response to Sundance. Within a decade, almost every significant independent distributor had been absorbed by a major. The alternative was now owned by the thing it was an alternative to.",
+    "summary": "Major media companies increasingly owned or created specialty distributors during the 1990s and 2000s, including Miramax, Fox Searchlight, Sony Pictures Classics, and later Warner Independent. The process gave some independent-style films stronger financing and distribution while exposing them to corporate priorities. It did not absorb every important independent distributor, but it made 'independent' a production culture and marketing category that could exist inside conglomerate ownership.",
     "causeIds": [
-      "pulp-fiction-closes-era"
+      "pulp-fiction-closes-era",
+      "home-video-revenue"
     ],
     "effectIds": [],
     "isAnchor": false,
     "isSeed": false
+  },
+  {
+    "id": "home-video-revenue",
+    "title": "Home Video Rewrites the Balance Sheet",
+    "wiki": "Home_video",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/VHS%20cassette.jpg",
+    "year": 1984,
+    "keyword": "shift",
+    "summary": "The rapid spread of VHS rental and sales created a large second market for films after theatrical release. Home video could rescue modest theatrical performers, monetise studio libraries, and make sequels or genre pictures profitable through repeated viewing. The new revenue stream supported both franchise expansion and a wider range of lower-budget production, complicating any simple story in which blockbusters immediately eliminated adult or independent films.",
+    "causeIds": [
+      "franchise-era-begins"
+    ],
+    "effectIds": [
+      "indie-film-rises",
+      "studios-absorb-indie"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "napster",
+      "nodeId": "home-taping-panic",
+      "label": "Connects to How Music Escaped Its Owners"
+    }
   }
 ]

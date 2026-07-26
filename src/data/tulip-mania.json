@@ -12,13 +12,13 @@
       "tulip-arrives-europe"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": true
   },
   {
     "id": "dutch-golden-age",
     "title": "The Dutch Golden Age",
     "wiki": "Dutch_Golden_Age",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg",
     "year": 1580,
     "keyword": "pressure",
     "summary": "The Dutch Republic of the late 16th and 17th centuries was the most commercially sophisticated society on Earth. A Protestant mercantile culture that valued profit, innovation, and competition over inherited rank had produced the world's first modern economy: joint-stock companies, insurance markets, commodity exchanges, and a banking system of unprecedented sophistication. Amsterdam was the world's greatest port, clearing more trade than London and Paris combined. The citizens of this republic were also the wealthiest in the world per capita — and wealth without a traditional aristocratic outlet tends to find new objects of desire and new instruments of speculation.",
@@ -33,12 +33,12 @@
   },
   {
     "id": "voc-trading-culture",
-    "title": "The VOC and Financial Innovation",
+    "title": "The Dutch Republic's Trading Culture",
     "wiki": "Dutch_East_India_Company",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB%2C_Hendrik_Cornelisz_Vroom%2C_1599%2C_Rijksmuseum_SK-A-2858.jpg",
     "year": 1602,
     "keyword": "shift",
-    "summary": "The Dutch East India Company (VOC), founded in 1602, was the world's first publicly traded joint-stock company — and created, in the Amsterdam Stock Exchange, the world's first modern financial market. For the first time, strangers could pool capital, share risk, and trade ownership claims on a continuous market. The VOC pioneered short selling, options contracts, and margin trading before any regulatory framework existed to govern them. The financial culture it created — speculative, innovative, and largely unregulated — was the same culture that would later turn a flower bulb into a derivative instrument.",
+    "summary": "The Dutch Republic developed sophisticated markets in shares, credit, commodities, bills of exchange, and maritime risk during the seventeenth century. VOC finance and Amsterdam's merchant networks created experience with speculation and secondary trading before the tulip boom. Tulip contracts therefore emerged inside an existing commercial culture; flowers did not invent Dutch finance.",
     "causeIds": [
       "dutch-golden-age"
     ],
@@ -52,16 +52,16 @@
       "label": "Connects to The Voyage That Connected the World"
     },
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "amsterdam-exchange-bank",
-    "title": "Amsterdam Exchange Bank",
+    "title": "Amsterdam's Financial Institutions",
     "wiki": "Amsterdam_Exchange_Bank",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Saenredam_-_Het_oude_stadhuis_te_Amsterdam.jpeg",
     "year": 1609,
     "keyword": "shift",
-    "summary": "The Amsterdam Exchange Bank (Wisselbank), founded in 1609, was the world's first major public deposit and clearing bank — providing standardised currency, reliable clearing of accounts, and a stable financial infrastructure for commerce. It solved the chaos of multiple competing currencies circulating at inconsistent values, creating the monetary foundation on which sophisticated financial contracts could reliably operate. Without a trustworthy banking system to hold deposits and clear settlements, futures contracts for tulip bulbs — requiring deferred payment and delivery — could not have functioned. The bank built the plumbing through which the tulip bubble would eventually flow.",
+    "summary": "The Amsterdam Exchange Bank, founded in 1609, and the city's exchange supported reliable settlement and an unusually liquid commercial economy. Trading in VOC shares encouraged techniques including forward transactions and short selling, although many tulip deals later occurred in taverns and private networks rather than on the formal exchange. These institutions supplied context, not a direct mechanical cause, for bulb speculation.",
     "causeIds": [
       "dutch-golden-age",
       "voc-trading-culture"
@@ -94,7 +94,7 @@
     "id": "tulip-status-symbol",
     "title": "The Tulip as Ultimate Status Symbol",
     "wiki": "Tulip_mania#Background_and_history",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jan_Brueghel_the_Younger%2C_Satire_on_Tulip_Mania%2C_c._1640.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jan_Brueghel_the_Younger%2C_Satire_on_Tulip_Mania%2C_c._1640.jpg",
     "year": 1600,
     "keyword": "pressure",
     "summary": "In the status-conscious world of Dutch Golden Age merchant society, the tulip became the prestige object of choice for those wealthy enough to afford it. Unlike gold or silver, tulips combined rarity, perishability, and beauty in a way that made them impossible to fake and difficult to hoard — a single bulb could not be copied. Possessing a rare variety signalled taste, wealth, and connections to the wider world of trade and horticulture. Wealthy merchants competed to display specimens in their gardens, commissioning paintings of particularly prized blooms. The tulip had become, before any speculative bubble existed, a genuine luxury good with a genuine luxury market.",
@@ -124,7 +124,7 @@
       "tulip-collector-market"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "tulip-collector-market",
@@ -143,7 +143,7 @@
       "semper-augustus-rarity"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": true
   },
   {
     "id": "semper-augustus-rarity",
@@ -166,12 +166,12 @@
   },
   {
     "id": "futures-contracts-invented",
-    "title": "Futures Contracts Invented for Flowers",
+    "title": "Forward Trading Predates the Mania",
     "wiki": "Tulip_mania",
     "imageUrl": "https://www.tallengestore.com/cdn/shop/products/Detail-of-Jan-Brueghel-the-Youngers-Satire-of-tulip-mania-c_-1640_5087770a-0167-4629-8b5d-52c609fdfce4.jpg?v=1569209858",
     "year": 1635,
-    "keyword": "shift",
-    "summary": "Tulip bulbs posed a practical problem for traders: they were only available above ground for a few weeks each year, when they could be dug up, inspected, and transferred. For the rest of the year, they sat underground, growing. By the mid-1630s, enterprising traders had adopted futures contracts for tulips: written agreements to deliver a specific bulb at a future date, for a price agreed today. This was not new in principle — grain futures had existed for decades — but applying futures to luxury goods created something new: a market in which the actual object was largely irrelevant to the trading. You were buying and selling a promise, not a flower. The bulb in the ground became an abstraction.",
+    "keyword": "pressure",
+    "summary": "Contracts for future delivery long predated the tulip boom and were already used in European commodity and securities markets. Tulip growers and buyers adapted forward-style agreements to bulbs that remained underground and could not be delivered until lifting season. During 1636, promissory agreements became easier to resell, helping a seasonal horticultural trade develop a short-lived paper market.",
     "causeIds": [
       "voc-trading-culture",
       "amsterdam-exchange-bank"
@@ -184,12 +184,12 @@
   },
   {
     "id": "tulip-futures-market",
-    "title": "The Tavern Futures Market",
+    "title": "The Wind Trade Expands",
     "wiki": "Tulip_mania",
     "imageUrl": "https://static.twentyoverten.com/5b9686c2694a555a435452e9/Nn5xYD9lK6Y/Tulipmania.png",
     "year": 1636,
     "keyword": "spark",
-    "summary": "By 1634–1636, tulip futures trading had migrated from the gardens of wealthy collectors to the taverns of ordinary Dutch towns. For the first time, participation required no horticultural knowledge, no relationship with growers, and no ability to actually take delivery of a bulb. A weaver, a carpenter, or a chimney sweep could buy a contract for a Viceroy tulip — to be delivered the following spring — for a fraction of its face value, and sell it an hour later for a profit. Trading moved at extraordinary speed; prices for common varieties rose twenty-fold in a single month in late 1636. The market had become completely self-referential: prices rose because everyone expected them to rise, and everyone expected them to rise because prices were rising.",
+    "summary": "During the winter of 1636–37, trading expanded in agreements for future delivery of bulbs, often called windhandel because the physical bulbs remained in the ground. Deals were commonly arranged through tavern-based groups and rested heavily on personal reputation rather than exchange clearing or modern margin systems. Resale of contracts amplified price movements, but the market involved a relatively limited network rather than the whole Dutch population.",
     "causeIds": [
       "tulip-collector-market",
       "futures-contracts-invented",
@@ -207,7 +207,7 @@
     "id": "new-entrants-flood-market",
     "title": "Everyone Becomes a Tulip Trader",
     "wiki": "Tulip_mania#Speculative_period",
-     "imageUrl": "https://images.squarespace-cdn.com/content/v1/5954229fa5790add5f5c0b37/bc805450-7366-4539-a216-9a43037bb753/Tullip-mania-in-the-Netherlands-image.png",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5954229fa5790add5f5c0b37/bc805450-7366-4539-a216-9a43037bb753/Tullip-mania-in-the-Netherlands-image.png",
     "year": 1636,
     "keyword": "pressure",
     "summary": "The accessibility of the tavern futures market drew in participants who had never owned a tulip and had no intention of doing so. Contemporary accounts — though often exaggerated by later writers — describe servants mortgaging their wages, craftsmen selling their tools, and farmers pledging their land to buy tulip contracts. The historical record suggests the reality was more modest: the bubble was primarily a phenomenon of the middling merchant class rather than the truly poor. But the essential dynamic was real: people who had no economic connection to flowers were speculating on their prices, using credit to amplify their positions, and selling to the next buyer at a higher price. The object was irrelevant; the game was everything.",
@@ -223,17 +223,16 @@
   },
   {
     "id": "options-trading-invented",
-    "title": "Options Contracts — The First Derivatives",
+    "title": "Contracts Become Easier to Resell",
     "wiki": "Option_(finance)#History",
-     "imageUrl": "https://ecosociosphere.in/wp-content/uploads/2024/12/The-Fascinating-Tale-of-Tulip-Mania-1637-Historys-First-Economic-Bubble-780x446.webp",
+    "imageUrl": "https://ecosociosphere.in/wp-content/uploads/2024/12/The-Fascinating-Tale-of-Tulip-Mania-1637-Historys-First-Economic-Bubble-780x446.webp",
     "year": 1636,
     "keyword": "shift",
-    "summary": "Alongside simple futures, the tulip market developed option contracts — the right, but not the obligation, to buy a specific bulb at a set price before a future date. For a premium paid upfront, a buyer could lock in a purchase price without committing to the full amount. Options allowed participants to leverage their positions dramatically: a small premium could control a contract worth many times its cost. If prices rose, the option was enormously profitable; if they fell, only the premium was lost. The tulip options market of 1636 was, in mechanical terms, identical to the options markets traded on the Chicago Board Options Exchange today. Financial instruments invented for flowers became the template for all subsequent derivatives trading.",
+    "summary": "Tulip agreements could be transferred and renegotiated, allowing participants to speculate without immediately taking possession of a bulb. These arrangements had option-like features in some later settlements, but tulip traders did not invent options or the derivatives market. The important change was the increased circulation of private promises within a trust-based network during the winter boom.",
     "causeIds": [
       "tulip-futures-market"
     ],
     "effectIds": [
-      "modern-derivatives-template",
       "tulip-crash-1637"
     ],
     "isAnchor": false,
@@ -241,12 +240,12 @@
   },
   {
     "id": "bubble-peak",
-    "title": "The Peak — A Flower Worth a House",
+    "title": "Rare Bulbs and Paper Prices Peak",
     "wiki": "Tulip_mania",
     "imageUrl": "https://caseyquinnfinalproject.wordpress.com/wp-content/uploads/2014/08/2z.jpg",
     "year": 1637,
     "keyword": "turning-point",
-    "summary": "In January 1637, a single Viceroy tulip bulb changed hands for a package that included 2 loads of wheat, 4 loads of rye, 4 fat oxen, 8 fat pigs, 12 fat sheep, 2 hogsheads of wine, 4 barrels of beer, 2 barrels of butter, 1,000 pounds of cheese, a silver cup, and a bed with linen — a total estimated at 2,500 guilders, equivalent to several years of a skilled worker's wages. The Semper Augustus was valued at 10,000 guilders. These prices existed primarily in contracts and valuations; very little actual cash changed hands at peak levels. The market had created a consensus about value that bore no relationship to any underlying utility — and like all such consensuses, it required only one participant to refuse to share it for the entire edifice to collapse.",
+    "summary": "Prices for a small number of prized varieties and for contracts on more ordinary bulbs rose sharply in late 1636 and early 1637. Surviving records demonstrate extraordinary quotations, but many famous lists compare proposed exchanges, asking prices, or satire rather than completed cash sales. The peak was real, yet it was narrower and less socially universal than later accounts suggested.",
     "causeIds": [
       "tulip-futures-market",
       "new-entrants-flood-market",
@@ -259,32 +258,16 @@
     "isSeed": false
   },
   {
-    "id": "plague-triggers-panic",
-    "title": "Plague Empties the Auction",
-    "wiki": "Tulip_mania",
-    "imageUrl": "https://media.mutualart.com/Images//2014_01/20/16/163949658/d15e9afe-bb40-4bea-a506-3bbc053d0c9e.Jpeg",
-    "year": 1637,
-    "keyword": "catalyst",
-    "summary": "In early February 1637, a scheduled tulip auction in Haarlem failed to attract buyers — reportedly because a bubonic plague outbreak in the vicinity had frightened potential attendees away from public gatherings. The specific mechanism matters less than its effect: when a routine auction produced no buyers at the expected prices, the information spread immediately through the tavern trading networks. If no one would pay yesterday's price today, the entire edifice of expectation on which the market rested collapsed simultaneously. A plague outbreak — utterly unrelated to flowers or finance — may have been the random external shock that punctured the bubble at that specific moment rather than another.",
-    "causeIds": [],
-    "effectIds": [
-      "tulip-crash-1637"
-    ],
-    "isAnchor": false,
-    "isSeed": true
-  },
-  {
     "id": "tulip-crash-1637",
-    "title": "The Crash — Prices Fall 99%",
+    "title": "Buyers Retreat in February 1637",
     "wiki": "Tulip_mania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/SA_4920-Anno_1637._De_tulpenwindhandel.jpg",
     "year": 1637,
     "keyword": "collapse",
-    "summary": "Between approximately February 3 and 9, 1637, the tulip futures market collapsed entirely. Common tulip varieties that had been trading at 60 guilders fell to one-tenth of a guilder — a decline of over 99%. The mechanics were self-reinforcing: each failed sale reduced the price at which the next seller would find a buyer, which reduced the price further. Futures contract holders found themselves committed to buying bulbs at prices far above current market value. The total collapse took less than a week. The tulip, which had been the most valuable commodity in the Netherlands, was worth roughly what a tulip had always been worth: almost nothing.",
+    "summary": "In the first week of February 1637, buyers at Haarlem and elsewhere stopped accepting recent contract prices, and confidence in the paper trade rapidly broke down. Exact price series are fragmentary, so a universal 99 percent fall cannot be established. The immediate crisis concerned disputed promises and reputation within a relatively small trading community rather than the physical disappearance of all value from tulips.",
     "causeIds": [
       "bubble-peak",
       "new-entrants-flood-market",
-      "plague-triggers-panic",
       "options-trading-invented"
     ],
     "effectIds": [
@@ -292,22 +275,21 @@
       "financial-ruin-limited"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "contracts-declared-unenforceable",
-    "title": "Courts Refuse to Enforce the Contracts",
+    "title": "A Patchwork of Contract Settlements",
     "wiki": "Tulip_mania#Aftermath",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Hans_Bollongier_-_Stilleven_met_bloemen.jpg",
     "year": 1637,
     "keyword": "consequence",
-    "summary": "Holders of tulip futures contracts that had collapsed in value immediately sought to enforce them — demanding that sellers deliver bulbs at prices now far above market. The resolution was messier than later accounts suggest: handled largely at the local civic level, with varying outcomes by city and guild. The States of Holland did intervene, and a general principle emerged — supported by local arbitration — that bubble-era contracts could be settled for a fraction of face value rather than their full contracted price. Most disputes were settled by negotiation. This response established a template that governments have followed in subsequent financial crises: when markets fail catastrophically, intervene to distribute rather than concentrate losses and prevent a cascade of defaults from destroying the broader economy.",
+    "summary": "Dutch authorities did not issue one simple nationwide decree voiding every tulip contract. Cities, courts, growers, and traders pursued uneven negotiations; proposals included allowing buyers to cancel late contracts for a small percentage of face value, while many disputes remained private. The episode exposed how difficult it was to enforce speculative agreements made through informal networks when nearly everyone wanted to withdraw at once.",
     "causeIds": [
       "tulip-crash-1637"
     ],
     "effectIds": [
-      "financial-ruin-limited",
-      "government-intervention-template"
+      "financial-ruin-limited"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -316,10 +298,10 @@
     "id": "financial-ruin-limited",
     "title": "The Myth of Mass Ruin",
     "wiki": "Tulip_mania",
-     "imageUrl": "https://static.yakaboo.ua/media/catalog/product/9/7/9780226301266_0.jpg",
+    "imageUrl": "https://static.yakaboo.ua/media/catalog/product/9/7/9780226301266_0.jpg",
     "year": 1638,
     "keyword": "consequence",
-    "summary": "Historian Anne Goldgar's 2007 research 'Tulipmania: Money, Honor, and Knowledge in the Dutch Golden Age' challenged the conventional narrative dramatically. Goldgar found that the number of people actually ruined by the crash was small — she could document only a handful of genuine bankruptcies directly attributable to tulip speculation. Most contracts were cancelled by mutual agreement; the Dutch economy absorbed the shock with relative ease; the Republic's prosperity continued largely undisturbed. The catastrophic ruin of thousands of ordinary citizens — the image that Charles Mackay would later immortalise — appears to be largely mythological. The bubble was real; the apocalypse was not.",
+    "summary": "Anne Goldgar's archival research found no evidence for the popular story that thousands of Dutch people were bankrupted and the national economy devastated. The crash did produce losses, broken promises, lawsuits, and damage to trust among traders, but its macroeconomic effects were limited. The contrast between a genuine market disruption and the later apocalypse narrative is central to understanding tulipmania.",
     "causeIds": [
       "contracts-declared-unenforceable",
       "tulip-crash-1637"
@@ -331,97 +313,56 @@
     "isSeed": false
   },
   {
-    "id": "government-intervention-template",
-    "title": "The First Government Market Intervention",
-    "wiki": "Tulip_mania",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Emanuel_de_Witte_-_De_binnenplaats_van_de_beurs_te_Amsterdam.jpg",
-    "year": 1637,
-    "keyword": "consequence",
-    "summary": "The Dutch authorities' decision to void tulip futures contracts and allow negotiated settlements rather than full enforcement established a template that governments have followed in every subsequent financial crisis: when markets fail catastrophically, the state steps in to rewrite the rules retroactively, absorb or distribute losses, and prevent a cascade of defaults from destroying the broader economy. The specific tools change — central bank interventions, bailouts, debt restructuring — but the fundamental logic of the 1637 Dutch response appears in every financial crisis response from the South Sea Bubble to the 2008 mortgage collapse.",
-    "causeIds": [
-      "contracts-declared-unenforceable"
-    ],
-    "effectIds": [],
-    "isAnchor": false,
-    "isSeed": false
-  },
-  {
-    "id": "modern-derivatives-template",
-    "title": "Flowers Invent the Derivatives Market",
-    "wiki": "Derivative_(finance)",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Johannes_Lingelbach_001.jpg",
-    "year": 1638,
-    "keyword": "consequence",
-    "summary": "The futures and options contracts developed in the Dutch tulip market were not abandoned after the crash — they were refined and applied to commodities, currencies, and eventually every financial instrument imaginable. The Amsterdam Stock Exchange continued trading VOC shares using the same techniques that had traded tulips. The mechanics — standardised contracts, future delivery, leverage through partial payment, secondary market trading of the contracts themselves — passed from the Dutch to the English financial markets and became the foundation of the modern derivatives industry. A market in financial instruments derived from an underlying asset, worth an estimated $600 trillion globally today, traces its mechanical ancestry to a flower.",
-    "causeIds": [
-      "options-trading-invented"
-    ],
-    "effectIds": [
-      "south-sea-bubble",
-      "modern-financial-markets"
-    ],
-    "relatedScenario": {
-      "scenarioId": "f1-bernie",
-      "nodeId": "cvc-acquires-f1",
-      "label": "Connects to How a Used Car Dealer Built a $6 Billion Empire"
-    },
-    "isAnchor": false,
-    "isSeed": false
-  },
-  {
     "id": "south-sea-bubble",
-    "title": "The South Sea Bubble",
+    "title": "The South Sea and Mississippi Bubbles",
     "wiki": "South_Sea_Company",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/South_Sea_Bubble.jpg",
     "year": 1720,
     "keyword": "consequence",
-    "summary": "The South Sea Company bubble of 1720 — in which shares in a British trading company with little actual trade were inflated to extraordinary values before collapsing catastrophically — used identical mechanics to the tulip mania: futures contracts, options, credit-fuelled speculation, and a self-reinforcing cycle of rising prices attracting more buyers. Running in parallel, John Law's Mississippi Company bubble in France collapsed the same year with even more devastating consequences for the French economy. Unlike the tulip crash, the South Sea collapse did ruin thousands and triggered a genuine political crisis, leading to the Bubble Act of 1720 — the first legislation specifically designed to regulate financial speculation. Isaac Newton, who reportedly lost around £20,000 in the crash, is attributed with saying he could calculate the motions of heavenly bodies but not the madness of people — though the exact wording of this quote is not contemporaneously documented.",
-    "causeIds": [
-      "modern-derivatives-template"
-    ],
+    "summary": "The South Sea and Mississippi bubbles of 1720 were much larger equity and credit crises with substantial political and financial consequences. They did not descend mechanically from tulip contracts, though later writers grouped all three episodes as examples of speculative delusion. Charles Mackay's 1841 book helped establish that retrospective family of bubbles and also popularised the disputed quotation about Isaac Newton and the madness of people.",
+    "causeIds": [],
     "effectIds": [
-      "crash-mythology-born",
-      "modern-financial-markets"
+      "crash-mythology-born"
     ],
     "relatedScenario": {
-      "scenarioId": "louisiana-purchase",
-      "nodeId": "napoleon-needs-funding",
-      "label": "Connects to The Sale That Made America"
+      "scenarioId": "coffee-houses",
+      "nodeId": "coffee-house-becomes-institution",
+      "label": "Connects to Coffee Houses"
     },
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": true
   },
   {
     "id": "crash-mythology-born",
-    "title": "Charles Mackay Invents the Tulip Myth",
+    "title": "Charles Mackay Popularises the Tulip Legend",
     "wiki": "Extraordinary_Popular_Delusions_and_the_Madness_of_Crowds",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Mackay_1841_edition_front_page.png",
     "year": 1841,
     "keyword": "shift",
-    "summary": "Scottish journalist Charles Mackay published 'Extraordinary Popular Delusions and the Madness of Crowds' in 1841 — a compendium of historical mass hysteria that devoted a famous chapter to tulip mania. Mackay's account was vivid, entertaining, and substantially exaggerated: he described sailors being jailed for eating tulip bulbs they mistook for onions, chimney sweeps ruined by bad speculation, and widespread social chaos. Most of these details were invented or embellished. But Mackay's tulip chapter became one of the most widely cited texts in financial history — required reading for economists and investors — and the image of mass irrationality he created shaped how every subsequent bubble was understood, described, and studied.",
+    "summary": "Charles Mackay's 1841 Extraordinary Popular Delusions and the Madness of Crowds turned tulipmania into a vivid story of society-wide irrationality. He relied heavily on earlier moralising and satirical accounts and repeated colourful anecdotes that archival research cannot substantiate. His chapter did not invent every legend, but it gave them an enduring English-language form and linked tulips to the South Sea and Mississippi bubbles.",
     "causeIds": [
       "financial-ruin-limited",
       "south-sea-bubble"
     ],
     "effectIds": [
-      "tulip-as-bubble-metaphor",
-      "railway-mania"
+      "tulip-as-bubble-metaphor"
     ],
     "isAnchor": false,
     "isSeed": false
   },
   {
     "id": "tulip-as-bubble-metaphor",
-    "title": "Tulip Mania Enters the Language",
+    "title": "Tulipmania Becomes a Universal Metaphor",
     "wiki": "Tulip_mania",
     "imageUrl": "https://frenchlinks.com/newfrenchlinks/wp-content/uploads/2018/11/2017-09-18_16-17-34.png",
     "year": 1841,
     "keyword": "shift",
-    "summary": "After Mackay's 1841 account, 'tulip mania' entered the vocabulary of economics and journalism as the definitive shorthand for irrational speculative excess. Every subsequent bubble has been compared to tulips: the railway mania of the 1840s, the Florida land boom of the 1920s, the dot-com bubble of the 1990s, Bitcoin, and NFTs. The comparison is rarely precise — most bubbles have more rational foundations than the tulip myth suggests, and the tulip mania itself was less catastrophic than Mackay claimed — but the metaphor persists because it captures something true: that markets can collectively convince themselves that something is worth far more than it is, and that the conviction can sustain itself until it suddenly cannot.",
+    "summary": "After Mackay, tulipmania became shorthand for a market in which rising prices appear detached from fundamentals. Journalists and investors have applied the analogy to railways, land, technology shares, cryptocurrencies, and collectibles, often with little attention to the original market's small scale and contractual peculiarities. The metaphor persists because it is simple and memorable, even when the historical comparison is weak.",
     "causeIds": [
       "crash-mythology-born"
     ],
     "effectIds": [
+      "railway-mania",
       "modern-bubble-psychology"
     ],
     "isAnchor": false,
@@ -429,34 +370,15 @@
   },
   {
     "id": "modern-bubble-psychology",
-    "title": "The Psychology of Bubbles",
+    "title": "Tulipmania Enters Modern Bubble Theory",
     "wiki": "Economic_bubble",
     "imageUrl": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/639609301_coezip?_a=BAVMn6DY0",
-    "year": 1850,
-    "keyword": "consequence",
-    "summary": "The tulip mania — as mythologised by Mackay and subsequently analysed by economists from John Kenneth Galbraith to Robert Shiller — became the founding case study of bubble psychology. The pattern it established: a novel asset, genuine early value, speculative entry by non-experts, credit-fuelled price inflation, self-reinforcing momentum, and sudden collapse when the consensus breaks. This template has been applied to every subsequent bubble analysis. Shiller's work on 'irrational exuberance,' behavioural economics' study of herding and overconfidence, and the entire field of financial market psychology traces its intellectual ancestry to a market in Dutch flowers that lasted approximately three years.",
+    "year": 1954,
+    "keyword": "shift",
+    "summary": "Twentieth- and twenty-first-century economists and historians repeatedly revisited tulipmania in debates over rational expectations, herding, market design, and speculative narratives. There is no consensus that it supplies a universal psychological template: scholars have proposed social, contractual, biological, and information-based explanations for the boom and collapse. Its modern importance lies as much in arguments over how bubbles should be explained as in the seventeenth-century event itself.",
     "causeIds": [
       "tulip-as-bubble-metaphor",
       "railway-mania"
-    ],
-    "effectIds": [
-      "modern-financial-markets"
-    ],
-    "isAnchor": false,
-    "isSeed": false
-  },
-  {
-    "id": "modern-financial-markets",
-    "title": "The World the Tulip Built",
-    "wiki": "Financial_market",
-    "imageUrl": "https://www.worldfinance.com/wp-content/uploads/2025/11/D091.jpg",
-    "year": 1900,
-    "keyword": "consequence",
-    "summary": "The financial instruments invented or refined during the Dutch Golden Age — joint-stock companies, continuous secondary markets, futures contracts, options, short selling, leverage — form the mechanical foundation of every modern financial market. The Amsterdam Stock Exchange, which refined these tools on VOC shares and tulip contracts, passed them to the London Stock Exchange, which passed them to Wall Street. The $600 trillion global derivatives market, the futures exchanges in Chicago and London, and the options markets that allow hedging of virtually any financial risk all operate on principles first developed in a 17th-century Dutch trading culture that briefly decided flowers were worth more than houses.",
-    "causeIds": [
-      "south-sea-bubble",
-      "modern-derivatives-template",
-      "modern-bubble-psychology"
     ],
     "effectIds": [],
     "isAnchor": false,
@@ -464,14 +386,14 @@
   },
   {
     "id": "railway-mania",
-    "title": "Railway Mania",
+    "title": "Railway Mania and the Search for Precedent",
     "wiki": "Railway_mania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Opening_Liverpool_and_Manchester_Railway.jpg",
     "year": 1846,
     "keyword": "consequence",
-    "summary": "The British Railway Mania of 1845–1847 was the first major speculative bubble to occur after 'tulip mania' had entered the financial vocabulary — and it followed the same pattern with eerie precision: a genuine transformative technology, rational early investment, speculative entry by non-experts, credit-fuelled price inflation, and collapse. At its peak in 1846, Parliament authorised 272 new railway companies in a single session. The bubble's subsequent crash ruined thousands of investors. Economists and journalists immediately compared it to tulip mania, using Mackay's recently published account as the template. The railway bubble confirmed 'tulip mania' as the universal metaphor for financial irrationality — and proved that knowing the pattern offered no protection against repeating it.",
+    "summary": "Britain's railway promotion boom of the 1840s combined a genuinely transformative technology with speculative company formation and heavy capital commitments. Mackay's book appeared just before the boom peaked, making tulips available as a ready analogy, although direct contemporary use of the comparison was not uniform. Railway Mania shows why later bubbles cannot be reduced to valueless objects: speculation can grow around technologies with lasting economic importance.",
     "causeIds": [
-      "crash-mythology-born"
+      "tulip-as-bubble-metaphor"
     ],
     "effectIds": [
       "modern-bubble-psychology"

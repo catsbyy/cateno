@@ -6,11 +6,11 @@
     "title": "Mount Tambora Erupts",
     "year": 1815,
     "keyword": "spark",
-    "summary": "On April 10, 1815, Mount Tambora in Indonesia erupted in the most powerful volcanic event in recorded history — releasing energy equivalent to hundreds of thousands of Hiroshima bombs. Around 10,000–12,000 people died immediately from the blast, pyroclastic flows, and tsunamis; the total death toll including subsequent famine and disease is commonly estimated at approximately 71,000, with some more recent scholarship placing the figure considerably higher.",
+    "summary": "From 5 to 10 April 1815, culminating on 10–11 April, Mount Tambora on Sumbawa produced the largest documented explosive eruption of the historical era. Fatality estimates vary because most deaths followed indirectly from famine and disease, but the disaster killed tens of thousands across Sumbawa, Lombok, and neighbouring islands. Its climatic reach came not from ordinary ash lingering worldwide, but from sulphur gases converted into long-lived stratospheric sulfate aerosols.",
     "causeIds": [],
     "effectIds": [
-      "volcanic-aerosols",
-      "tambora-local-devastation"
+      "tambora-local-devastation",
+      "volcanic-aerosols"
     ],
     "isAnchor": true,
     "isSeed": true
@@ -22,9 +22,26 @@
     "title": "Local Devastation in Indonesia",
     "year": 1815,
     "keyword": "collapse",
-    "summary": "The eruption deposited ash up to three metres deep across the island of Sumbawa, destroying all agriculture and drinking water sources. The three kingdoms of Tambora, Pekat, and Sanggar were wiped out entirely. The Tamboran language — spoken by the kingdom of Tambora — became extinct, one of the only documented cases of a language being permanently erased by a natural disaster rather than by human action.",
+    "summary": "Pyroclastic flows and heavy tephra devastated Tambora's flanks and buried settlements under metres of deposits; excavations have uncovered remains associated with the former kingdom of Tambora beneath roughly three metres of volcanic material. The kingdoms of Tambora and Pekat disappeared, while nearby Sanggar survived but was severely damaged. The Tambora language vanished with its speech community, but claims that this was uniquely the only language erased by a natural disaster go beyond the available evidence.",
     "causeIds": [
       "mount-tambora-eruption"
+    ],
+    "effectIds": [
+      "regional-famine-disease"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "regional-famine-disease",
+    "title": "Famine and Disease Across the Islands",
+    "wiki": "1815_eruption_of_Mount_Tambora",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sabana%20dompu.jpg",
+    "year": 1815,
+    "keyword": "consequence",
+    "summary": "The greatest human toll came after the eruption, when ash destroyed crops, contaminated water, and disrupted trade across Sumbawa, Lombok, Bali, and nearby islands. Death estimates remain uncertain, but historical and volcanological accounts agree that famine and disease killed far more people than the initial blast alone. Adding this node prevents the scenario's Indonesian victims from becoming a brief prelude to a story told mainly through Europe and North America.",
+    "causeIds": [
+      "tambora-local-devastation"
     ],
     "effectIds": [],
     "isAnchor": false,
@@ -37,7 +54,7 @@
     "title": "Volcanic Aerosols in Stratosphere",
     "year": 1815,
     "keyword": "catalyst",
-    "summary": "Tambora ejected an estimated 150–200 cubic kilometres of material, including approximately 60 megatons of sulphur dioxide gas into the stratosphere. This reacted with water vapour to form sulphuric acid aerosols — tiny reflective droplets that spread globally within months, forming a persistent veil that reduced sunlight reaching Earth's surface. Unlike ash, which settles within weeks, these stratospheric aerosols persisted for two to three years.",
+    "summary": "Modern reconstructions estimate roughly 107–113 cubic kilometres of bulk tephra, equivalent to about 30–33 cubic kilometres of magma, rather than treating older 150–200 cubic-kilometre figures as directly comparable magma volumes. Tambora released an estimated 53–58 teragrams—million metric tonnes—of sulfur dioxide, producing about 93–118 teragrams of sulfate aerosol. These particles spread through the stratosphere and affected climate for several years after the much heavier ash had fallen out.",
     "causeIds": [
       "mount-tambora-eruption"
     ],
@@ -55,7 +72,7 @@
     "title": "Sunlight Reduced Globally",
     "year": 1815,
     "keyword": "pressure",
-    "summary": "The stratospheric aerosols reflected sunlight away from Earth's surface, reducing solar energy reaching the ground by an estimated 5–10%. The effect was global and persisted through 1817.",
+    "summary": "The sulfate veil reflected incoming sunlight and altered Earth's radiative balance. A commonly cited reconstruction gives a global radiative forcing near −6 watts per square metre, but the file's former claim that surface sunlight fell uniformly by 5–10% was too precise and not globally defensible. The forcing weakened as the aerosols dispersed and settled over the following two to three years.",
     "causeIds": [
       "volcanic-aerosols"
     ],
@@ -72,13 +89,13 @@
     "title": "Vivid Sunsets and Dark Skies",
     "year": 1815,
     "keyword": "shift",
-    "summary": "The aerosol veil produced spectacularly coloured sunsets across Europe and North America — deep reds and purples that painters and poets recorded obsessively. The painter J.M.W. Turner's famous fiery skies from this period are directly attributable to Tambora's aerosols.",
+    "summary": "Observers across Europe and North America recorded unusual haze and intensely coloured sunsets after the eruption. Volcanic aerosols can redden twilight, and quantitative studies have found that red-to-green ratios in historical paintings rise after major eruptions. That supports an atmospheric influence on artists of the period, but it cannot prove that every fiery Turner sky was painted directly from Tambora's effects.",
     "causeIds": [
       "volcanic-aerosols"
     ],
     "effectIds": [
-      "turner-paintings",
-      "gloomy-atmosphere"
+      "gloomy-atmosphere",
+      "turner-paintings"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -89,8 +106,8 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/1816_summer.png",
     "title": "Global Temperature Drop",
     "year": 1816,
-    "keyword": "catalyst",
-    "summary": "Global average temperatures fell by an estimated 0.4–0.7°C — modest as an average but catastrophic at the agricultural margins. Parts of Europe and eastern North America experienced summer temperatures 3°C below normal. Snow fell in New England in June 1816. In the French Jura, the winter of 1816–17 was the coldest in 500 years. The drop was most severe in the northern hemisphere, where the bulk of the world's food production was concentrated.",
+    "keyword": "shift",
+    "summary": "Northern Hemisphere mean temperature in 1816 fell by roughly 0.4–0.7°C, while some parts of western and central Europe and northeastern North America experienced much larger seasonal anomalies. Modern attribution work finds that volcanic forcing made the exceptional European cold far more likely, although atmospheric circulation also shaped where the cold and heavy rain were most severe. The disruption was therefore powerful but regionally uneven, not a uniform global temperature drop.",
     "causeIds": [
       "reduced-solar-radiation"
     ],
@@ -108,7 +125,7 @@
     "title": "Abnormal Weather Patterns",
     "year": 1816,
     "keyword": "pressure",
-    "summary": "1816 brought summer frosts, unseasonal snowfall, and persistent cold rain across Europe and North America. In Switzerland it snowed every month of the year. In China, rice crops failed and the Yangtze River flooded catastrophically.",
+    "summary": "Western and central Europe endured persistent rain, cold spells, and occasional summer snow, while New England experienced destructive frosts and June snowfall. Other regions saw different anomalies: parts of China suffered drought, floods, and harvest stress, while monsoon behaviour around South Asia was disturbed. Not every local event can be attributed to Tambora alone, because ordinary circulation variability and pre-existing climatic conditions also mattered.",
     "causeIds": [
       "global-temperature-drop"
     ],
@@ -127,7 +144,7 @@
     "title": "Shortened Growing Season",
     "year": 1816,
     "keyword": "pressure",
-    "summary": "The cold compressed the window in which crops could mature from seed to harvest. Even where crops weren't killed by frost, they never had time to fully grow — yields across Europe dropped by 50–75% in the worst affected regions.",
+    "summary": "Repeated cold spells shortened the time available for planting, ripening, and harvesting. Crops that survived individual frosts could still fail to mature, especially in high-altitude and northern districts. Losses varied enormously by crop and region, so the earlier blanket claim of 50–75% yield declines across Europe has been removed.",
     "causeIds": [
       "global-temperature-drop"
     ],
@@ -142,26 +159,28 @@
     "title": "Crop Failures Across Europe",
     "year": 1816,
     "keyword": "collapse",
-    "summary": "Harvests failed across France, Germany, Switzerland, the British Isles, and Scandinavia in 1816. The grain crop in Germany fell by around a third; in Switzerland it was among the worst harvests in living memory. Ireland's potato crop — the primary caloric source for most of its population — was devastated by late frosts and persistent wet rot. The summer of 1816 was one of the coldest in European records, with some regional data suggesting it was among the most extreme in several centuries.",
+    "summary": "The 1816 harvest was poor across much of western and central Europe, with Alpine regions, southern Germany, and parts of Switzerland among the hardest hit. In parts of Bavaria, harvests fell to roughly one-third of normal and bread-grain prices later tripled; impacts elsewhere were less uniform. Ireland also suffered successive poor harvests, including potatoes and grain, but this was not the same pathogen-driven crop collapse that caused the Great Famine three decades later.",
     "causeIds": [
       "abnormal-weather",
       "shortened-growing-season"
     ],
     "effectIds": [
+      "irish-famine-1816",
       "grain-price-surge",
       "food-shortages-europe",
-      "irish-famine-1816",
       "horse-deaths"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "wiki": "Year_Without_a_Summer",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/People%20eating%20grass%20in%20famine%2C%20Switzerland.jpg"
   },
   {
     "id": "crop-failures-north-america",
     "title": "Crop Failures in North America",
     "year": 1816,
     "keyword": "collapse",
-    "summary": "New England farmers saw frosts in every month of 1816. Entire harvests were lost. The event was called 'Eighteen Hundred and Froze to Death' by American settlers. Quebec recorded snowfall in June.",
+    "summary": "New England and parts of eastern Canada experienced severe cold snaps, June snow, and repeated frosts that badly damaged corn and other vulnerable crops. The phrase 'Eighteen Hundred and Froze to Death' became a durable popular label, though it should not be treated as a precise contemporary statistic or proof that every district lost its entire harvest. The shock intensified food and fodder shortages in communities already exposed to volatile weather and thin transport networks.",
     "causeIds": [
       "abnormal-weather"
     ],
@@ -171,14 +190,16 @@
       "horse-deaths"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Year_Without_a_Summer",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/STS026-38-056.jpg"
   },
   {
     "id": "crop-failures-asia",
     "title": "Crop Failures in Asia",
     "year": 1816,
     "keyword": "collapse",
-    "summary": "The monsoon system was severely disrupted across South and East Asia in 1816–1817. China's Yunnan province experienced simultaneous drought and unseasonable flooding. Some historians have suggested that the opium poppy — relatively hardy compared to food crops — may have expanded in cultivation during this period, though this causal link is debated and opium's later expansion was driven by many factors. India's delayed monsoon created the warm, wet conditions in Bengal that may have contributed to the first cholera pandemic, though this connection also remains historically debated.",
+    "summary": "Climate anomalies in 1816–1817 affected parts of South and East Asia, including crop stress in Yunnan and disruption around the Indian monsoon. A prominent environmental history links these conditions to later opium cultivation in southwest China and to the timing of the Bengal cholera outbreak. Those connections are plausible hypotheses rather than settled single-cause explanations, because trade, ecology, colonial movement, and pre-existing disease conditions were also essential.",
     "causeIds": [
       "abnormal-weather"
     ],
@@ -186,20 +207,23 @@
       "cholera-pandemic"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Year_Without_a_Summer",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flooded%20rice%20fields%20in%20monsoon.jpg"
   },
   {
     "id": "irish-famine-1816",
     "wiki": "Year_Without_a_Summer",
     "imageUrl": "https://www.thoughtco.com/thmb/dhgBSCkvakQZsdLCCLwueJB0Vk4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ridpaths_history_of_the_world_-_being_an_account_of_the_principal_events_in_the_career_of_the_human_race_from_the_beginnings_of_civilization_to_the_present_time_comprising_the_development_of_social_14749361956-0dcb6c46ffb64d03ac4926a5312cf295.jpg",
-    "title": "Irish Famine of 1816–1817",
+    "title": "Irish Harvest Crisis and Fever",
     "year": 1816,
     "keyword": "collapse",
-    "summary": "Ireland's potato crop nearly failed in 1816, and the subsequent wet, cold conditions of 1817 produced a typhus epidemic that compounded the famine. Estimates of deaths from hunger and fever range from 50,000 to 100,000. The crisis demonstrated Ireland's catastrophic vulnerability to a single-crop food system — a warning that was not heeded, and that returned with devastating force in the Great Famine of 1845–1852.",
+    "summary": "Poor harvests, post-war economic distress, and high food prices produced severe hardship in Ireland from 1816 onward. The resulting fever epidemic of 1816–1819 may have infected about 1.5 million people and caused roughly 40,000–65,000 excess deaths, with typhus and related fevers spreading among malnourished and crowded communities. The crisis exposed Ireland's dependence on the potato and chronic poverty, but it should not be described as a near-total potato failure with a securely known famine death toll of 50,000–100,000.",
     "causeIds": [
       "crop-failures-europe"
     ],
     "effectIds": [
+      "typhus-outbreak",
       "european-migration"
     ],
     "isAnchor": false,
@@ -207,10 +231,10 @@
   },
   {
     "id": "grain-price-surge",
-    "title": "Grain Prices Triple",
+    "title": "Food Prices Multiply",
     "year": 1816,
     "keyword": "pressure",
-    "summary": "Wheat prices across Europe tripled between 1815 and 1817. In some German cities grain prices increased 600%. The poor spent 80–90% of their income on food — leaving nothing for rent, clothing, or fuel as winter approached.",
+    "summary": "Food-price inflation was dramatic but highly regional. Bread-grain prices roughly tripled in parts of Bavaria, while some Swiss and south German markets recorded increases approaching fivefold; a continent-wide 600% increase is not supportable. Poor rural households could already spend around four-fifths of their income on food, so even smaller increases pushed families into hunger.",
     "causeIds": [
       "crop-failures-europe"
     ],
@@ -219,27 +243,30 @@
       "social-unrest-europe"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Year_Without_a_Summer",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Playfair%20WheatandLabour.gif"
   },
   {
     "id": "food-shortages-europe",
-    "title": "Famine Across Europe",
+    "title": "Europe’s Last Great Subsistence Crisis",
     "imageUrl": "https://historicinterpreter.wordpress.com/wp-content/uploads/2015/05/early-settlers.jpg",
     "year": 1816,
     "keyword": "pressure",
-    "summary": "The European famine of 1816–1817 was the worst on the continent in the 19th century and one of the deadliest in two hundred years. Estimates of excess mortality from starvation and hunger-related disease range from 65,000 to over 200,000 across Europe. In Swiss villages, municipal records show death rates two to three times the normal level. The famine disproportionately killed the elderly, infants, and those already weakened by poverty.",
+    "summary": "The harvest shock became the last major subsistence crisis across much of western and central Europe, especially in Alpine and south German regions. Hunger, disease, and sharply elevated mortality were real, but aggregate Europe-wide death totals remain uncertain and should not be presented as a precise range. The burden fell most heavily on infants, older people, landless workers, and households already weakened by war, unemployment, and poverty.",
     "causeIds": [
       "crop-failures-europe",
       "grain-price-surge"
     ],
     "effectIds": [
       "social-unrest-europe",
+      "relief-experiments",
       "malnutrition",
-      "european-migration",
-      "gloomy-atmosphere"
+      "european-migration"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": true,
+    "wiki": "Year_Without_a_Summer"
   },
   {
     "id": "social-unrest-europe",
@@ -248,15 +275,32 @@
     "title": "Riots and Social Unrest",
     "year": 1816,
     "keyword": "consequence",
-    "summary": "Food riots erupted across France, Germany, and Switzerland. In Würzburg, troops fired on hungry crowds. In France, grain convoys were attacked. Governments teetered. The unrest contributed to a wave of political repression across Europe.",
+    "summary": "Food riots, attacks on grain shipments, looting, and market disturbances appeared in several parts of France, Switzerland, and the German states. Authorities sometimes used troops to suppress unrest, including disturbances in Bavarian towns. The earlier version overstated the case by saying governments across Europe 'teetered'; responses ranged from repression to imports, price measures, and organised relief.",
     "causeIds": [
-      "food-shortages-europe",
-      "grain-price-surge"
+      "grain-price-surge",
+      "food-shortages-europe"
     ],
     "effectIds": [
+      "relief-experiments",
       "political-repression",
       "european-migration"
     ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "relief-experiments",
+    "title": "Relief Experiments Expand",
+    "wiki": "Year_Without_a_Summer",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ravensburg%20suppenkueche%201817.jpg",
+    "year": 1817,
+    "keyword": "shift",
+    "summary": "Governments, towns, churches, and private associations experimented with grain imports, subsidised sales, export controls, public subscriptions, and soup kitchens. Results were uneven, but the crisis strengthened acceptance that public authorities had a role in famine relief rather than leaving survival entirely to local charity and markets. These responses form an important counterpoint to riot and repression and anticipated later emergency-relief practices.",
+    "causeIds": [
+      "food-shortages-europe",
+      "social-unrest-europe"
+    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
@@ -267,7 +311,7 @@
     "title": "Mass Malnutrition",
     "year": 1816,
     "keyword": "consequence",
-    "summary": "Widespread hunger left populations weakened and immunocompromised. Children suffered stunted growth. The malnourished poor were catastrophically vulnerable to the diseases that followed.",
+    "summary": "Sustained hunger weakened resistance to infection and made crowded poor households especially vulnerable to fever. The biological effects were compounded by inadequate clothing, fuel, sanitation, and shelter. Rather than treating malnutrition as an isolated medical event, the revised node makes it part of a wider system of poverty and exposure.",
     "causeIds": [
       "food-shortages-europe"
     ],
@@ -284,8 +328,9 @@
     "title": "Typhus Epidemic",
     "year": 1816,
     "keyword": "consequence",
-    "summary": "Typhus swept through weakened, overcrowded populations across Ireland and central Europe. In Ireland alone, an estimated 800,000 people contracted typhus fever in 1816–1819. It killed tens of thousands already weakened by famine.",
+    "summary": "Fever epidemics spread through several hunger-stricken regions, with Ireland suffering the best-documented crisis. Estimates suggest that as many as 1.5 million people contracted fever there between 1816 and 1819 and roughly 40,000–65,000 died in excess of normal mortality. Contemporaries used broad fever categories, so modern labels such as typhus should be applied with some caution.",
     "causeIds": [
+      "irish-famine-1816",
       "malnutrition"
     ],
     "effectIds": [],
@@ -299,13 +344,18 @@
     "title": "First Cholera Pandemic",
     "year": 1817,
     "keyword": "shift",
-    "summary": "The disruption of India's monsoon may have contributed to conditions for a cholera outbreak in Bengal in 1817 that spread globally — the first cholera pandemic in history. It killed millions across Asia and eventually reached Europe and the Americas by the 1820s. The link between Tambora's climate disruption and the pandemic's timing is plausible given the monsoon disruption, but remains historically debated; other factors including pre-existing conditions in Bengal were also at play.",
+    "summary": "A major cholera outbreak began in Bengal in 1817 and became the first recognised cholera pandemic, spreading through South and Southeast Asia, the Middle East, eastern Africa, and toward the Mediterranean before subsiding in the 1820s. It did not reach western Europe and the Americas; those regions were struck during the second pandemic beginning around 1829. Tambora-related monsoon disruption has been proposed as one contributor to the outbreak's timing, but the causal connection remains debated and cannot replace explanations based on endemic ecology, trade, and troop movement.",
     "causeIds": [
       "crop-failures-asia"
     ],
     "effectIds": [],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "cholera-map",
+      "nodeId": "cholera-arrives-europe",
+      "label": "Connects to The Map, the Pump, and the Myth"
+    }
   },
   {
     "id": "political-repression",
@@ -314,7 +364,7 @@
     "title": "Political Repression Intensifies",
     "year": 1817,
     "keyword": "consequence",
-    "summary": "Terrified by the food riots and mindful of what revolution had done to France, European governments responded with repression rather than reform. In Britain, the Habeas Corpus Act was suspended in 1817 and the Seditious Meetings Act restricted public assembly — a trajectory that led to the Peterloo Massacre of 1819. In Germany, the Carlsbad Decrees of 1819 censored universities and newspapers. The famine paradoxically strengthened reactionary governments by giving them an emergency justification for suspending normal liberties.",
+    "summary": "In Britain, hunger and unemployment overlapped with post-war radical agitation, and Parliament suspended habeas corpus and restricted large political meetings in 1817. Food distress formed part of the background, but these measures were also driven by wider fears of revolution and organised reform movements. The Carlsbad Decrees of 1819 have been removed from the causal claim because their immediate trigger was the assassination of August von Kotzebue, not the 1816 harvest crisis.",
     "causeIds": [
       "social-unrest-europe"
     ],
@@ -328,17 +378,18 @@
     "title": "Mass Migration from Europe",
     "year": 1817,
     "keyword": "shift",
-    "summary": "Hundreds of thousands of Europeans emigrated to escape famine and poverty. German emigration to America surged. Swiss villages emptied. This wave of migration reshaped the ethnic composition of North America and contributed to the growth of the American Midwest.",
+    "summary": "The crisis helped drive a sharp Rhine exodus in 1816–1817, when tens of thousands of German-speaking migrants attempted to reach the United States. Emigration also rose from badly affected Swiss and other central European districts. Weather and hunger mattered, but migration depended equally on post-war poverty, commercial agents, religious networks, transport routes, and existing transatlantic connections.",
     "causeIds": [
+      "irish-famine-1816",
       "food-shortages-europe",
-      "social-unrest-europe",
-      "irish-famine-1816"
+      "social-unrest-europe"
     ],
     "effectIds": [
       "american-population-shift"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Year_Without_a_Summer"
   },
   {
     "id": "new-england-migration",
@@ -347,7 +398,7 @@
     "title": "New England Exodus",
     "year": 1816,
     "keyword": "shift",
-    "summary": "Thousands of New England farming families abandoned their land and moved west after the harvest failures of 1816. Vermont lost approximately 10,000–15,000 people in the following decade — the first significant population decline in its history. Whole townships were vacated. The migration accelerated the settlement of western New York, Ohio, Indiana, and eventually Illinois, with ripple effects on American political geography for generations.",
+    "summary": "The harvest shock encouraged some New England families to abandon marginal farms and move toward western New York and the Old Northwest. Migration was already under way before 1816, so the cold year is best treated as an accelerator rather than the origin of the movement. The former claim that Vermont lost 10,000–15,000 residents and entered statewide population decline was removed: census totals show Vermont continued to grow during the following decade.",
     "causeIds": [
       "crop-failures-north-america"
     ],
@@ -362,10 +413,10 @@
     "id": "american-westward-push",
     "wiki": "American_frontier",
     "imageUrl": "https://cdn.britannica.com/37/151537-159-3A307F3E/Rocky-Mountains-Emigrants-Crossing-the-Plains-lithograph.jpg",
-    "title": "American Westward Expansion Accelerates",
+    "title": "Westward Migration Gains Another Push",
     "year": 1817,
-    "keyword": "consequence",
-    "summary": "The agricultural disaster of 1816 pushed American settlement westward faster than any policy could have. Indiana became a state in 1816, Illinois in 1818. The search for reliable farmland helped drive the expansion that would define 19th century America.",
+    "keyword": "shift",
+    "summary": "The 1816 crop crisis added urgency to an established movement toward cheaper and often more productive western land. It contributed to individual migration decisions, but statehood for Indiana in 1816 and Illinois in 1818 resulted from longer demographic and political processes and should not be presented as consequences of one bad summer. The environmental shock worked through opportunities created by earlier territorial expansion, land policy, and Indigenous dispossession.",
     "causeIds": [
       "crop-failures-north-america",
       "new-england-migration"
@@ -387,7 +438,7 @@
     "imageUrl": "https://external-preview.redd.it/population-of-the-united-states-from-1790-1820-1594x2106-os-v0-gCB-zUOdXsbTi63IZwRFYDY6Na-lgdLCQ6gpDvI2FXU.jpg",
     "year": 1820,
     "keyword": "consequence",
-    "summary": "The combined effect of European immigration and internal westward migration fundamentally altered American demographics. The population centre of gravity shifted westward permanently, reshaping American politics and culture for the rest of the century.",
+    "summary": "European immigration and internal migration both contributed to the gradual westward movement of the United States' population and political weight. The 1816 crisis was one episode within that much longer transformation, not a sufficient explanation for a permanent demographic realignment by 1820. The revised graph therefore routes this node through documented migration effects rather than directly attributing the national shift to the weather event.",
     "causeIds": [
       "european-migration",
       "new-england-migration",
@@ -395,7 +446,8 @@
     ],
     "effectIds": [],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Year_Without_a_Summer"
   },
   {
     "id": "gloomy-atmosphere",
@@ -403,17 +455,17 @@
     "imageUrl": "https://cdn.poemanalysis.com/wp-content/uploads/2018/05/Darkness-By-Lord-Byron-Visual-Representation.jpg",
     "year": 1816,
     "keyword": "shift",
-    "summary": "The relentless cold, dim skies, and sense of impending catastrophe created a unique psychological atmosphere across Europe. The educated classes felt that nature itself had turned hostile. This mood saturated the literature and art of the period.",
+    "summary": "Dim skies, relentless rain, and abnormal cold became a powerful cultural memory among literate observers in parts of Europe. Writers such as Byron turned the weather into images of darkness and planetary catastrophe. This was not a measurable continent-wide psychological condition, but a documented motif in diaries, letters, poetry, and later recollections.",
     "causeIds": [
-      "darkened-skies",
-      "food-shortages-europe"
+      "darkened-skies"
     ],
     "effectIds": [
       "lake-geneva-gathering",
       "gothic-romanticism"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": false,
+    "wiki": "Year_Without_a_Summer"
   },
   {
     "id": "lake-geneva-gathering",
@@ -422,7 +474,7 @@
     "title": "The Villa Diodati Summer",
     "year": 1816,
     "keyword": "catalyst",
-    "summary": "Trapped indoors by the relentless rain and cold near Lake Geneva, Lord Byron, Percy Shelley, Mary Godwin, John Polidori, and Mary's stepsister Claire Clairmont held a ghost story competition. Byron proposed it as a way to pass the miserable summer — a single offhand suggestion that produced two of the defining works of Gothic literature.",
+    "summary": "During a spell of bad weather near Lake Geneva in June 1816, Lord Byron, Mary Godwin, Percy Bysshe Shelley, John Polidori, and Claire Clairmont read supernatural tales and discussed writing their own. The exact date and sequence of the ghost-story challenge are reconstructed from later recollections and Polidori's diary, but Byron's proposal is well attested. The group was not literally confined indoors for the entire summer, yet the exceptional weather formed part of the gathering's atmosphere.",
     "causeIds": [
       "gloomy-atmosphere"
     ],
@@ -437,10 +489,10 @@
     "id": "frankenstein-written",
     "wiki": "Frankenstein",
     "imageUrl": "https://goddessofhellfire.com/wp-content/uploads/2015/03/maryshelleyfrankenstein.jpg",
-    "title": "Frankenstein Written",
+    "title": "Frankenstein Conceived",
     "year": 1816,
     "keyword": "consequence",
-    "summary": "Eighteen-year-old Mary Godwin wrote what became Frankenstein; or, The Modern Prometheus during the Villa Diodati summer. Published anonymously in January 1818, the novel explored humanity's dangerous presumption in mastering the forces of creation — themes that resonated with particular urgency in a year when nature itself seemed to be rebelling against human control. It became the foundational text of science fiction and Gothic horror simultaneously.",
+    "summary": "Eighteen-year-old Mary Godwin conceived the central idea of Frankenstein during the Lake Geneva gathering and developed the manuscript afterward. The novel appeared anonymously in January 1818 and combined Gothic fiction with speculation about experimental science, responsibility, and created life. It is often called the first modern science-fiction novel, but that priority claim remains debated among literary scholars.",
     "causeIds": [
       "lake-geneva-gathering"
     ],
@@ -449,21 +501,16 @@
       "science-fiction-born"
     ],
     "isAnchor": false,
-    "isSeed": false,
-    "relatedScenario": {
-      "scenarioId": "hollywood-birth",
-      "nodeId": "feature-film-emerges",
-      "label": "Connects to How a Patent Lawsuit Built Hollywood"
-    }
+    "isSeed": false
   },
   {
     "id": "vampire-story-written",
     "wiki": "The_Vampyre",
     "imageUrl": "https://humanities.washu.edu/sites/humanities.washu.edu/files/styles/no_crop_0448w/public/articles/byron%20lord%20illustrated%20067246.jpg.webp",
-    "title": "The Vampyre Written",
+    "title": "The Vampyre Emerges",
     "year": 1816,
     "keyword": "consequence",
-    "summary": "John Polidori began writing The Vampyre at the same gathering — drawing on a fragment by Lord Byron. When published in 1819, it established the aristocratic, seductive vampire archetype that Bram Stoker later developed into Dracula. It is often called the first influential modern prose vampire story in English, though earlier treatments of the vampire theme existed in English verse. Its direct lineage to the Villa Diodati makes it a product of the same volcanic summer that produced Frankenstein.",
+    "summary": "Polidori's immediate contribution to the 1816 contest was probably the tale later published as Ernestus Berchtold, while The Vampyre developed from the aristocratic vampire idea in Byron's abandoned fragment. Published in 1819 and initially misattributed to Byron, Polidori's story transformed the folkloric vampire into a seductive nobleman. Its connection to Villa Diodati is real, but saying that the finished work was simply begun there is more certain than the evidence allows.",
     "causeIds": [
       "lake-geneva-gathering"
     ],
@@ -477,10 +524,10 @@
     "id": "turner-paintings",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Joseph_Mallord_William_Turner_auto-retrato.jpg",
     "wiki": "J._M._W._Turner",
-    "title": "Turner's Volcanic Sunsets",
+    "title": "Artists Record Volcanic Sunsets",
     "year": 1816,
     "keyword": "consequence",
-    "summary": "J.M.W. Turner painted the extraordinary fiery sunsets produced by Tambora's aerosols — works like Chichester Canal and various sunset studies. Modern atmospheric scientists have confirmed that Turner's colour palette shifted measurably toward reds and oranges after 1815, matching aerosol optical depth data.",
+    "summary": "Turner's 1816–1818 sky studies and works by other European artists preserve unusually hazy and colourful skies from the post-eruption years. Research comparing painted red-to-green ratios with volcanic aerosol records supports the use of such images as imperfect atmospheric proxies. The often-cited Chichester Canal was painted around 1828, so it cannot serve as a direct 1816 observation and has been removed from the claim.",
     "causeIds": [
       "darkened-skies"
     ],
@@ -494,38 +541,30 @@
     "id": "gothic-romanticism",
     "wiki": "Gothic_fiction",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Frontispiece_to_Frankenstein_1831.jpg",
-    "title": "Gothic Romanticism Flourishes",
+    "title": "1816’s Gothic Afterlife",
     "year": 1817,
     "keyword": "consequence",
-    "summary": "The darkness, death, and existential dread of 1816 fed directly into the Romantic movement's gothic turn. Byron's poem 'Darkness' (1816) imagined the sun extinguished and humanity dying. The aesthetic of sublime terror — nature as overwhelming and indifferent — became the defining mood of Romanticism.",
+    "summary": "The summer left a durable mark on Gothic and Romantic culture through Byron's poem Darkness, the conception of Frankenstein, and the later publication of The Vampyre. It did not create Romanticism's fascination with sublime and hostile nature, which was already well established. Its importance lies in concentrating existing themes within a memorable climate crisis rather than causing an entire movement to change direction.",
     "causeIds": [
+      "gloomy-atmosphere",
       "frankenstein-written",
       "vampire-story-written",
-      "turner-paintings",
-      "gloomy-atmosphere"
+      "turner-paintings"
     ],
-    "effectIds": [
-      "science-fiction-born"
-    ],
+    "effectIds": [],
     "isAnchor": false,
-    "isSeed": false,
-    "relatedScenario": {
-      "scenarioId": "hollywood-code",
-      "nodeId": "pre-code-cinema",
-      "label": "Connects to The Postmaster Who Ran Hollywood"
-    }
+    "isSeed": false
   },
   {
     "id": "science-fiction-born",
     "wiki": "Science_fiction",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/The_War_of_the_Worlds_by_Henrique_Alvim_Corr%C3%AAa%2C_original_graphic_15.jpg",
-    "title": "Science Fiction Is Born",
+    "title": "A Landmark of Modern Science Fiction",
     "year": 1818,
-    "keyword": "consequence",
-    "summary": "Frankenstein, published in 1818, is widely considered the first science fiction novel. Its central question — what happens when human technology outpaces human wisdom — remains the defining question of the genre. A volcanic eruption in Indonesia in 1815 indirectly created one of literature's most enduring forms.",
+    "keyword": "turning-point",
+    "summary": "Frankenstein became a foundational work for modern science fiction by making scientific creation—and its moral consequences—the engine of the plot. Earlier imaginary voyages, utopias, and speculative works complicate any claim that science fiction was literally born in 1818. The defensible conclusion is that the novel became one of the genre's decisive early landmarks.",
     "causeIds": [
-      "frankenstein-written",
-      "gothic-romanticism"
+      "frankenstein-written"
     ],
     "effectIds": [],
     "isAnchor": false,
@@ -535,10 +574,10 @@
     "id": "horse-deaths",
     "wiki": "Working_horse",
     "imageUrl": "https://auction.gorringes.co.uk/full/110/90135110_Catalog_RJBeOYJgfm.JPG",
-    "title": "Mass Death of Horses",
+    "title": "Fodder Crisis and Horse Losses",
     "year": 1816,
     "keyword": "collapse",
-    "summary": "The oat and hay harvests that sustained Europe's and North America's working horses were among the most severely affected crops of 1816. Horses died in large numbers from starvation or were slaughtered because they could no longer be fed. In some German regions, cavalry units were dismounted for lack of feed. The disruption to horse-powered transport and agriculture — which meant almost all transport and agriculture — was severe and immediate.",
+    "summary": "Poor oat and hay harvests made working animals expensive to feed, and some horses and other livestock were slaughtered or lost during the 1816–1817 crisis. The scale varied by region, and claims of continent-wide mass horse death or cavalry units universally being dismounted are not securely documented. What is clear is that the cost and vulnerability of horse-powered transport became unusually visible during the famine.",
     "causeIds": [
       "crop-failures-europe",
       "crop-failures-north-america"
@@ -553,10 +592,10 @@
     "id": "bicycle-invented",
     "imageUrl": "https://www.santafixie.co.uk/bloguk/wp-content/uploads/2025/02/draisiana-first-model-bicycle.webp",
     "wiki": "History_of_the_bicycle",
-    "title": "Bicycle Invented",
+    "title": "Drais's Running Machine",
     "year": 1817,
-    "keyword": "consequence",
-    "summary": "German inventor Karl von Drais built the first bicycle — the 'running machine' or Laufmaschine — in 1817, partly in response to the mass death of horses that had disrupted transportation. With horses unavailable or unaffordable, he sought a human-powered alternative. The bicycle, one of the most transformative inventions in history, was born in the shadow of a volcanic eruption.",
+    "keyword": "turning-point",
+    "summary": "Karl Drais demonstrated his two-wheeled Laufmaschine in 1817, creating the clearest direct ancestor of the bicycle. An influential interpretation links the invention to high fodder prices and horse losses after 1816, and Drais described it as a machine that could spare horses and their costs. Other accounts emphasise his earlier transport experiments and practical forestry use, so Tambora should be presented as a plausible accelerator rather than the single proven cause.",
     "causeIds": [
       "horse-deaths"
     ],

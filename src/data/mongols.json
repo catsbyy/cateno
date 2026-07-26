@@ -6,7 +6,7 @@
     "imageUrl": "https://kipchaks.com/wp-content/uploads/2025/06/000.png",
     "year": 1100,
     "keyword": "pressure",
-    "summary": "For centuries, the Eurasian steppe produced warriors of extraordinary effectiveness: riders who could shoot accurately at full gallop, navigate by stars, live for weeks on minimal supplies, and endure cold that would destroy sedentary armies. This culture was not an accident — it was the product of a pastoral economy where survival depended on mobility, raiding, and the constant readiness for violence. The Mongols were its fullest expression.",
+    "summary": "Pastoral societies of the eastern Eurasian steppe developed military practices well suited to mobile warfare: skilled riding, composite bows, multiple remounts, dispersed logistics, and the ability to coordinate over great distances. These advantages were not innate or unique to Mongols, but Temujin combined them with unusually effective organisation, intelligence, discipline, and recruitment.",
     "causeIds": [],
     "effectIds": [
       "temujin-rises",
@@ -22,13 +22,13 @@
     "imageUrl": "https://www.toursmongolia.com/uploads/Mongol-Nomads.jpg",
     "year": 1162,
     "keyword": "pressure",
-    "summary": "At the time of Temujin's birth — conventionally dated to around 1162, though sources vary between 1155 and 1167 — the Mongols were not a unified people but a constellation of rival clans locked in perpetual feuding: kidnapping each other's women, raiding each other's herds, and forming alliances that dissolved as quickly as they formed. Temujin himself was born into captivity; his father was poisoned by enemies when he was nine. This fragmentation was both the problem he solved and the fuel that drove him to solve it.",
+    "summary": "When Temujin was born, conventionally around 1162, the peoples later united under the Mongol name were divided among shifting clans, tribes, and confederations. Rivalries involved raids, marriage alliances, hostage-taking, and competition for pasture. This fragmentation created both the dangers Temujin faced and the political field in which he built a new coalition.",
     "causeIds": [],
     "effectIds": [
       "temujin-rises"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": true
   },
   {
     "id": "silk-road-trade-networks",
@@ -37,7 +37,7 @@
     "imageUrl": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/silk-road-traded-goods-gettyimages-152191859",
     "year": 1200,
     "keyword": "pressure",
-    "summary": "By 1200, the Silk Road was a 7,000-kilometre network of caravan routes connecting China to the Mediterranean, carrying silk, spices, glass, paper, and ideas in both directions. The routes passed directly through Central Asia and Persia — territories the Mongols would conquer. This existing infrastructure of roads, way stations, and merchant networks was something the Mongols immediately understood the value of and deliberately chose to preserve rather than destroy.",
+    "summary": "Long before the Mongol conquests, Eurasia was linked by overlapping caravan, maritime, and regional routes rather than one continuous road. Goods, people, religions, and information moved through many intermediaries. Mongol rule later brought an unusually large share of these routes under related regimes, but it did not create Eurasian exchange from nothing.",
     "causeIds": [],
     "effectIds": [
       "mongol-desire-for-trade",
@@ -53,7 +53,7 @@
     "imageUrl": "https://islamic-study.org/wp-content/uploads/2017/07/Islams-Golden-age.jpg",
     "year": 750,
     "keyword": "pressure",
-    "summary": "Between roughly 750 and 1258 AD, the Abbasid Caliphate centred in Baghdad produced the most sophisticated civilisation on Earth. Muslim scholars preserved and extended Greek philosophy, invented algebra, mapped the stars, developed advanced medicine, and built the House of Wisdom — a library and translation centre that was arguably the most important intellectual institution in human history. All of it rested on the stability of the Abbasid state, which reached its political and cultural apex under Harun al-Rashid in the late 8th century before being gradually weakened by internal fragmentation and outside powers — yet endured as the symbolic heart of Islamic civilisation until the Mongols ended it.",
+    "summary": "From the eighth century onward, scholars working in Arabic and Persian across a wide Islamic world made major advances in mathematics, astronomy, medicine, philosophy, geography, and other fields. Baghdad was an important centre, but intellectual life was never confined to one city, dynasty, or institution, and it continued in Cairo, Damascus, Persia, Central Asia, al-Andalus, and elsewhere after 1258.",
     "causeIds": [],
     "effectIds": [
       "abbasid-caliphate-power"
@@ -68,7 +68,7 @@
     "imageUrl": "https://opentextbooks.clemson.edu/app/uploads/sites/28/2025/04/artillery-cannon-in-china-1880s-bildagentur-online-300x237.jpg",
     "year": 1100,
     "keyword": "shift",
-    "summary": "Chinese engineers had developed gunpowder weapons by the 10th century — fire arrows, bombs, and early firearms. By the time of the Mongol invasions, the Jin dynasty of northern China fielded sophisticated explosive devices and fire-lance weapons. The Mongols, initially a purely cavalry force with no siege capability, recognised the military value of these technologies immediately and absorbed Chinese engineers wholesale into their armies.",
+    "summary": "Gunpowder emerged in China and was used in incendiaries, bombs, rockets, and early firearms before the Mongol conquests. Mongol-era warfare helped move specialists, texts, and weapons across Eurasia, but the exact routes by which particular gunpowder technologies reached the Islamic world and Europe remain debated and cannot be reduced to a single transfer.",
     "causeIds": [],
     "effectIds": [
       "mongol-adopts-siege-warfare"
@@ -83,7 +83,7 @@
     "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2022/06/16/1d2748c3-4a73-4933-a6b6-42ee35cd21cd_68b4d8b8.jpg?itok=ZEUbAuE9&v=1655349255",
     "year": 1200,
     "keyword": "pressure",
-    "summary": "Yersinia pestis — the bacterium that causes bubonic plague — had existed in rodent populations of the Central Asian steppe for centuries, causing periodic local outbreaks without reaching the wider world. The Mongol conquests and the subsequent Pax Mongolica created the conditions for its escape: unprecedented movement of people, animals, and goods across the steppe and along the Silk Road. The plague was always there. It just needed a highway.",
+    "summary": "Yersinia pestis circulated in wild rodent reservoirs across parts of Eurasia. Genetic research places the ancestral diversification associated with the fourteenth-century pandemic in Central Asia, but the precise ecological pathway from regional reservoirs into long-distance commercial and military networks remains an active field of research.",
     "causeIds": [],
     "effectIds": [
       "plague-travels-silk-road"
@@ -98,7 +98,7 @@
     "wiki": "Genghis_Khan#Early_life",
     "year": 1190,
     "keyword": "catalyst",
-    "summary": "Through a combination of military brilliance, personal charisma, ruthless elimination of rivals, and a revolutionary policy of incorporating defeated enemies into his own forces rather than enslaving or killing them, Temujin united the Mongol and Turkic tribes of the steppe over roughly two decades. He built loyalty through merit rather than birth — a radical departure from tribal tradition — creating an army that was personally devoted to him rather than to clan affiliation.",
+    "summary": "Temujin built power through alliance-making, military success, redistribution of captured wealth, selective incorporation of defeated groups, and ruthless elimination of rivals. He weakened older aristocratic loyalties by promoting followers for service and reliability, though kinship and elite lineages remained important within the new order.",
     "causeIds": [
       "steppe-warrior-culture",
       "fragmented-mongol-tribes"
@@ -117,7 +117,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Pursuit_by_Mongol_Warriors_%28Diez_Albums%29.jpg",
     "year": 1200,
     "keyword": "shift",
-    "summary": "Mongol armies operated on principles that sedentary armies couldn't match: extreme mobility (covering up to 100 kilometres per day), feigned retreats that lured enemies into ambushes, coordinated attacks across fronts separated by hundreds of miles, and a decimal command structure that allowed complex manoeuvres without face-to-face communication. Every rider carried a remuda of spare horses. They could strike, vanish, and reappear before an enemy had finished reporting the first contact.",
+    "summary": "Mongol armies combined mounted archery, feigned retreats, reconnaissance, signalling, intelligence, and multiple columns operating across wide fronts. Their speed depended on remounts, pasture, disciplined organisation, and careful planning. Reported daily distances vary, and spectacular figures should not be treated as routine for entire armies.",
     "causeIds": [
       "steppe-warrior-culture",
       "temujin-rises"
@@ -136,7 +136,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/YuanEmperorAlbumGenghisPortrait.jpg",
     "year": 1206,
     "keyword": "spark",
-    "summary": "At a great assembly on the Mongolian steppe in 1206, Temujin was proclaimed Genghis Khan — 'Universal Ruler' — by the united Mongol tribes. He immediately restructured the army on decimal lines, created a written Mongol law code (the Yasa), established a mounted courier network (the yam), and declared that the eternal blue sky had given him a mandate to rule the world. Within two years he had begun to act on it. The largest land empire in history had its beginning in a tent on a river bank.",
+    "summary": "At a quriltai in 1206, Temujin was acclaimed Chinggis Khan after defeating his principal rivals. He reorganised military and political loyalties through decimal units, appointed commanders, adopted a written form of Mongolian using the Uyghur script, and began constructing an imperial administration. 'Universal Ruler' is a traditional interpretation of the title, not a certain literal translation.",
     "causeIds": [
       "temujin-rises"
     ],
@@ -146,7 +146,7 @@
       "expansion-begins"
     ],
     "isAnchor": true,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "total-war-doctrine",
@@ -155,7 +155,7 @@
     "imageUrl": "https://humanitieswest.org/wp-content/uploads/2015/03/ghengis.jpg",
     "year": 1206,
     "keyword": "catalyst",
-    "summary": "Genghis Khan's strategic doctrine was straightforward: cities that surrendered immediately were spared and incorporated; cities that resisted were destroyed completely, their populations massacred as an example to the next. This was not random cruelty but calculated policy — it minimised future resistance by making the cost of defiance existential. The doctrine was extraordinarily effective. News of what had happened at Samarkand, Nishapur, and Merv preceded the Mongol armies and often made further resistance seem pointless.",
+    "summary": "Mongol commanders often offered submission before assault and could reward cities that cooperated, while resistance sometimes brought enslavement, deportation, or massacre. Outcomes varied according to strategy, local negotiation, and the commander involved. Terror was deliberate, but there was no single rule under which every resisting city was annihilated and every surrendering population spared.",
     "causeIds": [
       "genghis-unifies-mongols",
       "mongol-cavalry-tactics"
@@ -175,7 +175,7 @@
     "imageUrl": "https://silk-road.com/wp-content/uploads/2018/10/pax-mongolica-2.jpg",
     "year": 1207,
     "keyword": "pressure",
-    "summary": "The pastoral Mongol economy produced warriors and horses but almost nothing else. Genghis Khan understood from the beginning that the wealth his empire needed — silk, grain, metalwork, luxury goods — came from trade with sedentary civilisations. His initial approach to the Khwarezmian Empire was to send a trade caravan. When the Shah had the merchants executed, Genghis Khan launched the most devastating military campaign in Islamic history. The desire for trade, rebuffed, became conquest.",
+    "summary": "Mongol rulers valued access to agricultural goods, manufactures, tribute, and commercial taxes. They protected selected merchants and diplomatic envoys and often treated attacks on caravans as political offences. Trade was one motive among several—including security, prestige, tribute, and dynastic expansion—not the sole explanation for conquest.",
     "causeIds": [
       "genghis-unifies-mongols",
       "silk-road-trade-networks"
@@ -194,7 +194,7 @@
     "imageUrl": "https://cdn.historycollection.com/wp-content/uploads/2019/01/22mongol-army-on-the-move.-pintrest.jpg",
     "year": 1209,
     "keyword": "turning-point",
-    "summary": "The Mongol expansion began with the conquest of the Xi Xia kingdom (1209) and then the Jin dynasty of northern China, before pivoting west toward Central Asia and Persia. Each conquest generated resources — engineers, translators, administrators, and soldiers — that made the next conquest easier. The Mongol Empire grew not despite this incorporation of conquered peoples but because of it: it was the most effective talent-extraction machine in medieval history.",
+    "summary": "After consolidating power, Chinggis Khan attacked the Western Xia and Jin states before turning against the Khwarazmian Empire. Expansion was not a single uninterrupted plan for world conquest: campaigns responded to frontier politics, tribute relations, succession, resistance, and opportunities created by earlier victories.",
     "causeIds": [
       "genghis-unifies-mongols"
     ],
@@ -212,7 +212,7 @@
     "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*EVlSzhnwXpzg0ejyll1K_Q.jpeg",
     "year": 1211,
     "keyword": "shift",
-    "summary": "The Mongols' initial limitation was that cavalry cannot storm walled cities. The conquest of northern China solved this problem permanently: Genghis Khan absorbed entire units of Chinese siege engineers, acquiring catapults, trebuchets, fire-bomb launchers, and the expertise to deploy them. By the time the Mongols turned west, they could reduce fortifications that might have held out for years. No city wall in the medieval world was designed to withstand the combined weight of Mongol cavalry and Chinese siege technology.",
+    "summary": "Because mounted armies alone could not reliably capture fortified cities, Mongol rulers recruited Chinese, Khitan, Persian, and other engineers and artisans. They adopted traction and counterweight trebuchets, mining, incendiaries, and gunpowder weapons over successive campaigns. Siege expertise accumulated gradually rather than being acquired in one decisive moment.",
     "causeIds": [
       "gunpowder-from-china"
     ],
@@ -230,7 +230,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Bataille_entre_mongols_%26_chinois_%281211%29.jpeg",
     "year": 1211,
     "keyword": "turning-point",
-    "summary": "The Mongol campaigns against China began with the invasion of the Jin dynasty in 1211, culminating in the sack of Zhongdu (modern Beijing) in 1215 — the point at which the Mongols transitioned from raiders to rulers. The later conquest of the Southern Song was completed by Kublai Khan in 1279, making the full subjugation of China the longest and most complex military operation in the empire's history. China gave the Mongols gunpowder weapons, paper money technology, administrative systems, and millions of skilled subjects.",
+    "summary": "Mongol conquest of the territories now called China unfolded over more than six decades against several states. The Jin capital Zhongdu fell in 1215, but the Southern Song was not defeated until 1279. The campaigns transformed Mongol government and military practice while causing extensive destruction, displacement, and incorporation of Chinese officials and specialists.",
     "causeIds": [
       "expansion-begins",
       "mongol-adopts-siege-warfare"
@@ -250,14 +250,13 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Bataille_de_v%C3%A2liy%C3%A2n_%281221%29.jpeg",
     "year": 1219,
     "keyword": "collapse",
-    "summary": "The Khwarezmian Empire — one of the most powerful states in the Islamic world, stretching from Persia to Afghanistan — was destroyed in three years. Samarkand, Bukhara, Merv, and Nishapur were sacked in succession; contemporary sources describe Merv, once a city of perhaps 200,000 people, as reduced to rubble with most of its population killed. The campaign opened the road to Persia, Iraq, and ultimately Baghdad. The destruction was not incidental — it was the message.",
+    "summary": "The invasion of the Khwarazmian Empire began in 1219 after a diplomatic and commercial crisis at Otrar. Major cities were besieged and devastated, but medieval casualty figures are often rhetorical and cannot be accepted literally. Mongol conquest shattered states and communities across Central Asia and Iran while also producing new regimes that later sponsored reconstruction and scholarship.",
     "causeIds": [
       "expansion-begins",
       "total-war-doctrine"
     ],
     "effectIds": [
-      "depopulation-of-persia",
-      "abbasid-caliphate-falls"
+      "depopulation-of-persia"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -269,7 +268,7 @@
     "imageUrl": "https://render.pixels.com/images/rendered/default/print/8/4/break/images/artworkimages/medium/3/the-mongol-terror-joseph-feely.jpg",
     "year": 1209,
     "keyword": "catalyst",
-    "summary": "The Mongols deliberately cultivated their reputation for total destruction. They allowed survivors to flee to the next city specifically so those survivors could report what had happened. Spies were sent ahead to spread accounts of massacres. The goal was to make resistance feel like collective suicide — and it worked. Many cities opened their gates without a fight, calculating that submission was the only path to survival. Terror was a force-multiplier that reduced the actual killing the Mongols needed to do.",
+    "summary": "Mongol armies cultivated fear through demands for submission, exemplary punishment, rumours, and the movement of refugees. Their reputation sometimes encouraged surrender and reduced the need for prolonged siege, but terror worked alongside intelligence, diplomacy, mobility, and exploitation of divisions among opponents.",
     "causeIds": [
       "total-war-doctrine"
     ],
@@ -287,7 +286,7 @@
     "imageUrl": "https://www.simpsonstreetfreepress.org/images/Genghis%20Khan%20and%20His_Court.jpg",
     "year": 1209,
     "keyword": "catalyst",
-    "summary": "The Mongol Empire expanded at a pace with no precedent in human history. In 25 years, Genghis Khan conquered more territory than the Romans had in 400. This speed meant that no political entity had time to adapt — alliances that might have checked Mongol expansion could not form quickly enough. The very incomprehensibility of the threat paralysed rulers who had no framework for understanding what was happening to them.",
+    "summary": "The Mongol conquests expanded with exceptional speed across much of Eurasia, but comparisons such as 'more than Rome in 400 years' simplify different territories and forms of rule. Success came from mobility, command structure, intelligence, siege specialists, recruitment from conquered peoples, and the political fragmentation of many opponents.",
     "causeIds": [
       "mongol-cavalry-tactics",
       "psychological-terror-strategy"
@@ -305,14 +304,13 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/DiezAlbumsArmedRiders_II.jpg",
     "year": 1221,
     "keyword": "catalyst",
-    "summary": "The Mongol campaigns destroyed a string of the most sophisticated urban centres in the medieval world — Samarkand, Bukhara, Merv, Nishapur, Herat, Baghdad. Modern demographic estimates suggest the campaigns reduced the population of Iran by perhaps 75% over the 13th century. Irrigation infrastructure that had sustained agriculture for millennia was wrecked and never fully rebuilt. The destruction was not merely military — it was civilisational, setting the economic development of Central Asia and Persia back by centuries.",
+    "summary": "Mongol campaigns inflicted catastrophic destruction on many cities, especially when sieges were resisted or strategically important. Other cities negotiated submission, paid tribute, or recovered under Mongol rule. Reported population losses are highly uncertain, so the devastation should be described without treating medieval massacre totals as precise demographic data.",
     "causeIds": [
       "total-war-doctrine",
       "mongol-adopts-siege-warfare",
       "speed-of-conquest"
     ],
     "effectIds": [
-      "islamic-golden-age-ends",
       "depopulation-of-persia",
       "baghdad-sacked"
     ],
@@ -326,7 +324,7 @@
     "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/0*j3C-xlrCqNJ4_eWV.jpeg",
     "year": 1258,
     "keyword": "collapse",
-    "summary": "Hulagu Khan's Mongol army besieged Baghdad in January 1258 and sacked it over seventeen days. The Caliph Al-Musta'sim was executed in a manner designed to avoid spilling royal blood — sources describe him being rolled in a carpet and trampled by horses, though the exact method is disputed in the historical record. The canals of the irrigation system were destroyed. The House of Wisdom's books were thrown into the Tigris in such numbers, according to contemporary accounts, that the river ran black with ink. It was the most consequential single act of destruction in medieval history.",
+    "summary": "Hülegü's army captured Baghdad in February 1258 after a short siege. The city was looted, many inhabitants were killed, and Caliph al-Musta'sim was executed. Contemporary and later sources disagree sharply over the duration and death toll, and colourful stories about the caliph's death cannot be verified with confidence.",
     "causeIds": [
       "destruction-of-cities"
     ],
@@ -345,10 +343,9 @@
     "imageUrl": "https://www.thoughtco.com/thmb/ybo_9fToJOyn6D-FiYEcO2OWyEY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HarunalRashidMondadoriPortfolioGetty-56a043b45f9b58eba4af94eb.jpg",
     "year": 1258,
     "keyword": "collapse",
-    "summary": "The Abbasid Caliphate, which had governed the Islamic world since 750 AD, ended with the execution of its last caliph in 1258. For Sunni Muslims, this was not merely a political event but a theological catastrophe — the caliphate was the institutional expression of Islamic political order, the successor to the Prophet's authority. Its destruction left a power vacuum and an identity crisis in the Islamic world that took centuries to partially resolve, and whose reverberations some historians argue can still be felt today.",
+    "summary": "The conquest of Baghdad ended the Abbasid caliphate as a sovereign power in the city. A ceremonial Abbasid line was later established under Mamluk protection in Cairo, while political and religious authority in the Islamic world had already long been dispersed among multiple dynasties and scholarly institutions.",
     "causeIds": [
       "baghdad-sacked",
-      "conquest-of-persia",
       "abbasid-caliphate-power"
     ],
     "effectIds": [
@@ -360,18 +357,16 @@
   },
   {
     "id": "house-of-wisdom-destroyed",
-    "title": "House of Wisdom Destroyed",
+    "title": "Baghdad's Scholarly Institutions Devastated",
     "wiki": "House_of_Wisdom",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Maqamat_hariri.jpg",
     "year": 1258,
     "keyword": "collapse",
-    "summary": "The House of Wisdom in Baghdad was the greatest library and translation centre in the medieval world, housing works of Greek philosophy, Persian astronomy, Indian mathematics, and centuries of original Islamic scholarship. Its destruction in 1258 was an intellectual catastrophe. How much was actually lost will never be known — some scholars had fled with manuscripts, and copies existed elsewhere — but the institution that had sustained the Islamic Golden Age's intellectual life was gone permanently.",
+    "summary": "Baghdad's libraries, schools, collections, and patronage networks suffered severely in 1258, but the famous House of Wisdom had flourished mainly centuries earlier and its institutional form by the thirteenth century is uncertain. The story that books made the Tigris run black is best treated as later literary imagery, not a documented measurement of lost knowledge.",
     "causeIds": [
       "baghdad-sacked"
     ],
-    "effectIds": [
-      "islamic-golden-age-ends"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
@@ -382,7 +377,7 @@
     "imageUrl": "https://i0.wp.com/thinkafrica.net/wp-content/uploads/2018/10/abbasid_caliphate_The-House-of-Wisdom-Bayt-Al-Hikma-Baghdad-Iraq.jpg?resize=800%2C382&ssl=1",
     "year": 800,
     "keyword": "pressure",
-    "summary": "At its height under Harun al-Rashid (r. 786–809), the Abbasid Caliphate governed a territory stretching from Spain to Central Asia, with Baghdad as the wealthiest and most sophisticated city in the world. The caliphs patronised scholars, funded translation projects, and created the institutional conditions for the Islamic Golden Age. By the 12th century Abbasid political power had been diminished by Buyid and Seljuk dominance, but the dynasty remained the symbolic centre of Sunni Islam. This concentrated cultural and political wealth made the Abbasid heartland simultaneously the most advanced and the most tempting target in the medieval world.",
+    "summary": "The Abbasids ruled a vast empire after 750, with Baghdad becoming a major political, commercial, and intellectual centre. By the ninth and tenth centuries, however, provincial dynasties and military powers had gained autonomy. The caliphate's symbolic importance endured even as direct Abbasid control contracted long before the Mongol invasion.",
     "causeIds": [
       "islamic-golden-age"
     ],
@@ -394,22 +389,17 @@
   },
   {
     "id": "islamic-golden-age-ends",
-    "title": "Islamic Golden Age Ends",
+    "title": "Islamic Scholarship After 1258",
     "wiki": "Islamic_Golden_Age#Decline",
     "imageUrl": "https://www.alabamagazette.com/IMG/8Wimnn8qWeQlnWXiqVaDpu0Ut2vzt/XPATH/home/cms_data/dfault/photos/stories/id/0/9/10009/s_topXEXT1358x33880is.jpg",
     "year": 1258,
     "keyword": "collapse",
-    "summary": "The Mongol destruction of Baghdad in 1258 is the conventional endpoint of the Islamic Golden Age — not because Islamic scholarship immediately ceased, but because the institutional infrastructure that had sustained it was gone. The Abbasid Caliphate, the House of Wisdom, the great madrasas of Persia, the irrigation systems that fed the cities — all were destroyed or permanently disrupted. Survivors carried knowledge westward and eastward, seeding other traditions, but the integrated civilisation they represented never reassembled itself.",
+    "summary": "The sack of Baghdad was a profound political and cultural catastrophe, but it did not abruptly end Islamic science or scholarship. Intellectual leadership had already become geographically dispersed, and major work continued under the Ilkhanids, Mamluks, Timurids, Ottomans, and other states. Treating 1258 as an 'end date' is a periodisation convention rather than a literal civilisational shutdown.",
     "causeIds": [
       "baghdad-sacked",
-      "abbasid-caliphate-falls",
-      "house-of-wisdom-destroyed",
-      "destruction-of-cities"
+      "abbasid-caliphate-falls"
     ],
-    "effectIds": [
-      "knowledge-flows-to-europe",
-      "mamluk-sultanate-rises"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
@@ -420,7 +410,7 @@
     "imageUrl": "https://www.thevintagenews.com/wp-content/uploads/sites/65/2017/09/1024px-silk_route_copy-640x416.jpg",
     "year": 1240,
     "keyword": "shift",
-    "summary": "By the 1240s, the entire length of the Silk Road from China to Persia fell within Mongol-controlled territory. The Mongols imposed a single legal system, standardised weights and measures, established way stations (yam) every 25 miles, and ruthlessly punished the robbery of merchants. Trade that had been interrupted by political borders and banditry was suddenly safer and faster than at any previous point in history. The irony was stark: the world's most destructive conquerors created its most effective trading system.",
+    "summary": "By the mid-thirteenth century, related Mongol khanates controlled much of the overland corridor from northern China through Central Asia to the Black Sea and Iran. They maintained relay stations, issued travel authorisations, and protected favoured merchants, but no single uniform legal system or perfectly secure road covered all Eurasia, especially after political fragmentation.",
     "causeIds": [
       "mongol-desire-for-trade"
     ],
@@ -438,7 +428,7 @@
     "imageUrl": "https://images.nationalgeographic.org/image/upload/v1638892474/EducationHub/photos/the-silk-road-map.jpg",
     "year": 1250,
     "keyword": "shift",
-    "summary": "The 'Mongol Peace' — roughly 1250 to 1350 — was a period of unprecedented connectivity across Eurasia. Diplomats, merchants, missionaries, and scholars could travel from Europe to China with a degree of safety that would not be matched for centuries. William of Rubruck and Marco Polo made journeys that would have been impossible before; Ibn Battuta's wide-ranging travels in the 1320s–1350s took place at the tail end of this era, when Mongol power was already fragmenting. The same network that carried silk and spices also carried technologies, diseases, and ideas in both directions simultaneously.",
+    "summary": "'Pax Mongolica' describes the relative connectivity created across much of thirteenth- and early-fourteenth-century Eurasia under Mongol successor states. Trade, diplomacy, migration, and knowledge transfer increased in many regions, though warfare, tolls, banditry, political rivalry, and periodic conflict continued. It was a facilitated network, not uninterrupted peace.",
     "causeIds": [
       "silk-road-under-mongol-control",
       "mongol-desire-for-trade",
@@ -459,13 +449,12 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg",
     "year": 1271,
     "keyword": "catalyst",
-    "summary": "Marco Polo's journey to China (1271–1295), made possible by the Pax Mongolica's safe passage, produced the most widely read travel account of the medieval world. His descriptions of China's wealth — paper money, coal, vast cities — were so far beyond European experience that many readers assumed he was lying. When Columbus set out in 1492, he carried a copy of Marco Polo's book, annotated in his own hand, looking for the cities Polo had described. The Mongol roads led, indirectly, to the Americas.",
+    "summary": "Marco Polo's account describes a journey through Mongol-ruled Eurasia and service at Kublai Khan's court, though scholars debate details of his itinerary and role. The book became one of medieval Europe's most influential descriptions of Asia, combining observation, reported information, literary convention, and later editorial shaping.",
     "causeIds": [
       "pax-mongolica"
     ],
     "effectIds": [
       "europe-learns-of-east",
-      "age-of-exploration-enabled",
       "columbus-inspired"
     ],
     "isAnchor": false,
@@ -478,7 +467,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/M%C5%8Dko_Sh%C5%ABrai_Ekotoba_2.jpg",
     "year": 1295,
     "keyword": "shift",
-    "summary": "Marco Polo's account, and the reports of Franciscan missionaries sent to the Mongol court, gave Western Europeans their first detailed knowledge of China, India, and the spice routes. This knowledge was transformative: it established that vast civilisations and enormous wealth existed beyond the Islamic world, and that they were potentially reachable. The hunger to reach Asian markets directly — bypassing Islamic middlemen — became the driving motivation behind the Age of Exploration two centuries later.",
+    "summary": "European knowledge of Asia expanded through merchants, Franciscan envoys, diplomats, missionaries, translated texts, and works associated with travellers such as Marco Polo. Europeans had not previously been wholly ignorant of Asia, but Mongol-era contacts supplied new information about routes, courts, commodities, and geography.",
     "causeIds": [
       "marco-polo-travels"
     ],
@@ -495,7 +484,7 @@
     "imageUrl": "https://www.historic-uk.com/wp-content/uploads/2017/06/black-death.jpg",
     "year": 1346,
     "keyword": "catalyst",
-    "summary": "Bubonic plague reached the Crimean port of Caffa in 1346, carried westward along the trade routes the Mongols had unified and pacified. A Mongol army besieging Caffa reportedly catapulted plague-infected corpses over the walls — one of the earliest recorded instances of biological warfare. Genoese merchants fleeing the siege carried the disease to Sicily in October 1347. The Pax Mongolica had inadvertently created the perfect highway for history's deadliest pandemic.",
+    "summary": "The plague pandemic moved west through interconnected Eurasian routes in the 1340s, including networks shaped by Mongol rule, Black Sea commerce, warfare, and grain transport. The famous claim that besiegers catapulted infected corpses into Caffa rests on a non-eyewitness account and remains disputed; plague's arrival in Mediterranean ports did not depend on that episode.",
     "causeIds": [
       "bubonic-plague-reservoir",
       "pax-mongolica",
@@ -505,12 +494,7 @@
       "black-death-europe"
     ],
     "isAnchor": false,
-    "isSeed": false,
-    "relatedScenario": {
-      "scenarioId": "cats",
-      "nodeId": "black-death-amplified",
-      "label": "Connects to They Chose Us"
-    }
+    "isSeed": false
   },
   {
     "id": "black-death-europe",
@@ -519,12 +503,11 @@
     "imageUrl": "https://communist.red/wp-content/uploads/2020/10/black_death.jpg",
     "year": 1347,
     "keyword": "collapse",
-    "summary": "The Black Death killed between a third and half of Europe's population between 1347 and 1353 — perhaps 25 million people. No event before or since has killed a comparable proportion of any continent's population in so short a time. The survivors inherited a fundamentally different world: more land, higher wages, more bargaining power against lords and the Church, and a profound psychological shock that altered European art, religion, and politics for generations. The plague arrived on Mongol trade routes.",
+    "summary": "The Black Death reached Mediterranean ports in 1347 and spread across most of Europe over the following years. Mortality varied greatly by region but may have killed roughly one-third to one-half of the population. The pandemic was part of a wider Afro-Eurasian catastrophe, not solely a European event or a simple product of Mongol policy.",
     "causeIds": [
       "plague-travels-silk-road"
     ],
     "effectIds": [
-      "feudalism-weakens",
       "labour-shortage-europe"
     ],
     "isAnchor": false,
@@ -542,7 +525,7 @@
     "imageUrl": "https://www.thoughtco.com/thmb/o777atrjnz0bl9S_VrSmyX5KIjU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/KublaiKhanHuntingGetty-2000x1366--56a043965f9b58eba4af94a3.jpg",
     "year": 1271,
     "keyword": "turning-point",
-    "summary": "Kublai Khan, Genghis's grandson, completed the conquest of China and founded the Yuan dynasty in 1271 — becoming the first non-Chinese emperor of a unified China. He moved the capital to what is now Beijing, adopted Chinese bureaucratic systems, patronised Chinese arts and scholarship, and ruled the wealthiest state on Earth. The Yuan dynasty was the most sophisticated expression of what Mongol rule could become when it transitioned from conquest to governance — and it lasted less than a century before Chinese rebellion ended it in 1368.",
+    "summary": "Kublai proclaimed the Yuan dynasty in 1271 and completed the conquest of the Southern Song in 1279. His court used Chinese administrative traditions while preserving Mongol imperial hierarchies and trans-Eurasian connections. He was the first ruler of a conquest dynasty to govern all of China, rather than simply the first 'non-Chinese emperor.'",
     "causeIds": [
       "conquest-of-china"
     ],
@@ -560,7 +543,7 @@
     "imageUrl": "https://silk-road.com/wp-content/uploads/2018/10/paper-money.jpg",
     "year": 1260,
     "keyword": "shift",
-    "summary": "The Yuan dynasty under Kublai Khan operated on a paper money system backed by state authority rather than metal — a concept Chinese dynasties had experimented with for centuries. European travellers including Marco Polo described this system with astonishment; paper that the state declared to be money was a genuinely alien concept. The idea circulated westward through merchant networks, eventually contributing to European experiments with paper instruments of exchange that preceded modern banking.",
+    "summary": "Paper money had a long Chinese history before the Yuan. Kublai's government expanded its use across the dynasty and impressed travellers such as Marco Polo, but Europeans did not adopt fiat paper currency directly from Yuan example. The node is best understood as evidence of observation and comparison, not a straightforward technology transfer.",
     "causeIds": [
       "conquest-of-china"
     ],
@@ -577,7 +560,7 @@
     "imageUrl": "https://historynet.com/wp-content/uploads/2021/09/Gunpowder-Middle-Ages-siege-castle.jpg",
     "year": 1260,
     "keyword": "shift",
-    "summary": "The Mongol conquests carried gunpowder technology from China to the Islamic world and then to Europe far faster than trade alone would have achieved. Mongol armies used fire weapons in their campaigns against the Abbasids and in Eastern Europe; the Mamluks who defeated the Mongols at Ain Jalut in 1260 did so partly using captured Mongol gunpowder weapons. By 1267, Roger Bacon was describing gunpowder's composition in England. The technology that would end the feudal age travelled west on Mongol arrows.",
+    "summary": "Knowledge of gunpowder and explosive weapons spread westward during the centuries of Mongol expansion and intensified Eurasian contact. Mongol armies were probably one important channel, alongside merchants, artisans, warfare among neighbouring states, and independent experimentation. The surviving evidence does not support one simple China-to-Mongols-to-Europe chain.",
     "causeIds": [
       "conquest-of-china"
     ],
@@ -599,7 +582,7 @@
     "imageUrl": "https://static.wixstatic.com/media/ff063f_7f1e1b40397c46ba88eb723d71d0cb50~mv2.jpg/v1/fill/w_768,h_403,al_c,lg_1,q_80/ff063f_7f1e1b40397c46ba88eb723d71d0cb50~mv2.jpg",
     "year": 1275,
     "keyword": "shift",
-    "summary": "The Pax Mongolica enabled an exchange of knowledge between East and West that had no precedent. Chinese printing technology, Persian astronomical observations, Indian numerical systems, and Greek philosophical texts preserved in Arabic all moved along the Mongol trade routes simultaneously. European scholars encountered medical and mathematical knowledge they had not known existed. This cross-civilisational fertilisation of ideas was one of the less visible but most consequential effects of an empire built on destruction.",
+    "summary": "Mongol-ruled Eurasia enabled unusually extensive movement of astronomers, physicians, artisans, diplomats, texts, and techniques. Exchange was multidirectional and often mediated through Persian, Central Asian, Chinese, Arab, Armenian, and other communities. Not every later European or Asian innovation can be assigned to this network, but the increase in contact was historically significant.",
     "causeIds": [
       "pax-mongolica",
       "kublai-founds-yuan",
@@ -618,7 +601,7 @@
     "imageUrl": "https://www.aljazeera.com/wp-content/uploads/2015/05/11fa3788b7a242019ef0042d4d1d68f1_18.jpeg?resize=1200%2C675",
     "year": 1230,
     "keyword": "consequence",
-    "summary": "Demographic historians estimate that the Mongol campaigns reduced the population of Iran and Central Asia by 50–75% over the 13th century — a combination of direct killing, famine caused by destroyed irrigation, and disease. Cities that had been among the largest in the world were reduced to villages or abandoned entirely. The agricultural base that had sustained these civilisations for millennia was not rebuilt for generations. Some regions of Central Asia never recovered their pre-Mongol population levels.",
+    "summary": "Iran and parts of Central Asia suffered severe demographic and agricultural decline from warfare, displacement, taxation, disease, and damage to irrigation. Exact claims of 50–75 percent population loss are not securely measurable for the region as a whole. Conditions also varied, and some recovery occurred under later Ilkhanid reforms.",
     "causeIds": [
       "psychological-terror-strategy",
       "destruction-of-cities",
@@ -632,19 +615,18 @@
   },
   {
     "id": "power-vacuum-middle-east",
-    "title": "Power Vacuum in the Middle East",
+    "title": "Middle Eastern Power Realignment",
     "wiki": "Mongol_invasions_and_conquests#Middle_East",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bagdad1258.jpg",
     "year": 1260,
     "keyword": "consequence",
-    "summary": "The destruction of the Abbasid Caliphate and the depopulation of Persia and Iraq left a power vacuum in the Middle East that had not existed for 500 years. Multiple forces moved to fill it: the Ilkhanate Mongols ruling Persia, the Mamluk Sultanate in Egypt and Syria, and eventually the Ottoman Turks emerging from Anatolia. The geopolitical map of the Middle East that emerged from this vacuum remained the region's basic structure for centuries.",
+    "summary": "The fall of Baghdad altered the balance of power in the Middle East, but it did not create an empty political landscape. The Ilkhanate, Mamluk Sultanate, Armenian and Georgian rulers, Anatolian beyliks, crusader states, and other powers competed within a region already fragmented before 1258.",
     "causeIds": [
       "abbasid-caliphate-falls",
       "depopulation-of-persia"
     ],
     "effectIds": [
-      "mamluk-sultanate-rises",
-      "ottoman-empire-rises"
+      "mamluk-sultanate-rises"
     ],
     "isAnchor": false,
     "isSeed": false
@@ -656,14 +638,11 @@
     "imageUrl": "https://kipchaks.com/wp-content/uploads/2025/03/000-1.png",
     "year": 1260,
     "keyword": "consequence",
-    "summary": "The Mamluks — a military caste of formerly enslaved soldiers who had seized control of Egypt — were the only Muslim power to decisively defeat the Mongols in open battle, at Ain Jalut in 1260. This victory ended the Mongol advance into North Africa and established the Mamluk Sultanate as the dominant power in the Arab world. The Mamluks preserved much of what survived of Islamic scholarship and positioned Cairo as the new cultural centre of the Islamic world after Baghdad's destruction.",
+    "summary": "The Mamluks had seized power in Egypt in 1250, before Hülegü reached Syria. Their victory over a Mongol force at Ayn Jalut in 1260 helped secure Syria and checked further Ilkhanid expansion toward Egypt. It was a major strategic victory, but the Mongols suffered other defeats and later returned to campaign in Syria.",
     "causeIds": [
-      "power-vacuum-middle-east",
-      "islamic-golden-age-ends"
+      "power-vacuum-middle-east"
     ],
-    "effectIds": [
-      "ottoman-empire-rises"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
@@ -674,11 +653,8 @@
     "imageUrl": "https://gertitashkomd.com/wp-content/uploads/2025/05/Tashko-Rise-Ottoman-Empire-c1299-1453.jpg",
     "year": 1299,
     "keyword": "consequence",
-    "summary": "The Mongol destruction of the Seljuk Sultanate of Rum in Anatolia created the conditions for the rise of small Turkish border principalities — the beyliks — in the political vacuum. One of these, led by Osman I, expanded steadily from 1299 onward into what became the Ottoman Empire. By 1453 the Ottomans had taken Constantinople. By 1520 they controlled territory from Hungary to Arabia. The largest Islamic empire of the early modern period was a direct consequence of the Mongol destruction of its predecessors.",
-    "causeIds": [
-      "power-vacuum-middle-east",
-      "mamluk-sultanate-rises"
-    ],
+    "summary": "The Ottoman polity emerged around 1300 in a frontier zone shaped by Byzantine weakness, Seljuk fragmentation, migration, trade, religious networks, and competition among Anatolian beyliks. Mongol pressure and Ilkhanid dominance formed part of this setting, but the Ottoman rise was neither an automatic consequence of Baghdad's fall nor a direct product of a single power vacuum.",
+    "causeIds": [],
     "effectIds": [],
     "isAnchor": false,
     "isSeed": false
@@ -690,7 +666,7 @@
     "imageUrl": "https://external-preview.redd.it/fragments-of-the-mongol-empire-1280s-ad-v0-_DpFSOjn-d5cFYCEe4j_Tn4FbWayDorYJUh-VB-Mj9Y.jpg?auto=webp&s=a1d2b143cb23e3fe8c15fdf68162b6a8e7e4e714",
     "year": 1294,
     "keyword": "collapse",
-    "summary": "After Kublai Khan's death in 1294, the Mongol Empire — which had already been subdivided into four khanates — never reunited. The Golden Horde controlled the Russian steppe, the Ilkhanate ruled Persia, the Chagatai Khanate held Central Asia, and the Yuan dynasty governed China. These successor states increasingly adopted the cultures and religions of their subject peoples. The Ilkhans converted to Islam; the Golden Horde Islamicised; the Yuan assimilated into Chinese administration. The conquerors were absorbed by the conquered.",
+    "summary": "The empire had already divided into increasingly autonomous khanates before Kublai's death. Disputes over succession, regional interests, civil wars, distance, and different political environments prevented lasting reunification. Fragmentation did not end Mongol influence: successor states remained major powers for generations.",
     "causeIds": [
       "kublai-founds-yuan"
     ],
@@ -705,10 +681,9 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Hunayn_-_Articella.jpg",
     "year": 1300,
     "keyword": "shift",
-    "summary": "The displacement of Islamic scholars by the Mongol conquests, combined with the new connectivity of the Pax Mongolica, accelerated the flow of scientific and philosophical knowledge into Western Europe. Arabic translations of Greek texts, Persian astronomical tables, and mathematical treatises reached European universities through Spain, Sicily, and the Byzantine world. Scholars fleeing destroyed cities carried manuscripts westward. The intellectual raw material for the European Renaissance and Scientific Revolution arrived partly through the catastrophe of Mongol conquest.",
+    "summary": "Scientific and philosophical knowledge reached Latin Europe through long-standing translation networks in Iberia, Sicily, the eastern Mediterranean, and universities, many of them predating the Mongols. Mongol-era travel and diplomacy added new contacts and information, but the transfer was cumulative rather than caused by scholars simply fleeing west after conquest.",
     "causeIds": [
-      "east-west-knowledge-exchange",
-      "islamic-golden-age-ends"
+      "east-west-knowledge-exchange"
     ],
     "effectIds": [
       "european-renaissance-seeds"
@@ -723,12 +698,11 @@
     "imageUrl": "https://historynet.com/wp-content/uploads/2021/09/Medieval-gunpowder-weapons.jpg",
     "year": 1320,
     "keyword": "turning-point",
-    "summary": "Gunpowder weapons reached Europe in the early 14th century and began their long work of making the armoured knight obsolete. Cannon could reduce castle walls that had defined feudal power for centuries; hand-held firearms eventually made the heavily armoured noble warrior a tactical liability rather than an asset. The feudal social order — built on the knight's military monopoly — depended on that monopoly remaining intact. Once it was gone, the political and social structures that rested on it began to erode.",
+    "summary": "Gunpowder weapons appeared in Europe by the early fourteenth century and developed gradually from small cannon and bombards into more effective artillery and firearms. They changed siege warfare over centuries, but castles, cavalry, and aristocratic military elites did not become obsolete immediately.",
     "causeIds": [
       "gunpowder-spreads-west"
     ],
     "effectIds": [
-      "feudalism-weakens",
       "age-of-exploration-enabled"
     ],
     "isAnchor": false,
@@ -741,7 +715,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Doutielt3.jpg",
     "year": 1350,
     "keyword": "consequence",
-    "summary": "With a third of Europe's agricultural workforce dead, surviving peasants found themselves in a buyer's market for labour for the first time in history. Lords who had previously dictated terms now competed for workers. Wages rose, serfdom became harder to enforce, and peasants gained the practical leverage to demand better conditions and legal freedoms. This economic disruption of the traditional feudal relationship accelerated social changes that would have taken generations under normal demographic conditions.",
+    "summary": "Heavy plague mortality created labour scarcity in many European regions, strengthening bargaining power and raising wages for some workers. Lords and governments also tried to control wages and movement. Outcomes differed sharply: parts of western Europe saw weakening servile obligations, while coercion persisted or later intensified elsewhere.",
     "causeIds": [
       "black-death-europe"
     ],
@@ -753,34 +727,29 @@
   },
   {
     "id": "feudalism-weakens",
-    "title": "Feudalism Begins to Collapse",
+    "title": "Late Medieval Lordship Changes",
     "wiki": "Feudalism#Decline",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/BNF_Fr_4274_8v_knight_detail.jpg",
     "year": 1360,
     "keyword": "consequence",
-    "summary": "Two unrelated consequences of Mongol expansion — the Black Death's demographic shock and the westward spread of gunpowder weapons — together undermined the twin pillars of European feudalism: the economic dependency of peasants on lords, and the military monopoly of armoured knights. Neither cause alone would have been sufficient; together, they made the feudal order increasingly unsustainable across the 14th and 15th centuries, creating the conditions from which the Renaissance, the nation-state, and eventually capitalism emerged.",
+    "summary": "The late medieval transformation of lordship and military power had many causes. Plague-driven labour scarcity weakened some obligations in western Europe, while taxation, markets, state formation, infantry, artillery, and political conflict also mattered. There was no single continent-wide moment when 'feudalism collapsed,' and eastern European trajectories often diverged.",
     "causeIds": [
-      "black-death-europe",
-      "european-gunpowder-weapons",
       "labour-shortage-europe"
     ],
-    "effectIds": [
-      "european-renaissance-seeds"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
   {
     "id": "european-renaissance-seeds",
-    "title": "Seeds of the European Renaissance",
+    "title": "Mongol-Era Exchange and the Renaissance",
     "wiki": "Renaissance#Origins",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/La_scuola_di_Atene.jpg",
     "year": 1380,
     "keyword": "consequence",
-    "summary": "The European Renaissance was not a spontaneous flowering of genius — it had material causes. Recovered Greek and Islamic texts transmitted through Mongol-era trade networks provided the intellectual raw material. Black Death survivors inherited concentrated wealth. The breakdown of feudal rigidity created social mobility for talented individuals of non-noble birth. Gutenberg's printing press, developed around 1440 and first widely deployed in the 1450s, disseminated ideas at unprecedented speed. All of these threads trace back, through varying degrees of indirection, to the catastrophic and creative disruption of Mongol expansion.",
+    "summary": "The Renaissance grew from Italian urban wealth, classical scholarship, universities, civic competition, patronage, Byzantine and Islamic learning, and developments already visible before the Black Death. Mongol-era connectivity formed one part of the wider history of Eurasian exchange, but it did not supply a single missing ingredient that created the Renaissance.",
     "causeIds": [
-      "knowledge-flows-to-europe",
-      "feudalism-weakens"
+      "knowledge-flows-to-europe"
     ],
     "effectIds": [],
     "isAnchor": false,
@@ -793,10 +762,9 @@
     "imageUrl": "https://img-c.udemycdn.com/course/480x270/1501264_939c.jpg",
     "year": 1400,
     "keyword": "consequence",
-    "summary": "The Age of Exploration had two Mongol-era inputs: the desire and the means. Marco Polo's accounts of Eastern wealth created the desire to reach Asia directly, bypassing Islamic middlemen whose power had been concentrated by the collapse of the Abbasid Caliphate. Gunpowder weapons and improved navigation technology provided the means. When the Ottoman capture of Constantinople in 1453 closed overland routes, European powers turned to the sea — and found, instead of Asia, the Americas.",
+    "summary": "Mongol-era accounts and maps helped sustain European interest in Asian markets, but fifteenth-century oceanic expansion depended more directly on Iberian state rivalry, Atlantic experience, ship design, navigation, finance, religious aims, and the search for profitable trade routes. Gunpowder and knowledge of Asia were contributing conditions, not sufficient causes.",
     "causeIds": [
       "european-gunpowder-weapons",
-      "marco-polo-travels",
       "europe-learns-of-east"
     ],
     "effectIds": [
@@ -812,7 +780,7 @@
     "imageUrl": "https://historyarchive.org/images/books/books-t/the-discovery-and-conquest-of-the-new-world-1892/plates/07-embarkation-and-departure-of-columbus-from-the-port-of-palos.jpg",
     "year": 1492,
     "keyword": "consequence",
-    "summary": "Christopher Columbus sailed west in 1492 carrying a heavily annotated copy of Marco Polo's travels, looking for the court of the Great Khan and the cities of Cathay. He was three centuries too late — the Mongol Empire was long gone — but the journey Polo had made possible under the Pax Mongolica had planted the idea that Asia was reachable and worth reaching. Columbus found not China but the Americas. The Mongols connected the Old World; Columbus's Polo-inspired voyage accidentally connected it to the New.",
+    "summary": "Columbus owned and annotated a Latin edition of Marco Polo and expected to reach Asian lands described in medieval travel literature. Polo was one influence among biblical geography, classical authors, contemporary maps, Portuguese voyages, and Columbus's severe underestimation of Earth's circumference. His voyage cannot be treated as the delayed final act of Mongol expansion.",
     "causeIds": [
       "marco-polo-travels",
       "age-of-exploration-enabled"

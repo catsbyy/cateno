@@ -1,95 +1,136 @@
 [
   {
     "id": "pre-industrial-time",
-    "title": "When Time Was Local",
-    "wiki": "Solar_time",
+    "title": "Local Noon Governs the Clock",
+    "wiki": "Standard_time",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLiob3Ka_2WxtbGS-Sx1pL4dscalmjTwUZyloUj7T6h8odaKDzOeMQgD4&s=10",
     "year": 1700,
     "keyword": "pressure",
-    "summary": "Before the industrial era, time was a local phenomenon. Every town set its clocks by the sun — noon was when the sun was highest in the sky, and this varied by several minutes between towns just a few miles apart. This mattered not at all when the fastest form of communication was a horse. People woke with the light and slept with the dark because that was the only rational relationship between human activity and the available energy source. The idea that you could separate human time from solar time — that you could simply declare that noon was an hour earlier or later than the sun suggested — would have seemed not just impractical but philosophically confused. Then the railways arrived.",
+    "summary": "Before railways and telegraphy, communities commonly set clocks by local solar time, so neighbouring towns could differ by minutes. That variation was manageable when travel and communication were slow. Industrial networks later turned small clock differences into scheduling and safety problems.",
     "causeIds": [],
     "effectIds": [
-      "franklin-satirical-proposal",
       "industrial-time-standardised"
     ],
     "isAnchor": false,
-    "isSeed": true,
-    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0e/6d/56/44/caption.jpg"
+    "isSeed": true
   },
   {
     "id": "franklin-satirical-proposal",
-    "title": "Franklin's Joke",
-    "wiki": "Daylight_saving_time#History",
+    "title": "Franklin Jokes About Saving Morning Light",
+    "wiki": "Daylight_saving_time",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Benjamin%20Franklin%20by%20Joseph%20Siffred%20Duplessis.jpg",
     "year": 1784,
-    "keyword": "catalyst",
-    "summary": "In 1784, Benjamin Franklin — then American minister to France — published a satirical letter in the Journal de Paris proposing that Parisians could save money on candles by waking earlier to use morning sunlight. To enforce this, he suggested firing cannons in the streets at dawn, ringing church bells, and having police break the windows of anyone who kept their shutters closed after sunrise. The letter was a joke — Franklin was satirising what he saw as French laziness and extravagance. He was not proposing a policy. He was not proposing to change the clocks. The fact that 'Benjamin Franklin invented daylight saving time' became a widespread historical claim is a testament to how thoroughly a satirical letter can be misread across two centuries.",
-    "causeIds": [
-      "pre-industrial-time"
-    ],
+    "keyword": "spark",
+    "summary": "In a satirical letter written in Paris, Benjamin Franklin calculated that earlier rising could save candle wax and proposed bells and cannon fire to wake sleepers. He did not propose changing clocks or create a daylight-saving programme. Later histories adopted the essay as a witty precursor because it framed daylight as something schedules could waste.",
+    "causeIds": [],
     "effectIds": [
-      "willett-campaigns"
+      "dst-abolition-debate"
     ],
     "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg/3840px-Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg"
+    "isSeed": true
   },
   {
     "id": "industrial-time-standardised",
-    "title": "Railways Force Standard Time",
-    "wiki": "Railway_time",
-    "year": 1880,
+    "title": "Railways Standardise Time",
+    "wiki": "Standard_time",
+    "imageUrl": "https://www.oerproject.com/-/media/Big-History/Images/Unit6/HTML-Articles/BHP-634b-Article--The-Industrial-Revolution--3.jpg?h=1093&iar=0&w=2000&hash=31B6B9203ED4691C3F7DAE598E2B5055",
+    "year": 1840,
     "keyword": "shift",
-    "summary": "The railways created the first practical argument for standardised time. A train timetable that listed arrivals and departures was useless if every station along the route was running on its own local solar time. The Great Western Railway adopted Greenwich Mean Time across its entire network in 1840; the rest of British railways followed by 1847. Standard time spread across countries as railway networks expanded — the United States adopted four standardised time zones in 1883. Once time was standardised, the possibility of collectively shifting it became thinkable. If noon could be defined as a social agreement rather than a solar fact, noon could in principle be moved.",
+    "summary": "Railways and telegraph networks required common timetables, encouraging railway time and eventually national standard time zones. Once a state could coordinate millions of clocks, it could also move them together by law. Daylight saving was therefore a product of the standardised-time world, not a return to pre-industrial flexibility.",
     "causeIds": [
       "pre-industrial-time"
     ],
     "effectIds": [
-      "willett-campaigns"
+      "george-hudson-proposal",
+      "willett-campaigns",
+      "germany-introduces-dst"
     ],
     "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://www.oerproject.com/-/media/Big-History/Images/Unit6/HTML-Articles/BHP-634b-Article--The-Industrial-Revolution--3.jpg?h=1093&iar=0&w=2000&hash=31B6B9203ED4691C3F7DAE598E2B5055"
+    "isSeed": false
   },
   {
-    "id": "willett-campaigns",
-    "title": "The Golfer Who Tried",
-    "wiki": "William_Willett",
-    "year": 1907,
+    "id": "george-hudson-proposal",
+    "title": "George Hudson Proposes a Seasonal Shift",
+    "wiki": "George_Hudson_(entomologist)",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20George%20Vernon%20Hudson.jpg",
+    "year": 1895,
     "keyword": "catalyst",
-    "summary": "William Willett was a British builder and enthusiastic golfer who, according to family legend, was struck by the idea of daylight saving time while riding his horse through Petts Wood one summer morning in 1905, noticing that the blinds of nearby houses were still down despite the available light. He published a pamphlet titled 'The Waste of Daylight' in 1907 and lobbied Parliament repeatedly until his death in 1915. The golf motivation was real — he genuinely hated cutting rounds short at dusk — but he also made serious arguments about health, productivity, and energy. Parliament was uninterested. Winston Churchill was an early supporter; most others dismissed it. Willett died without seeing his idea implemented. Germany adopted it eleven months after his death.",
+    "summary": "New Zealand entomologist George Vernon Hudson presented a proposal in 1895 to advance clocks seasonally, giving more evening daylight for recreation and collecting insects. His plan is the earliest well-documented modern clock-shifting proposal. It did not immediately become national policy, but it establishes that the idea was not invented by William Willett alone.",
     "causeIds": [
-      "franklin-satirical-proposal",
       "industrial-time-standardised"
     ],
     "effectIds": [
-      "germany-introduces-dst"
+      "port-arthur-trial"
     ],
     "isAnchor": false,
-    "isSeed": true,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTms1Lr14G9bVdQeoY2TkU8UyqDoORKvm6s4Q&s"
+    "isSeed": true
+  },
+  {
+    "id": "willett-campaigns",
+    "title": "William Willett Builds a British Campaign",
+    "wiki": "William_Willett",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTms1Lr14G9bVdQeoY2TkU8UyqDoORKvm6s4Q&s",
+    "year": 1907,
+    "keyword": "catalyst",
+    "summary": "Builder William Willett independently promoted summer time in Britain, proposing four staged twenty-minute advances in spring and reversals in autumn. The familiar story that a morning ride past closed blinds inspired him is family tradition, not the whole explanation. His pamphlet and allies transformed a scheduling idea into a sustained parliamentary campaign, although he died before Britain adopted it.",
+    "causeIds": [
+      "industrial-time-standardised"
+    ],
+    "effectIds": [
+      "germany-introduces-dst",
+      "world-follows-dst"
+    ],
+    "isAnchor": false,
+    "isSeed": true
+  },
+  {
+    "id": "port-arthur-trial",
+    "title": "Port Arthur Tries It Locally",
+    "wiki": "Daylight_saving_time_in_Canada",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Harbour%20and%20C.N.R%20Depot%2C%20Port%20Arthur%2C%20Ontario%20in%201910.jpg",
+    "year": 1908,
+    "keyword": "turning-point",
+    "summary": "Port Arthur, Ontario—now part of Thunder Bay—implemented a local daylight-saving arrangement in 1908, the earliest documented municipal use. It was limited in scale and did not produce a continuous national system. The episode matters because it separates the first local experiment from Germany's later first nationwide adoption.",
+    "causeIds": [
+      "george-hudson-proposal"
+    ],
+    "effectIds": [
+      "dst-spreads-globally"
+    ],
+    "isAnchor": false,
+    "isSeed": false
   },
   {
     "id": "wwi-coal-crisis",
-    "title": "Germany Needs to Save Coal",
-    "wiki": "Daylight_saving_time#History",
+    "title": "War Makes Clock Policy Attractive",
+    "wiki": "World_War_I",
+    "imageUrl": "https://defenceindepth.co/wp-content/uploads/2016/01/bundesarchiv_bild_183-s36048_frankreich_arras_artillerie.jpg?w=800&h=400&crop=1",
     "year": 1916,
     "keyword": "pressure",
-    "summary": "By 1916, Germany was eighteen months into a war it had expected to last weeks. Coal was essential for industrial production, heating, and the railways that supplied the front lines — and coal was scarce. The Imperial German government was looking for any way to reduce energy consumption. Moving the clocks forward by one hour in summer would shift the period of maximum human activity into the earlier, naturally lit part of the day, reducing the need for artificial lighting in the evening. The energy savings were projected to be significant. The fact that a British eccentric had been proposing exactly this for nine years, and that Germany's enemy Britain had ignored him, was not relevant. The Germans acted on April 30, 1916.",
+    "summary": "World War I placed fuel, transport, and industrial schedules under intense state control. Governments hoped that shifting civil activity toward evening daylight might reduce demand for artificial lighting, although wartime estimates were uncertain. The emergency supplied the political force that peacetime campaigns had lacked.",
     "causeIds": [],
     "effectIds": [
-      "germany-introduces-dst"
+      "germany-introduces-dst",
+      "world-follows-dst"
     ],
     "isAnchor": false,
     "isSeed": true,
-    "imageUrl": "https://defenceindepth.co/wp-content/uploads/2016/01/bundesarchiv_bild_183-s36048_frankreich_arras_artillerie.jpg?w=800&h=400&crop=1"
+    "relatedScenario": {
+      "scenarioId": "wwi",
+      "nodeId": "home-front-pressure",
+      "label": "Connects to World War I"
+    }
   },
   {
     "id": "germany-introduces-dst",
-    "title": "Germany Moves the Clocks",
-    "wiki": "Daylight_saving_time#History",
+    "title": "Germany Moves the Clocks Nationwide",
+    "wiki": "Daylight_saving_time",
+    "imageUrl": "https://www.brandonsun.com/wp-content/uploads/sites/3/2022/04/160319+yoko+1-Postkarte.jpg?w=1000",
     "year": 1916,
     "keyword": "spark",
-    "summary": "On April 30, 1916, Germany and its Austro-Hungarian ally moved their clocks forward by one hour — the first national implementation of daylight saving time in history. Britain followed three weeks later on May 21, 1916. The wartime logic was compelling: shifting an hour of daylight from morning to evening reduced the need for artificial lighting during the peak evening hours when people were most active. Within months, most of the major belligerent powers had adopted the measure. A joke from 1784, championed by a golfer who died the previous year, had become official policy across Europe — not because anyone found the idea irresistible, but because a war had made energy saving an emergency.",
+    "summary": "Germany and Austria-Hungary introduced nationwide summer time in 1916 as wartime conservation policy. They were not the first locality ever to try it, but they were the first countries to coordinate it nationally. The measure turned a reform campaign into a policy other belligerents felt pressure to match.",
     "causeIds": [
+      "industrial-time-standardised",
       "willett-campaigns",
       "wwi-coal-crisis"
     ],
@@ -98,192 +139,206 @@
       "peacetime-chaos"
     ],
     "isAnchor": true,
-    "isSeed": true,
-    "imageUrl": "https://www.brandonsun.com/wp-content/uploads/sites/3/2022/04/160319+yoko+1-Postkarte.jpg?w=1000"
+    "isSeed": true
   },
   {
     "id": "world-follows-dst",
-    "title": "Everyone Follows — Then Stops — Then Follows Again",
-    "wiki": "Daylight_saving_time#History",
-    "year": 1918,
+    "title": "Belligerents Follow—Then Reconsider",
+    "wiki": "Daylight_saving_time",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-uJurTpBmj5jeomCZetIoIlGiqQE1LoT2me4vh_GA0BdlwTCpA5Ln6n7A6CSSUv-2mtobP8sILqu0-K02GCIORkAvun38N6oGmKaODyFF6TrFUi3MYiivy03w5TiTYuLniz1-WrY3ZUE/s400/roads_daylight.jpg",
+    "year": 1916,
     "keyword": "shift",
-    "summary": "The United States adopted daylight saving time in 1918 as a wartime measure. When the war ended, it was repealed in 1919 over the objections of farmers — who found that their work was governed by the sun regardless of what clocks said, and who resented having to deliver produce to markets that had changed their schedules. What followed was decades of confusion: individual states, cities, and counties chose their own policies, creating a patchwork in which crossing a county line could mean changing your clock. Indiana, famously, had some counties observing DST and others not for most of the 20th century. The chaos was so severe that the bus company Greyhound, whose schedules crossed multiple time zones and DST boundaries, was operating 27 different timetables simultaneously by the mid-1960s.",
+    "summary": "Britain, France, the United States, and other countries adopted seasonal clock changes during the war or soon after. Many then repealed, suspended, or decentralised the policy when the emergency ended. Daylight saving spread quickly, but acceptance was never universal or irreversible.",
     "causeIds": [
+      "willett-campaigns",
+      "wwi-coal-crisis",
       "germany-introduces-dst"
     ],
     "effectIds": [
       "peacetime-chaos",
-      "dst-spreads-globally",
       "wwii-dst-year-round"
     ],
     "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-uJurTpBmj5jeomCZetIoIlGiqQE1LoT2me4vh_GA0BdlwTCpA5Ln6n7A6CSSUv-2mtobP8sILqu0-K02GCIORkAvun38N6oGmKaODyFF6TrFUi3MYiivy03w5TiTYuLniz1-WrY3ZUE/s400/roads_daylight.jpg"
+    "isSeed": false
   },
   {
     "id": "peacetime-chaos",
-    "title": "The Great American Time Chaos",
-    "wiki": "Daylight_saving_time_in_the_United_States#History_of_DST_in_the_United_States",
+    "title": "A Patchwork Replaces Wartime Uniformity",
+    "wiki": "Daylight_saving_time",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Time%20zones%20of%20the%20United%20States%201913-1918.png",
     "year": 1919,
     "keyword": "collapse",
-    "summary": "Between 1919 and 1966, the United States had no uniform national policy on daylight saving time. States, counties, and cities made their own decisions. Twin cities on state borders operated on different times. Radio stations broadcast in one time zone while their listeners lived in another. The Interstate Commerce Commission found the situation so confusing that it petitioned Congress for standardisation. The Uniform Time Act of 1966 finally imposed a national standard — but exempted states that chose to opt out entirely, which is why Arizona (except the Navajo Nation) and Hawaii still do not observe DST. The lesson that emerged from forty-seven years of chaos was not that DST was unnecessary — it was that the political cost of removing it was higher than the cost of maintaining it.",
+    "summary": "After World War I, national repeal and local choice produced confusing mosaics of observance, particularly in the United States. Cities, counties, transport operators, farmers, and broadcasters had different incentives, so neighbouring places could change clocks on different dates or not at all. The problem was administrative fragmentation rather than a universal public rejection of evening daylight.",
     "causeIds": [
-      "world-follows-dst",
-      "germany-introduces-dst"
+      "germany-introduces-dst",
+      "world-follows-dst"
     ],
     "effectIds": [
       "permanent-adoption"
     ],
     "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Saving_daylight_ends%2C_for_1918%2C_Sunday%2C_Oct._27th_-_Good-bye%2C_Uncle-_see_you_next_spring_-_LCCN2002722583_%28cropped%29.tif/lossy-page1-500px-Saving_daylight_ends%2C_for_1918%2C_Sunday%2C_Oct._27th_-_Good-bye%2C_Uncle-_see_you_next_spring_-_LCCN2002722583_%28cropped%29.tif.jpg",
-    "relatedScenario": {
-      "scenarioId": "wwi",
-      "nodeId": "new-world-order",
-      "label": "Connects to World War I"
-    }
-  },
-  {
-    "id": "permanent-adoption",
-    "title": "The Uniform Time Act Makes It Permanent",
-    "wiki": "Uniform_Time_Act",
-    "year": 1966,
-    "keyword": "shift",
-    "summary": "The Uniform Time Act of 1966 established a national standard for daylight saving time in the United States — beginning the last Sunday in April and ending the last Sunday in October, with states permitted to opt out entirely but not to observe DST differently within a state. The Act effectively locked in a system that had started as a wartime emergency measure, been abandoned after the first war, readopted during the second, and left in local chaos for the following two decades. The 1966 standardisation was presented as a solution to the confusion of local variation — which it was — but it also made DST structurally permanent by embedding it in federal law, creating constituencies that benefited from it, and raising the political cost of removal.",
-    "causeIds": [
-      "peacetime-chaos",
-      "wwii-dst-year-round"
-    ],
-    "effectIds": [
-      "dst-spreads-globally",
-      "arizona-exception"
-    ],
-    "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://lh6.googleusercontent.com/proxy/hVqcQxR6d5jQSDUBtp388bB0obKZCE6h6kabm-wOAHRxMiYVlYi_m5rdzYNrsmipilQsr5SF_p2q-nNh1rjf-JSoBlf6QnuUXs1o8oDmQE4LwFt4eGo"
-  },
-  {
-    "id": "dst-spreads-globally",
-    "title": "DST Goes Global",
-    "wiki": "Daylight_saving_time_by_country",
-    "year": 1970,
-    "keyword": "consequence",
-    "summary": "By the 1970s, daylight saving time had been adopted — in various forms, with various dates, and with various exemptions — by most of the world's temperate-zone nations. The global adoption was never coordinated: different countries changed clocks on different dates, sometimes producing periods when the time difference between countries changed by an hour mid-week, disrupting international business, aviation, and broadcasting. The complexity was not resolved — it was managed, imperfectly, through annual recalibrations of international schedules. The original wartime coal-saving justification had long since become irrelevant; DST persisted because removing it required political will that governments consistently found easier to defer than exercise.",
-    "causeIds": [
-      "world-follows-dst",
-      "permanent-adoption"
-    ],
-    "effectIds": [
-      "energy-savings-myth",
-      "modern-dst-health-costs"
-    ],
-    "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://a.scpr.org/67999_0b083f51e4f4ba54a6fc85ac6ff555b8_original.jpg"
-  },
-  {
-    "id": "energy-savings-myth",
-    "title": "The Energy Savings Don't Exist",
-    "wiki": "Daylight_saving_time#Effect_on_energy_consumption",
-    "year": 1980,
-    "keyword": "collapse",
-    "summary": "The original justification for daylight saving time was energy savings — shifting an hour of daylight to the evening reduced the need for artificial lighting. Studies conducted from the 1970s onward consistently found that the actual energy savings were minimal and in some cases negative. The rise of air conditioning had changed the calculation: shifting activity to warmer evening hours increased cooling loads in summer, offsetting or exceeding lighting savings. A 2008 study of Indiana — which had only recently adopted DST statewide — found that the change actually increased electricity consumption by 1%. The wartime coal-saving rationale that had started the whole enterprise had been made obsolete by the shift from lighting to climate control as the dominant domestic energy use.",
-    "causeIds": [
-      "dst-spreads-globally"
-    ],
-    "effectIds": [
-      "modern-dst-health-costs",
-      "dst-abolition-debate"
-    ],
-    "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Sundial_with_gnomon.jpg"
-  },
-  {
-    "id": "modern-dst-health-costs",
-    "title": "The Clock Change Is Killing People",
-    "wiki": "Daylight_saving_time#Effects_on_health",
-    "year": 2000,
-    "keyword": "consequence",
-    "summary": "Research published from the 2000s onward has documented significant health costs from the twice-yearly clock change. Studies across multiple countries consistently find that heart attack rates increase by approximately 24% in the days following the spring forward — with the most vulnerable period being the Monday after the change. Traffic accident rates increase. Workplace injuries increase. Rates of depression increase. The disruption to circadian rhythms from losing an hour of sleep has measurable physiological effects that persist for days. A 2020 study estimated that the spring clock change causes approximately 30 additional traffic fatalities per year in the United States alone. The measure introduced to save coal in 1916 is now estimated to cost more lives annually than it saves energy.",
-    "causeIds": [
-      "dst-spreads-globally",
-      "energy-savings-myth"
-    ],
-    "effectIds": [
-      "dst-abolition-debate",
-      "eu-abolition-vote"
-    ],
-    "isAnchor": false,
-    "isSeed": true,
-    "imageUrl": "https://resizer.ladbiblegroup.com/unsafe/rs:fit:3840:0:0:0/g:sm/q:70/aHR0cHM6Ly9ldS1pbWFnZXMuY29udGVudHN0YWNrLmNvbS92My9hc3NldHMvYmx0OTQ5ZWE4ZTE2ZTQ2MzA0OS9ibHQzYWE4NGY5MjdiYzM4MWVlLzY5MDhjNDkwZTE0MDM3ZjRkMjY3MGE0YS9TY3JlZW5zaG90XzIwMjUtMTEtMDNfYXRfMTUuMDQuMTUucG5n.webp"
-  },
-  {
-    "id": "arizona-exception",
-    "title": "Arizona Proves You Can Just Stop",
-    "wiki": "Daylight_saving_time_in_the_United_States#Arizona",
-    "year": 1968,
-    "keyword": "consequence",
-    "summary": "Arizona opted out of daylight saving time in 1968, exercising the exemption permitted by the Uniform Time Act. The reason was straightforward: in a desert state where summer temperatures regularly exceed 110°F, extending daylight hours into the evening meant extending the hottest and most dangerous part of the day. Arizona's refusal to change its clocks has caused a continuous, low-level logistical complexity for anyone dealing with the state — schedules that shift by an hour relative to the rest of the country twice a year — but the state has never reversed the decision. Arizona's existence is the permanent proof of concept that a modern American state can function without DST, that the sky does not fall, and that the primary obstacle to abolition elsewhere is not practical necessity but political inertia.",
-    "causeIds": [
-      "permanent-adoption"
-    ],
-    "effectIds": [
-      "dst-abolition-debate"
-    ],
-    "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Arizona_Daylight_Savings_Time_traffic_sign.jpg"
-  },
-  {
-    "id": "eu-abolition-vote",
-    "title": "Europe Votes to Abolish DST — and Stalls",
-    "wiki": "Summer_time_in_Europe#Efforts_to_abolish",
-    "year": 2019,
-    "keyword": "turning-point",
-    "summary": "In 2019, the European Parliament voted 410 to 192 to abolish seasonal clock changes across the European Union, following a public consultation in which 4.6 million Europeans responded — 84% in favour of abolition. The proposal required member states to choose whether to remain permanently on summer time or winter time. Implementation was scheduled for 2021. It has not happened. The obstacle was not public opinion — which was clearly in favour of abolition — but the political complexity of coordination: if France chose permanent summer time and Germany chose permanent winter time, the time difference between neighbouring countries would shift by an hour permanently. The system that nobody wanted was maintained because agreeing on the alternative was harder than continuing to complain.",
-    "causeIds": [
-      "modern-dst-health-costs"
-    ],
-    "effectIds": [
-      "dst-abolition-debate"
-    ],
-    "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://static01.nyt.com/images/2019/03/27/world/27eu-time/27eu-time-superJumbo.jpg"
-  },
-  {
-    "id": "dst-abolition-debate",
-    "title": "The Policy Nobody Can Kill",
-    "wiki": "Daylight_saving_time#Opposition_to_clock_changes",
-    "year": 2023,
-    "keyword": "consequence",
-    "summary": "Daylight saving time is one of the most consistently criticised public policies in the developed world — opposed by sleep scientists, public health researchers, farmers, parents of young children, and a substantial majority of the public in every country where it has been surveyed. It saves no meaningful energy, costs lives through sleep disruption, and exists primarily because every attempt to abolish it runs into the coordination problem of deciding what to replace it with. It began as a wartime emergency measure in 1916, was turned permanent by political inertia, and has survived into the 21st century not because anyone can defend it on its merits but because removing it requires a level of collective decision-making that modern democracies consistently fail to achieve. William Willett, the golfer who died in 1915 having never seen his idea implemented, would not have predicted this outcome.",
-    "causeIds": [
-      "modern-dst-health-costs",
-      "energy-savings-myth",
-      "arizona-exception",
-      "eu-abolition-vote"
-    ],
-    "effectIds": [],
-    "isAnchor": false,
-    "isSeed": true,
-    "imageUrl": "https://www.sleepfoundation.org/wp-content/uploads/2023/05/SF-23-216_DST_Graphic_2-1024x1024.png"
+    "isSeed": false
   },
   {
     "id": "wwii-dst-year-round",
-    "title": "War Time — Clocks Forward for Four Years",
-    "wiki": "Military_time_zone",
-    "imageUrl": "https://gcp-na-images.contentstack.com/v3/assets/bltea6093859af6183b/blta7b2b4ac9fb4ddb3/69877d8c428a9e48d9cc6f46/fdr.jpeg?branch=production",
+    "title": "World War II Brings Year-Round “War Time”",
+    "wiki": "Daylight_saving_time",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Saving_daylight_ends%2C_for_1918%2C_Sunday%2C_Oct._27th_-_Good-bye%2C_Uncle-_see_you_next_spring_-_LCCN2002722583_%28cropped%29.tif/lossy-page1-500px-Saving_daylight_ends%2C_for_1918%2C_Sunday%2C_Oct._27th_-_Good-bye%2C_Uncle-_see_you_next_spring_-_LCCN2002722583_%28cropped%29.tif.jpg",
     "year": 1942,
     "keyword": "pressure",
-    "summary": "The United States entered World War II in December 1941 and immediately re-adopted daylight saving time — not seasonally but year-round, calling it 'War Time.' From February 9, 1942 until September 30, 1945, American clocks were permanently advanced by one hour, and some regions by two. Britain similarly kept 'Double Summer Time' — two hours ahead — during summer months. The wartime measure worked: it shifted human activity into better-lit hours and reduced fuel consumption. When the war ended, the measure was repealed into the same chaotic patchwork of local decisions that had followed WWI — but now a second generation had organised itself around extended evening light. Retailers, sporting leagues, and the growing leisure economy all preferred the longer evenings. The constituency for permanent DST had grown large enough to eventually produce the Uniform Time Act of 1966, locking in what two wars had temporarily imposed.",
+    "summary": "The United States used year-round daylight saving from February 1942 until September 1945, while Britain and other countries adopted their own wartime arrangements, sometimes including double summer time. The policy again rested on conservation and coordination claims rather than precise modern energy measurement. Peacetime systems remained fragmented after the war.",
     "causeIds": [
       "world-follows-dst"
     ],
     "effectIds": [
       "permanent-adoption"
     ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "permanent-adoption",
+    "title": "The Uniform Time Act Standardises the U.S. Calendar",
+    "wiki": "Uniform_Time_Act",
+    "imageUrl": "https://lh6.googleusercontent.com/proxy/hVqcQxR6d5jQSDUBtp388bB0obKZCE6h6kabm-wOAHRxMiYVlYi_m5rdzYNrsmipilQsr5SF_p2q-nNh1rjf-JSoBlf6QnuUXs1o8oDmQE4LwFt4eGo",
+    "year": 1966,
+    "keyword": "turning-point",
+    "summary": "The U.S. Uniform Time Act of 1966 established common start and end dates for jurisdictions observing daylight saving while allowing states to exempt themselves. It did not make daylight saving permanently year-round, nor did it force every state to participate. Its achievement was replacing a local patchwork with a more coherent national calendar.",
+    "causeIds": [
+      "peacetime-chaos",
+      "wwii-dst-year-round"
+    ],
+    "effectIds": [
+      "dst-spreads-globally",
+      "arizona-exception",
+      "year-round-dst-test",
+      "energy-savings-myth",
+      "modern-dst-health-costs"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "arizona-exception",
+    "title": "Arizona Chooses Standard Time",
+    "wiki": "Time_in_Arizona",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Arizona%20sunset.jpg",
+    "year": 1968,
+    "keyword": "shift",
+    "summary": "Most of Arizona exempted itself from daylight saving in 1968, preferring not to move an hour of extreme summer heat into the clock-defined evening. The Navajo Nation observes daylight saving, while the Hopi Reservation does not, creating a famous map of nested exceptions. The example shows that latitude, climate, and jurisdiction can matter more than a universal rule.",
+    "causeIds": [
+      "permanent-adoption"
+    ],
+    "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "dst-spreads-globally",
+    "title": "A Temperate-Zone Policy, Not a Global Norm",
+    "wiki": "Daylight_saving_time_by_country",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DaylightSaving-World-Subdivisions.png",
+    "year": 1970,
+    "keyword": "consequence",
+    "summary": "Seasonal clock changes became common in Europe and parts of North America, but most countries near the equator had little seasonal daylight to reallocate and many other states abandoned the practice. Even among adopters, dates and exemptions differ. Calling DST a global standard conceals how geographically concentrated it remains.",
+    "causeIds": [
+      "port-arthur-trial",
+      "permanent-adoption"
+    ],
+    "effectIds": [
+      "eu-abolition-vote"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "year-round-dst-test",
+    "title": "The 1974 U.S. Experiment Is Cut Short",
+    "wiki": "Emergency_Daylight_Saving_Time_Energy_Conservation_Act",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Setting%20Sun%20and%20Glass%20Lantern%2C%20Symbols%20of%20Solar%20Energy%20and%20Manmade%20Lighting%2C%20Along%20the%20Oregon%20Coast%20near%20Lincoln%20City%20During%20the%20Energy%20Crisis%20of%201973-74%2001-1974%20%284271766237%29.jpg",
+    "year": 1974,
+    "keyword": "collapse",
+    "summary": "The United States began a two-year trial of year-round daylight saving in January 1974 during the oil crisis. Dark winter mornings generated political resistance, and Congress restored standard time for the following winter before the experiment ran its planned course. Federal evaluations found the energy and safety effects too small or uncertain to settle the argument.",
+    "causeIds": [
+      "permanent-adoption"
+    ],
+    "effectIds": [
+      "energy-savings-myth",
+      "dst-abolition-debate"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "energy-savings-myth",
+    "title": "Energy Savings Depend on Place and Technology",
+    "wiki": "Daylight_saving_time",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Electricity%20meter.jpg",
+    "year": 2008,
+    "keyword": "catalyst",
+    "summary": "Modern studies do not support one universal energy verdict. A U.S. Department of Energy study of the 2007 extension estimated electricity savings of about 0.02 percent, while research on Indiana found residential electricity use increased by roughly one percent because heating and cooling outweighed lighting savings. Results depend on climate, latitude, behaviour, and the technology being measured.",
+    "causeIds": [
+      "permanent-adoption",
+      "year-round-dst-test"
+    ],
+    "effectIds": [
+      "eu-abolition-vote",
+      "dst-abolition-debate"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "eu-abolition-vote",
+    "title": "Europe Votes, but the Clocks Keep Changing",
+    "wiki": "Daylight_saving_time_in_Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg/3840px-European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
+    "year": 2019,
+    "keyword": "catalyst",
+    "summary": "After a European Commission consultation drew 4.6 million responses—84 percent favouring an end to seasonal changes—the European Parliament voted in 2019 to discontinue them. The proposal required agreement among member states and the Council, including choices about permanent standard or summer time. As of 2026 that legislative process remains unfinished, so the existing clock changes continue.",
+    "causeIds": [
+      "dst-spreads-globally",
+      "energy-savings-myth"
+    ],
+    "effectIds": [
+      "dst-abolition-debate"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "modern-dst-health-costs",
+    "title": "The Spring Transition Carries a Small Acute Risk",
+    "wiki": "Daylight_saving_time",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alarm%20clock.jpg",
+    "year": 2024,
+    "keyword": "pressure",
+    "summary": "Sleep and cardiovascular studies often find a short-lived increase in adverse events after the spring transition, but effect sizes and methods vary. A recent meta-analysis estimated roughly a four-percent increase in acute myocardial infarction risk after the spring change, not the dramatic figures often repeated in popular summaries. The evidence supports caution about abrupt transitions, not the claim that DST as a whole simply 'kills more people than it saves.'",
+    "causeIds": [
+      "permanent-adoption"
+    ],
+    "effectIds": [
+      "dst-abolition-debate"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "dst-abolition-debate",
+    "title": "The Argument Is Really About Which Time to Keep",
+    "wiki": "Daylight_saving_time",
+    "imageUrl": "https://www.sleepfoundation.org/wp-content/uploads/2023/05/SF-23-216_DST_Graphic_2-1024x1024.png",
+    "year": 2026,
+    "keyword": "consequence",
+    "summary": "By 2026 the policy debate has split into three questions: whether to keep switching, whether permanent standard time better fits human circadian rhythms, and whether permanent summer time offers social and commercial benefits worth darker mornings. Franklin's satire, wartime conservation, the failed 1974 trial, mixed energy studies, and health evidence are often compressed into slogans. The persistence of DST reflects competing preferences and coordination costs, not the survival of a policy that everyone agrees has failed.",
+    "causeIds": [
+      "franklin-satirical-proposal",
+      "year-round-dst-test",
+      "energy-savings-myth",
+      "eu-abolition-vote",
+      "modern-dst-health-costs"
+    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   }

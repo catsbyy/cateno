@@ -1,11 +1,11 @@
 [
   {
     "id": "tan-as-peasant-mark",
-    "title": "Pale Skin as Privilege",
+    "title": "Pallor Signals Rank",
     "wiki": "Sun_tanning#Cultural_history",
     "year": 1700,
     "keyword": "pressure",
-    "summary": "For most of European history, tanned skin was a mark of low social status. Outdoor labourers — farmers, sailors, construction workers — were tanned by the sun as an unavoidable consequence of their work. The wealthy, who spent their days indoors or in shaded carriages, maintained pale skin as a visible signal that they did not need to work outside. Women of fashion used white lead powder, arsenic preparations, and elaborate hats to preserve pallor. The wealthy who could afford to travel did so in winter, when the sun was weakest, and to sunny climates specifically for warmth rather than brightness. The idea that deliberately exposing oneself to the sun was desirable would have struck any educated European before 1900 as both medically dangerous and socially incomprehensible.",
+    "summary": "In early modern Europe, pale skin often signalled that a person did not perform outdoor labour, while sun-darkened skin was associated with farming, seafaring, and other work exposed to the weather. Elite women used hats, veils, and sometimes hazardous lead- or arsenic-based cosmetics to preserve or imitate pallor. The code was neither universal nor unchanged across every region and class, but it formed the social background against which deliberate recreational tanning later appeared startlingly modern.",
     "causeIds": [],
     "effectIds": [
       "grand-tour-winter-tradition"
@@ -16,11 +16,11 @@
   },
   {
     "id": "grand-tour-winter-tradition",
-    "title": "The Grand Tour — Going South for Winter",
+    "title": "Elite Travel Looks South—but Not for a Tan",
     "wiki": "Grand_Tour",
     "year": 1750,
     "keyword": "pressure",
-    "summary": "The Grand Tour — the extended educational journey through Europe undertaken by young British aristocrats — established the pattern of wealthy northerners migrating south in winter. Italy in particular was the destination: Rome, Florence, Venice, Naples. The journey was undertaken in winter partly because summer in southern Europe was considered dangerously hot and disease-ridden — malaria was a genuine risk in many Italian lowlands during summer months. The aristocrats who made the Grand Tour brought back Italian art, classical references, and a taste for Mediterranean architecture — but not for Mediterranean summer. Summer in the south was for peasants and insects. The British aristocracy's relationship with the Mediterranean was built around winter.",
+    "summary": "From the seventeenth through nineteenth centuries, the Grand Tour brought wealthy northern Europeans to Italy for education, art, antiquity, and society. Travel calendars varied, but heat, difficult roads, and malaria in parts of lowland Italy made high summer unattractive, while later health tourism strongly favoured mild Mediterranean winters. These journeys helped make southern Europe culturally prestigious without yet turning its beaches and summer sun into the main attraction.",
     "causeIds": [
       "tan-as-peasant-mark"
     ],
@@ -34,11 +34,11 @@
   },
   {
     "id": "british-discover-riviera",
-    "title": "Lord Brougham Gets Stuck in Cannes",
+    "title": "Brougham Helps Put Cannes on the Winter Map",
     "wiki": "Henry_Brougham,_1st_Baron_Brougham_and_Vaux",
     "year": 1834,
     "keyword": "catalyst",
-    "summary": "In 1834, Lord Brougham — former Lord Chancellor of England and one of the most prominent politicians in Britain — was travelling to Nice for the winter when a cholera quarantine closed the Sardinian border. Stranded in the small fishing village of Cannes, he found it charming enough to stay, built a villa, and returned every winter for the rest of his life. His example, followed by friends and acquaintances, established Cannes as a fashionable British winter resort. The village of 4,000 people grew into a town of 27,000 by 1887. The Promenade des Anglais in Nice — literally 'the English people's walkway' — was originally built by British wintering residents to give themselves a place to stroll. The entire apparatus of the Riviera as a luxury destination began with one man's travel delay.",
+    "summary": "In 1834, former lord chancellor Henry Brougham was diverted to Cannes after a cholera-related barrier disrupted his onward journey toward Italy. He built a villa, returned repeatedly, and encouraged other wealthy Britons to follow, becoming an important promoter of Cannes as a winter resort. He did not single-handedly create the Riviera, but his status and networks accelerated the transformation of a fishing and trading town into an international seasonal destination.",
     "causeIds": [
       "grand-tour-winter-tradition"
     ],
@@ -56,11 +56,11 @@
   },
   {
     "id": "riviera-as-winter-refuge",
-    "title": "The Riviera — A British Winter Colony",
+    "title": "The Riviera Becomes a Winter Colony",
     "wiki": "French_Riviera#History",
     "year": 1850,
     "keyword": "turning-point",
-    "summary": "By the mid-19th century, the French Riviera had become the winter home of British aristocracy, Russian nobility, and the crowned heads of Europe. Queen Victoria wintered at Cimiez above Nice in 1895, 1896, 1897, and 1899; her presence made the Riviera the most fashionable destination in the world. The hotels, casinos, and villas that define the Riviera today were built for winter guests — the season ran from November to April. In summer, the hotels closed. The locals — fishermen, farmers, small tradespeople — reclaimed their coast. The concept of a 'summer season' on the Riviera did not exist. The summer sun that tourists now specifically travel to experience was precisely what the original visitors were escaping.",
+    "summary": "By the later nineteenth century, the French Riviera drew British, Russian, and other European elites seeking mild winters, sociability, and fashionable medical recuperation. Hotels, villas, casinos, churches, and promenades were built around a season running broadly from autumn to spring; many establishments reduced operations or closed in summer. The infrastructure later reused by summer tourism was therefore created first for people trying to avoid northern cold, not to maximise exposure to Mediterranean heat.",
     "causeIds": [
       "british-discover-riviera"
     ],
@@ -75,11 +75,11 @@
   },
   {
     "id": "railway-opens-coast",
-    "title": "The Railway Arrives",
+    "title": "Railways Compress the Journey South",
     "wiki": "Paris–Marseille_railway",
     "year": 1864,
     "keyword": "catalyst",
-    "summary": "The Paris-Lyon-Méditerranée railway reached the French Riviera in 1864, cutting the journey from Paris from several days by carriage to under 24 hours by train. The railway democratised access to the coast for the upper-middle classes who could not afford the extended winter sojourns of the aristocracy but could now reach Nice or Cannes for a few weeks. More significantly, it made the Riviera accessible to the artists, writers, and intellectuals who would reshape its cultural meaning. Renoir settled in Cagnes-sur-Mer; Matisse in Nice; later, Picasso, Léger, and Chagall all worked on the coast. The railway brought not just tourists but the people who would define what the Riviera meant — and their vision of it was increasingly about light, colour, and the Mediterranean landscape rather than winter refuge.",
+    "summary": "The Paris–Lyon–Méditerranée network reached Nice in 1864, making the Riviera far easier to reach from Paris and northern Europe. Rail did not immediately democratise the coast for all classes, but it widened access beyond households able to sustain slow carriage journeys and long winter migrations. It also supported the circulation of artists, writers, seasonal workers, goods, and publicity that gave the region a cultural identity built increasingly around landscape, colour, and light.",
     "causeIds": [
       "riviera-as-winter-refuge"
     ],
@@ -92,11 +92,11 @@
   },
   {
     "id": "queen-victoria-winters-riviera",
-    "title": "Victoria Blesses the Winter Season",
+    "title": "Victoria Confirms the Winter Season",
     "wiki": "Queen_Victoria#Declining_health_and_death",
     "year": 1895,
     "keyword": "shift",
-    "summary": "Queen Victoria's four winter visits to Cimiez above Nice in the 1890s represented the apex of the Riviera's winter season — the most powerful monarch in the world endorsing the destination as the correct place for winter recuperation. Her presence brought diplomatic entourages, society followers, and enormous press attention. The hotels of Nice installed special suites; the municipality laid new roads; the Hôtel Regina was built specifically for her visits. Victoria's Riviera was still entirely a winter phenomenon: she arrived in March when the weather was mild and departed before summer. The summer coast she never saw was still a working fishing landscape. But her endorsement cemented the Riviera's status as the world's premier luxury destination — which meant that when the meaning of the Riviera changed, it changed everything.",
+    "summary": "Queen Victoria stayed at Cimiez above Nice during several late-winter visits in the 1890s, bringing court attention and international publicity. The Hôtel Régina was associated with accommodating her large entourage, while roads and services expanded around elite visitors. Her presence confirmed rather than created the Riviera's winter prestige—and illustrates that the coast's most celebrated clientele still arrived for mild spring weather and departed before the hottest months.",
     "causeIds": [
       "riviera-as-winter-refuge"
     ],
@@ -109,11 +109,11 @@
   },
   {
     "id": "chanel-invents-the-tan",
-    "title": "Chanel Steps Off a Yacht",
+    "title": "Chanel Becomes the Symbol of the Fashionable Tan",
     "wiki": "Coco_Chanel",
     "year": 1923,
     "keyword": "spark",
-    "summary": "In 1923, Coco Chanel — already the most influential designer in Paris — spent time on the Duke of Westminster's yacht in the Mediterranean and returned to Paris visibly tanned. Whether the moment was as deliberate as legend suggests is debated; what is certain is that the fashion press treated her tan as a statement rather than an accident. 'The sun kissed her,' reported one magazine. Chanel was the right person at the right moment: a woman who had already revolutionised women's clothing by making practicality stylish, who understood the power of her own image, and who was closely watched by every fashion editor in Europe. The tan she arrived with in Paris was understood as a choice, a signal, and within months an aspiration. The logic that had governed European attitudes toward sunlight for centuries reversed in a single season.",
+    "summary": "Popular histories credit Coco Chanel with making a tan fashionable after Mediterranean travel in the early 1920s, often fixing the story to a yacht trip in 1923. The exact episode and quotations attached to it are difficult to document, and tanning had already gained medical and recreational associations. Chanel's carefully watched image nevertheless helped turn bronzed skin into a visible sign of modern leisure, health, mobility, and money; she was an influential amplifier, not the sole inventor of the fashion.",
     "causeIds": [
       "railway-opens-coast",
       "queen-victoria-winters-riviera",
@@ -129,17 +129,18 @@
   },
   {
     "id": "summer-status-reversal",
-    "title": "The Logic Reverses",
+    "title": "Leisure Rewrites the Meaning of Skin",
     "wiki": "Sun_tanning#Cultural_history",
     "year": 1924,
     "keyword": "turning-point",
-    "summary": "The reversal that Chanel's tan catalysed was not merely aesthetic — it was a complete inversion of the social meaning of skin colour. Pale skin had signified indoor work, leisure, and wealth. Tanned skin had signified outdoor labour and poverty. Within a decade of Chanel's yacht appearance, these meanings had exchanged: a tan now signified that you had the time and money to spend in the sun, while pallor suggested you were stuck indoors working. The tan became a luxury signal precisely because it required leisure to acquire — and Mediterranean leisure was expensive. The social logic was the same as before; only the surface had changed. Conspicuous consumption had found a new vehicle: not furs or carriages but the colour of your skin in September.",
+    "summary": "During the interwar years, bronzed skin increasingly signalled access to beaches, sport, outdoor recreation, and travel rather than unavoidable manual labour. The reversal was gradual and uneven, shaped by fashion photography, changing clothing, heliotherapy, sport, and expanding leisure—not completed in a single season. Its class logic remained familiar: appearance still advertised how a person spent time, but modern privilege could now be displayed through conspicuous exposure to the sun.",
     "causeIds": [
       "chanel-invents-the-tan",
       "doctors-prescribe-sunshine"
     ],
     "effectIds": [
-      "hollywood-glamorises-riviera"
+      "winter-season-loses-monopoly",
+      "paid-holidays-become-right"
     ],
     "isAnchor": false,
     "isSeed": true,
@@ -147,16 +148,16 @@
   },
   {
     "id": "murphys-summer-riviera",
-    "title": "The Murphys Invent the Summer Riviera",
+    "title": "The Murphys Help Launch the Summer Riviera",
     "wiki": "Gerald_and_Sara_Murphy",
     "year": 1923,
     "keyword": "catalyst",
-    "summary": "Gerald and Sara Murphy — wealthy American expatriates living in Paris — spent the summer of 1923 at the Hôtel du Cap at Antibes, which they had to persuade to stay open (it normally closed for summer). They invited their friends: Picasso, Fernand Léger, Cole Porter, and a young novelist named F. Scott Fitzgerald. The photographs of that summer — beautiful people on a rocky Mediterranean beach, tanned and relaxed in the summer heat — became, through Fitzgerald's novel Tender Is the Night (1934), the defining image of a certain kind of glamour. The Murphys had stumbled on something: the summer Riviera, which had been nobody's destination, had a particular quality of light and warmth and informality that the winter Riviera lacked entirely. They turned an empty hotel into a cultural phenomenon.",
+    "summary": "In 1923, Gerald and Sara Murphy rented much of the Hôtel du Cap and its staff for a summer when the Riviera's grand hotels were oriented toward winter guests. Their circle of artists, composers, and writers helped make Cap d'Antibes a setting for informal, sunlit modernity; later memoirs, photographs, and fiction magnified its influence. They did not discover an empty coast or create summer tourism alone, but their social world supplied one of the most durable origin stories of the fashionable summer Riviera.",
     "causeIds": [
       "chanel-invents-the-tan"
     ],
     "effectIds": [
-      "hollywood-glamorises-riviera"
+      "winter-season-loses-monopoly"
     ],
     "isAnchor": false,
     "isSeed": false,
@@ -164,18 +165,17 @@
   },
   {
     "id": "hollywood-glamorises-riviera",
-    "title": "Hollywood Discovers the South of France",
+    "title": "Film and Celebrity Globalise Riviera Glamour",
     "wiki": "French_Riviera#Post-war_period_and_late_20th_century",
     "year": 1946,
     "keyword": "catalyst",
-    "summary": "The Cannes Film Festival, founded in 1946, gave Hollywood a permanent Mediterranean outpost and created the image of the Riviera that the world still recognises: film stars in sunglasses on yachts, tanned bodies on white beaches, glamour inseparable from sunshine. Brigitte Bardot's presence in Saint-Tropez from the early 1950s — culminating in Roger Vadim's And God Created Woman (1956), filmed there — transformed a small fishing village into the most famous beach destination in the world. Grace Kelly's marriage to Prince Rainier of Monaco in 1956 completed the mythology: the Riviera was where film stars became princesses, where summers were spent on yachts, where the tan was the proof of arrival. The winter season that the British aristocracy had built had been entirely supplanted.",
+    "summary": "The Cannes festival was planned in 1939 but interrupted by war; its first full edition took place in 1946. Post-war cinema and illustrated magazines then circulated images of stars, yachts, swimsuits, and hotel terraces around the world. Brigitte Bardot's films and publicity intensified Saint-Tropez's fame, while Grace Kelly's 1956 marriage into Monaco added royal spectacle. Celebrity culture did not erase winter tourism, but it made sunshine and summer display central to the Riviera's international brand.",
     "causeIds": [
-      "murphys-summer-riviera",
-      "summer-status-reversal"
+      "winter-season-loses-monopoly"
     ],
     "effectIds": [
       "bikini-changes-beach",
-      "mass-tourism-arrives"
+      "charter-package-holidays"
     ],
     "isAnchor": false,
     "isSeed": true,
@@ -183,11 +183,11 @@
   },
   {
     "id": "bikini-changes-beach",
-    "title": "The Bikini",
+    "title": "The Bikini Redraws the Public Body",
     "wiki": "Bikini#History",
     "year": 1946,
     "keyword": "catalyst",
-    "summary": "Louis Réard's bikini, unveiled at a Paris fashion show on July 5, 1946, was named after Bikini Atoll — where the United States had conducted nuclear tests four days earlier — on the theory that it would be equally explosive. Réard could not find a mainstream model willing to wear it; he hired a nude dancer from the Casino de Paris. The bikini was banned in Belgium, Italy, Spain, Portugal, and Australia. It was embraced on the French Riviera, where Brigitte Bardot wore it in Saint-Tropez and transformed it from a scandal into a standard. The bikini completed the transformation of the beach from a medically supervised, heavily regulated, fully clothed experience into the space of maximum bodily display that it became in the second half of the 20th century.",
+    "summary": "Louis Réard presented his navel-baring bikini at Paris's Piscine Molitor on 5 July 1946, naming it after Bikini Atoll, where the United States had begun atomic testing days earlier. Jacques Heim promoted a rival minimal two-piece at roughly the same time, and two-piece swimwear had older precedents, so Réard did not invent the concept from nothing. Controversy, uneven bans, film publicity, and adoption by performers such as Brigitte Bardot gradually made the bikini a symbol of the post-war beach rather than an instant universal standard.",
     "causeIds": [
       "hollywood-glamorises-riviera"
     ],
@@ -196,18 +196,23 @@
     ],
     "isAnchor": false,
     "isSeed": false,
-    "imageUrl": "https://i.pinimg.com/736x/df/d4/cb/dfd4cbb4e6b18c1220330e7e37bea881.jpg"
+    "imageUrl": "https://i.pinimg.com/736x/df/d4/cb/dfd4cbb4e6b18c1220330e7e37bea881.jpg",
+    "relatedScenario": {
+      "scenarioId": "swimming-leisure",
+      "nodeId": "bikini-debuts",
+      "label": "Connects to The Beach Was Not Always a Holiday"
+    }
   },
   {
     "id": "mass-tourism-arrives",
-    "title": "Everyone Goes to the Mediterranean",
+    "title": "Charters and Resorts Scale Up the Mediterranean",
     "wiki": "Tourism#Mass_tourism",
     "year": 1960,
     "keyword": "shift",
-    "summary": "Package holidays to the Mediterranean — all-inclusive flights and hotels sold as a single product — began in the 1950s and exploded in the 1960s as jet travel made southern Europe reachable from Britain, Germany, and Scandinavia in a few hours rather than a few days. By 1970, the Mediterranean received 50 million tourists annually; by 2000, over 200 million. The beaches that had been empty in summer when the aristocracy wintered there were now among the most visited places on Earth in July and August. The working fishing villages that had provided the picturesque backdrop for wealthy visitors had been transformed into resort infrastructure. The thing Coco Chanel had made fashionable for the elite in 1923 had, within two generations, become the mass leisure experience of the industrial world.",
+    "summary": "Air-inclusive package holidays pioneered after the Second World War combined transport, accommodation, and sometimes meals at one advertised price. Charter aviation, rising incomes, paid leave, hotel construction, and state development strategies—especially in Spain and other Mediterranean countries—drove rapid growth during the 1960s and 1970s. International arrivals to Mediterranean countries rose from roughly 58 million in 1970 to many times that level by the twenty-first century, transforming coastlines, labour markets, water use, and local housing.",
     "causeIds": [
-      "hollywood-glamorises-riviera",
-      "bikini-changes-beach"
+      "bikini-changes-beach",
+      "charter-package-holidays"
     ],
     "effectIds": [
       "summer-as-universal-aspiration"
@@ -218,11 +223,11 @@
   },
   {
     "id": "summer-as-universal-aspiration",
-    "title": "The Summer Holiday",
+    "title": "The Mediterranean Summer Becomes a Mass Aspiration",
     "wiki": "Tourism#History",
     "year": 1970,
     "keyword": "consequence",
-    "summary": "The Mediterranean summer holiday — two weeks of sunshine, beach, and tan acquired on a coastline that a century earlier had been deserted in summer and visited in winter — became the dominant leisure aspiration of the European middle class in the second half of the 20th century. The package holiday industry grew into one of the largest sectors of the global economy. The tan that Coco Chanel had brought back from a yacht in 1923 — reversing 500 years of European social logic about the meaning of sun-darkened skin — had been democratised into a mass consumer product. Every pallid office worker returning from two weeks in Malaga with a tan was, without knowing it, completing a cultural transformation that had begun with a plague quarantine stranding a British aristocrat in a small French fishing village.",
+    "summary": "For millions of northern Europeans, a week or two of guaranteed sun became a standard image of annual escape during the later twentieth century. Advertising sold the tan as proof of travel and renewal, while resorts industrialised experiences once available mainly to elites. The result was not literally universal—many people lacked paid leave or disposable income—but Mediterranean summer tourism became a defining product of post-war consumer culture and a major economic dependency for many coastal regions.",
     "causeIds": [
       "mass-tourism-arrives"
     ],
@@ -240,12 +245,12 @@
   },
   {
     "id": "british-seaside-discovered",
-    "title": "Brighton Before Cannes",
+    "title": "Railways Build a Mass Seaside Culture at Home",
     "wiki": "Seaside_resort#History",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBFuZzGLD2U5V6Hmg8XrKYF554VOynqPNVz9u4p4qFM6aiVPTQcCSFLtnh&s=10",
     "year": 1841,
     "keyword": "shift",
-    "summary": "Before the Mediterranean became a mass destination, the English seaside was the first democratised beach culture in Europe. The railway reached Brighton in 1841, reducing the journey from London from half a day by coach to under an hour by train. Thomas Cook's first package excursion to the seaside followed in 1845. The Bank Holidays Act of 1871 gave the working class legally guaranteed days off, and the August bank holiday in particular became synonymous with mass seaside excursions. Blackpool, Margate, Scarborough, and Southend-on-Sea each received hundreds of thousands of visitors annually by the 1880s. But the English seaside was not about the sun — it was about bracing sea air, promenades, and the restorative power of salt water. Bathing was therapeutic, not hedonistic; bathing machines preserved modesty; the beach was for health, not pleasure. The cultural transformation that would make the Mediterranean beach the aspirational destination required a different idea of what the sun and the sea were for.",
+    "summary": "Long before cheap flights moved northern Europeans south, railways expanded access to British seaside resorts. The London–Brighton line opened in 1841, and excursion trains, bank holidays, and rising urban incomes brought larger crowds to Brighton, Blackpool, Margate, and other towns. Victorian beach culture mixed health, entertainment, promenading, and regulated bathing; it created mass coastal leisure but did not yet make deep tanning the principal goal.",
     "causeIds": [
       "grand-tour-winter-tradition"
     ],
@@ -257,12 +262,12 @@
   },
   {
     "id": "doctors-prescribe-sunshine",
-    "title": "Sunshine as Medicine",
+    "title": "Medicine Gives Sunlight New Authority",
     "wiki": "Heliotherapy",
     "imageUrl": "https://mh.bmj.com/content/medhum/39/1/38/F3.large.jpg",
     "year": 1920,
     "keyword": "catalyst",
-    "summary": "Chanel's tan arrived in Paris in 1923 into a medical culture that had already been telling people sunlight was good for them for two decades. Auguste Rollier opened his first heliotherapy clinic in Leysin, Switzerland in 1903, using sunlight to treat tuberculosis of the bone with documented success. Niels Finsen had won the Nobel Prize in 1903 for light therapy applied to lupus vulgaris. By the 1920s, physicians across Europe were prescribing sun exposure for tuberculosis, rickets (caused by vitamin D deficiency), and the catch-all category of 'nervous exhaustion.' Popular health manuals recommended sunbathing; sanatoriums were built with south-facing terraces specifically for sun exposure; the ideal of the outdoors body — tanned, active, healthy — was gaining medical legitimacy. When Chanel's tan was reported as beautiful, it landed in a culture already being told that it was healthy. The fashion statement and the medical prescription arrived simultaneously, reinforcing each other.",
+    "summary": "Around 1900, light therapy and heliotherapy gave controlled exposure to sunlight a new medical legitimacy. Niels Finsen received the 1903 Nobel Prize for treating lupus vulgaris with concentrated light, while Auguste Rollier later promoted sun treatment for forms of surgical tuberculosis in Alpine clinics. Some therapies produced benefits in specific conditions, and sunlight supported vitamin D production, but contemporary medicine also bundled sound observations with broad claims that later antibiotics and clinical evidence displaced.",
     "causeIds": [
       "riviera-as-winter-refuge"
     ],
@@ -274,12 +279,12 @@
   },
   {
     "id": "sunscreen-and-skin-cancer",
-    "title": "The Tan That Causes Cancer",
+    "title": "Public Health Turns Against the Deliberate Tan",
     "wiki": "Melanoma#Epidemiology",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sunscreen_on_back_under_normal_and_UV_light.jpg",
     "year": 1975,
     "keyword": "consequence",
-    "summary": "The ironic coda to the story Coco Chanel started: epidemiologists beginning in the 1950s and building through the 1970s and 1980s documented a dramatic rise in melanoma rates across Western countries that tracked almost precisely the rise of deliberate sun exposure. Australia, with its fair-skinned population and intense UV environment, became the most acute case: melanoma rates that had been negligible in the early 20th century rose to make it one of the most common cancers in the country. The 'Slip, Slop, Slap' campaign launched in 1981 was the first public health response. Sunscreen had been available since 1938, but was initially marketed as a product that allowed safer tanning rather than as protection against it — an industry response to evidence that would have destroyed the market it served. The tan that reversed 500 years of European social logic in 1923 was, as the 20th century ended, being reversed again — this time by oncology rather than fashion. Pale skin is, once more, the medically recommended state. The logic keeps reversing.",
+    "summary": "By the later twentieth century, epidemiology increasingly linked ultraviolet exposure and sunburn to melanoma and other skin cancers, especially among fair-skinned populations. Australia's 1981 Slip! Slop! Slap! campaign became an influential model of mass prevention, while sunscreens evolved alongside advice emphasising shade, clothing, and limits on exposure. The reversal is not a return to pallor as a class ideal: public-health agencies now describe a tan itself as evidence of UV damage and warn that sunscreen should not be used simply to extend time in the sun.",
     "causeIds": [
       "summer-as-universal-aspiration"
     ],
@@ -287,9 +292,74 @@
     "isAnchor": false,
     "isSeed": false,
     "relatedScenario": {
-      "scenarioId": "leaded-gasoline",
-      "nodeId": "industry-science-denial",
-      "label": "Connects to The Poison They Chose"
+      "scenarioId": "daylight-saving-time",
+      "nodeId": "modern-dst-health-costs",
+      "label": "Connects to The Policy Nobody Can Kill"
+    }
+  },
+  {
+    "id": "paid-holidays-become-right",
+    "title": "Paid Leave Turns Travel Time into a Right",
+    "wiki": "Annual_leave",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxbG3QKtr5cibbPQS9h2HNzN7JwQLv-9okl8P95UkCV7VGK0ikuLhZXix3&s=10",
+    "year": 1936,
+    "keyword": "shift",
+    "summary": "Paid holidays existed through some collective agreements and national laws before the 1930s, but the principle spread dramatically during the interwar and post-war periods. France's law of 20 June 1936 granted annual paid leave across broad sectors, and the International Labour Organization adopted its first Holidays with Pay Convention days later. Entitlement did not automatically make foreign travel affordable, but it created the protected time on which mass summer tourism depended.",
+    "causeIds": [
+      "summer-status-reversal",
+      "winter-season-loses-monopoly"
+    ],
+    "effectIds": [
+      "charter-package-holidays"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "swimming-leisure",
+      "nodeId": "paid-holidays-expand",
+      "label": "Connects to The Beach Was Not Always a Holiday"
+    }
+  },
+  {
+    "id": "winter-season-loses-monopoly",
+    "title": "The Winter Season Loses Its Monopoly",
+    "wiki": "French_Riviera",
+    "imageUrl": "https://www.capvillas.com/uploads/gerald-sara-murphy-garoupe-beach-1923-cap-dantibes.jpg",
+    "year": 1930,
+    "keyword": "collapse",
+    "summary": "Interwar visitors did not abolish the Riviera's winter season, but they broke its near-monopoly over elite resort life. Sunbathing, sport, motor travel, modernist art, and the Murphys' highly publicised circle made summer socially legible and commercially promising. Hotels and towns adapted unevenly, creating overlapping seasons rather than a clean overnight replacement of winter by summer.",
+    "causeIds": [
+      "murphys-summer-riviera",
+      "summer-status-reversal"
+    ],
+    "effectIds": [
+      "paid-holidays-become-right",
+      "hollywood-glamorises-riviera"
+    ],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "charter-package-holidays",
+    "title": "The Air-Inclusive Package Opens the South",
+    "wiki": "Package_tour",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/BEA_Viking_1B_at_Manchester.jpg",
+    "year": 1950,
+    "keyword": "catalyst",
+    "summary": "In 1950, Vladimir Raitz's Horizon operation flew a small group from Britain to Corsica on an air-inclusive package, an early model for the post-war Mediterranean holiday. Similar operators then combined charter seats, transfers, and rapidly built hotels at prices a growing middle and skilled working class could reach. The innovation mattered less as a single 'first' than as a scalable business system linking paid time off to reliable sunshine.",
+    "causeIds": [
+      "paid-holidays-become-right",
+      "hollywood-glamorises-riviera"
+    ],
+    "effectIds": [
+      "mass-tourism-arrives"
+    ],
+    "isAnchor": false,
+    "isSeed": false,
+    "relatedScenario": {
+      "scenarioId": "swimming-leisure",
+      "nodeId": "package-holidays-expand",
+      "label": "Connects to The Beach Was Not Always a Holiday"
     }
   }
 ]

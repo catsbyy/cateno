@@ -1,12 +1,12 @@
 [
   {
     "id": "fall-of-rome",
-    "title": "Fall of Western Roman Empire",
+    "title": "End of Western Imperial Rule",
     "wiki": "Fall_of_the_Western_Roman_Empire",
     "imageUrl": "https://about-history.com/wp-content/uploads/2017/12/End-of-an-Era-The-Fall-of-The-Western-Roman-Empire.jpg",
     "year": 476,
     "keyword": "collapse",
-    "summary": "In 476, the last Western Roman emperor was deposed. This marked the symbolic end of centralized Roman rule in the West after centuries of internal and external pressures.",
+    "summary": "In 476 Odoacer deposed Romulus Augustulus and sent the imperial insignia to Constantinople. The date is a useful convention, not a sudden extinction: Julius Nepos remained the recognised western emperor until 480, and Roman law, offices, taxation, and elite culture continued under successor rulers.",
     "causeIds": [
       "romulus-augustulus-deposed",
       "loss-of-central-authority"
@@ -16,50 +16,49 @@
       "church-fills-vacuum"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "pax-romana-stability",
-    "title": "Pax Romana Stability",
+    "title": "Pax Romana and Imperial Integration",
     "wiki": "Pax_Romana",
     "imageUrl": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/gettyimages-122222591-2?_a=BAVMn6DY0",
     "year": 100,
-    "keyword": "pressure",
-    "summary": "The Roman Empire enjoyed roughly two centuries of relative peace and prosperity from Augustus (27 BC) to Marcus Aurelius (180 AD). This stability depended on controlled expansion, strong central leadership, and the integration of conquered peoples — conditions that would progressively erode once expansion ceased.",
+    "keyword": "shift",
+    "summary": "From Augustus to the late second century, the empire enjoyed long stretches of internal stability, dense trade, and expanding provincial integration, though frontier wars and civil conflict never disappeared. This system depended less on endless conquest than on taxation, local elites, military logistics, and the legitimacy of imperial rule.",
     "causeIds": [],
     "effectIds": [
       "end-of-expansion"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": true
   },
   {
     "id": "end-of-expansion",
-    "title": "End of Expansion",
+    "title": "Strategic Consolidation after Trajan",
     "wiki": "Pax_Romana",
     "imageUrl": "https://cdn.britannica.com/67/148167-050-F596E6F2/Marcus-Aurelius-statue-Rome-Piazza-del-Campidoglio.jpg",
     "year": 117,
     "keyword": "pressure",
-    "summary": "Upon the death of Emperor Trajan in 117 AD, his successor Hadrian reversed course and consolidated Rome's existing borders rather than continuing to expand. The empire had reached its practical limits — deserts, forests, and distant steppes offered more resistance than reward. Hadrian's Wall and the Limes Germanicus formalised a defensive posture that Trajan's offensive strategy had not required. Without fresh conquests, the flow of slaves, tribute, and plunder that had financed the Roman economy began to dry up — a structural problem that would compound over the following two centuries.",
+    "summary": "Hadrian abandoned some of Trajan’s recent conquests and strengthened selected frontiers, but Rome did not simply stop expanding or lose its economic engine in 117. The deeper change was the growing cost of defending a vast, unequal empire whose revenues and military commitments were distributed unevenly.",
     "causeIds": [
       "pax-romana-stability"
     ],
     "effectIds": [
       "economic-decline",
-      "military-strain",
-      "overreliance-on-slavery"
+      "military-strain"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "economic-decline",
-    "title": "Economic Decline",
+    "title": "Fiscal and Monetary Strain",
     "wiki": "Roman_economy",
     "imageUrl": "https://i.pinimg.com/736x/0d/56/32/0d5632ad2b400287750c75f391565f26.jpg",
     "year": 295,
     "keyword": "pressure",
-    "summary": "Reduced conquest revenue, currency debasement, and collapsing trade networks triggered a prolonged economic crisis from the mid-3rd century onward. Hyperinflation destroyed savings and eroded confidence in Roman commerce. The state struggled to fund its armies and bureaucracy, creating a vicious cycle of higher taxes and lower productivity.",
+    "summary": "The third century brought severe monetary instability, disrupted taxation, warfare, and regional contraction, followed by significant fourth-century recovery in many areas. The western fiscal base later weakened especially as provinces and tax revenues were lost, while outcomes varied sharply across regions rather than forming one continuous empire-wide depression.",
     "causeIds": [
       "end-of-expansion",
       "overreliance-on-slavery",
@@ -76,29 +75,27 @@
   },
   {
     "id": "overreliance-on-slavery",
-    "title": "Reliance on Slave Labor",
+    "title": "Slavery and Bound Labor",
     "wiki": "Slavery_in_ancient_Rome",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Dougga_cup-bearers_mosa%C3%AFc.jpg",
     "year": 190,
-    "keyword": "pressure",
-    "summary": "Rome's agricultural and industrial economy depended almost entirely on slave labour acquired through conquest. As territorial expansion slowed after 117 AD, the supply of war captives fell sharply, driving up the cost of slaves and leaving landowners without a viable workforce. This structural dependency had no easy substitute.",
-    "causeIds": [
-      "end-of-expansion"
-    ],
+    "keyword": "shift",
+    "summary": "Slavery remained extensive in the late Roman world, but its supply did not simply collapse when conquest slowed. War, trade, birth, exposure, and legal enslavement continued to supply labor, while estates also relied increasingly on tenants and coloni; the important story is changing labor relations, not the sudden failure of a slave economy.",
+    "causeIds": [],
     "effectIds": [
       "economic-decline"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": true
   },
   {
     "id": "tax-burden",
-    "title": "Heavy Tax Burden",
+    "title": "Uneven Tax Burdens",
     "wiki": "Taxation_in_ancient_Rome",
     "imageUrl": "https://i.ytimg.com/vi/2XKgWEwxHi4/sddefault.jpg",
     "year": 300,
     "keyword": "pressure",
-    "summary": "To fund its armies, bureaucracy, and infrastructure, Rome imposed increasingly heavy taxes on landowners, merchants, and tenant farmers. The burden fell hardest on the poor: many smallholders abandoned their land rather than pay, accelerating rural depopulation and reducing the tax base further — a self-reinforcing spiral.",
+    "summary": "Late Roman governments demanded substantial land and personnel taxes to sustain the army and court. Collection could be coercive and burdens were distributed unequally, but the system also remained capable of mobilising large resources; local flight, patronage, exemptions, and loss of taxable territory mattered more than a simple universal tax spiral.",
     "causeIds": [
       "economic-decline",
       "increased-bureaucracy"
@@ -112,12 +109,12 @@
   },
   {
     "id": "urban-decline",
-    "title": "Urban Decline",
+    "title": "Uneven Urban Contraction",
     "wiki": "Ancient_Rome",
     "imageUrl": "https://i.guim.co.uk/img/media/ec1eb2bb3bf2ae2ae9a0c1ec570cf16d6f138959/0_0_4617_2770/master/4617.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=2ef1c46e87493ed79411899fcfcfa1f0",
     "year": 310,
     "keyword": "pressure",
-    "summary": "The tax burden and trade collapse of the 3rd and 4th centuries struck cities hardest. Urban populations contracted as small landowners abandoned their properties rather than face ruinous tax demands, and as the long-distance trade that had supplied urban markets broke down. Municipal institutions — the local councils (curiae) whose members were personally liable for tax collection shortfalls — became positions of ruin rather than honour, and were increasingly avoided or escaped. Cities that had been thriving administrative and commercial centres shrank to fortified enclaves, and the civic culture that had defined Roman life slowly dissolved.",
+    "summary": "Many western cities lost population, monumental investment, and municipal autonomy between the third and sixth centuries, while others adapted or remained active. The curial class faced heavier fiscal obligations, but urban change varied by province and should not be described as simultaneous collapse across the empire.",
     "causeIds": [
       "tax-burden",
       "economic-decline",
@@ -131,12 +128,12 @@
   },
   {
     "id": "population-decline",
-    "title": "Population Decline",
+    "title": "Demographic Shocks",
     "wiki": "Ancient_Rome",
     "imageUrl": "https://cdn.theatlantic.com/thumbor/YvoLJUpA8pM3wzsLiSSI4SX7eWk=/10x2072:4797x4585/960x504/media/img/mt/2016/02/IX003488_1/original.jpg",
     "year": 300,
     "keyword": "pressure",
-    "summary": "The Antonine Plague (165–180 AD) and Plague of Cyprian (249–262 AD) together killed an estimated 10–15 million people. Combined with the casualties of near-continuous civil war, this demographic collapse shrank both the agricultural workforce and the pool of military-age men available for recruitment.",
+    "summary": "Epidemics, warfare, displacement, and lower settlement density affected parts of the empire, but precise death totals for the Antonine and Cyprianic plagues are uncertain. These shocks strained recruitment and taxation without producing one securely measurable empire-wide demographic collapse.",
     "causeIds": [
       "tax-burden",
       "antonine-plague",
@@ -148,12 +145,12 @@
   },
   {
     "id": "military-strain",
-    "title": "Military Strain",
+    "title": "Military and Fiscal Strain",
     "wiki": "Ancient_Rome",
     "imageUrl": "https://digitalmapsoftheancientworld.com/wp-content/uploads/2022/05/roman_army.jpg",
     "year": 200,
     "keyword": "pressure",
-    "summary": "Rome's frontier stretched over 5,000 kilometres, from Hadrian's Wall to the Euphrates. Maintaining the legions needed to defend it became increasingly unaffordable as tax revenue fell and the recruiting pool shrank. By the 3rd century, the army was simultaneously the empire's greatest expense and its most destabilising political force.",
+    "summary": "Rome defended several distant frontiers while also fighting repeated civil wars. The army consumed a large share of state resources, yet the decisive problem was not frontier length alone: rival emperors, shifting threats, and the loss of rich western provinces repeatedly diverted troops and revenue.",
     "causeIds": [
       "end-of-expansion"
     ],
@@ -167,16 +164,16 @@
       "population-decline"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "reliance-on-mercenaries",
-    "title": "Reliance on Mercenaries",
+    "title": "Foederati and Changing Recruitment",
     "wiki": "Mercenary",
     "imageUrl": "https://static.wixstatic.com/media/8afc09_9e81c4b75c844061a0d11dbf6613d172~mv2_d_2048_1280_s_2.jpg/v1/fill/w_980,h_613,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8afc09_9e81c4b75c844061a0d11dbf6613d172~mv2_d_2048_1280_s_2.jpg",
     "year": 350,
     "keyword": "shift",
-    "summary": "Unable to recruit enough Roman citizens, emperors increasingly relied on foederati — Germanic warriors who fought under their own leaders in exchange for land and payment. These troops were effective soldiers but owed their primary loyalty to their commanders rather than to Rome, gradually blurring the line between defender and conqueror.",
+    "summary": "Late Roman armies increasingly incorporated troops recruited beyond the imperial frontier and groups settled by treaty. Foederati were not simply foreign mercenaries outside Roman command; many served effectively within Roman political and military systems, although bargaining with armed groups under their own leaders could limit imperial control.",
     "causeIds": [
       "military-strain"
     ],
@@ -188,12 +185,12 @@
   },
   {
     "id": "barbarian-influence",
-    "title": "Barbarian Influence",
+    "title": "Military Integration and Court Politics",
     "wiki": "Barbarian",
     "imageUrl": "https://cdn.thecollector.com/wp-content/uploads/2023/03/caesar-conquers-gaul.jpg?width=1000&quality=100&dpr=2",
     "year": 400,
     "keyword": "shift",
-    "summary": "Barbarian commanders rose to the highest levels of Roman military and political power. Stilicho, a half-Vandal general, became the de facto ruler of the Western Empire under Honorius. This integration was Rome's greatest practical strength — and its greatest vulnerability, as anti-barbarian paranoia eventually destroyed its most capable defenders.",
+    "summary": "Men of diverse frontier and provincial backgrounds rose to senior Roman commands, often becoming indispensable power brokers. Their careers show the empire’s capacity to integrate outsiders as well as the danger of court faction, ethnic stereotyping, and generals controlling armies more loyal to patrons than distant emperors.",
     "causeIds": [
       "reliance-on-mercenaries",
       "battle-of-adrianople"
@@ -222,7 +219,7 @@
       "crisis-of-third-century"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "crisis-of-third-century",
@@ -249,7 +246,7 @@
     "title": "Loss of Central Authority",
     "wiki": "Crisis_of_the_Third_Century",
     "imageUrl": "https://cdn.britannica.com/86/197486-050-A5AD998F/officials-son-Roman-Republic-consul-Titus-Manlius.jpg",
-    "year": 400,
+    "year": 450,
     "keyword": "collapse",
     "summary": "As resources dwindled and military commanders increasingly acted independently, the central government lost effective control over large parts of the empire. Provincial governors raised their own armies and levied their own taxes. By the early 5th century, the Western emperor in Ravenna was largely irrelevant to events in Gaul, Britain, and Spain.",
     "causeIds": [
@@ -259,7 +256,7 @@
       "crisis-of-third-century",
       "battle-of-adrianople",
       "pressure-on-borders",
-      "west-abandoned"
+      "vandals-capture-carthage"
     ],
     "effectIds": [
       "regional-fragmentation",
@@ -289,30 +286,31 @@
   },
   {
     "id": "barbarian-invasions",
-    "title": "Barbarian Invasions",
+    "title": "Migrations, Invasions, and Settlements",
     "wiki": "Barbarian_invasions_into_the_Roman_Empire_of_the_3rd_century",
     "imageUrl": "https://images.steamusercontent.com/ugc/643251294842828448/2A791F43856CEF618528CDE3D285190B53AB9631/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
     "year": 400,
     "keyword": "catalyst",
-    "summary": "From the late 4th century, successive waves of Visigoths, Vandals, Huns, Ostrogoths, and Franks penetrated deep into Roman territory. Some were fleeing the Huns; others were opportunistically exploiting Roman weakness. The distinction between 'barbarian invader' and 'Roman ally' had become almost meaningless by the time Odoacer deposed Romulus Augustulus in 476.",
+    "summary": "Goths, Vandals, Suebi, Burgundians, Franks, Huns, and others entered Roman territory through invasion, negotiated settlement, recruitment, and flight from other powers. These groups were politically diverse and often alternated between alliance and conflict with Rome.",
     "causeIds": [
       "military-strain",
       "huns-arrive"
     ],
     "effectIds": [
-      "sack-of-rome"
+      "sack-of-rome",
+      "vandals-capture-carthage"
     ],
     "isAnchor": false,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "pressure-on-borders",
-    "title": "Pressure on Borders",
+    "title": "Multiple Frontier Pressures",
     "wiki": "Ancient_Rome",
     "imageUrl": "https://gertitashkomd.com/wp-content/uploads/2025/05/Tashko-Fall-Western-Roman-Empire-476-CE.jpg",
     "year": 390,
     "keyword": "pressure",
-    "summary": "Rome's long frontiers faced coordinated pressure for the first time in its history. The Sassanid Persian Empire threatened the East; Germanic confederacies — Alemanni, Goths, Franks — probed the Rhine and Danube. Unlike earlier raiders, these were organised states capable of sustained campaigns, and Rome increasingly lacked the resources to respond on all fronts simultaneously.",
+    "summary": "The empire faced simultaneous threats from the Sasanian state, Gothic and other confederations, and later Hunnic expansion. These enemies were neither wholly new nor uniformly organised states, but their pressure became harder to manage when Roman armies were consumed by civil conflict and western revenues contracted.",
     "causeIds": [],
     "effectIds": [
       "loss-of-central-authority"
@@ -322,12 +320,12 @@
   },
   {
     "id": "sack-of-rome",
-    "title": "Sack of Rome",
+    "title": "Alaric Sacks Rome",
     "wiki": "Sack_of_Rome_(410)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Visigoths_sack_Rome.jpg",
     "year": 410,
     "keyword": "turning-point",
-    "summary": "In August 410 AD, Visigoth king Alaric sacked Rome — the first time the city had been sacked by a foreign enemy in approximately 800 years, since the Gallic sack of 390 BC (some sources give 387 BC). The sack lasted three days. Though the physical damage was limited, the psychological impact was enormous: Augustine wrote The City of God partly in response to the shock. It proved that Rome itself was no longer inviolable, shattering the psychological contract between the empire and its subjects.",
+    "summary": "Alaric’s forces entered Rome in August 410 and remained for three days. The material destruction was limited compared with later warfare, but the symbolic shock was immense; Augustine’s City of God answered claims that abandonment of the old gods had made Rome vulnerable.",
     "causeIds": [
       "barbarian-invasions",
       "stilicho-execution"
@@ -340,15 +338,14 @@
   },
   {
     "id": "loss-of-confidence",
-    "title": "Loss of Confidence",
+    "title": "Legitimacy and Provincial Bargaining",
     "wiki": "Ancient_Rome",
     "imageUrl": "https://www.stefanorometours.com/upload/CONF100/20230623/Decline_and_Fall_of_the_Roman_Empire_-tSa-550X280.jpg",
     "year": 420,
     "keyword": "shift",
-    "summary": "After the sack of 410, neither the Roman elite nor the provincial populations could maintain the fiction that the empire was invulnerable. Military recruitment became harder, tax evasion more widespread, and loyalty to distant emperors increasingly conditional. The psychological contract between Rome and its subjects was broken.",
+    "summary": "The sack of Rome damaged imperial prestige, but provincial elites did not simply lose faith at once. Many instead bargained pragmatically with Roman commanders and new rulers as imperial protection, taxation, and access to office became less reliable.",
     "causeIds": [
-      "sack-of-rome",
-      "pagan-roman-identity-weakens"
+      "sack-of-rome"
     ],
     "effectIds": [
       "regional-fragmentation"
@@ -358,20 +355,21 @@
   },
   {
     "id": "romulus-augustulus-deposed",
-    "title": "Romulus Augustulus Deposed",
+    "title": "Odoacer Deposes Romulus Augustulus",
     "wiki": "Romulus_Augustulus",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Young_Folks%27_History_of_Rome_illus420.png",
     "year": 476,
     "keyword": "spark",
-    "summary": "In September 476, the Germanic chieftain Odoacer deposed the teenage emperor Romulus Augustulus and sent the imperial insignia to Constantinople, declaring there was no longer any need for a Western emperor. The act was less a dramatic conquest than an administrative formality — real power had long since passed to barbarian commanders.",
+    "summary": "In 476 Odoacer removed the young usurper Romulus Augustulus after defeating his father Orestes. Odoacer ruled Italy as king while acknowledging the eastern emperor and, at least formally, Julius Nepos, making 476 a constitutional simplification more than an apocalyptic break.",
     "causeIds": [
-      "loss-of-central-authority"
+      "loss-of-central-authority",
+      "vandals-capture-carthage"
     ],
     "effectIds": [
       "fall-of-rome"
     ],
     "isAnchor": true,
-    "isSeed": true
+    "isSeed": false
   },
   {
     "id": "western-fragmentation",
@@ -407,7 +405,7 @@
       "soldier-emperors"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": true
   },
   {
     "id": "antonine-plague",
@@ -423,7 +421,7 @@
       "economic-decline"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": true
   },
   {
     "id": "soldier-emperors",
@@ -485,12 +483,12 @@
   },
   {
     "id": "diocletian-reforms",
-    "title": "Diocletian's Reforms",
+    "title": "Diocletian Rebuilds Imperial Government",
     "wiki": "Diocletian",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Istanbul_-_Museo_archeol._-_Diocleziano_%28284-305_d.C.%29_-_Foto_G._Dall%27Orto_28-5-2006_%28cropped%29.jpg",
     "year": 284,
     "keyword": "turning-point",
-    "summary": "Emperor Diocletian restructured the empire under a college of emperors — the Tetrarchy — with two senior Augusti and two junior Caesars. While stabilizing things temporarily, it set a precedent for division that would eventually become permanent.",
+    "summary": "Diocletian expanded provincial administration, separated many civil and military functions, reformed taxation, and created the Tetrarchy. These measures restored state capacity after the third-century crisis, although succession conflicts soon exposed the Tetrarchy’s political fragility.",
     "causeIds": [
       "crisis-of-third-century",
       "soldier-emperors"
@@ -504,12 +502,12 @@
   },
   {
     "id": "increased-bureaucracy",
-    "title": "Bloated Bureaucracy",
+    "title": "A Larger Late Roman State",
     "wiki": "Diocletian",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Croatia-01239_-_The_Peristil_%289551533404%29.jpg",
     "year": 295,
-    "keyword": "pressure",
-    "summary": "Diocletian's reforms tripled the size of the imperial administration. A larger bureaucracy required more taxes to sustain and became increasingly corrupt and inefficient.",
+    "keyword": "shift",
+    "summary": "The late imperial administration became larger and more specialised, but claims that Diocletian simply tripled a corrupt bureaucracy are too precise and reductive. More officials enabled closer taxation and supervision while also increasing costs, paperwork, and opportunities for patronage.",
     "causeIds": [
       "diocletian-reforms"
     ],
@@ -521,12 +519,12 @@
   },
   {
     "id": "east-west-split",
-    "title": "East-West Administrative Split",
+    "title": "Repeated East–West Administrative Division",
     "wiki": "Greek_East_and_Latin_West",
     "imageUrl": "https://i.redd.it/roman-empire-split-map-395-ce-east-vs-west-dioceses-v0-6zjkyuii45ug1.jpg?width=1414&format=pjpg&auto=webp&s=ff1ab272bf3dcb0427a2ae4c3ababacaa558bc7e",
     "year": 285,
     "keyword": "shift",
-    "summary": "The empire was divided into eastern and western halves for administrative purposes. The wealthier, more urbanized East increasingly operated independently, leaving the West under-resourced.",
+    "summary": "From the Tetrarchy onward, multiple emperors governed different regions, and after Theodosius I’s death in 395 separate eastern and western courts became durable. This was administrative adaptation, not an immediate national partition, and both courts continued to claim one Roman Empire.",
     "causeIds": [
       "diocletian-reforms"
     ],
@@ -539,52 +537,48 @@
   },
   {
     "id": "west-abandoned",
-    "title": "West Starved of Resources",
+    "title": "Diverging Eastern and Western Priorities",
     "wiki": "Greek_East_and_Latin_West",
     "imageUrl": "https://www.romecabs.com/upload/CONF99/20230604/history_of_the_fall_of_the_Roman_Empire.jpg",
     "year": 400,
     "keyword": "pressure",
-    "summary": "The richer Eastern Empire increasingly prioritized its own defense and interests. The West received fewer troops, less tax revenue, and diminishing imperial attention as the crises multiplied.",
+    "summary": "The eastern court sometimes withheld aid or pursued its own security, but it also intervened repeatedly in western affairs. The West’s weakness arose from a narrower and shrinking tax base, repeated usurpations, and the loss of Africa and other provinces—not simple deliberate abandonment by Constantinople.",
     "causeIds": [
       "east-west-split",
       "military-strain"
     ],
-    "effectIds": [
-      "loss-of-central-authority"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
   {
     "id": "constantines-conversion",
-    "title": "Constantine's Conversion",
+    "title": "Constantine Favors Christianity",
     "wiki": "Constantine_the_Great_and_Christianity",
     "imageUrl": "https://www.worldhistory.org/uploads/images/13987.jpeg",
     "year": 312,
     "keyword": "shift",
-    "summary": "Emperor Constantine converted to Christianity and made it a favored religion of the empire. This transformed Roman society, redirected wealth toward the Church, and began a long shift in cultural identity.",
+    "summary": "Constantine’s patronage transformed Christianity from a persecuted religion into an imperial beneficiary, while traditional cults continued for decades. Christian institutions acquired wealth and political influence, but the same religion became central to the eastern empire that survived for centuries.",
     "causeIds": [],
     "effectIds": [
       "church-fills-vacuum",
       "pagan-roman-identity-weakens"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": true
   },
   {
     "id": "pagan-roman-identity-weakens",
-    "title": "Roman Civic Identity Weakens",
+    "title": "Roman Identity Becomes Christian",
     "wiki": "Roman_decadence",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/THOMAS_COUTURE_-_Los_Romanos_de_la_Decadencia_%28Museo_de_Orsay%2C_1847._%C3%93leo_sobre_lienzo%2C_472_x_772_cm%29.jpg",
     "year": 390,
     "keyword": "shift",
-    "summary": "As Christianity became dominant, the traditional Roman civic religion and identity that had unified the empire for centuries faded. Loyalty shifted from Rome as an institution to the Church as a universal community.",
+    "summary": "During the fourth and fifth centuries imperial identity was increasingly expressed through Christianity, but Roman civic loyalty did not simply disappear. Christian bishops, emperors, generals, and successor kings often presented themselves as protectors of Roman order rather than members of an alternative community.",
     "causeIds": [
       "constantines-conversion"
     ],
-    "effectIds": [
-      "loss-of-confidence"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
@@ -602,7 +596,7 @@
       "visigoths-cross-danube"
     ],
     "isAnchor": false,
-    "isSeed": false
+    "isSeed": true
   },
   {
     "id": "visigoths-cross-danube",
@@ -628,7 +622,7 @@
     "imageUrl": "https://thehistorynetwork.org/wp-content/uploads/2024/01/3508-09.jpg",
     "year": 378,
     "keyword": "turning-point",
-    "summary": "The Visigoths destroyed a Roman army and killed Emperor Valens at Adrianople in 378 AD — Rome's most catastrophic military defeat since Cannae in 216 BC. An estimated two-thirds of the Eastern Roman field army was killed or captured. The battle proved the army could no longer reliably defend its own borders, and it forced the policy of settling barbarian groups inside Roman territory under their own leaders — a precedent that would progressively blur the line between Roman soldier and barbarian conqueror.",
+    "summary": "In 378 Gothic forces defeated and killed Emperor Valens near Adrianople. The scale of Roman losses is uncertain and the eastern army was not destroyed, but the defeat exposed failures of command and supply and led to a negotiated Gothic settlement in 382.",
     "causeIds": [
       "visigoths-cross-danube"
     ],
@@ -646,7 +640,7 @@
     "imageUrl": "https://db637ll7r1kva.cloudfront.net/app/uploads/2023/05/05125113/GettyImages-938617676-770x775.jpg",
     "year": 408,
     "keyword": "spark",
-    "summary": "Stilicho, the half-Vandal general who was Rome's most effective military commander, was executed on suspicion of treason. His death removed the one man capable of defending Italy and directly enabled the Visigoth sack of Rome.",
+    "summary": "Honorius ordered Stilicho’s execution in 408 amid court intrigue and accusations of treason. His death weakened western coordination and anti-Goth violence drove many soldiers toward Alaric, but the sack of 410 resulted from several failed negotiations and political decisions, not the removal of one indispensable man alone.",
     "causeIds": [
       "barbarian-influence",
       "political-instability"
@@ -659,12 +653,12 @@
   },
   {
     "id": "germanic-kingdoms",
-    "title": "Germanic Kingdoms Emerge",
+    "title": "Post-Roman Kingdoms Consolidate",
     "wiki": "Barbarian_kingdoms",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Alaric_entering_Athens.jpg",
     "year": 500,
     "keyword": "consequence",
-    "summary": "From the former Western Empire, distinct successor kingdoms emerged: the Visigothic kingdom in Hispania, the Frankish kingdom in Gaul, the Ostrogothic kingdom in Italy, and the Vandal kingdom in North Africa. These states were not purely destructive — they preserved Roman law, used Latin administration, and maintained trade networks, forming the political foundations of medieval Europe.",
+    "summary": "Visigothic, Vandal, Burgundian, Frankish, Ostrogothic, and other regimes took control of former western provinces. They combined new military elites with Roman law, taxation, landholding, and administration, producing both rupture and substantial continuity.",
     "causeIds": [
       "western-fragmentation"
     ],
@@ -677,12 +671,12 @@
   },
   {
     "id": "eastern-empire-survives",
-    "title": "Eastern Empire Survives",
+    "title": "The Eastern Roman Empire Continues",
     "wiki": "Byzantine_Empire",
     "imageUrl": "https://emporiumromanum.com/cdn/shop/articles/the-byzantine-empire-the-continuation-of-rome-in-the-east-479456.jpg?v=1716172999",
     "year": 476,
     "keyword": "consequence",
-    "summary": "The Eastern Roman Empire — which modern historians call the Byzantine Empire, though its inhabitants called themselves Romans — continued for nearly a thousand years after 476, finally falling to the Ottoman Turks in 1453. It preserved Roman law (codified by Justinian in the 6th century), Greek learning, and Orthodox Christianity, transmitting classical civilisation to the medieval and Renaissance worlds.",
+    "summary": "The Roman Empire centred on Constantinople survived until 1453 and its inhabitants continued to call themselves Romans. Its endurance demonstrates that Christianity, bureaucracy, and “barbarian” recruitment were not by themselves sufficient explanations for western political collapse.",
     "causeIds": [
       "east-west-split"
     ],
@@ -694,12 +688,12 @@
   },
   {
     "id": "church-fills-vacuum",
-    "title": "Church Fills Power Vacuum",
+    "title": "Bishops Assume Wider Civic Roles",
     "wiki": "Catholic_Church",
     "imageUrl": "https://www.worldhistory.org/img/c/p/2400x1254/9659.jpg",
     "year": 500,
     "keyword": "consequence",
-    "summary": "As Roman administrative structures collapsed, the Catholic Church — with its existing network of bishops in every major city — stepped into the vacuum. Bishops provided dispute resolution, poor relief, and basic civic order where imperial officials no longer functioned. Pope Gregory I (590–604) exemplified this transition, effectively governing Rome and negotiating with the Lombards when no emperor could.",
+    "summary": "As western imperial institutions weakened, bishops sometimes organised relief, negotiated with armies, and represented cities. The Church did not uniformly replace the state, but its durable networks gave it expanding civic and political roles under both Roman and successor governments.",
     "causeIds": [
       "fall-of-rome",
       "constantines-conversion"
@@ -718,12 +712,12 @@
   },
   {
     "id": "feudalism-emerges",
-    "title": "Feudalism Emerges",
+    "title": "Localized Lordship Develops",
     "wiki": "Feudalism",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/BNF_Fr_4274_8v_knight_detail.jpg",
     "year": 550,
     "keyword": "consequence",
-    "summary": "Without Roman centralised government, protection became a local arrangement: powerful landowners offered security in exchange for labour and loyalty from those who couldn't defend themselves. This decentralised system of mutual obligation — lords providing protection, peasants providing agricultural surplus — gradually solidified into the feudal structures that defined medieval European society.",
+    "summary": "Post-Roman western societies became more locally organised as royal authority, landholding, military service, and dependency were renegotiated. This did not instantly create a single “feudal system”; the institutions later labelled feudal emerged unevenly over many centuries.",
     "causeIds": [
       "germanic-kingdoms",
       "church-fills-vacuum",
@@ -740,12 +734,12 @@
   },
   {
     "id": "roman-knowledge-preserved",
-    "title": "Roman Knowledge Preserved",
+    "title": "Classical Learning Survives through Many Networks",
     "wiki": "Roman_Empire",
     "imageUrl": "https://i0.wp.com/romanempirehistory.com/wp-content/uploads/2023/11/roman-empire-1024x694.jpg?resize=1024%2C694&ssl=1",
     "year": 530,
     "keyword": "consequence",
-    "summary": "Irish and Benedictine monasteries copied and preserved Latin manuscripts through the early medieval period. The Byzantine Empire maintained Roman legal codes, Greek philosophy, and classical engineering. This preservation was not passive: monastic scholars actively sought out texts, and Byzantine engineers continued building in the Roman tradition. Without them, the later Renaissance would have had little to rediscover.",
+    "summary": "Greek and Latin learning survived through Byzantine schools, western monasteries and courts, urban libraries, Syriac scholarship, and later Arabic translation traditions. Preservation was selective and uneven, and much was lost, but the Renaissance did not depend on one isolated chain of monastic copying.",
     "causeIds": [
       "church-fills-vacuum",
       "eastern-empire-survives"
@@ -761,12 +755,12 @@
   },
   {
     "id": "dark-ages-begin",
-    "title": "Dark Ages Begin",
+    "title": "Post-Roman Material Contraction",
     "wiki": "Dark_Ages_(historiography)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Tommaso.Laureti_Triumph.of.Christianity.jpg",
     "year": 500,
     "keyword": "consequence",
-    "summary": "Across much of Western Europe, urban populations shrank, long-distance trade contracted, and literacy outside the Church declined sharply. The sophisticated infrastructure of Roman civilisation — roads, aqueducts, heated buildings, professional administration — gradually fell into disrepair. Historians debate how 'dark' this period truly was, but the material contraction compared to the Roman peak was real and measurable.",
+    "summary": "In many western regions, long-distance exchange, monumental building, tax-supported infrastructure, and urban population contracted after Roman rule fragmented. The scale and timing varied, and “Dark Ages” is misleading when it implies universal cultural darkness or a complete break with the Roman past.",
     "causeIds": [
       "western-fragmentation",
       "trade-collapse"
@@ -779,17 +773,35 @@
   },
   {
     "id": "latin-language-fragments",
-    "title": "Latin Fragments into Languages",
+    "title": "Spoken Latin Diversifies",
     "wiki": "Latin",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rome_Colosseum_inscription_2.jpg",
     "year": 600,
     "keyword": "consequence",
-    "summary": "Without a central state enforcing a standard written Latin, spoken dialects evolved independently across regions over several centuries. By around 800 AD, the speech of France, Spain, and Italy had diverged enough that speakers could barely understand each other. From these diverging dialects eventually emerged French, Spanish, Italian, Portuguese, and Romanian — five modern languages from one ancient root.",
+    "summary": "Regional spoken Latin had varied long before 476. As political and educational networks changed, these varieties continued diverging into the Romance languages, while written Latin remained a transregional language of church, law, and learning for centuries.",
     "causeIds": [
       "western-fragmentation",
       "germanic-kingdoms"
     ],
     "effectIds": [],
+    "isAnchor": false,
+    "isSeed": false
+  },
+  {
+    "id": "vandals-capture-carthage",
+    "title": "Vandals Capture Carthage",
+    "wiki": "Vandal_Kingdom",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingdom_of_the_Vandals_and_Alans_-_476_AD.png",
+    "year": 439,
+    "keyword": "turning-point",
+    "summary": "In 439 Geiseric’s Vandals seized Carthage and the core of Roman North Africa. The new kingdom continued much Roman urban and commercial life, but the western court lost one of its richest tax regions and faced a hostile power astride central Mediterranean shipping routes.",
+    "causeIds": [
+      "barbarian-invasions"
+    ],
+    "effectIds": [
+      "loss-of-central-authority",
+      "romulus-augustulus-deposed"
+    ],
     "isAnchor": false,
     "isSeed": false
   }

@@ -1,11 +1,11 @@
 [
   {
     "id": "athens-golden-age",
-    "title": "Athens at Its Peak",
+    "title": "Classical Athens: Democracy and Empire",
     "wiki": "Classical_Athens",
     "year": -450,
     "keyword": "pressure",
-    "summary": "The Athens of the mid-5th century BC was the most intellectually fertile city in human history. Under Pericles, the Parthenon rose on the Acropolis; Aeschylus, Sophocles, and Euripides competed at the Theatre of Dionysus; Herodotus and Thucydides invented history; architects and sculptors developed standards of proportion and beauty that Western civilisation would return to again and again. It was also a radical democracy — every male citizen could speak and vote in the assembly — and a naval empire that treated its allies with increasing brutality. The intellectual freedom that made Athens extraordinary and the imperial arrogance that would destroy it were the same thing: the confidence of a city that believed it had earned the right to define civilisation.",
+    "summary": "Mid-fifth-century Athens combined democratic participation for adult male citizens with an empire financed by tribute and sustained by naval power. The same city produced major achievements in drama, architecture, history, rhetoric, and philosophy, but women, enslaved people, resident foreigners, and allied communities stood outside or beneath its political system. Socrates' career unfolded inside this unusually argumentative civic culture, whose confidence and exclusions both shaped the controversies around him.",
     "causeIds": [],
     "effectIds": [
       "socrates-method",
@@ -17,11 +17,11 @@
   },
   {
     "id": "socrates-method",
-    "title": "The Gadfly of Athens",
+    "title": "The Socratic Elenchus",
     "wiki": "Socratic_method",
     "year": -440,
     "keyword": "pressure",
-    "summary": "Socrates spent his life in the streets, gymnasiums, and workshops of Athens asking questions. His method — the elenchus, or cross-examination — began with a claim by his interlocutor (that they knew what justice was, or piety, or courage) and proceeded through a series of apparently innocent questions until the claim collapsed under its own contradictions. The people he questioned were usually prominent Athenians who had staked their reputation on knowing things. They did not enjoy the experience. Socrates claimed he was serving Athens by exposing its ignorance — that the unexamined life was not worth living — but the result was a long list of powerful people who had been publicly humiliated by a barefoot stonemason's son who owned nothing and charged no fees. He called himself a gadfly. Athens eventually swatted him.",
+    "summary": "Socrates left no writings, so his practice must be reconstructed chiefly from Plato, Xenophon, and Aristophanes. In Plato's early dialogues he repeatedly tests claims about courage, justice, piety, and knowledge through questioning that exposes contradictions or ends in aporia. This style could be morally serious and intellectually productive, but it also embarrassed prominent Athenians and blurred, for hostile audiences, the distinction between philosophy and the sophists whom Socrates denied resembling.",
     "causeIds": [
       "athens-golden-age"
     ],
@@ -34,11 +34,11 @@
   },
   {
     "id": "peloponnesian-war-trauma",
-    "title": "Athens Loses Everything",
+    "title": "Defeat, Oligarchy, and a Fragile Restoration",
     "wiki": "Peloponnesian_War",
     "year": -404,
     "keyword": "collapse",
-    "summary": "The Peloponnesian War (431–404 BC) destroyed the Athenian Empire that the golden age had built. Twenty-seven years of war against Sparta and its allies ended with Athens' fleet destroyed, its walls torn down, and a Spartan-backed oligarchy — the Thirty Tyrants — installed to govern it. The Thirty killed perhaps 1,500 Athenians in eight months before democracy was restored. The restored democracy was fragile and frightened: a city that had been the most powerful in Greece now had to explain how it had lost everything. Socrates had not participated in the Thirty's crimes — he had quietly refused a murderous order and gone home — but he had been associated, in the public mind, with some of the men who had. The democracy that tried him in 399 BC was not the confident democracy of Pericles. It was a democracy trying to re-establish itself and looking for something to blame.",
+    "summary": "The Peloponnesian War ended in 404 BC with Athens defeated, its fleet surrendered, and the Spartan-backed Thirty installed. Ancient sources attribute roughly 1,500 executions to the oligarchy before democrats restored the constitution in 403; the restoration also enacted an amnesty intended to prevent renewed civil conflict. Socrates had resisted an illegal order from the Thirty, yet his associations with Critias and Alcibiades made him politically suspect in a city still recovering from defeat and factional violence.",
     "causeIds": [
       "athens-golden-age"
     ],
@@ -51,11 +51,11 @@
   },
   {
     "id": "socrates-annoys-athens",
-    "title": "The Wrong Enemies",
+    "title": "Reputation, Associations, and Old Accusations",
     "wiki": "Trial_of_Socrates#Background",
     "year": -410,
     "keyword": "pressure",
-    "summary": "By the late 5th century BC, Socrates had accumulated a formidable collection of enemies. Politicians he had exposed as ignorant in public; poets whose claim to wisdom he had deflated; craftsmen whose professional knowledge he had shown to be narrower than they believed. He had been associated — unfairly but publicly — with Alcibiades, the brilliant, treacherous Athenian general whose defections contributed to Athens' defeat in the war, and with Critias, the most bloodthirsty of the Thirty Tyrants. Socrates had not endorsed either man's behaviour, but he had taught them, and in a city looking for explanations for catastrophic defeat, the philosopher who questioned everything and seemed to undermine the values that held society together was a convenient target.",
+    "summary": "Socrates accumulated enemies through public questioning and through his association with controversial aristocrats, although describing him as their formal teacher overstates what the sources establish. Aristophanes' Clouds had already caricatured him in 423 BC as a natural philosopher and sophist, a picture Socrates later said had prejudiced jurors against him. By 399, political resentment, religious suspicion, and decades of comic and social reputation formed the background to the legal charges.",
     "causeIds": [
       "socrates-method"
     ],
@@ -72,7 +72,7 @@
     "wiki": "Trial_of_Socrates",
     "year": -399,
     "keyword": "spark",
-    "summary": "In 399 BC, Socrates was brought to trial before a jury of 500 Athenian citizens on two charges: impiety (failing to acknowledge the city's gods and introducing new divinities) and corrupting the youth of Athens. The trial was not merely legal but theatrical — Socrates used it as an opportunity for one final elenchus, cross-examining the charges, questioning his accusers' understanding of piety and corruption, and ultimately arguing that the jurors would harm themselves more than him by convicting a just man. He was convicted by 280 votes to 220. In the penalty phase, rather than proposing the exile that would have been accepted, he suggested that Athens should reward him with free meals for life in the Prytaneum — an honour reserved for Olympic victors. The jury condemned him to death by a larger majority than had convicted him.",
+    "summary": "In 399 BC Meletus, supported by Anytus and Lycon, prosecuted Socrates for not acknowledging the city's gods, introducing new divine things, and corrupting the young. Plato's Apology presents a citizen jury—probably 501 men—finding him guilty, but the often repeated tally of 280 to 220 is a modern inference from Socrates' remarks rather than a securely recorded count. During sentencing he provocatively mentioned maintenance in the Prytaneum before eventually proposing a fine; the jury chose death, apparently by a wider margin than the conviction vote.",
     "causeIds": [
       "socrates-annoys-athens",
       "peloponnesian-war-trauma"
@@ -82,16 +82,16 @@
       "plato-traumatised"
     ],
     "isAnchor": true,
-    "isSeed": true,
+    "isSeed": false,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Jacques-Louis_David_-_The_Death_of_Socrates.jpg"
   },
   {
     "id": "socrates-refuses-escape",
-    "title": "The Escape He Refused",
+    "title": "The Escape He Rejects",
     "wiki": "Crito",
     "year": -399,
     "keyword": "turning-point",
-    "summary": "While Socrates awaited execution, his wealthy friend Crito came to him in prison and explained that the guards had been bribed and an escape had been arranged. Socrates refused. The dialogue Plato recorded from this conversation — the Crito — is one of the foundational documents of political philosophy: Socrates arguing that a citizen who has benefited from a city's laws all his life cannot simply disobey them when they become inconvenient, even when they are unjust. To escape would be to concede that philosophy was merely personal advantage dressed as principle. Dying for his beliefs was the argument he could not make any other way. He was seventy years old. He had lived well. He chose the hemlock.",
+    "summary": "Plato's Crito depicts Socrates' friends as ready to finance an escape and confident that practical obstacles could be overcome. Socrates refuses because he believes escaping would violate commitments he has made to Athens' laws and would damage the life of argument he has defended. The dialogue is a foundational text about political obligation, but it should not be read as a verbatim prison transcript or as proof that guards had already been bribed.",
     "causeIds": [
       "trial-of-socrates"
     ],
@@ -105,11 +105,11 @@
   },
   {
     "id": "hemlock",
-    "title": "The Hemlock",
+    "title": "Death in the Phaedo",
     "wiki": "Death_of_Socrates",
     "year": -399,
     "keyword": "collapse",
-    "summary": "Socrates was executed in 399 BC by drinking a preparation of hemlock. Plato's account in the Phaedo describes the last hours: Socrates bathed, spoke with his friends about the immortality of the soul with characteristic calm, sent his wife and children away so they would not weep in front of him, and drank when the jailer brought the cup. He walked around until his legs grew heavy, then lay down. The poison spread upward. His last words, to his friend Crito: 'We owe a cock to Asclepius; pay it and do not neglect it.' Asclepius was the god of healing; the offering was for recovery from the illness of life. Plato, who had intended to be present, was ill that day. He spent the rest of his life trying to ensure that Socrates would never die.",
+    "summary": "Plato's Phaedo describes Socrates drinking hemlock after a final discussion about philosophy and the soul. The account ends with his request that Crito sacrifice a cock to Asclepius, a line whose meaning has generated many interpretations; the claim that Socrates simply meant life itself was an illness is influential but not certain. Plato says he was absent because he was ill, and the literary artistry of the scene cautions against treating every detail as stenographic history.",
     "causeIds": [
       "socrates-refuses-escape"
     ],
@@ -122,11 +122,11 @@
   },
   {
     "id": "plato-traumatised",
-    "title": "Plato's Response",
+    "title": "Plato Responds to the Execution",
     "wiki": "Plato#Early_life_and_education",
     "year": -399,
     "keyword": "catalyst",
-    "summary": "Plato was 28 or 29 years old when Socrates was executed. He had been present at the trial; he was ill on the day of the death. The event transformed him: the most gifted student of the most gifted philosophical mind in Athens had watched his city's democracy kill the best man he had ever known. The experience shaped everything he subsequently wrote and thought. He never fully trusted democracy again — the Republic, his vision of the ideal state, is governed by philosopher-kings rather than popular vote. But more immediately, he faced the question that every student of an oral thinker must face: Socrates had written nothing. If Plato did not write, Socrates would be lost. Plato wrote.",
+    "summary": "Plato was a young member of Socrates' circle and identifies himself in the Apology among those willing to contribute to a fine. Socrates' execution plainly became a central subject of his writing and helped sharpen his distrust of political judgment, but the claim that one event alone determined everything Plato later thought goes beyond the evidence. What can be said securely is that Plato made Socrates the dominant figure in a body of dialogues that transformed a local Athenian trial into a permanent philosophical problem.",
     "causeIds": [
       "trial-of-socrates",
       "socrates-refuses-escape",
@@ -143,18 +143,19 @@
   },
   {
     "id": "plato-writes-dialogues",
-    "title": "The Dialogues",
+    "title": "Plato's Dialogues",
     "wiki": "Platonic_dialogue",
     "year": -390,
     "keyword": "shift",
-    "summary": "Plato's dialogues — thirty-six surviving texts written over roughly fifty years — are the foundational documents of Western philosophy. The early dialogues (Apology, Crito, Phaedo) preserve the trial and death of Socrates. The middle dialogues (Meno, Phaedrus, Symposium, Republic) develop Plato's own philosophical system, with Socrates as a character whose views increasingly reflect Plato's rather than the historical teacher's. The late dialogues (Timaeus, Laws) engage with cosmology and politics. Together they address ethics, epistemology, metaphysics, aesthetics, politics, mathematics, and the philosophy of language. Alfred North Whitehead famously observed that all of Western philosophy is 'a series of footnotes to Plato.' The remark overstates the case — but not by much.",
+    "summary": "About thirty-five dialogues and a collection of letters are transmitted under Plato's name, though authenticity and chronology remain disputed for some works. Early or 'Socratic' dialogues often centre on ethical questioning, while works such as Republic, Symposium, Phaedo, Timaeus, and Laws develop wider arguments in metaphysics, politics, psychology, cosmology, and education. Scholars still debate where the historical Socrates ends and Plato's own philosophy begins, which is why the dialogues preserve both a person and an unresolved interpretive problem.",
     "causeIds": [
       "plato-traumatised"
     ],
     "effectIds": [
       "plato-founds-academy",
       "aristotle-studies-plato",
-      "plato-recovered-renaissance"
+      "plato-recovered-renaissance",
+      "nietzsche-critiques-socrates"
     ],
     "isAnchor": false,
     "isSeed": true,
@@ -162,11 +163,11 @@
   },
   {
     "id": "plato-founds-academy",
-    "title": "The First University",
+    "title": "Plato's Academy",
     "wiki": "Platonic_Academy",
     "year": -387,
     "keyword": "turning-point",
-    "summary": "Around 387 BC, Plato founded the Academy in Athens — a school of philosophy that would operate for nearly nine centuries, until it was closed by the Emperor Justinian in 529 AD. The Academy was not simply a school in the modern sense but a community of inquiry: scholars living and working together, pursuing mathematics, philosophy, and the sciences. Its curriculum was rigorous — an inscription above the door reportedly read 'Let no one ignorant of geometry enter here.' The Academy produced an extraordinary generation of thinkers: Aristotle was its most famous student, but Eudoxus (who developed the theory of proportion), Speusippus, and Xenocrates all worked there. Plato had turned his grief over Socrates into an institution.",
+    "summary": "Around 387 BC Plato established a philosophical community at or near the sanctuary of Academus outside Athens. It supported sustained work in philosophy and mathematics and later counted Aristotle, Eudoxus, Speusippus, and Xenocrates among its members, but it was not a university in the modern institutional sense. The famous command excluding anyone ignorant of geometry is late and probably apocryphal, and the school suppressed under Justinian in 529 AD was a later Neoplatonic institution rather than an unbroken nine-century continuation of Plato's original Academy.",
     "causeIds": [
       "plato-traumatised",
       "plato-writes-dialogues"
@@ -180,11 +181,11 @@
   },
   {
     "id": "aristotle-studies-plato",
-    "title": "Aristotle Arrives at the Academy",
+    "title": "Aristotle at the Academy",
     "wiki": "Aristotle#Early_life",
     "year": -367,
     "keyword": "shift",
-    "summary": "Aristotle arrived at Plato's Academy in 367 BC at the age of seventeen and remained for twenty years, until Plato's death. He was, by all accounts, the most brilliant student the Academy ever had — and eventually, the most significant intellectual rival. Where Plato was a poet of ideas, writing in dialogues of extraordinary beauty, Aristotle was a systematiser, cataloguing and classifying everything from the organs of fish to the structures of tragedy to the elements of rhetoric. He disagreed with Plato on almost every fundamental question — where Plato saw universal Forms as more real than particular things, Aristotle insisted that only particular things exist — and built his own comprehensive philosophical system that would, through a complex chain of transmission, shape Western thought for the next two thousand years.",
+    "summary": "Aristotle joined Plato's Academy around 367 BC and remained in its intellectual orbit for roughly twenty years. He inherited questions and methods from Plato while developing sharply different approaches to logic, biology, physics, ethics, and metaphysics. Their disagreement cannot be reduced to Plato believing only in Forms and Aristotle believing only in particulars; Aristotle criticised separate Forms while retaining universals, causes, and explanatory structures of his own.",
     "causeIds": [
       "plato-writes-dialogues",
       "plato-founds-academy"
@@ -198,11 +199,11 @@
   },
   {
     "id": "aristotle-tutors-alexander",
-    "title": "The Teacher and the Conqueror",
+    "title": "Aristotle Tutors Alexander",
     "wiki": "Aristotle#Tutor_to_Alexander",
     "year": -343,
     "keyword": "catalyst",
-    "summary": "In 343 BC, Philip II of Macedon hired Aristotle to tutor his thirteen-year-old son Alexander. The appointment was not accidental: Philip wanted the finest mind in Greece to educate the boy who would inherit his kingdom. Aristotle taught Alexander for three years at the sanctuary of the Nymphs at Mieza — philosophy, rhetoric, medicine, and the natural sciences. Alexander's relationship with learning was not merely instrumental: he carried an annotated copy of the Iliad (prepared by Aristotle) on all his campaigns and slept with it under his pillow alongside a dagger. He founded libraries, collected scientific specimens for Aristotle, and spread the Greek language and culture across three continents. The philosopher's student changed the world; the change carried the philosopher's ideas with it.",
+    "summary": "Philip II invited Aristotle to educate the young Alexander in the 340s BC, probably at Mieza. Ancient tradition connects the curriculum with literature, ethics, politics, and medicine, but colourful details—such as a specially annotated Iliad under Alexander's pillow or specimens being dispatched to Aristotle from every campaign—come from later literary traditions and should be treated cautiously. The tutoring created a real personal and symbolic link between Greek philosophy and Macedonian power, not a simple pipeline by which Aristotle's doctrines directed Alexander's conquests.",
     "causeIds": [
       "aristotle-studies-plato"
     ],
@@ -215,11 +216,11 @@
   },
   {
     "id": "alexander-spreads-greek-thought",
-    "title": "Greek Thought Goes Global",
+    "title": "The Hellenistic World",
     "wiki": "Hellenistic_period",
     "year": -334,
     "keyword": "consequence",
-    "summary": "Alexander the Great's conquests between 334 and 323 BC spread Greek language, culture, and philosophy across an arc from Macedonia to Egypt to Persia to the borders of India. The Hellenistic world that emerged after his death was the first genuinely multicultural intellectual environment in history: Greek philosophy met Egyptian theology, Persian cosmology, Babylonian astronomy, and Jewish monotheism. The Library of Alexandria was founded to collect the knowledge of this new world. Aristotle's works were translated, studied, and commented upon across this vast geography. Greek became the lingua franca of educated discourse from the Mediterranean to Central Asia — the language in which the New Testament was written, in which Euclid proved his theorems, and in which Plato's dialogues preserved the voice of a barefoot stonemason's son who had been executed by his own city.",
+    "summary": "Alexander's conquests and the successor kingdoms spread Greek language and institutions across Egypt and western Asia while also producing sustained encounters with Egyptian, Persian, Babylonian, Jewish, and other traditions. Koine Greek became a major language of administration, scholarship, and trade, and new centres such as Alexandria supported science, literature, and philosophy. This diffusion widened the environments in which Plato and Aristotle were copied and debated, but it was neither the first multicultural intellectual world nor a one-way export of Greek ideas.",
     "causeIds": [
       "aristotle-tutors-alexander"
     ],
@@ -238,11 +239,11 @@
   },
   {
     "id": "aristotle-preserved-in-islam",
-    "title": "Islam Saves Aristotle",
+    "title": "Greek Philosophy in Syriac, Arabic, and Byzantium",
     "wiki": "Islamic_Golden_Age#Philosophy",
     "year": 800,
     "keyword": "shift",
-    "summary": "When the Western Roman Empire collapsed in the 5th century AD, much of Greek philosophy was lost to western Europe — Latin-speaking scholars could no longer read Greek texts, and the institutions that had preserved them were destroyed or scattered. But in the Islamic world, Greek philosophy was not lost. The Abbasid caliphate in Baghdad funded an extraordinary translation movement in the 8th and 9th centuries, rendering Aristotle, Plato, and their commentators into Arabic. Islamic philosophers — Avicenna (Ibn Sina), Averroes (Ibn Rushd), Al-Farabi — read, critiqued, and extended Aristotle's work in ways that transformed it. When these Arabic texts were translated back into Latin in the 12th century, Western European scholars encountered Aristotle anew — and were transformed by him.",
+    "summary": "Aristotle's works survived through several overlapping traditions rather than being rescued by a single civilisation. Greek manuscripts continued to be copied in Byzantium; Syriac Christian scholars translated and taught parts of the corpus; and Abbasid-era translators rendered most of Aristotle and many commentators into Arabic. Philosophers including al-Kindi, al-Farabi, Avicenna, and Averroes did not merely preserve these materials: they reorganised, criticised, and transformed them, while Plato's direct Arabic reception was much more limited than Aristotle's.",
     "causeIds": [
       "alexander-spreads-greek-thought"
     ],
@@ -260,11 +261,11 @@
   },
   {
     "id": "aquinas-synthesises-aristotle",
-    "title": "Aquinas and the Medieval Synthesis",
+    "title": "Aquinas and Latin Aristotelianism",
     "wiki": "Thomas_Aquinas",
     "year": 1265,
     "keyword": "consequence",
-    "summary": "Thomas Aquinas, working in the 13th century, accomplished what seemed impossible: a synthesis of Aristotle's philosophy — pagan, systematic, based on reason and empirical observation — with Christian theology. His Summa Theologica used Aristotelian logic and metaphysics as the framework for Catholic doctrine, arguing that reason and faith were complementary rather than contradictory. The synthesis became the dominant intellectual framework of medieval European universities and the Catholic Church for centuries. Aristotle — who had tutored Alexander, whose teacher had been Plato, whose teacher had been Socrates — became the Philosopher of Christian civilisation. The chain from a condemned man in Athens to the intellectual architecture of medieval Europe ran through 1,700 years and three religious traditions.",
+    "summary": "By the thirteenth century, Aristotle's works and major Arabic commentaries had entered Latin universities through translations from both Arabic and Greek. Thomas Aquinas used Aristotelian concepts in works including the Summa theologiae while revising them to fit Christian doctrines on creation, providence, soul, and God. His synthesis was enormously influential, but it was one strand within a contested medieval reception that also included Augustinian, Avicennian, Averroist, Jewish, and Byzantine traditions.",
     "causeIds": [
       "aristotle-preserved-in-islam"
     ],
@@ -277,31 +278,29 @@
   },
   {
     "id": "western-philosophy-foundation",
-    "title": "Footnotes to Plato",
+    "title": "Whitehead's Footnotes",
     "wiki": "Western_philosophy",
-    "year": 1800,
+    "year": 1929,
     "keyword": "consequence",
-    "summary": "The philosopher Alfred North Whitehead wrote in 1929 that the safest characterisation of the European philosophical tradition is that it consists of 'a series of footnotes to Plato.' The remark is a provocation rather than a precise claim, but its core is defensible: the questions that Western philosophy has asked — what is justice? what can we know? what is the good life? what is the nature of reality? — were first formulated with precision in Plato's dialogues, and almost every subsequent philosopher has been in dialogue with them. Plato wrote those dialogues because Socrates was executed. Socrates was executed because he asked too many questions in a democracy that had recently lost a war. The entire intellectual tradition of the Western world turns, at its origin, on a vote of 280 to 220.",
+    "summary": "In Process and Reality (1929), Alfred North Whitehead called the European philosophical tradition a series of footnotes to Plato. The line captures Plato's exceptional influence but is a deliberate exaggeration: European philosophy also drew deeply on pre-Socratic, Aristotelian, Stoic, Epicurean, Roman, Jewish, Christian, Islamic, and later non-European sources. Socrates' trial mattered because Plato made it a durable scene for asking how knowledge, virtue, law, and political power should relate—not because every later argument can literally be traced to one jury vote.",
     "causeIds": [
       "alexander-spreads-greek-thought",
       "aquinas-synthesises-aristotle",
       "plato-recovered-renaissance"
     ],
-    "effectIds": [
-      "nietzsche-critiques-socrates"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Plato_Silanion_Musei_Capitolini_MC1377.jpg"
   },
   {
     "id": "xenophon-alternative-portrait",
-    "title": "The Other Socrates",
+    "title": "Xenophon's Socrates",
     "wiki": "Xenophon%27s_Socrates",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Xenophon_Louvre.jpg",
     "year": -395,
     "keyword": "consequence",
-    "summary": "Plato was not the only student to write about Socrates. Xenophon — a soldier, historian, and fellow member of Socrates' circle — wrote his own Memorabilia, Apology, and Symposium, and the Socrates who emerges is noticeably different from Plato's: less a metaphysician probing the nature of Forms, more a practical moral teacher dispensing common-sense advice about household management, friendship, and civic duty. Where Plato's Socrates is often the mouthpiece for increasingly Platonic doctrine, Xenophon's Socrates is closer to a wise uncle. Scholars have argued for two centuries about which portrait is more historically accurate — the 'Socratic problem' has never been resolved, because the only witnesses available are advocates, not neutral observers. What survives is not Socrates himself but two competing reconstructions by students who loved him, each shaped by what they needed him to have been.",
+    "summary": "Xenophon's Memorabilia, Apology, Symposium, and Oeconomicus offer another literary Socrates: more practical, conventional, and advisory than the figure who develops metaphysical arguments in some Platonic dialogues. Xenophon was also defending Socrates and sometimes uses him to discuss subjects in which Xenophon himself had expertise, so he is not a neutral witness. Comparison among Xenophon, Plato, Aristophanes, and later testimony creates the enduring 'Socratic problem': no method securely recovers the historical Socrates behind the competing portraits.",
     "causeIds": [
       "plato-traumatised"
     ],
@@ -311,12 +310,12 @@
   },
   {
     "id": "plato-recovered-renaissance",
-    "title": "Ficino Brings Plato Back",
+    "title": "Ficino Translates Plato",
     "wiki": "Marsilio_Ficino",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Cosimo_de_Medici_Pontormo.jpg",
-    "year": 1462,
+    "year": 1484,
     "keyword": "turning-point",
-    "summary": "Unlike Aristotle, Plato was almost unknown in medieval Western Europe — only a partial Latin translation of the Timaeus circulated for most of the Middle Ages. The dialogues that Plato had written to save Socrates from oblivion had themselves nearly been lost to the Latin West for eight hundred years. The recovery began when Byzantine scholars, fleeing the Ottoman advance and especially after the fall of Constantinople in 1453, brought Greek manuscripts to Italy. Cosimo de' Medici, hearing the philosopher Gemistos Plethon lecture on Plato at the Council of Florence in 1439, was reportedly so moved that he resolved to found an academy devoted to Platonic study. He commissioned the young scholar Marsilio Ficino to translate the complete works of Plato into Latin — a project Ficino began around 1462 and completed in 1484. For the first time since antiquity, European readers could encounter the actual arguments of the dialogues, not fragments or summaries. The trial that had produced Plato's grief eighteen centuries earlier was, through Ficino's translation, finally reaching the civilisation that would call itself modern.",
+    "summary": "Medieval Latin readers knew only a small portion of Plato directly, even while Platonism survived through Augustine, late antique authors, and other channels. Fifteenth-century humanists obtained more Greek manuscripts and translations, and Marsilio Ficino produced the first complete Latin edition of Plato's works, published in 1484 under Medici patronage. Stories that Cosimo founded a formal new Platonic Academy after hearing Plethon are more complicated than the traditional legend, but Ficino's translations decisively broadened western European access to Plato.",
     "causeIds": [
       "plato-writes-dialogues"
     ],
@@ -333,14 +332,14 @@
   },
   {
     "id": "nietzsche-critiques-socrates",
-    "title": "Nietzsche Turns on Socrates",
+    "title": "Nietzsche's Anti-Socrates",
     "wiki": "The_Birth_of_Tragedy",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Nietzsche187a.jpg",
     "year": 1872,
     "keyword": "consequence",
-    "summary": "Not every subsequent philosopher revered Socrates. Friedrich Nietzsche's The Birth of Tragedy (1872) argued that Socrates represented a catastrophe for Greek culture — the moment when the tragic, instinctive, Dionysian vitality of earlier Greek art was throttled by Socratic rationalism, the insistence that everything must be examined, justified, and made logically coherent. Nietzsche called Socrates 'the one turning point and vortex of so-called world history,' but meant it as an accusation, not a compliment: Socrates had made Athens sick with the belief that reason alone could answer every question, including questions about how to live, that reason was never equipped to answer. Two and a half millennia after the trial, the argument about whether Socrates saved philosophy or poisoned something irreplaceable in human culture was still being fought — this time by a philologist in Basel who thought Athens might have been right to fear him after all.",
+    "summary": "In The Birth of Tragedy (1872), Friedrich Nietzsche cast Socrates as a turning point in Greek culture, arguing that confidence in rational explanation had weakened the tragic balance of Apollonian form and Dionysian force. This was a philosophical genealogy, not a neutral historical verdict on fifth-century Athens. Its importance lies in showing that Socrates' legacy remained contestable: later thinkers could treat questioning reason as liberation, domination, decadence, or all three at once.",
     "causeIds": [
-      "western-philosophy-foundation"
+      "plato-writes-dialogues"
     ],
     "effectIds": [],
     "isAnchor": false,

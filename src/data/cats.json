@@ -5,7 +5,7 @@
     "wiki": "Neolithic_Revolution",
     "year": -10500,
     "keyword": "pressure",
-    "summary": "When humans began farming in the Fertile Crescent around 10,000 BC, they created something that had never existed before: large, concentrated stores of grain. This was the foundation of civilisation — food that could be stockpiled against hunger, traded, and taxed. It was also an open invitation. Rats and mice, following the food as they always had, flooded into human settlements in numbers never previously possible. Rodents didn't just eat the grain — they contaminated it, destroyed it, and carried diseases through the densely packed human communities that farming had created. The agricultural revolution had accidentally created the optimal conditions for a partnership that would last ten thousand years.",
+    "summary": "The transition to farming in Southwest Asia created permanent settlements and concentrated stores of grain. Those stores supported human populations, but they also created unusually dependable feeding grounds for mice and other commensal rodents, changing the ecological relationship between people and small predators.",
     "causeIds": [],
     "effectIds": [
       "rodent-problem-created"
@@ -20,7 +20,7 @@
     "wiki": "Rodent#Interaction_with_humans",
     "year": -10000,
     "keyword": "pressure",
-    "summary": "Grain stores attracted rodents on a scale that threatened the viability of early farming settlements. A single pair of rats can produce hundreds of descendants in a year; a grain store large enough to feed a village was large enough to sustain a rat colony of extraordinary size. The rodents didn't merely compete with humans for food — they contaminated stores with urine and droppings, destroyed containers, and gnawed through the infrastructure of early settlements. Protecting stored food was not a minor inconvenience but an existential challenge for early agricultural communities. The solution was already lurking at the edge of the settlement, watching.",
+    "summary": "Rodents flourished around stored food, seed grain, refuse, and buildings. Early farmers therefore benefited from wild predators that hunted near settlements, but the scale of the problem and the animals involved varied by place; modern reproductive anecdotes are not evidence for Neolithic population sizes.",
     "causeIds": [
       "agricultural-revolution-creates-grain"
     ],
@@ -33,11 +33,11 @@
   },
   {
     "id": "cats-self-domesticate",
-    "title": "Cats Choose Us",
+    "title": "Cats Enter the Human Settlement",
     "wiki": "Cat#Domestication",
     "year": -7500,
     "keyword": "spark",
-    "summary": "The oldest known evidence of cats living alongside humans is a burial at Shillourokambos in Cyprus, dated to around 7,500 BC: a wildcat (Felis silvestris lybica) interred beside a human, both oriented in the same direction, suggesting the cat mattered to whoever arranged the grave. Cyprus had no native wildcats — someone had brought one across the sea deliberately. Cats were not domesticated the way dogs, cattle, or pigs were: no human captured wildcats, selectively bred them for docility, and gradually produced a domestic animal. Instead, wildcats simply edged toward human settlements, drawn by the rodents that human food stores attracted. The humans who tolerated them got rodent control; the cats got easy prey. The relationship was mutually beneficial from the start — and it was the cats who initiated it.",
+    "summary": "A human and a cat were buried near one another at Shillourokambos on Cyprus around 7500 BCE, showing that people had transported cats to an island and formed a close association with them. The find supports an early commensal relationship, but it does not by itself prove that the modern domestic cat was already fully domesticated there; recent genomic work continues to revise the timing and geography of cat domestication.",
     "causeIds": [
       "rodent-problem-created"
     ],
@@ -55,7 +55,7 @@
     "wiki": "Cat#Interaction_with_humans",
     "year": -7000,
     "keyword": "shift",
-    "summary": "As agriculture spread from the Fertile Crescent westward into Europe and eastward into Asia through the 7th millennium BC, cats followed — tracking the rodents that tracked the grain. A cat in a grain store was not a pet but infrastructure: it protected food supplies that entire communities depended on for survival. Evidence from Çatalhöyük in Turkey (around 7,000 BC) shows cats associated with human settlements long before any genetic changes suggesting deliberate breeding. The cat's value was purely functional — an autonomous, self-maintaining rodent control system that required no training, no feeding from human stores, and no supervision. No other animal in human history has been so useful while remaining so entirely on its own terms.",
+    "summary": "Wildcats and cat-like commensals could profit from rodents around farms while providing people with incidental pest control. This mutually useful arrangement probably encouraged tolerance and transport, but cats were not a uniform package carried automatically with every Neolithic farming migration, and the genetic history is more complicated than a single westward expansion.",
     "causeIds": [
       "cats-self-domesticate"
     ],
@@ -69,11 +69,11 @@
   },
   {
     "id": "egypt-elevates-cats",
-    "title": "Egypt Makes Cats Gods",
+    "title": "Egypt Makes Cats Sacred — Gradually",
     "wiki": "Cats_in_ancient_Egypt",
     "year": -1000,
     "keyword": "turning-point",
-    "summary": "Ancient Egypt's relationship with cats evolved over millennia. The goddess Bastet appeared as early as the Old Kingdom (around 2,700 BC) but was initially depicted as lioness-headed, associated with the protective ferocity of the sun. It was only during the Middle Kingdom and especially the Late Period (from around 1,000 BC) that Bastet became specifically cat-headed and associated with domestic cats, fertility, and the home. By the Late Period, the cat cult had reached extraordinary intensity: killing a cat was punishable by death; cats who died naturally were mummified and given elaborate burials; the city of Bubastis housed a great temple to Bastet where hundreds of thousands of cat mummies have been found. The Greek historian Herodotus recorded that when a house fire broke out, Egyptians would form a line to prevent the cat from running into the flames rather than fighting the fire. Egypt had elevated a useful pest controller into a sacred being — and in doing so gave the cat a cultural significance that would outlast the civilisation that created it.",
+    "summary": "Felines acquired major religious and household significance in ancient Egypt over a long period. Bastet changed from a lioness-associated deity into a more domestic feline form, while cats were kept, represented in art, and later bred and mummified in large numbers; describing Egyptians as simply worshipping every cat as a god obscures this changing religious system.",
     "causeIds": [
       "cats-become-useful"
     ],
@@ -111,7 +111,7 @@
     "wiki": "Cat#Domestication",
     "year": -500,
     "keyword": "shift",
-    "summary": "Phoenician traders, Greek merchants, and Roman legionaries carried cats wherever they went — not as passengers but as working crew, protecting grain and supplies from rodents on ships and in military camps. Genetic analysis of ancient cat remains shows a remarkable pattern: cats spread from the Near East in two waves, first with early farmers and then with ancient maritime traders. By the time of the Roman Empire, cats had reached Britain, Gaul, and Germany. They travelled not because anyone planned their dispersal but because wherever humans stored food, rodents followed, and wherever rodents went, cats were useful. The cat's global distribution was accomplished entirely through the cat's own utility.",
+    "summary": "Cats moved through Mediterranean networks aboard ships and with settlements, valued as rodent hunters and sometimes as symbolic or companion animals. Ancient DNA now indicates that domestic cats resembling modern populations reached Europe mainly through North African and Roman-era connections, so older claims of a simple Neolithic spread require qualification.",
     "causeIds": [
       "cats-become-useful",
       "egypt-elevates-cats",
@@ -127,11 +127,11 @@
   },
   {
     "id": "cats-reach-europe",
-    "title": "Rome Brings Cats to Europe",
+    "title": "Domestic Cats Spread Through Roman Europe",
     "wiki": "Cat#History_and_mythology",
-    "year": -200,
+    "year": 50,
     "keyword": "shift",
-    "summary": "Roman expansion carried cats across Europe as a practical necessity — every military grain store and supply depot needed rodent control. Archaeological evidence shows cats appearing in Roman Britain, Roman Gaul, and Roman Germany from the first century AD. They were not luxury imports but working animals, recorded in administrative documents alongside other military supplies. As the Roman Empire expanded, contracted, and eventually collapsed, the cats remained — distributed across a continent they had reached entirely by making themselves useful. By the early medieval period, domestic cats were present throughout Europe. This was, unfortunately, a problem that a future pope would attempt to solve.",
+    "summary": "Genomic and archaeological evidence places cats closely related to modern domestic populations in Europe during the Roman imperial period, with trade, grain shipping, towns, and military sites providing routes for dispersal. Local European wildcats also remained present, making older skeletal finds difficult to classify without genetic evidence.",
     "causeIds": [
       "cats-spread-with-trade"
     ],
@@ -144,72 +144,31 @@
   },
   {
     "id": "medieval-cat-persecution",
-    "title": "The Church Declares War on Cats",
+    "title": "Medieval Cats Acquire Demonic Associations",
     "wiki": "Cat#History_and_mythology",
     "year": 1233,
     "keyword": "collapse",
-    "summary": "Pope Gregory IX's papal bull Vox in Rama (1233) described a heretical sect whose initiation rites allegedly involved a black cat — and the document's vivid descriptions of demonic cats provided theological legitimation for folk suspicions already circulating in medieval Europe. Whether the bull directly caused systematic persecution or formalised pre-existing practices is debated by historians; what is clear is that cats, already associated with paganism through their Egyptian sacred status and with female independence through the women who kept them, became increasingly targeted across the following centuries. Black cats were particularly suspect; women who kept cats were more likely to be accused of witchcraft. Cat massacres became a feature of certain festivals. The cat population in parts of Europe declined dramatically — with consequences that nobody at the time connected to what followed.",
+    "summary": "The 1233 bull Vox in Rama described an alleged heretical ritual involving a black cat, and later European imagery sometimes linked cats with witchcraft, sexuality, or disorder. It did not order a general killing of cats, and evidence for a continent-wide medieval extermination campaign is lacking; the popular claim that papal policy reduced cats enough to cause the Black Death is a modern myth.",
     "causeIds": [
       "cats-reach-europe",
       "cat-as-cultural-symbol"
     ],
     "effectIds": [
-      "rat-population-explodes",
-      "black-death-amplified"
+      "cat-reputation-partially-recovers"
     ],
     "isAnchor": false,
     "isSeed": true,
     "imageUrl": "https://img.atlasobscura.com/GRvVjidFTLBCjyEL4D2dQBnhKlVLfjvJj9zwOP0q4vE/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy8yN2QyZjhmNTVk/ZWNlZTg2ODRfMTAy/NHB4LVdpdGNoLXNj/ZW5lMi5KUEc.jpg"
   },
   {
-    "id": "rat-population-explodes",
-    "title": "The Rats Take Over",
-    "wiki": "Black_rat#Origin",
-    "year": 1300,
-    "keyword": "collapse",
-    "summary": "With cat populations suppressed across much of Europe, rat populations expanded into the ecological space vacated. The black rat (Rattus rattus), which had spread across Europe along trade routes from Asia, thrived in the dense, grain-rich, poorly-sanitised conditions of medieval European towns and cities. Rats lived in walls, under floorboards, in grain stores and market stalls — in intimate proximity with the human population. They carried fleas; the fleas carried Yersinia pestis. The precise role of cat persecution in amplifying the Black Death is debated by historians — the disease's spread was driven by many factors including trade routes, human immune vulnerabilities, and climate. But fewer cats meant more rats, and more rats meant more vectors for the disease that was about to arrive from the east.",
-    "causeIds": [
-      "medieval-cat-persecution"
-    ],
-    "effectIds": [
-      "black-death-amplified"
-    ],
-    "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/House_Rat_David_Raju.jpg"
-  },
-  {
-    "id": "black-death-amplified",
-    "title": "The Black Death and the Missing Cats",
-    "wiki": "Black_Death",
-    "year": 1347,
-    "keyword": "collapse",
-    "summary": "The Black Death killed between 30 and 60% of Europe's population between 1347 and 1351 — the greatest demographic catastrophe in recorded history. Whether the persecution of cats meaningfully amplified its spread remains genuinely debated: the disease was catastrophically lethal regardless of rat density, and other factors (trade routes, climate, human immunity) were clearly primary drivers. What is clear is that cat persecution had removed a significant check on the rat populations that carried plague-infected fleas, and that the timing — two centuries of cat killing followed by the worst rat-borne epidemic in history — is at minimum a striking correlation. Medieval Europeans, processing the catastrophe around them, did not make this connection. They sometimes blamed the cats.",
-    "causeIds": [
-      "rat-population-explodes",
-      "medieval-cat-persecution"
-    ],
-    "effectIds": [
-      "cat-reputation-partially-recovers"
-    ],
-    "relatedScenario": {
-      "scenarioId": "black-plague-renaissance",
-      "nodeId": "black-death-arrives-europe",
-      "label": "Connects to Death and the Birth of Humanism"
-    },
-    "isAnchor": false,
-    "isSeed": false,
-    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLWclyuS4SxkPQASfj-pF3LUMQ1APXujTON29Nlr7qyn6G0MmXNU9lkX52fCT0M4Nz1ddsBu_EbdIlpj4Lt6IkmE2lWa4AlLmAc4cPcJvIhd0K5GUKwHQhNHs2o5U4e7fMMMA8W1PiTzsQ/s1600/Michael+Wolgemut_Dance+Macabre+%25281493%2529.JPG"
-  },
-  {
     "id": "cat-reputation-partially-recovers",
-    "title": "Cats Rehabilitated — Slowly",
+    "title": "Cats Persist Through Medieval Ambivalence",
     "wiki": "Cat#History_and_mythology",
     "year": 1400,
     "keyword": "shift",
-    "summary": "After the Black Death, the practical case for cats reasserted itself. Populations decimated by plague needed every advantage in protecting surviving food stores from rodents. Cats reappeared in European art and literature with somewhat less demonic connotation — though the association with witchcraft persisted well into the 17th century and cat burning remained a feature of some festivals into the early modern period. The rehabilitation was incomplete and uneven. But the cat's fundamental utility — the thing that had made humans tolerate them in the first place — gradually overcame the theological objection. By the time the Age of Sail began, cats were once again respectable enough to be official members of ships' crews.",
+    "summary": "Cats remained workers, household animals, symbols, and targets of suspicion throughout medieval and early modern Europe. Their reputation varied by region and context rather than moving through a simple collapse-and-rehabilitation cycle, while their practical value around food stores and ships ensured that they never disappeared from European life.",
     "causeIds": [
-      "black-death-amplified"
+      "medieval-cat-persecution"
     ],
     "effectIds": [
       "age-of-sail-carries-cats",
@@ -268,7 +227,7 @@
     "wiki": "Cats_in_Australia",
     "year": 1788,
     "keyword": "catalyst",
-    "summary": "The First Fleet brought domestic cats to Australia in 1788. Australia's native fauna had evolved in complete isolation from placental mammalian predators — its small mammals, ground-nesting birds, and reptiles had no instinctive defence against cats. Domestic cats that went feral found a continent of easy prey and no competition. Today, Australia has an estimated 6–8 million feral cats covering 99% of the continent's land area. They are implicated in the extinction of at least 25–34 native mammal species and kill an estimated 2 billion animals annually. The animal that Egypt had elevated to divine status became, in Australia, an ecological catastrophe — which is not the cat's fault, but is an accurate description of what happened.",
+    "summary": "Domestic cats arrived in Australia on European vessels from the late eighteenth century and were later released or escaped across the continent. The often-repeated claim that the First Fleet definitively introduced the first cats is difficult to document precisely, but cats were established early in colonial settlement and spread rapidly.",
     "causeIds": [
       "age-of-sail-carries-cats"
     ],
@@ -285,7 +244,7 @@
     "wiki": "Cat_predation_on_wildlife",
     "year": 1800,
     "keyword": "collapse",
-    "summary": "Domestic and feral cats are now recognised as among the most destructive invasive species on Earth. They have contributed to the extinction of at least 63 bird, mammal, and reptile species worldwide — more than any other introduced predator. In the United States alone, cats kill an estimated 1.3 to 4 billion birds and 6 to 22 billion mammals annually. On islands, where native species have no experience of mammalian predators, cat predation has been catastrophic. The animal that humans brought on ships to solve a rodent problem has become, in ecosystems where it doesn't belong, a rodent-scale problem itself. The cat's extraordinary effectiveness as a predator — the very quality that made it valuable — makes it lethal in environments it was never meant to reach.",
+    "summary": "Free-ranging domestic and feral cats became severe invasive predators on islands and in Australia, where many native animals had not evolved alongside comparable mammalian hunters. Global extinction totals depend on attribution methods, but Australian authorities identify cats as contributors to more than twenty mammal extinctions and as threats to over two hundred nationally listed species.",
     "causeIds": [
       "cats-reach-americas",
       "cats-reach-australia"
@@ -300,16 +259,15 @@
   },
   {
     "id": "global-cat-population-explodes",
-    "title": "600 Million Cats",
+    "title": "Cats Become Mass Household Companions",
     "wiki": "Cat",
     "year": 1950,
     "keyword": "consequence",
-    "summary": "The post-war era created conditions perfectly suited to cat population expansion. Commercial dry cat food — launched by Purina with Cat Chow in 1962 and rapidly adopted across the industry — removed the need for cats to hunt to survive. Post-war urbanisation concentrated humans — and cats — in dense environments where a small territory could sustain a well-fed animal indefinitely. Veterinary medicine extended cat lifespans; spaying and neutering of pet cats was promoted but not universally adopted. The global domestic cat population reached an estimated 600 million by the early 21st century, making it one of the most numerous large carnivores on Earth. This is the direct descendant of the Near Eastern wildcat that walked into a grain store ten thousand years ago — multiplied six hundred million times by the simple fact of being useful.",
+    "summary": "Urbanisation, veterinary medicine, sterilisation, commercial food, and packaged litter made it easier to keep cats indoors and in dense cities. Estimates of the worldwide cat population vary widely because feral and unowned animals are difficult to count, so the history is better understood as a large post-war expansion than as one precise global total.",
     "causeIds": [
       "cats-become-invasive",
       "cats-reach-americas",
-      "first-cat-show-1871",
-      "toxoplasma-connection"
+      "first-cat-show-1871"
     ],
     "effectIds": [
       "internet-makes-cats-immortal",
@@ -347,7 +305,7 @@
     "wiki": "Cat_videos",
     "year": 2007,
     "keyword": "consequence",
-    "summary": "'I Can Has Cheezburger?' launched in January 2007 and within a year had become one of the most visited websites on the internet. What followed was not a trend but a civilisational condition: cats became the dominant content category of the digital age. YouTube's most-watched non-music content is overwhelmingly cat videos. Grumpy Cat generated substantial commercial revenue — some estimates reaching $100 million, though the figure is disputed — and became arguably the most recognisable animal face on Earth after Mickey Mouse. Nyan Cat sold as an NFT for 300 ETH ($590,000 at the time). The qualities that made cats suspicious to medieval Christians — the inscrutability, the independence, the sense that they are watching something humans cannot see — make them compelling to internet audiences for exactly the same reasons. The cat's aloofness reads, on a screen, as personality.",
+    "summary": "Imageboards, blogs, video platforms, and social networks turned cats into a durable language of online humour. I Can Has Cheezburger, launched in 2007, was one prominent aggregator rather than the single origin of internet cat culture, which had earlier roots in email chains, forums, personal sites, and viral videos.",
     "causeIds": [
       "global-cat-population-explodes",
       "edison-films-cats",
@@ -367,7 +325,7 @@
     "wiki": "Cats_and_the_Internet",
     "year": 2012,
     "keyword": "consequence",
-    "summary": "By the 2010s, cats had achieved something that would have been recognisable to an ancient Egyptian priest and baffling to a medieval inquisitor: they were worshipped again. Not in temples, but on screens — billions of screens, simultaneously, across every country on Earth. The cat that walked into a human settlement ten thousand years ago because there were rodents to catch had, by a chain of events involving agriculture, theology, plague, sailing ships, and fibre optic cable, become the most represented animal in human visual culture. It did not seek this outcome. It did not need to. The cat has always been very good at finding the place where it is most comfortable and staying there until the humans arrange themselves around it.",
+    "summary": "By the 2010s, celebrity cats, reaction images, rescue accounts, and algorithmic feeds made feline imagery one of the internet's most recognisable cultural forms. The comparison with ancient worship works as a joke and narrative echo, not as a measurable claim that cats dominate all online content.",
     "causeIds": [
       "internet-makes-cats-immortal",
       "cats-conservation-crisis"
@@ -437,18 +395,16 @@
   },
   {
     "id": "toxoplasma-connection",
-    "title": "The Parasite That Cats Gave the World",
+    "title": "Toxoplasma Reveals a Complex Host Cycle",
     "wiki": "Toxoplasma_gondii",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Toxoplasma_gondii_tachy.jpg",
     "year": 1908,
-    "keyword": "consequence",
-    "summary": "Toxoplasma gondii is a parasite discovered in 1908 that can only complete its sexual reproductive cycle in the intestines of cats. Infected cats shed oocysts in their faeces; these survive in soil for months and infect any warm-blooded animal that encounters them. The parasite is estimated to infect approximately one-third of the global human population — making it one of the most widespread parasitic infections on Earth. In most people with healthy immune systems, infection produces no symptoms. In immunocompromised individuals and foetuses, it causes serious disease. More remarkably, some research suggests that chronic infection may measurably influence human behaviour — correlating with increased risk-taking, slower reaction times, and statistically elevated rates of certain mental health conditions, though causation remains debated. The parasite manipulates rodent behaviour with extraordinary precision — infected mice lose their fear of cat urine and are drawn toward it, making them easier prey and completing the parasite's lifecycle. Whether cats have been quietly influencing human behaviour for ten thousand years via a neurological parasite is one of the stranger questions in biology. The answer appears to be: possibly.",
+    "keyword": "shift",
+    "summary": "Toxoplasma gondii was identified in 1908, although the role of cats as the parasite's definitive hosts was established much later. Cats can shed environmentally resistant oocysts, but people also acquire infection through undercooked meat, contaminated soil, water, and produce; reducing toxoplasmosis to something that cats simply 'gave the world' is misleading.",
     "causeIds": [
       "cats-self-domesticate"
     ],
-    "effectIds": [
-      "global-cat-population-explodes"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
@@ -459,7 +415,7 @@
     "imageUrl": "https://www.dbca.wa.gov.au/sites/default/files/styles/feature_large_850x425/public/2023-12/feral_cat_on_camera.jpg?itok=TLJV5zAT",
     "year": 1970,
     "keyword": "pressure",
-    "summary": "As ecological science developed through the 20th century, the scale of cat predation on wildlife became increasingly documented and increasingly alarming. Conservation biologists and cat welfare advocates found themselves in direct and often bitter conflict over what to do. Trap-Neuter-Return (TNR) programmes — in which feral cats are sterilised and returned to their territory — became the dominant humane management strategy in many countries, championed by animal welfare organisations. Conservation biologists responded that TNR does not meaningfully reduce feral cat populations or their predation impact, and that returning apex predators to ecosystems already stripped of native species is ecologically indefensible. On islands — where native species have no evolved defence against cats — eradication programmes have been the only ecologically effective solution, and several have succeeded dramatically. The conflict between the people who love cats and the people whose job is protecting everything cats kill has become one of the most intractable disputes in conservation — a direct consequence of ten thousand years of bringing cats everywhere humans went.",
+    "summary": "Research has documented substantial wildlife mortality from feral cats and roaming pets, especially in Australia and on islands. Policy remains contentious because conservation, animal welfare, public health, and companion-animal values point toward different tools, including indoor-cat rules, sterilisation, exclusion fencing, targeted eradication, and responsible pet ownership.",
     "causeIds": [
       "cats-become-invasive",
       "global-cat-population-explodes"

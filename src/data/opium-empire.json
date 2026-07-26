@@ -5,11 +5,9 @@
     "wiki": "Canton_System",
     "year": 1700,
     "keyword": "pressure",
-    "summary": "By the early 18th century, Britain had developed an expensive addiction of its own: tea. Chinese tea, silk, and porcelain were in enormous demand across Britain and its colonies, but China — the most sophisticated economy in the world — had almost no interest in anything Britain produced. Under the Canton System, China permitted foreign trade only through a single port, with a single guild of Chinese merchants, and demanded payment in silver. Britain's trade deficit with China was enormous and growing. The East India Company, which held the monopoly on British trade with Asia, needed urgently to find something China would buy. The solution was already growing in Bengal.",
+    "summary": "Tea, silk, and porcelain made Qing China an exceptionally important market for British merchants. Because Chinese sellers usually required silver and British manufactures initially found limited demand under the Canton trade system, the East India Company and private merchants faced a persistent imbalance in the China trade. The picture was not simply that China wanted nothing foreign: it imported silver and selected commodities, while British demand for tea rose dramatically. Opium grown in India became one way merchants reversed the bullion flow, but Britain's conquest of Bengal had broader military, fiscal, and commercial causes and was not undertaken as a solution to the China deficit.",
     "causeIds": [],
-    "effectIds": [
-      "east-india-company-bengal"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": true,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Canton_c1850.jpg"
@@ -20,10 +18,8 @@
     "wiki": "Battle_of_Plassey",
     "year": 1757,
     "keyword": "catalyst",
-    "summary": "At the Battle of Plassey on June 23, 1757, Robert Clive's East India Company forces defeated the Nawab of Bengal — through a combination of military superiority and the prior bribery of the Nawab's commander. The victory gave the Company effective control of Bengal, the wealthiest province of the Mughal Empire and home to a thriving opium-producing region in Bihar. The Company had not gone to war specifically to acquire opium production capacity — it had gone to war to protect its trading position. But among the assets it found itself controlling was the infrastructure for growing, processing, and exporting a crop that would transform its fortunes and devastate China. The connection between empire and narcotics was not planned. It was discovered.",
-    "causeIds": [
-      "british-trade-deficit-with-china"
-    ],
+    "summary": "At Plassey in 1757, Robert Clive's East India Company force defeated Siraj ud-Daulah after securing the defection of powerful Bengali elites, including Mir Jafar. Plassey did not by itself give the Company complete control of Bengal; political influence expanded afterward, and the Mughal emperor granted the Company the diwani, or revenue-collection rights, in Bengal, Bihar, and Orissa in 1765. Control of Bihar placed the Company over an established opium-producing region. Opium was one asset within a much larger system of territorial revenue and commercial extraction, not the original purpose of the conquest.",
+    "causeIds": [],
     "effectIds": [
       "east-india-company-opium-monopoly"
     ],
@@ -42,7 +38,7 @@
     "wiki": "East_India_Company#China",
     "year": 1773,
     "keyword": "spark",
-    "summary": "Warren Hastings, the first Governor-General of Bengal, formalised the East India Company's opium monopoly in 1773. The system was elegant in its commercial logic: the Company controlled all opium production in Bengal, purchasing the crop from farmers at fixed prices and auctioning it to licensed merchants who then shipped it to China. The Company maintained plausible deniability — it did not technically sell opium directly to China, where it was prohibited — while receiving the full economic benefit of the trade. Opium revenue became essential to the Company's finances and, through them, to the British administration of India. The drug trade did not merely accompany empire; it funded it. By the early 19th century, opium accounted for roughly 15–20% of British India's total revenue.",
+    "summary": "From the 1770s, the East India Company consolidated a monopoly over the production and wholesale sale of Bengal and Bihar opium. Cultivators contracted through Company agents, opium was processed at government factories, and chests were auctioned in Calcutta to private merchants. The Company formally prohibited its own ships from carrying opium into China, where the drug was restricted, but designed the auction system so private traders assumed the smuggling risk. This institutional separation let Company revenue depend heavily on a trade it did not openly conduct at Canton.",
     "causeIds": [
       "east-india-company-bengal"
     ],
@@ -60,7 +56,7 @@
     "wiki": "History_of_opium_in_China#Growth_of_the_opium_trade",
     "year": 1800,
     "keyword": "shift",
-    "summary": "The scale of the opium trade's growth was extraordinary. In 1729, perhaps 200 chests of opium entered China annually. By 1800, the figure was approximately 4,000 chests. By 1838, it had reached 40,000 chests — roughly 2,400 tonnes of opium per year. Estimates of Chinese addiction at the peak of the trade range from 2 million people in the 1830s to 12 million by 1838, in a population of around 400 million. The trade solved Britain's silver problem completely: silver now flowed from China to Britain rather than the reverse, as Chinese consumers paid for a product that destroyed them. The East India Company's trade deficit had been transformed into a surplus through the systematic addiction of a foreign population.",
+    "summary": "Imports of Indian opium into China expanded enormously from the eighteenth century into the 1830s. Estimates vary by source and by whether smuggled Malwa opium is included, but the trade grew from hundreds of chests annually in the early eighteenth century to tens of thousands by the eve of war. The end of the East India Company's monopoly over British trade with China in 1834 increased the role of private firms. Growing supply, changing Chinese consumption, coastal smuggling networks, and the use of opium to settle commercial balances all contributed to expansion.",
     "causeIds": [
       "east-india-company-opium-monopoly",
       "bengal-opium-farmers"
@@ -79,12 +75,11 @@
     "wiki": "History_of_opium_in_China#Growth_of_the_opium_trade",
     "year": 1820,
     "keyword": "collapse",
-    "summary": "Opium addiction in China was not confined to the poor or the marginal — it spread across all social classes, reaching government officials, soldiers, and members of the imperial court. The silver drain that accompanied the trade was economically devastating: as Chinese consumers paid silver for opium, the money supply contracted, deflating the economy and making it increasingly difficult for peasants to pay taxes assessed in silver. Corruption spread as officials dependent on opium sought bribes to fund their habit. Military readiness declined as soldiers fell into addiction. The Qing dynasty, which had ruled China for two centuries, was being hollowed out not by foreign invasion but by a foreign drug, delivered by foreign merchants, protected by foreign warships.",
+    "summary": "Opium smoking spread through late Qing society and created serious dependency for some users, while also serving recreational, medicinal, and social functions. Historians dispute contemporary and later claims that China was uniformly debilitated by mass addiction: prevalence and harm varied sharply by region, class, dose, and period, and many smokers were occasional users. The trade nevertheless mattered economically and politically. Opium payments contributed to the reversal of China's silver flows after the late 1820s, although opium alone does not explain the entire outflow or the wider Daoguang-era depression. Official corruption and the failure of repeated prohibitions made the issue a visible crisis of Qing authority.",
     "causeIds": [
       "opium-trade-scales"
     ],
     "effectIds": [
-      "qing-dynasty-weakens",
       "china-bans-opium"
     ],
     "isAnchor": false,
@@ -97,7 +92,7 @@
     "wiki": "Lin_Zexu",
     "year": 1839,
     "keyword": "turning-point",
-    "summary": "China had issued edicts against opium since 1729, each stricter than the last and each increasingly ignored. In 1839, the Daoguang Emperor appointed Lin Zexu — an official of exceptional ability and integrity — as Imperial Commissioner with instructions to end the trade by any means necessary. Lin wrote to Queen Victoria appealing to her conscience: 'Suppose there were people from another country who carried opium for sale to England and seduced your people into buying and smoking it; certainly your honourable ruler would deeply hate it.' The letter received no reply. Lin then confiscated 1,210 tonnes of British opium from merchants in Canton and had it destroyed publicly over 23 days, dissolved in seawater and flushed into the sea. Britain responded by going to war.",
+    "summary": "Qing governments restricted opium repeatedly from 1729 onward. In 1838 the Daoguang emperor appointed Lin Zexu imperial commissioner at Canton with orders to suppress trafficking and consumption. Lin arrested Chinese dealers, pressured foreign merchants to surrender their stocks, and in June 1839 destroyed more than 20,000 chests of confiscated opium at Humen. His campaign asserted Qing law within Chinese territory, but the detention of merchants, destruction of property, disputes over legal jurisdiction, and Britain's demand for diplomatic and commercial access turned the confrontation into an imperial crisis.",
     "causeIds": [
       "opium-trade-scales",
       "chinese-society-damaged"
@@ -115,7 +110,7 @@
     "wiki": "History_of_opium_in_China#First_Opium_War",
     "year": 1839,
     "keyword": "turning-point",
-    "summary": "The First Opium War (1839–1842) was, stripped of diplomatic language, a war fought by the British Empire to force China to accept imports of an addictive drug that China had banned. British naval and military technology — steam-powered gunboats, accurate artillery, disciplined infantry — was overwhelmingly superior to anything China could field. The Nemesis, an iron-hulled steam warship, could navigate rivers the Chinese had believed impassable and destroy junks from ranges at which Chinese guns couldn't respond. The war was brief and one-sided. It was also, as the Whig politician William Gladstone said in Parliament at the time, 'a war more unjust in its origin, a war more calculated in its progress to cover this country with permanent disgrace, than I can remember.'",
+    "summary": "The First Opium War grew from the opium confrontation but also from long-running disputes over diplomacy, trade regulation, jurisdiction, and Britain's demand for relations between sovereign equals. British ministers chose military coercion after Lin Zexu's suppression campaign and the breakdown of negotiations. Steam vessels, naval gunnery, logistics, and the ability to strike along China's coast and rivers gave Britain a decisive advantage. Calling it only a war to legalise opium is too narrow—the 1842 treaty did not legalise the drug—but opium smuggling and Britain's protection of the commercial system around it were central to the conflict.",
     "causeIds": [
       "china-bans-opium"
     ],
@@ -134,10 +129,9 @@
     "wiki": "Treaty_of_Nanking",
     "year": 1842,
     "keyword": "consequence",
-    "summary": "The Treaty of Nanking, signed August 29, 1842, was the first of what China calls the 'unequal treaties' — agreements concluded under military duress that stripped China of territory, sovereignty, and dignity. Britain received Hong Kong island in perpetuity; five Chinese ports were opened to British trade and residence; China paid an indemnity of 21 million silver dollars; British citizens in China were granted extraterritoriality — exemption from Chinese law. The opium trade itself was not mentioned in the treaty, but it continued and expanded. The treaty established the template: humiliation followed by indemnity followed by further concession. China would sign dozens of such treaties over the following decades with Britain, France, Russia, the United States, and eventually Japan.",
+    "summary": "The Treaty of Nanking, signed on 29 August 1842, ended the First Opium War. China ceded Hong Kong Island, paid a large indemnity, opened five treaty ports, and abolished the Cohong monopoly. Supplementary agreements established fixed tariffs and British extraterritorial privileges. Opium itself was not legalised by the treaty, and the agreement did not instantly place all of China under foreign control. It did, however, inaugurate the treaty-port order and a series of agreements imposed under military pressure that later Chinese political memory grouped as the 'unequal treaties.'",
     "causeIds": [
-      "first-opium-war",
-      "parliamentary-opium-debate"
+      "first-opium-war"
     ],
     "effectIds": [
       "second-opium-war",
@@ -153,7 +147,7 @@
     "wiki": "History_of_opium_in_China#Second_Opium_War",
     "year": 1856,
     "keyword": "collapse",
-    "summary": "The Second Opium War (1856–1860), fought by Britain and France jointly, began over disputes about treaty enforcement and the right to station ambassadors in Beijing. It ended with China signing the Treaties of Tientsin and the Convention of Peking — which legalised the opium trade, opened more treaty ports, permitted Christian missionaries throughout China, and required China to pay further indemnities. The symbolic nadir came in October 1860, when British and French forces looted and burned the Old Summer Palace — Yuanmingyuan — a complex of palaces and gardens that represented the pinnacle of Chinese imperial culture. Victor Hugo, writing about it from exile, called it a crime against world heritage. The ashes of Yuanmingyuan remain a national wound in Chinese memory.",
+    "summary": "The Second Opium War began in 1856 amid disputes over treaty revision, the Arrow incident, missionary rights, diplomatic representation, and expanded commercial access. Britain and France fought the Qing while the dynasty was already confronting the Taiping and other rebellions. The Treaties of Tianjin in 1858 and the conventions imposed after the Anglo-French occupation of Beijing in 1860 opened additional ports, permitted foreign legations in the capital, expanded missionary protections, and imposed further indemnities. Russia also obtained major territorial concessions through related diplomacy.",
     "causeIds": [
       "treaty-of-nanking"
     ],
@@ -171,13 +165,11 @@
     "wiki": "Treaty_of_Tientsin",
     "year": 1860,
     "keyword": "collapse",
-    "summary": "The Treaties of Tientsin (1858) and the Convention of Peking (1860) required China to legalise the import of opium — a provision inserted at British insistence. A country that had gone to war to enforce its own drug prohibition was now required by international treaty to permit the trade. The legalisation produced a further expansion: Chinese domestic opium cultivation was also legalised, eventually reducing the British India trade but spreading addiction even more widely. By the late 19th century, an estimated 20–30 million Chinese people were addicted to opium. The Qing government, which had tried to suppress the trade, was now constitutionally required to facilitate it.",
+    "summary": "The postwar settlement of 1858–60 effectively regularised the previously illicit opium trade through the new tariff arrangements, under which imported opium paid a duty. Legalisation did not mean the Qing endorsed consumption, and domestic Chinese cultivation soon became increasingly important. The change exposed the limits of Qing sovereignty over tariff and trade policy, but opium was only one element of the wider treaty system imposed after the war.",
     "causeIds": [
       "second-opium-war"
     ],
-    "effectIds": [
-      "qing-dynasty-weakens"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Signing_the_Treaty_of_Tientsin.jpg"
@@ -188,7 +180,7 @@
     "wiki": "Old_Summer_Palace",
     "year": 1860,
     "keyword": "consequence",
-    "summary": "The Old Summer Palace — Yuanmingyuan, the Garden of Perfect Brightness — was a complex of palaces, temples, libraries, and gardens built over 150 years by three Qing emperors, housing the imperial collections of art, manuscripts, and treasures. British and French soldiers looted it for three days in October 1860, taking everything portable, then burned what remained on the orders of Lord Elgin — who reasoned that destroying a palace would punish the Emperor personally without harming the general population. The complex burned for three days. What remained were the stone frameworks of European-style fountains and pavilions — ruins that still stand in Beijing today, maintained as a memorial by the Chinese government. They are among the most visited sites in China.",
+    "summary": "In October 1860, after Qing authorities detained and tortured members of an Anglo-French negotiating party, British high commissioner Lord Elgin ordered the destruction of the Old Summer Palace, or Yuanmingyuan, as retaliation. French and British troops had already looted the vast imperial complex. The burning destroyed buildings and dispersed collections accumulated over generations. It was not a military necessity and remains one of the most powerful Chinese symbols of nineteenth-century imperial violence, although many surviving objects and the site's history are more complex than a single moment of destruction.",
     "causeIds": [
       "second-opium-war"
     ],
@@ -210,15 +202,13 @@
     "wiki": "Unequal_treaty#China",
     "year": 1842,
     "keyword": "collapse",
-    "summary": "The series of treaties China was forced to sign between 1842 and 1901 created what Chinese historians call the 'unequal treaty system' — a structure of extraterritoriality, indemnities, and territorial concessions that reduced China from the world's largest economy to a semi-colonial state. In the treaty ports — Shanghai, Canton, Tianjin, and dozens of others — foreign nationals lived under their own laws, governed by their own courts, in enclaves where Chinese sovereignty did not apply. The most famous of these, the Shanghai International Settlement, had a park with a sign that Chinese accounts claim read 'No dogs or Chinese' — the sign's exact wording is disputed, but the reality of Chinese exclusion from their own city's most desirable spaces is not. The humiliation was both material and symbolic.",
+    "summary": "Defeat in the Opium Wars exposed serious Qing military and diplomatic weaknesses and created a treaty-port system that constrained tariff autonomy and jurisdiction. Yet the dynasty was not reduced at once from global supremacy to helplessness, nor did foreign powers simply partition China after 1842. Qing officials continued to govern a vast empire, negotiate among rival powers, suppress rebellions, and pursue reform. 'Humiliation' captures the enduring political memory of coercive treaties and lost sovereignty, but it should not replace analysis of the dynasty's changing capacity.",
     "causeIds": [
       "first-opium-war",
       "treaty-of-nanking"
     ],
     "effectIds": [
-      "taiping-rebellion",
       "boxer-rebellion",
-      "qing-dynasty-falls",
       "self-strengthening-movement"
     ],
     "isAnchor": false,
@@ -231,15 +221,13 @@
     "wiki": "Taiping_Rebellion",
     "year": 1864,
     "keyword": "consequence",
-    "summary": "The Taiping Rebellion (1850–1864) was one of the deadliest conflicts in human history — killing an estimated 20 to 30 million people in fourteen years of civil war. Its leader, Hong Xiuquan, believed himself to be the younger brother of Jesus Christ, sent to establish a Heavenly Kingdom in China. His movement drew on genuine social grievances: the silver drain caused by the opium trade had made it increasingly impossible for peasants to pay taxes; Qing military weakness had been exposed by the Opium Wars; the dynasty's legitimacy was visibly failing. The Taiping Rebellion was not caused solely by the opium trade, but the social and economic disruption that the trade had created was the soil in which it grew.",
-    "causeIds": [
-      "qing-dynasty-humiliated"
-    ],
+    "summary": "The Taiping Civil War began in southern China in 1850 under Hong Xiuquan's religious movement and grew from local conflict, social dislocation, ethnic tensions, fiscal stress, and failures of Qing administration. It was not a straightforward consequence of defeat in the Opium War, though foreign intrusion and the broader crisis of authority formed part of its setting. Taiping armies captured Nanjing and ruled large territories until Qing regional forces, supported late in the conflict by some foreign-trained units, defeated them in 1864. Mortality estimates vary widely, but the war was among the nineteenth century's deadliest conflicts and profoundly weakened the central state.",
+    "causeIds": [],
     "effectIds": [
       "qing-dynasty-weakens"
     ],
     "isAnchor": false,
-    "isSeed": false,
+    "isSeed": true,
     "imageUrl": "https://miro.medium.com/v2/resize:fit:4686/1*GXreu4jUJTJtCdYcI9Npkg.jpeg"
   },
   {
@@ -248,11 +236,9 @@
     "wiki": "Qing_dynasty",
     "year": 1880,
     "keyword": "shift",
-    "summary": "By the 1880s, the Qing dynasty was visibly failing across every dimension. Military defeats against France (1885) and Japan (1895) — a country China had long regarded as a cultural tributary — demonstrated that the modernisation efforts of the Self-Strengthening Movement had been inadequate. The opium trade had drained silver, spread addiction through the military and civil service, and corrupted the administrative apparatus. Peasant rebellions continued. The court was dominated by the Empress Dowager Cixi, whose conservatism blocked the reforms that might have saved the dynasty. China, which had been the world's largest economy for most of recorded history, was being dismembered by powers that had barely existed when the Qing dynasty was founded.",
+    "summary": "Late Qing weakness resulted from overlapping pressures rather than a single opium-driven decline: enormous internal rebellions, decentralised military finance, population and land pressures, foreign wars and indemnities, administrative corruption, and uneven reform. Provincial armies and officials gained power while the court struggled to coordinate taxation and defence. The dynasty also displayed considerable resilience, recovering territory and launching new industries and institutions. Its final collapse was contingent, not inevitable by the 1880s.",
     "causeIds": [
-      "chinese-society-damaged",
       "taiping-rebellion",
-      "opium-trade-legalised",
       "self-strengthening-movement"
     ],
     "effectIds": [
@@ -270,7 +256,7 @@
     "wiki": "Boxer_Rebellion",
     "year": 1901,
     "keyword": "collapse",
-    "summary": "The Boxer Uprising (1899–1901) was a nationalist movement — the 'Boxers' were members of a martial arts society called the Society of Righteous and Harmonious Fists — directed against foreign presence in China. Boxers laid siege to the foreign legation quarter in Beijing; the Qing court, in a moment of catastrophic miscalculation, declared war on eight foreign powers simultaneously. A multinational military force — British, French, American, German, Japanese, Russian, Italian, and Austro-Hungarian — relieved the legations, occupied Beijing, and systematically looted government buildings, temples, and imperial residences throughout the city. The subsequent Boxer Protocol required China to pay 450 million taels of silver — more than the government's annual revenue — and to permit foreign military garrisons in Beijing. It was the final humiliation before the dynasty's collapse.",
+    "summary": "The Boxer movement emerged in north China in the late 1890s from local religious and martial traditions, anti-Christian conflict, drought, economic distress, and anger at foreign privileges. In 1900 parts of the Qing court supported the Boxers, who attacked Chinese Christians and besieged foreign legations in Beijing. An eight-power expedition defeated Qing and Boxer forces. The 1901 Boxer Protocol imposed a huge indemnity, authorised foreign troops at strategic points, and further damaged the dynasty's legitimacy, but the episode also accelerated the Qing's late reform programme.",
     "causeIds": [
       "qing-dynasty-humiliated",
       "qing-dynasty-weakens"
@@ -288,9 +274,8 @@
     "wiki": "Xinhai_Revolution",
     "year": 1912,
     "keyword": "consequence",
-    "summary": "On February 12, 1912, the five-year-old Xuantong Emperor — Puyi — abdicated, ending the Qing dynasty and with it the imperial system that had governed China for over two thousand years. The Xinhai Revolution that produced the abdication was not a mass uprising but a collapse: a dynasty that had lost the mandate of heaven in the eyes of its own officials, military commanders, and reformers could not survive the combination of military mutiny and political pressure. The Republic of China that replaced it was immediately unstable — regional warlords, foreign powers, and competing political movements all contested for authority over a country whose traditional governing framework had been destroyed. The vacuum that the Qing's collapse created would not be filled for another 37 years.",
+    "summary": "The 1911 Revolution began with the Wuchang uprising and spread as provinces withdrew allegiance from the Qing. Revolutionary organising, constitutional disappointment, fiscal disputes, railway nationalisation, ethnic nationalism, and the dynasty's dependence on provincial armies all mattered. Puyi abdicated on 12 February 1912 under an agreement negotiated by court leaders, revolutionaries, and Yuan Shikai. The imperial system ended, but political authority did not pass smoothly to a stable republic; the following decades saw competing governments, military regionalism, and renewed efforts at national unification.",
     "causeIds": [
-      "qing-dynasty-humiliated",
       "qing-dynasty-weakens",
       "boxer-rebellion"
     ],
@@ -306,9 +291,9 @@
     "id": "century-of-humiliation",
     "title": "The Century of Humiliation",
     "wiki": "Century_of_humiliation",
-    "year": 1915,
+    "year": 1949,
     "keyword": "pressure",
-    "summary": "Chinese historians and the Chinese Communist Party use the term 'Century of Humiliation' to describe the period from the First Opium War (1839) to the founding of the People's Republic (1949) — a hundred years in which China was invaded, partitioned, addicted, indemnified, and treated by foreign powers as a subject rather than a sovereign nation. The concept is not merely historical; it is the organising framework for Chinese Communist Party legitimacy. The CCP's foundational narrative is that it ended the Century of Humiliation, restored Chinese sovereignty, and ensured that such humiliation would never happen again. This narrative shapes Chinese foreign policy, Chinese responses to Western criticism, and Chinese attitudes toward territorial questions from Taiwan to the South China Sea.",
+    "summary": "The 'Century of Humiliation' is a retrospective political narrative, commonly dated from the First Opium War in 1839 to the establishment of the People's Republic in 1949, though alternative endpoints are sometimes used. It joins distinct events—foreign wars, unequal treaties, territorial losses, Japanese invasion, and domestic fragmentation—into a national story of weakness followed by recovery. The concept became especially influential in twentieth-century nationalism and remains important in state education and foreign-policy rhetoric. It should be treated as a powerful framework of memory, not as a neutral label that gives every event one cause or meaning.",
     "causeIds": [
       "qing-dynasty-falls",
       "summer-palace-burned"
@@ -333,7 +318,7 @@
     "wiki": "Chinese_Civil_War",
     "year": 1927,
     "keyword": "consequence",
-    "summary": "The Republic of China that emerged from the Qing dynasty's collapse was immediately convulsed by competing forces: the Nationalist Party (Kuomintang) under Chiang Kai-shek, the Communist Party of China under Mao Zedong, regional warlords with private armies, and Japan — which invaded Manchuria in 1931 and launched a full-scale war in 1937. The Second Sino-Japanese War (1937–1945) killed an estimated 15–20 million Chinese civilians and soldiers. The Communist forces, which had retreated to rural China during the Nationalist suppression campaigns, emerged from the Japanese war stronger than when they entered it. When the civil war resumed after Japan's defeat, the Communists had the military strength, political organisation, and popular support to win. Mao Zedong proclaimed the People's Republic of China on October 1, 1949.",
+    "summary": "The Chinese Civil War developed from the fragmented politics of the post-Qing republic, the rise of the Nationalist and Communist parties, competing programmes of state-building and social revolution, and foreign intervention. Nationalist-Communist conflict began in 1927, was partly suspended during the war against Japan, and resumed after 1945. Communist victory in 1949 depended on many factors, including rural mobilisation, military organisation, land policy, Nationalist inflation and governance failures, and the consequences of the Sino-Japanese War—not simply on resentment generated by the nineteenth-century treaty system.",
     "causeIds": [
       "qing-dynasty-falls"
     ],
@@ -350,17 +335,14 @@
     "wiki": "Opium_trade_in_the_Yan%27an_Soviet",
     "year": 1950,
     "keyword": "turning-point",
-    "summary": "One of the first acts of the People's Republic of China was a systematic campaign to eliminate opium addiction. The campaign ran from 1950 to 1953 and employed methods that no democratic government could have used: public trials of dealers and traffickers, many of whom were executed; compulsory registration of addicts; mandatory treatment programmes; and the social pressure of a totalitarian state mobilised against a single target. An estimated 20 million addicts were treated or compelled into abstinence. The trade that had devastated China for a century was effectively eliminated in three years. The efficiency of the campaign was inseparable from its brutality — but its success was real. Mao had ended, through terror, what the Qing dynasty, the Republic, and the warlords had failed to end through a hundred years of prohibition.",
+    "summary": "After 1949, the new People's Republic launched campaigns against opium cultivation, trafficking, and dependency. Registration, treatment, propaganda, crop substitution, and community pressure were combined with imprisonment and executions of traffickers. The government rapidly reduced visible opium use in areas under firm state control, though precise national totals for users and outcomes are uncertain and official success claims are difficult to verify. The campaign's effectiveness reflected restored territorial control and coercive administrative capacity as much as any single policy, and it formed part of a broader transformation of public health and social discipline.",
     "causeIds": [
       "century-of-humiliation",
       "chinese-civil-war"
     ],
-    "effectIds": [
-      "china-today",
-      "china-rises"
-    ],
+    "effectIds": [],
     "isAnchor": false,
-    "isSeed": true,
+    "isSeed": false,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/1942nanniwan.jpg"
   },
   {
@@ -369,10 +351,9 @@
     "wiki": "Century_of_humiliation#Legacy",
     "year": 1997,
     "keyword": "consequence",
-    "summary": "On July 1, 1997, Hong Kong was returned to Chinese sovereignty — ending the last major territorial consequence of the Opium Wars and marking what the Chinese government declared was the official end of the Century of Humiliation. The handover was watched by an estimated 1 billion people on television. Deng Xiaoping had died five months earlier; Jiang Zemin wept on camera. The 'never again' framework that the Century of Humiliation established is not historical sentiment — it is active policy. Xi Jinping invokes the humiliation in speeches about Taiwan, about foreign criticism of China's human rights record, and about Western attempts to 'contain' Chinese growth. The drug deal that Warren Hastings formalised in 1773 shaped the foreign policy of the world's most populous nation 250 years later.",
+    "summary": "The 1997 transfer of Hong Kong ended British administration but not every territorial or political legacy of the nineteenth-century treaty system. In contemporary China, the Opium Wars remain a foundational example of the dangers of state weakness and foreign coercion. Leaders invoke this history in discussions of sovereignty, national rejuvenation, and resistance to outside pressure. The meaning is contested: it can support legitimate remembrance of imperial violence, but it can also compress complex domestic and international histories into a single state-centred narrative.",
     "causeIds": [
       "century-of-humiliation",
-      "mao-ends-opium",
       "hong-kong-leased",
       "china-rises"
     ],
@@ -388,7 +369,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/A_busy_stacking_room_in_the_opium_factory_at_Patna%2C_India._L_Wellcome_V0019154.jpg/1280px-A_busy_stacking_room_in_the_opium_factory_at_Patna%2C_India._L_Wellcome_V0019154.jpg",
     "year": 1793,
     "keyword": "pressure",
-    "summary": "The opium that devastated China was grown by Bengali farmers in Bihar under a system of compulsory cultivation that the East India Company introduced from the 1790s onward. Farmers received advances from Company agents that tied them contractually to growing opium rather than food crops; the purchase price was set by the Company at levels that left farmers little margin; and attempts to sell opium to anyone other than the Company were punishable by law. When global opium prices fell, the Company absorbed none of the loss — that fell to the farmers. When prices rose, the Company captured the profit. The Patna opium factory, where Company agents processed the harvest into the spherical balls that were then auctioned to merchants, processed hundreds of tonnes annually under conditions that contemporary observers found disturbing. The trade that Britain described as commerce and China described as poison had a third dimension that neither narrative captured: the Bengali farmers who grew it under compulsion, profited almost nothing from it, and whose agricultural economy was distorted by it for generations. The opium trade had victims on both ends of its supply chain.",
+    "summary": "Bihar and eastern Uttar Pradesh supplied much of the opium sold through the East India Company's Bengal monopoly. Cultivators accepted advances and contracts requiring delivery to government agents at fixed prices, and the monopoly restricted alternative buyers. Coercion, debt, local bargaining, and opportunities varied across time and place, so the system should not be described as identical compulsory cultivation for every farmer. Nevertheless, Company control transferred risk downward: peasants bore crop and price pressures while the colonial state captured monopoly revenue. The supply chain therefore connected coercive imperial institutions in India with smuggling and consumption in China.",
     "causeIds": [
       "east-india-company-opium-monopoly"
     ],
@@ -405,13 +386,11 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/William_Ewart_Gladstone%2C_1892_%28cropped%29.jpg/960px-William_Ewart_Gladstone%2C_1892_%28cropped%29.jpg",
     "year": 1840,
     "keyword": "pressure",
-    "summary": "On April 7–9, 1840, the House of Commons debated the government's conduct toward China. The motion of censure — that the war was unjustified — was defeated by 271 votes to 262: a margin of nine. Nine votes, and the First Opium War might never have been fought. The debate produced some of the most morally lucid speeches in Victorian parliamentary history. William Gladstone, then a young Conservative MP, said the war was 'a war more unjust in its origin, a war more calculated in its progress to cover this country with permanent disgrace, than I can remember.' Richard Cobden argued that forcing opium on China was incompatible with any claim to Christian civilisation. The government's defenders invoked free trade: British merchants had a right to sell legal goods, and Chinese customs enforcement was the aggression. The nine-vote margin was not a moral victory — the war went ahead — but it demonstrated that the trade's defenders could not claim the unanimous support of British opinion. The empire that waged the Opium Wars was not morally unanimous. It was morally contested and chose to proceed anyway.",
+    "summary": "In April 1840, the House of Commons debated a motion censuring the government's handling of relations with China. Ministers survived by 271 votes to 262. Critics including William Gladstone condemned the conflict's connection to opium and warned that Britain was defending an immoral traffic; supporters emphasised national honour, property, diplomatic protection, and commercial access. The narrow division demonstrates substantial British opposition, but it is misleading to say that nine changed votes would certainly have prevented the war: hostilities had already begun in China, and a government defeat could have produced several political outcomes.",
     "causeIds": [
       "first-opium-war"
     ],
-    "effectIds": [
-      "treaty-of-nanking"
-    ],
+    "effectIds": [],
     "isAnchor": false,
     "isSeed": false
   },
@@ -422,7 +401,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Gun_transportation_at_Jiangnan_Arsenal.jpg",
     "year": 1870,
     "keyword": "catalyst",
-    "summary": "The Qing response to the humiliation of the Opium Wars was the Self-Strengthening Movement (洋務運動) — a programme of military and industrial modernisation running from roughly 1861 to 1895. Chinese reformers built arsenals, shipyards, and telegraph lines; established military academies on Western models; sent students abroad; and created the Beiyang Fleet, which became the largest navy in Asia by the 1880s. The movement had the right diagnosis — China needed modern technology and military capacity — but the wrong theory of change. The reformers believed Western methods could be grafted onto Confucian institutions without structural political reform. When Japan — which had undertaken total modernisation of its political and social structures — destroyed the Beiyang Fleet in the First Sino-Japanese War of 1894–1895, the verdict was delivered. China had built the ships and bought the guns but had not reformed the system that operated them. The Self-Strengthening Movement's failure made the Qing dynasty's collapse a matter of time, not circumstance.",
+    "summary": "From the 1860s, officials associated with the Self-Strengthening Movement built arsenals and shipyards, translated technical works, created schools and diplomatic institutions, developed telegraph and mining enterprises, and organised new military forces. Reform was decentralised and constrained by fiscal, bureaucratic, and political conflict, but it was more than an attempt to buy Western weapons without institutional change. Its achievements were uneven, and defeat by Japan in 1894–95 exposed grave weaknesses, yet later Qing and Republican modernisation also drew on institutions created during this period.",
     "causeIds": [
       "qing-dynasty-humiliated"
     ],
@@ -439,7 +418,7 @@
     "imageUrl": "https://cdn.britannica.com/13/61213-050-50500925/Fireworks-return-sovereignty-Chinese-Hong-Kong-July-1-1997.jpg",
     "year": 1898,
     "keyword": "consequence",
-    "summary": "Hong Kong island had been ceded to Britain in perpetuity by the Treaty of Nanking in 1842. Kowloon peninsula was added by the Convention of Peking in 1860. But in 1898, China was forced to lease the New Territories — the large mainland area north of Kowloon — to Britain for 99 years. The lease, signed June 9, 1898, under duress during the 'scramble for concessions' that followed China's defeat by Japan, set a specific clock running. In 1984, Margaret Thatcher's government concluded that Hong Kong island and Kowloon, though ceded in perpetuity, were not economically viable without the New Territories, whose lease expired in 1997. The Joint Declaration was negotiated, and the handover agreed. The reason the Century of Humiliation ended in 1997 rather than some other year is a 99-year lease signed by a weakened Qing dynasty in 1898 — another transaction concluded under duress, setting terms that would unfold long after those who signed it were dead.",
+    "summary": "Hong Kong Island was ceded to Britain in 1842, and the southern Kowloon Peninsula followed in 1860. In 1898 Britain obtained a 99-year lease over the New Territories and adjacent islands during the wider scramble for concessions after China's defeat by Japan. By the late twentieth century the leased territory contained most of Hong Kong's land and infrastructure, making a partial return impractical. Britain and China therefore negotiated the 1984 Joint Declaration, under which sovereignty over the entire colony transferred in 1997 under the 'one country, two systems' framework.",
     "causeIds": [
       "qing-dynasty-weakens"
     ],
@@ -456,10 +435,9 @@
     "imageUrl": "https://cartercentee50c07c05.blob.core.windows.net/blobcartercentee50c07c05/wp-content/uploads/2019/01/resources-images-features-china-24-1035a-1600x900.gif",
     "year": 1980,
     "keyword": "shift",
-    "summary": "The handover of Hong Kong in 1997 was not another humiliation. It was a negotiation — conducted between a Britain that recognised it could not hold what it had, and a China that had become strong enough to insist. The difference was Deng Xiaoping. After Mao's death in 1976, Deng Xiaoping launched the economic reforms that transformed China from an isolated revolutionary state into the world's largest economy in the making: agricultural decollectivisation, special economic zones, the opening to foreign investment, the four modernisations. Between 1979 and 1997, China's GDP grew by a factor of approximately seven. The country that Lin Zexu had tried to protect by destroying a drug shipment — and that Britain had defeated with a steam-powered gunboat — was now a nuclear-armed state with a seat on the UN Security Council and the fastest-growing economy on Earth. The Century of Humiliation ended not because Britain chose to return Hong Kong but because China had become impossible to refuse.",
+    "summary": "China's stronger position in the Hong Kong negotiations reflected decades of state consolidation, international recognition, nuclear status, and especially the economic reforms launched under Deng Xiaoping after 1978. Rural reform, special economic zones, foreign investment, and industrial growth changed China's leverage, although living standards, institutions, and growth evolved unevenly. Britain also recognised that it could not administer Hong Kong indefinitely without the New Territories after the lease expired. The handover was therefore a negotiated outcome shaped by legal geography and changing power, not proof that one historical humiliation had been mechanically reversed.",
     "causeIds": [
-      "century-of-humiliation",
-      "mao-ends-opium"
+      "century-of-humiliation"
     ],
     "effectIds": [
       "china-today"
