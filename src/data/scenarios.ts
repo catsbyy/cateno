@@ -97,7 +97,7 @@ export const SCENARIO_META: ScenarioMeta[] = [
     title: "The Invention of the Teenager",
     period: "1890–1982",
     description:
-      "The teenager is not an timeless category but a modern social invention. How compulsory education, labour law, wartime mobilisation, postwar prosperity, music, film, and marketing created a distinct stage between childhood and adulthood.",
+      "The teenager is not a timeless category but a modern social invention. How compulsory education, labour law, wartime mobilisation, postwar prosperity, music, film, and marketing created a distinct stage between childhood and adulthood.",
     anchorId: "teenager-word-coined",
     anchorTitle: "The Word 'Teenager' Is Invented",
     nodeCount: 24,
